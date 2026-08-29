@@ -1,0 +1,66 @@
+import type { CityContent } from "./types.ts";
+
+export const tricityContent: CityContent = {
+  cityName: "tricity",
+  cityDisplayName: "Chandigarh Tricity",
+  heroImage: "https://hercules-cdn.com/file_KMOy57N0vDd7uAhUDb78XKmT",
+  pageTitle: "Modular Kitchen in Chandigarh Tricity — Design & Installation | FurniRevive",
+  metaDescription: "Custom modular kitchen design and installation across Chandigarh, Mohali & Panchkula (Tricity). Free design consultation, 10-year warranty. 390+ kitchens completed.",
+  canonical: "https://furnirevive.com/modular-kitchen-tricity",
+  heroHeading: "Modular Kitchen in Chandigarh, Mohali & Panchkula",
+  heroSubtitle: "FurniRevive is the Tricity's trusted modular kitchen partner — serving Chandigarh sectors, Mohali phases, and Panchkula sectors with premium factory-made kitchens. Free design consultation, 10-year warranty.",
+  heroRating: "★★★★★ Trusted Across Tricity · Free Home Visit · 10-Year Warranty",
+  trustBadges: ["Free Design Consultation", "10-Year Warranty", "Tricity-Wide Service", "Premium Hardware"],
+  whatsappMessage: "Hi%2C%20I%20need%20a%20modular%20kitchen%20in%20Tricity",
+  introHeading: "Modular Kitchens for Every Tricity Home",
+  introParagraphs: [
+    "The Chandigarh Tricity — spanning Chandigarh's premium sectors, Mohali's IT corridors and new townships, and Panchkula's well-planned residential zones — is one of North India's fastest-growing modular kitchen markets. Homeowners here invest in quality interiors that match the city's reputation for planned, modern living.",
+    "FurniRevive has designed and installed modular kitchens across all three cities: from Sector 17 and Sector 34 in Chandigarh to Aerocity and IT City in Mohali, and MDC Sectors in Panchkula. Our factory-made cabinets with CNC precision deliver showroom-quality results with a 10-year structural warranty.",
+  ],
+  introCards: [
+    { title: "Chandigarh Sectors", desc: "Premium sector apartments and builder floors" },
+    { title: "Mohali Phases", desc: "IT park professionals and gated townships" },
+    { title: "Panchkula Sectors", desc: "MDC and residential sector homes" },
+  ],
+  localitiesHeading: "Areas We Serve Across Tricity",
+  layoutsHeading: "Popular Kitchen Layouts in Tricity",
+  layouts: [
+    { name: "L-Shape", description: "Most popular in Tricity apartments and sectors. Optimal corner use.", price: "₹1.4L–₹5L", href: "/l-shape-modular-kitchen-chandigarh" },
+    { name: "Parallel", description: "Ideal for narrow kitchens in apartments and builder floors.", price: "₹1.3L–₹4.2L", href: "/parallel-modular-kitchen-chandigarh" },
+    { name: "U-Shape", description: "Maximum storage for independent houses and large kitchens.", price: "₹2L–₹6L", href: "/u-shape-modular-kitchen-chandigarh" },
+  ],
+  pricingHeading: "Modular Kitchen Cost in Tricity",
+  pricingNote: "All prices include design, manufacturing, delivery and installation. GST extra.",
+  pricingTiers: [
+    { tier: "Budget", range: "₹1.2L–₹2L", features: ["Laminate shutters", "Hettich hardware", "Marine ply carcass", "L-Shape or Straight layout"] },
+    { tier: "Mid-Range", range: "₹2L–₹3.5L", features: ["Acrylic / Membrane shutters", "Hettich/Hafele hardware", "18mm ply carcass", "L-Shape or Parallel layout"] },
+    { tier: "Premium", range: "₹3.5L–₹7L", features: ["PU / Glass / Acrylic shutters", "Blum/Hafele imported hardware", "Tandem-box drawers", "Custom island or peninsula"] },
+  ],
+  processSteps: [
+    { step: "01", title: "Free Home Visit", description: "Our designer visits your Tricity home, measures the kitchen, and notes your lifestyle needs." },
+    { step: "02", title: "3D Design in 48 Hours", description: "Receive a detailed 3D kitchen plan with material options and pricing — no obligation." },
+    { step: "03", title: "Factory Manufacturing", description: "CNC-cut cabinets manufactured at our facility with sub-millimetre precision." },
+    { step: "04", title: "Installation in 2–4 Weeks", description: "Our certified team installs your complete modular kitchen with minimal disruption." },
+  ],
+  faqs: [
+    { q: "How much does a modular kitchen cost in Chandigarh Tricity?", a: "Modular kitchen prices in Chandigarh, Mohali, and Panchkula range from ₹1.2L to ₹7L depending on layout, material finish, and hardware. Laminate kitchens start lower; premium PU and glass finish with imported hardware are at the higher end. FurniRevive offers transparent, itemised quotes." },
+    { q: "Do you serve all three Tricity cities — Chandigarh, Mohali, and Panchkula?", a: "Yes — FurniRevive provides complete modular kitchen design and installation across all three Tricity cities. We serve all Chandigarh sectors, all Mohali phases and sectors, and all Panchkula sectors including MDC areas." },
+    { q: "How long does modular kitchen installation take in Tricity?", a: "Most FurniRevive modular kitchen projects in Tricity complete within 14–21 days from design approval. The process includes 3D design, manufacturing at our factory, and professional installation by our local team." },
+    { q: "What warranty do FurniRevive kitchens carry?", a: "Every FurniRevive modular kitchen comes with a 10-year structural warranty on the carcass and hardware fittings, plus a 5-year finish warranty on shutters and surfaces. We also provide 6 months of free post-installation support." },
+  ],
+  ctaHeading: "Get Your Free Kitchen Design Consultation in Tricity",
+  ctaSubtext: "Our designer visits your home in Chandigarh, Mohali, or Panchkula — completely free with no obligation.",
+  testimonials: [
+    { name: "Harpreet Singh", location: "Aerocity Mohali", text: "Exceptional quality. Our L-shape kitchen in Aerocity was designed, manufactured and installed in under 3 weeks. The Hettich hardware is smooth and the acrylic finish looks stunning. 10/10 would recommend FurniRevive.", rating: 5 },
+    { name: "Ananya Sharma", location: "Sector 34 Chandigarh", text: "Very professional team. The 3D design was exactly what we wanted. Installation was clean and completed in 4 days. They even did a follow-up visit after a week to make sure everything was perfect.", rating: 5 },
+    { name: "Vikram Malhotra", location: "MDC Sector 5 Panchkula", text: "Best decision we made for our new home. FurniRevive's parallel kitchen fits perfectly in our apartment. The membrane finish shutters are easy to clean and look very premium.", rating: 5 },
+  ],
+  coordinates: { lat: 30.7333, lng: 76.7794 },
+  serviceArea: "Chandigarh, Mohali, Panchkula, India",
+  featuredResources: [
+    { type: "city-cost", url: "/modular-kitchen-cost-chandigarh", title: "Kitchen Cost in Chandigarh", description: "Detailed price guide for modular kitchens in Chandigarh with layout and material breakdown.", priority: 1 },
+    { type: "budget", url: "/modular-kitchen-chandigarh", title: "Chandigarh City Hub", description: "Browse all kitchen styles, layouts, and locality guides for Chandigarh.", priority: 2 },
+  ],
+  featuredLocalities: ["aerocity-mohali", "sector-34-chandigarh", "mdc-sector-4-panchkula", "sector-17-chandigarh", "sector-66-mohali", "sector-22-chandigarh"],
+  cityStats: { projectsCompleted: 390, averageCompletionDays: 14, warrantyYears: 10 },
+};

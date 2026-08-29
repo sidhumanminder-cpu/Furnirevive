@@ -1,0 +1,133 @@
+export interface ReviewItem {
+  id: string;
+  name: string;
+  area: string;
+  kitchenType: string;
+  stars: 5 | 4;
+  text: string;
+  budgetRange?: string;
+  homeType: string;
+}
+
+export const KITCHEN_REVIEWS: ReviewItem[] = [
+  {
+    id: "review-gk-001",
+    name: "Priya Sharma",
+    area: "Greater Kailash",
+    kitchenType: "L-Shape, Acrylic finish",
+    stars: 5,
+    text: "Absolutely stunning result. The design plan was so accurate — what we saw on screen is exactly what was installed. The team was professional, the timeline was met, and the soft-close drawers feel incredibly premium.",
+    budgetRange: "₹3.2L",
+    homeType: "Apartment",
+  },
+  {
+    id: "review-vk-001",
+    name: "Rahul Mehta",
+    area: "Vasant Kunj",
+    kitchenType: "U-Shape, PU finish",
+    stars: 5,
+    text: "We'd tried two other companies before FurniRevive and had bad experiences with delays and last-minute surprises. FurniRevive gave us a written quote, stuck to it, and finished in 4 days. 10 out of 10.",
+    budgetRange: "₹4.8L",
+    homeType: "High-rise apartment",
+  },
+  {
+    id: "review-dlf-001",
+    name: "Neha Agarwal",
+    area: "DLF Phase 4, Gurgaon",
+    kitchenType: "Island Kitchen, Veneer finish",
+    stars: 5,
+    text: "We wanted an island kitchen in our villa — something that looked like it belonged in a magazine. FurniRevive delivered exactly that. The veneer finish and Blum hardware feel genuinely luxury.",
+    budgetRange: "₹9.5L",
+    homeType: "Villa",
+  },
+  {
+    id: "review-rohini-001",
+    name: "Amit Verma",
+    area: "Rohini",
+    kitchenType: "Parallel, Laminate finish",
+    stars: 5,
+    text: "Our kitchen was a long narrow DDA flat kitchen. FurniRevive designed a parallel layout that uses every inch efficiently. The laminate finish is easy to clean and looks great. Very happy with the value.",
+    budgetRange: "₹1.4L",
+    homeType: "DDA flat",
+  },
+  {
+    id: "review-gc-road-001",
+    name: "Sunita Kapoor",
+    area: "Golf Course Road, Gurgaon",
+    kitchenType: "L-Shape, Membrane finish",
+    stars: 5,
+    text: "The design team understood exactly what we wanted — a clean, minimal look that worked with our open-plan living area. Membrane finish was their recommendation and it's perfect. Would recommend to anyone.",
+    budgetRange: "₹2.8L",
+    homeType: "Luxury apartment",
+  },
+  {
+    id: "review-dc-001",
+    name: "Vikram Singh",
+    area: "Defence Colony",
+    kitchenType: "U-Shape, PU finish",
+    stars: 5,
+    text: "We were renovating our 25-year-old independent house. The old kitchen was a mess. FurniRevive handled everything including the replumbing coordination. The new kitchen looks like a completely different home.",
+    budgetRange: "₹5.2L",
+    homeType: "Independent house",
+  },
+  {
+    id: "review-janakpuri-001",
+    name: "Rekha Nair",
+    area: "Janakpuri",
+    kitchenType: "L-Shape, Acrylic finish",
+    stars: 4,
+    text: "Good quality kitchen and helpful team. The installation took one extra day because of a minor measurement adjustment but they sorted it quickly. Overall very satisfied with the result.",
+    budgetRange: "₹1.9L",
+    homeType: "Builder floor",
+  },
+  {
+    id: "review-sushant-001",
+    name: "Arjun Malhotra",
+    area: "Sushant Lok, Gurgaon",
+    kitchenType: "Parallel, PVC finish",
+    stars: 5,
+    text: "Went with PVC because we wanted something waterproof and easy to maintain with kids at home. Great advice from the designer on hardware and storage solutions. Very clean finish.",
+    budgetRange: "₹1.6L",
+    homeType: "Apartment",
+  },
+  {
+    id: "review-pb-001",
+    name: "Kavita Gupta",
+    area: "Punjabi Bagh",
+    kitchenType: "L-Shape, Laminate finish",
+    stars: 5,
+    text: "The design consultation was amazing — we kept adjusting the layout until it was perfect and there was no pressure at all. The final kitchen looks exactly like the render. Very honest team.",
+    budgetRange: "₹2.1L",
+    homeType: "Independent house",
+  },
+  {
+    id: "review-sohna-001",
+    name: "Deepak Chaudhary",
+    area: "Sohna Road, Gurgaon",
+    kitchenType: "Straight, Acrylic finish",
+    stars: 5,
+    text: "Small apartment kitchen but they made it feel spacious with smart storage solutions. The acrylic high-gloss finish in white has completely transformed the space.",
+    budgetRange: "₹95K",
+    homeType: "Apartment",
+  },
+  {
+    id: "review-dwarka-001",
+    name: "Meena Joshi",
+    area: "Dwarka",
+    kitchenType: "L-Shape, Membrane finish",
+    stars: 5,
+    text: "Very professional from start to finish. The site visit was thorough, the design plan came quickly, and the installation was clean. The membrane finish is holding up perfectly six months later.",
+    budgetRange: "₹2.4L",
+    homeType: "Society apartment",
+  },
+  {
+    id: "review-rg-001",
+    name: "Sandeep Batra",
+    area: "Rajouri Garden",
+    kitchenType: "U-Shape, Acrylic finish",
+    stars: 5,
+    text: "Compared three companies and FurniRevive was the only one that provided an itemised written quote with no vague 'extras'. That transparency was the deciding factor and they delivered on every promise.",
+    budgetRange: "₹3.6L",
+    homeType: "Builder floor",
+  },
+];

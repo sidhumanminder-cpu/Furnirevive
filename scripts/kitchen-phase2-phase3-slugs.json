@@ -1,0 +1,33 @@
+{
+  "_note": "Phase 2 and Phase 3 kitchen slugs removed from sitemap on 2026-08-21 (SEO recovery — confirmed 404s causing 'Discovered not indexed' spike). Re-add to sitemap once pages are built.",
+  "phase2_ncr": {
+    "_description": "7 commercial intents × 5 NCR cities = 35 URLs",
+    "_intents": ["company", "designer", "contractors", "manufacturer", "installation", "dealer", "showroom"],
+    "_cities": ["delhi", "gurgaon", "noida", "faridabad", "ghaziabad"],
+    "_priority": "0.8",
+    "slugs": [
+      "modular-kitchen-company-delhi",      "modular-kitchen-company-gurgaon",      "modular-kitchen-company-noida",      "modular-kitchen-company-faridabad",      "modular-kitchen-company-ghaziabad",
+      "modular-kitchen-designer-delhi",     "modular-kitchen-designer-gurgaon",     "modular-kitchen-designer-noida",     "modular-kitchen-designer-faridabad",     "modular-kitchen-designer-ghaziabad",
+      "modular-kitchen-contractors-delhi",  "modular-kitchen-contractors-gurgaon",  "modular-kitchen-contractors-noida",  "modular-kitchen-contractors-faridabad",  "modular-kitchen-contractors-ghaziabad",
+      "modular-kitchen-manufacturer-delhi", "modular-kitchen-manufacturer-gurgaon", "modular-kitchen-manufacturer-noida", "modular-kitchen-manufacturer-faridabad", "modular-kitchen-manufacturer-ghaziabad",
+      "modular-kitchen-installation-delhi", "modular-kitchen-installation-gurgaon", "modular-kitchen-installation-noida", "modular-kitchen-installation-faridabad", "modular-kitchen-installation-ghaziabad",
+      "modular-kitchen-dealer-delhi",       "modular-kitchen-dealer-gurgaon",       "modular-kitchen-dealer-noida",       "modular-kitchen-dealer-faridabad",       "modular-kitchen-dealer-ghaziabad",
+      "modular-kitchen-showroom-delhi",     "modular-kitchen-showroom-gurgaon",     "modular-kitchen-showroom-noida",     "modular-kitchen-showroom-faridabad",     "modular-kitchen-showroom-ghaziabad"
+    ]
+  },
+  "phase3_tricity": {
+    "_description": "7 commercial intents × 4 Tricity cities = 28 URLs",
+    "_intents": ["company", "designer", "contractors", "manufacturer", "installation", "dealer", "showroom"],
+    "_cities": ["chandigarh", "mohali", "panchkula", "tricity"],
+    "_priority": "0.7",
+    "slugs": [
+      "modular-kitchen-company-chandigarh",      "modular-kitchen-company-mohali",      "modular-kitchen-company-panchkula",      "modular-kitchen-company-tricity",
+      "modular-kitchen-designer-chandigarh",     "modular-kitchen-designer-mohali",     "modular-kitchen-designer-panchkula",     "modular-kitchen-designer-tricity",
+      "modular-kitchen-contractors-chandigarh",  "modular-kitchen-contractors-mohali",  "modular-kitchen-contractors-panchkula",  "modular-kitchen-contractors-tricity",
+      "modular-kitchen-manufacturer-chandigarh", "modular-kitchen-manufacturer-mohali", "modular-kitchen-manufacturer-panchkula", "modular-kitchen-manufacturer-tricity",
+      "modular-kitchen-installation-chandigarh", "modular-kitchen-installation-mohali", "modular-kitchen-installation-panchkula", "modular-kitchen-installation-tricity",
+      "modular-kitchen-dealer-chandigarh",       "modular-kitchen-dealer-mohali",       "modular-kitchen-dealer-panchkula",       "modular-kitchen-dealer-tricity",
+      "modular-kitchen-showroom-chandigarh",     "modular-kitchen-showroom-mohali",     "modular-kitchen-showroom-panchkula",     "modular-kitchen-showroom-tricity"
+    ]
+  }
+}
