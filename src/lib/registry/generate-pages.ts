@@ -79,6 +79,9 @@ export function generatePages(): readonly PageDefinition[] {
 
   for (const locality of LOCALITY_REGISTRY) {
     for (const service of SERVICE_REGISTRY) {
+      // modular-kitchen has dedicated generation paths (sections 1–19 below).
+      // Skipping here eliminates 604 phantom 404s and 363 duplicate sitemap entries.
+      if (service.slug === "modular-kitchen") continue;
       if (!canGeneratePage(locality, service)) {
         continue;
       }

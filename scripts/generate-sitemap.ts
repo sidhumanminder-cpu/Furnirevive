@@ -74,9 +74,31 @@ const kitchenPhase1Entries: SitemapEntry[] = [
   { slug: "kitchen-renovation-cost-delhi",      priority: "0.9", changefreq: "monthly", category: "seo" },
   // G-shape layout authority page
   { slug: "g-shaped-modular-kitchen",           priority: "0.8", changefreq: "monthly", category: "seo" },
+  // SEO bridge page between furniture-repair and kitchen clusters
+  { slug: "home-interiors-delhi",              priority: "0.7", changefreq: "monthly", category: "seo" },
 ];
 
-const allEntries: SitemapEntry[] = [...CORE_PAGES, ...blogEntries, ...seoEntries, ...registryEntries, ...kitchenPhase1Entries];
+const allEntriesRaw: SitemapEntry[] = [...CORE_PAGES, ...blogEntries, ...seoEntries, ...registryEntries, ...kitchenPhase1Entries];
+
+// Sitemap-only exclusion: FurniRevive has no service partners in Chandigarh, Mohali,
+// or Panchkula markets. Pages, routes, and content are NOT deleted — only omitted
+// from the generated sitemap until these markets are activated.
+// "tricity" covers the two hardcoded Phase 1 hub/partner entries that target this region.
+// Do NOT change the existing Path-A modular-kitchen exclusion or dedup logic below.
+const TRICITY_EXCLUDED = ["chandigarh", "mohali", "panchkula", "tricity"];
+
+// Deduplicate by canonical URL — keep first occurrence, discard later duplicates.
+// This handles cross-registry overlaps within the kitchen cluster (Path B ∩ Path C)
+// without modifying any registry or generation logic.
+const _seenUrls = new Set<string>();
+const allEntries: SitemapEntry[] = allEntriesRaw.filter((e) => {
+  if (TRICITY_EXCLUDED.some((term) => e.slug.includes(term))) return false;
+  const url = `https://furnirevive.com/${e.slug.trim().toLowerCase().replace(/^\/+|\/+$/g, "")}`;
+  if (_seenUrls.has(url)) return false;
+  _seenUrls.add(url);
+  return true;
+});
+const dedupRemovedCount = allEntriesRaw.length - allEntries.length;
 
 // Step 2 — Normalize to canonical URL
 
@@ -148,12 +170,42 @@ const sorted: SitemapEntry[] = [
 
 // Step 6 — Build XML
 
+function loadExistingLastmods(sitemapPath: string): Map<string, string> {
+  const map = new Map<string, string>();
+  try {
+    const raw = readFileSync(sitemapPath, "utf-8");
+    // Match each <url> block and extract loc + lastmod from it
+    const urlBlockRe = /<url>([\s\S]*?)<\/url>/g;
+    const locRe = /<loc>(.*?)<\/loc>/;
+    const lastmodRe = /<lastmod>(.*?)<\/lastmod>/;
+    let match: RegExpExecArray | null;
+    while ((match = urlBlockRe.exec(raw)) !== null) {
+      const block = match[1];
+      const locMatch = locRe.exec(block);
+      const lastmodMatch = lastmodRe.exec(block);
+      if (locMatch && lastmodMatch) {
+        map.set(locMatch[1].trim(), lastmodMatch[1].trim());
+      }
+    }
+  } catch {
+    // File doesn't exist or is unreadable — start with an empty map
+  }
+  return map;
+}
+
 function buildXml(entries: SitemapEntry[]): string {
   const today = new Date().toISOString().split("T")[0];
+  const sitemapPath = resolve(import.meta.dirname ?? ".", "../public/sitemap.xml");
+  const existingLastmods = loadExistingLastmods(sitemapPath);
+
   const urls = entries
     .map((e) => {
       const url = toCanonicalUrl(e.slug);
-      const lastmod = e.lastmod ?? today;
+      // Priority order:
+      // 1. explicit lastmod on the entry
+      // 2. lastmod from the existing sitemap for this URL
+      // 3. today (fallback for new URLs)
+      const lastmod = e.lastmod ?? existingLastmods.get(url) ?? today;
       return `  <url><loc>${url}</loc><changefreq>${e.changefreq}</changefreq><priority>${e.priority}</priority><lastmod>${lastmod}</lastmod></url>`;
     })
     .join("\n");
@@ -162,7 +214,9 @@ function buildXml(entries: SitemapEntry[]): string {
 
 const xml = buildXml(sorted);
 
-// Step 5 — --check mode
+// Step 6 — Write XML or output to stdout
+
+printSummary();
 
 const outputPath = resolve(import.meta.dirname ?? ".", "../public/sitemap.xml");
 
@@ -222,6 +276,7 @@ function printSummary(): void {
   console.log(pad("Manual kitchen pages:", manualKitchenCount));
   console.log("");
   console.log(pad("Total URLs:", totalCount));
+  console.log(pad("Dedup removed:", dedupRemovedCount));
   console.log(pad("Duplicates:", dupCount));
   console.log(pad("Invalid slugs:", invalidCount));
   console.log("");
