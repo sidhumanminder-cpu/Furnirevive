@@ -1,0 +1,636 @@
+s1 lib/seo-location-pages/ncr-hubs.ts
+  - Basic sofa cushion work starts at ₹999
+  + Basic sofa cushion work starts at ₹500
+s1 lib/seo-location-pages/ncr-hubs.ts
+  - Basic sofa cushion work starts at ₹999
+  + Basic sofa cushion work starts at ₹500
+s1 lib/seo-pages/area-pages-1.ts
+  - Sofa cushion repair starts at ₹999
+  + Sofa cushion repair starts at ₹500
+s2 lib/seo-pages/area-pages-1.ts
+  - Our <a href='/sofa-upholstery-price-list-delhi'>sofa upholstery price list for Delhi</a> catalogues 500+ fabric options — from durable polyester blend
+  + Our <a href='/sofa-upholstery-price-list-delhi'>sofa upholstery price list for Delhi</a> catalogues 500+ fabric options — from durable polyester blend
+s1 lib/seo-pages/area-pages-1.ts
+  - Sofa cushion repair starts at ₹999
+  + Sofa cushion repair starts at ₹500
+s2 lib/seo-pages/area-pages-1.ts
+  - full reupholstery from ₹4,000 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/area-pages-1.ts
+  - Fabric reupholstery from ₹4,000/seat
+  + Fabric reupholstery from ₹2,000/seat
+s1 lib/seo-pages/area-pages-2.ts
+  - Sofa cushion repair starts at ₹999
+  + Sofa cushion repair starts at ₹500
+s2 lib/seo-pages/area-pages-2.ts
+  - Fabric reupholstery ranges from ₹3,000 per seat for quality Indian fabrics to ₹8
+  + Fabric reupholstery ranges from ₹2,000 per seat for quality Indian fabrics to ₹8
+s1 lib/seo-pages/cost-delhi-pages.ts
+  - Cushion work from ₹999
+  + Cushion work from ₹500
+s1 lib/seo-pages/cost-delhi-pages.ts
+  - The minimum sofa repair cost at FurniRevive is ₹999
+  + The minimum sofa repair cost at FurniRevive is ₹500
+s1 lib/seo-pages/cost-delhi-pages.ts
+  - sofa from ₹999
+  + sofa from ₹500
+s1 lib/seo-pages/cost-delhi-pages.ts
+  - Sofa cushion work starts at ₹999
+  + Sofa cushion work starts at ₹500
+s1 lib/seo-pages/cost-delhi-pages.ts
+  - Sofa from ₹999
+  + Sofa from ₹500
+s1 lib/seo-pages/cost-delhi-pages.ts
+  - sofa from ₹999
+  + sofa from ₹500
+s1 lib/seo-pages/cost-delhi-pages.ts
+  - sofa from ₹999
+  + sofa from ₹500
+s1 lib/seo-pages/delhi-sofa-pages-1.ts
+  - Rohini sofa repair with FurniRevive costs ₹999 for basic cushion work and scales to ₹20
+  + Rohini sofa repair with FurniRevive costs ₹500 for basic cushion work and scales to ₹20
+s1 lib/seo-pages/delhi-sofa-pages-1.ts
+  - Sofa cushion repair from ₹999
+  + Sofa cushion repair from ₹500
+s2 lib/seo-pages/delhi-sofa-pages-1.ts
+  - reupholstery at ₹3,000 per seat
+  + reupholstery at ₹2,000 per seat
+s2 lib/seo-pages/delhi-sofa-pages-1.ts
+  - Mid-range domestic fabric reupholstery starts at ₹3,000 per seat
+  + Mid-range domestic fabric reupholstery starts at ₹2,000 per seat
+s1 lib/seo-pages/delhi-sofa-pages-2.ts
+  - Cushion repair starts at ₹999
+  + Cushion repair starts at ₹500
+s1 lib/seo-pages/delhi-sofa-pages-2.ts
+  - Cushion repair starts at ₹999
+  + Cushion repair starts at ₹500
+s2 lib/seo-pages/delhi-sofa-pages-2.ts
+  - full reupholstery from ₹3,500 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/delhi-sofa-pages-2.ts
+  - fabric reupholstery at ₹3,500 per seat
+  + fabric reupholstery at ₹2,000 per seat
+s2 lib/seo-pages/delhi-sofa-pages-2.ts
+  - and full fabric reupholstery from ₹3,500 per seat
+  + and full fabric reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/delhi-sofa-pages-2.ts
+  - and full fabric reupholstery from ₹3,500 per seat
+  + and full fabric reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/delhi-sofa-pages-2.ts
+  - fabric change from ₹3,000 per seat
+  + fabric change from ₹2,000 per seat
+s2 lib/seo-pages/delhi-sofa-pages-2.ts
+  - Our Rajouri Garden team handles every scope of sofa work: fabric reupholstery from ₹3,000 per seat
+  + Our Rajouri Garden team handles every scope of sofa work: fabric reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/delhi-sofa-pages-2.ts
+  - ₹3,000 per seat for fabric reupholstery
+  + ₹2,000 per seat for fabric reupholstery
+s2 lib/seo-pages/delhi-sofa-pages-2.ts
+  - Fabric reupholstery from ₹3,000 per seat
+  + Fabric reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/delhi-sofa-pages-2.ts
+  - Prices start at ₹3,000 per seat for standard cotton and polyester blends
+  + Prices start at ₹2,000 per seat for standard cotton and polyester blends
+s2 lib/seo-pages/delhi-sofa-pages-2.ts
+  - fabric change from ₹3,000 per seat
+  + fabric change from ₹2,000 per seat
+s1 lib/seo-pages/doorstep-delhi-pages.ts
+  - Starting at ₹999 for cushion work
+  + Starting at ₹500 for cushion work
+s1 lib/seo-pages/doorstep-delhi-pages.ts
+  - Starting at ₹999 for cushion work
+  + Starting at ₹500 for cushion work
+s1 lib/seo-pages/faridabad-micro-pages.ts
+  - Starting price ₹999 for basic fabric sofa repairs
+  + Starting price ₹500 for basic fabric sofa repairs
+s2 lib/seo-pages/faridabad-micro-pages.ts
+  - full reupholstery from ₹3,500 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/faridabad-micro-pages.ts
+  - Full reupholstery from ₹3,500 per seat with 400+ fabric options
+  + Full reupholstery from ₹2,000 per seat with 400+ fabric options
+s2 lib/seo-pages/faridabad-micro-pages.ts
+  - full fabric reupholstery from ₹3,500 per seat
+  + full fabric reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/faridabad-micro-pages.ts
+  - and full reupholstery from ₹3,500 per seat
+  + and full reupholstery from ₹2,000 per seat
+s1 lib/seo-pages/gurgaon-dlf-batch-1.ts
+  - Is the ₹999 starting price genuine for DLF Phase 1?
+  + Is the ₹500 starting price genuine for DLF Phase 1?
+s1 lib/seo-pages/gurgaon-dlf-batch-1.ts
+  - ₹999 covers genuine minor repairs — basic re-stitching of a small tear
+  + ₹500 covers genuine minor repairs — basic re-stitching of a small tear
+s1 lib/seo-pages/gurgaon-dlf-batch-3.ts
+  - The starting rate of ₹999 is genuine — verified across thousands of completed jobs in Gurgaon and Delhi
+  + The starting rate of ₹500 is genuine — verified across thousands of completed jobs in Gurgaon and Delhi
+s1 lib/seo-pages/gurgaon-dlf-batch-3.ts
+  - Is FurniRevive's ₹999 starting price genuinely applicable to Golf Course Extension Road?
+  + Is FurniRevive's ₹500 starting price genuinely applicable to Golf Course Extension Road?
+s1 lib/seo-pages/gurgaon-dlf-batch-3.ts
+  - Yes — ₹999 is our genuine starting rate for minor repairs such as small re-stitching jobs
+  + Yes — ₹500 is our genuine starting rate for minor repairs such as small re-stitching jobs
+s1 lib/seo-pages/gurgaon-luxury-batch-1.ts
+  - The ₹999 starting rate applies across the entire Golf Course Road service zone with no luxury postcode surcharges
+  + The ₹500 starting rate applies across the entire Golf Course Road service zone with no luxury postcode surcharges
+s1 lib/seo-pages/gurgaon-luxury-batch-1.ts
+  - The service begins at ₹999 with a free
+  + The service begins at ₹500 with a free
+s1 lib/seo-pages/gurgaon-micro-location-pages.ts
+  - Starting price ₹999 for basic fabric sofa repairs
+  + Starting price ₹500 for basic fabric sofa repairs
+s2 lib/seo-pages/gurgaon-micro-location-pages.ts
+  - and full reupholstery from ₹3,500 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-micro-location-pages.ts
+  - Full reupholstery from ₹3,500 per seat with 400+ fabric options
+  + Full reupholstery from ₹2,000 per seat with 400+ fabric options
+s2 lib/seo-pages/gurgaon-micro-location-pages.ts
+  - and complete fabric reupholstery starts at ₹3,500 per seat
+  + and complete fabric reupholstery starts at ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-micro-location-pages.ts
+  - Full reupholstery with new fabric begins from ₹3,500 per seat
+  + Full reupholstery with new fabric begins from ₹2,000 per seat
+s1 lib/seo-pages/gurgaon-new-cluster-batch-1.ts
+  - The ₹999 starting rate applies across the entire South City 1 service zone
+  + The ₹500 starting rate applies across the entire South City 1 service zone
+s1 lib/seo-pages/gurgaon-new-cluster-batch-1.ts
+  - The ₹999 starting rate applies across the entire South City 2 service zone
+  + The ₹500 starting rate applies across the entire South City 2 service zone
+s1 lib/seo-pages/gurgaon-new-cluster-batch-1.ts
+  - The ₹999 starting rate applies across the entire Emerald Hills service zone with no luxury postcode surcharges
+  + The ₹500 starting rate applies across the entire Emerald Hills service zone with no luxury postcode surcharges
+s1 lib/seo-pages/gurgaon-new-cluster-batch-1.ts
+  - The ₹999 starting rate applies across the entire Suncity service zone with no surcharges
+  + The ₹500 starting rate applies across the entire Suncity service zone with no surcharges
+s1 lib/seo-pages/gurgaon-new-cluster-batch-1.ts
+  - The ₹999 starting rate applies across the entire Sector 50 service zone
+  + The ₹500 starting rate applies across the entire Sector 50 service zone
+s1 lib/seo-pages/gurgaon-new-cluster-batch-2.ts
+  - The ₹999 starting rate applies across the entire Sector 49 service zone
+  + The ₹500 starting rate applies across the entire Sector 49 service zone
+s1 lib/seo-pages/gurgaon-new-cluster-batch-2.ts
+  - The ₹999 starting rate applies across the entire Sector 43 service zone
+  + The ₹500 starting rate applies across the entire Sector 43 service zone
+s1 lib/seo-pages/gurgaon-new-cluster-batch-2.ts
+  - The ₹999 starting rate applies across the entire Sector 42 service zone
+  + The ₹500 starting rate applies across the entire Sector 42 service zone
+s1 lib/seo-pages/gurgaon-new-cluster-batch-2.ts
+  - The ₹999 starting rate applies across the entire Sector 55 service zone
+  + The ₹500 starting rate applies across the entire Sector 55 service zone
+s1 lib/seo-pages/gurgaon-new-cluster-batch-2.ts
+  - The ₹999 starting rate applies across the entire Sector 65 service zone
+  + The ₹500 starting rate applies across the entire Sector 65 service zone
+s1 lib/seo-pages/gurgaon-premium-locality-batch-3-p4.ts
+  - Starting price for minor repairs: ₹999
+  + Starting price for minor repairs: ₹500
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - and complete reupholstery in customer-chosen fabric starts at ₹3,500 per seat
+  + and complete reupholstery in customer-chosen fabric starts at ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - Full reupholstery with new fabric starts from ₹3,500 per seat
+  + Full reupholstery with new fabric starts from ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - and full reupholstery from ₹3,500 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - Reupholstery from ₹3,500 per seat with 400+ fabric and leather swatches on site
+  + Reupholstery from ₹2,000 per seat with 400+ fabric and leather swatches on site
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - Pricing for full reupholstery in this category starts at ₹3,500 per seat with a two-day turnaround from measurement to installation
+  + Pricing for full reupholstery in this category starts at ₹2,000 per seat with a two-day turnaround from measurement to installation
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - Full reupholstery in new fabric starts from ₹3,500 per seat
+  + Full reupholstery in new fabric starts from ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - and full reupholstery with your choice of fabric from ₹3,500 per seat
+  + and full reupholstery with your choice of fabric from ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - and full reupholstery from ₹3,500 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - Reupholstery from ₹3,500 per seat with 400+ fabric and leather swatches on site
+  + Reupholstery from ₹2,000 per seat with 400+ fabric and leather swatches on site
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - Full reupholstery with new fabric starts at ₹3,500 per seat
+  + Full reupholstery with new fabric starts at ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - Full reupholstery from ₹3,500 per seat with 400+ fabric swatches on site
+  + Full reupholstery from ₹2,000 per seat with 400+ fabric swatches on site
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - Full reupholstery starts at ₹3,500 per seat
+  + Full reupholstery starts at ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - 999 and complete reupholstery from ₹3,500 per seat
+  + 999 and complete reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - and full reupholstery from ₹3,500 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - Full reupholstery from ₹3,500 per seat with 400+ fabric and leather swatches
+  + Full reupholstery from ₹2,000 per seat with 400+ fabric and leather swatches
+s2 lib/seo-pages/gurgaon-sector-pages.ts
+  - Full reupholstery with new fabric starts at ₹3,500 per seat
+  + Full reupholstery with new fabric starts at ₹2,000 per seat
+s3 lib/seo-pages/home-service-delhi-pages.ts
+  - ₹2,000 per seat for a 2-seater sofa fabric change
+  + ₹2,000 per seat
+s1 lib/seo-pages/landmark-pages-1.ts
+  - Sofa cushion repair from ₹999
+  + Sofa cushion repair from ₹500
+s1 lib/seo-pages/landmark-pages-1.ts
+  - Sofa cushion repair from ₹999
+  + Sofa cushion repair from ₹500
+s1 lib/seo-pages/landmark-pages-2.ts
+  - sofa cushion work from ₹999
+  + sofa cushion work from ₹500
+s1 lib/seo-pages/landmark-pages-2.ts
+  - Sofa cushion repair from ₹999
+  + Sofa cushion repair from ₹500
+s2 lib/seo-pages/leather-recliner-batch-2.ts
+  - Full foam and reupholstery restoration from ₹3,000 per seat
+  + Full foam and reupholstery restoration from ₹2,000 per seat
+s2 lib/seo-pages/leather-recliner-batch-2.ts
+  - Full reupholstery from ₹3,000 per seat in our standard fabric range
+  + Full reupholstery from ₹2,000 per seat in our standard fabric range
+s1 lib/seo-pages/micro-location-batch-1.ts
+  - Is the ₹999 starting price genuinely the minimum
+  + Is the ₹500 starting price genuinely the minimum
+s1 lib/seo-pages/micro-location-batch-1.ts
+  - ₹999 is our genuine starting price for minor repairs — basic re-stitching
+  + ₹500 is our genuine starting price for minor repairs — basic re-stitching
+s1 lib/seo-pages/micro-location-batch-1.ts
+  - Starting price ₹999 with zero hidden additions — quote fixed before work starts
+  + Starting price ₹500 with zero hidden additions — quote fixed before work starts
+s1 lib/seo-pages/micro-location-batch-1.ts
+  - ₹999 is genuinely our minimum for simple repairs: minor re-stitching
+  + ₹500 is genuinely our minimum for simple repairs: minor re-stitching
+s1 lib/seo-pages/micro-location-batch-1.ts
+  - Minor re-stitching or cushion repair: ₹999–₁
+  + Minor re-stitching or cushion repair: ₹500–₁
+s1 lib/seo-pages/micro-location-batch-2.ts
+  - Cushion repair from ₹999
+  + Cushion repair from ₹500
+s1 lib/seo-pages/micro-location-batch-2.ts
+  - Cushion repair from ₹999
+  + Cushion repair from ₹500
+s1 lib/seo-pages/micro-location-batch-2.ts
+  - and the Vishwakarma area — all at the same starting price of ₹999
+  + and the Vishwakarma area — all at the same starting price of ₹500
+s1 lib/seo-pages/micro-location-batch-2.ts
+  - Every repair comes with a 6-month warranty — whether it's a ₹999 cushion repair or a ₹9
+  + Every repair comes with a 6-month warranty — whether it's a ₹500 cushion repair or a ₹9
+s1 lib/seo-pages/micro-location-batch-3.ts
+  - Cushion repairs from ₹999
+  + Cushion repairs from ₹500
+s1 lib/seo-pages/micro-location-batch-3.ts
+  - Cushion repairs from ₹999
+  + Cushion repairs from ₹500
+s1 lib/seo-pages/micro-location-batch-3.ts
+  - Cushion repairs from ₹999
+  + Cushion repairs from ₹500
+s1 lib/seo-pages/micro-location-batch-3.ts
+  - Our ₹999 starting price and free on-site assessment ensure quality repair is financially sensible for everyone
+  + Our ₹500 starting price and free on-site assessment ensure quality repair is financially sensible for everyone
+s1 lib/seo-pages/micro-location-batch-3.ts
+  - Affordable starting price of ₹999
+  + Affordable starting price of ₹500
+s1 lib/seo-pages/micro-location-batch-3.ts
+  - Our ₹999 starting rate
+  + Our ₹500 starting rate
+s1 lib/seo-pages/micro-location-batch-4.ts
+  - Our ₹999 starting price applies uniformly across Gurugram — including Sector 31
+  + Our ₹500 starting price applies uniformly across Gurugram — including Sector 31
+s1 lib/seo-pages/micro-location-batch-4.ts
+  - Cushion repair from ₹999
+  + Cushion repair from ₹500
+s1 lib/seo-pages/micro-location-batch-4.ts
+  - ₹999 starting price applies
+  + ₹500 starting price applies
+s1 lib/seo-pages/micro-location-batch-4.ts
+  - ₹999 is our starting price — it covers standard single-cushion re-filling and minor fabric patch repairs
+  + ₹500 is our starting price — it covers standard single-cushion re-filling and minor fabric patch repairs
+s1 lib/seo-pages/micro-location-batch-5.ts
+  - Is the ₹999 starting price realistic
+  + Is the ₹500 starting price realistic
+s1 lib/seo-pages/micro-location-batch-5.ts
+  - ₹999 is our genuine minimum for simple repairs — basic re-stitching
+  + ₹500 is our genuine minimum for simple repairs — basic re-stitching
+s1 lib/seo-pages/micro-location-batch-7.ts
+  - From a ₹999 cushion repair to a ₹15
+  + From a ₹500 cushion repair to a ₹15
+s1 lib/seo-pages/near-me-pages.ts
+  - Starting price of ₹999 — up to 70% cheaper than buying new
+  + Starting price of ₹500 — up to 70% cheaper than buying new
+s1 lib/seo-pages/near-me-pages.ts
+  - Our minimum service charge for sofa repair is ₹999
+  + Our minimum service charge for sofa repair is ₹500
+s3 lib/seo-pages/near-me-pages.ts
+  - ₹2,000 per seat for a two-seater sofa
+  + ₹2,000 per seat
+s3 lib/seo-pages/near-me-pages.ts
+  - ₹2,000 per seat for two-seater sofas
+  + ₹2,000 per seat
+s2 lib/seo-pages/new-mixed-pages.ts
+  - reupholstery from ₹3,000/seat
+  + reupholstery from ₹2,000/seat
+s2 lib/seo-pages/new-mixed-pages.ts
+  - reupholstery at ₹3,000/seat
+  + reupholstery at ₹2,000/seat
+s2 lib/seo-pages/new-mixed-pages.ts
+  - reupholstery from ₹3,000/seat
+  + reupholstery from ₹2,000/seat
+s2 lib/seo-pages/new-mixed-pages.ts
+  - our reupholstery team can transform it entirely starting at ₹3,000 per seat
+  + our reupholstery team can transform it entirely starting at ₹2,000 per seat
+s2 lib/seo-pages/new-mixed-pages.ts
+  - or premium fabric — from ₹3,000/seat
+  + or premium fabric — from ₹2,000/seat
+s2 lib/seo-pages/new-mixed-pages.ts
+  - Reupholstery from ₹3,000/seat in 200+ fabric options
+  + Reupholstery from ₹2,000/seat in 200+ fabric options
+s2 lib/seo-pages/new-mixed-pages.ts
+  - Reupholstery starts at ₹3,000/seat with a 200+ swatch selection
+  + Reupholstery starts at ₹2,000/seat with a 200+ swatch selection
+s2 lib/seo-pages/new-mixed-pages.ts
+  - and full reupholstery using domestic fabric starts at ₹3,000 per seat
+  + and full reupholstery using domestic fabric starts at ₹2,000 per seat
+s1 lib/seo-pages/noida-authority-batch-3.ts
+  - The ₹999 starting rate is real — confirmed by thousands of completed repairs across the region
+  + The ₹500 starting rate is real — confirmed by thousands of completed repairs across the region
+s1 lib/seo-pages/noida-ghaziabad-micro-pages.ts
+  - Starting price ₹999 for basic fabric sofa repairs
+  + Starting price ₹500 for basic fabric sofa repairs
+s2 lib/seo-pages/noida-ghaziabad-micro-pages.ts
+  - full reupholstery from ₹3,500 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/noida-ghaziabad-micro-pages.ts
+  - Full reupholstery from ₹3,500 per seat with 400+ fabric options
+  + Full reupholstery from ₹2,000 per seat with 400+ fabric options
+s2 lib/seo-pages/noida-ghaziabad-micro-pages.ts
+  - full fabric reupholstery from ₹3,500 per seat
+  + full fabric reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/noida-ghaziabad-micro-pages.ts
+  - and full reupholstery from ₹3,500 per seat
+  + and full reupholstery from ₹2,000 per seat
+s1 lib/seo-pages/noida-ghaziabad-micro-pages.ts
+  - Starting price ₹999 for basic fabric sofa repairs
+  + Starting price ₹500 for basic fabric sofa repairs
+s2 lib/seo-pages/noida-ghaziabad-micro-pages.ts
+  - full reupholstery from ₹3,500 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/noida-ghaziabad-micro-pages.ts
+  - Full reupholstery from ₹3,500 per seat with 400+ options
+  + Full reupholstery from ₹2,000 per seat with 400+ options
+s2 lib/seo-pages/noida-ghaziabad-micro-pages.ts
+  - full fabric reupholstery from ₹3,500 per seat
+  + full fabric reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/noida-ghaziabad-micro-pages.ts
+  - and full reupholstery from ₹3,500 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/noida-sector-premium-batch-4.ts
+  - Upholstery reupholstering from ₹3,000/seat with 200+ fabric options
+  + Upholstery reupholstering from ₹2,000/seat with 200+ fabric options
+s2 lib/seo-pages/noida-sector-premium-batch-4.ts
+  - new cover fitting) starts at ₹3,000 per seat for microfibre or standard polyester
+  + new cover fitting) starts at ₹2,000 per seat for microfibre or standard polyester
+s2 lib/seo-pages/noida-sector-premium-batch-5.ts
+  - Upholstery reupholstering starts at ₹3,000 per seat for standard polyester and microfibre
+  + Upholstery reupholstering starts at ₹2,000 per seat for standard polyester and microfibre
+s2 lib/seo-pages/noida-sector-premium-batch-5.ts
+  - Standard repairs start at ₹500 for foam replacement and ₹3,000 per seat for upholstery
+  + Standard repairs start at ₹2,000 for foam replacement and ₹3,000 per seat for upholstery
+s1 lib/seo-pages/pricing-hub-batch-a.ts
+  - Sofa repair ₹999+
+  + Sofa repair ₹500+
+s1 lib/seo-pages/pricing-hub-batch-a.ts
+  - Furniture repair costs in Delhi range from ₹999 for basic cushion work to ₹25
+  + Furniture repair costs in Delhi range from ₹500 for basic cushion work to ₹25
+s1 lib/seo-pages/pricing-hub-batch-a.ts
+  - Sofa repairs dominate repair requests across Delhi — the cost range runs from ₹800 for a basic stitch fix to ₹38
+  + Sofa repairs dominate repair requests across Delhi — the cost range runs from ₹500 for a basic stitch fix to ₹38
+s2 lib/seo-pages/pricing-hub-batch-c.ts
+  - Budget fabric ₹3,000/seat
+  + Budget fabric ₹2,000/seat
+s1 lib/seo-pages/problem-price-pages-1.ts
+  - IKEA cushion repair from ₹999 at your doorstep across Delhi NCR
+  + IKEA cushion repair from ₹500 at your doorstep across Delhi NCR
+s1 lib/seo-pages/setting-delhi-pages.ts
+  - sofa from ₹999
+  + sofa from ₹500
+s1 lib/seo-pages/setting-delhi-pages.ts
+  - Cushion work from ₹999
+  + Cushion work from ₹500
+s1 lib/seo-pages/setting-delhi-pages.ts
+  - Cushion work from ₹999
+  + Cushion work from ₹500
+s2 lib/seo-pages/sofa-child-delhi-pages.ts
+  - and full reupholstery from ₹3,000 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/sofa-child-delhi-pages.ts
+  - Full sofa reupholstery from ₹3,000 per seat — 500+ fabric options
+  + Full sofa reupholstery from ₹2,000 per seat — 500+ fabric options
+s2 lib/seo-pages/sofa-child-delhi-pages.ts
+  - full reupholstery from ₹3,000 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/sofa-child-delhi-pages.ts
+  - Full reupholstery from ₹3,000/seat with 500+ fabric choices
+  + Full reupholstery from ₹2,000/seat with 500+ fabric choices
+s2 lib/seo-pages/sofa-child-delhi-pages.ts
+  - full reupholstery from ₹3,000 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/sofa-child-delhi-pages.ts
+  - Full sofa reupholstery from ₹3,000 per seat with 500+ fabric options
+  + Full sofa reupholstery from ₹2,000 per seat with 500+ fabric options
+s2 lib/seo-pages/sofa-child-delhi-pages.ts
+  - and full reupholstery from ₹3,000 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/sofa-child-delhi-pages.ts
+  - Full sofa reupholstery from ₹3,000 per seat — 500+ fabrics including premium options
+  + Full sofa reupholstery from ₹2,000 per seat — 500+ fabrics including premium options
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - and full reupholstery from ₹3,000 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - Full sofa reupholstery from ₹3,000/seat — 500+ fabric choices
+  + Full sofa reupholstery from ₹2,000/seat — 500+ fabric choices
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - and full reupholstery from ₹3,000 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - Full sofa reupholstery from ₹3,000/seat — 500+ premium fabric options
+  + Full sofa reupholstery from ₹2,000/seat — 500+ premium fabric options
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - and full reupholstery from ₹3,000 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - Full sofa reupholstery from ₹3,000/seat — 500+ fabric choices
+  + Full sofa reupholstery from ₹2,000/seat — 500+ fabric choices
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - and full reupholstery from ₹3,000 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - Full reupholstery from ₹3,000/seat — 500+ fabric choices
+  + Full reupholstery from ₹2,000/seat — 500+ fabric choices
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - and reupholstery from ₹3,000 per seat
+  + and reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - Full reupholstery from ₹3,000/seat — 500+ fabrics
+  + Full reupholstery from ₹2,000/seat — 500+ fabrics
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - and full reupholstery from ₹3,000 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/sofa-child-ncr-pages.ts
+  - Full reupholstery from ₹3,000/seat — 500+ fabric choices
+  + Full reupholstery from ₹2,000/seat — 500+ fabric choices
+s2 lib/seo-pages/south-delhi-authority-p1.ts
+  - full sofa reupholstery from ₹3,000 per seat for fabric and from ₹6
+  + full sofa reupholstery from ₹2,000 per seat for fabric and from ₹6
+s2 lib/seo-pages/south-delhi-authority-p1.ts
+  - full fabric reupholstery from ₹3,000 per seat
+  + full fabric reupholstery from ₹2,000 per seat
+s1 lib/seo-pages/south-delhi-batch-1.ts
+  - The starting rate of ₹999 is genuine — verified by thousands of jobs across Delhi
+  + The starting rate of ₹500 is genuine — verified by thousands of jobs across Delhi
+s1 lib/seo-pages/south-delhi-batch-1.ts
+  - ₹999 is our genuine starting rate for minor repairs — basic re-stitching
+  + ₹500 is our genuine starting rate for minor repairs — basic re-stitching
+s1 lib/seo-pages/south-delhi-batch-1.ts
+  - Is the ₹999 starting price real for Gulmohar Park?
+  + Is the ₹500 starting price real for Gulmohar Park?
+s1 lib/seo-pages/south-delhi-batch-1.ts
+  - ₹999 covers genuine minor repairs — basic re-stitching of a small tear
+  + ₹500 covers genuine minor repairs — basic re-stitching of a small tear
+s1 lib/seo-pages/south-delhi-batch-4.ts
+  - The starting rate is ₹999 for minor repairs
+  + The starting rate is ₹500 for minor repairs
+s1 lib/seo-pages/south-delhi-batch-4.ts
+  - Is the ₹999 starting price genuine
+  + Is the ₹500 starting price genuine
+s1 lib/seo-pages/south-delhi-batch-4.ts
+  - ₹999 is a genuine starting rate for minor repairs — basic re-stitching
+  + ₹500 is a genuine starting rate for minor repairs — basic re-stitching
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - >₹3,000 per seat</a>
+  + >₹2,000 per seat</a>
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - fabric reupholstery from ₹3,000 per seat
+  + fabric reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - From ₹3,000/seat
+  + From ₹2,000/seat
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - >₹3,000 per seat</a>
+  + >₹2,000 per seat</a>
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - fabric reupholstery from ₹3,000 per seat
+  + fabric reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - From ₹3,000/seat
+  + From ₹2,000/seat
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - >fabric reupholstery service from ₹3,000 per seat</a> brings 40+ fabric options to your home for selection
+  + >fabric reupholstery service from ₹2,000 per seat</a> brings 40+ fabric options to your home for selection
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - fabric reupholstery from ₹3,000 per seat
+  + fabric reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - From ₹3,000/seat
+  + From ₹2,000/seat
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - Full reupholstery available in designer-grade fabrics from ₹3,000/seat
+  + Full reupholstery available in designer-grade fabrics from ₹2,000/seat
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - fabric reupholstery from ₹3,000/seat
+  + fabric reupholstery from ₹2,000/seat
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - From ₹3,000/seat
+  + From ₹2,000/seat
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - fabric reupholstery from ₹3,000/seat
+  + fabric reupholstery from ₹2,000/seat
+s2 lib/seo-pages/south-delhi-furniture-batch-1.ts
+  - From ₹3,000/seat
+  + From ₹2,000/seat
+s1 lib/seo-pages/urgency-delhi-pages.ts
+  - Sofa cushion work from ₹999
+  + Sofa cushion work from ₹500
+s2 lib/seo-pages/west-delhi-batch-a.ts
+  - full reupholstery from ₹3,000 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/west-delhi-batch-a.ts
+  - and full reupholstery from ₹3,000 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/west-delhi-batch-a.ts
+  - Fabric reupholstery starts at ₹3,000 per seat for standard fabric
+  + Fabric reupholstery starts at ₹2,000 per seat for standard fabric
+s2 lib/seo-pages/west-delhi-batch-a.ts
+  - full reupholstery from ₹3,000 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/west-delhi-batch-a.ts
+  - Full reupholstery starting at ₹3,000 per seat — fabric swatches brought to your home
+  + Full reupholstery starting at ₹2,000 per seat — fabric swatches brought to your home
+s2 lib/seo-pages/west-delhi-batch-a.ts
+  - reupholstery from ₹3,000 per seat
+  + reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/west-delhi-batch-a.ts
+  - We offer full sofa reupholstery starting at ₹3,000 per seat for standard fabric
+  + We offer full sofa reupholstery starting at ₹2,000 per seat for standard fabric
+s2 lib/seo-pages/west-delhi-batch-a.ts
+  - Fabric reupholstery starts at ₹3,000 per seat
+  + Fabric reupholstery starts at ₹2,000 per seat
+s2 lib/seo-pages/west-delhi-furniture-locality-pages.ts
+  - full reupholstery from ₹3,000/seat
+  + full reupholstery from ₹2,000/seat
+s2 lib/seo-pages/west-delhi-furniture-locality-pages.ts
+  - reupholstery from ₹3,000/seat
+  + reupholstery from ₹2,000/seat
+s2 lib/seo-pages/west-delhi-furniture-locality-pages.ts
+  - full reupholstery from ₹3,000/seat
+  + full reupholstery from ₹2,000/seat
+s2 lib/seo-pages/west-delhi-furniture-locality-pages.ts
+  - reupholstery from ₹3,000/seat
+  + reupholstery from ₹2,000/seat
+s2 lib/seo-pages/west-delhi-furniture-locality-pages.ts
+  - reupholstery from ₹3,000/seat
+  + reupholstery from ₹2,000/seat
+s2 lib/seo-pages/west-delhi-hub-pages.ts
+  - reupholstery from ₹3,000/seat
+  + reupholstery from ₹2,000/seat
+s2 lib/seo-pages/west-delhi-hub-pages.ts
+  - full reupholstery from ₹3,000 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/west-delhi-hub-pages.ts
+  - and full reupholstery from ₹3,000 per seat
+  + and full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/west-delhi-hub-pages.ts
+  - Full sofa reupholstery across West Delhi starts from ₹3,000 per seating position and covers our entire fabric range
+  + Full sofa reupholstery across West Delhi starts from ₹2,000 per seating position and covers our entire fabric range
+s2 lib/seo-pages/west-delhi-hub-pages.ts
+  - and full reupholstery from ₹3,000 per seating position
+  + and full reupholstery from ₹2,000 per seating position
+s2 lib/seo-pages/west-delhi-hub-pages.ts
+  - full reupholstery from ₹3,000 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/west-delhi-hub-pages.ts
+  - full reupholstery from ₹3,000 per seat using 40+ fabric options
+  + full reupholstery from ₹2,000 per seat using 40+ fabric options
+s2 lib/seo-pages/west-delhi-hub-pages.ts
+  - full reupholstery from ₹3,000 per seat
+  + full reupholstery from ₹2,000 per seat
+s2 lib/seo-pages/west-delhi-hub-pages.ts
+  - and complete upholstery restoration from ₹3,000 per seat
+  + and complete upholstery restoration from ₹2,000 per seat
+s2 lib/seo-pages/west-delhi-hub-pages.ts
+  - Upholstery repair from ₹3,000 per seat
+  + Upholstery repair from ₹2,000 per seat
+s2 lib/seo-pages/west-delhi-hub-pages.ts
+  - Upholstery repair starts at ₹3,000 per seat
+  + Upholstery repair starts at ₹2,000 per seat
+s1 lib/seo-service-pages.ts
+  - Sofa stitching repair starts at ₹800
+  + Sofa stitching repair starts at ₹500
+s1 lib/seo-service-pages.ts
+  - sofa cushion repair from ₹999
+  + sofa cushion repair from ₹500
