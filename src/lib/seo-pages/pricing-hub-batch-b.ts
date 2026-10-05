@@ -7,9 +7,9 @@ import { BRAND_NAME, PHONE_DISPLAY } from "@/lib/seo-constants.ts";
 // ---------------------------------------------------------------------------
 export const recliferRepairCostDelhi: SeoPageData = {
   slug: "recliner-repair-cost-delhi",
-  title: "Recliner Repair Cost in Delhi 2026: Complete Price Guide | FurniRevive",
+  title: "Recliner Repair Cost in Delhi 2026: Complete Price Guide",
   metaDescription:
-    "Recliner repair cost in Delhi: mechanism repair ₹2,500–₹8,000, motor replacement ₹4,000–₹18,000, fabric repair ₹3,000–₹12,000. Free inspection by FurniRevive.",
+    "Recliner repair cost in Delhi: mechanism repair ₹2,500–₹8,000, motor replacement ₹4,000–₹18,000, fabric repair ₹3,000–₹12,000.",
   h1: "Recliner Repair Cost in Delhi 2026 — Complete Price & Service Guide",
   heroSubtitle:
     "Everything you need to know about recliner repair costs in Delhi NCR. Manual and electric recliners, mechanism repair, motor replacement — all pricing covered.",
@@ -302,7 +302,7 @@ export const recliferRepairCostDelhi: SeoPageData = {
   showcaseImage: {
     heading: "Recliner Repair — Real Results",
     imageUrl: "https://hercules-cdn.com/file_r90po5MLAvi73rhfUYV1fjVg",
-    altText: "Recliner sofa repair before and after in Delhi — mechanism and upholstery restored to like-new condition by FurniRevive",
+    altText: "Recliner recliner repair before and after in Delhi — mechanism and upholstery restored to like-new condition by FurniRevive",
     caption: "Recliner Repair Delhi | Motor & mechanism restoration | ₹1,499–₹7,000 | Single home visit",
   },
   relatedPages: buildRelatedPages("recliner-repair-cost-delhi", [
@@ -339,9 +339,9 @@ export const recliferRepairCostDelhi: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const recliferMotorRepairCostDelhi: SeoPageData = {
   slug: "recliner-motor-repair-cost-delhi",
-  title: "Recliner Motor Repair Cost in Delhi 2026: Full Price Guide | FurniRevive",
+  title: "Recliner Motor Repair Cost in Delhi 2026: Full Price Guide",
   metaDescription:
-    "Recliner motor repair cost in Delhi: motor repair ₹2,500–₹5,000, motor replacement ₹4,000–₹18,000. La-Z-Boy, HTL, Durian recliners. Free diagnosis by FurniRevive.",
+    "Recliner motor repair cost in Delhi: motor repair ₹2,500–₹5,000, motor replacement ₹4,000–₹18,000. La-Z-Boy, HTL, Durian recliners.",
   h1: "Recliner Motor Repair Cost in Delhi 2026 — Complete Pricing Guide",
   heroSubtitle:
     "Electric recliner motor not working in Delhi? This guide covers every motor repair and replacement cost — for all brands, all motor types, with honest Delhi NCR pricing.",

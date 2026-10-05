@@ -25,24 +25,24 @@ function relatedExcluding(slug: string) {
 // ---------------------------------------------------------------------------
 export const sofaRepairRohini: SeoPageData = {
   slug: "sofa-repair-rohini",
-  title: "Sofa Repair in Rohini Delhi | ₹999 Onwards | FurniRevive",
+  title: "Sofa Repair in Rohini Delhi | ₹500 Onwards | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Rohini Delhi — sectors 1–38, Pitampura, Prashant Vihar & Budh Vihar. Spring, foam & reupholstery. Same-day doorstep service from ₹999.",
+    "Professional sofa repair in Rohini Delhi — sectors 1–38, Pitampura, Prashant Vihar & Budh Vihar. Spring, foam & reupholstery.",
   h1: "Sofa Repair in Rohini — Same-Day Doorstep Service Sectors 1–38",
   showcaseImage: {
     heading: "Sofa Repair Before & After — Real Results in Rohini",
     imageUrl: "https://hercules-cdn.com/file_fD9h3BRCw623LF1MDx4IOhWQ",
     altText: "Before and after sofa repair in Rohini Delhi showing luxury cream sofa fully restored to pristine condition by FurniRevive",
-    caption: "Sofa Repair Rohini — Luxury sofa restored to like-new condition | Same-day doorstep service | Starting ₹999 | FurniRevive",
+    caption: "Sofa Repair Rohini — Luxury sofa restored to like-new condition | Same-day doorstep service | Starting ₹500 | FurniRevive",
   },
   heroSubtitle:
-    "Trusted sofa repair across all Rohini sectors 1–38, Pitampura, Prashant Vihar, Avantika, Budh Vihar, and Vijay Vihar. Cushion foam replacement, spring repair, full reupholstery, and recliner fixing — all at your doorstep with a 6-month warranty starting at ₹999.",
+    "Trusted sofa repair across all Rohini sectors 1–38, Pitampura, Prashant Vihar, Avantika, Budh Vihar, and Vijay Vihar. Cushion foam replacement, spring repair, full reupholstery, and recliner fixing — all at your doorstep with a 6-month warranty starting at ₹500.",
   quickAnswer:
-    "Sofa repair in Rohini starts at ₹999 for cushion foam replacement, ₹1,500–₹4,000 for spring repair, and ₹8,000–₹20,000 for full sofa restoration. FurniRevive offers same-day doorstep service across all 38 Rohini sectors, Pitampura, Prashant Vihar, and Avantika with no location surcharge and a 6-month written warranty.",
+    "Sofa repair in Rohini starts at ₹500 for cushion foam replacement, ₹1,500–₹4,000 for spring repair, and ₹8,000–₹20,000 for full sofa restoration. FurniRevive offers same-day doorstep service across all 38 Rohini sectors, Pitampura, Prashant Vihar, and Avantika with no location surcharge and a 6-month written warranty.",
   intro: [
     "Rohini is one of North Delhi's most densely populated planned townships, spreading across 38 sectors and several adjacent sub-colonies. From the established residential pockets of Sector 3 and Sector 7 — walking distance from the Aggarwal Mall and Japanese Park — to the growing communities of Sector 34 and Sector 38 near the Rithala metro corridor, every Rohini home contains a sofa that is central to daily family life. Over time, that sofa accumulates the wear of thousands of hours of sitting — and eventually needs expert attention.",
     "FurniRevive's sofa repair team services every corner of Rohini and its surrounding localities. Whether your sofa is sagging near the Rohini East metro station area, your recliner has jammed in your Pitampura apartment, or your fabric is torn in your Sector 11 Market neighbourhood — we come to your address fully equipped. Our North Delhi technicians carry professional tools, multiple foam grades, 500+ fabric swatches, spring stock, and recliner parts so that the vast majority of repairs are completed in a single visit.",
-    "Rohini sofa repair with FurniRevive costs ₹999 for basic cushion work and scales to ₹20,000 for a complete 5-seater restoration — far less than the ₹40,000–₹90,000 you would spend on a comparable new sofa. A 6-month written warranty protects every repair. Call or WhatsApp +91 92179 99355 to book, or request an estimate by sharing photos of your sofa.",
+    "Rohini sofa repair with FurniRevive costs ₹500 for basic cushion work and scales to ₹20,000 for a complete 5-seater restoration — far less than the ₹40,000–₹90,000 you would spend on a comparable new sofa. A 6-month written warranty protects every repair. Call or WhatsApp +91 92179 99355 to book, or request an estimate by sharing photos of your sofa.",
   ],
   whyChoose: [
     {
@@ -68,7 +68,7 @@ export const sofaRepairRohini: SeoPageData = {
     {
       title: "Competitive ₹999-Onwards Pricing",
       description:
-        "Sofa cushion repair from ₹999. Spring repair ₹1,500–₹4,000. Full restoration ₹8,000–₹20,000. Written quote after free inspection — no hidden charges, ever.",
+        "Sofa cushion repair from ₹500. Spring repair ₹1,500–₹4,000. Full restoration ₹8,000–₹20,000. Written quote after free inspection — no hidden charges, ever.",
     },
     {
       title: "6-Month Warranty Guarantee",
@@ -107,7 +107,7 @@ export const sofaRepairRohini: SeoPageData = {
     "Recliner motor and mechanism repair for all brands",
     "Sofa frame re-gluing and corner bracket reinforcement",
     "L-shaped and modular sofa repair without sofa removal",
-    "Starting at ₹999 — save up to 70% versus buying new",
+    "Starting at ₹500 — save up to 70% versus buying new",
     "Same-day doorstep service for bookings before noon",
     "6-month written warranty on every repair job",
     "Background-verified craftsmen with Rohini area familiarity",
@@ -146,7 +146,7 @@ export const sofaRepairRohini: SeoPageData = {
     {
       question: "What does sofa repair cost in Rohini?",
       answer:
-        "Sofa repair in Rohini starts at ₹999 for cushion foam replacement. Spring repair costs ₹1,500–₹4,000, full reupholstery ₹8,000–₹20,000 for a 5-seater set, and recliner repair ₹1,499–₹5,500. A free doorstep inspection gives you the exact price.",
+        "Sofa repair in Rohini starts at ₹500 for cushion foam replacement. Spring repair costs ₹1,500–₹4,000, full reupholstery ₹8,000–₹20,000 for a 5-seater set, and recliner repair ₹1,499–₹5,500. A free doorstep inspection gives you the exact price.",
     },
     {
       question: "Do you serve all Rohini sectors including the outer sectors 30–38?",
@@ -215,7 +215,7 @@ export const sofaRepairJanakpuri: SeoPageData = {
   slug: "sofa-repair-janakpuri",
   title: "Sofa Repair in Janakpuri Delhi | ₹899 Onwards | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Janakpuri Delhi — blocks A–E, Vikaspuri, Tilak Nagar & Hari Nagar. Reupholstery, recliner & foam repair. Doorstep service starting ₹899.",
+    "Expert sofa repair in Janakpuri Delhi — blocks A–E, Vikaspuri, Tilak Nagar & Hari Nagar. Reupholstery, recliner & foam repair.",
   h1: "Sofa Repair in Janakpuri — Expert Doorstep Service Blocks A–E & Nearby Areas",
   heroSubtitle:
     "Trusted sofa repair at your doorstep across Janakpuri Blocks A–E, Uttam Nagar, Vikaspuri, Tilak Nagar, Subhash Nagar, and Hari Nagar. Foam replacement, reupholstery, recliner repair, and sofa frame fixing — with a 6-month warranty starting at just ₹899.",
@@ -334,7 +334,7 @@ export const sofaRepairJanakpuri: SeoPageData = {
     {
       question: "What is the starting price for sofa repair in Janakpuri?",
       answer:
-        "Sofa repair in Janakpuri starts at ₹899 for minor fixes. Foam cushion replacement begins at ₹999, reupholstery at ₹3,000 per seat, and recliner repair at ₹1,499. A free doorstep inspection gives you the exact cost.",
+        "Sofa repair in Janakpuri starts at ₹899 for minor fixes. Foam cushion replacement begins at ₹999, reupholstery at ₹2,000 per seat, and recliner repair at ₹1,499. A free doorstep inspection gives you the exact cost.",
     },
     {
       question: "Do you cover all Janakpuri blocks — A, B, C, D, and E?",
@@ -399,12 +399,12 @@ export const sofaRepairJanakpuri: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairSaket: SeoPageData = {
   slug: "sofa-repair-saket",
-  title: "Sofa Repair in Saket Delhi | Premium Service ₹999+ | FurniRevive",
+  title: "Sofa Repair in Saket Delhi | Premium Service ₹500+ | FurniRevive",
   metaDescription:
-    "Premium sofa repair in Saket Delhi — J-Block, G-Block, Mehrauli, Pushp Vihar & Press Enclave. Leather restoration, reupholstery & recliner repair from ₹999.",
+    "Premium sofa repair in Saket Delhi — J-Block, G-Block, Mehrauli, Pushp Vihar & Press Enclave.",
   h1: "Sofa Repair in Saket — Premium Doorstep Service for South Delhi Homes",
   heroSubtitle:
-    "Expert sofa repair across Saket's J-Block, G-Block, Mehrauli, Kishangarh, Press Enclave, Pushp Vihar, and Freedom Fighters Enclave. Leather sofa restoration, premium reupholstery, foam replacement, and recliner repair — all at your doorstep with a 6-month warranty from ₹999.",
+    "Expert sofa repair across Saket's J-Block, G-Block, Mehrauli, Kishangarh, Press Enclave, Pushp Vihar, and Freedom Fighters Enclave. Leather sofa restoration, premium reupholstery, foam replacement, and recliner repair — all at your doorstep with a 6-month warranty from ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Saket Home",
     imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
@@ -416,7 +416,7 @@ export const sofaRepairSaket: SeoPageData = {
   intro: [
     "Saket is one of South Delhi's most upscale residential destinations, drawing residents who value both location and quality of life. The proximity to Select Citywalk Mall and DLF Place, the cultural depth of the Garden of Five Senses, and the proximity to the Qutub Minar complex make Saket a neighbourhood unlike any other in the capital. The homes here — from the stately bungalows of J-Block and G-Block to the elegant apartments in Press Enclave and Freedom Fighters Enclave — reflect that premium character, and the furniture within them does too.",
     "FurniRevive is Saket's trusted sofa repair specialist. We serve every Saket residential pocket including J-Block, G-Block, Mehrauli, Kishangarh village, Press Enclave, Freedom Fighters Enclave, Pushp Vihar, and Malviya Nagar. Our South Delhi technicians are specifically trained to handle premium and imported sofas — genuine leather Italian pieces, designer fabric sectionals, motorised recliners from international brands — with the precision and care these investments demand. We arrive with professional-grade tools, imported upholstery materials, and premium leather care products.",
-    "Sofa repair in Saket starts at ₹999 for cushion work and reaches ₹5,000 for comprehensive frame and mechanism restoration. Leather sofa restoration — crack filling, custom colour-matching, re-dyeing, and conditioning — is priced at ₹2,999–₹18,000 depending on the sofa's size and damage extent. Every repair comes with a 6-month written warranty. Call or WhatsApp +91 92179 99355 for a quick estimate by photo, or book a free doorstep inspection.",
+    "Sofa repair in Saket starts at ₹500 for cushion work and reaches ₹5,000 for comprehensive frame and mechanism restoration. Leather sofa restoration — crack filling, custom colour-matching, re-dyeing, and conditioning — is priced at ₹2,999–₹18,000 depending on the sofa's size and damage extent. Every repair comes with a 6-month written warranty. Call or WhatsApp +91 92179 99355 for a quick estimate by photo, or book a free doorstep inspection.",
   ],
   whyChoose: [
     {
@@ -481,7 +481,7 @@ export const sofaRepairSaket: SeoPageData = {
     "Sofa frame reinforcement and joint repair",
     "Coverage across Saket, Mehrauli, Pushp Vihar, Press Enclave, Malviya Nagar",
     "Discreet, punctual service suited to premium residences",
-    "Sofa repair from ₹999 — significant savings vs. replacement",
+    "Sofa repair from ₹500 — significant savings vs. replacement",
     "Same-day doorstep service for morning bookings",
     "6-month written warranty on every repair",
     "Senior craftsmen trained in premium and imported furniture handling",
@@ -497,7 +497,7 @@ export const sofaRepairSaket: SeoPageData = {
     {
       heading: "Sofa Repair Pricing in Saket — Premium Quality, Honest Rates",
       body: [
-        "Our Saket pricing reflects access to premium materials while remaining far more economical than replacement. Leather sofa minor crack repair starts at ₹2,999; full-sofa leather restoration (cleaning, re-dyeing, sealing, conditioning) for a 3-seater ranges from ₹8,000–₹18,000. Fabric reupholstery with premium imported fabric costs ₹5,000–₹15,000 per seat. Mid-range domestic fabric reupholstery starts at ₹3,000 per seat. Foam cushion replacement (32D) is ₹999–₹2,000 per seat, and 40D premium foam is ₹1,300–₹2,500. Recliner mechanism repair ranges ₹1,499–₹6,000; motorised recliner motor replacement ₹3,000–₹6,000.",
+        "Our Saket pricing reflects access to premium materials while remaining far more economical than replacement. Leather sofa minor crack repair starts at ₹2,999; full-sofa leather restoration (cleaning, re-dyeing, sealing, conditioning) for a 3-seater ranges from ₹8,000–₹18,000. Fabric reupholstery with premium imported fabric costs ₹5,000–₹15,000 per seat. Mid-range domestic fabric reupholstery starts at ₹2,000 per seat. Foam cushion replacement (32D) is ₹999–₹2,000 per seat, and 40D premium foam is ₹1,300–₹2,500. Recliner mechanism repair ranges ₹1,499–₹6,000; motorised recliner motor replacement ₹3,000–₹6,000.",
         "There are no premium surcharges for Saket, J-Block, G-Block, or Pushp Vihar. The free doorstep inspection confirms the final price before any work begins, and the invoice matches the approved quote exactly. We accept cash, UPI, and bank transfer — payment after your satisfaction. For Saket's premium sofas worth ₹1,00,000 or more, the repair cost represents a small fraction of the asset's value and restores it to full functional and aesthetic quality.",
       ],
     },

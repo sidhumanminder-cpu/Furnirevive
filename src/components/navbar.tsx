@@ -43,10 +43,10 @@ const KITCHEN_SERVICE_LINKS = [
 ] as const;
 
 const LAYOUT_LINKS = [
-  { label: "L Shape", href: "/l-shape-modular-kitchen" },
-  { label: "Parallel", href: "/parallel-modular-kitchen" },
-  { label: "Straight", href: "/straight-modular-kitchen" },
-  { label: "U Shape", href: "/u-shape-modular-kitchen" },
+  { label: "L Shape", href: "/l-shape-modular-kitchen-delhi" },
+  { label: "Parallel", href: "/parallel-modular-kitchen-delhi" },
+  { label: "Straight", href: "/straight-modular-kitchen-delhi" },
+  { label: "U Shape", href: "/u-shape-modular-kitchen-delhi" },
 ] as const;
 
 const AREA_LINKS = [

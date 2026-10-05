@@ -13,12 +13,12 @@ const DELHI_SOFA_RELATED = [
 // ---------------------------------------------------------------------------
 export const sofaRepairEastDelhi: SeoPageData = {
   slug: "sofa-repair-east-delhi",
-  title: "Sofa Repair East Delhi | Preet Vihar, Mayur Vihar ₹999 | Same Day | FurniRevive",
+  title: "Sofa Repair East Delhi | Same Day | FurniRevive",
   metaDescription:
-    "Expert sofa repair in East Delhi — Preet Vihar, Mayur Vihar, Laxmi Nagar. Foam, spring & upholstery fixed at your doorstep. Starting ₹999. Book same-day service now!",
+    "Expert sofa repair in East Delhi — Preet Vihar, Mayur Vihar, Laxmi Nagar. Foam, spring & upholstery fixed at your doorstep. Starting ₹500.",
   h1: "Sofa Repair in East Delhi — Preet Vihar, Mayur Vihar & All Areas",
   heroSubtitle:
-    "Expert sofa repair at your doorstep across East Delhi — Preet Vihar, Mayur Vihar Phase 1–3, Laxmi Nagar, Patparganj, IP Extension, Pandav Nagar, and Shakarpur. Foam replacement, reupholstery, spring repair, and recliner fixing with a 6-month warranty starting at ₹999.",
+    "Expert sofa repair at your doorstep across East Delhi — Preet Vihar, Mayur Vihar Phase 1–3, Laxmi Nagar, Patparganj, IP Extension, Pandav Nagar, and Shakarpur. Foam replacement, reupholstery, spring repair, and recliner fixing with a 6-month warranty starting at ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your East Delhi Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -26,11 +26,11 @@ export const sofaRepairEastDelhi: SeoPageData = {
     caption: "Sofa Repair in East Delhi | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Sofa repair in East Delhi costs ₹999–₹4,500 depending on repair type. Cushion foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹3,000 per seat. FurniRevive provides same-day doorstep service across Preet Vihar, Mayur Vihar, Laxmi Nagar, Patparganj, and IP Extension.",
+    "Sofa repair in East Delhi costs ₹999–₹4,500 depending on repair type. Cushion foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹2,000 per seat. FurniRevive provides same-day doorstep service across Preet Vihar, Mayur Vihar, Laxmi Nagar, Patparganj, and IP Extension.",
   intro: [
     "East Delhi is home to some of the capital's densest residential pockets — from the high-rise apartments of Mayur Vihar Phase 1 along the Noida Link Road to the independent builder floors lining the bylanes of Laxmi Nagar and Shakarpur. The living-room sofa in every one of these homes absorbs years of daily use — family gatherings, movie nights, and afternoon naps — until the cushions go flat, the fabric tears at stress points, and springs start to sag. Replacing a sofa set in East Delhi means navigating crowded furniture markets and spending ₹30,000 to ₹80,000 or more. FurniRevive's doorstep sofa repair service offers a smarter alternative.",
     "Our sofa repair technicians cover every pocket of East Delhi: Preet Vihar, Mayur Vihar Phase 1, 2, and 3, Patparganj Industrial Area residential blocks, IP Extension (Indraprastha Extension), Pandav Nagar, Shakarpur, Mandawali, Ganesh Nagar, and the DDA flats near Trilokpuri. We carry 32D and 40D high-resilience foam, 500+ upholstery fabric swatches, spring replacement kits, and industrial wood adhesive to every call. Most sofa repairs are completed in 2–3 hours without moving the sofa out of your home.",
-    "With prices starting at ₹999 for single-seat foam replacement and full sofa restoration costing 60–70% less than buying new, FurniRevive helps East Delhi families save money while getting a sofa that feels brand new. Every repair is backed by a 6-month written warranty. Book before noon for same-day service. Call +91 92179 99355 or WhatsApp photos for an instant estimate.",
+    "With prices starting at ₹500 for single-seat foam replacement and full sofa restoration costing 60–70% less than buying new, FurniRevive helps East Delhi families save money while getting a sofa that feels brand new. Every repair is backed by a 6-month written warranty. Book before noon for same-day service. Call +91 92179 99355 or WhatsApp photos for an instant estimate.",
   ],
   whyChoose: [
     {
@@ -89,7 +89,7 @@ export const sofaRepairEastDelhi: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across all East Delhi localities",
     "Cushion foam replacement with 32D and 40D high-resilience foam",
-    "Full sofa reupholstery from ₹3,000 per seat — 500+ fabric options",
+    "Full sofa reupholstery from ₹2,000 per seat — 500+ fabric options",
     "Sofa spring and zigzag wire repair starting ₹1,500",
     "Recliner mechanism repair — manual and motorised",
     "L-shaped and sectional sofa repair without dismantling",
@@ -127,7 +127,7 @@ export const sofaRepairEastDelhi: SeoPageData = {
     {
       question: "What is the cost of sofa repair in East Delhi?",
       answer:
-        "Sofa repair in East Delhi starts at ₹999. Cushion foam replacement costs ₹999–₹2,500 per seat. Spring repair is ₹1,500–₹4,000. Full reupholstery ranges from ₹3,000–₹15,000 per seat. A free doorstep inspection provides the exact quote.",
+        "Sofa repair in East Delhi starts at ₹500. Cushion foam replacement costs ₹999–₹2,500 per seat. Spring repair is ₹1,500–₹4,000. Full reupholstery ranges from ₹3,000–₹15,000 per seat. A free doorstep inspection provides the exact quote.",
     },
     {
       question: "Do you repair L-shaped sofas in Mayur Vihar apartments?",
@@ -194,12 +194,12 @@ export const sofaRepairEastDelhi: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairLajpatNagar: SeoPageData = {
   slug: "sofa-repair-lajpat-nagar",
-  title: "Sofa Repair Lajpat Nagar | Fix Sofa ₹999 | Same-Day Doorstep | FurniRevive",
+  title: "Sofa Repair Lajpat Nagar | Fix Sofa ₹500 | FurniRevive",
   metaDescription:
-    "Sofa repair in Lajpat Nagar, Defence Colony & South Extension. Foam, spring & re-upholstery starting ₹999. Same-day doorstep service. Free inspection. Book now!",
+    "Sofa repair in Lajpat Nagar, Defence Colony & South Extension. Foam, spring & re-upholstery starting ₹500. Same-day doorstep service. Free inspection.",
   h1: "Sofa Repair in Lajpat Nagar — Defence Colony, Jangpura & Nearby",
   heroSubtitle:
-    "Doorstep sofa repair across Lajpat Nagar I–IV, Defence Colony, Jangpura Extension, South Extension Part 1 & 2, Andrews Ganj, and Amar Colony. Foam replacement, fabric reupholstery, spring repair, and leather sofa conditioning with a 6-month warranty. Starting ₹999.",
+    "Doorstep sofa repair across Lajpat Nagar I–IV, Defence Colony, Jangpura Extension, South Extension Part 1 & 2, Andrews Ganj, and Amar Colony. Foam replacement, fabric reupholstery, spring repair, and leather sofa conditioning with a 6-month warranty. Starting ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Lajpat Nagar Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -207,11 +207,11 @@ export const sofaRepairLajpatNagar: SeoPageData = {
     caption: "Sofa Repair in Lajpat Nagar | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Sofa repair in Lajpat Nagar costs ₹999–₹4,500 depending on the repair. Cushion foam replacement starts at ₹999 per seat, spring repair at ₹1,500, full reupholstery from ₹3,000 per seat. FurniRevive provides same-day doorstep service across Lajpat Nagar, Defence Colony, Jangpura, and South Extension.",
+    "Sofa repair in Lajpat Nagar costs ₹999–₹4,500 depending on the repair. Cushion foam replacement starts at ₹999 per seat, spring repair at ₹1,500, full reupholstery from ₹2,000 per seat. FurniRevive provides same-day doorstep service across Lajpat Nagar, Defence Colony, Jangpura, and South Extension.",
   intro: [
     "Lajpat Nagar sits at the heart of South Delhi's busiest residential and commercial belt. From the compact DDA flats of Lajpat Nagar Part III and the well-established residential blocks of Defence Colony to the vibrant lanes near Jangpura Extension and the upscale apartments of South Extension, thousands of families rely on their living-room sofa as the centrepiece of daily life. After years of regular use, sofas in this area inevitably develop sagging cushions, torn upholstery, broken springs, or creaking frames.",
     "FurniRevive's sofa repair technicians serve every lane and block across the Lajpat Nagar cluster. We handle all sofa types — standard fabric 3+1+1 sets, premium leather sofas, L-shaped sectionals, and recliner mechanisms. Our team carries 32D and 40D foam, 500+ fabric swatches, spring kits, and industrial adhesive to complete repairs in a single doorstep visit. Most jobs take 2–3 hours.",
-    "With repair costs starting at ₹999 and full restoration saving 60–70% versus buying new, Lajpat Nagar residents get a like-new sofa without the expense or hassle of replacement. Every repair comes with a 6-month written warranty. Call +91 92179 99355 or WhatsApp us photos for an instant quote.",
+    "With repair costs starting at ₹500 and full restoration saving 60–70% versus buying new, Lajpat Nagar residents get a like-new sofa without the expense or hassle of replacement. Every repair comes with a 6-month written warranty. Call +91 92179 99355 or WhatsApp us photos for an instant quote.",
   ],
   whyChoose: [
     {
@@ -270,13 +270,13 @@ export const sofaRepairLajpatNagar: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across Lajpat Nagar, Defence Colony, Jangpura, and South Extension",
     "Cushion foam replacement — 32D and 40D high-resilience options",
-    "Full reupholstery from ₹3,000/seat with 500+ fabric choices",
+    "Full reupholstery from ₹2,000/seat with 500+ fabric choices",
     "Sofa spring and zigzag wire repair from ₹1,500",
     "Recliner mechanism repair — manual and motorised models",
     "L-shaped sofa repair without dismantling",
     "Leather sofa conditioning, crack-filling, and colour restoration",
     "Frame joint reinforcement with industrial-grade adhesive",
-    "Save 60–70% vs buying new — repairs from ₹999",
+    "Save 60–70% vs buying new — repairs from ₹500",
     "Same-day service for morning bookings",
     "6-month written warranty on all repairs",
   ],
@@ -308,7 +308,7 @@ export const sofaRepairLajpatNagar: SeoPageData = {
     {
       question: "What does sofa repair cost in Lajpat Nagar?",
       answer:
-        "Sofa repair in Lajpat Nagar starts at ₹999. Foam replacement is ₹999–₹2,500 per seat. Spring repair costs ₹1,500–₹4,000. Full reupholstery is ₹3,000–₹15,000 per seat. A free doorstep inspection gives you the exact price before any work begins.",
+        "Sofa repair in Lajpat Nagar starts at ₹500. Foam replacement is ₹999–₹2,500 per seat. Spring repair costs ₹1,500–₹4,000. Full reupholstery is ₹3,000–₹15,000 per seat. A free doorstep inspection gives you the exact price before any work begins.",
     },
     {
       question: "Can you repair leather sofas in Defence Colony?",
@@ -369,12 +369,12 @@ export const sofaRepairLajpatNagar: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairKirtiNagar: SeoPageData = {
   slug: "sofa-repair-kirti-nagar",
-  title: "Sofa Repair Kirti Nagar Delhi | ₹999 Save vs Buying New | FurniRevive",
+  title: "Sofa Repair Kirti Nagar Delhi | FurniRevive",
   metaDescription:
-    "Sofa repair near Kirti Nagar — Rajouri Garden, Tilak Nagar, Hari Nagar. Foam, spring & upholstery at doorstep ₹999. Cheaper than buying new. Book today!",
+    "Sofa repair near Kirti Nagar — Rajouri Garden, Tilak Nagar, Hari Nagar. Foam, spring & upholstery at doorstep ₹500. Cheaper than buying new. Book today!",
   h1: "Sofa Repair Near Kirti Nagar — West Delhi's Sofa Restoration Experts",
   heroSubtitle:
-    "Professional sofa repair near Kirti Nagar furniture market, Rajouri Garden, Tilak Nagar, Hari Nagar, Moti Nagar, and Ramesh Nagar. Foam replacement, reupholstery, spring repair, and recliner fixing at your doorstep. 6-month warranty. Starting ₹999.",
+    "Professional sofa repair near Kirti Nagar furniture market, Rajouri Garden, Tilak Nagar, Hari Nagar, Moti Nagar, and Ramesh Nagar. Foam replacement, reupholstery, spring repair, and recliner fixing at your doorstep. 6-month warranty. Starting ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Kirti Nagar Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -382,11 +382,11 @@ export const sofaRepairKirtiNagar: SeoPageData = {
     caption: "Sofa Repair in Kirti Nagar | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Sofa repair near Kirti Nagar costs ₹999–₹4,500. Cushion foam replacement starts at ₹999 per seat, spring repair at ₹1,500, full reupholstery from ₹3,000 per seat. FurniRevive offers doorstep sofa repair across Kirti Nagar, Rajouri Garden, Tilak Nagar, and surrounding West Delhi areas.",
+    "Sofa repair near Kirti Nagar costs ₹999–₹4,500. Cushion foam replacement starts at ₹999 per seat, spring repair at ₹1,500, full reupholstery from ₹2,000 per seat. FurniRevive offers doorstep sofa repair across Kirti Nagar, Rajouri Garden, Tilak Nagar, and surrounding West Delhi areas.",
   intro: [
     "Kirti Nagar is synonymous with furniture in Delhi — the sprawling Kirti Nagar Furniture Market is the largest in Asia. Ironically, thousands of families living in Kirti Nagar, Rajouri Garden, Tilak Nagar, Hari Nagar, Moti Nagar, and Ramesh Nagar still struggle to find reliable sofa repair. Buying a new sofa from the market feels convenient, but repairing your existing sofa can save 60–70% of the cost while delivering the same comfort and appearance.",
     "FurniRevive's sofa repair technicians serve the entire West Delhi corridor around Kirti Nagar. Whether you live in the DDA flats off Shivaji Marg, the residential lanes behind Rajouri Garden metro, or the independent floors of Hari Nagar and Tilak Nagar — we arrive at your doorstep with all materials needed for a single-visit repair. Our team carries 32D and 40D foam, 500+ upholstery fabrics, spring replacement kits, and specialised tools for recliner mechanisms.",
-    "Why replace when you can restore? Sofa repairs in the Kirti Nagar area start at just ₹999, and every job is backed by a 6-month written warranty. Call +91 92179 99355 or send WhatsApp photos for an instant estimate.",
+    "Why replace when you can restore? Sofa repairs in the Kirti Nagar area start at just ₹500, and every job is backed by a 6-month written warranty. Call +91 92179 99355 or send WhatsApp photos for an instant estimate.",
   ],
   whyChoose: [
     {
@@ -445,7 +445,7 @@ export const sofaRepairKirtiNagar: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across Kirti Nagar, Rajouri Garden, Tilak Nagar, and surrounding areas",
     "Cushion foam replacement — choose 32D or 40D density on the spot",
-    "Full sofa reupholstery from ₹3,000 per seat with 500+ fabric options",
+    "Full sofa reupholstery from ₹2,000 per seat with 500+ fabric options",
     "Sofa spring and S-wire repair starting ₹1,500",
     "Recliner mechanism repair — manual lever and motorised models",
     "L-shaped and sectional sofa repair in your living room",
@@ -482,7 +482,7 @@ export const sofaRepairKirtiNagar: SeoPageData = {
     {
       question: "What does sofa repair cost near Kirti Nagar?",
       answer:
-        "Sofa repair near Kirti Nagar starts at ₹999. Foam replacement: ₹999–₹2,500 per seat. Spring repair: ₹1,500–₹4,000. Full reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection provides the exact price.",
+        "Sofa repair near Kirti Nagar starts at ₹500. Foam replacement: ₹999–₹2,500 per seat. Spring repair: ₹1,500–₹4,000. Full reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection provides the exact price.",
     },
     {
       question: "Is sofa repair cheaper than buying new from Kirti Nagar market?",
@@ -543,12 +543,12 @@ export const sofaRepairKirtiNagar: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairVasantKunj: SeoPageData = {
   slug: "sofa-repair-vasant-kunj",
-  title: "Sofa Repair Vasant Kunj Delhi | ₹999 Doorstep | 6-Month Warranty | FurniRevive",
+  title: "Sofa Repair Vasant Kunj Delhi | ₹500 Doorstep | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Vasant Kunj, Munirka, R.K. Puram. Foam replacement, re-upholstery, spring & recliner repair. Starting ₹999. Same-day service. Book now!",
+    "K. Puram. Foam replacement, re-upholstery, spring & recliner repair. Starting ₹500. Same-day service. Book now!",
   h1: "Sofa Repair in Vasant Kunj — Munirka, R.K. Puram & Nearby Areas",
   heroSubtitle:
-    "Professional sofa repair across Vasant Kunj Sectors A–D, Munirka, R.K. Puram, Kishangarh, and neighbouring Saket. Foam replacement, fabric reupholstery, spring repair, leather sofa conditioning, and recliner mechanism fixing. 6-month warranty. Starting ₹999.",
+    "Professional sofa repair across Vasant Kunj Sectors A–D, Munirka, R.K. Puram, Kishangarh, and neighbouring Saket. Foam replacement, fabric reupholstery, spring repair, leather sofa conditioning, and recliner mechanism fixing. 6-month warranty. Starting ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Vasant Kunj Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -556,11 +556,11 @@ export const sofaRepairVasantKunj: SeoPageData = {
     caption: "Sofa Repair in Vasant Kunj | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Sofa repair in Vasant Kunj costs ₹999–₹4,500 depending on the repair type. Cushion foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹3,000 per seat. FurniRevive provides same-day doorstep service in Vasant Kunj, Munirka, R.K. Puram, and Kishangarh.",
+    "Sofa repair in Vasant Kunj costs ₹999–₹4,500 depending on the repair type. Cushion foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹2,000 per seat. FurniRevive provides same-day doorstep service in Vasant Kunj, Munirka, R.K. Puram, and Kishangarh.",
   intro: [
     "Vasant Kunj is one of South-West Delhi's most established residential hubs — a mix of DDA flats across Sectors A through D, premium group-housing societies, and independent floors in pockets near Nelson Mandela Marg. Families here invest in quality sofas that form the centrepiece of their living rooms. After years of regular use, even premium sofas develop sagging cushions, worn upholstery, weakened springs, and creaking frame joints. Replacing a sofa set means spending ₹40,000–₹1,00,000 or more — professional doorstep repair with FurniRevive restores the same comfort at a fraction of the cost.",
     "Our sofa repair technicians serve every sector and pocket of Vasant Kunj, plus neighbouring Munirka, R.K. Puram Sectors 1–13, Kishangarh village, and the Saket-Vasant Kunj connector corridor. We specialise exclusively in sofa and upholstered seating — leather sofas, fabric sectionals, L-shaped sets, recliners, and sofa-cum-beds. Every technician arrives with 32D and 40D foam, 500+ fabric swatches, spring kits, and leather conditioning materials.",
-    "Sofa repair in Vasant Kunj starts at ₹999 with every job backed by a 6-month written warranty. Book before noon for same-day service. Call +91 92179 99355 or send WhatsApp photos for a quick estimate.",
+    "Sofa repair in Vasant Kunj starts at ₹500 with every job backed by a 6-month written warranty. Book before noon for same-day service. Call +91 92179 99355 or send WhatsApp photos for a quick estimate.",
   ],
   whyChoose: [
     {
@@ -619,7 +619,7 @@ export const sofaRepairVasantKunj: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across all Vasant Kunj sectors and nearby localities",
     "Cushion foam replacement — 32D and 40D high-resilience options",
-    "Full sofa reupholstery from ₹3,000 per seat — 500+ fabrics including premium options",
+    "Full sofa reupholstery from ₹2,000 per seat — 500+ fabrics including premium options",
     "Sofa spring and zigzag wire repair from ₹1,500",
     "Recliner mechanism repair — manual and motorised",
     "L-shaped, sectional, and corner sofa repair in-place",
@@ -656,7 +656,7 @@ export const sofaRepairVasantKunj: SeoPageData = {
     {
       question: "What is the cost of sofa repair in Vasant Kunj?",
       answer:
-        "Sofa repair in Vasant Kunj starts at ₹999. Foam replacement costs ₹999–₹2,500 per seat. Spring repair is ₹1,500–₹4,000. Full reupholstery is ₹3,000–₹15,000 per seat. Free doorstep inspection provides the exact price.",
+        "Sofa repair in Vasant Kunj starts at ₹500. Foam replacement costs ₹999–₹2,500 per seat. Spring repair is ₹1,500–₹4,000. Full reupholstery is ₹3,000–₹15,000 per seat. Free doorstep inspection provides the exact price.",
     },
     {
       question: "Do you repair leather sofas in Vasant Kunj?",

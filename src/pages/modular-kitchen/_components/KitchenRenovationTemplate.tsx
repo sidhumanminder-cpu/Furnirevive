@@ -222,6 +222,11 @@ export default function KitchenRenovationTemplate({ entry, faqs }: Props) {
       title,
       description: desc,
       canonical,
+      keywords: [
+        vc.variantTitle.toLowerCase(),
+        `modular kitchen ${localityName.toLowerCase()}`,
+        `modular kitchen ${cityName.toLowerCase()}`,
+      ],
       ogUrl: canonical,
     });
 

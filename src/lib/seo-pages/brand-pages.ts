@@ -21,9 +21,9 @@ function relatedExcluding(slug: string) {
 export const ikeaFurnitureRepairDelhi: SeoPageData = {
   slug: "ikea-furniture-repair-delhi",
   title:
-    "IKEA Furniture Repair & Assembly Delhi NCR | Expert Service | FurniRevive",
+    "IKEA Furniture Repair & Assembly Delhi NCR | FurniRevive",
   metaDescription:
-    "IKEA furniture repair and assembly in Delhi NCR. PAX wardrobe, KALLAX, MALM, BILLY, BRIMNES — assembly, disassembly, and repair at your doorstep. 6-month warranty. ₹599 onwards.",
+    "IKEA furniture repair and assembly in Delhi NCR. PAX wardrobe, KALLAX, MALM, BILLY, BRIMNES — assembly, disassembly, and repair at your doorstep.",
   h1: "IKEA Furniture Repair & Assembly in Delhi NCR — All Products, Doorstep Service",
   heroSubtitle:
     "IKEA furniture was engineered for Scandinavian homes — cool, dry, stable climates with 40-60% humidity year-round. Delhi NCR swings from 15% humidity in peak winter to 95% during monsoon, with temperatures ranging from 4°C to 48°C and dust infiltration among the highest globally. This climate gap means your PAX, KALLAX, MALM, KIVIK, and BESTA age on an accelerated timeline compared to homes in Stockholm or Malmo. FurniRevive specialises in IKEA furniture repair calibrated specifically to Delhi NCR conditions — addressing the moisture swelling, thermal expansion, and dust-driven wear that IKEA never designed for. Starting ₹599 with a 6-month warranty, doorstep service across Delhi, Noida, Gurgaon, Ghaziabad & Faridabad.",
@@ -275,9 +275,9 @@ export const ikeaFurnitureRepairDelhi: SeoPageData = {
 export const pepperfryFurnitureRepairDelhi: SeoPageData = {
   slug: "pepperfry-furniture-repair-delhi",
   title:
-    "Pepperfry & Online Furniture Repair Delhi NCR | All Brands | FurniRevive",
+    "Pepperfry & Online Furniture Repair Delhi NCR | FurniRevive",
   metaDescription:
-    "Pepperfry, Urban Ladder, Wakefit, Amazon, Flipkart furniture repair in Delhi NCR. Assembly, repair & restoration for all online furniture brands. 6-month warranty. ₹599 onwards.",
+    "Pepperfry, Urban Ladder, Wakefit, Amazon, Flipkart furniture repair in Delhi NCR. Assembly, repair & restoration for all online furniture brands.",
   h1: "Pepperfry & Online Furniture Repair Delhi NCR — Assembly, Repair & Restoration",
   heroSubtitle:
     "Pepperfry delivers furniture to your Delhi NCR door in 7 days — FurniRevive repairs it at your door in 24 hours. From the first Casacraft bookshelf wobble at 18 months to collapsed sofa cushions at year 3 to full restoration at year 5, we service the complete Pepperfry ownership lifecycle at your doorstep across Delhi, Noida, Gurgaon, Ghaziabad & Faridabad. Casacraft, Woodsworth, Mintwud, and all Pepperfry sub-brands handled. Starting ₹599 with a 6-month warranty.",
@@ -528,9 +528,9 @@ export const pepperfryFurnitureRepairDelhi: SeoPageData = {
 export const godrejFurnitureRepairDelhi: SeoPageData = {
   slug: "godrej-furniture-repair-delhi",
   title:
-    "Godrej Furniture & Almirah Repair Delhi NCR | All Products | FurniRevive",
+    "Godrej Furniture & Almirah Repair Delhi NCR | FurniRevive",
   metaDescription:
-    "Godrej almirah, wardrobe, bed, desk & office furniture repair in Delhi NCR. Lock repair, dent removal, rust treatment, and full restoration. 6-month warranty. ₹499 onwards.",
+    "Godrej almirah, wardrobe, bed, desk & office furniture repair in Delhi NCR. Lock repair, dent removal, rust treatment, and full restoration.",
   h1: "Godrej Furniture & Almirah Repair in Delhi NCR — Locks, Dents, Rust & More",
   heroSubtitle:
     "Godrej Interio furniture is built to last — thicker steel gauge, industrial baked-enamel finishes, and construction tested for Indian conditions. But even the best-built furniture needs periodic service to reach its full 30-50 year lifespan. FurniRevive delivers focused, precision repairs for all Godrej product lines — Seating, Bedroom, Storage, and Office — addressing the specific wear points without unnecessary structural overhauls. Starting ₹499 with a 6-month warranty, doorstep service across Delhi, Noida, Gurgaon, Ghaziabad & Faridabad.",

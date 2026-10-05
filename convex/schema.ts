@@ -69,8 +69,10 @@ export default defineSchema({
       v.literal("type"),
       v.literal("gallery")
     ),
-    beforeImageId: v.id("_storage"),
-    afterImageId: v.id("_storage"),
+    beforeImageId: v.optional(v.id("_storage")),
+    afterImageId: v.optional(v.id("_storage")),
+    // Single side-by-side before/after photo hosted on the CDN (used when no separate uploads exist)
+    combinedImageUrl: v.optional(v.string()),
     altTextBefore: v.string(),
     altTextAfter: v.string(),
     problem: v.string(),

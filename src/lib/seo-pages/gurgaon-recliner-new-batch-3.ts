@@ -3,15 +3,15 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const reclinerRepairSector43Gurgaon: SeoPageData = {
   slug: "recliner-repair-sector-43-gurgaon",
-  title: "Recliner Repair in Sector 43 Gurgaon | Doorstep ₹999 | FurniRevive",
+  title: "Recliner Repair in Sector 43 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Sector 43 Gurgaon — Central Park, DLF Phase 4 corridor, IFFCO area. Motor, mechanism & leather repair from ₹999. Same-day slots. 6-month warranty.",
+    "Expert recliner repair in Sector 43 Gurgaon — Central Park, DLF Phase 4 corridor, IFFCO area. Motor, mechanism & leather repair from ₹999. Same-day slots.",
   h1: "Recliner Repair in Sector 43, Gurgaon",
   heroSubtitle:
     "Sector 43, Gurgaon — anchored by Central Park I & II, bordering the DLF Phase 4 corridor, and steps from IFFCO Chowk — is home to families who invest in high-quality recliners. When your motorised La-Z-Boy stalls, your leather Stressless develops cracks, or your multi-seat recliner suite refuses to lock, FurniRevive's specialist technicians reach your Sector 43 doorstep within hours, restoring full function from ₹999 with a 6-month warranty.",
   showcaseImage: {
     heading: "Premium Recliner Repair — Expert Doorstep Service in Sector 43 Gurgaon",
-    imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
+    imageUrl: "https://hercules-cdn.com/file_2c8bbpkuu9qh7mm9w7sbecpE",
     altText: "Professional recliner repair technician servicing a motorised recliner in a Sector 43 Gurgaon apartment — FurniRevive",
     caption: "Recliner Repair in Sector 43 Gurgaon | Motor, mechanism & leather service | Home visit | FurniRevive",
   },
@@ -305,15 +305,15 @@ export const reclinerRepairSector43Gurgaon: SeoPageData = {
 
 export const reclinerRepairSector45Gurgaon: SeoPageData = {
   slug: "recliner-repair-sector-45-gurgaon",
-  title: "Recliner Repair in Sector 45 Gurgaon | Doorstep Service ₹999 | FurniRevive",
+  title: "Recliner Repair in Sector 45 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Sector 45 Gurgaon — near DLF Phase 3 & Golf Course Road. Motor, mechanism & leather repair at your doorstep from ₹999. 6-month warranty.",
+    "Expert recliner repair in Sector 45 Gurgaon — near DLF Phase 3 & Golf Course Road. Motor, mechanism & leather repair at your doorstep from ₹999.",
   h1: "Recliner Repair in Sector 45, Gurgaon",
   heroSubtitle:
     "Sector 45, Gurgaon — nestled between DLF Phase 3 and Golf Course Road, with DLF Cyber City minutes away — is a sought-after address where professionals invest in premium recliners. When your motorised recliner stalls mid-recline, your leather upholstery cracks under Gurgaon's dry climate, or your footrest mechanism seizes, FurniRevive's specialist technicians reach your Sector 45 doorstep from ₹999, backed by a 6-month warranty.",
   showcaseImage: {
     heading: "Premium Recliner Repair — Expert Doorstep Service in Sector 45 Gurgaon",
-    imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
+    imageUrl: "https://hercules-cdn.com/file_2c8bbpkuu9qh7mm9w7sbecpE",
     altText: "Professional recliner repair technician working on a leather recliner in a Sector 45 Gurgaon home — FurniRevive",
     caption: "Recliner Repair in Sector 45 Gurgaon | Motor, mechanism & leather service | Home visit | FurniRevive",
   },
@@ -603,15 +603,15 @@ export const reclinerRepairSector45Gurgaon: SeoPageData = {
 
 export const reclinerRepairSector50Gurgaon: SeoPageData = {
   slug: "recliner-repair-sector-50-gurgaon",
-  title: "Recliner Repair in Sector 50 Gurgaon | Doorstep ₹999 | FurniRevive",
+  title: "Recliner Repair in Sector 50 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Sector 50 Gurgaon — Vatika Premium Floors, Suncity Township, South City 2. Motor, mechanism & leather repair from ₹999. 6-month warranty.",
+    "Expert recliner repair in Sector 50 Gurgaon — Vatika Premium Floors, Suncity Township, South City 2. Motor, mechanism & leather repair from ₹999.",
   h1: "Recliner Repair in Sector 50, Gurgaon",
   heroSubtitle:
     "Sector 50, Gurgaon — encompassing Vatika Premium Floors, Suncity Township, South City 2, and builder floors near Sohna Road — is a thriving residential zone where families invest in quality recliners. When your electric recliner motor fails, your mechanism jams, or your leather upholstery cracks, FurniRevive's specialist technicians reach your Sector 50 doorstep from ₹999 with a 6-month warranty.",
   showcaseImage: {
     heading: "Premium Recliner Repair — Expert Doorstep Service in Sector 50 Gurgaon",
-    imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
+    imageUrl: "https://hercules-cdn.com/file_2c8bbpkuu9qh7mm9w7sbecpE",
     altText: "Professional recliner repair technician servicing a motorised recliner in a Sector 50 Gurgaon residence — FurniRevive",
     caption: "Recliner Repair in Sector 50 Gurgaon | Motor, mechanism & leather service | Home visit | FurniRevive",
   },

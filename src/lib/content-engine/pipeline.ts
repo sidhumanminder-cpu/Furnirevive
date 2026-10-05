@@ -24,6 +24,7 @@ import { buildCta } from "./modules/cta.ts";
 import { buildProcess } from "./modules/process.ts";
 import { buildWhyChoose } from "./modules/why-choose.ts";
 import { buildComparison } from "./modules/comparison.ts";
+import { buildBeforeAfter } from "./modules/before-after.ts";
 import { buildTestimonials } from "./modules/testimonials.ts";
 import { buildTopicalAuthority } from "./modules/topical-authority.ts";
 import { buildBlogLinks } from "./modules/blog-links.ts";
@@ -67,6 +68,7 @@ const MODULE_REGISTRY: Record<string, ModuleBuilder> = {
   "why-choose": buildWhyChoose,
   comparison: buildComparison,
   testimonials: buildTestimonials,
+  "before-after": buildBeforeAfter,
   "topical-authority": buildTopicalAuthority,
   "blog-links": buildBlogLinks,
   "services-grid": buildServicesGrid,

@@ -3,12 +3,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const sofaRepairSector145Noida: SeoPageData = {
   slug: "sofa-repair-sector-145-noida",
-  title: "Sofa Repair in Sector 145 Noida | Doorstep Sofa Repair Experts | FurniRevive",
+  title: "Sofa Repair in Sector 145 Noida | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Sector 145 Noida with doorstep service. Foam replacement, upholstery, recliner repair from ₹999. Serving Gaur Aero Heights, ATS Nobility & more. Book now!",
+    "Expert sofa repair in Sector 145 Noida with doorstep service. Foam replacement, upholstery, recliner repair from ₹500.",
   h1: "Sofa Repair in Sector 145 Noida | Trusted Furniture Repair Specialists",
   heroSubtitle:
-    "Sector 145's most trusted doorstep sofa repair service — reviving sofas in Gaur Aero Heights, ATS Nobility, Gulshan Ikebana and every new-build society in the area. Starting at just ₹999.",
+    "Sector 145's most trusted doorstep sofa repair service — reviving sofas in Gaur Aero Heights, ATS Nobility, Gulshan Ikebana and every new-build society in the area. Starting at just ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -84,7 +84,7 @@ const sofaRepairSector145Noida: SeoPageData = {
     "Doorstep service — no need to transport your sofa anywhere",
     "Free diagnostic inspection before any charges",
     "Foam replacement from ₹999/seat using HR-grade materials",
-    "Upholstery reupholstering from ₹3,000/seat with 200+ fabric options",
+    "Upholstery reupholstering from ₹2,000/seat with 200+ fabric options",
     "Recliner mechanism and motor repair from ₹1,499",
     "6-month written service warranty on all repairs",
     "Same-day slots available for urgent foam or spring fixes",
@@ -106,7 +106,7 @@ const sofaRepairSector145Noida: SeoPageData = {
     {
       heading: "Sofa Repair Pricing in Sector 145 — What to Expect",
       body: [
-        `Pricing for sofa repair in Sector 145 Noida depends on the type of work required, the size of the sofa, and the material chosen for upholstery jobs. Here is a clear guide to our standard pricing: Foam replacement starts at ₹999 per seat for standard HR foam, rising to ₹1,800–₹2,500 per seat for memory-foam composites or high-density variants above 40 kg/m³. Full upholstery reupholstering (fabric removal, foam inspection, new cover fitting) starts at ₹3,000 per seat for microfibre or standard polyester, and ranges to ₹8,000–₹15,000 per seat for premium materials such as Italian leather, Belgian linen, or performance velvet. Recliner mechanism repair starts at ₹1,499, with motorised recliner motor replacement priced at ₹3,000–₹6,000 depending on the motor type and sofa brand. Spring re-tensioning and structural frame repair start at ₹800. Sofa leg repair or replacement starts at ₹500 per set.`,
+        `Pricing for sofa repair in Sector 145 Noida depends on the type of work required, the size of the sofa, and the material chosen for upholstery jobs. Here is a clear guide to our standard pricing: Foam replacement starts at ₹999 per seat for standard HR foam, rising to ₹1,800–₹2,500 per seat for memory-foam composites or high-density variants above 40 kg/m³. Full upholstery reupholstering (fabric removal, foam inspection, new cover fitting) starts at ₹2,000 per seat for microfibre or standard polyester, and ranges to ₹8,000–₹15,000 per seat for premium materials such as Italian leather, Belgian linen, or performance velvet. Recliner mechanism repair starts at ₹1,499, with motorised recliner motor replacement priced at ₹3,000–₹6,000 depending on the motor type and sofa brand. Spring re-tensioning and structural frame repair start at ₹800. Sofa leg repair or replacement starts at ₹500 per set.`,
         `For full restoration projects — where a sofa is refoamed, reupholstered, refinished, and structurally reconditioned — pricing typically ranges from ₹8,000 to ₹25,000 for a standard three-seater, representing a fraction of the replacement cost. All quotes are fixed after the free inspection and include labour, materials, and the 6-month service warranty. There are no additional visit charges once a repair is confirmed. Residents of ATS Nobility and similar societies who have invested ₹60,000–₹1,50,000 in their sofas consistently find that a ₹5,000–₹15,000 restoration delivers a far better return than purchasing new. Compare our rates with those for <a href="/sofa-repair-noida-sector-143">Sector 143</a> and <a href="/sofa-repair-noida-sector-150">Sector 150</a> — our pricing is consistent across the southern Noida corridor.`,
       ],
     },

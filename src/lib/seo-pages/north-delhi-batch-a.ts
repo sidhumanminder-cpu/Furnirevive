@@ -7,7 +7,7 @@ const sofaUpholsteryNorthDelhi: SeoPageData = {
   slug: "sofa-upholstery-north-delhi",
   title: "Sofa Upholstery North Delhi | Premium Reupholstery Specialists",
   metaDescription:
-    "Expert sofa upholstery in North Delhi -- fabric, leather, velvet & performance fabrics. Doorstep service across Rohini, Pitampura, Shalimar Bagh, Model Town. 6-month warranty. Call FurniRevive.",
+    "Expert sofa upholstery in North Delhi -- fabric, leather, velvet & performance fabrics.",
   h1: "Sofa Upholstery North Delhi | Premium Reupholstery Specialists",
   heroSubtitle:
     "North Delhi's finest doorstep sofa upholstery service -- fabric replacement, leather re-upholstery, velvet, linen, and performance fabrics across Rohini, Pitampura, Shalimar Bagh, Model Town, Ashok Vihar, and Rohini Sector 9. 40+ fabric swatches. Fixed pricing. 6-month warranty on every project.",
@@ -318,7 +318,7 @@ const sofaFoamReplacementNorthDelhi: SeoPageData = {
   slug: "sofa-foam-replacement-north-delhi",
   title: "Sofa Foam Replacement North Delhi | High-Density Foam Specialists",
   metaDescription:
-    "Professional sofa foam replacement in North Delhi. Sagging cushions restored with HD foam across Rohini, Pitampura, Shalimar Bagh, Model Town. 6-month warranty. Call FurniRevive.",
+    "Professional sofa foam replacement in North Delhi. Sagging cushions restored with HD foam across Rohini, Pitampura, Shalimar Bagh, Model Town.",
   h1: "Sofa Foam Replacement North Delhi | High-Density Foam Specialists",
   heroSubtitle:
     "Restore sagging, collapsed sofa cushions with premium high-density foam across North Delhi -- Rohini, Pitampura, Shalimar Bagh, Ashok Vihar, Model Town, and Rohini Sector 9. Imported foam grades. Same-day service available. Rs. 8,000--25,000. 6-month warranty.",
@@ -604,10 +604,10 @@ const sofaFoamReplacementNorthDelhi: SeoPageData = {
 
 const luxuryFurnitureRestorationNorthDelhi: SeoPageData = {
   slug: "luxury-furniture-restoration-north-delhi",
-  title: "Luxury Furniture Restoration North Delhi | Designer & Premium Specialists",
+  title: "Luxury Furniture Restoration North Delhi",
   metaDescription:
-    "Expert luxury furniture restoration in North Delhi. Designer furniture, imported pieces, villas and premium interiors. Rohini, Pitampura, Model Town, Civil Lines. Call FurniRevive.",
-  h1: "Luxury Furniture Restoration North Delhi | Designer & Premium Specialists",
+    "Expert luxury furniture restoration in North Delhi. Designer furniture, imported pieces, villas and premium interiors.",
+  h1: "Luxury Furniture Restoration North Delhi",
   heroSubtitle:
     "North Delhi's premier luxury furniture restoration service -- for designer furniture, imported pieces, and premium interiors across Model Town, Civil Lines, Rohini, Shalimar Bagh, Hudson Lane, and surrounding areas. Expert craftsmen. Transparent pricing. Guaranteed results.",
   showcaseImage: {

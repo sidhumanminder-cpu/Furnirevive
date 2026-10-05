@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const homeCentreFurnitureRepairGurgaon: SeoPageData = {
   slug: "home-centre-furniture-repair-gurgaon",
-  title: "Home Centre Furniture Repair in Gurgaon | Sofa & Recliner Restoration | FurniRevive",
-  metaDescription: "Expert Home Centre furniture repair in Gurgaon. Sofa restoration, recliner repair, foam replacement and upholstery at your doorstep across DLF, Golf Course Road & all sectors. 6-month warranty.",
+  title: "Home Centre Furniture Repair in Gurgaon | FurniRevive",
+  metaDescription: "Expert Home Centre furniture repair in Gurgaon. Sofa restoration, recliner repair, foam replacement and upholstery at your doorstep across DLF.",
   h1: "Home Centre Furniture Repair in Gurgaon | Sofa Restoration Specialists",
   heroSubtitle: "Skilled technicians restoring Home Centre sofas, recliners, and furniture at your doorstep across Gurgaon -- DLF Phases, Golf Course Road, and all major localities.",
   showcaseImage: {
@@ -225,8 +225,8 @@ const homeCentreFurnitureRepairGurgaon: SeoPageData = {
 
 const evokFurnitureRepairGurgaon: SeoPageData = {
   slug: "evok-furniture-repair-gurgaon",
-  title: "Evok Furniture Repair in Gurgaon | Sofa & Wooden Furniture Restoration | FurniRevive",
-  metaDescription: "Expert Evok furniture repair in Gurgaon. Sofa restoration, wooden furniture repair, upholstery renewal at your doorstep across DLF, Golf Course Road & all sectors. 6-month warranty.",
+  title: "Evok Furniture Repair in Gurgaon | FurniRevive",
+  metaDescription: "Expert Evok furniture repair in Gurgaon. Sofa restoration, wooden furniture repair, upholstery renewal at your doorstep across DLF.",
   h1: "Evok Furniture Repair in Gurgaon | Sofa and Wooden Furniture Specialists",
   heroSubtitle: "Skilled technicians restoring Evok furniture -- contemporary sofas, wooden pieces, and upholstered furniture -- brought back to like-new condition at your doorstep across Gurgaon.",
   showcaseImage: {

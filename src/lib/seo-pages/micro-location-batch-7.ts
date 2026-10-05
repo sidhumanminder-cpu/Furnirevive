@@ -5,10 +5,10 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const sofaRepairSector52Gurgaon: SeoPageData = {
   slug: "sofa-repair-sector-52-gurgaon",
-  title: "Sofa Repair Sector 52 Gurgaon | From ₹999 | FurniRevive",
+  title: "Sofa Repair Sector 52 Gurgaon | From ₹500 | FurniRevive",
   metaDescription:
-    "Trusted sofa repair in Sector 52 Gurgaon from ₹999. Serving Sohna Road, Nirvana Country & NH-48 belt. Same-day doorstep service, 4.8-star craftsmen, 6-month warranty. Book FurniRevive today.",
-  h1: "Sofa Repair in Sector 52 Gurgaon — Doorstep from ₹999",
+    "Trusted sofa repair in Sector 52 Gurgaon from ₹500. Serving Sohna Road, Nirvana Country & NH-48 belt. 8-star craftsmen, 6-month warranty.",
+  h1: "Sofa Repair in Sector 52 Gurgaon — Doorstep from ₹500",
   heroSubtitle:
     "You chose Sohna Road for the space, the greenery, and the quality of life it promises. Your sofa — the piece your evenings revolve around — deserves the same care. Our 4.8-star rated craftsmen come to your door across Sector 52, Nirvana Country, and the entire NH-48 corridor. Free assessment. Same-day slots. Guaranteed for six months.",
   showcaseImage: {
@@ -18,7 +18,7 @@ export const sofaRepairSector52Gurgaon: SeoPageData = {
     caption: "Sofa Repair in Sector 52 Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers sofa repair in Sector 52 Gurgaon from ₹999. We cover Sector 49–53, Nirvana Country, and the full Sohna Road corridor with same-day doorstep service, free on-site assessment, and a 6-month warranty. Fabric, leather, recliner, and L-shaped sofas all repaired on-site by 4.8-star rated craftsmen.",
+    "FurniRevive offers sofa repair in Sector 52 Gurgaon from ₹500. We cover Sector 49–53, Nirvana Country, and the full Sohna Road corridor with same-day doorstep service, free on-site assessment, and a 6-month warranty. Fabric, leather, recliner, and L-shaped sofas all repaired on-site by 4.8-star rated craftsmen.",
   intro: [
     "There's a particular quality of stillness in a Sohna Road evening — the kind you notice when you finally sink into your sofa after a long day commuting back from Cyber City or Udyog Vihar. Sector 52 is one of Gurgaon's most thoughtfully settled residential belts: independent plotted houses where families have quietly built beautiful interiors, gated mid-rises with landscaped courtyards, and towers like those in Nirvana Country where the views alone justify the address. The sofas in these homes have absorbed years of that good life — and now they show it. A seat that has gone soft in the middle, armrest fabric thinned to translucency, leather that the summer heat has drawn tight and cracked along the fold lines. These aren't signs of neglect. They're signs of a home that's actually lived in.",
     "FurniRevive was built for exactly this kind of home. Our <a href=\"/sofa-repair-gurgaon\">sofa repair service across Gurgaon</a> has its deepest roots in the Sohna Road corridor — we know the society gate protocols, the lift restrictions in Nirvana Country's towers, and the wide-corridor homes in the 52–53 plotted belt where a full sofa set might mean eight pieces. Our craftsmen carry premium fabrics, high-density foam, and every professional tool they need into your living room and work entirely on-site. Over 5,000 NCR repairs. A 4.8-star average. A repeat customer rate along this corridor that we're genuinely proud of. And if you have family across the border in South Delhi, our <a href=\"/sofa-repair-south-delhi\">South Delhi sofa repair</a> network serves them just as seamlessly.",
@@ -41,7 +41,7 @@ export const sofaRepairSector52Gurgaon: SeoPageData = {
         "Every technician dispatched to Sector 52 is identity-verified, professionally trained in upholstery finishing, and working toward the 4.8-star average our 5,000+ customers have given us. That rating doesn't come from marketing — it comes from technicians who treat your home the way they'd treat their own.",
     },
     {
-      title: "Honest Pricing From ₹999",
+      title: "Honest Pricing From ₹500",
       description:
         "Free on-site assessment. Itemised fixed quote. Not a single rupee added after you say yes. Cushion foam from ₹800. Full 3-seater re-upholstery from ₹2,500. Sohna Road homeowners are financially astute — we price accordingly, and we never surprise them.",
     },
@@ -80,7 +80,7 @@ export const sofaRepairSector52Gurgaon: SeoPageData = {
   ],
   benefits: [
     "Doorstep service — your sofa stays in your Sector 52 home throughout",
-    "Starting at ₹999 with pre-approved, fixed quotes",
+    "Starting at ₹500 with pre-approved, fixed quotes",
     "4.8-star rated across 5,000+ NCR repairs",
     "Same-day slots across the full Sohna Road corridor",
     "Covers Sector 49, 50, 51, 52, 53, Nirvana Country, and Vatika City",
@@ -101,7 +101,7 @@ export const sofaRepairSector52Gurgaon: SeoPageData = {
     {
       title: "High-Density Foam Replacement",
       description:
-        "The most transformative single repair: compressing foam replaced with calibrated HR foam matched to your sofa's original density specification. Cushions that spring back, support your spine, and feel brand new from the first sit. From ₹800.",
+        "The most transformative single repair: compressing foam replaced with calibrated HR foam matched to your sofa's original density specification. Cushions that spring back, support your spine, and feel brand new from the first sit. From ₹500.",
     },
     {
       title: "Spring Repair & Re-Tensioning",
@@ -265,7 +265,7 @@ export const sofaRepairSector52Gurgaon: SeoPageData = {
     "Same-day service across the full Sohna Road corridor",
     "Free on-site assessment — no obligation, no hard sell",
     "Six-month written warranty on every repair",
-    "Starting at ₹999 with honest, pre-approved quotes",
+    "Starting at ₹500 with honest, pre-approved quotes",
     "Background-verified craftsmen with professional upholstery training",
   ],
   freshness:
@@ -273,7 +273,7 @@ export const sofaRepairSector52Gurgaon: SeoPageData = {
   ctaVariants: [
     "Book your same-day Sector 52 repair now",
     "Get a free sofa assessment on Sohna Road",
-    "Restore your sofa from ₹999 — book today",
+    "Restore your sofa from ₹500 — book today",
     "Call FurniRevive for Nirvana Country service",
   ],
   contentSections: [
@@ -314,10 +314,10 @@ export const sofaRepairSector52Gurgaon: SeoPageData = {
 
 export const sofaRepairKalkaji: SeoPageData = {
   slug: "sofa-repair-kalkaji",
-  title: "Sofa Repair in Kalkaji South Delhi | ₹999 | FurniRevive",
+  title: "Sofa Repair in Kalkaji South Delhi | ₹500 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Kalkaji, South Delhi from ₹999. Near Govindpuri Metro & Nehru Place. Same-day doorstep service, 4.8-star craftsmen, 6-month warranty. Serving Govindpuri, CR Park & Okhla.",
-  h1: "Sofa Repair in Kalkaji — South Delhi Doorstep from ₹999",
+    "Expert sofa repair in Kalkaji, South Delhi from ₹500. Near Govindpuri Metro & Nehru Place. 8-star craftsmen, 6-month warranty.",
+  h1: "Sofa Repair in Kalkaji — South Delhi Doorstep from ₹500",
   heroSubtitle:
     "Kalkaji is one of South Delhi's most layered neighbourhoods — families who have lived here for thirty years in the same DDA flat, professionals newly arrived in an apartment off the Govindpuri Metro, all sharing the same dense, electric energy. Your sofa holds the memories of all those years. When it needs care, our 4.8-star rated craftsmen bring a workshop to your door — same day, transparent pricing, six months guaranteed.",
   showcaseImage: {
@@ -327,7 +327,7 @@ export const sofaRepairKalkaji: SeoPageData = {
     caption: "Sofa Repair in Kalkaji | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides sofa repair in Kalkaji, South Delhi from ₹999. We cover Kalkaji, Govindpuri, CR Park, Greater Kailash, and Okhla with same-day doorstep service. All sofa types repaired at your home — fabric, leather, L-shaped, recliner. Free on-site assessment, 4.8-star craftsmen, 6-month warranty. Over 5,000 NCR repairs completed.",
+    "FurniRevive provides sofa repair in Kalkaji, South Delhi from ₹500. We cover Kalkaji, Govindpuri, CR Park, Greater Kailash, and Okhla with same-day doorstep service. All sofa types repaired at your home — fabric, leather, L-shaped, recliner. Free on-site assessment, 4.8-star craftsmen, 6-month warranty. Over 5,000 NCR repairs completed.",
   intro: [
     "Kalkaji is a neighbourhood that earns your loyalty slowly and then completely. The older joint families in the DDA blocks near Govindpuri Metro have sofas that have seated three generations of guests during Diwali. The professionals in the newer buildings off Nehru Place have pieces they chose carefully and plan to keep. The families who have been in Kalkaji Extension since the 1990s have sofas that carry the kind of sentimental weight that a new showroom floor model simply cannot replace. What all of these households share is a sofa that works hard every single day — and eventually needs attention. In a densely built neighbourhood where carrying furniture down narrow staircases is a minor ordeal, the idea of sending a sofa to a workshop somewhere in Okhla feels like more trouble than it's worth.",
     "FurniRevive makes the whole thing simple. Our <a href=\"/sofa-repair-south-delhi\">sofa repair service in South Delhi</a> reaches Kalkaji with 4.8-star rated craftsmen who come to your flat, assess the damage for free, quote you honestly, and complete the entire repair inside your living room. No transport, no logistics, no day spent without a sofa. Our <a href=\"/sofa-repair-delhi\">Delhi-wide network</a> means that whether you're a DDA first-floor or a fifth-floor walk-up, our team navigates your building and your space professionally. Over 5,000 repairs completed across NCR. A 4.8-star average built one Kalkaji home at a time.",
@@ -389,7 +389,7 @@ export const sofaRepairKalkaji: SeoPageData = {
   ],
   benefits: [
     "Complete doorstep service — no transporting furniture down Kalkaji staircases",
-    "Starting at ₹999 with honest, fixed quotes before work begins",
+    "Starting at ₹500 with honest, fixed quotes before work begins",
     "4.8-star rated across 5,000+ NCR repairs",
     "Same-day service near Govindpuri Metro and the Nehru Place corridor",
     "Covers Kalkaji, Govindpuri, CR Park, Greater Kailash, Okhla, and Alaknanda",
@@ -577,7 +577,7 @@ export const sofaRepairKalkaji: SeoPageData = {
     "Same-day service across Kalkaji and the Govindpuri corridor",
     "Free on-site assessment — no obligation, no pressure",
     "Six-month written warranty on every repair",
-    "Repairs from ₹999 with honest, pre-approved quotes",
+    "Repairs from ₹500 with honest, pre-approved quotes",
     "Background-verified craftsmen trusted by South Delhi families",
   ],
   freshness:
@@ -585,7 +585,7 @@ export const sofaRepairKalkaji: SeoPageData = {
   ctaVariants: [
     "Book your Kalkaji sofa repair today",
     "Free assessment near Govindpuri Metro — book now",
-    "Restore your South Delhi sofa from ₹999",
+    "Restore your South Delhi sofa from ₹500",
     "Same-day service in Kalkaji — call FurniRevive",
   ],
   contentSections: [
@@ -626,10 +626,10 @@ export const sofaRepairKalkaji: SeoPageData = {
 
 export const sofaRepairChhatarpur: SeoPageData = {
   slug: "sofa-repair-chhatarpur",
-  title: "Sofa Repair Chhatarpur | Farmhouse Expert | ₹999 | FurniRevive",
+  title: "Sofa Repair Chhatarpur | Farmhouse Expert | ₹500 | FurniRevive",
   metaDescription:
-    "Premium sofa repair in Chhatarpur, South Delhi from ₹999. Farmhouse sofa specialists. Near Mehrauli, Qutub & MG Road border. 4.8-star craftsmen, same-day doorstep service, 6-month warranty.",
-  h1: "Sofa Repair in Chhatarpur — Farmhouse to Colony, Doorstep from ₹999",
+    "Premium sofa repair in Chhatarpur, South Delhi from ₹500. Farmhouse sofa specialists. Near Mehrauli, Qutub & MG Road border.",
+  h1: "Sofa Repair in Chhatarpur — Farmhouse to Colony, Doorstep from ₹500",
   heroSubtitle:
     "Chhatarpur is unlike anywhere else in the NCR. Where farmhouses with sprawling interiors meet residential colonies that have quietly held their character for decades, and newer apartments edge toward Sultanpur and the Gurgaon line. The sofas in these homes are as varied as the homes themselves — and they all deserve craftsmanship that matches. Our 4.8-star rated team comes to you: farmhouse or flat, same day, free assessment, six months guaranteed.",
   showcaseImage: {
@@ -639,7 +639,7 @@ export const sofaRepairChhatarpur: SeoPageData = {
     caption: "Sofa Repair in Chhatarpur | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides sofa repair in Chhatarpur, South Delhi from ₹999. We cover Chhatarpur, Mehrauli, Ber Sarai, Sultanpur, Asola, and the MG Road Gurgaon border with same-day doorstep service. Farmhouse sofas, leather, fabric, and recliners all repaired on-site. Free assessment, 4.8-star craftsmen, 6-month warranty on every job.",
+    "FurniRevive provides sofa repair in Chhatarpur, South Delhi from ₹500. We cover Chhatarpur, Mehrauli, Ber Sarai, Sultanpur, Asola, and the MG Road Gurgaon border with same-day doorstep service. Farmhouse sofas, leather, fabric, and recliners all repaired on-site. Free assessment, 4.8-star craftsmen, 6-month warranty on every job.",
   intro: [
     "Chhatarpur holds a singular place in the NCR's geography of taste. The farmhouse corridor along Chhatarpur Road is home to some of the most generously furnished interiors in the capital — eight-seater carved wooden sofas in drawing rooms with sixteen-foot ceilings, imported sectionals in estate party rooms, and bespoke upholstered pieces commissioned from furniture workshops in Kirti Nagar. Then, a lane away, the residential colonies carry a different kind of character: solid, multigenerational households where a good sofa is chosen once and expected to last twenty years. And at the newer end of this spectrum, the apartments edging toward Ber Sarai and Sultanpur bring a younger, more curated sensibility to the same stretch of South Delhi. What all of these spaces share is a deep investment in their furniture — and a specific frustration when that investment starts showing its age.",
     "FurniRevive has built genuine expertise in this exact corridor. Our <a href=\"/sofa-repair-south-delhi\">South Delhi sofa repair</a> service reaches every corner of Chhatarpur — from the farmhouse driveways off Chhatarpur Road to the fourth-floor apartments in Ber Sarai colony. Our craftsmen know how to work with oversized farmhouse pieces that a standard service van has never been asked to tackle, and they bring the same precision to the compact apartment sofa that needs discretion and speed. Residents close to the MG Road boundary also benefit from our <a href=\"/sofa-repair-gurgaon\">Gurgaon sofa repair</a> team when it provides faster deployment from that direction. Over 5,000 NCR repairs. A 4.8-star average. A team that has earned Chhatarpur's trust one farmhouse and one colony home at a time.",
@@ -667,9 +667,9 @@ export const sofaRepairChhatarpur: SeoPageData = {
         "Our service coverage bridges the Delhi–Gurgaon boundary at Chhatarpur, drawing on technicians from both the South Delhi and Gurgaon sides to minimise travel time. Mehrauli, Ber Sarai, Sultanpur, and the MG Road corridor all get genuinely fast response as a result.",
     },
     {
-      title: "Transparent Pricing from ₹999 — Farmhouse Scale Included",
+      title: "Transparent Pricing from ₹500 — Farmhouse Scale Included",
       description:
-        "Free on-site assessment, fixed written quote, zero post-job revisions. From a ₹999 cushion repair to a ₹15,000 full farmhouse sofa set restoration — the price you're quoted is the price on the invoice. Premium homes deserve premium honesty.",
+        "Free on-site assessment, fixed written quote, zero post-job revisions. From a ₹500 cushion repair to a ₹15,000 full farmhouse sofa set restoration — the price you're quoted is the price on the invoice. Premium homes deserve premium honesty.",
     },
     {
       title: "Six-Month Warranty That Covers Every Element",
@@ -701,7 +701,7 @@ export const sofaRepairChhatarpur: SeoPageData = {
   ],
   benefits: [
     "Doorstep service for farmhouses, colony homes, and apartments in Chhatarpur",
-    "Starting at ₹999 with transparent, pre-agreed fixed quotes",
+    "Starting at ₹500 with transparent, pre-agreed fixed quotes",
     "4.8-star rated across 5,000+ NCR repairs",
     "Same-day service across Chhatarpur, Mehrauli, Ber Sarai, and Sultanpur",
     "Outdoor and semi-outdoor upholstery expertise for farmhouse settings",
@@ -886,7 +886,7 @@ export const sofaRepairChhatarpur: SeoPageData = {
     "Farmhouse, outdoor, and premium sofa specialists in Chhatarpur",
     "Free on-site assessment — no obligation, no pressure",
     "Six-month written warranty on all workmanship and materials",
-    "Starting at ₹999 — transparent, pre-approved pricing",
+    "Starting at ₹500 — transparent, pre-approved pricing",
     "Background-verified craftsmen who understand premium upholstery",
   ],
   freshness:
@@ -894,7 +894,7 @@ export const sofaRepairChhatarpur: SeoPageData = {
   ctaVariants: [
     "Book your Chhatarpur sofa repair today",
     "Free farmhouse sofa assessment — book now",
-    "Restore your sofa from ₹999 — same-day slots available",
+    "Restore your sofa from ₹500 — same-day slots available",
     "Call FurniRevive for Mehrauli & Chhatarpur service",
   ],
   contentSections: [
@@ -934,10 +934,10 @@ export const sofaRepairChhatarpur: SeoPageData = {
 
 export const sofaRepairKaushambiGhaziabad: SeoPageData = {
   slug: "sofa-repair-kaushambi-ghaziabad",
-  title: "Sofa Repair Kaushambi Ghaziabad | ₹999 | FurniRevive",
+  title: "Sofa Repair Kaushambi Ghaziabad | ₹500 | FurniRevive",
   metaDescription:
-    "Premium sofa repair in Kaushambi, Ghaziabad from ₹999. High-rise apartment specialists near Anand Vihar. Serving Vaishali, Indirapuram & Sahibabad. 4.8-star rated, same-day service, 6-month warranty.",
-  h1: "Sofa Repair in Kaushambi Ghaziabad — High-Rise Doorstep from ₹999",
+    "Premium sofa repair in Kaushambi, Ghaziabad from ₹500. High-rise apartment specialists near Anand Vihar. Serving Vaishali, Indirapuram & Sahibabad.",
+  h1: "Sofa Repair in Kaushambi Ghaziabad — High-Rise Doorstep from ₹500",
   heroSubtitle:
     "Kaushambi is where Ghaziabad gets aspirational — a compact, well-planned township at Delhi's doorstep, filled with professionals who chose this address for its quality of life and its connectivity. When the sofa in your tower apartment needs expert care, our 4.8-star rated craftsmen bring everything to your door. Same day. Fixed price. Guaranteed for six months. No freight elevator drama.",
   showcaseImage: {
@@ -947,7 +947,7 @@ export const sofaRepairKaushambiGhaziabad: SeoPageData = {
     caption: "Sofa Repair in Kaushambi Ghaziabad | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides sofa repair in Kaushambi, Ghaziabad from ₹999. We specialise in high-rise apartment service across Kaushambi, Vaishali, Indirapuram, and Sahibabad near Anand Vihar. All sofa types repaired on-site — fabric, leather, L-shaped, recliner, sofa-cum-bed. Free assessment, 4.8-star rated craftsmen, 6-month warranty. Over 5,000 NCR repairs completed.",
+    "FurniRevive provides sofa repair in Kaushambi, Ghaziabad from ₹500. We specialise in high-rise apartment service across Kaushambi, Vaishali, Indirapuram, and Sahibabad near Anand Vihar. All sofa types repaired on-site — fabric, leather, L-shaped, recliner, sofa-cum-bed. Free assessment, 4.8-star rated craftsmen, 6-month warranty. Over 5,000 NCR repairs completed.",
   intro: [
     "Kaushambi sits at a precise intersection of Ghaziabad's ambitions — close enough to Delhi to feel metropolitan, modern enough in its residential infrastructure to feel genuinely new-generation. The towers here are among the tallest in the NCR's eastern corridor, the apartments are well-planned, and the families who live in them have invested in quality furniture to match. An L-shaped sectional that was carefully chosen for the living room, a leather recliner that became the evening anchor, a sofa-cum-bed that makes the compact 2BHK flex between living and hosting — these are pieces that matter. When they start showing wear after years of professional-household use and Ghaziabad's punishing seasonal extremes, replacing them in a high-rise apartment feels like a far more complicated project than it should be.",
     "FurniRevive's <a href=\"/sofa-repair-ghaziabad\">sofa repair service in Ghaziabad</a> was built precisely for this kind of home. Our technicians are experienced in the specific realities of high-rise service — society gate registration, freight lift coordination, working in compact living rooms with professional quiet and zero mess. We've completed over 5,000 repairs across NCR, and our Kaushambi customer base has grown steadily because once a resident here experiences doorstep repair at this quality level, the idea of transporting a sofa to an Okhla workshop seems genuinely unnecessary. If colleagues or family in adjacent Noida or East Delhi need the same service, our <a href=\"/sofa-repair-noida\">Noida sofa repair</a> network serves them just as seamlessly.",
@@ -970,7 +970,7 @@ export const sofaRepairKaushambiGhaziabad: SeoPageData = {
         "Every technician dispatched to Kaushambi is identity-verified, trained in professional upholstery, and maintaining a 4.8-star average across 5,000+ NCR repairs. In a building community where word travels fast through WhatsApp society groups, that reputation is both hard-earned and constantly tested.",
     },
     {
-      title: "Transparent ₹999 Starting Price — No Tower Premium",
+      title: "Transparent ₹500 Starting Price — No Tower Premium",
       description:
         "Free on-site assessment. Itemised fixed quote. The fact that your apartment is on the 18th floor doesn't add a rupee to your quote. Kaushambi professionals evaluate services critically — our pricing is consistent with the honest, clear expectations this demographic applies to every service they buy.",
     },
@@ -1009,7 +1009,7 @@ export const sofaRepairKaushambiGhaziabad: SeoPageData = {
   ],
   benefits: [
     "High-rise doorstep service purpose-built for Kaushambi tower apartments",
-    "Starting at ₹999 with honest, pre-approved fixed quotes",
+    "Starting at ₹500 with honest, pre-approved fixed quotes",
     "4.8-star rated across 5,000+ NCR repairs",
     "Same-day availability across the Anand Vihar–Kaushambi–Vaishali corridor",
     "Covers Indirapuram, Sahibabad, Vasundhara, and Raj Nagar Extension",
@@ -1030,7 +1030,7 @@ export const sofaRepairKaushambiGhaziabad: SeoPageData = {
     {
       title: "High-Density Foam Replacement",
       description:
-        "Compressed or bottomed-out foam replaced with calibrated HR foam precisely matched to your sofa's original density profile. The most impactful single repair for restoring the feel of a sofa that has become uncomfortable. From ₹800.",
+        "Compressed or bottomed-out foam replaced with calibrated HR foam precisely matched to your sofa's original density profile. The most impactful single repair for restoring the feel of a sofa that has become uncomfortable. From ₹500.",
     },
     {
       title: "Spring Repair & Replacement",
@@ -1197,7 +1197,7 @@ export const sofaRepairKaushambiGhaziabad: SeoPageData = {
     "High-rise apartment sofa repair specialists in Kaushambi",
     "Free on-site assessment — no obligation, no floor surcharge",
     "Six-month written warranty on every repair",
-    "Starting at ₹999 with honest, pre-approved quotes",
+    "Starting at ₹500 with honest, pre-approved quotes",
     "Background-verified craftsmen trusted by Kaushambi's professional residents",
   ],
   freshness:
@@ -1205,7 +1205,7 @@ export const sofaRepairKaushambiGhaziabad: SeoPageData = {
   ctaVariants: [
     "Book same-day sofa repair in Kaushambi",
     "Free assessment in your tower apartment — book now",
-    "Restore your sofa from ₹999 — Kaushambi specialist",
+    "Restore your sofa from ₹500 — Kaushambi specialist",
     "Call FurniRevive for Anand Vihar corridor service",
   ],
   contentSections: [
@@ -1246,10 +1246,10 @@ export const sofaRepairKaushambiGhaziabad: SeoPageData = {
 
 export const sofaRepairGreaterFaridabad: SeoPageData = {
   slug: "sofa-repair-greater-faridabad",
-  title: "Sofa Repair Greater Faridabad | From ₹999 | FurniRevive",
+  title: "Sofa Repair Greater Faridabad | From ₹500 | FurniRevive",
   metaDescription:
-    "Trusted sofa repair in Greater Faridabad from ₹999. Serving NIT, Sector 15–21, Ballabhgarh & Neharpar. 4.8-star craftsmen, same-day doorstep service, 6-month warranty. Best value in Faridabad.",
-  h1: "Sofa Repair in Greater Faridabad — Doorstep from ₹999",
+    "Trusted sofa repair in Greater Faridabad from ₹500. Serving NIT, Sector 15–21, Ballabhgarh & Neharpar.",
+  h1: "Sofa Repair in Greater Faridabad — Doorstep from ₹500",
   heroSubtitle:
     "In Greater Faridabad, families don't replace good furniture lightly. From the NIT sectors where sofas have seated three generations of guests to the newer Neharpar developments where young families are building their first homes, a well-made sofa is a household investment worth protecting. Our 4.8-star rated team comes to your door — same day, honest pricing, six months guaranteed.",
   showcaseImage: {
@@ -1259,7 +1259,7 @@ export const sofaRepairGreaterFaridabad: SeoPageData = {
     caption: "Sofa Repair in Greater Faridabad | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers sofa repair in Greater Faridabad from ₹999. We cover NIT Faridabad, Sector 15–21, Ballabhgarh, Neharpar, and BPTP area with same-day doorstep service. All sofa types repaired at your home — fabric, leather, L-shaped, recliner. Free assessment, 4.8-star craftsmen, 6-month warranty. Over 5,000 NCR repairs delivered.",
+    "FurniRevive offers sofa repair in Greater Faridabad from ₹500. We cover NIT Faridabad, Sector 15–21, Ballabhgarh, Neharpar, and BPTP area with same-day doorstep service. All sofa types repaired at your home — fabric, leather, L-shaped, recliner. Free assessment, 4.8-star craftsmen, 6-month warranty. Over 5,000 NCR repairs delivered.",
   intro: [
     "Greater Faridabad is a city that has earned its character through decades of real residential growth — not the speculative kind. The NIT sectors that date back to the 1970s and 80s have families who have lived in the same house for two generations and bought their sofas with the same permanence in mind. The Sector 15–21 belt added a mid-density layer of colony housing where quality upholstered furniture became a marker of household ambition. And the Neharpar development — Faridabad's newest face — brings younger families who are furnishing their first homes with exactly the same care. What unites all three eras of Greater Faridabad's residential history is a practical, value-conscious attitude to furniture: you buy it right, you look after it, and you don't throw it away because a cushion has compressed or a fabric has worn at the edges.",
     "FurniRevive's <a href=\"/sofa-repair-faridabad\">sofa repair service in Faridabad</a> covers every sector of Greater Faridabad with 4.8-star rated craftsmen who come to your door, assess for free, and complete every repair in a single on-site visit. We've done over 5,000 repairs across NCR, and our Faridabad customers return to us and recommend us because we deliver exactly what we promise — a sofa that looks and feels genuinely restored, at a price that makes the math obvious. If family across the border has a sofa that needs attention, our <a href=\"/sofa-repair-south-delhi\">South Delhi</a> and <a href=\"/sofa-repair-kaushambi-ghaziabad\">Kaushambi Ghaziabad</a> networks serve them with the same quality and speed.",
@@ -1321,7 +1321,7 @@ export const sofaRepairGreaterFaridabad: SeoPageData = {
   ],
   benefits: [
     "Full doorstep service across all of Greater Faridabad — sofa never leaves your home",
-    "Starting at ₹999 with honest, fixed quotes before work starts",
+    "Starting at ₹500 with honest, fixed quotes before work starts",
     "4.8-star rated across 5,000+ NCR repairs",
     "Same-day service across NIT, Sector 15–21, Ballabhgarh, and Neharpar",
     "Expertise in older traditional wooden-frame sofas common in NIT areas",
@@ -1342,7 +1342,7 @@ export const sofaRepairGreaterFaridabad: SeoPageData = {
     {
       title: "High-Density Foam Replacement",
       description:
-        "The most impactful single repair for any sofa that has gone flat or uncomfortable: compressed foam replaced with calibrated HR foam matched to the original density specification. NIT-area sofas that have been in daily service for a decade often need this first. From ₹800.",
+        "The most impactful single repair for any sofa that has gone flat or uncomfortable: compressed foam replaced with calibrated HR foam matched to the original density specification. NIT-area sofas that have been in daily service for a decade often need this first. From ₹500.",
     },
     {
       title: "Spring Repair & Replacement",
@@ -1511,7 +1511,7 @@ export const sofaRepairGreaterFaridabad: SeoPageData = {
     "Same-day service across NIT, Sector 15–21, Ballabhgarh, and Neharpar",
     "Free on-site assessment — no obligation, no pressure",
     "Six-month written warranty on every repair",
-    "Starting at ₹999 — honest, value-driven pricing for Faridabad families",
+    "Starting at ₹500 — honest, value-driven pricing for Faridabad families",
     "Background-verified craftsmen with expertise in traditional wooden-frame sofas",
   ],
   freshness:
@@ -1519,7 +1519,7 @@ export const sofaRepairGreaterFaridabad: SeoPageData = {
   ctaVariants: [
     "Book your Greater Faridabad sofa repair today",
     "Free NIT Faridabad assessment — book now",
-    "Restore your sofa from ₹999 — same-day slots open",
+    "Restore your sofa from ₹500 — same-day slots open",
     "Call FurniRevive for Ballabhgarh and Neharpar service",
   ],
   contentSections: [

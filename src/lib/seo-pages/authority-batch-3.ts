@@ -5,9 +5,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const leatherSofaRepairNoidaExpressway: SeoPageData = {
   slug: "leather-sofa-repair-noida-expressway",
-  title: "Leather Sofa Repair Noida Expressway | Expert Restoration",
+  title: "Leather Sofa Repair in Noida Expressway | Expert Restoration",
   metaDescription:
-    "Premium leather sofa restoration on Noida Expressway from ₹999. Sectors 104, 107, 137, 143 & 150. Crack repair, colour restoration, imported sofas. 6-month warranty. FurniRevive.",
+    "Premium leather sofa restoration on Noida Expressway from ₹999. Sectors 104, 107, 137, 143 & 150. Crack repair, colour restoration, imported sofas.",
   h1: "Expert Leather Sofa Restoration on Noida Expressway",
   heroSubtitle:
     "The Noida Expressway corridor — Sectors 104, 107, 137, 143, and 150 — houses some of Delhi NCR's most premium apartment residences. FurniRevive brings specialist-grade leather sofa restoration to your doorstep across the full Expressway residential zone from ₹999. Professional colour matching, crack repair, imported sofa specialists. 6-month warranty.",
@@ -254,7 +254,7 @@ const leatherSofaRepairIndirapuram: SeoPageData = {
   slug: "leather-sofa-repair-indirapuram",
   title: "Leather Sofa Repair Indirapuram | Expert Leather Restoration",
   metaDescription:
-    "Expert leather sofa restoration in Indirapuram from ₹999. Vaishali, Vasundhara, Shakti Khand & Ahinsa Khand. Crack repair, colour restoration. 6-month warranty. FurniRevive.",
+    "Expert leather sofa restoration in Indirapuram from ₹999. Vaishali, Vasundhara, Shakti Khand & Ahinsa Khand. Crack repair, colour restoration.",
   h1: "Expert Leather Sofa Restoration in Indirapuram",
   heroSubtitle:
     "Indirapuram's settled family communities — Vaishali, Vasundhara, Shakti Khand, Ahinsa Khand — deserve leather restoration that extends the life of their furniture investments. FurniRevive brings professional leather sofa repair, colour restoration, and premium upholstery services to your doorstep across Indirapuram from ₹999. 6-month warranty on every project.",

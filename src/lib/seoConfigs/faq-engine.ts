@@ -15,6 +15,7 @@
  */
 
 import type { LocalityInfo } from "./localities.ts";
+import { getServiceFaqs, type FaqServiceCategory } from "./faq-service-pools.ts";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -70,7 +71,8 @@ export type FaqEntry = {
 };
 
 export type SelectedFaq = {
-  intentGroup: IntentGroup;
+  /** Pool intent group, or a service-pool label for non-sofa pages */
+  intentGroup: IntentGroup | string;
   question: string;
   answer: string;
 };
@@ -183,9 +185,9 @@ export const FAQ_POOL: FaqEntry[] = [
     signals: "always",
     question: (i) => `How much does sofa repair cost in ${i.name}?`,
     answers: [
-      `Sofa repair cost in ${(info => info.name)({ ...({} as LocalityInfo) })} starts at ₹999 for basic cushion work. Foam replacement is ₹999–₹2,500 per seat, fabric re-upholstery from ₹3,000, leather sofa repair from ₹1,500, and full set restoration from ₹8,000. FurniRevive provides a free doorstep inspection before any work begins — no obligation, no hidden charges.`,
-      `Prices for sofa repair in ${(info => info.name)({ ...({} as LocalityInfo) })} vary by damage type. Cushion foam replacement starts at ₹999, sofa spring repair at ₹2,000, frame repair at ₹1,500, and leather crack restoration at ₹1,500. All quotes are fixed-price with zero surprise fees after the free inspection.`,
-      `FurniRevive's sofa repair rates in ${(info => info.name)({ ...({} as LocalityInfo) })} begin at ₹999. A 3-seater fabric upholstery costs ₹6,000–₹12,000 and full leatherette replacement ₹9,000–₹18,000. Call 92179 99355 for an exact quote — the doorstep inspection is always free.`,
+      `Sofa repair cost in ${(info => info.name)({ ...({} as LocalityInfo) })} starts at ₹500 for basic cushion work. Foam replacement is ₹999–₹2,500 per seat, fabric re-upholstery from ₹2,000 per seat, leather sofa repair from ₹1,500, and full set restoration from ₹8,000. FurniRevive provides a free doorstep inspection before any work begins — no obligation, no hidden charges.`,
+      `Prices for sofa repair in ${(info => info.name)({ ...({} as LocalityInfo) })} vary by damage type. Basic sofa repair starts at ₹500, cushion foam replacement at ₹999, sofa spring repair at ₹2,000, frame repair at ₹1,500, and leather crack restoration at ₹1,500. All quotes are fixed-price with zero surprise fees after the free inspection.`,
+      `FurniRevive's sofa repair rates in ${(info => info.name)({ ...({} as LocalityInfo) })} begin at ₹500. A 3-seater fabric upholstery costs ₹6,000–₹12,000 and full leatherette replacement ₹9,000–₹18,000. Call 92179 99355 for an exact quote — the doorstep inspection is always free.`,
     ],
   },
   {
@@ -465,9 +467,9 @@ export const FAQ_POOL: FaqEntry[] = [
     signals: ["isFamilyResidential", "isDDA"],
     question: (i) => `How much does sofa upholstery cost in ${i.name}?`,
     answers: [
-      `Sofa upholstery cost in ${(info => info.name)({ ...({} as LocalityInfo) })} starts at ₹3,000 for a single-seater and ₹6,000 for a 3-seater in standard fabric. Full 3+1+1 set reupholstery costs ₹14,000–₹22,000 with new foam included. Premium and velvet fabrics add ₹2,000–₹5,000. The free inspection confirms the final price before work begins.`,
+      `Sofa upholstery cost in ${(info => info.name)({ ...({} as LocalityInfo) })} starts at ₹2,000 per seat for a single-seater and ₹6,000 for a 3-seater in standard fabric. Full 3+1+1 set reupholstery costs ₹14,000–₹22,000 with new foam included. Premium and velvet fabrics add ₹2,000–₹5,000. The free inspection confirms the final price before work begins.`,
       `Re-upholstery prices in ${(info => info.name)({ ...({} as LocalityInfo) })} depend on fabric choice and sofa size. Standard fabric upholstery: ₹6,000–₹12,000 for a 3-seater. Velvet or chenille: ₹9,000–₹16,000. Leatherette: ₹8,000–₹14,000. All prices include labour, foam if needed, and a 6-month warranty.`,
-      `The cost of sofa upholstery in ${(info => info.name)({ ...({} as LocalityInfo) })} ranges from ₹3,000 for partial jobs to ₹22,000 for a complete 5-seater set restoration. FurniRevive brings over 500 fabric samples to your home — you choose the grade and colour, and we quote a fixed price on the spot. No hidden charges.`,
+      `The cost of sofa upholstery in ${(info => info.name)({ ...({} as LocalityInfo) })} ranges from ₹2,000 per seat for partial jobs to ₹22,000 for a complete 5-seater set restoration. FurniRevive brings over 500 fabric samples to your home — you choose the grade and colour, and we quote a fixed price on the spot. No hidden charges.`,
     ],
   },
 
@@ -644,7 +646,7 @@ export const FAQ_POOL: FaqEntry[] = [
     signals: ["isOffice"],
     question: (i) => `Do you repair office sofas and reception furniture in ${i.name}?`,
     answers: [
-      `Yes — FurniRevive provides office sofa repair in ${(info => info.name)({ ...({} as LocalityInfo) })} for reception areas, lounges, cabin sofas, and conference room seating. We work during business hours or evenings to avoid disrupting operations. Office repair rates are the same as residential — starting at ₹999.`,
+      `Yes — FurniRevive provides office sofa repair in ${(info => info.name)({ ...({} as LocalityInfo) })} for reception areas, lounges, cabin sofas, and conference room seating. We work during business hours or evenings to avoid disrupting operations. Office repair rates are the same as residential — starting at ₹500.`,
       `FurniRevive's office sofa repair service in ${(info => info.name)({ ...({} as LocalityInfo) })} covers reception leather sofas, lounge fabric seating, and boardroom upholstery. Our technicians work discreetly and quickly — most office sofa repairs are completed in 1–2 hours without disrupting regular business activity.`,
       `Office and commercial sofa repair in ${(info => info.name)({ ...({} as LocalityInfo) })} is available from FurniRevive seven days a week, including early-morning and after-hours slots. We handle reception couches, waiting area sofas, and cabin recliners. Priority slots are available for urgent repairs — call 92179 99355 to arrange.`,
     ],
@@ -886,9 +888,9 @@ const DYNAMIC_FAQ_POOL: RawFaqEntry[] = [
     signals: "always",
     question: (i) => `How much does sofa repair cost in ${i.name}?`,
     answers: [
-      (i) => `Sofa repair cost in ${i.name} starts at ₹999 for basic cushion work. Foam replacement is ₹999–₹2,500 per seat, fabric re-upholstery from ₹3,000, leather sofa repair from ₹1,500, and full set restoration from ₹8,000. FurniRevive provides a free doorstep inspection before any work begins — no obligation, no hidden charges.`,
-      (i) => `Prices for sofa repair in ${i.name} vary by damage type. Cushion foam replacement starts at ₹999, sofa spring repair at ₹2,000, frame repair at ₹1,500, and leather crack restoration at ₹1,500. All quotes are fixed-price with zero surprise fees after the free inspection.`,
-      (i) => `FurniRevive's sofa repair rates in ${i.name} begin at ₹999. A 3-seater fabric upholstery costs ₹6,000–₹12,000 and full leatherette replacement ₹9,000–₹18,000. Call 92179 99355 for an exact quote — the doorstep inspection is always free.`,
+      (i) => `Sofa repair cost in ${i.name} starts at ₹500 for basic cushion work. Foam replacement is ₹999–₹2,500 per seat, fabric re-upholstery from ₹2,000 per seat, leather sofa repair from ₹1,500, and full set restoration from ₹8,000. FurniRevive provides a free doorstep inspection before any work begins — no obligation, no hidden charges.`,
+      (i) => `Prices for sofa repair in ${i.name} vary by damage type. Basic sofa repair starts at ₹500, cushion foam replacement at ₹999, sofa spring repair at ₹2,000, frame repair at ₹1,500, and leather crack restoration at ₹1,500. All quotes are fixed-price with zero surprise fees after the free inspection.`,
+      (i) => `FurniRevive's sofa repair rates in ${i.name} begin at ₹500. A 3-seater fabric upholstery costs ₹6,000–₹12,000 and full leatherette replacement ₹9,000–₹18,000. Call 92179 99355 for an exact quote — the doorstep inspection is always free.`,
     ],
   },
   {
@@ -1168,9 +1170,9 @@ const DYNAMIC_FAQ_POOL: RawFaqEntry[] = [
     signals: ["isFamilyResidential", "isDDA"],
     question: (i) => `How much does sofa upholstery cost in ${i.name}?`,
     answers: [
-      (i) => `Sofa upholstery cost in ${i.name} starts at ₹3,000 for a single-seater and ₹6,000 for a 3-seater in standard fabric. Full 3+1+1 set reupholstery costs ₹14,000–₹22,000 with new foam included. Premium and velvet fabrics add ₹2,000–₹5,000. The free inspection confirms the final price before work begins.`,
+      (i) => `Sofa upholstery cost in ${i.name} starts at ₹2,000 per seat for a single-seater and ₹6,000 for a 3-seater in standard fabric. Full 3+1+1 set reupholstery costs ₹14,000–₹22,000 with new foam included. Premium and velvet fabrics add ₹2,000–₹5,000. The free inspection confirms the final price before work begins.`,
       (i) => `Re-upholstery prices in ${i.name} depend on fabric choice and sofa size. Standard fabric upholstery: ₹6,000–₹12,000 for a 3-seater. Velvet or chenille: ₹9,000–₹16,000. Leatherette: ₹8,000–₹14,000. All prices include labour, foam if needed, and a 6-month warranty.`,
-      (i) => `The cost of sofa upholstery in ${i.name} ranges from ₹3,000 for partial jobs to ₹22,000 for a complete 5-seater set restoration. FurniRevive brings over 500 fabric samples to your home — you choose the grade and colour, and we quote a fixed price on the spot. No hidden charges.`,
+      (i) => `The cost of sofa upholstery in ${i.name} ranges from ₹2,000 per seat for partial jobs to ₹22,000 for a complete 5-seater set restoration. FurniRevive brings over 500 fabric samples to your home — you choose the grade and colour, and we quote a fixed price on the spot. No hidden charges.`,
     ],
   },
 
@@ -1347,7 +1349,7 @@ const DYNAMIC_FAQ_POOL: RawFaqEntry[] = [
     signals: ["isOffice"],
     question: (i) => `Do you repair office sofas and reception furniture in ${i.name}?`,
     answers: [
-      (i) => `Yes — FurniRevive provides office sofa repair in ${i.name} for reception areas, lounges, cabin sofas, and conference room seating. We work during business hours or evenings to avoid disrupting operations. Office repair rates are the same as residential — starting at ₹999.`,
+      (i) => `Yes — FurniRevive provides office sofa repair in ${i.name} for reception areas, lounges, cabin sofas, and conference room seating. We work during business hours or evenings to avoid disrupting operations. Office repair rates are the same as residential — starting at ₹500.`,
       (i) => `FurniRevive's office sofa repair service in ${i.name} covers reception leather sofas, lounge fabric seating, and boardroom upholstery. Our technicians work discreetly and quickly — most office sofa repairs are completed in 1–2 hours without disrupting regular business activity.`,
       (i) => `Office and commercial sofa repair in ${i.name} is available from FurniRevive seven days a week, including early-morning and after-hours slots. We handle reception couches, waiting area sofas, and cabin recliners. Priority slots are available for urgent repairs — call 92179 99355 to arrange.`,
     ],
@@ -1603,9 +1605,12 @@ function scoreEntry(
  */
 export function selectFaqs(
   info: LocalityInfo,
-  options: { count?: number; gscBoosts?: Record<string, number>; seed?: number } = {},
+  options: { count?: number; gscBoosts?: Record<string, number>; seed?: number; category?: FaqServiceCategory } = {},
 ): SelectedFaq[] {
-  const { count = 7, gscBoosts = {}, seed = 0 } = options;
+  const { count = 7, gscBoosts = {}, seed = 0, category = "sofa" } = options;
+  // Non-sofa services use their own FAQ sets so answers match the page's service
+  const serviceFaqs = getServiceFaqs(info, category, count);
+  if (serviceFaqs) return serviceFaqs;
   const profile = buildProfile(info);
   const hash = (slugHash(info.parentServiceSlug + info.name) + seed) & 0xff;
 

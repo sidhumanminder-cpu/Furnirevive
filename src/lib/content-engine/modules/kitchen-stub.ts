@@ -178,23 +178,28 @@ export function buildKitchenHero(
     const kLoc = getKitchenLocality(locality.slug);
     const locType = kLoc?.localityType ?? "mixed";
     const projValue = kLoc?.averageProjectValue ?? "mid";
-    headline = `Modular Kitchen in ${name} — Custom Design & Installation`;
 
     if (projValue === "luxury" || projValue === "premium") {
       if (locType === "villa") {
+        headline = `${name} Villas — Bespoke Modular Kitchen Design`;
         subheadline = `Bespoke modular kitchens for ${name}'s independent homes and villas. Island layouts, imported hardware, and luxury finishes — free design consultation and 10-year warranty.`;
       } else if (locType === "apartments") {
+        headline = `${name} Apartments — Premium Modular Kitchen Design`;
         subheadline = `Premium modular kitchen design for ${name} apartments. Space-optimised layouts, soft-close hardware, and quality finishes — free design consultation and 10-year warranty.`;
       } else {
+        headline = `${name} — Premium Modular Kitchen Design & Installation`;
         subheadline = `Bespoke modular kitchen design for premium homes in ${name}. Free design consultation, 10-year warranty, and installation by certified craftsmen.`;
       }
     } else if (projValue === "budget") {
+      headline = `${name} — Budget-Friendly Modular Kitchen`;
       subheadline = `Affordable modular kitchen in ${name} starting from ₹80,000. No hidden costs, local delivery, and a written 5-year warranty.`;
     } else {
       // mid
       if (locType === "apartments") {
+        headline = `${name} Apartments — Custom Modular Kitchen Design`;
         subheadline = `Custom modular kitchen for ${name} apartments. Compact layouts, smart storage, and quality finishes — free design consultation and transparent pricing from ₹80,000.`;
       } else {
+        headline = `Modular Kitchen in ${name} — Custom Design & Installation`;
         subheadline = `Transform your kitchen with a fully custom modular kitchen in ${name}. Free design consultation, transparent pricing from ₹80,000, and a 10-year warranty.`;
       }
     }

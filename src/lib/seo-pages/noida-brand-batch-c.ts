@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const wakefitFurnitureRepairNoida: SeoPageData = {
   slug: "wakefit-furniture-repair-noida",
-  title: "Wakefit Furniture Repair Noida | Sofa Bed & Foam Replacement | FurniRevive",
-  metaDescription: "Expert Wakefit furniture repair in Noida. Sofa bed mechanism repair, foam replacement, upholstery restoration at your doorstep. All sectors, ATS Greens, Jaypee Greens. 6-month warranty.",
+  title: "Wakefit Furniture Repair Noida | FurniRevive",
+  metaDescription: "Expert Wakefit furniture repair in Noida. Sofa bed mechanism repair, foam replacement, upholstery restoration at your doorstep.",
   h1: "Wakefit Furniture Repair in Noida | Sofa Bed & Foam Specialists",
   heroSubtitle: "Skilled technicians repairing Wakefit sofa beds, sofas, and foam products -- mechanism repair, foam replacement, upholstery restoration at your doorstep across all Noida sectors.",
   showcaseImage: {
@@ -248,8 +248,8 @@ const wakefitFurnitureRepairNoida: SeoPageData = {
 
 const woodenStreetFurnitureRepairNoida: SeoPageData = {
   slug: "wooden-street-furniture-repair-noida",
-  title: "Wooden Street Furniture Repair Noida | Sheesham & Solid Wood Restoration | FurniRevive",
-  metaDescription: "Expert Wooden Street furniture repair in Noida. Sheesham wood restoration, sofa repair, joint tightening, re-polishing at your doorstep. All sectors, ATS Greens, Jaypee Greens. 6-month warranty.",
+  title: "Wooden Street Furniture Repair Noida | FurniRevive",
+  metaDescription: "Expert Wooden Street furniture repair in Noida. Sheesham wood restoration, sofa repair, joint tightening, re-polishing at your doorstep.",
   h1: "Wooden Street Furniture Repair in Noida | Sheesham & Solid Wood Specialists",
   heroSubtitle: "Skilled craftsmen restoring Wooden Street sheesham, teak, and solid wood furniture -- joint repair, surface restoration, polish matching, and re-upholstery at your doorstep across Noida.",
   showcaseImage: {

@@ -5,12 +5,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const sofaRepairNoidaSector143: SeoPageData = {
   slug: "sofa-repair-noida-sector-143",
-  title: "Sofa Repair in Noida Sector 143 | Advant Navis Corridor | FurniRevive",
+  title: "Sofa Repair in Noida Sector 143 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Noida Sector 143 from ₹999. Serving Expressway apartments near Advant Navis, Sector 137 & Sector 144. UV upholstery repair, foam & recliner service. 6-month warranty.",
+    "Expert sofa repair in Noida Sector 143 from ₹500. Serving Expressway apartments near Advant Navis, Sector 137 & Sector 144.",
   h1: "Sofa Repair in Noida Sector 143",
   heroSubtitle:
-    "Sector 143's Expressway-facing apartments and corporate corridor professionals deserve precision repair — not generic patchwork. Doorstep sofa restoration covering Advant Navis zone, Sector 137 and Sector 144 from ₹999. Same-day slots. 6-month warranty.",
+    "Sector 143's Expressway-facing apartments and corporate corridor professionals deserve precision repair — not generic patchwork. Doorstep sofa restoration covering Advant Navis zone, Sector 137 and Sector 144 from ₹500. Same-day slots. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -18,11 +18,11 @@ const sofaRepairNoidaSector143: SeoPageData = {
     caption: "Sofa Repair in Noida (Sector 143) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Noida Sector 143 — covering the residential towers between Advant Navis and the Expressway, and extending to Sector 137 and Sector 144 — from ₹999. Our craftsmen handle UV-faded upholstery, foam replacement, leather cracking from AC exposure, and recliner mechanism repair. Free assessment, fixed pricing, 6-month warranty on every job.",
+    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Noida Sector 143 — covering the residential towers between Advant Navis and the Expressway, and extending to Sector 137 and Sector 144 — from ₹500. Our craftsmen handle UV-faded upholstery, foam replacement, leather cracking from AC exposure, and recliner mechanism repair. Free assessment, fixed pricing, 6-month warranty on every job.",
   intro: [
     "Sector 143 exists in an interesting dual identity along the Noida Expressway — a residential address that shares its postcode with the Advant Navis commercial complex and the broader corporate corridor stretching toward Greater Noida. The people who live here are typically working professionals: IT managers, consultants, and executives who commute to nearby Advant Navis offices, work from high-floor Expressway-facing flats, and have made considered choices about their home environments. The sofa in a Sector 143 drawing room is not just a place to sit — it is the de-compression anchor after a long day, and often the workspace for a video call at 9 PM. These sofas see both leisure and professional use, and the wear they accumulate reflects that intensity.",
     "FurniRevive's Noida team covers the full <a href='/sofa-repair-noida'>sofa repair Noida</a> zone with established depth in the Expressway corridor between <a href='/sofa-repair-noida-sector-137'>Sector 137</a> and <a href='/sofa-repair-noida-sector-150'>Sector 150</a>, with Sector 143 sitting at the centre. We understand the specific furniture challenges of this zone: the south-facing drawing rooms that compound <a href=\"/leather-sofa-repair-noida-expressway\">leather damage</a> with UV from large Expressway-view windows; the work-from-home sofa usage that concentrates wear at fixed seating positions; the premium modular systems bought from NCR showrooms and configured to precise flat dimensions. <a href='/sofa-repair-noida-expressway'>Noida Expressway</a> corridor residents routinely recommend us across sectors — which is how many of our Sector 143 bookings originate.",
-    "Starting at ₹999, the process begins with a free, no-obligation on-site assessment that generates a fixed, itemised quote. Your craftsman arrives with the complete material kit — three foam grades, 40+ fabric swatches, leather conditioning compounds, <a href=\"/recliner-repair-noida-expressway\">recliner hardware</a> — so work begins and completes in the same visit for most repairs. No workshop trips. No multi-day waits. Morning bookings before noon receive same-day afternoon slots. Most Sector 143 repairs — even comprehensive upholstery replacements — are resolved within one working day.",
+    "Starting at ₹500, the process begins with a free, no-obligation on-site assessment that generates a fixed, itemised quote. Your craftsman arrives with the complete material kit — three foam grades, 40+ fabric swatches, leather conditioning compounds, <a href=\"/recliner-repair-noida-expressway\">recliner hardware</a> — so work begins and completes in the same visit for most repairs. No workshop trips. No multi-day waits. Morning bookings before noon receive same-day afternoon slots. Most Sector 143 repairs — even comprehensive upholstery replacements — are resolved within one working day.",
   ],
   whyChoose: [
     {
@@ -164,7 +164,7 @@ const sofaRepairNoidaSector143: SeoPageData = {
     {
       question: "What is the cost of sofa repair in Noida Sector 143?",
       answer:
-        "Repairs start at ₹999. Common Sector 143 jobs — UV re-upholstery on one faded panel, foam replacement at a work-from-home position, recliner cable replacement — typically cost ₹8,000–₹22,000 depending on sofa size and scope. Fixed itemised quote after free on-site assessment.",
+        "Repairs start at ₹500. Common Sector 143 jobs — UV re-upholstery on one faded panel, foam replacement at a work-from-home position, recliner cable replacement — typically cost ₹8,000–₹22,000 depending on sofa size and scope. Fixed itemised quote after free on-site assessment.",
     },
     {
       question: "My sofa is near a large window and has faded badly — is this repairable?",
@@ -257,12 +257,12 @@ const sofaRepairNoidaSector143: SeoPageData = {
 
 const sofaRepairShaktiKhand: SeoPageData = {
   slug: "sofa-repair-shakti-khand",
-  title: "Sofa Repair in Shakti Khand Indirapuram | Foam & Spring Repair | FurniRevive",
+  title: "Sofa Repair in Shakti Khand Indirapuram | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Shakti Khand, Indirapuram from ₹999. Foam replacement, spring repair, leather sofa restoration at your doorstep. 6-month warranty. Near Shipra Mall & NH-24.",
+    "Expert sofa repair in Shakti Khand, Indirapuram from ₹500. Foam replacement, spring repair, leather sofa restoration at your doorstep. 6-month warranty.",
   h1: "Sofa Repair in Shakti Khand, Indirapuram",
   heroSubtitle:
-    "Shakti Khand families trust FurniRevive for deep foam replacement, spring repair, and full sofa restoration — entirely at your doorstep in Indirapuram from ₹999. Serving Vaishali, Vasundhara and Habitat Centre area. Same-day slots available.",
+    "Shakti Khand families trust FurniRevive for deep foam replacement, spring repair, and full sofa restoration — entirely at your doorstep in Indirapuram from ₹500. Serving Vaishali, Vasundhara and Habitat Centre area. Same-day slots available.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Ghaziabad Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -274,7 +274,7 @@ const sofaRepairShaktiKhand: SeoPageData = {
   intro: [
     "Shakti Khand is the kind of neighbourhood that grows quietly into significance — not a planned showcase address, but a genuinely settled community where families have put down roots, furnished homes over years, and built a quality of domestic life that deserves quality service when things need repair. The drawing room sofa in a Shakti Khand flat has typically been there for seven to ten years. It was purchased from a showroom near Vaishali or from the furniture section of Shipra Mall when the family moved in, chosen carefully within a family budget, and has been the site of every evening, every festival gathering, every lazy Sunday since. When the springs start to bottom out and the foam loses its memory, the residents of Shakti Khand deserve a repair service that respects that history and delivers a result that puts the sofa back where it belongs.",
     "FurniRevive's Indirapuram team covers the full <a href='/furniture-repair-indirapuram'>furniture repair Indirapuram</a> zone, with strong operational depth in Shakti Khand specifically. We understand the apartment building dynamics here: the older mid-rise complexes with narrower lifts that limit equipment size, the ground-floor flats that face particular monsoon humidity challenges, the NH-24 corridor buildings where road vibration eventually loosens frame joints, and the families who bought furniture from Vaishali's showroom strip and Shipra Mall's home section. We extend naturally into <a href='/sofa-repair-indirapuram-extension'>Indirapuram Extension</a>, <a href='/sofa-repair-vaishali'>Vaishali</a>, and <a href='/sofa-repair-vasundhara'>Vasundhara</a> — all at identical pricing and the same 6-month warranty.",
-    "From ₹999, the free on-site assessment gives you a clear, itemised quote for every repair element. Our craftsmen carry high-density foam in three grades, spring components, fabric swatches in 40+ choices, and leather conditioning materials for our <a href='/leather-sofa-repair-indirapuram'>leather furniture repair</a> clients — all in the service vehicle. Work begins and completes in the same visit for most repairs. No workshop drop-off. No material wait. If you book before noon, a same-day slot is typically available. Most Shakti Khand repairs — including comprehensive foam and spring restoration — are resolved in a single afternoon.",
+    "From ₹500, the free on-site assessment gives you a clear, itemised quote for every repair element. Our craftsmen carry high-density foam in three grades, spring components, fabric swatches in 40+ choices, and leather conditioning materials for our <a href='/leather-sofa-repair-indirapuram'>leather furniture repair</a> clients — all in the service vehicle. Work begins and completes in the same visit for most repairs. No workshop drop-off. No material wait. If you book before noon, a same-day slot is typically available. Most Shakti Khand repairs — including comprehensive foam and spring restoration — are resolved in a single afternoon.",
   ],
   whyChoose: [
     {

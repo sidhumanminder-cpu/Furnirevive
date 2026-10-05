@@ -3,15 +3,15 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const reclinerRepairDlfPhase1Gurgaon: SeoPageData = {
   slug: "recliner-repair-dlf-phase-1-gurgaon",
-  title: "Recliner Repair in DLF Phase 1 Gurgaon | Luxury Doorstep Service | FurniRevive",
-  metaDescription: "Specialist recliner repair in DLF Phase 1 Gurgaon — Golf Course Road's most established zone. Electric motor, mechanism, leather restoration from ₹1,499. 6-month warranty.",
+  title: "Recliner Repair in DLF Phase 1 Gurgaon | FurniRevive",
+  metaDescription: "Specialist recliner repair in DLF Phase 1 Gurgaon — Golf Course Road's most established zone. Electric motor, mechanism, leather restoration from ₹1,499.",
   h1: "Recliner Repair in DLF Phase 1, Gurgaon",
   heroSubtitle: "DLF Phase 1 is home to Gurgaon's original luxury addresses — established villas, premium builder floors, senior executives. Your luxury recliner deserves specialist repair. From ₹1,499. 6-month warranty.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
-    altText: "Professional sofa repair technician working on a beige premium fabric sofa in a luxury Gurgaon (DLF Phase 1) home — FurniRevive",
-    caption: "Sofa Repair in Gurgaon (DLF Phase 1) | Premium upholstery & foam service | Home visit | FurniRevive",
+    altText: "Professional recliner repair technician working on a beige premium fabric sofa in a luxury Gurgaon (DLF Phase 1) home — FurniRevive",
+    caption: "Recliner Repair in Gurgaon (DLF Phase 1) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer: "FurniRevive provides 4.8-star rated doorstep recliner repair across DLF Phase 1, Gurgaon — covering every block, villa pocket and builder-floor cluster — starting at ₹1,499. We repair all recliner types: manual mechanism, electric motor and actuator, USB and power console, leather and fabric upholstery. All major brands: La-Z-Boy, Durian, Natuzzi, Stressless, Ashley, and Godrej. Free on-site assessment, fixed transparent quote before any work begins, 6-month digital warranty.",
   intro: [

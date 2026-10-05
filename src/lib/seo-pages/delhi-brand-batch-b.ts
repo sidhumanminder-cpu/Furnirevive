@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const homeCentreFurnitureRepairDelhi: SeoPageData = {
   slug: "home-centre-furniture-repair-delhi",
-  title: "Home Centre Furniture Repair in Delhi | Sofa and Furniture Restoration Experts | FurniRevive",
-  metaDescription: "Expert repair services for Home Centre furniture in Delhi. Sofa repair, recliner repair, foam replacement at your doorstep. 6-month warranty. Call FurniRevive now.",
+  title: "Home Centre Furniture Repair in Delhi | FurniRevive",
+  metaDescription: "Expert repair services for Home Centre furniture in Delhi. Sofa repair, recliner repair, foam replacement at your doorstep. 6-month warranty.",
   h1: "Home Centre Furniture Repair in Delhi | Expert Sofa and Furniture Restoration",
   heroSubtitle: "Professional repair and restoration services for furniture purchased from Home Centre stores in Delhi. Doorstep pickup, expert craftsmanship, 6-month warranty on all repairs.",
   showcaseImage: {
@@ -235,8 +235,8 @@ const homeCentreFurnitureRepairDelhi: SeoPageData = {
 
 const evokFurnitureRepairDelhi: SeoPageData = {
   slug: "evok-furniture-repair-delhi",
-  title: "Evok Furniture Repair in Delhi | Modular and Wooden Furniture Restoration | FurniRevive",
-  metaDescription: "Expert repair services for Evok furniture in Delhi. Modular furniture repair, wooden furniture restoration, sofa repair at your doorstep. 6-month warranty. Call FurniRevive now.",
+  title: "Evok Furniture Repair in Delhi | FurniRevive",
+  metaDescription: "Expert repair services for Evok furniture in Delhi. Modular furniture repair, wooden furniture restoration, sofa repair at your doorstep. 6-month warranty.",
   h1: "Evok Furniture Repair in Delhi | Modular and Wooden Furniture Restoration Experts",
   heroSubtitle: "Professional repair and restoration services for furniture purchased from Evok stores in Delhi. Modular connector repair, wooden finish restoration, sofa upholstery replacement -- doorstep service with 6-month warranty.",
   showcaseImage: {

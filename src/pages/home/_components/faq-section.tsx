@@ -15,7 +15,7 @@ const HOMEPAGE_FAQS = [
   {
     question: "How much does furniture repair cost in Delhi NCR?",
     answer:
-      "Furniture repair in Delhi NCR is affordable with FurniRevive. Chair repair starts at ₹599, sofa repair at ₹999, bed repair at ₹1,199, and wood polish at ₹799. We provide a free doorstep inspection and transparent quotation before starting any work. Professional furniture repair saves you 50-70% compared to buying new furniture.",
+      "Furniture repair in Delhi NCR is affordable with FurniRevive. Chair repair starts at ₹599, sofa repair at ₹500, bed repair at ₹1,199, and wood polish at ₹799. We provide a free doorstep inspection and transparent quotation before starting any work. Professional furniture repair saves you 50-70% compared to buying new furniture.",
   },
   {
     question: "How do I find a reliable carpenter near me in Delhi?",

@@ -47,6 +47,11 @@ export default function LayoutCityTemplate({ entry }: Props) {
       title: entry.metaTitle,
       description: entry.metaDescription,
       canonical,
+      keywords: [
+        `${entry.layoutName.toLowerCase()} modular kitchen`,
+        `modular kitchen ${entry.cityName.toLowerCase()}`,
+        "modular kitchen",
+      ],
       ogTitle: entry.metaTitle,
       ogDescription: entry.metaDescription,
       ogUrl: canonical,

@@ -232,6 +232,17 @@ export type TestimonialsProps = {
   items: TestimonialItem[];
 };
 
+export type BeforeAfterProps = {
+  /** Only this service's case studies are shown */
+  service: "sofa-repair" | "recliner-repair" | "furniture-repair" | "sofa-upholstery";
+  /** Page slug, used for related-service links */
+  pageSlug: string;
+  /** City key, e.g. "gurgaon" */
+  cityName: string;
+};
+
+export type BeforeAfterSectionData = SectionData<"before-after", BeforeAfterProps>;
+
 export type TestimonialsSectionData = SectionData<"testimonials", TestimonialsProps>;
 
 export type ProcessStep = {
@@ -627,6 +638,7 @@ export type PageSectionData =
   | WhyChooseSectionData
   | ComparisonSectionData
   | TestimonialsSectionData
+  | BeforeAfterSectionData
   | TopicalAuthoritySectionData
   | BlogLinksSectionData
   | ServicesGridSectionData

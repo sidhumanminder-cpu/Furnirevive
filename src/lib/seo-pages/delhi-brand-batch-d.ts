@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const royaloakFurnitureRepairDelhi: SeoPageData = {
   slug: "royaloak-furniture-repair-delhi",
-  title: "Royaloak Furniture Repair in Delhi | Sofa and Furniture Restoration Experts | FurniRevive",
-  metaDescription: "Expert repair services for Royaloak furniture in Delhi. Leatherette sofa repair, recliner repair, foam replacement at your doorstep. 6-month warranty. Call FurniRevive.",
+  title: "Royaloak Furniture Repair in Delhi | FurniRevive",
+  metaDescription: "Expert repair services for Royaloak furniture in Delhi. Leatherette sofa repair, recliner repair, foam replacement at your doorstep. 6-month warranty.",
   h1: "Royaloak Furniture Repair in Delhi | Expert Sofa and Furniture Restoration",
   heroSubtitle: "Trusted repair services for furniture purchased from Royaloak across Delhi. Leatherette peeling? Recliner stuck? Foam gone flat? We restore it at your doorstep -- 6-month service warranty included.",
   showcaseImage: {
@@ -235,8 +235,8 @@ const royaloakFurnitureRepairDelhi: SeoPageData = {
 
 const nilkamalFurnitureRepairDelhi: SeoPageData = {
   slug: "nilkamal-furniture-repair-delhi",
-  title: "Nilkamal Furniture Repair in Delhi | Sofa, Office Chair and Wooden Furniture Repair | FurniRevive",
-  metaDescription: "Expert repair services for Nilkamal furniture in Delhi. Office chair repair, sofa foam replacement, wooden furniture restoration at your doorstep. 6-month warranty. Call FurniRevive.",
+  title: "Nilkamal Furniture Repair in Delhi | FurniRevive",
+  metaDescription: "Expert repair services for Nilkamal furniture in Delhi. Office chair repair, sofa foam replacement, wooden furniture restoration at your doorstep.",
   h1: "Nilkamal Furniture Repair in Delhi | Sofa, Office Chair and Wooden Furniture Restoration",
   heroSubtitle: "Professional repair services for furniture purchased from Nilkamal across Delhi. Office chair broken? Sofa gone flat? Wooden furniture joints loose? We repair it at your doorstep -- 6-month service warranty included.",
   showcaseImage: {

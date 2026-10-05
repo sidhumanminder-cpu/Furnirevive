@@ -12,12 +12,9 @@ const reclineRepairTilakNagar: SeoPageData = {
   slug: "recliner-repair-tilak-nagar",
 
   title:
-    "Recliner Repair in Tilak Nagar Delhi | Motor, Mechanism & Leather Fix | FurniRevive",
+    "Recliner Repair in Tilak Nagar Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Tilak Nagar, West Delhi. Electric motor repair, mechanism fixes, leather restoration & foam replacement for all recliners. Free home visit. Starting ₹1,499. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Tilak Nagar, West Delhi. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Tilak Nagar – Expert Doorstep Service | Same Day",
 
@@ -25,12 +22,10 @@ const reclineRepairTilakNagar: SeoPageData = {
     "Motor repair, mechanism fixes, leather restoration and full reupholstery for all recliner brands in Tilak Nagar. Free home visit across all blocks. Same-day slots available.",
 
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your West Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
-    altText:
-      "Professional sofa repair technician working on a light grey premium fabric sofa in a luxury West Delhi (Tilak Nagar) home — FurniRevive",
-    caption:
-      "Recliner Repair in West Delhi (Tilak Nagar) | Premium upholstery & foam service | Home visit | FurniRevive",
+    heading: "Premium Recliner Repair — Expert Service at Your West Delhi Home",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
+    altText: "Professional recliner repair technician working on a dark grey power recliner in a luxury West Delhi (Tilak Nagar) home — FurniRevive",
+    caption: "Recliner Repair in West Delhi (Tilak Nagar) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
 
   quickAnswer:

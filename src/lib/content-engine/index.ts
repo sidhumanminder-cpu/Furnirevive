@@ -50,6 +50,8 @@ export type {
   ComparisonProps,
   ComparisonSectionData,
   TestimonialItem,
+  BeforeAfterProps,
+  BeforeAfterSectionData,
   TestimonialsProps,
   TestimonialsSectionData,
   TopicalAuthorityLink,

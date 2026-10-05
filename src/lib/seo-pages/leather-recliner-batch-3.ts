@@ -4,9 +4,9 @@ import type { SeoPageData } from "@/lib/seo-constants.ts";
 
 export const gamingChairRepairDelhi: SeoPageData = {
   slug: "gaming-chair-repair-delhi",
-  title: "Gaming Chair Repair in Delhi | Gas Lift, Wheels & Armrest – FurniRevive",
+  title: "Gaming Chair Repair in Delhi",
   metaDescription:
-    "Gaming chair repair in Delhi from ₹500. Gas lift, wheels, armrest & recline mechanism fixed at doorstep. All brands. Same-day service. Call +91 92179 99355.",
+    "Gaming chair repair in Delhi from ₹500. Gas lift, wheels, armrest & recline mechanism fixed at doorstep. All brands. Same-day service.",
   h1: "Gaming Chair Repair in Delhi — Gas Lift, Wheels & Mechanisms Fixed",
   heroSubtitle:
     "Fast, affordable gaming chair repair across Delhi — DXRacer, Secretlab, Green Soul & all brands fixed at your doorstep from ₹500.",
@@ -402,7 +402,7 @@ export const gamingChairRepairGhaziabad: SeoPageData = {
   slug: "gaming-chair-repair-ghaziabad",
   title: "Gaming Chair Repair in Ghaziabad | Doorstep Service – FurniRevive",
   metaDescription:
-    "Gaming chair repair in Ghaziabad from ₹500. Gas lift, wheels & armrest fixed at home. Indirapuram, Vaishali, Vasundhara. 6-month warranty. Call +91 92179 99355.",
+    "Gaming chair repair in Ghaziabad from ₹500. Gas lift, wheels & armrest fixed at home. Indirapuram, Vaishali, Vasundhara. 6-month warranty.",
   h1: "Gaming Chair Repair in Ghaziabad — Affordable Doorstep Service",
   heroSubtitle:
     "Fast gaming chair repair across Ghaziabad — Indirapuram, Vaishali & Vasundhara covered with same-day doorstep service from ₹500.",
@@ -531,9 +531,9 @@ export const gamingChairRepairGhaziabad: SeoPageData = {
 
 export const gamingChairHydraulicRepairDelhi: SeoPageData = {
   slug: "gaming-chair-hydraulic-repair-delhi",
-  title: "Gaming Chair Hydraulic Repair in Delhi | Gas Lift Fixed – FurniRevive",
+  title: "Gaming Chair Hydraulic Repair in Delhi",
   metaDescription:
-    "Gaming chair hydraulic (gas lift) repair in Delhi from ₹500. Chair keeps sinking? Fixed at doorstep in 20 minutes. All brands. Same-day service. Call +91 92179 99355.",
+    "Gaming chair hydraulic (gas lift) repair in Delhi from ₹500. Chair keeps sinking? Fixed at doorstep in 20 minutes. All brands. Same-day service.",
   h1: "Gaming Chair Hydraulic Repair in Delhi — Fix Your Sinking Gaming Chair",
   heroSubtitle:
     "Specialist gaming chair gas lift (hydraulic) repair across Delhi — stop the sinking chair permanently with a ₹500–₹1,200 cylinder replacement at your doorstep.",

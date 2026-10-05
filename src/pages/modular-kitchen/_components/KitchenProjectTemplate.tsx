@@ -106,6 +106,11 @@ const KitchenProjectTemplate = ({ entry, faqs }: Props) => {
       title: metaTitle,
       description: metaDesc,
       canonical,
+      keywords: [
+        "modular kitchen",
+        `modular kitchen ${entry.projectName.toLowerCase()}`,
+        `modular kitchen ${entry.localityName.toLowerCase()}`,
+      ],
       ogUrl: canonical,
       ogType: "website",
     });

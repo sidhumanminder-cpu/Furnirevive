@@ -276,6 +276,11 @@ const DimensionTemplate = ({ entry, faqs }: Props) => {
       title: metaTitle,
       description: metaDesc,
       canonical,
+      keywords: [
+        `${entry.dimensionLabel.toLowerCase()} modular kitchen`,
+        `modular kitchen ${entry.localityName.toLowerCase()}`,
+        `modular kitchen ${entry.cityName.toLowerCase()}`,
+      ],
       ogUrl: canonical,
     });
 

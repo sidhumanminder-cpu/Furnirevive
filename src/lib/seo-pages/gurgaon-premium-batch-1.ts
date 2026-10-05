@@ -7,10 +7,10 @@ const italianSofaRepairGurgaon: SeoPageData = {
   slug: "italian-sofa-repair-gurgaon",
   title: "Italian Sofa Repair in Gurgaon | Imported Leather Sofa Experts",
   metaDescription:
-    "Expert Italian sofa repair in Gurgaon from ₹999. Natuzzi, imported leather & luxury sectional restoration at your doorstep. DLF, Golf Course Road. 6-month warranty. FurniRevive.",
+    "Expert Italian sofa repair in Gurgaon from ₹500. Natuzzi, imported leather & luxury sectional restoration at your doorstep. DLF, Golf Course Road.",
   h1: "Italian Sofa Repair in Gurgaon | Imported Sofa Restoration Specialists",
   heroSubtitle:
-    "Gurgaon's specialist for Italian and imported sofa restoration. Natuzzi Italia, Poltrona Frau, Flexform — leather reconditioning, colour restoration, foam replacement, structural repair — entirely at your doorstep across DLF Phase 1–5, Golf Course Road, Golf Course Extension Road, and all luxury Gurgaon addresses. From ₹999. 6-month warranty.",
+    "Gurgaon's specialist for Italian and imported sofa restoration. Natuzzi Italia, Poltrona Frau, Flexform — leather reconditioning, colour restoration, foam replacement, structural repair — entirely at your doorstep across DLF Phase 1–5, Golf Course Road, Golf Course Extension Road, and all luxury Gurgaon addresses. From ₹500. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -159,7 +159,7 @@ const italianSofaRepairGurgaon: SeoPageData = {
     {
       question: "What does Italian sofa repair cost in Gurgaon?",
       answer:
-        "Starts at ₹999. Leather conditioning: ₹3,000–₹8,000. Full colour restoration: ₹10,000–₹25,000. Foam replacement: ₹8,000–₹18,000. Comprehensive sectional restoration: ₹30,000–₹55,000. Fixed quote after free on-site assessment.",
+        "Starts at ₹500. Leather conditioning: ₹3,000–₹8,000. Full colour restoration: ₹10,000–₹25,000. Foam replacement: ₹8,000–₹18,000. Comprehensive sectional restoration: ₹30,000–₹55,000. Fixed quote after free on-site assessment.",
     },
     {
       question: "Do you repair Natuzzi sofas in Gurgaon?",
@@ -255,9 +255,9 @@ const italianSofaRepairGurgaon: SeoPageData = {
 
 const designerFurnitureRepairGurgaon: SeoPageData = {
   slug: "designer-furniture-repair-gurgaon",
-  title: "Designer Furniture Repair in Gurgaon | Luxury Furniture Specialists",
+  title: "Designer Furniture Repair in Gurgaon",
   metaDescription:
-    "Expert designer furniture repair in Gurgaon. Premium upholstery, luxury seating & bespoke furniture restoration at your doorstep. DLF, Golf Course Road. 6-month warranty. FurniRevive.",
+    "Expert designer furniture repair in Gurgaon. Premium upholstery, luxury seating & bespoke furniture restoration at your doorstep. DLF, Golf Course Road.",
   h1: "Designer Furniture Repair in Gurgaon | Luxury Furniture Restoration Experts",
   heroSubtitle:
     "Designer furniture demands a restoration service that understands design intent, premium materials, and the aesthetic standards of the pieces it works on. FurniRevive repairs and restores designer sofas, luxury seating, bespoke statement furniture, and premium upholstery across Gurgaon's most discerning residential addresses — entirely at your doorstep. 6-month warranty.",
@@ -272,7 +272,7 @@ const designerFurnitureRepairGurgaon: SeoPageData = {
   intro: [
     "Designer furniture is defined by the convergence of premium materials, skilled construction, and considered aesthetic intent. A Minotti sectional, a B&B Italia modular system, a custom upholstered statement sofa from a premium Gurgaon atelier — these pieces were not merely purchased; they were chosen for their specific contribution to the interior environment they inhabit. The fabric, the form, the scale, and the material patina are all part of a deliberate aesthetic decision. Restoration of designer furniture must honour that design intent — not merely repair the damage, but preserve the aesthetic character that makes the piece valuable.",
     "FurniRevive's designer furniture repair team serves all of Gurgaon's premium design-conscious residential communities: <a href='/sofa-repair-dlf-phase-1'>DLF Phase 1</a>, <a href='/sofa-repair-dlf-phase-2'>DLF Phase 2</a>, <a href='/sofa-repair-dlf-phase-3'>DLF Phase 3</a>, <a href='/sofa-repair-dlf-phase-4'>DLF Phase 4</a>, <a href='/sofa-repair-dlf-phase-5'>DLF Phase 5</a>, <a href='/sofa-repair-golf-course-road'>Golf Course Road</a>, <a href='/sofa-repair-golf-course-extension-road'>Golf Course Extension Road</a>, <a href='/sofa-repair-nirvana-country'>Nirvana Country</a>, <a href='/sofa-repair-south-city-1-gurgaon'>South City 1</a>, <a href='/sofa-repair-emerald-hills-gurgaon'>Emerald Hills</a>, <a href='/sofa-repair-suncity-gurgaon'>Suncity</a>, and all major Gurgaon sectors. Our craftsmen combine specialist technical capability with an understanding of design language — they know the difference between a repair that preserves a piece's aesthetic identity and one that compromises it.",
-    "The service begins with a comprehensive free on-site assessment that evaluates the piece on its own terms — its design language, its material specification, and its specific restoration requirements. You receive a fixed quote before any work begins. Designer furniture restoration in Gurgaon from ₹999, with a 6-month workmanship warranty on every project.",
+    "The service begins with a comprehensive free on-site assessment that evaluates the piece on its own terms — its design language, its material specification, and its specific restoration requirements. You receive a fixed quote before any work begins. Designer furniture restoration in Gurgaon from ₹500, with a 6-month workmanship warranty on every project.",
   ],
   whyChoose: [
     {
@@ -401,7 +401,7 @@ const designerFurnitureRepairGurgaon: SeoPageData = {
     {
       question: "What does designer furniture repair cost in Gurgaon?",
       answer:
-        "Starts at ₹999. Leather restoration: ₹4,000–₹20,000. Re-upholstery with premium fabric: ₹15,000–₹50,000. Structural repair: ₹3,000–₹15,000. Fixed quote after free on-site assessment.",
+        "Starts at ₹500. Leather restoration: ₹4,000–₹20,000. Re-upholstery with premium fabric: ₹15,000–₹50,000. Structural repair: ₹3,000–₹15,000. Fixed quote after free on-site assessment.",
     },
     {
       question: "Do you preserve the design details of designer furniture during repair?",

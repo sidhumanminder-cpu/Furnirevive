@@ -5,7 +5,7 @@ export const areasWeServePage: SeoPageData = {
   slug: "areas-we-serve",
   title: "Areas We Serve | Furniture Repair Delhi NCR | FurniRevive",
   metaDescription:
-    "FurniRevive offers professional sofa repair, furniture repair & recliner repair across Delhi (South, West, East, North, Dwarka, Rohini) and NCR (Noida, Gurgaon, Ghaziabad, Faridabad). Same-day doorstep service available.",
+    "FurniRevive offers professional sofa repair, furniture repair & recliner repair across Delhi (South, West, East, North, Dwarka, Rohini) and NCR (Noida.",
   h1: "Areas We Serve – Furniture Repair Across Delhi & NCR",
   heroSubtitle:
     "Professional sofa, furniture & recliner repair at your doorstep — covering all major localities in Delhi, Noida, Gurgaon, Ghaziabad and Faridabad.",

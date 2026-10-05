@@ -3,7 +3,7 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const sofaRepairSector105Noida: SeoPageData = {
   slug: "sofa-repair-sector-105-noida",
-  title: "Sofa Repair in Sector 105 Noida | Furniture Restoration Experts | FurniRevive",
+  title: "Sofa Repair in Sector 105 Noida | FurniRevive",
   metaDescription:
     "Expert sofa repair in Sector 105 Noida — leather restoration, recliner motor repair & foam replacement at your doorstep. 1-year warranty. Book today!",
   h1: "Sofa Repair in Sector 105 Noida | Doorstep Sofa Repair Services",
@@ -16,7 +16,7 @@ const sofaRepairSector105Noida: SeoPageData = {
     caption: "Sofa Repair in Noida (Sector 105) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides doorstep sofa repair in Sector 105 Noida with same-day or next-day appointments. We handle leather sofa cracking, recliner motor failures, foam deterioration, and full upholstery replacement for Natuzzi, La-Z-Boy, Ashley, and all imported brands. Repairs start from ₹999 and come with a 1-year service warranty.",
+    "FurniRevive provides doorstep sofa repair in Sector 105 Noida with same-day or next-day appointments. We handle leather sofa cracking, recliner motor failures, foam deterioration, and full upholstery replacement for Natuzzi, La-Z-Boy, Ashley, and all imported brands. Repairs start from ₹500 and come with a 1-year service warranty.",
 
   intro: [
     "Sector 105 Noida is one of the most sought-after residential corridors along the Noida Expressway, home to premium townships like Jaypee Greens, ATS Kocoon, and Supertech Azalia. Residents here are typically IT executives, NRIs, and high-income families who invest significantly in quality furniture — often imported pieces from Natuzzi, La-Z-Boy, Ashley, and other international brands. When a ₹1.5 lakh leather sectional starts cracking or a power recliner refuses to respond, you need a repair partner with the expertise to match the quality of the furniture itself. That's exactly what FurniRevive delivers. Our <a href='/sofa-repair-noida'>sofa repair in Noida</a> team includes specialists in <a href='/leather-sofa-repair-noida'>leather sofa repair</a> and <a href='/imported-furniture-repair-noida'>imported furniture repair</a> with years of hands-on experience on premium upholstery.",
@@ -106,7 +106,7 @@ const sofaRepairSector105Noida: SeoPageData = {
     {
       heading: "Sofa Repair Pricing Guide for Sector 105 Noida",
       body: [
-        "Understanding what a repair will cost before committing is important, especially for high-value furniture. Here's a transparent breakdown of our pricing for common sofa repair services in Sector 105 Noida: Basic repairs (loose joints, broken legs, minor structural fixes) start from ₹999. Spring replacement costs ₹1,500–₹4,000 depending on the number of springs and sofa type. <a href='/sofa-foam-replacement-noida'>Foam replacement</a> is priced at ₹999–₹2,500 per seat based on foam density and size. <a href='/sofa-upholstery-noida'>Upholstery replacement</a> ranges from ₹3,000–₹15,000 per seat depending on fabric quality and sofa complexity.",
+        "Understanding what a repair will cost before committing is important, especially for high-value furniture. Here's a transparent breakdown of our pricing for common sofa repair services in Sector 105 Noida: Basic repairs (loose joints, broken legs, minor structural fixes) start from ₹500. Spring replacement costs ₹1,500–₹4,000 depending on the number of springs and sofa type. <a href='/sofa-foam-replacement-noida'>Foam replacement</a> is priced at ₹999–₹2,500 per seat based on foam density and size. <a href='/sofa-upholstery-noida'>Upholstery replacement</a> ranges from ₹3,000–₹15,000 per seat depending on fabric quality and sofa complexity.",
         "For the premium furniture common in Sector 105: <a href='/leather-sofa-repair-noida'>Leather sofa repair</a> (conditioning, crack repair, colour restoration) is priced at ₹2,500–₹12,000 per project. <a href='/recliner-repair-noida'>Recliner repair</a> costs ₹1,499–₹6,000 covering mechanism, motor, and electrical issues. <a href='/recliner-motor-repair-noida'>Recliner motor replacement</a> alone costs ₹2,500–₹5,000 with OEM-compatible parts. Full <a href='/luxury-sofa-restoration-noida'>luxury sofa restoration</a> for imported pieces ranges from ₹15,000–₹40,000 depending on size and complexity. All prices include doorstep service within Sector 105 with no additional travel charges, and all work is covered by our 1-year warranty. We also offer EMI-friendly payment options for larger restoration projects — ask our team when booking.",
       ],
     },
@@ -158,7 +158,7 @@ const sofaRepairSector105Noida: SeoPageData = {
     {
       question: "What is the cost of sofa repair in Sector 105 Noida?",
       answer:
-        "Sofa repair costs in Sector 105 Noida start from ₹999 for basic repairs like loose joints or minor structural fixes. Foam replacement is ₹999–₹2,500 per seat, upholstery replacement ₹3,000–₹15,000 per seat, leather repair ₹2,500–₹12,000 per project, and recliner repair ₹1,499–₹6,000. Full luxury restoration for premium imported pieces ranges from ₹15,000–₹40,000. All prices include doorstep service with no travel charges for Sector 105.",
+        "Sofa repair costs in Sector 105 Noida start from ₹500 for basic repairs like loose joints or minor structural fixes. Foam replacement is ₹999–₹2,500 per seat, upholstery replacement ₹3,000–₹15,000 per seat, leather repair ₹2,500–₹12,000 per project, and recliner repair ₹1,499–₹6,000. Full luxury restoration for premium imported pieces ranges from ₹15,000–₹40,000. All prices include doorstep service with no travel charges for Sector 105.",
     },
     {
       question: "Do you service Jaypee Greens, ATS Kocoon, and Supertech Azalia?",
@@ -272,7 +272,7 @@ const sofaRepairSector105Noida: SeoPageData = {
 
 const sofaRepairSector128Noida: SeoPageData = {
   slug: "sofa-repair-sector-128-noida",
-  title: "Sofa Repair in Sector 128 Noida | Furniture Restoration Experts | FurniRevive",
+  title: "Sofa Repair in Sector 128 Noida | FurniRevive",
   metaDescription:
     "Premium sofa repair in Sector 128 Noida — designer & custom furniture restoration, leather repair, villa doorstep service. 1-year warranty. Call now!",
   h1: "Sofa Repair in Sector 128 Noida | Doorstep Sofa Repair Services",
@@ -285,7 +285,7 @@ const sofaRepairSector128Noida: SeoPageData = {
     caption: "Sofa Repair in Noida (Sector 128) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers expert doorstep sofa repair in Sector 128 Noida, specialising in designer and custom furniture restoration, villa-scale on-site work, antique upholstery, and imported fabric damage repair. Same-day and next-day slots available. Repairs from ₹999 with a 1-year warranty.",
+    "FurniRevive offers expert doorstep sofa repair in Sector 128 Noida, specialising in designer and custom furniture restoration, villa-scale on-site work, antique upholstery, and imported fabric damage repair. Same-day and next-day slots available. Repairs from ₹500 with a 1-year warranty.",
 
   intro: [
     "Sector 128 Noida represents the zenith of luxury residential living along the Noida Expressway — home to the iconic Jaypee Greens Golf & Spa Resort residences, ATS Marigold's elegant townhouses, and SCC Heights' premium apartments. Furniture in these homes tells a story of curated taste: custom-designed pieces from boutique studios, heritage heirloom sofas passed down through generations, imported Italian and Scandinavian designs selected on international shopping trips. When any of these pieces needs repair, you don't want a generic service — you want specialists who understand design-conscious living. FurniRevive's <a href='/sofa-repair-noida'>sofa repair Noida</a> team includes dedicated experts for <a href='/designer-furniture-repair-noida'>designer furniture repair</a> and <a href='/luxury-furniture-restoration-noida'>luxury furniture restoration</a> with a deep appreciation for the investment and intentionality behind premium pieces.",
@@ -442,7 +442,7 @@ const sofaRepairSector128Noida: SeoPageData = {
     {
       question: "What is the cost of sofa repair in Sector 128 Noida?",
       answer:
-        "Repair costs in Sector 128 start at ₹999 for basic repairs. Foam replacement is ₹999–₹2,500 per seat. Standard upholstery replacement is ₹3,000–₹15,000 per seat, with premium fabrics priced additionally. Leather repair and restoration is ₹2,500–₹12,000. Custom and designer furniture repair is assessed on-site, typically ₹5,000–₹25,000. Antique restoration ranges from ₹8,000–₹35,000. Full luxury restoration is ₹15,000–₹40,000. All work includes doorstep service with no travel surcharge and a 1-year warranty.",
+        "Repair costs in Sector 128 start at ₹500 for basic repairs. Foam replacement is ₹999–₹2,500 per seat. Standard upholstery replacement is ₹3,000–₹15,000 per seat, with premium fabrics priced additionally. Leather repair and restoration is ₹2,500–₹12,000. Custom and designer furniture repair is assessed on-site, typically ₹5,000–₹25,000. Antique restoration ranges from ₹8,000–₹35,000. Full luxury restoration is ₹15,000–₹40,000. All work includes doorstep service with no travel surcharge and a 1-year warranty.",
     },
     {
       question: "Do you serve Jaypee Greens Golf & Spa, ATS Marigold, and SCC Heights in Sector 128?",

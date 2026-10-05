@@ -7,17 +7,17 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 export const sofaRepairBeforeAfterDelhi: SeoPageData = {
   slug: "sofa-repair-before-after-delhi",
   title:
-    "Sofa Repair Before & After Delhi | Real Transformations | FurniRevive",
+    "Sofa Repair Before & After Delhi | FurniRevive",
   metaDescription:
-    "See real sofa repair before and after results from Delhi homes. Sagging sofas, torn upholstery, broken frames — all transformed by FurniRevive. Starting ₹999. Book your sofa transformation today!",
+    "See real sofa repair before and after results from Delhi homes. Sagging sofas, torn upholstery, broken frames — all transformed by FurniRevive.",
   h1: "Sofa Repair Before & After in Delhi — Real Transformations by FurniRevive",
   heroSubtitle:
-    "Don't replace your sofa — transform it. See real before and after results from Delhi homes where FurniRevive turned tired, damaged sofas into showroom-quality pieces. Cushion re-stuffing, re-upholstery, frame repair — the same results are possible for your sofa. Starting ₹999.",
+    "Don't replace your sofa — transform it. See real before and after results from Delhi homes where FurniRevive turned tired, damaged sofas into showroom-quality pieces. Cushion re-stuffing, re-upholstery, frame repair — the same results are possible for your sofa. Starting ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Real Before & After Transformations in Delhi",
     imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
     altText: "Professional sofa repair technician working on a premium fabric sofa in a Delhi home — FurniRevive before and after transformation",
-    caption: "Sofa Repair Before & After Delhi | Real transformations starting ₹999 | Home visit | FurniRevive",
+    caption: "Sofa Repair Before & After Delhi | Real transformations starting ₹500 | Home visit | FurniRevive",
   },
   quickAnswer:
     "FurniRevive has transformed 5,000+ sofas across Delhi. Common before-and-after results: sagging cushions restored to firm comfort (₹999–₹4,500), torn upholstery replaced with new fabric/leather (₹3,000–₹15,000), and broken frames rebuilt to original strength (₹1,500–₹3,000). See real Delhi transformations and book yours.",
@@ -174,7 +174,7 @@ export const furnitureRepairGalleryDelhi: SeoPageData = {
   title:
     "Furniture Repair Gallery Delhi | Real Work Photos | FurniRevive",
   metaDescription:
-    "Browse FurniRevive's furniture repair gallery — real before-and-after photos from Delhi homes. Sofas, beds, tables, chairs, wardrobes transformed. See our work quality before you book!",
+    "Browse FurniRevive's furniture repair gallery — real before-and-after photos from Delhi homes. Sofas, beds, tables, chairs, wardrobes transformed.",
   h1: "Furniture Repair Gallery Delhi — Real Work From Real Delhi Homes",
   heroSubtitle:
     "See what professional furniture repair looks like — not stock photos, but real transformations from Delhi homes. Sofas, beds, dining tables, wardrobes, chairs — browse our gallery of 5,000+ repairs and imagine what's possible for your furniture.",
@@ -338,10 +338,10 @@ export const sofaRepairPhotosDelhi: SeoPageData = {
   title:
     "Sofa Repair Photos Delhi | Real Work Images | FurniRevive",
   metaDescription:
-    "Real sofa repair photos from Delhi homes — cushion re-stuffing, re-upholstery, frame repair, leather restoration. See FurniRevive's actual work quality. Starting ₹999. Book your repair!",
+    "Real sofa repair photos from Delhi homes — cushion re-stuffing, re-upholstery, frame repair, leather restoration. See FurniRevive's actual work quality.",
   h1: "Sofa Repair Photos Delhi — Real Work From FurniRevive's Delhi Team",
   heroSubtitle:
-    "Stop wondering what professional sofa repair looks like — see it. Real photos from real Delhi repairs showing cushion restoration, fabric renewal, frame repair, leather restoration, and complete overhauls. Starting ₹999.",
+    "Stop wondering what professional sofa repair looks like — see it. Real photos from real Delhi repairs showing cushion restoration, fabric renewal, frame repair, leather restoration, and complete overhauls. Starting ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Real Work Photos From Delhi",
     imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
@@ -353,7 +353,7 @@ export const sofaRepairPhotosDelhi: SeoPageData = {
   intro: [
     "When you're considering sofa repair, photos of actual completed work tell you more than any marketing copy. FurniRevive's sofa repair photo collection showcases real work from our Delhi operations — not stock images, not studio setups, but genuine before-and-after documentation from homes across South Delhi, Dwarka, Rohini, East Delhi, Greater Kailash, and every neighbourhood we serve.",
     "Each photo set documents a specific repair: the sofa's condition when we arrived, the work in progress, and the final result. Close-up shots show fabric stitching quality, foam density, frame joint work, and finishing details that demonstrate craftsman-level execution. This transparency is our best marketing — when you see the quality of our work, booking becomes an easy decision.",
-    "Whether your sofa needs simple cushion re-stuffing or a complete overhaul, our photo gallery contains examples matching your situation. Browse photos, compare to your sofa's condition, and book the same professional results for your Delhi home. Starting at ₹999 with doorstep service and 6-month warranty.",
+    "Whether your sofa needs simple cushion re-stuffing or a complete overhaul, our photo gallery contains examples matching your situation. Browse photos, compare to your sofa's condition, and book the same professional results for your Delhi home. Starting at ₹500 with doorstep service and 6-month warranty.",
   ],
   whyChoose: [
     {
@@ -420,7 +420,7 @@ export const sofaRepairPhotosDelhi: SeoPageData = {
     "Multiple fabric and leather options shown",
     "Same quality guaranteed for your repair",
     "Doorstep service across all Delhi localities",
-    "Starting at ₹999 — same quality as gallery",
+    "Starting at ₹500 — same quality as gallery",
     "6-month warranty on all photographed quality work",
   ],
   contentSections: [

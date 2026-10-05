@@ -21,9 +21,9 @@ function relatedExcluding(slug: string) {
 export const sofaFabricTearRepairDelhi: SeoPageData = {
   slug: "sofa-fabric-tear-repair-delhi",
   title:
-    "Sofa Fabric Tear & Rip Repair in Delhi | Patch & Re-stitch ₹799 | FurniRevive",
+    "Sofa Fabric Tear & Rip Repair in Delhi | FurniRevive",
   metaDescription:
-    "Expert sofa fabric tear and rip repair in Delhi NCR. Patch work, re-stitching, panel replacement for all fabric types. Doorstep service from ₹799. 6-month warranty. Book now!",
+    "Expert sofa fabric tear and rip repair in Delhi NCR. Patch work, re-stitching, panel replacement for all fabric types. Doorstep service from ₹799.",
   h1: "Sofa Fabric Tear & Rip Repair in Delhi — Professional Patching & Re-Stitching from ₹799",
   heroSubtitle:
     "Torn, ripped, or fraying sofa fabric? FurniRevive's upholstery specialists repair fabric tears, open seams, and rips at your doorstep across Delhi NCR — precision patch work, re-stitching, and panel replacement starting at just ₹799.",
@@ -336,9 +336,9 @@ export const sofaFabricTearRepairDelhi: SeoPageData = {
 export const sofaFrameRepairDelhi: SeoPageData = {
   slug: "sofa-frame-repair-delhi",
   title:
-    "Sofa Frame Repair in Delhi | Broken Frame & Leg Fix ₹1,299 | FurniRevive",
+    "Sofa Frame Repair in Delhi | FurniRevive",
   metaDescription:
-    "Professional sofa frame repair in Delhi NCR. Broken frame joints, cracked wood, wobbly legs, and sagging base fixed by expert carpenters. Doorstep service from ₹1,299. 6-month warranty!",
+    "Professional sofa frame repair in Delhi NCR. Broken frame joints, cracked wood, wobbly legs, and sagging base fixed by expert carpenters.",
   h1: "Sofa Frame Repair in Delhi — Broken Joints, Cracked Wood & Wobbly Legs Fixed from ₹1,299",
   heroSubtitle:
     "Broken sofa frame, cracked joints, or wobbly legs? FurniRevive's expert carpenters repair all sofa frame problems at your doorstep across Delhi NCR — joint re-gluing, wood repair, leg replacement, and base reinforcement starting at ₹1,299 with a 6-month warranty.",
@@ -636,9 +636,9 @@ export const sofaFrameRepairDelhi: SeoPageData = {
 export const reclinerMotorRepairDelhi: SeoPageData = {
   slug: "recliner-motor-repair-delhi",
   title:
-    "Recliner Motor & Mechanism Repair in Delhi | Electric Fix ₹2,499 | FurniRevive",
+    "Recliner Motor & Mechanism Repair in Delhi | FurniRevive",
   metaDescription:
-    "Expert electric recliner motor repair in Delhi NCR. Motor replacement, wiring repair, remote fix, actuator replacement for all brands. Doorstep service from ₹2,499. 6-month warranty!",
+    "Expert electric recliner motor repair in Delhi NCR. Motor replacement, wiring repair, remote fix, actuator replacement for all brands.",
   h1: "Recliner Motor & Mechanism Repair in Delhi — Electric & Manual Recliner Fix from ₹2,499",
   heroSubtitle:
     "Electric recliner not responding? Motor humming but not moving? FurniRevive's recliner motor specialists diagnose and fix all power recliner problems at your doorstep across Delhi NCR — motor replacement, actuator repair, wiring fix, and remote replacement from ₹2,499 with a 6-month warranty.",

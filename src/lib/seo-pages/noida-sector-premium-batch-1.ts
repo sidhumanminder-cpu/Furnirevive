@@ -6,12 +6,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 const sofaRepairSector94Noida: SeoPageData = {
   slug: "sofa-repair-sector-94-noida",
   title:
-    "Sofa Repair in Sector 94 Noida | Premium Sofa Repair Specialists | FurniRevive",
+    "Sofa Repair in Sector 94 Noida | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Sector 94 Noida from ₹999. Leather restoration, foam replacement & recliner repair at your doorstep. 6-month warranty. Book now.",
+    "Expert sofa repair in Sector 94 Noida from ₹500. Leather restoration, foam replacement & recliner repair at your doorstep. 6-month warranty. Book now.",
   h1: "Sofa Repair in Sector 94 Noida | Premium Furniture Restoration Experts",
   heroSubtitle:
-    "Sector 94's luxury riverfront developments and high-end apartments deserve craftsmen who understand premium furniture — not a generic patch-up crew. Doorstep sofa repair covering Jaypee Greens Kosmos, ATS Nobility, Godrej Aria, and every gated society near the Yamuna Expressway junction from ₹999. Same-day slots. 6-month warranty. Imported and Italian sofa specialists.",
+    "Sector 94's luxury riverfront developments and high-end apartments deserve craftsmen who understand premium furniture — not a generic patch-up crew. Doorstep sofa repair covering Jaypee Greens Kosmos, ATS Nobility, Godrej Aria, and every gated society near the Yamuna Expressway junction from ₹500. Same-day slots. 6-month warranty. Imported and Italian sofa specialists.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -19,11 +19,11 @@ const sofaRepairSector94Noida: SeoPageData = {
     caption: "Sofa Repair in Noida (Sector 94) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Sector 94 Noida — covering Jaypee Greens Kosmos, ATS Nobility, Godrej Aria, and premium riverside apartments — starting at ₹999. Our specialists handle Italian leather cracking from AC and UV exposure, imported sofa foam degradation, recliner motor and mechanism failures, and designer upholstery restoration entirely at your home. Free on-site assessment, fixed transparent pricing, and a 6-month workmanship warranty on every booking.",
+    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Sector 94 Noida — covering Jaypee Greens Kosmos, ATS Nobility, Godrej Aria, and premium riverside apartments — starting at ₹500. Our specialists handle Italian leather cracking from AC and UV exposure, imported sofa foam degradation, recliner motor and mechanism failures, and designer upholstery restoration entirely at your home. Free on-site assessment, fixed transparent pricing, and a 6-month workmanship warranty on every booking.",
   intro: [
     "Sector 94 is one of Noida's most aspirational addresses — a luxury riverfront zone where the Yamuna Expressway junction meets a cluster of premium gated communities that set the benchmark for NCR residential living. Residents of Jaypee Greens Kosmos, ATS Nobility, Godrej Aria, and the surrounding high-end apartments have made deliberate choices about every element of their interiors. The Italian leather sectional in the drawing room was hand-selected from a Greater Noida luxury showroom. The imported recliner pair came with a six-month import wait. The designer sofa in the lounge was coordinated with the interior designer's colour palette for three weeks before the final fabric was approved. These are not furniture purchases — they are interior investments. And when AC-induced leather cracking, imported foam degradation, or a failed recliner motor begins to undermine that investment, Sector 94 residents need craftsmen who work at the same level of care as the original furniture. That is precisely where FurniRevive operates.",
     "FurniRevive's <a href='/sofa-repair-noida'>Noida sofa repair</a> team carries dedicated expertise in the premium furniture corridor — covering Sector 94, <a href='/sofa-repair-noida-sector-50'>Sector 50</a>, <a href='/sofa-repair-noida-sector-52'>Sector 52</a>, <a href='/sofa-repair-noida-sector-75'>Sector 75</a>, <a href='/sofa-repair-noida-sector-121'>Sector 121</a>, and extending along the Expressway to <a href='/sofa-repair-noida-sector-137'>Sector 137</a>, <a href='/sofa-repair-noida-sector-143'>Sector 143</a>, and <a href='/sofa-repair-noida-sector-150'>Sector 150</a>. Our craftsmen are trained specifically in <a href='/italian-sofa-repair-noida'>Italian sofa repair</a>, <a href='/leather-sofa-repair-noida'>leather sofa restoration</a>, <a href='/imported-furniture-repair-noida'>imported furniture repair</a>, and <a href='/recliner-motor-repair-noida'>recliner motor repair</a> — the exact problem categories that define Sector 94's repair landscape. We understand the narrow building lifts in Kosmos towers, the security entry process at ATS Nobility, and the south-facing UV exposure that compounds leather damage in Godrej Aria's riverside-facing apartments. Every detail of our service is calibrated to Sector 94's premium residential context.",
-    "Repairs start from ₹999. The free, zero-obligation on-site assessment produces a fixed, itemised quote before a single tool is picked up. That figure does not change. For the <a href='/luxury-sofa-restoration-noida'>luxury sofa restoration</a> work most common in Sector 94 — <a href='/leather-sofa-repair-noida'>full-grain leather crack treatment</a>, <a href='/sofa-foam-replacement-noida'>imported foam replacement</a>, <a href='/recliner-repair-noida'>recliner mechanism overhaul</a>, and <a href='/designer-furniture-repair-noida'>designer upholstery restoration</a> — transparent pricing is not a minor convenience. It is a non-negotiable standard. Book a morning slot and same-day service is typically available. Book before noon and a Sector 94 craftsman arrives the same afternoon. This is <a href='/luxury-furniture-restoration-noida'>premium furniture restoration</a> delivered at the speed that Sector 94 residents expect.",
+    "Repairs start from ₹500. The free, zero-obligation on-site assessment produces a fixed, itemised quote before a single tool is picked up. That figure does not change. For the <a href='/luxury-sofa-restoration-noida'>luxury sofa restoration</a> work most common in Sector 94 — <a href='/leather-sofa-repair-noida'>full-grain leather crack treatment</a>, <a href='/sofa-foam-replacement-noida'>imported foam replacement</a>, <a href='/recliner-repair-noida'>recliner mechanism overhaul</a>, and <a href='/designer-furniture-repair-noida'>designer upholstery restoration</a> — transparent pricing is not a minor convenience. It is a non-negotiable standard. Book a morning slot and same-day service is typically available. Book before noon and a Sector 94 craftsman arrives the same afternoon. This is <a href='/luxury-furniture-restoration-noida'>premium furniture restoration</a> delivered at the speed that Sector 94 residents expect.",
   ],
   whyChoose: [
     {
@@ -42,7 +42,7 @@ const sofaRepairSector94Noida: SeoPageData = {
         "Our craftsmen carry FurniRevive-issued photo ID and a pre-notification message you can forward to building security at Jaypee Greens Kosmos, ATS Nobility, or Godrej Aria before the visit. We understand the entry registration processes for Sector 94's gated societies — residents of premium communities should not have to manage a complicated access procedure every time a specialist visits.",
     },
     {
-      title: "Fixed Pricing From ₹999 — Confirmed Before Work Begins",
+      title: "Fixed Pricing From ₹500 — Confirmed Before Work Begins",
       description:
         "After the free on-site assessment, you receive one itemised quote. No mid-job 'material cost' additions. No 'premium apartment surcharge'. No surprise charges because the sofa turned out to be Italian leather rather than standard domestic fabric. The quote you approve is exactly what you pay — a standard that matters particularly when bringing craftsmen into a high-value Sector 94 home.",
     },
@@ -104,7 +104,7 @@ const sofaRepairSector94Noida: SeoPageData = {
     {
       heading: "Sofa Repair Pricing in Sector 94 Noida — Transparent Cost Guide",
       body: [
-        "All repairs in Sector 94 start at ₹999 and are priced after a free on-site assessment — no call-centre estimates, no approximate ranges that balloon at the door. The most common repairs and their typical ranges: single-seat foam replacement ₹999–₹2,500; full sofa foam replacement (3-seater) ₹4,500–₹9,000; leather crack treatment and surface restoration ₹3,500–₹10,000 depending on damage extent and sofa size; recliner cable replacement ₹1,500–₹3,500; recliner motor or actuator replacement ₹3,500–₹8,000; full re-upholstery of a 3-seater in premium fabric ₹12,000–₹22,000; Italian leather sectional comprehensive restoration (conditioning, crack fill, foam, frame) ₹18,000–₹35,000.",
+        "All repairs in Sector 94 start at ₹500 and are priced after a free on-site assessment — no call-centre estimates, no approximate ranges that balloon at the door. The most common repairs and their typical ranges: single-seat foam replacement ₹999–₹2,500; full sofa foam replacement (3-seater) ₹4,500–₹9,000; leather crack treatment and surface restoration ₹3,500–₹10,000 depending on damage extent and sofa size; recliner cable replacement ₹1,500–₹3,500; recliner motor or actuator replacement ₹3,500–₹8,000; full re-upholstery of a 3-seater in premium fabric ₹12,000–₹22,000; Italian leather sectional comprehensive restoration (conditioning, crack fill, foam, frame) ₹18,000–₹35,000.",
         "For Sector 94's premium furniture — <a href='/italian-sofa-repair-noida'>Italian leather sofas</a>, <a href='/imported-furniture-repair-noida'>imported modular systems</a>, and <a href='/luxury-furniture-restoration-noida'>luxury recliner sets</a> — the repair cost represents a fraction of replacement cost. A 6-seater Italian leather sectional in Jaypee Greens Kosmos purchased at ₹1,80,000–₹2,50,000 can be comprehensively restored for ₹20,000–₹35,000. There is no hidden 'premium apartment' or 'luxury furniture' surcharge in our pricing. The fixed quote reflects the material and labour required — nothing more. Get your free quote today by calling +91 92179 99355 or messaging on WhatsApp. <strong>Book a Doorstep Inspection</strong> and know your exact cost before committing to a single rupee.",
       ],
     },
@@ -162,7 +162,7 @@ const sofaRepairSector94Noida: SeoPageData = {
     {
       question: "What does sofa repair cost in Sector 94 Noida?",
       answer:
-        "Repairs start at ₹999. After a free on-site assessment at your Sector 94 address, you receive a fixed itemised quote. Common repairs: single-seat foam replacement ₹999–₹2,500; Italian leather crack treatment ₹3,500–₹10,000; recliner cable replacement ₹1,500–₹3,500; recliner motor replacement ₹3,500–₹8,000; full 3-seater re-upholstery ₹12,000–₹22,000. The quote does not change after it is given.",
+        "Repairs start at ₹500. After a free on-site assessment at your Sector 94 address, you receive a fixed itemised quote. Common repairs: single-seat foam replacement ₹999–₹2,500; Italian leather crack treatment ₹3,500–₹10,000; recliner cable replacement ₹1,500–₹3,500; recliner motor replacement ₹3,500–₹8,000; full 3-seater re-upholstery ₹12,000–₹22,000. The quote does not change after it is given.",
     },
     {
       question: "Can I get same-day sofa repair in Sector 94 Noida?",
@@ -263,12 +263,12 @@ const sofaRepairSector94Noida: SeoPageData = {
 const sofaRepairSector100Noida: SeoPageData = {
   slug: "sofa-repair-sector-100-noida",
   title:
-    "Sofa Repair in Sector 100 Noida | Doorstep Sofa Repair Experts | FurniRevive",
+    "Sofa Repair in Sector 100 Noida | FurniRevive",
   metaDescription:
-    "Trusted sofa repair in Sector 100 Noida from ₹999. Foam replacement, fabric re-upholstery & recliner repair at your doorstep. 6-month warranty. Book today.",
+    "Trusted sofa repair in Sector 100 Noida from ₹500. Foam replacement, fabric re-upholstery & recliner repair at your doorstep. 6-month warranty. Book today.",
   h1: "Sofa Repair in Sector 100 Noida | Trusted Furniture Repair Specialists",
   heroSubtitle:
-    "Sector 100's premium high-rise societies — Supertech Capetown, Gaur City, and the Golf Course-adjacent towers — are home to families who moved in three to five years ago and are now seeing the first signs of heavy daily use on their sofas. Doorstep sofa repair from ₹999. Foam sagging, fabric pilling, recliner cable failure, armrest wear — all resolved in your flat. Same-day slots. 6-month warranty.",
+    "Sector 100's premium high-rise societies — Supertech Capetown, Gaur City, and the Golf Course-adjacent towers — are home to families who moved in three to five years ago and are now seeing the first signs of heavy daily use on their sofas. Doorstep sofa repair from ₹500. Foam sagging, fabric pilling, recliner cable failure, armrest wear — all resolved in your flat. Same-day slots. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -276,10 +276,10 @@ const sofaRepairSector100Noida: SeoPageData = {
     caption: "Sofa Repair in Noida (Sector 100) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep sofa repair in Sector 100 Noida — covering Supertech Capetown, Gaur City, and Golf Course-adjacent societies — starting at ₹999. Our specialists fix foam sagging in heavily used modular L-shapes, fabric pilling on family sofas, armrest deterioration, and recliner cable failures. Free on-site assessment, fixed pricing, 6-month warranty standard on every booking.",
+    "FurniRevive provides 4.8-star rated doorstep sofa repair in Sector 100 Noida — covering Supertech Capetown, Gaur City, and Golf Course-adjacent societies — starting at ₹500. Our specialists fix foam sagging in heavily used modular L-shapes, fabric pilling on family sofas, armrest deterioration, and recliner cable failures. Free on-site assessment, fixed pricing, 6-month warranty standard on every booking.",
   intro: [
     "Sector 100 is one of Noida's most densely inhabited premium residential corridors — a zone of high-rise family apartments near the Golf Course where thousands of households moved in within a three-to-five year window and have now begun to notice the same thing simultaneously: the modular L-shape sofa in the drawing room, which looked immaculate on shifting day, has developed a persistent sag at the corner seat. The fabric on the armrests has begun to pill and thin at the contact points. The recliner that was added eighteen months ago has developed a stiffness in the footrest travel that is slowly getting worse. In Supertech Capetown, Gaur City, and the Golf Course-adjacent towers, these are not isolated problems — they are the predictable first-wear cycle of quality furniture used daily by active families. And they are entirely, straightforwardly repairable.",
-    "FurniRevive's <a href='/sofa-repair-noida'>Noida sofa repair</a> team covers Sector 100 with the same priority depth as the Expressway corridor — same-day slots, same fixed pricing from ₹999, same 6-month workmanship warranty. Our craftsmen understand the specific repair profile of Sector 100: <a href='/sofa-foam-replacement-noida'>foam replacement</a> in heavily used modular sofas is our most common call in this sector; <a href='/sofa-upholstery-noida'>fabric re-upholstery</a> on armrests and seat panels where daily-use wear has progressed; and <a href='/recliner-repair-noida'>recliner cable and mechanism repair</a> for the growing number of Sector 100 households that invested in recliners during recent home upgrades. We also cover neighbouring sectors at <a href='/sofa-repair-noida-sector-44'>Sector 44</a>, <a href='/sofa-repair-noida-sector-75'>Sector 75</a>, <a href='/sofa-repair-noida-sector-121'>Sector 121</a>, <a href='/sofa-repair-noida-sector-137'>Sector 137</a>, and <a href='/sofa-repair-sector-94-noida'>Sector 94</a> under identical service standards.",
+    "FurniRevive's <a href='/sofa-repair-noida'>Noida sofa repair</a> team covers Sector 100 with the same priority depth as the Expressway corridor — same-day slots, same fixed pricing from ₹500, same 6-month workmanship warranty. Our craftsmen understand the specific repair profile of Sector 100: <a href='/sofa-foam-replacement-noida'>foam replacement</a> in heavily used modular sofas is our most common call in this sector; <a href='/sofa-upholstery-noida'>fabric re-upholstery</a> on armrests and seat panels where daily-use wear has progressed; and <a href='/recliner-repair-noida'>recliner cable and mechanism repair</a> for the growing number of Sector 100 households that invested in recliners during recent home upgrades. We also cover neighbouring sectors at <a href='/sofa-repair-noida-sector-44'>Sector 44</a>, <a href='/sofa-repair-noida-sector-75'>Sector 75</a>, <a href='/sofa-repair-noida-sector-121'>Sector 121</a>, <a href='/sofa-repair-noida-sector-137'>Sector 137</a>, and <a href='/sofa-repair-sector-94-noida'>Sector 94</a> under identical service standards.",
     "Book before noon and same-day afternoon service is typically available in Sector 100. The free, zero-obligation on-site assessment produces a fixed quote — one number, itemised, before any work starts. For Sector 100 families where the sofa is the centre of daily life rather than a showpiece to be preserved, efficient, honest repair at transparent pricing is exactly what is needed. <a href='/furniture-repair-noida'>Furniture repair</a> at your Sector 100 doorstep, by specialists who have repaired hundreds of modular sofas in Supertech Capetown and Gaur City, starts here. <strong>Book Doorstep Inspection</strong> — call +91 92179 99355.",
   ],
   whyChoose: [
@@ -299,7 +299,7 @@ const sofaRepairSector100Noida: SeoPageData = {
         "Our craftsmen carry FurniRevive-issued photo ID and a pre-notification message you can share with building security at Supertech Capetown, Gaur City, and all Sector 100 gated societies. We understand the visitor registration processes for Sector 100's major developments and coordinate access so you are not managing a complicated entry procedure for a repair visit.",
     },
     {
-      title: "Fixed Pricing From ₹999 — Quoted Before a Single Tool Is Picked Up",
+      title: "Fixed Pricing From ₹500 — Quoted Before a Single Tool Is Picked Up",
       description:
         "After the free on-site assessment at your Sector 100 flat, you receive one itemised, fixed quote. It does not grow because the foam turned out to be thicker than expected, or because the recliner cable was harder to access. Sector 100 families making a considered repair decision deserve a number they can rely on — not a range that expands mid-job.",
     },
@@ -361,7 +361,7 @@ const sofaRepairSector100Noida: SeoPageData = {
     {
       heading: "Sofa Repair Pricing in Sector 100 Noida — Transparent Cost Guide",
       body: [
-        "All Sector 100 repairs start at ₹999 and are quoted after a free on-site assessment. Typical repair ranges for Sector 100's most common sofa types — modular L-shapes, fabric sectionals, and recliner sofas: single-position foam replacement ₹999–₹2,500; three-position foam replacement (primary wear zone) ₹3,500–₹6,000; full L-shape or 5-seater sectional foam replacement ₹6,000–₹12,000; armrest re-upholstery (pair) ₹2,500–₹5,000; full sofa fabric re-upholstery (3-seater) ₹12,000–₹20,000; recliner cable replacement ₹1,500–₹3,500; recliner locking bar or mechanism overhaul ₹2,500–₹6,000; full <a href='/leather-sofa-repair-noida'>leather crack treatment</a> (3-seater) ₹4,000–₹9,000.",
+        "All Sector 100 repairs start at ₹500 and are quoted after a free on-site assessment. Typical repair ranges for Sector 100's most common sofa types — modular L-shapes, fabric sectionals, and recliner sofas: single-position foam replacement ₹999–₹2,500; three-position foam replacement (primary wear zone) ₹3,500–₹6,000; full L-shape or 5-seater sectional foam replacement ₹6,000–₹12,000; armrest re-upholstery (pair) ₹2,500–₹5,000; full sofa fabric re-upholstery (3-seater) ₹12,000–₹20,000; recliner cable replacement ₹1,500–₹3,500; recliner locking bar or mechanism overhaul ₹2,500–₹6,000; full <a href='/leather-sofa-repair-noida'>leather crack treatment</a> (3-seater) ₹4,000–₹9,000.",
         "For Sector 100's family-use modular sofas, the repair-versus-replace calculation is straightforward: a modular L-shape purchased at ₹55,000–₹90,000 can be completely restored — foam replacement in all primary seats, armrest and seat panel re-upholstery, connection bracket tightening — for ₹12,000–₹22,000. There is no 'Gaur City surcharge', no 'high-rise access fee', and no pricing variation based on which floor you live on. The fixed quote is the figure that appears on your WhatsApp after the assessment. <strong>Get Free Quote</strong> — call +91 92179 99355 or WhatsApp your sofa issue today.",
       ],
     },
@@ -419,7 +419,7 @@ const sofaRepairSector100Noida: SeoPageData = {
     {
       question: "What does sofa repair cost in Sector 100 Noida?",
       answer:
-        "Repairs start at ₹999. After a free on-site assessment at your Sector 100 flat, you receive one fixed itemised quote. Typical ranges: single-position foam replacement ₹999–₹2,500; full L-shape foam replacement ₹6,000–₹12,000; armrest re-upholstery pair ₹2,500–₹5,000; recliner cable replacement ₹1,500–₹3,500; full 3-seater re-upholstery ₹12,000–₹20,000. The quote does not change after it is given.",
+        "Repairs start at ₹500. After a free on-site assessment at your Sector 100 flat, you receive one fixed itemised quote. Typical ranges: single-position foam replacement ₹999–₹2,500; full L-shape foam replacement ₹6,000–₹12,000; armrest re-upholstery pair ₹2,500–₹5,000; recliner cable replacement ₹1,500–₹3,500; full 3-seater re-upholstery ₹12,000–₹20,000. The quote does not change after it is given.",
     },
     {
       question: "Can I get same-day sofa repair in Sector 100 Noida?",

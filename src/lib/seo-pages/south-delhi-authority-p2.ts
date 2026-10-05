@@ -6,9 +6,9 @@ const WHATSAPP_NUMBER = "919217999355";
 export const SOUTH_DELHI_AUTHORITY_P2: SeoPageData[] = [
   {
     slug: "furniture-repair-gulmohar-park",
-    title: "Furniture Repair Gulmohar Park – Expert Doorstep Service | FurniRevive Delhi",
+    title: "Furniture Repair Gulmohar Park – Expert Doorstep Service",
     metaDescription:
-      "Furniture repair in Gulmohar Park Delhi. Wooden dining furniture, sofa restoration, upholstery, chairs & more. Home visit from ₹599. 6-month warranty. Call FurniRevive!",
+      "Furniture repair in Gulmohar Park Delhi. Wooden dining furniture, sofa restoration, upholstery, chairs & more. Home visit from ₹599. 6-month warranty.",
     h1: "Furniture Repair in Gulmohar Park – Trusted Restoration for Premium Family Homes",
     heroSubtitle:
       "Complete furniture repair for wooden dining sets, sofas, upholstered chairs, and premium furniture in Gulmohar Park. Free home visit. Same-day service. 6-month warranty.",

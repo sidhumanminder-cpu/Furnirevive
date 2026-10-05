@@ -5,12 +5,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const sofaRepairArdeeCity: SeoPageData = {
   slug: "sofa-repair-ardee-city",
-  title: "Sofa Repair in Ardee City Gurgaon | Expert Leather & Recliner Service",
+  title: "Sofa Repair in Ardee City Gurgaon",
   metaDescription:
-    "Sofa repair in Ardee City Gurgaon from ₹999. Leather sofa, recliner & upholstery specialists at your doorstep. 6-month warranty. Same-day available. FurniRevive.",
+    "Sofa repair in Ardee City Gurgaon from ₹500. Leather sofa, recliner & upholstery specialists at your doorstep. 6-month warranty. Same-day available.",
   h1: "Sofa Repair Services in Ardee City Gurgaon",
   heroSubtitle:
-    "Ardee City's premium residences across Sector 52 and Sector 57 — close to Golf Course Road, South Point Mall, and Sushant Lok — deserve specialist sofa restoration at their level. FurniRevive restores leather sofas, recliners, sectionals, and upholstery entirely at your doorstep from ₹999. Same-day inspection for morning bookings. 6-month warranty on every project.",
+    "Ardee City's premium residences across Sector 52 and Sector 57 — close to Golf Course Road, South Point Mall, and Sushant Lok — deserve specialist sofa restoration at their level. FurniRevive restores leather sofas, recliners, sectionals, and upholstery entirely at your doorstep from ₹500. Same-day inspection for morning bookings. 6-month warranty on every project.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -18,11 +18,11 @@ const sofaRepairArdeeCity: SeoPageData = {
     caption: "Sofa Repair in Ardee City, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers expert doorstep sofa repair in Ardee City Gurgaon — covering Sector 52, Sector 57, Golf Course Road, Sushant Lok, and South Point Mall area — from ₹999. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
+    "FurniRevive delivers expert doorstep sofa repair in Ardee City Gurgaon — covering Sector 52, Sector 57, Golf Course Road, Sushant Lok, and South Point Mall area — from ₹500. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
   intro: [
     "Ardee City in Sectors 52 and 57 is among Gurgaon's most established premium residential communities — a well-connected address that sits between Golf Course Road's luxury corridor and Sushant Lok's premium residential character, with South Point Mall as the neighbourhood's commercial anchor. The residents of Ardee City have invested in premium furniture that reflects the quality of their homes: leather sofas, imported recliners, designer sectionals, and wooden accent pieces that represent meaningful household investment. When these pieces develop leather cracking, foam collapse, or mechanism failure, a specialist <a href='/sofa-repair-gurgaon'>sofa repair service in Gurgaon</a> is the correct response.",
     "FurniRevive's craftsmen serve Ardee City, Sector 52, and Sector 57 regularly, with natural extension into <a href='/sofa-repair-sector-57-gurgaon'>the broader Sector 57 corridor</a>, <a href='/sofa-repair-sector-54-gurgaon'>Sector 54</a>, and the <a href='/sofa-repair-golf-course-road'>Golf Course Road</a> zone nearby. Our <a href='/leather-sofa-repair-gurgaon'>leather sofa restoration experts in Gurgaon</a> arrive with professional conditioning oils, crack-fill compounds, colour-matched pigments, three foam grades, and recliner mechanism components — so most Ardee City projects complete in a single doorstep visit. The <a href='/sofa-upholstery-gurgaon'>sofa upholstery service in Gurgaon</a> covers 40+ fabric options for re-upholstery projects.",
-    "Starting at ₹999 with a free on-site assessment and a fixed quote before any work begins. Your sofa holds years of family memories — and most homeowners don't realise their sofa can often be restored instead of replaced. The good news is that most furniture problems can be repaired at a fraction of replacement cost.",
+    "Starting at ₹500 with a free on-site assessment and a fixed quote before any work begins. Your sofa holds years of family memories — and most homeowners don't realise their sofa can often be restored instead of replaced. The good news is that most furniture problems can be repaired at a fraction of replacement cost.",
   ],
   whyChoose: [
     {
@@ -136,7 +136,7 @@ const sofaRepairArdeeCity: SeoPageData = {
     {
       heading: "Pricing for Sofa Repair in Ardee City Gurgaon",
       body: [
-        "Sofa repair in Ardee City starts at ₹999. Leather conditioning and early crack treatment: ₹2,500–₹6,000. Full leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000.",
+        "Sofa repair in Ardee City starts at ₹500. Leather conditioning and early crack treatment: ₹2,500–₹6,000. Full leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000.",
         "The exact cost is determined during the free on-site assessment and provided as a single fixed itemised quote. No revisions after approval, no surprise material charges, no Sector 52 or 57 travel surcharges. The 6-month workmanship warranty is included on every project.",
         "For multi-piece restoration projects — common in Ardee City's larger villa and duplex homes — we provide consolidated quotes and schedule two craftsmen where the project scope warrants it.",
       ],
@@ -164,7 +164,7 @@ const sofaRepairArdeeCity: SeoPageData = {
     {
       question: "What does sofa repair cost in Ardee City?",
       answer:
-        "Starts at ₹999. Leather conditioning: ₹2,500–₹6,000. Full restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free assessment.",
+        "Starts at ₹500. Leather conditioning: ₹2,500–₹6,000. Full restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free assessment.",
     },
     {
       question: "Can I get same-day sofa repair in Ardee City?",
@@ -238,12 +238,12 @@ const sofaRepairArdeeCity: SeoPageData = {
 
 const sofaRepairSector54: SeoPageData = {
   slug: "sofa-repair-sector-54-gurgaon",
-  title: "Sofa Repair in Sector 54 Gurgaon | Same-Day Doorstep Repair Service",
+  title: "Sofa Repair in Sector 54 Gurgaon",
   metaDescription:
-    "Expert sofa repair in Sector 54 Gurgaon from ₹999. Leather sofa, recliner & upholstery at your doorstep. 6-month warranty. Morning bookings get same-day slots. FurniRevive.",
+    "Expert sofa repair in Sector 54 Gurgaon from ₹500. Leather sofa, recliner & upholstery at your doorstep. 6-month warranty.",
   h1: "Sofa Repair in Sector 54 Gurgaon",
   heroSubtitle:
-    "Sector 54 sits at the heart of Golf Course Road's premium residential corridor, adjacent to DLF Phase 5, and connected to the Sector 42 and Sector 53 luxury addresses that define this zone. FurniRevive restores leather sofas, recliners, sectionals, and upholstery at your doorstep from ₹999. Same-day inspection for morning bookings. 6-month warranty.",
+    "Sector 54 sits at the heart of Golf Course Road's premium residential corridor, adjacent to DLF Phase 5, and connected to the Sector 42 and Sector 53 luxury addresses that define this zone. FurniRevive restores leather sofas, recliners, sectionals, and upholstery at your doorstep from ₹500. Same-day inspection for morning bookings. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -251,11 +251,11 @@ const sofaRepairSector54: SeoPageData = {
     caption: "Sofa Repair in Sector 54, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers expert doorstep sofa repair in Sector 54 Gurgaon — covering Golf Course Road, DLF Phase 5, Sector 53, Sector 55, and Sector 42 — from ₹999. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
+    "FurniRevive delivers expert doorstep sofa repair in Sector 54 Gurgaon — covering Golf Course Road, DLF Phase 5, Sector 53, Sector 55, and Sector 42 — from ₹500. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
   intro: [
     "Sector 54 occupies a prime position on Golf Course Road — one of Gurgaon's most established premium residential addresses, flanked by DLF Phase 5's tower residences, connected to Sector 53's premium community, and within reach of Sector 42's luxury high-rises. The homes in Sector 54 contain premium furniture that reflects the quality of the address: imported leather sofas, luxury recliners, designer sectionals, and upholstered dining sets that represent significant household investment. A specialist <a href='/sofa-repair-gurgaon'>sofa repair service in Gurgaon</a> that understands this investment is the correct response when wear, damage, or mechanical failure affects these pieces.",
     "FurniRevive's craftsmen work regularly in Sector 54 and across the Golf Course Road corridor. We extend naturally into <a href='/sofa-repair-sector-53-gurgaon'>Sector 53</a>, the <a href='/sofa-repair-golf-course-road'>Golf Course Road</a> zone, and <a href='/sofa-repair-ardee-city'>Ardee City</a> nearby — all under the same pricing and 6-month warranty. Our <a href='/leather-sofa-repair-gurgaon'>leather sofa restoration specialists in Gurgaon</a> bring professional conditioning oils, crack-fill compounds, colour-matched pigments, foam grades, and recliner mechanism components for complete doorstep restoration. The <a href='/sofa-upholstery-gurgaon'>sofa upholstery service in Gurgaon</a> provides 40+ fabric options for full re-upholstery projects.",
-    "Starting at ₹999 with a free on-site assessment and fixed quote before any work begins. Premium furniture deserves premium restoration — and most furniture problems can be repaired at a fraction of replacement cost.",
+    "Starting at ₹500 with a free on-site assessment and fixed quote before any work begins. Premium furniture deserves premium restoration — and most furniture problems can be repaired at a fraction of replacement cost.",
   ],
   whyChoose: [
     {
@@ -369,7 +369,7 @@ const sofaRepairSector54: SeoPageData = {
     {
       heading: "Pricing for Sofa Repair in Sector 54 Gurgaon",
       body: [
-        "Sofa repair in Sector 54 starts at ₹999. Leather conditioning and early crack treatment: ₹2,500–₹6,000. Full leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000.",
+        "Sofa repair in Sector 54 starts at ₹500. Leather conditioning and early crack treatment: ₹2,500–₹6,000. Full leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000.",
         "The exact cost is determined during the free on-site assessment and provided as a single fixed itemised quote. No revisions after approval, no surprise material charges, no Golf Course Road premium surcharges. The 6-month warranty is included on every project.",
         "For DLF Phase 5 tower residents requiring multi-piece restoration, we provide consolidated quotes and schedule two craftsmen for larger projects. Pre-sale and pre-renovation full-home restoration packages are available.",
       ],
@@ -397,7 +397,7 @@ const sofaRepairSector54: SeoPageData = {
     {
       question: "What does sofa repair cost in Sector 54 Gurgaon?",
       answer:
-        "Starts at ₹999. Leather conditioning: ₹2,500–₹6,000. Full restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free assessment.",
+        "Starts at ₹500. Leather conditioning: ₹2,500–₹6,000. Full restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free assessment.",
     },
     {
       question: "Can I get same-day sofa repair in Sector 54?",
@@ -472,12 +472,12 @@ const sofaRepairSector54: SeoPageData = {
 
 const sofaRepairSector57: SeoPageData = {
   slug: "sofa-repair-sector-57-gurgaon",
-  title: "Sofa Repair in Sector 57 Gurgaon | Leather Sofa & Recliner Experts",
+  title: "Sofa Repair in Sector 57 Gurgaon",
   metaDescription:
-    "Sofa repair in Sector 57 Gurgaon from ₹999. Leather, recliner & upholstery specialists. Doorstep service. 6-month warranty. Same-day for morning bookings. FurniRevive.",
+    "Sofa repair in Sector 57 Gurgaon from ₹500. Leather, recliner & upholstery specialists. Doorstep service. 6-month warranty. Same-day for morning bookings.",
   h1: "Sofa Repair in Sector 57 Gurgaon",
   heroSubtitle:
-    "Sector 57's premium residential community — connected to Ardee City, Sector 56, Golf Course Extension Road, and Sushant Lok — deserves specialist sofa restoration at the level this address represents. FurniRevive restores leather sofas, recliners, sectionals, and upholstery at your doorstep from ₹999. Same-day inspection for morning bookings. 6-month warranty.",
+    "Sector 57's premium residential community — connected to Ardee City, Sector 56, Golf Course Extension Road, and Sushant Lok — deserves specialist sofa restoration at the level this address represents. FurniRevive restores leather sofas, recliners, sectionals, and upholstery at your doorstep from ₹500. Same-day inspection for morning bookings. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -485,11 +485,11 @@ const sofaRepairSector57: SeoPageData = {
     caption: "Sofa Repair in Sector 57, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers expert doorstep sofa repair in Sector 57 Gurgaon — covering Ardee City, Sector 56, Golf Course Extension Road, and Sushant Lok — from ₹999. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
+    "FurniRevive delivers expert doorstep sofa repair in Sector 57 Gurgaon — covering Ardee City, Sector 56, Golf Course Extension Road, and Sushant Lok — from ₹500. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
   intro: [
     "Sector 57 is a well-established premium residential address in Gurgaon — connected to Ardee City's community character, adjacent to Sector 56, and within reach of both Golf Course Extension Road's luxury tower corridor and Sushant Lok's established residential zone. The homes in Sector 57 contain premium furniture that reflects the quality of the address: leather sofas, recliners, sectional sofas, and designer upholstery representing significant household investment. When these pieces develop leather cracking, foam collapse, or mechanism failure, a specialist <a href='/sofa-repair-gurgaon'>sofa repair service in Gurgaon</a> is the appropriate response.",
     "FurniRevive's craftsmen serve Sector 57 and adjacent Ardee City, Sector 56, and Sushant Lok addresses regularly. We extend naturally into <a href='/sofa-repair-ardee-city'>Ardee City</a>, <a href='/sofa-repair-sector-54-gurgaon'>Sector 54</a>, and the <a href='/sofa-repair-golf-course-road'>Golf Course Road</a> corridor nearby — all under the same pricing and 6-month warranty. Our <a href='/leather-sofa-repair-gurgaon'>leather sofa repair specialists in Gurgaon</a> bring professional materials for complete doorstep restoration. The <a href='/sofa-upholstery-gurgaon'>sofa upholstery service in Gurgaon</a> provides 40+ fabric options. The <a href='/sofa-repair-sushant-lok-phase-2'>Sushant Lok Phase 2</a> service area overlaps with our Sector 57 coverage.",
-    "Starting at ₹999 with a free on-site assessment and fixed quote before any work begins — no postcode surcharges, no hidden charges. Premium furniture deserves premium restoration.",
+    "Starting at ₹500 with a free on-site assessment and fixed quote before any work begins — no postcode surcharges, no hidden charges. Premium furniture deserves premium restoration.",
   ],
   whyChoose: [
     {
@@ -603,7 +603,7 @@ const sofaRepairSector57: SeoPageData = {
     {
       heading: "Pricing and Warranty for Sector 57 Sofa Repair",
       body: [
-        "Sofa repair in Sector 57 starts at ₹999. Leather conditioning: ₹2,500–₹6,000. Full leather restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000.",
+        "Sofa repair in Sector 57 starts at ₹500. Leather conditioning: ₹2,500–₹6,000. Full leather restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000.",
         "Free on-site assessment generates a single fixed itemised quote. No revisions, no surprise charges, no travel surcharges for Sector 57. The 6-month workmanship warranty is included on every project with digital certificate via WhatsApp.",
         "For multi-piece restoration in larger Sector 57 homes, we provide consolidated quotes and schedule two craftsmen where appropriate.",
       ],
@@ -631,7 +631,7 @@ const sofaRepairSector57: SeoPageData = {
     {
       question: "What does sofa repair cost in Sector 57 Gurgaon?",
       answer:
-        "Starts at ₹999. Leather conditioning: ₹2,500–₹6,000. Full restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000.",
+        "Starts at ₹500. Leather conditioning: ₹2,500–₹6,000. Full restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000.",
     },
     {
       question: "Can I get same-day sofa repair in Sector 57?",
@@ -705,10 +705,10 @@ const sofaRepairSector53: SeoPageData = {
   slug: "sofa-repair-sector-53-gurgaon",
   title: "Sofa Repair in Sector 53 Gurgaon | Premium Furniture Restoration",
   metaDescription:
-    "Expert sofa repair in Sector 53 Gurgaon from ₹999. Leather sofa & recliner repair at your doorstep. 6-month warranty. Same-day available. FurniRevive.",
+    "Expert sofa repair in Sector 53 Gurgaon from ₹500. Leather sofa & recliner repair at your doorstep. 6-month warranty. Same-day available. FurniRevive.",
   h1: "Sofa Repair in Sector 53 Gurgaon",
   heroSubtitle:
-    "Sector 53 sits at the core of Golf Course Road's premium residential corridor — adjacent to DLF Phase 5, Suncity, and Sector 54, with direct Golf Course Road connectivity. FurniRevive restores leather sofas, recliners, sectionals, and upholstery at your doorstep from ₹999. Same-day inspection for morning bookings. 6-month warranty.",
+    "Sector 53 sits at the core of Golf Course Road's premium residential corridor — adjacent to DLF Phase 5, Suncity, and Sector 54, with direct Golf Course Road connectivity. FurniRevive restores leather sofas, recliners, sectionals, and upholstery at your doorstep from ₹500. Same-day inspection for morning bookings. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -716,11 +716,11 @@ const sofaRepairSector53: SeoPageData = {
     caption: "Sofa Repair in Sector 53, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers expert doorstep sofa repair in Sector 53 Gurgaon — covering Golf Course Road, DLF Phase 5, Suncity, Sector 54, and Sector 42 — from ₹999. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
+    "FurniRevive delivers expert doorstep sofa repair in Sector 53 Gurgaon — covering Golf Course Road, DLF Phase 5, Suncity, Sector 54, and Sector 42 — from ₹500. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
   intro: [
     "Sector 53 is among Golf Course Road's most premium residential sectors — flanked by DLF Phase 5's established towers, home to Suncity's premium community, and directly connected to Sector 54 and Sector 42's luxury addresses. The homes in Sector 53 contain premium furniture reflecting the quality of the address: imported leather sofas, luxury recliners, and designer sectionals representing significant household investment. When these pieces show wear or failure, a specialist <a href='/sofa-repair-gurgaon'>sofa repair service in Gurgaon</a> at the level of this address is the appropriate response.",
     "FurniRevive serves Sector 53 and the surrounding Golf Course Road corridor regularly — extending naturally into <a href='/sofa-repair-sector-54-gurgaon'>Sector 54</a>, <a href='/sofa-repair-dlf-phase-3'>DLF Phase 3</a>, and <a href='/sofa-repair-ardee-city'>Ardee City</a> nearby. Our <a href='/leather-sofa-repair-gurgaon'>leather sofa repair specialists in Gurgaon</a> bring professional materials for complete doorstep restoration. The <a href='/sofa-upholstery-gurgaon'>sofa upholstery service in Gurgaon</a> provides 40+ fabric options for re-upholstery projects.",
-    "Starting at ₹999 with a free on-site assessment and fixed quote before any work begins. Premium furniture deserves premium restoration — and most furniture problems can be repaired at a fraction of replacement cost.",
+    "Starting at ₹500 with a free on-site assessment and fixed quote before any work begins. Premium furniture deserves premium restoration — and most furniture problems can be repaired at a fraction of replacement cost.",
   ],
   whyChoose: [
     {
@@ -834,7 +834,7 @@ const sofaRepairSector53: SeoPageData = {
     {
       heading: "Pricing for Sofa Repair in Sector 53 Gurgaon",
       body: [
-        "Sofa repair in Sector 53 starts at ₹999. Leather conditioning: ₹2,500–₹6,000. Full leather restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000. Wooden frame joint reinforcement: ₹800–₹2,500 per joint.",
+        "Sofa repair in Sector 53 starts at ₹500. Leather conditioning: ₹2,500–₹6,000. Full leather restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000. Wooden frame joint reinforcement: ₹800–₹2,500 per joint.",
         "Free on-site assessment generates a single fixed itemised quote. No revisions, no surprise charges, no Golf Course Road travel surcharges. The 6-month workmanship warranty is included on every project.",
         "For Suncity's multi-piece restoration projects, we provide consolidated quotes and schedule two craftsmen for larger scope.",
       ],
@@ -862,7 +862,7 @@ const sofaRepairSector53: SeoPageData = {
     {
       question: "What does sofa repair cost in Sector 53?",
       answer:
-        "Starts at ₹999. Leather conditioning: ₹2,500–₹6,000. Full restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free assessment.",
+        "Starts at ₹500. Leather conditioning: ₹2,500–₹6,000. Full restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free assessment.",
     },
     {
       question: "Can I get same-day sofa repair in Sector 53 Gurgaon?",
@@ -937,12 +937,12 @@ const sofaRepairSector53: SeoPageData = {
 
 const sofaRepairM3mGolfEstate: SeoPageData = {
   slug: "sofa-repair-m3m-golf-estate",
-  title: "Sofa Repair in M3M Golf Estate | Luxury Furniture Repair Specialists",
+  title: "Sofa Repair in M3M Golf Estate",
   metaDescription:
-    "Expert sofa repair in M3M Golf Estate Gurgaon from ₹999. Leather sofa, recliner & imported furniture restored at your doorstep. 6-month warranty. FurniRevive.",
+    "Expert sofa repair in M3M Golf Estate Gurgaon from ₹500. Leather sofa, recliner & imported furniture restored at your doorstep. 6-month warranty.",
   h1: "Sofa Repair in M3M Golf Estate Gurgaon",
   heroSubtitle:
-    "M3M Golf Estate — one of Gurgaon's most prestigious luxury addresses on Golf Course Extension Road in Sector 65 — demands a furniture restoration service at its level. FurniRevive restores imported leather sofas, luxury recliners, designer sectionals, and premium upholstery entirely at your doorstep from ₹999. Same-day inspection. 6-month warranty.",
+    "M3M Golf Estate — one of Gurgaon's most prestigious luxury addresses on Golf Course Extension Road in Sector 65 — demands a furniture restoration service at its level. FurniRevive restores imported leather sofas, luxury recliners, designer sectionals, and premium upholstery entirely at your doorstep from ₹500. Same-day inspection. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -950,11 +950,11 @@ const sofaRepairM3mGolfEstate: SeoPageData = {
     caption: "Sofa Repair in M3M Golf Estate, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers expert doorstep sofa repair in M3M Golf Estate Gurgaon — covering Golf Estate Road, Sector 65, M3M Merlin, Emerald Hills, and Golf Course Extension Road — from ₹999. Specialist craftsmen for imported leather sofas, power recliners, and luxury upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
+    "FurniRevive delivers expert doorstep sofa repair in M3M Golf Estate Gurgaon — covering Golf Estate Road, Sector 65, M3M Merlin, Emerald Hills, and Golf Course Extension Road — from ₹500. Specialist craftsmen for imported leather sofas, power recliners, and luxury upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
   intro: [
     "M3M Golf Estate is among Gurgaon's most prestigious residential addresses — a luxury development on Golf Course Extension Road in Sector 65 that defines the city's premium living standard. Luxury homes in M3M Golf Estate frequently contain designer furniture, recliners, and imported seating systems that represent the pinnacle of domestic furniture investment in the NCR: Natuzzi Italia sectionals, La-Z-Boy power recliners, BoConcept modular systems, and bespoke custom furniture that has been selected to match interiors where every element was deliberately chosen. When these pieces require restoration, a specialist <a href='/sofa-repair-gurgaon'>sofa repair service in Gurgaon</a> at this standard is the only appropriate response.",
     "FurniRevive's craftsmen serve M3M Golf Estate, Golf Estate Road, M3M Merlin, Emerald Hills, and the Sector 65 community regularly — with natural extension across the Golf Course Extension Road corridor into <a href='/sofa-repair-golf-course-road'>Golf Course Road</a>, <a href='/sofa-repair-sector-54-gurgaon'>Sector 54</a>, <a href='/sofa-repair-sector-53-gurgaon'>Sector 53</a>, and <a href='/sofa-repair-ardee-city'>Ardee City</a>. Our <a href='/leather-sofa-repair-gurgaon'>leather sofa restoration experts in Gurgaon</a> bring the same specialist materials and techniques used in the most demanding Golf Course Road addresses: professional-grade conditioning oils, specialist crack-fill compounds, colour-matched pigments, high-resilience foam grades, and imported recliner mechanism components. The <a href='/sofa-upholstery-gurgaon'>sofa upholstery service in Gurgaon</a> provides 40+ fabric options for full re-upholstery projects at M3M Golf Estate.",
-    "Starting at ₹999 with a free on-site assessment and a single fixed quote before any work begins — no M3M Golf Estate premium surcharges, no hidden additions. Premium furniture deserves premium restoration, and the good news is that even the most valuable furniture can usually be restored at a fraction of replacement cost.",
+    "Starting at ₹500 with a free on-site assessment and a single fixed quote before any work begins — no M3M Golf Estate premium surcharges, no hidden additions. Premium furniture deserves premium restoration, and the good news is that even the most valuable furniture can usually be restored at a fraction of replacement cost.",
   ],
   whyChoose: [
     {
@@ -1068,7 +1068,7 @@ const sofaRepairM3mGolfEstate: SeoPageData = {
     {
       heading: "Pricing Transparency for M3M Golf Estate Sofa Repair",
       body: [
-        "Sofa repair at M3M Golf Estate starts at ₹999. The pricing reflects the work required, not the address: leather conditioning and UV protection treatment ₹3,500–₹8,000; comprehensive colour restoration ₹10,000–₹25,000 for Italian and premium imported leather; high-resilience foam replacement ₹8,000–₹18,000 for a full premium sectional set; power recliner actuator replacement ₹4,500–₹9,000 per mechanism; modular sectional bracket replacement and alignment ₹1,200–₹3,000 per module connection.",
+        "Sofa repair at M3M Golf Estate starts at ₹500. The pricing reflects the work required, not the address: leather conditioning and UV protection treatment ₹3,500–₹8,000; comprehensive colour restoration ₹10,000–₹25,000 for Italian and premium imported leather; high-resilience foam replacement ₹8,000–₹18,000 for a full premium sectional set; power recliner actuator replacement ₹4,500–₹9,000 per mechanism; modular sectional bracket replacement and alignment ₹1,200–₹3,000 per module connection.",
         "These ranges reflect different sofa sizes, leather grades, and damage extents. The exact cost for your specific furniture at M3M Golf Estate is determined during the free on-site assessment and provided as a single fixed itemised quote. There are no M3M Golf Estate premium surcharges, no floor-height charges for high-floor apartments, and no revision to the quote after approval.",
         "The 6-month workmanship warranty is included on every project — leather restoration, foam replacement, mechanism repair, and fabric work. Digital certificate via WhatsApp before departure. Return visits for warranty concerns at no charge. For M3M Golf Estate's multi-piece restoration projects — which are common in these fully-furnished premium apartments — we provide consolidated quotes and schedule two craftsmen for efficiency on larger projects.",
       ],
@@ -1096,7 +1096,7 @@ const sofaRepairM3mGolfEstate: SeoPageData = {
     {
       question: "What does sofa repair cost in M3M Golf Estate?",
       answer:
-        "Starts at ₹999. Leather conditioning and UV treatment: ₹3,500–₹8,000. Comprehensive colour restoration: ₹10,000–₹25,000. Foam replacement: ₹8,000–₹18,000. Power recliner actuator repair: ₹4,500–₹9,000. Fixed quote after free assessment.",
+        "Starts at ₹500. Leather conditioning and UV treatment: ₹3,500–₹8,000. Comprehensive colour restoration: ₹10,000–₹25,000. Foam replacement: ₹8,000–₹18,000. Power recliner actuator repair: ₹4,500–₹9,000. Fixed quote after free assessment.",
     },
     {
       question: "Can you repair La-Z-Boy and Natuzzi sofas in M3M Golf Estate?",

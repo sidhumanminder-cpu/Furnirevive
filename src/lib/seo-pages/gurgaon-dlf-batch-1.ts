@@ -5,12 +5,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const sofaRepairDlfPhase1: SeoPageData = {
   slug: "sofa-repair-dlf-phase-1",
-  title: "Sofa Repair in DLF Phase 1 Gurgaon | Premium Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in DLF Phase 1 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert sofa repair in DLF Phase 1, Gurgaon from ₹999. Imported leather restoration, recliner repair, foam replacement at your doorstep. 6-month warranty. Call FurniRevive.",
+    "Expert sofa repair in DLF Phase 1, Gurgaon from ₹500. Imported leather restoration, recliner repair, foam replacement at your doorstep. 6-month warranty.",
   h1: "Sofa Repair in DLF Phase 1, Gurgaon",
   heroSubtitle:
-    "DLF Phase 1's premium homes deserve specialist-grade furniture restoration — not a generic handyman visit. Doorstep sofa repair from ₹999 across DLF Phase 1, MG Road, Golf Course Road & Sikanderpur. 6-month warranty.",
+    "DLF Phase 1's premium homes deserve specialist-grade furniture restoration — not a generic handyman visit. Doorstep sofa repair from ₹500 across DLF Phase 1, MG Road, Golf Course Road & Sikanderpur. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -18,11 +18,11 @@ export const sofaRepairDlfPhase1: SeoPageData = {
     caption: "Sofa Repair in DLF Phase 1, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive brings 4.8-star rated doorstep sofa repair to DLF Phase 1 — covering MG Road, Sikanderpur Metro area, DLF City Club vicinity, Golf Course Road, and DLF Phase 2 — starting at ₹999. Our craftsmen specialise in imported Italian leather restoration, luxury recliner mechanisms, premium sectional repair, and high-resilience foam replacement. Free on-site assessment, fixed transparent quote, and a 6-month workmanship warranty on every job. Same-day slots for morning bookings are routinely available in DLF Phase 1.",
+    "FurniRevive brings 4.8-star rated doorstep sofa repair to DLF Phase 1 — covering MG Road, Sikanderpur Metro area, DLF City Club vicinity, Golf Course Road, and DLF Phase 2 — starting at ₹500. Our craftsmen specialise in imported Italian leather restoration, luxury recliner mechanisms, premium sectional repair, and high-resilience foam replacement. Free on-site assessment, fixed transparent quote, and a 6-month workmanship warranty on every job. Same-day slots for morning bookings are routinely available in DLF Phase 1.",
   intro: [
     "DLF Phase 1 has always occupied a distinct position in Gurgaon's residential hierarchy — one of the city's oldest planned sectors, now home to a mix of established bungalows, premium builder floors, and low-rise residential enclaves that attract the corporate and professional community that works along MG Road and Golf Course Road. The furniture in these homes reflects that status: imported Italian leather sofas sourced from Golf Course Road showrooms, luxury recliners from premium Gurgaon retailers, custom modular sectionals configured to precise drawing-room dimensions. These are not mass-market pieces — they are investments in daily comfort and aesthetic identity, and they deserve <a href=\"/furniture-repair-dlf-gurgaon\">premium furniture repair</a> from a restoration specialist when they need attention.",
     "FurniRevive's Gurgaon team serves DLF Phase 1 and the surrounding area as part of our city-wide <a href=\"/sofa-repair-gurgaon\">sofa repair network in Gurgaon</a>. We extend seamlessly into DLF Phase 2, the Sikanderpur Metro residential pocket, and the Golf Course Road corridor — all under the same pricing, the same 6-month warranty, and the same standard of specialist craftsmanship. Our craftsmen are trained specifically in the materials and construction techniques that define DLF Phase 1's furniture: full-grain and semi-aniline <a href=\"/leather-sofa-repair-dlf-gurgaon\">leather sofa repair in DLF Gurgaon</a>, European upholstery joinery, <a href=\"/recliner-repair-dlf-gurgaon\">motorised recliner service</a> and mechanism replacement, and premium foam grade selection. We arrive at your door fully equipped — no workshop pickup, no dismantling logistics.",
-    "Whether you're dealing with leather that has cracked from Gurgaon's relentless year-round air-conditioning, a motorised sectional whose track mechanism has failed, or seat cushions that have compressed into permanent dips after years of daily use, FurniRevive fixes it at your address with a fixed quote and a 6-month guarantee. Starting at ₹999. Book before noon — same-day afternoon slots are standard in DLF Phase 1.",
+    "Whether you're dealing with leather that has cracked from Gurgaon's relentless year-round air-conditioning, a motorised sectional whose track mechanism has failed, or seat cushions that have compressed into permanent dips after years of daily use, FurniRevive fixes it at your address with a fixed quote and a 6-month guarantee. Starting at ₹500. Book before noon — same-day afternoon slots are standard in DLF Phase 1.",
   ],
   whyChoose: [
     {
@@ -41,7 +41,7 @@ export const sofaRepairDlfPhase1: SeoPageData = {
         "Call or WhatsApp before noon and we can typically confirm a same-day afternoon visit in DLF Phase 1. We maintain dedicated Gurgaon craftsmen on standby specifically to minimise wait times for DLF residents — because a cracked leather sofa or a jammed recliner mechanism shouldn't wait three days for attention.",
     },
     {
-      title: "Transparent Pricing from ₹999 — Fixed Quote, Final Number",
+      title: "Transparent Pricing from ₹500 — Fixed Quote, Final Number",
       description:
         "After a free on-site assessment, you receive a single itemised quote. That number is fixed — no mid-job material discoveries, no retrospective labour charges. The quote you approve is exactly what you pay. For DLF Phase 1's premium furniture, this transparency removes the hesitation from calling.",
     },
@@ -203,9 +203,9 @@ export const sofaRepairDlfPhase1: SeoPageData = {
         "A 3-seater re-upholstery typically takes 4–6 hours. An L-shaped sectional spans 6–8 hours and may require a second visit for completion. All work is done at your DLF Phase 1 address — no workshop transport at any point.",
     },
     {
-      question: "Is the ₹999 starting price genuine for DLF Phase 1?",
+      question: "Is the ₹500 starting price genuine for DLF Phase 1?",
       answer:
-        "Yes. ₹999 covers genuine minor repairs — basic re-stitching of a small tear, joint tightening, localised patch work. Most premium leather sofa repairs in DLF Phase 1 fall in the ₹5,000–₹18,000 range. The free assessment gives you an exact number before any decision.",
+        "Yes. ₹500 covers genuine minor repairs — basic re-stitching of a small tear, joint tightening, localised patch work. Most premium leather sofa repairs in DLF Phase 1 fall in the ₹5,000–₹18,000 range. The free assessment gives you an exact number before any decision.",
     },
     {
       question: "Can you repair my sofa in a high-floor apartment building in DLF Phase 1?",
@@ -250,12 +250,12 @@ export const sofaRepairDlfPhase1: SeoPageData = {
 
 export const sofaRepairDlfPhase2: SeoPageData = {
   slug: "sofa-repair-dlf-phase-2",
-  title: "Sofa Repair in DLF Phase 2 Gurgaon | Corporate & Home ₹999 | FurniRevive",
+  title: "Sofa Repair in DLF Phase 2 Gurgaon | FurniRevive",
   metaDescription:
-    "Professional sofa repair in DLF Phase 2, Gurgaon from ₹999. Leather restoration, corporate apartment furniture, recliner fix. Same-day doorstep service, 6-month warranty.",
+    "Professional sofa repair in DLF Phase 2, Gurgaon from ₹500. Leather restoration, corporate apartment furniture, recliner fix.",
   h1: "Sofa Repair in DLF Phase 2, Gurgaon",
   heroSubtitle:
-    "Whether it's your home living room or a corporate-leased apartment in DLF Phase 2 — FurniRevive delivers premium doorstep sofa restoration from ₹999. Serving Cyber City, Ambience Mall area & Udyog Vihar.",
+    "Whether it's your home living room or a corporate-leased apartment in DLF Phase 2 — FurniRevive delivers premium doorstep sofa restoration from ₹500. Serving Cyber City, Ambience Mall area & Udyog Vihar.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -263,7 +263,7 @@ export const sofaRepairDlfPhase2: SeoPageData = {
     caption: "Sofa Repair in DLF Phase 2, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair in DLF Phase 2 — covering Cyber City residential areas, Ambience Mall vicinity, Udyog Vihar, MG Road, and DLF Phase 1 — starting at ₹999. We handle both residential and corporate apartment furniture: Italian leather restoration, premium recliner mechanism repair, fabric re-upholstery, and high-density foam replacement. Free assessment, fixed quote, 6-month warranty. Same-day slots for morning bookings.",
+    "FurniRevive delivers 4.8-star rated doorstep sofa repair in DLF Phase 2 — covering Cyber City residential areas, Ambience Mall vicinity, Udyog Vihar, MG Road, and DLF Phase 1 — starting at ₹500. We handle both residential and corporate apartment furniture: Italian leather restoration, premium recliner mechanism repair, fabric re-upholstery, and high-density foam replacement. Free assessment, fixed quote, 6-month warranty. Same-day slots for morning bookings.",
   intro: [
     "DLF Phase 2 occupies a unique position in Gurgaon's landscape — a residential zone that sits at the exact intersection of the city's commercial core and its premium housing stock. Cyber City's gleaming towers are visible from many DLF Phase 2 balconies. Ambience Mall is a short drive. The residents here are overwhelmingly in Gurgaon's corporate mainstream: senior executives and professionals whose homes are furnished to a standard that reflects both personal taste and professional standing. The sofas in these homes are not afterthoughts — they are Italian leather sectionals, premium motorised recliners, custom-configured modular pieces chosen over months of deliberation — each deserving expert <a href=\"/furniture-repair-dlf-gurgaon\">furniture repair in DLF Gurgaon</a> when the time comes.",
     "FurniRevive brings specialist restoration to DLF Phase 2 as part of our wider <a href=\"/sofa-repair-gurgaon\">Gurgaon sofa repair service</a>, with coverage extending seamlessly into DLF Phase 1, Udyog Vihar, the Cyber City residential blocks, and the MG Road corridor. We also handle corporate apartment furniture — the leased or company-furnished flats that house Cyber City employees and often contain sofas and seating that take sustained daily use from rotating occupants. Commercial and residential work receives the same standard of craftsmanship, the same <a href=\"/leather-sofa-repair-dlf-gurgaon\">specialist leather restoration</a>, and the same 6-month workmanship warranty.",
@@ -286,7 +286,7 @@ export const sofaRepairDlfPhase2: SeoPageData = {
         "DLF Phase 2 residents have demanding schedules. We respect that. Book before noon and a craftsman is at your door the same afternoon. Our Gurgaon team is structured specifically for rapid dispatch — minimal scheduling friction, maximum convenience for residents who can't manage a multi-day wait.",
     },
     {
-      title: "Pricing from ₹999 — Complete Transparency",
+      title: "Pricing from ₹500 — Complete Transparency",
       description:
         "Free assessment, single itemised quote, fixed final number. No mid-job additions, no retrospective charges. The quote you approve before work starts is the invoice you pay. This transparency matters particularly for corporate clients managing furniture maintenance budgets across multiple apartments.",
     },

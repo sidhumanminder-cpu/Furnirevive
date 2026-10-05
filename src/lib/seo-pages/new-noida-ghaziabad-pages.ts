@@ -3,7 +3,7 @@ import type { SeoPageData } from "@/lib/seo-constants.ts";
 export const sofaRepairSector76Noida: SeoPageData = {
   slug: "sofa-repair-noida-sector-76",
   title: "Sofa Repair Sector 76 Noida | Doorstep Service – FurniRevive",
-  metaDescription: "Professional sofa repair in Sector 76 Noida. FurniRevive offers doorstep foam replacement, reupholstery & spring repair at Mahagun Moderne, Amrapali towers & nearby. Call +91 92179 99355.",
+  metaDescription: "Professional sofa repair in Sector 76 Noida. FurniRevive offers doorstep foam replacement, reupholstery & spring repair at Mahagun Moderne.",
   h1: "Sofa Repair in Sector 76 Noida — Doorstep Service at Your Apartment",
   heroSubtitle: "Trusted by residents of Mahagun Moderne, Amrapali Silicon City & Spectrum Metro Mall area. Same-week appointments. No shifting required.",
   showcaseImage: {
@@ -164,8 +164,8 @@ export const sofaRepairSector76Noida: SeoPageData = {
 
 export const sofaRepairSector78Noida: SeoPageData = {
   slug: "sofa-repair-noida-sector-78",
-  title: "Sofa Repair Sector 78 Noida | Foam, Recliner & Leather – FurniRevive",
-  metaDescription: "Expert sofa repair in Sector 78 Noida at your doorstep. FurniRevive covers Mahagun Moderne, apartment towers near Sector 76 & 79. Foam, recliner, leather repair. Call +91 92179 99355.",
+  title: "Sofa Repair Sector 78 Noida",
+  metaDescription: "Expert sofa repair in Sector 78 Noida at your doorstep. FurniRevive covers Mahagun Moderne, apartment towers near Sector 76 & 79.",
   h1: "Sofa Repair in Sector 78 Noida — Doorstep Foam, Recliner & Leather Repair",
   heroSubtitle: "Serving Mahagun Moderne residents and apartment towers across Sector 78. Transparent pricing. 6-month warranty. Book via WhatsApp.",
   showcaseImage: {
@@ -174,7 +174,7 @@ export const sofaRepairSector78Noida: SeoPageData = {
     altText: "Professional sofa repair technician working on a warm cream premium fabric sofa in a luxury Noida home — FurniRevive — Noida (Sector 78)",
     caption: "Sofa Repair in Noida (Sector 78) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
-  quickAnswer: "FurniRevive offers professional sofa repair in Sector 78 Noida including foam replacement, recliner repair, and leather sofa restoration. We serve Mahagun Moderne and all apartment towers in the area. Service starts at ₹999. Call +91 92179 99355 to schedule your doorstep appointment.",
+  quickAnswer: "FurniRevive offers professional sofa repair in Sector 78 Noida including foam replacement, recliner repair, and leather sofa restoration. We serve Mahagun Moderne and all apartment towers in the area. Service starts at ₹500. Call +91 92179 99355 to schedule your doorstep appointment.",
   intro: [
     "Sector 78 sits at the heart of Noida's modern residential expansion, bordered by Sector 76 to the west and Sector 79 to the east, with Mahagun Moderne straddling the two sectors and drawing thousands of families into the area over the last decade. As those families settle in and their furniture ages, sofa repair has become an increasingly practical choice over costly replacements — particularly in apartment settings where moving large furniture is genuinely difficult. FurniRevive has built a strong service presence here precisely because we understand the apartment lifestyle.",
     "The residential profile in Sector 78 skews toward working families and dual-income households who value their time as much as their money. Our service is designed with that in mind: quick WhatsApp booking, photo-based pre-assessment, and on-site execution that doesn't require you to take a day off or rearrange your schedule around a repair. Most foam and spring repair jobs are completed within a single 3–4 hour visit. Larger reupholstery projects are scheduled with a two-day window.",
@@ -302,8 +302,8 @@ export const sofaRepairSector78Noida: SeoPageData = {
 
 export const sofaRepairSector93Noida: SeoPageData = {
   slug: "sofa-repair-noida-sector-93",
-  title: "Sofa Repair Sector 93 Noida | Premium Doorstep Service – FurniRevive",
-  metaDescription: "Premium sofa repair in Sector 93 Noida. FurniRevive serves ATS Village, Expressway residential complexes & Sectors 104, 108. Foam, leather & reupholstery. Call +91 92179 99355.",
+  title: "Sofa Repair Sector 93 Noida",
+  metaDescription: "Premium sofa repair in Sector 93 Noida. FurniRevive serves ATS Village, Expressway residential complexes & Sectors 104, 108. Foam, leather & reupholstery.",
   h1: "Sofa Repair in Sector 93 Noida — Premium Doorstep Service for Expressway Residences",
   heroSubtitle: "Trusted by ATS Village residents and premium apartments along the Noida Expressway. Quality materials, trained craftsmen, 6-month warranty.",
   showcaseImage: {
@@ -312,7 +312,7 @@ export const sofaRepairSector93Noida: SeoPageData = {
     altText: "Professional sofa repair technician working on a warm cream premium fabric sofa in a luxury Noida home — FurniRevive — Noida (Sector 93)",
     caption: "Sofa Repair in Noida (Sector 93) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
-  quickAnswer: "FurniRevive provides premium sofa repair in Sector 93 Noida, serving ATS Village and Expressway-adjacent residential complexes including Sectors 104 and 108. Expert foam replacement, reupholstery, and leather repair at your doorstep. Starting ₹999. Call +91 92179 99355.",
+  quickAnswer: "FurniRevive provides premium sofa repair in Sector 93 Noida, serving ATS Village and Expressway-adjacent residential complexes including Sectors 104 and 108. Expert foam replacement, reupholstery, and leather repair at your doorstep. Starting ₹500. Call +91 92179 99355.",
   intro: [
     "Sector 93 lies along the Noida Expressway corridor — a stretch that has attracted some of the most upscale residential developments in the NCR, including ATS Village, one of the most well-regarded gated communities in Noida. Residents here have invested substantially in their homes and their furnishings. When a premium sofa begins to show signs of wear, the expectation isn't just a functional fix — it's a restoration that preserves the sofa's look and feel at the level it was originally purchased. FurniRevive was built to meet exactly that standard.",
     "Our Expressway-corridor team handles repairs for residents in Sector 93, Sector 104, and Sector 108, covering the full stretch of premium apartment communities and plotted developments along this belt. We've worked in ATS Village's spacious 3BHK and 4BHK apartments, where high-quality sofas — often Italian-style or imported — require materials and skill that go beyond what general repair services can offer. Our team includes craftsmen with specific experience in premium upholstery, leather work, and down-and-foam composite cushion restoration.",
@@ -344,7 +344,7 @@ export const sofaRepairSector93Noida: SeoPageData = {
     "Same-week appointments for Sector 93, 104, and 108",
     "Discreet, clean work practices suitable for premium interiors",
     "Honest scope-of-work recommendations — no unnecessary upsells",
-    "Prices starting at ₹999 with premium options available",
+    "Prices starting at ₹500 with premium options available",
   ],
   contentSections: [
     {
@@ -441,7 +441,7 @@ export const sofaRepairSector93Noida: SeoPageData = {
 export const sofaRepairVaishaliGhaziabad: SeoPageData = {
   slug: "sofa-repair-vaishali-ghaziabad",
   title: "Sofa Repair Vaishali Ghaziabad | Doorstep Service – FurniRevive",
-  metaDescription: "Expert sofa repair in Vaishali Ghaziabad at your doorstep. FurniRevive covers Vaishali Sectors 1–6, Kaushambi, Indirapuram & Vasundhara. Foam, recliner & reupholstery. Call +91 92179 99355.",
+  metaDescription: "Expert sofa repair in Vaishali Ghaziabad at your doorstep. FurniRevive covers Vaishali Sectors 1–6, Kaushambi, Indirapuram & Vasundhara.",
   h1: "Sofa Repair in Vaishali Ghaziabad — Doorstep Service Across All Sectors",
   heroSubtitle: "Serving families across Vaishali Sectors 1–6, near Vaishali Metro station and apartment societies in Kaushambi & Indirapuram. Same-week appointments available.",
   showcaseImage: {
@@ -450,7 +450,7 @@ export const sofaRepairVaishaliGhaziabad: SeoPageData = {
     altText: "Professional sofa repair technician working on a warm cream premium fabric sofa in a luxury Ghaziabad home — FurniRevive — Ghaziabad (Vaishali)",
     caption: "Sofa Repair in Ghaziabad (Vaishali) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
-  quickAnswer: "FurniRevive offers professional sofa repair in Vaishali Ghaziabad with doorstep service across Sectors 1–6, Kaushambi, Indirapuram, and Vasundhara. We fix foam, springs, recliner mechanisms, and upholstery. Starting at ₹999. Call +91 92179 99355.",
+  quickAnswer: "FurniRevive offers professional sofa repair in Vaishali Ghaziabad with doorstep service across Sectors 1–6, Kaushambi, Indirapuram, and Vasundhara. We fix foam, springs, recliner mechanisms, and upholstery. Starting at ₹500. Call +91 92179 99355.",
   intro: [
     "Vaishali is one of the most established and densely populated residential areas in Ghaziabad, built around a well-planned grid of sectors with a mix of apartment societies, independent houses, and older residential complexes. From the busy retail strips near Vaishali Metro station to the quieter residential lanes of Sector 4 and Sector 6, thousands of families have built their homes here — and with homes comes furniture that ages, wears, and eventually needs expert attention. FurniRevive is the dedicated sofa repair service for Vaishali and the surrounding NCR corridor.",
     "We service all of Vaishali's residential sectors — Sectors 1 through 6 — as well as the apartment societies that have developed along the Vaishali–Kaushambi–Indirapuram belt. The households in this area represent a cross-section of urban Ghaziabad: families who've lived here for 10–15 years with furniture to match, and newer residents in the apartment societies near the metro who purchased sofas in recent years but are already seeing foam compression and fabric wear from heavy daily use.",
@@ -579,8 +579,8 @@ export const sofaRepairVaishaliGhaziabad: SeoPageData = {
 
 export const sofaRepairVasundharaGhaziabad: SeoPageData = {
   slug: "sofa-repair-vasundhara-ghaziabad",
-  title: "Sofa Repair Vasundhara Ghaziabad | Doorstep Foam & Recliner – FurniRevive",
-  metaDescription: "Professional sofa repair in Vasundhara Ghaziabad. FurniRevive covers Vasundhara Sectors 1–10+, Vaishali, Indirapuram & Kaushambi. Foam, recliner & reupholstery service. Call +91 92179 99355.",
+  title: "Sofa Repair Vasundhara Ghaziabad",
+  metaDescription: "Professional sofa repair in Vasundhara Ghaziabad. FurniRevive covers Vasundhara Sectors 1–10+, Vaishali, Indirapuram & Kaushambi.",
   h1: "Sofa Repair in Vasundhara Ghaziabad — Expert Doorstep Service Across All Sectors",
   heroSubtitle: "Trusted by homeowners and apartment residents across Vasundhara Sectors 1–10 and beyond. Quality foam, upholstery & recliner repairs at your door.",
   showcaseImage: {
@@ -589,7 +589,7 @@ export const sofaRepairVasundharaGhaziabad: SeoPageData = {
     altText: "Professional sofa repair technician working on a warm cream premium fabric sofa in a luxury Ghaziabad home — FurniRevive — Ghaziabad (Vasundhara)",
     caption: "Sofa Repair in Ghaziabad (Vasundhara) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
-  quickAnswer: "FurniRevive provides expert sofa repair in Vasundhara Ghaziabad, covering Sectors 1–10 and beyond. We offer doorstep foam replacement, recliner repair, reupholstery, and leather sofa repair for apartment residents and homeowners. Starting ₹999. Call +91 92179 99355.",
+  quickAnswer: "FurniRevive provides expert sofa repair in Vasundhara Ghaziabad, covering Sectors 1–10 and beyond. We offer doorstep foam replacement, recliner repair, reupholstery, and leather sofa repair for apartment residents and homeowners. Starting ₹500. Call +91 92179 99355.",
   intro: [
     "Vasundhara is one of Ghaziabad's largest and most spread-out residential zones, encompassing over 10 sectors that range from mature, tree-lined lanes of independent houses to newer apartment societies built over the last decade. The scale and diversity of Vasundhara as a neighbourhood means that sofa repair needs here are equally varied — from a 15-year-old traditional sofa in a Sector 3 house that needs a full structural overhaul, to a 4-year-old sectional in a Sector 9 apartment where only the foam has compressed. FurniRevive handles all of it.",
     "Our Ghaziabad-based team covers Vasundhara as a primary service zone, which means we have genuine local knowledge here — not a generic dispatch service. We know which sectors have more independent houses versus apartment buildings, which areas have recently seen new residential society developments, and what the typical sofa styles and ages are across the Vasundhara belt. That local context makes every assessment more accurate and every repair more precisely targeted.",

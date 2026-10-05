@@ -96,6 +96,11 @@ const KitchenGuideTemplate = ({ entry, faqs }: Props) => {
       title: entry.metaTitle,
       description: entry.metaDesc,
       canonical,
+      keywords: [
+        "modular kitchen",
+        `${entry.name.toLowerCase()} modular kitchen`,
+        ...entry.relatedMaterials.map((m) => `${m} modular kitchen`),
+      ],
       ogUrl: canonical,
       ogType: "article",
     });

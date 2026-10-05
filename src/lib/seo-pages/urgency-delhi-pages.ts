@@ -8,24 +8,24 @@ export const sameDaySofaRepairDelhi: SeoPageData = {
   slug: "same-day-sofa-repair-delhi",
   category: "Sofa Repair",
   title:
-    "Same Day Sofa Repair Delhi | Book Before Noon | ₹999 | FurniRevive",
+    "Same Day Sofa Repair Delhi | Book Before Noon | FurniRevive",
   metaDescription:
-    "Same-day sofa repair at home service in Delhi from ₹999. Book before noon — technician at your doorstep today. Foam, recliner, leather, upholstery near me. 6-month warranty.",
+    "Same-day sofa repair at home service in Delhi from ₹500. Book before noon — technician at your doorstep today. Foam, recliner, leather, upholstery near me.",
   h1: "Same Day Sofa Repair At Home Service in Delhi — Fixed Today",
   heroSubtitle:
-    "Urgent sofa problem? FurniRevive offers same-day sofa repair across Delhi. Book before noon and our expert technician arrives at your doorstep the same day with all tools and materials. Starting ₹999.",
+    "Urgent sofa problem? FurniRevive offers same-day sofa repair across Delhi. Book before noon and our expert technician arrives at your doorstep the same day with all tools and materials. Starting ₹500.",
   showcaseImage: {
     heading: "Same Day Sofa Repair at Home — Delhi's Fastest Doorstep Service",
     imageUrl: "https://hercules-cdn.com/file_lHpADdDn3Ar2jgqkN712H6hM",
     altText: "Professional sofa repair technician arriving for same-day doorstep service at a Delhi home — FurniRevive",
-    caption: "Same Day Sofa Repair Delhi | Book before noon — fixed today | Starting ₹999 | FurniRevive",
+    caption: "Same Day Sofa Repair Delhi | Book before noon — fixed today | Starting ₹500 | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides same-day sofa repair in Delhi when you book before noon. Our technicians arrive at your doorstep the same day with foam, fabric, springs, and tools to fix any sofa issue in 2-4 hours. Starting at ₹999 with a 6-month warranty across all Delhi localities.",
+    "FurniRevive provides same-day sofa repair in Delhi when you book before noon. Our technicians arrive at your doorstep the same day with foam, fabric, springs, and tools to fix any sofa issue in 2-4 hours. Starting at ₹500 with a 6-month warranty across all Delhi localities.",
   intro: [
     "A broken sofa doesn't wait for a convenient time — guests arriving tonight, a recliner jammed right before the weekend, or a frame that finally snapped during your morning chai. When you need your sofa fixed today, FurniRevive's same-day sofa repair in Delhi is the fastest, most reliable option. Book before noon and our equipped technician reaches your home the same day, anywhere in Delhi — South Delhi, Dwarka, Rohini, East Delhi, and every locality in between.",
     "Our same-day service isn't a watered-down quick fix. It's the same professional <a href=\"/sofa-repair-delhi\">sofa repair</a> you'd get with a scheduled visit — high-density foam replacement, fabric and <a href=\"/leather-sofa-repair-delhi\">leather repair</a>, frame reinforcement, spring replacement, and recliner mechanism fixing — all completed at your doorstep in a single visit. We carry a full range of materials so there's no second trip for parts.",
-    "Starting at ₹999, same-day sofa repair in Delhi saves you from the panic of emergency furniture shopping and the inconvenience of sitting on a broken sofa for days while waiting for a regular appointment. Check our <a href=\"/sofa-repair-cost-delhi\">sofa repair pricing</a> page for a full cost breakdown. Every same-day repair comes with our standard 6-month warranty, ensuring the fix lasts long after the urgency has passed.",
+    "Starting at ₹500, same-day sofa repair in Delhi saves you from the panic of emergency furniture shopping and the inconvenience of sitting on a broken sofa for days while waiting for a regular appointment. Check our <a href=\"/sofa-repair-cost-delhi\">sofa repair pricing</a> page for a full cost breakdown. Every same-day repair comes with our standard 6-month warranty, ensuring the fix lasts long after the urgency has passed.",
   ],
   whyChoose: [
     {
@@ -49,7 +49,7 @@ export const sameDaySofaRepairDelhi: SeoPageData = {
         "Same-day doesn't mean cut corners. You get the same quality materials, careful workmanship, and attention to detail as a scheduled appointment.",
     },
     {
-      title: "Starting at ₹999",
+      title: "Starting at ₹500",
       description:
         "Same pricing as regular appointments. No emergency surcharges, no rush fees. Transparent, written quotes before work starts.",
     },
@@ -90,7 +90,7 @@ export const sameDaySofaRepairDelhi: SeoPageData = {
     "Cushion re-stuffing, re-upholstery, frame repair available same day",
     "Recliner mechanism and motor repair on the spot",
     "Leather crack repair and conditioning same day",
-    "Starting at ₹999 — transparent pricing",
+    "Starting at ₹500 — transparent pricing",
     "6-month warranty on every same-day repair",
     "Free inspection even on same-day visits",
     "10,000+ sofas repaired across Delhi — many on the same day",
@@ -144,7 +144,7 @@ export const sameDaySofaRepairDelhi: SeoPageData = {
     {
       question: "Is there an extra charge for same-day sofa repair?",
       answer:
-        "No. Our same-day repair pricing is identical to regular scheduled repairs. No emergency fees, no rush surcharges. Starting at ₹999 with transparent quotes.",
+        "No. Our same-day repair pricing is identical to regular scheduled repairs. No emergency fees, no rush surcharges. Starting at ₹500 with transparent quotes.",
     },
     {
       question: "What if I call after noon — can I still get same-day service?",
@@ -162,7 +162,7 @@ export const sameDaySofaRepairDelhi: SeoPageData = {
       answer:
         "Yes, every same-day repair includes our standard 6-month service warranty. The quality and warranty are identical to regular scheduled repairs.",
     },
-    { question: "What is the sofa repair at home service price in Delhi?", answer: "Sofa repair at home service price in Delhi starts at ₹999. Foam replacement costs ₹1,200–₹2,500 per seat, spring repair ₹800–₹2,000, full upholstery ₹2,000–₹4,500 per seat, recliner repair ₹1,500–₹6,000. Same-day service available when booked before noon." },
+    { question: "What is the sofa repair at home service price in Delhi?", answer: "Sofa repair at home service price in Delhi starts at ₹500. Foam replacement costs ₹1,200–₹2,500 per seat, spring repair ₹800–₹2,000, full upholstery ₹2,000–₹4,500 per seat, recliner repair ₹1,500–₹6,000. Same-day service available when booked before noon." },
     { question: "Can I get sofa repair at home service near me in Delhi today?", answer: "Yes. Book before noon and our sofa repair at home service near me starts the same day across all Delhi localities. Call +91 92179 99355 or book online at furnirevive.com/book for immediate confirmation." },
     { question: "Which areas of Delhi get same-day sofa repair?", answer: "FurniRevive provides same-day sofa repair across all Delhi zones — South Delhi (GK, Saket, Vasant Kunj, Lajpat Nagar), West Delhi (Dwarka all sectors, Janakpuri, Rajouri Garden), North Delhi (Rohini, Pitampura, Shalimar Bagh), East Delhi (Preet Vihar, Mayur Vihar, Laxmi Nagar), and Central Delhi (Karol Bagh, CP, Paharganj). Book before noon for guaranteed same-day arrival." },
     { question: "How much does same-day sofa repair cost in Delhi vs regular repair?", answer: "Same-day sofa repair in Delhi costs exactly the same as a regular scheduled repair — no emergency surcharge, no rush fee. Cushion re-stuffing starts at ₹999, upholstery patch from ₹1,500, frame repair from ₹2,000, and full 3-seater overhaul from ₹3,000. You pay the regular price whether you book same-day or in advance." },
@@ -201,9 +201,9 @@ export const sameDaySofaRepairDelhi: SeoPageData = {
 export const sameDayFurnitureRepairDelhi: SeoPageData = {
   slug: "same-day-furniture-repair-delhi",
   title:
-    "Same Day Furniture Repair Delhi | Get It Fixed Today | ₹599 | FurniRevive",
+    "Same Day Furniture Repair Delhi | ₹599 | FurniRevive",
   metaDescription:
-    "Same-day furniture repair in Delhi for sofas, beds, chairs, tables, wardrobes. Book before noon, fixed the same day. Starting ₹599. Doorstep service. 6-month warranty.",
+    "Same-day furniture repair in Delhi for sofas, beds, chairs, tables, wardrobes. Book before noon, fixed the same day. Starting ₹599. Doorstep service.",
   h1: "Same-Day Furniture Repair in Delhi — Fixed Today, Guaranteed",
   heroSubtitle:
     "Can't wait for a repair appointment? FurniRevive fixes sofas, beds, chairs, tables, and wardrobes the same day you call. Doorstep service across all Delhi localities. Starting ₹599.",
@@ -244,7 +244,7 @@ export const sameDayFurnitureRepairDelhi: SeoPageData = {
     {
       title: "From ₹599 — No Compromise",
       description:
-        "Affordable same-day repair with premium materials. Chair repair from ₹599, sofa repair from ₹999. Quality identical to scheduled visits.",
+        "Affordable same-day repair with premium materials. Chair repair from ₹599, sofa repair from ₹500. Quality identical to scheduled visits.",
     },
     {
       title: "6-Month Warranty",
@@ -306,7 +306,7 @@ export const sameDayFurnitureRepairDelhi: SeoPageData = {
     {
       heading: "Same-Day Furniture Repair Pricing in Delhi",
       body: [
-        "Chair repair from ₹599. Sofa cushion work from ₹999. Bed frame repair from ₹1,199. Wardrobe hinge and door repair from ₹799. Table leg and joint repair from ₹699. All prices are for same-day service with no premium — identical to regular scheduled visits. Multiple items repaired in the same visit are quoted together for better value.",
+        "Chair repair from ₹599. Sofa cushion work from ₹500. Bed frame repair from ₹1,199. Wardrobe hinge and door repair from ₹799. Table leg and joint repair from ₹699. All prices are for same-day service with no premium — identical to regular scheduled visits. Multiple items repaired in the same visit are quoted together for better value.",
         "We provide written quotes after on-site inspection. The price agreed is the price paid. If during the inspection we find additional issues you hadn't noticed, we flag them transparently with separate pricing — never bundled into the original quote without your approval. For all cost guides: <a href=\"/furniture-repair-price-guide-delhi\">furniture repair price guide</a>, <a href=\"/sofa-repair-cost-delhi\">sofa repair cost</a>, <a href=\"/recliner-repair-cost-delhi\">recliner repair cost</a>. Locality coverage: <a href=\"/furniture-repair-south-delhi\">South Delhi furniture repair</a>, <a href=\"/furniture-repair-dwarka\">Dwarka furniture repair</a>, <a href=\"/furniture-repair-rohini\">Rohini furniture repair</a>, <a href=\"/furniture-repair-noida\">Noida furniture repair</a>, <a href=\"/furniture-repair-gurgaon\">Gurgaon furniture repair</a>. <a href=\"/areas-we-serve\">All areas</a>. <a href=\"/book\">Book online</a>.",
       ],
     },
@@ -365,9 +365,9 @@ export const sameDayFurnitureRepairDelhi: SeoPageData = {
 export const urgentFurnitureRepairDelhi: SeoPageData = {
   slug: "urgent-furniture-repair-delhi",
   title:
-    "Urgent Furniture Repair Delhi | Emergency Fix Within Hours | FurniRevive",
+    "Urgent Furniture Repair Delhi | FurniRevive",
   metaDescription:
-    "Urgent furniture repair in Delhi — emergency sofa, bed, chair, wardrobe fix within hours. Doorstep service across all Delhi areas. Starting ₹599. No rush fees. Call now!",
+    "Urgent furniture repair in Delhi — emergency sofa, bed, chair, wardrobe fix within hours. Doorstep service across all Delhi areas. Starting ₹599.",
   h1: "Urgent Furniture Repair in Delhi — Emergency Service Within Hours",
   heroSubtitle:
     "Furniture emergency in Delhi? FurniRevive dispatches skilled technicians within hours for urgent sofa, bed, chair, table, and wardrobe repairs. No rush fees — same affordable pricing with 6-month warranty.",
@@ -470,7 +470,7 @@ export const urgentFurnitureRepairDelhi: SeoPageData = {
     {
       heading: "Urgent Repair Pricing in Delhi — No Surprises",
       body: [
-        "Chair repair from ₹599. Sofa repair from ₹999. Bed frame repair from ₹1,199. Wardrobe door repair from ₹799. Table repair from ₹699. These are the same prices you'd pay for a scheduled appointment — we don't mark up for urgency. Written quotes provided on-site before any work begins. If the repair turns out to be more complex than expected, we discuss additional costs transparently before proceeding. Cost guides: <a href=\"/furniture-repair-price-guide-delhi\">furniture repair price guide</a>, <a href=\"/sofa-repair-cost-delhi\">sofa repair cost</a>, <a href=\"/recliner-repair-cost-delhi\">recliner repair cost</a>. Services: <a href=\"/sofa-repair-delhi\">sofa repair Delhi</a>, <a href=\"/recliner-repair-delhi\">recliner repair Delhi</a>, <a href=\"/leather-sofa-repair-delhi\">leather sofa repair Delhi</a>, <a href=\"/furniture-repair-delhi\">furniture repair Delhi</a>. Coverage: <a href=\"/sofa-repair-south-delhi\">South Delhi</a>, <a href=\"/sofa-repair-noida\">Noida</a>, <a href=\"/sofa-repair-gurgaon\">Gurgaon</a>. <a href=\"/areas-we-serve\">All areas</a>. <a href=\"/book\">Book online</a>.",
+        "Chair repair from ₹599. Sofa repair from ₹500. Bed frame repair from ₹1,199. Wardrobe door repair from ₹799. Table repair from ₹699. These are the same prices you'd pay for a scheduled appointment — we don't mark up for urgency. Written quotes provided on-site before any work begins. If the repair turns out to be more complex than expected, we discuss additional costs transparently before proceeding. Cost guides: <a href=\"/furniture-repair-price-guide-delhi\">furniture repair price guide</a>, <a href=\"/sofa-repair-cost-delhi\">sofa repair cost</a>, <a href=\"/recliner-repair-cost-delhi\">recliner repair cost</a>. Services: <a href=\"/sofa-repair-delhi\">sofa repair Delhi</a>, <a href=\"/recliner-repair-delhi\">recliner repair Delhi</a>, <a href=\"/leather-sofa-repair-delhi\">leather sofa repair Delhi</a>, <a href=\"/furniture-repair-delhi\">furniture repair Delhi</a>. Coverage: <a href=\"/sofa-repair-south-delhi\">South Delhi</a>, <a href=\"/sofa-repair-noida\">Noida</a>, <a href=\"/sofa-repair-gurgaon\">Gurgaon</a>. <a href=\"/areas-we-serve\">All areas</a>. <a href=\"/book\">Book online</a>.",
       ],
     },
   ],

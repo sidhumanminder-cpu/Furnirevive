@@ -5,21 +5,19 @@ const WHATSAPP_NUMBER = "919217999355";
 
 const reclinerRepairGulmoharPark: SeoPageData = {
   slug: "recliner-repair-gulmohar-park",
-  title: "Recliner Repair in Gulmohar Park, South Delhi | Expert Home Service",
+  title: "Recliner Repair in Gulmohar Park, South Delhi",
   metaDescription:
-    "Professional recliner repair in Gulmohar Park, South Delhi. Electric motor, manual mechanism, upholstery & foam restoration. Same-day home visits. Call " +
-    PHONE_DISPLAY +
-    ".",
+    "Professional recliner repair in Gulmohar Park, South Delhi. Electric motor, manual mechanism, upholstery & foam restoration. Call " + PHONE_DISPLAY + ".",
   h1: "Recliner Repair in Gulmohar Park, South Delhi",
   heroSubtitle:
     "Expert recliner repairs for Gulmohar Park family homes — motors, mechanisms, upholstery and foam restored at your doorstep. Call " +
     PHONE_DISPLAY +
     " for same-day service.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
-    altText: "Professional sofa repair technician working on an ivory premium fabric sofa in a luxury South Delhi home (Gulmohar Park) — FurniRevive",
-    caption: "Sofa Repair in Gulmohar Park | Premium upholstery & foam service | Home visit | FurniRevive",
+    heading: "Premium Recliner Repair — Expert Service at Your South Delhi Home",
+    imageUrl: "https://hercules-cdn.com/file_LOHAKGqtU1iWl0Py1MTUfn3g",
+    altText: "Professional recliner repair technician working on a cream recliner in a luxury South Delhi home (Gulmohar Park) — FurniRevive",
+    caption: "Recliner Repair in Gulmohar Park | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
     "FurniRevive provides professional recliner repair in Gulmohar Park, South Delhi, covering electric motors, manual cable mechanisms, upholstery re-stitching and foam replacement. Certified technicians visit your home, diagnose the fault and complete most repairs in a single visit. Transparent pricing starts from ₹799. Call " +

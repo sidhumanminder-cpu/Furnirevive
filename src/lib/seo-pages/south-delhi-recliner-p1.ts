@@ -7,22 +7,20 @@ const reclinerRepairPanchsheelPark: SeoPageData = {
   slug: "recliner-repair-panchsheel-park",
 
   title:
-    "Recliner Repair in Panchsheel Park Delhi | Expert Motor & Mechanism Fix | FurniRevive",
+    "Recliner Repair in Panchsheel Park Delhi | FurniRevive",
 
   metaDescription:
-    "Premium recliner repair in Panchsheel Park, Delhi. Electric motor, manual mechanism, leather restoration & upholstery for luxury & imported recliners. Same-day home service. Call " +
-    PHONE_DISPLAY +
-    ".",
+    "Premium recliner repair in Panchsheel Park, Delhi. Call " + PHONE_DISPLAY + ".",
 
   h1: "Recliner Repair in Panchsheel Park — Expert Service for Luxury & Imported Recliners",
 
   heroSubtitle:
     "Panchsheel Park's trusted recliner repair specialists. We fix electric motors, broken mechanisms, leather tears and frame issues on all premium, imported and home-theatre recliners — right at your doorstep.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
-    altText: "Professional sofa repair technician working on an ivory premium fabric sofa in a luxury South Delhi home (Panchsheel Park) — FurniRevive",
-    caption: "Sofa Repair in Panchsheel Park | Premium upholstery & foam service | Home visit | FurniRevive",
+    heading: "Premium Recliner Repair — Expert Service at Your South Delhi Home",
+    imageUrl: "https://hercules-cdn.com/file_LOHAKGqtU1iWl0Py1MTUfn3g",
+    altText: "Professional recliner repair technician working on a cream recliner in a luxury South Delhi home (Panchsheel Park) — FurniRevive",
+    caption: "Recliner Repair in Panchsheel Park | Premium upholstery & foam service | Home visit | FurniRevive",
   },
 
   quickAnswer:

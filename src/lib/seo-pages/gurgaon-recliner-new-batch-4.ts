@@ -3,15 +3,15 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const reclinerRepairSector56Gurgaon: SeoPageData = {
   slug: "recliner-repair-sector-56-gurgaon",
-  title: "Recliner Repair in Sector 56 Gurgaon | Golf Course Road Corridor | FurniRevive",
+  title: "Recliner Repair in Sector 56 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Sector 56 Gurgaon — Golf Course Extension corridor, M3M Altitude, BPTP Park Elite. Motor, leather & mechanism repair from ₹999. 6-month warranty.",
+    "Expert recliner repair in Sector 56 Gurgaon — Golf Course Extension corridor, M3M Altitude, BPTP Park Elite. Motor, leather & mechanism repair from ₹999.",
   h1: "Recliner Repair in Sector 56, Gurgaon",
   heroSubtitle:
     "Sector 56 sits in the heart of the Golf Course Extension Road corridor — home to M3M Altitude, BPTP Park Elite, and a growing cluster of premium builder floors. When your recliner develops a motor fault, mechanism stiffness, or leather damage, FurniRevive's Sector 56 specialist team arrives at your doorstep, diagnoses the issue on-site, and restores full function — starting at ₹999, backed by a 6-month warranty.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
-    imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
+    imageUrl: "https://hercules-cdn.com/file_2c8bbpkuu9qh7mm9w7sbecpE",
     altText: "Professional recliner repair technician servicing a premium recliner in a Sector 56 Gurgaon apartment — FurniRevive",
     caption: "Recliner Repair in Sector 56 Gurgaon | Motor, mechanism & leather service | Home visit | FurniRevive",
   },
@@ -301,15 +301,15 @@ export const reclinerRepairSector56Gurgaon: SeoPageData = {
 
 export const reclinerRepairSector57Gurgaon: SeoPageData = {
   slug: "recliner-repair-sector-57-gurgaon",
-  title: "Recliner Repair in Sector 57 Gurgaon | Doorstep Service ₹999 | FurniRevive",
+  title: "Recliner Repair in Sector 57 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Sector 57 Gurgaon — Emaar MGF Palm Drive, Unitech Vistas, Golf Course Extension Road. Motor, mechanism & leather repair from ₹999. 6-month warranty.",
+    "Expert recliner repair in Sector 57 Gurgaon — Emaar MGF Palm Drive, Unitech Vistas, Golf Course Extension Road.",
   h1: "Recliner Repair in Sector 57, Gurgaon",
   heroSubtitle:
     "Sector 57 is a premium residential pocket along the Golf Course Extension Road — anchored by Emaar MGF Palm Drive and Unitech Vistas, with established independent builder floors throughout. When your recliner develops a motor fault, mechanism jamming, or upholstery damage, FurniRevive's Sector 57 team arrives at your doorstep with the parts, materials, and expertise to restore it — starting at ₹999, with a 6-month warranty.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
-    imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
+    imageUrl: "https://hercules-cdn.com/file_2c8bbpkuu9qh7mm9w7sbecpE",
     altText: "Professional recliner repair technician working on a premium recliner in a Sector 57 Gurgaon apartment — FurniRevive",
     caption: "Recliner Repair in Sector 57 Gurgaon | Motor, mechanism & leather service | Home visit | FurniRevive",
   },
@@ -594,15 +594,15 @@ export const reclinerRepairSector57Gurgaon: SeoPageData = {
 
 export const reclinerRepairSector65Gurgaon: SeoPageData = {
   slug: "recliner-repair-sector-65-gurgaon",
-  title: "Recliner Repair in Sector 65 Gurgaon | DLF Phase 5 Border | FurniRevive",
+  title: "Recliner Repair in Sector 65 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Sector 65 Gurgaon — M3M Golf Estate, Ireo Grand Arch, DLF Phase 5 border. Luxury motor, mechanism & leather repair from ₹999. 6-month warranty.",
+    "Expert recliner repair in Sector 65 Gurgaon — M3M Golf Estate, Ireo Grand Arch, DLF Phase 5 border. Luxury motor, mechanism & leather repair from ₹999.",
   h1: "Recliner Repair in Sector 65, Gurgaon",
   heroSubtitle:
     "Sector 65 commands one of Gurgaon's most prestigious residential addresses — M3M Golf Estate overlooks a championship golf course, Ireo Grand Arch towers above the Aravalli ridge, and DLF The Skycourt sits at the sector's DLF Phase 5 border. This is an ultra-premium zone where luxury recliners from Stressless, Natuzzi, La-Z-Boy, and Poltrona Frau are standard. When these investment pieces develop faults, FurniRevive's luxury recliner repair team provides specialist doorstep service — from ₹999, with a 6-month warranty.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
-    imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
+    imageUrl: "https://hercules-cdn.com/file_2c8bbpkuu9qh7mm9w7sbecpE",
     altText: "Professional recliner repair technician servicing a luxury recliner in a Sector 65 Gurgaon ultra-premium apartment — FurniRevive",
     caption: "Recliner Repair in Sector 65 Gurgaon | Luxury motor, mechanism & leather service | Home visit | FurniRevive",
   },

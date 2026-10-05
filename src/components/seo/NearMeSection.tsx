@@ -550,7 +550,7 @@ const SERVICE_CONFIG: Record<string, ServiceConfig> = {
     whatsappText: "Hi! I'd like to get a quotation for furniture repair near me.",
     crossCityLinkKey: "furnitureRepair",
     faqs: (cityName) => [
-      { question: `How much does furniture repair cost in ${cityName}?`, answer: `Furniture repair in ${cityName} starts at ₹500 for a minor joint or hardware repair. Sofa repairs start at ₹800, chair repairs at ₹500, and wooden furniture polishing from ₹1,500. FurniRevive provides a free doorstep inspection and itemised quote before any work begins.` },
+      { question: `How much does furniture repair cost in ${cityName}?`, answer: `Furniture repair in ${cityName} starts at ₹500 for a minor joint or hardware repair. Sofa repairs start at ₹500, chair repairs at ₹500, and wooden furniture polishing from ₹1,500. FurniRevive provides a free doorstep inspection and itemised quote before any work begins.` },
       { question: `What types of furniture do you repair in ${cityName}?`, answer: `We repair sofas (all types), recliners, dining chairs, armchairs, office chairs, wooden beds, wardrobes, cabinets, coffee tables, bookshelves, TV units, and other wooden furniture. Upholstery, foam replacement, structural repair, polishing, and hardware replacement are all available as standalone or combined services.` },
       { question: `Can furniture repair be done at home in ${cityName}?`, answer: `Yes — FurniRevive's entire service is doorstep-based. Our craftsmen carry tools, foam, fabric, wood fillers, adhesives, polishes, and hardware to your home. Protective sheeting is laid during work. No transport required for most jobs.` },
       { question: `How quickly can you repair my furniture in ${cityName}?`, answer: `Technicians respond within 2–4 hours across ${cityName}. Book before noon for same-day service. For urgent repairs, call +91 92179 99355 directly. Most furniture repairs — sofa foam replacement, joint repair, upholstery — are completed in a single 2–4 hour visit.` },
@@ -590,7 +590,16 @@ function getServiceConfig(serviceLabel: string): ServiceConfig {
 export interface NearMeSectionProps {
   city: CityKey;
   serviceLabel?: string;
+  /** Set false when the host page already emits its own FAQPage schema */
+  emitFaqSchema?: boolean;
 }
+
+/** Headline starting price per service for the closing pricing line. */
+const NEAR_ME_START_PRICE: Record<string, string> = {
+  "Sofa Upholstery": "₹2,000 per seat",
+  "Recliner Repair": "₹1,499",
+  "Furniture Polishing": "₹1,500",
+};
 
 const TRUST_SIGNALS = [
   "5,000+ Sofas Repaired",
@@ -601,7 +610,7 @@ const TRUST_SIGNALS = [
   "WhatsApp Booking",
 ] as const;
 
-export default function NearMeSection({ city, serviceLabel = "Sofa Repair" }: NearMeSectionProps) {
+export default function NearMeSection({ city, serviceLabel = "Sofa Repair", emitFaqSchema = true }: NearMeSectionProps) {
   const cfg = CITY_CONFIGS[city];
   const svcCfg = getServiceConfig(serviceLabel);
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(svcCfg.whatsappText)}`;
@@ -720,7 +729,7 @@ export default function NearMeSection({ city, serviceLabel = "Sofa Repair" }: Ne
           <Link to={cfg.serviceLinks.pricing} className="text-primary underline underline-offset-2 not-italic hover:text-primary/80">
             pricing
           </Link>{" "}
-          starting ₹800 with a free doorstep inspection before any work begins.
+          starting {NEAR_ME_START_PRICE[serviceLabel] ?? "₹500"} with a free doorstep inspection before any work begins.
         </p>
 
         {/* FAQs */}
@@ -790,6 +799,7 @@ export default function NearMeSection({ city, serviceLabel = "Sofa Repair" }: Ne
       </div>
 
       {/* FAQ JSON-LD schema */}
+      {emitFaqSchema && (
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -804,6 +814,7 @@ export default function NearMeSection({ city, serviceLabel = "Sofa Repair" }: Ne
           }),
         }}
       />
+      )}
     </section>
   );
 }

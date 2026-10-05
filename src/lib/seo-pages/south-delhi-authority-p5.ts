@@ -6,9 +6,9 @@ const WHATSAPP_NUMBER = "919217999355";
 export const SOUTH_DELHI_AUTHORITY_P5: SeoPageData[] = [
   {
     slug: "furniture-repair-new-friends-colony",
-    title: "Furniture Repair New Friends Colony – Luxury Restoration | FurniRevive Delhi",
+    title: "Furniture Repair New Friends Colony – Luxury Restoration",
     metaDescription:
-      "Furniture repair in New Friends Colony Delhi. Imported furniture, antique restoration, premium upholstery & luxury wooden furniture. Home visit from ₹599. 6-month warranty!",
+      "Furniture repair in New Friends Colony Delhi. Imported furniture, antique restoration, premium upholstery & luxury wooden furniture. Home visit from ₹599.",
     h1: "Furniture Repair in New Friends Colony – Premium Restoration for Luxury Homes",
     heroSubtitle:
       "Expert restoration for imported furniture, antique pieces, premium upholstery, and luxury wooden furniture in New Friends Colony. Free home visit. Same-day slots. 6-month warranty.",

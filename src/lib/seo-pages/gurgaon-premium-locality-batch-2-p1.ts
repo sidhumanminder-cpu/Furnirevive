@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const furnitureRepairDlfPhase5: SeoPageData = {
   slug: "furniture-repair-dlf-phase-5",
-  title: "Furniture Repair in DLF Phase 5 Gurgaon | Luxury Doorstep ₹999 | FurniRevive",
-  metaDescription: "Premium furniture repair in DLF Phase 5 Gurgaon — The Crest, Aralias, Magnolias, The Skycourt. Sofa, imported furniture, wardrobe, bed repair at your doorstep from ₹999. 6-month warranty.",
+  title: "Furniture Repair in DLF Phase 5 Gurgaon | FurniRevive",
+  metaDescription: "Premium furniture repair in DLF Phase 5 Gurgaon — The Crest, Aralias, Magnolias, The Skycourt.",
   h1: "Furniture Repair in DLF Phase 5, Gurgaon",
   heroSubtitle: "DLF Phase 5 is Gurgaon's most prestigious address — The Crest, Aralias, Magnolias, The Skycourt. Your imported sofas, luxury recliners, and bespoke furniture deserve specialist care. Doorstep repair from ₹999. 6-month warranty.",
   showcaseImage: {

@@ -13,6 +13,7 @@
 
 import type { SeoPageData } from "@/lib/seo-constants.ts";
 import { BRAND_NAME, PHONE_NUMBER, SITE_URL } from "@/lib/seo-constants.ts";
+import { BUSINESS_ADDRESS, BUSINESS_AREA_SERVED, BUSINESS_GEO } from "@/lib/business-config.ts";
 import type { SeoServiceKey } from "@/lib/seoConfigs/service-config.ts";
 
 /**
@@ -22,13 +23,6 @@ import type { SeoServiceKey } from "@/lib/seoConfigs/service-config.ts";
  */
 const CATEGORY_HUB_URLS: Partial<Record<SeoServiceKey, string>> = {
   "modular-kitchen": "/modular-kitchen",
-} as const;
-
-const ADDRESS = {
-  "@type": "PostalAddress",
-  addressLocality: "Delhi",
-  addressRegion: "Delhi",
-  addressCountry: "IN",
 } as const;
 
 // ─── Individual builders ────────────────────────────────────────────────────
@@ -41,14 +35,9 @@ export function buildLocalBusinessSchema(baseUrl: string): Record<string, unknow
     name: BRAND_NAME,
     telephone: PHONE_NUMBER,
     url: baseUrl,
-    address: ADDRESS,
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      reviewCount: "127",
-      bestRating: "5",
-      worstRating: "1",
-    },
+    address: BUSINESS_ADDRESS,
+    geo: BUSINESS_GEO,
+    areaServed: BUSINESS_AREA_SERVED,
   };
 }
 

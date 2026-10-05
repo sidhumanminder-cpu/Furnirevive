@@ -6,13 +6,13 @@ export const reclineRepairNoida: SeoPageData = {
   slug: "recliner-repair-noida",
   title: "Recliner Repair in Noida | Manual & Electric – FurniRevive",
   metaDescription:
-    "Expert recliner repair in Noida from ₹1,499. Manual mechanism, electric motor & cable repair at doorstep. All Noida sectors covered. 6-month warranty. Call +91 92179 99355.",
+    "Expert recliner repair in Noida from ₹1,499. Manual mechanism, electric motor & cable repair at doorstep. All Noida sectors covered. 6-month warranty.",
   h1: "Recliner Repair in Noida — Manual, Motorised & Electric Fixed at Home",
   heroSubtitle:
     "Specialist recliner repair across all Noida sectors — mechanisms, motors, cables, springs & upholstery restored with a 6-month warranty. Starting ₹1,499.",
   showcaseImage: {
     heading: "Premium Recliner Repair — Expert Service at Your Noida Home",
-    imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
+    imageUrl: "https://hercules-cdn.com/file_SkQRYzIVvyqVJZeutqrjLNvq",
     altText: "Professional recliner repair technician servicing a motorised recliner mechanism in a Noida apartment — FurniRevive",
     caption: "Recliner Repair in Noida | Manual & motorised mechanism repair | From ₹1,499 | FurniRevive",
   },
@@ -289,9 +289,9 @@ export const reclineRepairNoida: SeoPageData = {
 
 export const reclineRepairGurgaon: SeoPageData = {
   slug: "recliner-repair-gurgaon",
-  title: "Recliner Repair in Gurgaon | All Mechanisms & Motors – FurniRevive",
+  title: "Recliner Repair in Gurgaon",
   metaDescription:
-    "Professional recliner repair in Gurgaon from ₹1,499. Manual, motorised & electric recliners fixed at doorstep. DLF, Golf Course Road, Sohna Road. Call +91 92179 99355.",
+    "Professional recliner repair in Gurgaon from ₹1,499. Manual, motorised & electric recliners fixed at doorstep. DLF, Golf Course Road, Sohna Road.",
   h1: "Recliner Repair in Gurgaon — All Recliner Types Fixed at Your Door",
   heroSubtitle:
     "Expert recliner mechanism and motor repair across Gurgaon — DLF, Golf Course Road, Sohna Road & Cyber City covered with same-day service. Starting ₹1,499.",
@@ -492,7 +492,7 @@ export const reclineRepairGurgaon: SeoPageData = {
   faqs: [
     { question: "Do you repair La-Z-Boy recliners in Gurgaon?", answer: "Yes. La-Z-Boy is one of our most commonly serviced recliner brands in Gurgaon. We carry compatible mechanism kits and can source La-Z-Boy specific parts within 1–2 days when needed." },
     { question: "Can you service a 5-seat power recliner set in Gurgaon?", answer: "Yes. Multi-seat recliner sets are a Gurgaon speciality for us — we service media room configurations regularly. We test each seat systematically and address all faults in a single visit." },
-    { question: "How much does recliner repair cost in Gurgaon?", answer: "Manual mechanism repair from ₹1,499. Motor replacement from ₹2,499. Full foam and reupholstery restoration from ₹3,000 per seat. Written quote after the free inspection." },
+    { question: "How much does recliner repair cost in Gurgaon?", answer: "Manual mechanism repair from ₹1,499. Motor replacement from ₹2,499. Full foam and reupholstery restoration from ₹2,000 per seat. Written quote after the free inspection." },
     { question: "Is evening and weekend recliner repair available in Gurgaon?", answer: "Yes. Evening slots until 8 PM and full weekend availability. Corporate professionals are a significant portion of our Gurgaon client base and scheduling flexibility is important to us." },
     { question: "Do you handle gated community access for Gurgaon repairs?", answer: "Yes. We handle all pre-registration, gate passes, and vehicle permits for Gurgaon's gated communities. Just let us know your society's entry requirements when booking." },
     { question: "My power recliner's USB ports have stopped working — can you fix that?", answer: "Yes. USB charging port repair is within our service scope. We diagnose whether the fault is in the port itself, the wiring harness, or the control board and repair the specific failed component." },
@@ -503,8 +503,8 @@ export const reclineRepairGurgaon: SeoPageData = {
   ],
   showcaseImage: {
     heading: "Recliner Repair — Real Results",
-    imageUrl: "https://hercules-cdn.com/file_r90po5MLAvi73rhfUYV1fjVg",
-    altText: "Recliner sofa repair before and after in Gurgaon — mechanism and upholstery restored to like-new condition by FurniRevive",
+    imageUrl: "https://hercules-cdn.com/file_Wf0mo2ViSrP0cT3iw8kwww0J",
+    altText: "Recliner recliner repair before and after in Gurgaon — mechanism and upholstery restored to like-new condition by FurniRevive",
     caption: "Recliner Repair Gurgaon | Motor & mechanism restoration | ₹1,499–₹7,000 | Single home visit",
   },
   relatedPages: [
@@ -535,13 +535,13 @@ export const reclineRepairGhaziabad: SeoPageData = {
   slug: "recliner-repair-ghaziabad",
   title: "Recliner Repair in Ghaziabad | Doorstep Service – FurniRevive",
   metaDescription:
-    "Recliner repair in Ghaziabad from ₹1,499. Mechanism, motor & cable fixed at home. Indirapuram, Vaishali, Vasundhara, Raj Nagar. 6-month warranty. Call +91 92179 99355.",
+    "Recliner repair in Ghaziabad from ₹1,499. Mechanism, motor & cable fixed at home. Indirapuram, Vaishali, Vasundhara, Raj Nagar. 6-month warranty.",
   h1: "Recliner Repair in Ghaziabad — Doorstep Mechanism & Motor Service",
   heroSubtitle:
     "Professional recliner repair across Ghaziabad — Indirapuram, Vaishali, Vasundhara & Raj Nagar Extension covered with same-day doorstep service. Starting ₹1,499.",
   showcaseImage: {
     heading: "Premium Recliner Repair — Expert Service at Your Ghaziabad Home",
-    imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
+    imageUrl: "https://hercules-cdn.com/file_SkQRYzIVvyqVJZeutqrjLNvq",
     altText: "Professional recliner repair technician fixing a manual recliner mechanism in an Indirapuram Ghaziabad home — FurniRevive",
     caption: "Recliner Repair in Ghaziabad | Indirapuram, Vaishali & Vasundhara | From ₹1,499 | FurniRevive",
   },
@@ -694,7 +694,7 @@ export const reclineRepairGhaziabad: SeoPageData = {
     { question: "Is there a free inspection before I pay anything?", answer: "Yes. The diagnostic inspection and written quote are completely free with no obligation." },
     { question: "Do you replace recliner foam in Ghaziabad?", answer: "Yes. Foam replacement is available alongside or separately from mechanism repair. We cut foam to recliner-specific dimensions and test fit through the full movement range." },
     { question: "How much does it cost to repair a manual recliner mechanism in Ghaziabad?", answer: "Cable repair from ₹800. Mechanism kit replacement ₹1,499–₹3,000. Written quote after the free inspection." },
-    { question: "Can you reupholster a recliner in Ghaziabad?", answer: "Yes. Full reupholstery from ₹3,000 per seat in our standard fabric range, or up to ₹15,000 per seat for genuine leather. We carry physical swatches for selection." },
+    { question: "Can you reupholster a recliner in Ghaziabad?", answer: "Yes. Full reupholstery from ₹2,000 per seat in our standard fabric range, or up to ₹15,000 per seat for genuine leather. We carry physical swatches for selection." },
     { question: "Do weekend slots exist for recliner repair in Ghaziabad?", answer: "Yes. Saturday and Sunday appointments are available. Book a few days in advance as weekend slots fill quickly." },
   ],
   relatedPages: [
@@ -721,7 +721,7 @@ export const reclineRepairFaridabad: SeoPageData = {
     "Specialist recliner repair for Faridabad homes — NIT, Neharpar (Greater Faridabad) & residential sectors with same-day doorstep service. Starting ₹1,499.",
   showcaseImage: {
     heading: "Premium Recliner Repair — Expert Service at Your Faridabad Home",
-    imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
+    imageUrl: "https://hercules-cdn.com/file_SkQRYzIVvyqVJZeutqrjLNvq",
     altText: "Professional recliner repair technician working on an electric recliner motor in a Faridabad home — FurniRevive",
     caption: "Recliner Repair in Faridabad | NIT & Neharpar | Manual & motorised repair | FurniRevive",
   },
@@ -861,15 +861,15 @@ export const reclineRepairFaridabad: SeoPageData = {
 
 export const electricReclineRepairDelhi: SeoPageData = {
   slug: "electric-recliner-repair-delhi",
-  title: "Electric Recliner Repair in Delhi | Motor & Wiring Fixed – FurniRevive",
+  title: "Electric Recliner Repair in Delhi",
   metaDescription:
-    "Electric recliner repair in Delhi from ₹2,499. Motor, actuator, handset & wiring fixed at doorstep. All brands. Same-day service. 6-month warranty. Call +91 92179 99355.",
+    "Electric recliner repair in Delhi from ₹2,499. Motor, actuator, handset & wiring fixed at doorstep. All brands. Same-day service. 6-month warranty.",
   h1: "Electric Recliner Repair in Delhi — Motor, Actuator & Wiring Fixed at Home",
   heroSubtitle:
     "Specialist electric recliner repair across Delhi — motor replacement, actuator repair, handset faults & wiring issues resolved with a 6-month warranty. Starting ₹2,499.",
   showcaseImage: {
     heading: "Premium Electric Recliner Repair — Expert Service at Your Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
+    imageUrl: "https://hercules-cdn.com/file_SkQRYzIVvyqVJZeutqrjLNvq",
     altText: "Professional electric recliner repair technician diagnosing a motor and wiring fault in a Delhi home — FurniRevive",
     caption: "Electric Recliner Repair Delhi | Motor, actuator & wiring repair | From ₹2,499 | FurniRevive",
   },

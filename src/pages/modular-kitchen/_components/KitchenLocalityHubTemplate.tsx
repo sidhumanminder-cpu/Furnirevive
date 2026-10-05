@@ -129,6 +129,109 @@ function localityTestimonials(e: KitchenLocalityHubEntry) {
   ];
 }
 
+// ─── Title/description/H1 variation by affluence tier ───────────────────────
+// Mirrors the tier-based branching already used by localityDescription() and
+// localityHighlights() above, so title tags stop being identical across all
+// hub pages (only the locality name previously varied).
+// Each tier also carries a short fallback prefix used only when the full
+// prefix would push the title over budget for long locality names.
+const HUB_META_COPY: Record<
+  KitchenLocalityHubEntry["affluence"],
+  { titlePrefix: string; titlePrefixShort: string; h1Prefix: string; descIntro: string }
+> = {
+  "ultra-high": {
+    titlePrefix: "Luxury Modular Kitchen Designers in",
+    titlePrefixShort: "Luxury Modular Kitchen in",
+    h1Prefix: "Luxury Modular Kitchen Designers in",
+    descIntro: "Design and install a luxury island or open-plan modular kitchen in",
+  },
+  "high": {
+    titlePrefix: "Premium Modular Kitchen Interiors in",
+    titlePrefixShort: "Premium Modular Kitchen in",
+    h1Prefix: "Premium Modular Kitchen Interiors in",
+    descIntro: "Get a premium acrylic or PU-finish modular kitchen in",
+  },
+  "mid-high": {
+    titlePrefix: "Modular Kitchen Design & Installation in",
+    titlePrefixShort: "Modular Kitchen Design in",
+    h1Prefix: "Modular Kitchen Design & Installation in",
+    descIntro: "Get a custom L-shape or parallel modular kitchen in",
+  },
+  "mid": {
+    titlePrefix: "Affordable Modular Kitchen in",
+    titlePrefixShort: "Affordable Modular Kitchen in",
+    h1Prefix: "Affordable Modular Kitchen in",
+    descIntro: "Get a budget-friendly laminate modular kitchen in",
+  },
+};
+
+// Preferred internal budgets — safety margin below Google's own display
+// ceilings so normal generated text (including long real locality names)
+// is never at risk of being cut off.
+const HUB_TITLE_BUDGET = 65;
+const HUB_TITLE_MAX = 70;
+const HUB_DESCRIPTION_BUDGET = 155;
+const HUB_DESCRIPTION_MAX = 160;
+
+/** Defensive safety net only — should rarely fire once graceful degradation is applied. */
+function hubHardTruncate(text: string, max: number): string {
+  if (text.length <= max) return text;
+  if (import.meta.env.DEV) {
+    console.warn(`[KitchenLocalityHubTemplate] hardTruncate fired unexpectedly on: "${text}" (${text.length} > ${max})`);
+  }
+  const hardCut = text.slice(0, max - 1);
+  const lastSpace = hardCut.lastIndexOf(" ");
+  const cut = lastSpace > max - 16 ? hardCut.slice(0, lastSpace) : hardCut;
+  return `${cut.trimEnd()}…`;
+}
+
+/**
+ * Builds the <title> tag from ordered candidates (most to least detailed),
+ * returning the first that fits the preferred budget. Falls back to the
+ * hard ceiling truncate() only for names too long for even the shortest form.
+ */
+function buildHubTitle(entry: KitchenLocalityHubEntry, hubCopy: (typeof HUB_META_COPY)[KitchenLocalityHubEntry["affluence"]]): string {
+  const candidates = [
+    `${hubCopy.titlePrefix} ${entry.localityName} | FurniRevive`,
+    `${hubCopy.titlePrefixShort} ${entry.localityName} | FurniRevive`,
+    `${hubCopy.titlePrefixShort} ${entry.localityName}`,
+  ];
+  for (const c of candidates) {
+    if (c.length <= HUB_TITLE_BUDGET) return c;
+  }
+  return hubHardTruncate(candidates[candidates.length - 1], HUB_TITLE_MAX);
+}
+
+/**
+ * Builds the meta description from ordered segments, dropping the least
+ * essential segment (the "serving nearby X too" clause, then the brand
+ * sign-off) until it fits the preferred budget.
+ */
+function buildHubDescription(
+  entry: KitchenLocalityHubEntry,
+  hubCopy: (typeof HUB_META_COPY)[KitchenLocalityHubEntry["affluence"]],
+  nearbyLandmark: string | undefined,
+  priceRange: string,
+): string {
+  const opening = `${hubCopy.descIntro} ${entry.localityName}, ${entry.cityName}.`;
+  const nearbyClause = nearbyLandmark ? `Serving nearby ${nearbyLandmark} too.` : "";
+  const priceClause = `${priceRange}, free design consultation, 10-year warranty.`;
+  const shortPriceClause = `${priceRange}, 10-year warranty.`;
+  const shortOpening = `Modular kitchen design in ${entry.localityName}, ${entry.cityName}.`;
+
+  const segmentSets = [
+    nearbyClause ? [opening, nearbyClause, priceClause] : [opening, priceClause],
+    [opening, priceClause],
+    [opening, shortPriceClause],
+    [shortOpening, shortPriceClause],
+  ];
+  for (const segments of segmentSets) {
+    const candidate = segments.filter(Boolean).join(" ");
+    if (candidate.length <= HUB_DESCRIPTION_BUDGET) return candidate;
+  }
+  return hubHardTruncate([shortOpening, shortPriceClause].join(" "), HUB_DESCRIPTION_MAX);
+}
+
 // ─── 4-step process ───────────────────────────────────────────────────────────
 const PROCESS_STEPS = [
   { icon: Home, step: 1, title: "Free Home Visit", desc: "Our designer visits your home, measures the kitchen, and discusses your requirements and style preferences." },
@@ -141,9 +244,14 @@ type Props = { entry: KitchenLocalityHubEntry };
 
 const KitchenLocalityHubTemplate = ({ entry }: Props) => {
   const canonical = `${CANONICAL_ORIGIN}/${entry.urlSlug}`;
-  const metaTitle = `Modular Kitchen in ${entry.localityName} | FurniRevive`;
-  const metaDesc = `Get a custom modular kitchen in ${entry.localityName}, ${entry.cityName}. ${fmt(entry.priceMin)}–${fmt(entry.priceMax)}, free design consultation, 10-year warranty. FurniRevive.`;
-  const h1 = `Modular Kitchen in ${entry.localityName}`;
+  const hubCopy = HUB_META_COPY[entry.affluence];
+  const nearbySlug = entry.nearby.find(Boolean);
+  const nearbyLandmark = nearbySlug
+    ? KITCHEN_LOCALITY_HUB_REGISTRY.find((h) => h.localitySlug === nearbySlug)?.localityName
+    : undefined;
+  const metaTitle = buildHubTitle(entry, hubCopy);
+  const metaDesc = buildHubDescription(entry, hubCopy, nearbyLandmark, `${fmt(entry.priceMin)}–${fmt(entry.priceMax)}`);
+  const h1 = `${hubCopy.h1Prefix} ${entry.localityName}`;
   const localityProfile = getLocalityProfile(entry.localitySlug, entry.affluence);
   const layoutSuitability = getLayoutSuitability("l-shape", entry.localityName, entry.affluence);
   const faqs = buildHubFaqs(entry);
@@ -157,6 +265,11 @@ const KitchenLocalityHubTemplate = ({ entry }: Props) => {
       title: metaTitle,
       description: metaDesc,
       canonical,
+      keywords: [
+        "modular kitchen",
+        `modular kitchen ${entry.localityName.toLowerCase()}`,
+        `modular kitchen ${entry.cityName.toLowerCase()}`,
+      ],
       ogImage: "https://hercules-cdn.com/file_vHwBQgnl3KLJL1Yzu4ujy33h",
       ogUrl: canonical,
       ogSiteName: "FurniRevive",

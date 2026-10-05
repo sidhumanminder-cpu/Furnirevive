@@ -142,6 +142,8 @@ export type SeoPageData = {
   localAreasSection?: {
     heading: string;
     areas: string[];
+    /** Area name -> page slug for areas whose page cannot be derived from the name */
+    links?: Record<string, string>;
   };
   /** Optional "near you" context block for local-intent pages */
   nearMeSection?: {

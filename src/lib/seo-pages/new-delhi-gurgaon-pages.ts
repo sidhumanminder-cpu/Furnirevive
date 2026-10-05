@@ -2,9 +2,9 @@ import type { SeoPageData } from "@/lib/seo-constants.ts";
 
 export const sofaRepairDefenceColony: SeoPageData = {
   slug: "sofa-repair-defence-colony",
-  title: "Sofa Repair Defence Colony | FurniRevive – Premium Doorstep Service",
+  title: "Sofa Repair Defence Colony",
   metaDescription:
-    "Expert sofa repair in Defence Colony, South Delhi. FurniRevive offers foam replacement, reupholstery, leather repair & recliner fixing at your doorstep. Call +91 92179 99355.",
+    "Expert sofa repair in Defence Colony, South Delhi. FurniRevive offers foam replacement, reupholstery, leather repair & recliner fixing at your doorstep.",
   h1: "Sofa Repair in Defence Colony, South Delhi",
   heroSubtitle:
     "Premium doorstep sofa repair for Defence Colony residents — foam replacement, reupholstery, leather restoration & frame fixing by trained craftsmen.",
@@ -166,7 +166,7 @@ export const sofaRepairDefenceColony: SeoPageData = {
     { question: "Do you offer sofa repair services in all parts of Defence Colony?", answer: "Yes — we cover every residential block in Defence Colony, including apartments near the market area, Andrewsganj Road properties, and bungalows along the Lodhi Road boundary. Call +91 92179 99355 to confirm availability for your specific address." },
     { question: "How long does a typical sofa repair take at home?", answer: "Most single repairs — foam replacement, spring repair, or leather patching — take 1–3 hours. A full reupholstery of a 3-seater takes 4–6 hours and may require a second visit for fabric-heavy sofas." },
     { question: "Can you match my existing leather or fabric exactly?", answer: "For fabric sofas, we carry 200+ swatches and can also source specific materials if you have a manufacturer reference. For leather, we use pigment-based dyes that are colour-matched on-site — most repairs are visually seamless." },
-    { question: "What is the cost of full sofa repair in Defence Colony?", answer: "A complete 3-seater restoration (foam + springs + reupholstery) typically ranges from ₹10,000–₹25,000 depending on fabric choice and damage extent. Individual repairs start at ₹800. We provide a free on-site quote before any work begins." },
+    { question: "What is the cost of full sofa repair in Defence Colony?", answer: "A complete 3-seater restoration (foam + springs + reupholstery) typically ranges from ₹10,000–₹25,000 depending on fabric choice and damage extent. Individual repairs start at ₹500. We provide a free on-site quote before any work begins." },
     { question: "Do you repair imported sofas like Natuzzi or Durian?", answer: "Yes. Our craftsmen regularly work on imported leather sofas, modular sectionals, and premium Indian brands. We understand the construction differences and use appropriate materials and techniques for each." },
     { question: "Is there a warranty on the repair work?", answer: "All FurniRevive repairs carry a 6-month craftsmanship warranty. If the repaired section fails due to workmanship within 6 months, we return and fix it at no charge." },
     { question: "Do you charge a visit fee for the inspection?", answer: "No. The on-site inspection and quote are completely free. You only pay if you decide to proceed with the repair." },
@@ -196,7 +196,7 @@ export const sofaRepairDefenceColony: SeoPageData = {
 export const sofaRepairGreenPark: SeoPageData = {
   slug: "sofa-repair-green-park",
   title: "Sofa Repair Green Park Delhi | FurniRevive – Doorstep Service",
-  metaDescription: "Professional sofa repair in Green Park, Delhi. FurniRevive fixes sagging cushions, broken springs, torn fabric & leather at your doorstep. Call +91 92179 99355 for a free quote.",
+  metaDescription: "Professional sofa repair in Green Park, Delhi. FurniRevive fixes sagging cushions, broken springs, torn fabric & leather at your doorstep.",
   h1: "Sofa Repair in Green Park, Delhi",
   heroSubtitle: "Trusted doorstep sofa repair for Green Park families — foam replacement, upholstery, spring repair & leather restoration by expert craftsmen.",
   showcaseImage: {
@@ -351,8 +351,8 @@ export const sofaRepairGreenPark: SeoPageData = {
 
 export const sofaRepairHauzKhas: SeoPageData = {
   slug: "sofa-repair-hauz-khas",
-  title: "Sofa Repair Hauz Khas Delhi | FurniRevive – Premium Leather & Recliner Specialists",
-  metaDescription: "Expert sofa repair in Hauz Khas, Delhi. FurniRevive specialises in leather sofa restoration, recliner repair & premium reupholstery at your doorstep. Call +91 92179 99355.",
+  title: "Sofa Repair Hauz Khas Delhi",
+  metaDescription: "Expert sofa repair in Hauz Khas, Delhi. FurniRevive specialises in leather sofa restoration, recliner repair & premium reupholstery at your doorstep.",
   h1: "Sofa Repair in Hauz Khas, Delhi",
   heroSubtitle: "Premium doorstep sofa repair for Hauz Khas apartment residents — leather restoration, recliner mechanism repair, foam replacement & full reupholstery.",
   showcaseImage: {
@@ -509,7 +509,7 @@ export const sofaRepairHauzKhas: SeoPageData = {
 export const sofaRepairSushantLok: SeoPageData = {
   slug: "sofa-repair-sushant-lok-gurgaon",
   title: "Sofa Repair Sushant Lok Gurgaon | FurniRevive – Doorstep Service",
-  metaDescription: "Professional sofa repair in Sushant Lok, Gurgaon. FurniRevive offers foam replacement, recliner repair, reupholstery & leather restoration at your doorstep. Call +91 92179 99355.",
+  metaDescription: "Professional sofa repair in Sushant Lok, Gurgaon. FurniRevive offers foam replacement, recliner repair.",
   h1: "Sofa Repair in Sushant Lok, Gurgaon",
   heroSubtitle: "Premium doorstep sofa repair for Sushant Lok homeowners — recliner fixing, foam replacement, leather restoration & reupholstery by expert craftsmen.",
   showcaseImage: {
@@ -665,8 +665,8 @@ export const sofaRepairSushantLok: SeoPageData = {
 
 export const sofaRepairNirvanaCountry: SeoPageData = {
   slug: "sofa-repair-nirvana-country-gurgaon",
-  title: "Sofa Repair Nirvana Country Gurgaon | FurniRevive – Villa & Society Specialist",
-  metaDescription: "Expert sofa repair in Nirvana Country, Gurgaon (Sector 50, Sohna Road). FurniRevive serves villas and gated societies with doorstep foam replacement, fabric reupholstery & more. Call +91 92179 99355.",
+  title: "Sofa Repair Nirvana Country Gurgaon",
+  metaDescription: "Expert sofa repair in Nirvana Country, Gurgaon (Sector 50, Sohna Road).",
   h1: "Sofa Repair in Nirvana Country, Gurgaon",
   heroSubtitle: "Specialised doorstep sofa repair for Nirvana Country villas and gated societies — fabric replacement, foam restoration & full reupholstery by trained craftsmen.",
   showcaseImage: {

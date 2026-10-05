@@ -1,4 +1,6 @@
 import type { SeoPageData } from "@/lib/seo-constants.ts";
+import { furnitureRepairDelhi } from "@/lib/seo-service-pages.ts";
+import { enrichCityPage, FARIDABAD_SPECIALTY_SECTION } from "./city-enrichment.ts";
 
 const RELATED_LOCATION_PAGES = [
   { label: "Furniture Repair in Noida", href: "/furniture-repair-noida" },
@@ -32,11 +34,11 @@ function relatedExcluding(slug: string) {
   return RELATED_LOCATION_PAGES.filter((p) => p.href !== `/${slug}`);
 }
 
-export const furnitureRepairNoida: SeoPageData = {
+const furnitureRepairNoidaBase: SeoPageData = {
   slug: "furniture-repair-noida",
-  title: "Furniture Repair in Noida | Doorstep Furniture Repair Near Me | FurniRevive",
+  title: "Furniture Repair in Noida | ₹599 Doorstep | FurniRevive",
   metaDescription:
-    "Top furniture repair service in Noida. Sofa, bed, chair, wardrobe repair at your doorstep in Noida Sectors, Greater Noida & Noida Extension. 6-month warranty. Call now!",
+    "Furniture repair in Noida from ₹599. Doorstep service across Noida Sectors, Greater Noida & Noida Extension. 6-month warranty. Call 92179 99355.",
   h1: "Furniture Repair in Noida",
   heroSubtitle:
     "Expert furniture repair at your doorstep across all Noida Sectors, Greater Noida, and Noida Extension. Sofas, beds, chairs, tables, wardrobes — all repaired with a 6-month warranty.",
@@ -89,7 +91,7 @@ export const furnitureRepairNoida: SeoPageData = {
     {
       heading: "Furniture Repair Cost in Noida",
       body: [
-        "Our furniture repair pricing in Noida is designed to be affordable for every household. Basic chair repair starts at ₹599, sofa repair at ₹999, and bed repair at ₹1,199. Wardrobe door and hinge repair starts at ₹799. Complete re-upholstery and major structural repairs are quoted after free inspection.",
+        "Our furniture repair pricing in Noida is designed to be affordable for every household. Basic chair repair starts at ₹599, sofa repair at ₹500, and bed repair at ₹1,199. Wardrobe door and hinge repair starts at ₹799. Complete re-upholstery and major structural repairs are quoted after free inspection.",
         "Compared to buying new furniture — which can cost ₹20,000 to ₹1,50,000 for quality pieces — professional repair saves you 50-70% while delivering results that look and feel as good as new. We provide transparent quotations with no hidden charges.",
       ],
     },
@@ -110,7 +112,7 @@ export const furnitureRepairNoida: SeoPageData = {
   ],
   faqs: [
     { question: "Do you provide furniture repair in all Noida sectors?", answer: "Yes, we serve all Noida sectors from 1 to 168, Greater Noida, Noida Extension (Greater Noida West), and surrounding areas. Our technicians reach your doorstep with all tools and materials." },
-    { question: "How much does furniture repair cost in Noida?", answer: "Furniture repair starts at ₹599 for basic chair repair. Sofa repair starts at ₹999, bed repair at ₹1,199. We provide a free inspection and transparent quote before starting any work." },
+    { question: "How much does furniture repair cost in Noida?", answer: "Furniture repair starts at ₹599 for basic chair repair. Sofa repair starts at ₹500, bed repair at ₹1,199. We provide a free inspection and transparent quote before starting any work." },
     { question: "Can you repair furniture in high-rise apartments?", answer: "Absolutely. Our team is experienced in working within apartments. We carry all tools and materials needed, work neatly, and clean up completely after the repair." },
     { question: "Is same-day furniture repair available in Noida?", answer: "Yes, we offer same-day service in Noida. Book before noon for a same-day visit. For urgent repairs, call us directly for the fastest response." },
     { question: "Do you repair office furniture in Noida?", answer: "Yes, we repair all types of office furniture including office chairs, desks, conference tables, and cabinets. Bulk pricing available for offices with multiple pieces." },
@@ -127,11 +129,13 @@ export const furnitureRepairNoida: SeoPageData = {
   ],
 };
 
+export const furnitureRepairNoida: SeoPageData = enrichCityPage(furnitureRepairNoidaBase, { city: "noida", label: "Noida", serviceNoun: "furniture repair", furnitureSource: furnitureRepairDelhi, faqSet: "furniture" });
+
 export const furnitureRepairGurgaon: SeoPageData = {
   slug: "furniture-repair-gurgaon",
-  title: "Furniture Repair in Gurgaon | Same-Day Doorstep Service from ₹599 | FurniRevive",
+  title: "Furniture Repair in Gurgaon | FurniRevive",
   metaDescription:
-    "Trusted furniture repair in Gurgaon from ₹599. Sofa, bed, chair, wardrobe & dining table repaired at home across DLF, Golf Course Road, Sohna Road & all sectors. Same-day service. Free inspection. 6-month warranty. Call +91 92179 99355.",
+    "Furniture repair in Gurgaon from ₹599. Same-day doorstep service — DLF, Golf Course Road, Sohna Road. Free inspection, 6-month warranty. Call 92179 99355.",
   h1: "Furniture Repair in Gurgaon",
   heroSubtitle:
     "Premium furniture repair at your doorstep across Gurgaon — DLF Phases, Golf Course Road, Sohna Road, New Gurgaon, and all sectors. Same-day service with 6-month warranty.",
@@ -141,18 +145,18 @@ export const furnitureRepairGurgaon: SeoPageData = {
     "We serve every locality in Gurgaon including DLF Phases 1 through 5, Golf Course Road, Sohna Road, MG Road, Sector 45-57, New Gurgaon (Sectors 76-95), Manesar, and Dharuhera. Our pricing starts at ₹599 with same-day availability and a 6-month warranty on all work.",
   ],
   whyChoose: [
-    { title: "All Gurgaon Covered", description: "DLF Phases, Golf Course Road, Sohna Road, MG Road, New Gurgaon, Manesar — we reach every corner of Gurgaon." },
+    { title: "Every Furniture Type, One Team", description: "Sofas, beds, chairs, wardrobes, dining tables, cabinets — one booking covers every piece that needs attention in your Gurgaon home." },
     { title: "Premium Quality Work", description: "We use high-grade materials and techniques that match the quality standards expected by Gurgaon homeowners." },
-    { title: "Society Access Experience", description: "Our team is familiar with gated community protocols. We carry ID, coordinate with security, and follow all access rules." },
+    { title: "Gated Community Specialists", description: "Trained for Gurgaon's RWA and security protocols — valid ID, visitor passes, and advance coordination so your appointment isn't held up at the gate." },
     { title: "Same Day Service", description: "Most repairs completed the same day. Book before noon for guaranteed same-day service in Gurgaon." },
     { title: "Transparent Pricing", description: "Free inspection, detailed quotation, no hidden charges. You approve the price before any work begins." },
-    { title: "6 Month Warranty", description: "Every repair backed by a comprehensive 6-month warranty. Quality work that we stand behind." },
+    { title: "6-Month Warranty, Every Job", description: "Whichever piece we repair — sofa, bed, wardrobe, or table — the workmanship is covered for 6 months at no extra cost." },
   ],
   process: [
     { step: "Share Furniture Photos", description: "Call, WhatsApp, or book online. Share photos of the damage for a quick estimate tailored to your Gurgaon location." },
     { step: "Free Home Inspection", description: "Our expert visits your home in Gurgaon, inspects the furniture in person, and provides a no-obligation quotation." },
     { step: "Professional Repair", description: "Our craftsmen carry out the repair at your doorstep with premium tools and materials. Clean, professional service." },
-    { step: "Quality Assurance", description: "Thorough quality check, workspace cleanup, and 6-month warranty card provided on completion." },
+    { step: "Sign-Off and Warranty Card", description: "We walk you through the finished work, clear away all debris, and hand over your signed 6-month warranty card before leaving." },
   ],
   benefits: [
     "Doorstep service across all Gurgaon localities",
@@ -166,6 +170,22 @@ export const furnitureRepairGurgaon: SeoPageData = {
     "Starting at ₹599",
     "6-month warranty on all repairs",
   ],
+  localAreasSection: {
+    heading: "Areas and Related Services in Gurgaon",
+    areas: ["DLF Gurgaon", "DLF Phase 1", "DLF Phase 2", "DLF Phase 3", "DLF Phase 4", "DLF Phase 5", "Sector 46", "Palam Vihar", "Chair Repair Gurgaon", "Office Chair Repair Gurgaon"],
+    links: {
+      "DLF Gurgaon": "furniture-repair-dlf-gurgaon",
+      "DLF Phase 1": "furniture-repair-dlf-phase-1",
+      "DLF Phase 2": "furniture-repair-dlf-phase-2",
+      "DLF Phase 3": "furniture-repair-dlf-phase-3",
+      "DLF Phase 4": "furniture-repair-dlf-phase-4",
+      "DLF Phase 5": "furniture-repair-dlf-phase-5",
+      "Sector 46": "furniture-repair-sector-46-gurgaon",
+      "Palam Vihar": "furniture-repair-palam-vihar-gurgaon",
+      "Chair Repair Gurgaon": "chair-repair-gurgaon",
+      "Office Chair Repair Gurgaon": "office-chair-repair-gurgaon",
+    },
+  },
   contentSections: [
     {
       heading: "Furniture Repair Services in Gurgaon",
@@ -184,15 +204,15 @@ export const furnitureRepairGurgaon: SeoPageData = {
     {
       heading: "Furniture Repair Cost in Gurgaon",
       body: [
-        "Our Gurgaon pricing is competitive and transparent. Basic chair repair starts at ₹599, sofa repair from ₹999, bed repair from ₹1,199, and wardrobe repair from ₹799. For premium furniture requiring specialized materials or techniques, we provide detailed quotations after free inspection.",
+        "Our Gurgaon pricing is competitive and transparent. Basic chair repair starts at ₹599, sofa repair from ₹500, bed repair from ₹1,199, and wardrobe repair from ₹799. For premium furniture requiring specialized materials or techniques, we provide detailed quotations after free inspection.",
         "Gurgaon residents often invest ₹50,000 to ₹3,00,000 in quality furniture. Professional repair at a fraction of that cost extends the life of your investment by years. We save our Gurgaon customers an average of 60% compared to replacement costs.",
       ],
     },
     {
       heading: "Sofa Repair Services in Gurgaon",
       body: [
-        "Gurgaon's premium apartments and high-rises demand the best sofa care. FurniRevive provides dedicated sofa repair across Gurgaon including: cushion foam replacement, full upholstery in fabric/leather/rexine, recliner mechanism & motor repair, frame reinforcement, and spring replacement. Starting at ₹500 — no workshop needed, all done at your doorstep.",
-        "<strong>📞 Call Now: +91 92179 99355</strong> | <strong>💬 WhatsApp for Free Quote</strong> | Same-day service available across Gurgaon. 500+ sofas repaired. <a href=\"/sofa-repair-gurgaon\">View full sofa repair services in Gurgaon →</a>. Looking for quick help? Get expert <a href=\"/sofa-repair-gurgaon\">couch repair in Gurgaon</a> with same-day service and a 6-month warranty.",
+        "For sofas, we handle foam, upholstery, leather, recliner and cover-change work from ₹800 at your doorstep — see our dedicated <a href=\"/sofa-repair-gurgaon\">sofa repair in Gurgaon</a>, <a href=\"/sofa-upholstery-gurgaon\">sofa upholstery</a> and <a href=\"/sofa-foam-replacement-gurgaon\">sofa foam replacement</a> pages, or our <a href=\"/chair-repair-gurgaon\">chair repair Gurgaon</a> page for office and dining chairs.",
+        "<strong>📞 Call Now: +91 92179 99355</strong> | <strong>💬 WhatsApp for Free Quote</strong> | Same-day service available across Gurgaon.",
       ],
     },
     {
@@ -203,31 +223,10 @@ export const furnitureRepairGurgaon: SeoPageData = {
       ],
     },
     {
-      heading: "Sofa & Recliner Repair in Gurgaon",
-      body: [
-        "Among all furniture repairs in Gurgaon, sofa repair is the most frequently requested service — particularly in DLF Phase villas and Golf Course Road high-rises where premium leather and imported fabric sofas are common. FurniRevive provides dedicated <a href=\"/sofa-repair-gurgaon\">sofa repair in Gurgaon</a> as a specialist service covering foam replacement (₹1,200–₹3,500), full upholstery change (₹2,000–₹4,500 per seat), recliner mechanism repair (₹1,499–₹6,000), leather restoration (₹2,000–₹8,000), and sofa cover change (₹500–₹3,500 per seat). Most sofa repairs are completed the same day at your doorstep.",
-        "Gurgaon's growing community of work-from-home professionals also frequently needs office chair repair — hydraulic gas lift replacement (₹800–₹1,500), caster wheel replacement (₹400–₹1,000), and gaming chair fixes. See our dedicated <a href=\"/chair-repair-gurgaon\">chair repair Gurgaon</a> page for full chair repair pricing and service details.",
-      ],
-    },
-    {
       heading: "Why Gurgaon Homeowners Choose Restoration Over Replacement",
       body: [
-        "Gurgaon homeowners invest significantly in quality furniture -- a premium leather sofa in DLF Phase 4 or Golf Course Road apartment can represent Rs.80,000 to Rs.3,00,000 of household value. When that piece shows wear, replacement means not just the purchase cost but also the logistical challenge of navigating gated community access, lift restrictions, and security protocols that make large furniture delivery in Gurgaon genuinely difficult.",
-        "Professional restoration costs 20 to 40 percent of replacement and eliminates every one of those challenges. Our <a href=\"/luxury-furniture-restoration-gurgaon\">premium furniture restoration services</a> are designed specifically for Gurgaon's high-investment furniture market -- a comprehensive treatment covering frame, foam, upholstery, and finish that returns premium pieces to showroom condition without the replacement cost or logistical burden.",
-      ],
-    },
-    {
-      heading: "Upholstery Upgrades for Gurgaon Luxury Apartments",
-      body: [
-        "Interior design preferences in Gurgaon's premium developments -- DLF Phase 5, Nirvana Country, Golf Course Extension Road -- evolve faster than furniture buying cycles. Many families find that their sofa's structural quality remains excellent while its fabric or leather no longer matches the room's current aesthetic direction. An upholstery upgrade resolves this without requiring a full replacement.",
-        "Our <a href=\"/sofa-upholstery-gurgaon\">professional upholstery solutions</a> cover over 500 fabric options -- imported velvet, performance chenille, premium linen, and Italian leatherette -- all measured, cut, and fitted on-site to professional workshop standards. Families in South City 1, South City 2, Ardee City, and Mayfield Garden regularly use this service to refresh pieces that are structurally sound but aesthetically dated.",
-      ],
-    },
-    {
-      heading: "Foam Replacement and Seating Comfort in Gurgaon Homes",
-      body: [
-        "Premium sofas lose their comfort character as foam degrades -- a process accelerated by Gurgaon's dry winters, intense summers, and daily air conditioning. Most residential-grade foam is rated at 24 to 28 density, which compresses significantly within three to five years of regular use. High-rise apartment furniture in Sushant Lok, Sector 49, and Sector 53 often sees near-continuous use that accelerates this timeline further.",
-        "Our <a href=\"/sofa-foam-replacement-gurgaon\">replacing sagging sofa foam</a> service uses 32D to 40D high-resilience foam -- the specification used in commercial hospitality furniture -- cut on-site and fitted within existing cushion covers or with new covers as required. Families consistently report that foam replacement alone, without any other repairs, transforms how their sofa feels and extends its useful life by five to seven years.",
+        "Gurgaon homeowners invest heavily in solid-wood dining sets, wardrobes and bed frames — pieces that can cost ₹50,000 to ₹2,00,000 new. Replacing them also means navigating gated community access, lift restrictions and security protocols that make large furniture delivery in Gurgaon genuinely difficult.",
+        "Professional restoration typically costs 20 to 40 percent of replacement, keeps a sound frame in service for years, and is done at your doorstep without moving anything out of the house. For the sofa-specific version of this argument, see our <a href=\"/sofa-repair-gurgaon\">sofa repair Gurgaon</a> page.",
       ],
     },
     {
@@ -276,7 +275,7 @@ export const furnitureRepairGurgaon: SeoPageData = {
     {
       heading: "Furniture Repair Costs in Gurgaon — Transparent Pricing",
       body: [
-        "Understanding repair costs upfront is important for Gurgaon homeowners comparing the value of repair versus replacement. Our <a href=\"/furniture-repair-price-guide-delhi\">complete furniture repair price guide for Delhi NCR</a> covers every major repair category with itemised pricing, and the same rates apply across Gurgaon. For sofas specifically, the <a href=\"/sofa-repair-cost-delhi\">typical sofa repair cost</a> ranges from ₹999 for basic frame tightening and leg repair to ₹12,000 for a full leather restoration with foam replacement on a large sectional. The <a href=\"/furniture-repair-cost-delhi\">overall furniture repair cost reference</a> spans wardrobes (₹799–₹3,500), dining tables (₹3,000–₹8,000 for polishing), beds (₹1,199–₹6,000), and office chairs (₹800–₹2,500). Families planning multiple repairs benefit from our bundled pricing, detailed in the <a href=\"/furniture-repair-price-list-delhi\">itemised furniture repair price list</a>.",
+        "Understanding repair costs upfront is important for Gurgaon homeowners comparing the value of repair versus replacement. Our <a href=\"/furniture-repair-price-guide-delhi\">complete furniture repair price guide for Delhi NCR</a> covers every major repair category with itemised pricing, and the same rates apply across Gurgaon. For sofas specifically, the <a href=\"/sofa-repair-cost-delhi\">typical sofa repair cost</a> ranges from ₹500 for basic frame tightening and leg repair to ₹12,000 for a full leather restoration with foam replacement on a large sectional. The <a href=\"/furniture-repair-cost-delhi\">overall furniture repair cost reference</a> spans wardrobes (₹799–₹3,500), dining tables (₹3,000–₹8,000 for polishing), beds (₹1,199–₹6,000), and office chairs (₹800–₹2,500). Families planning multiple repairs benefit from our bundled pricing, detailed in the <a href=\"/furniture-repair-price-list-delhi\">itemised furniture repair price list</a>.",
         "For leather sofa owners — particularly common in DLF Phase villas and Golf Course Road apartments — the <a href=\"/leather-sofa-repair-cost-delhi\">leather sofa repair pricing breakdown</a> explains the cost difference between surface conditioning (₹2,000–₹4,000), panel reupholstery (₹3,500–₹8,000 per seat), and full leather replacement (₹6,000–₹20,000 depending on sofa size and leather grade). Recliner owners can refer to the <a href=\"/recliner-repair-cost-delhi\">recliner repair cost guide</a> for mechanism and upholstery pricing, and those with power recliners specifically should check the <a href=\"/recliner-motor-repair-cost-delhi\">recliner motor replacement cost breakdown</a> which covers motor diagnostics, control board repair, and wiring (₹1,499–₹5,000).",
         "For sofa foam specifically, the <a href=\"/sofa-foam-replacement-cost-delhi\">sofa foam replacement cost guide</a> explains how density grade and cushion count affect total pricing, while the <a href=\"/sofa-upholstery-price-list-delhi\">sofa upholstery price list</a> covers fabric types from basic polyester to imported velvet. Corporate customers in Gurgaon's commercial zones can use the <a href=\"/office-chair-repair-cost-delhi\">office chair repair cost reference</a> for bulk repair budgeting. All pricing shown on our <a href=\"/furniture-repair-price-guide-delhi\">NCR repair pricing hub</a> is inclusive of doorstep service — no hidden charges for travel or assessment within Gurgaon. We also serve neighbouring areas: see <a href=\"/sofa-repair-faridabad\">sofa repair in Faridabad</a> and <a href=\"/furniture-repair-delhi\">furniture repair in Delhi</a> for consistent pricing across the region.",
       ],
@@ -316,7 +315,7 @@ export const furnitureRepairGurgaon: SeoPageData = {
     {
       heading: "Furniture Repair Cost in Gurgaon — 2026 Pricing Overview",
       body: [
-        "Gurgaon homeowners frequently ask for upfront pricing before booking. Here is a transparent 2026 reference: office chair hydraulic (gas lift) replacement ₹800–₹1,500; sofa foam replacement (per seat) ₹1,200–₹3,500 using Sleepwell or Duraflex 32–40D HR foam; sofa upholstery change (per seat) ₹2,000–₹4,500 with 500+ fabric and leather options; recliner mechanism repair ₹1,499–₹6,000; recliner motor replacement ₹3,000–₹6,000; wardrobe hinge and door repair ₹500–₹2,000; bed frame and hydraulic storage repair ₹1,199–₹5,000; dining table joint repair ₹999–₹3,500; furniture polish and refinishing ₹799–₹20,000 depending on piece count and finish type.",
+        "Gurgaon homeowners frequently ask for upfront pricing before booking. Here is a transparent 2026 reference: office chair hydraulic (gas lift) replacement ₹800–₹1,500; sofa and recliner pricing is covered on our sofa repair Gurgaon page; wardrobe hinge and door repair ₹500–₹2,000; bed frame and hydraulic storage repair ₹1,199–₹5,000; dining table joint repair ₹999–₹3,500; furniture polish and refinishing ₹799–₹20,000 depending on piece count and finish type.",
         "The ₹99–₹199 doorstep visit charge is adjusted against the repair cost — you pay the repair total only. All prices include a written 6-month warranty. Share photos via WhatsApp (+91 92179 99355) for a ballpark estimate within 2 hours without a home visit. For detailed sofa-specific pricing, see our <a href=\"/sofa-repair-gurgaon\">sofa repair Gurgaon</a> page and the <a href=\"/furniture-repair-price-guide-delhi\">NCR furniture repair price guide</a>.",
       ],
     },
@@ -326,11 +325,9 @@ export const furnitureRepairGurgaon: SeoPageData = {
     rows: [
       { service: "Chair Repair (hydraulic / wheels)", price: "₹599–₹1,500" },
       { service: "Office Chair Gas Lift Replacement", price: "₹800–₹1,500" },
-      { service: "Sofa Foam Replacement (per seat)", price: "₹1,200–₹3,500" },
-      { service: "Sofa Re-Upholstery (per seat)", price: "₹2,000–₹4,500" },
-      { service: "Sofa Spring Replacement", price: "₹800–₹2,000" },
-      { service: "Recliner Mechanism Repair", price: "₹1,499–₹6,000" },
-      { service: "Recliner Motor Replacement", price: "₹3,000–₹6,000" },
+      { service: "Sofa Repair (all types — full pricing on our sofa page)", price: "From ₹500" },
+      { service: "Kitchen Cabinet / Panel Repair", price: "₹600–₹2,500" },
+      { service: "Bookshelf / TV Unit Repair", price: "₹599–₹2,500" },
       { service: "Bed Frame / Hydraulic Storage Repair", price: "₹1,199–₹5,000" },
       { service: "Wardrobe Hinge / Door Repair", price: "₹500–₹2,000" },
       { service: "Dining Table Repair", price: "₹999–₹3,500" },
@@ -340,18 +337,16 @@ export const furnitureRepairGurgaon: SeoPageData = {
   },
   faqs: [
     { question: "Do you cover DLF and Golf Course Road in Gurgaon?", answer: "Yes, we serve all DLF Phases (1-5), Golf Course Road, Golf Course Extension, and all premium localities in Gurgaon with doorstep furniture repair." },
-    { question: "How much does furniture repair cost in Gurgaon?", answer: "Starting at ₹599 for basic repairs. Sofa repair from ₹999, bed repair from ₹1,199. Free inspection and transparent quotation provided before any work begins." },
+    { question: "How much does furniture repair cost in Gurgaon?", answer: "Furniture repair in Gurgaon starts at ₹599 for basic chair and hinge repairs. Bed repair ₹1,199–₹6,000, wardrobe repair ₹799–₹3,500, and dining table polish from ₹3,000. Sofa repair pricing varies by repair type — see our sofa repair Gurgaon page for the full breakdown. We provide a free inspection and transparent written quotation — you only pay what was quoted." },
     { question: "Can you repair luxury and imported furniture?", answer: "Absolutely. Our craftsmen are experienced with premium brands and imported furniture. We use matching materials and techniques suited for high-end pieces." },
     { question: "Is same-day service available in Gurgaon?", answer: "Yes, we offer same-day furniture repair in Gurgaon. Book before noon for a same-day visit. Direct call for the fastest response." },
     { question: "Do you handle society and gated community access?", answer: "Yes, our team is experienced with gated community protocols. We carry ID, coordinate with security, and follow all access procedures." },
     { question: "Do you serve New Gurgaon and Dwarka Expressway?", answer: "Yes, we provide doorstep service in New Gurgaon (Sectors 76-95), Dwarka Expressway, SPR Road, Manesar, and all surrounding areas." },
     { question: "Do you repair office furniture in Gurgaon?", answer: "Yes, we repair all office furniture including chairs, desks, conference tables, and cabinets. Bulk pricing available for corporate clients." },
-    { question: "What is the cost of furniture repair in Gurgaon?", answer: "Furniture repair in Gurgaon starts at ₹599 for basic chair and hinge repairs. Sofa repair ranges from ₹800–₹15,000, bed repair ₹1,199–₹6,000, wardrobe repair ₹799–₹3,500, and dining table polish from ₹3,000. We provide a free inspection and transparent written quotation — you only pay what was quoted." },
     { question: "Do you repair furniture in DLF Phase 1 to 5?", answer: "Yes, all DLF Phases (1 through 5) are fully covered. DLF Phase 4 and 5 are among our highest-demand areas in Gurgaon. We carry ID, follow society access protocols, and typically reach DLF addresses within 60 minutes of booking. Same-day slots available most days when booked before noon." },
     { question: "Do you provide GST invoice for furniture repair in Gurgaon?", answer: "Yes. FurniRevive provides GST invoices on request for all furniture repair services in Gurgaon. This is particularly useful for corporates and businesses claiming maintenance expenses. Mention the requirement when booking. We issue a proper GST bill at no extra charge across all Gurgaon localities." },
     { question: "Do you offer Annual Maintenance Contracts for furniture in Gurgaon?", answer: "Yes. FurniRevive offers Annual Maintenance Contracts (AMC) for Gurgaon homes and offices — periodic inspection, lubrication, hinge/fitting check, and priority same-day repair response for all furniture. AMC is popular with DLF Phase villa owners and corporate Cyber City offices. Call +91 92179 99355 for a custom AMC quote." },
-    { question: "What fabric brands do you use for sofa re-upholstery in Gurgaon?", answer: "FurniRevive uses premium fabric brands including D'Decor and Raymond Home for sofa upholstery in Gurgaon. We carry 500+ fabric swatches — velvet, microfiber, cotton blend, faux leather, and genuine leather. Our technicians bring fabric samples to your Gurgaon home so you can choose the perfect material before work begins." },
-    { question: "How much does sofa repair cost in Gurgaon?", answer: "Sofa repair in Gurgaon starts at ₹800. Foam replacement ₹1,200–₹3,500 per seat, spring repair ₹800–₹2,000, upholstery change ₹2,000–₹4,500 per seat, recliner mechanism repair ₹1,499–₹6,000, leather sofa repair ₹2,000–₹8,000. FurniRevive provides free inspection and a written quote at your Gurgaon doorstep before starting any work. 6-month warranty on every repair." },
+    { question: "How much does sofa repair cost in Gurgaon?", answer: "Sofa repair in Gurgaon starts at ₹500, with the final cost depending on whether it's foam, upholstery, leather, or a recliner mechanism that needs attention. See our sofa repair Gurgaon page for the complete price breakdown by repair type. Free inspection and a written quote are provided at your doorstep before any work begins." },
     { question: "Do you repair furniture in gated societies in Gurgaon?", answer: "Yes. FurniRevive regularly services furniture in all major gated societies in Gurgaon — DLF Camellias, Emaar Marbella, Central Park, Ireo Victory Valley, M3M Golf Estate, Tata Primanti, and all sector-based societies. Our technicians carry ID, follow visitor protocols, and coordinate with security. We are apartment-experienced and work neatly without disruption." },
     { question: "Can you repair a hydraulic bed storage mechanism in Gurgaon?", answer: "Yes. FurniRevive repairs hydraulic bed storage mechanisms at your Gurgaon doorstep — piston replacement, hinge repair, and gas cylinder replacement. Hydraulic bed storage repair costs ₹2,000–₹5,000 depending on the fault. Same-day service available across DLF, Golf Course Road, Sohna Road, and all Gurgaon sectors." },
     { question: "Do you repair wardrobes and kitchen cabinets in Gurgaon?", answer: "Yes. Our carpenters fix all wardrobe and cabinet issues in Gurgaon — misaligned doors, broken hinges, faulty sliding tracks, damaged panels, sticky drawers, and broken locks. Wardrobe hinge replacement from ₹500; sliding track replacement ₹800–₹2,500; full door re-alignment ₹1,000–₹3,000. Doorstep service across all Gurgaon localities." },
@@ -375,27 +370,24 @@ export const furnitureRepairGurgaon: SeoPageData = {
   keywords: [
     "furniture repair gurgaon",
     "furniture repair near me gurgaon",
-    "sofa repair gurgaon",
     "carpenter gurgaon",
     "furniture repair DLF gurgaon",
     "furniture repair gurugram",
-    "sofa repair DLF gurgaon",
     "wardrobe repair gurgaon",
     "bed repair gurgaon",
     "furniture repair near me gurugram",
     "furniture repair same day gurgaon",
-    "sofa repair DLF phase gurgaon",
-    "wardrobe repair gurgaon",
-    "bed repair gurgaon",
     "furniture polishing gurgaon",
+    "dining table repair gurgaon",
+    "office furniture repair gurgaon",
   ],
 };
 
-export const furnitureRepairGhaziabad: SeoPageData = {
+const furnitureRepairGhaziabadBase: SeoPageData = {
   slug: "furniture-repair-ghaziabad",
-  title: "Furniture Repair Near Me in Ghaziabad | ₹599 Doorstep Service | FurniRevive",
+  title: "Furniture Repair in Ghaziabad | ₹599 Doorstep | FurniRevive",
   metaDescription:
-    "Furniture repair near me in Ghaziabad from ₹599. Sofa, bed, wardrobe & chair repair at your doorstep in Indirapuram, Vaishali, Crossing Republik & all areas. Free inspection. 6-month warranty.",
+    "Furniture repair in Ghaziabad from ₹599. Doorstep service in Indirapuram, Vaishali, Crossing Republik. Free inspection, 6-month warranty. Call 92179 99355.",
   h1: "Furniture Repair Near Me in Ghaziabad — Doorstep Service from ₹599",
   heroSubtitle:
     "Professional furniture repair at your doorstep in Ghaziabad — Indirapuram, Vaishali, Kaushambi, Crossing Republik, Raj Nagar Extension, and all areas. 6-month warranty.",
@@ -448,7 +440,7 @@ export const furnitureRepairGhaziabad: SeoPageData = {
     {
       heading: "Furniture Repair Cost in Ghaziabad",
       body: [
-        "We offer Ghaziabad's most competitive furniture repair pricing. Chair repair starts at ₹599, sofa repair at ₹999, bed repair at ₹1,199, and wardrobe repair at ₹799. These are starting prices — actual costs depend on the extent of damage and materials needed.",
+        "We offer Ghaziabad's most competitive furniture repair pricing. Chair repair starts at ₹599, sofa repair at ₹500, bed repair at ₹1,199, and wardrobe repair at ₹799. These are starting prices — actual costs depend on the extent of damage and materials needed.",
         "Professional repair saves Ghaziabad families 50-70% compared to buying new furniture. A sofa that costs ₹40,000 new can be fully restored for ₹3,000-₹10,000. We always provide a free inspection and transparent quote before starting work.",
       ],
     },
@@ -470,13 +462,13 @@ export const furnitureRepairGhaziabad: SeoPageData = {
       heading: "Furniture Repair Near Me in Ghaziabad — All Areas & Types",
       body: [
         "Searching 'furniture repair near me' in Ghaziabad? FurniRevive covers all major localities — Indirapuram (all khands), Vaishali Sectors 1–6, Kaushambi, Crossing Republik, Raj Nagar Extension, Vasundhara, and Wave City — with a 4-hour response window. Our furniture repair near me home service means a craftsman arrives at your doorstep with all tools and materials.",
-        "Furniture repair near me cost in Ghaziabad: minor fixes from ₹599, sofa repair from ₹999, wardrobe repair from ₹1,000, bed repair from ₹1,199, dining table refinishing from ₹3,000. Furniture renovation near me (full restoration) from ₹5,000. All repairs include free inspection and 6-month warranty. Call +91 92179 99355 to book.",
+        "Furniture repair near me cost in Ghaziabad: minor fixes from ₹599, sofa repair from ₹500, wardrobe repair from ₹1,000, bed repair from ₹1,199, dining table refinishing from ₹3,000. Furniture renovation near me (full restoration) from ₹5,000. All repairs include free inspection and 6-month warranty. Call +91 92179 99355 to book.",
       ],
     },
   ],
   faqs: [
     { question: "Do you provide furniture repair in Indirapuram?", answer: "Yes, Indirapuram is one of our primary service areas. We cover all Khands — Nyay Khand, Ahinsa Khand, Shakti Khand, Gyan Khand, and Abhay Khand with doorstep furniture repair." },
-    { question: "How much does furniture repair cost in Ghaziabad?", answer: "Starting at ₹599 for basic repairs. Sofa repair from ₹999, bed repair from ₹1,199. Free inspection and no-obligation quotation provided before work begins." },
+    { question: "How much does furniture repair cost in Ghaziabad?", answer: "Starting at ₹599 for basic repairs. Sofa repair from ₹500, bed repair from ₹1,199. Free inspection and no-obligation quotation provided before work begins." },
     { question: "Is same-day service available in Ghaziabad?", answer: "Yes, we offer same-day furniture repair in Ghaziabad. Book before noon for a same-day visit, or call us directly for urgent repair needs." },
     { question: "Do you serve Crossing Republik and Raj Nagar Extension?", answer: "Absolutely. We provide doorstep furniture repair across Crossing Republik, Raj Nagar Extension, Wave City, Siddharth Vihar, and all surrounding areas." },
     { question: "Can you repair furniture in society apartments?", answer: "Yes, our team is experienced with apartment society work. We carry all tools, work neatly within your apartment, and clean up completely after the job." },
@@ -500,11 +492,13 @@ export const furnitureRepairGhaziabad: SeoPageData = {
   ],
 };
 
-export const furnitureRepairFaridabad: SeoPageData = {
+export const furnitureRepairGhaziabad: SeoPageData = enrichCityPage(furnitureRepairGhaziabadBase, { city: "ghaziabad", label: "Ghaziabad", serviceNoun: "furniture repair", furnitureSource: furnitureRepairDelhi, faqSet: "furniture" });
+
+const furnitureRepairFaridabadBase: SeoPageData = {
   slug: "furniture-repair-faridabad",
-  title: "Furniture Repair in Faridabad | ₹599 Near Me Doorstep Service | FurniRevive",
+  title: "Furniture Repair in Faridabad | ₹599 Doorstep | FurniRevive",
   metaDescription:
-    "Furniture repair near me in Faridabad from ₹599. Sofa, bed, wardrobe & chair repair at your doorstep across NIT, Greater Faridabad, Ballabgarh & BPTP. Free inspection. 6-month warranty.",
+    "Furniture repair in Faridabad from ₹599. Doorstep service across NIT, Greater Faridabad, Ballabgarh & BPTP. Free inspection, 6-month warranty.",
   h1: "Furniture Repair Near Me in Faridabad — Doorstep Service from ₹599",
   heroSubtitle:
     "Expert furniture repair at your doorstep across Faridabad — all sectors, NIT, Greater Faridabad, Ballabgarh, and surrounding areas. Same-day service with 6-month warranty.",
@@ -557,7 +551,7 @@ export const furnitureRepairFaridabad: SeoPageData = {
     {
       heading: "Furniture Repair Cost in Faridabad",
       body: [
-        "Our pricing is designed to be accessible for every Faridabad household. Basic chair repair starts at ₹599, sofa repair at ₹999, bed repair at ₹1,199, and wardrobe repair at ₹799. Complex repairs and re-upholstery are quoted after free inspection based on the scope of work.",
+        "Our pricing is designed to be accessible for every Faridabad household. Basic chair repair starts at ₹599, sofa repair at ₹500, bed repair at ₹1,199, and wardrobe repair at ₹799. Complex repairs and re-upholstery are quoted after free inspection based on the scope of work.",
         "Professional repair typically saves 50-70% compared to buying new furniture. For a city like Faridabad where families value practical spending, furniture repair is the smartest investment. We always give you a complete, transparent quote before starting any work.",
       ],
     },
@@ -579,20 +573,20 @@ export const furnitureRepairFaridabad: SeoPageData = {
       heading: "Furniture Repair Near Me in Faridabad — All Areas Covered",
       body: [
         "When you search 'furniture repair near me' in Faridabad, FurniRevive is the top-rated result because our craftsmen are based across NIT Sectors 1–89, Greater Faridabad, Ballabgarh, and BPTP — ensuring a 4-hour response window regardless of where you live. Our furniture repair near me home service eliminates the need to transport heavy pieces to a workshop.",
-        "Furniture repair cost near me in Faridabad: minor fixes from ₹599, sofa repair from ₹999, wardrobe repair from ₹1,000, bed repair from ₹1,199, dining table polish from ₹3,000. All repairs include free doorstep inspection and 6-month written warranty. Call +91 92179 99355 to book.",
+        "Furniture repair cost near me in Faridabad: minor fixes from ₹599, sofa repair from ₹500, wardrobe repair from ₹1,000, bed repair from ₹1,199, dining table polish from ₹3,000. All repairs include free doorstep inspection and 6-month written warranty. Call +91 92179 99355 to book.",
       ],
     },
   ],
   faqs: [
     { question: "Do you provide furniture repair across all Faridabad sectors?", answer: "Yes, we serve all NIT sectors (1-89), Greater Faridabad, BPTP townships, Neharpar, Ballabgarh, Surajkund, and all surrounding areas with doorstep service." },
-    { question: "How much does furniture repair cost in Faridabad?", answer: "Repairs start at ₹599 for basic chair work. Sofa repair from ₹999, bed repair from ₹1,199. Free inspection and transparent quotation provided before work begins." },
+    { question: "How much does furniture repair cost in Faridabad?", answer: "Repairs start at ₹599 for basic chair work. Sofa repair from ₹500, bed repair from ₹1,199. Free inspection and transparent quotation provided before work begins." },
     { question: "Is same-day furniture repair available in Faridabad?", answer: "Yes, we offer same-day service in Faridabad. Book before noon for a same-day visit. Call us directly for urgent repair needs." },
     { question: "Do you serve Ballabgarh and Greater Faridabad?", answer: "Absolutely. We provide doorstep furniture repair in Ballabgarh, Greater Faridabad, Neharpar, Tigaon, and all surrounding localities." },
     { question: "What types of furniture do you repair?", answer: "We repair all types — sofas, beds, chairs, dining tables, coffee tables, wardrobes, cabinets, bookshelves, TV units, and office furniture. Both wooden and upholstered pieces." },
     { question: "Do you offer warranty on repairs in Faridabad?", answer: "Yes, every repair comes with a 6-month warranty. If any issue arises with the repaired area within the warranty period, we fix it free of charge." },
     { question: "Can you repair furniture in apartments and societies?", answer: "Yes, our team works efficiently within apartments and societies. We carry all necessary tools, work neatly, and ensure complete cleanup after every job." },
     { question: "Do you provide furniture repair near me home service in Faridabad?", answer: "Yes. Our furniture repair near me home service covers all of Faridabad — NIT Sectors 1–89, Greater Faridabad, BPTP, Ballabgarh, and surrounding areas. A craftsman arrives at your doorstep with all tools and materials. Call +91 92179 99355 to book." },
-    { question: "How much does furniture repair near me cost in Faridabad?", answer: "Furniture repair near me in Faridabad starts at ₹599 for minor fixes. Sofa repair from ₹999, wardrobe repair from ₹1,000, bed repair from ₹1,199, dining table refinishing from ₹3,000. Free inspection and written quote before work begins." },
+    { question: "How much does furniture repair near me cost in Faridabad?", answer: "Furniture repair near me in Faridabad starts at ₹599 for minor fixes. Sofa repair from ₹500, wardrobe repair from ₹1,000, bed repair from ₹1,199, dining table refinishing from ₹3,000. Free inspection and written quote before work begins." },
   ],
   relatedPages: relatedExcluding("furniture-repair-faridabad"),
   keywords: [
@@ -609,36 +603,38 @@ export const furnitureRepairFaridabad: SeoPageData = {
   ],
 };
 
+export const furnitureRepairFaridabad: SeoPageData = enrichCityPage(furnitureRepairFaridabadBase, { city: "faridabad", label: "Faridabad", serviceNoun: "furniture repair", furnitureSource: furnitureRepairDelhi, faqSet: "furniture", extraSections: [FARIDABAD_SPECIALTY_SECTION] });
+
 // ---------------------------------------------------------------------------
 // SOFA REPAIR — NOIDA
 // ---------------------------------------------------------------------------
 export const sofaRepairNoida: SeoPageData = {
   slug: "sofa-repair-noida",
   cityKey: "noida" as const,
-  title: "Sofa Repair in Noida | Same-Day Home Service from ₹800 | FurniRevive",
+  title: "Sofa Repair in Noida | FurniRevive",
   metaDescription:
-    "Sofa repair in Noida — same-day doorstep service from ₹800. Foam replacement, upholstery, recliner & leather repair. Free inspection. 6-month warranty. Covers all sectors, Greater Noida & Noida Extension. Call +91 92179 99355.",
+    "Sofa repair in Noida from ₹500. Same-day doorstep service, foam & leather repair across all sectors, Greater Noida. Free inspection, warranty.",
   quickAnswer:
     "Sofa repair in Noida costs ₹500–₹4,500 for most repairs — foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery ₹2,000–₹4,500 per seat. FurniRevive provides same-day home service across all Noida sectors with free inspection and a 6-month written warranty. Call +91 92179 99355.",
-  h1: "Sofa Repair in Noida — Same-Day Home Service from ₹800",
+  h1: "Sofa Repair in Noida — Same-Day Home Service from ₹500",
   heroSubtitle:
-    "Expert sofa repair in Noida at your doorstep. Covers all Noida sectors, Greater Noida & Noida Extension. Same-day service, experienced technicians, and quick WhatsApp booking. Starting ₹800. 6-month warranty. Limited same-day slots — book before noon.",
+    "Expert sofa repair in Noida at your doorstep. Covers all Noida sectors, Greater Noida & Noida Extension. Same-day service, experienced technicians, and quick WhatsApp booking. Starting ₹500. 6-month warranty. Limited same-day slots — book before noon.",
   showcaseImage: {
     heading: "Sofa Repair Before & After — Real Results in Noida",
     imageUrl: "https://hercules-cdn.com/file_n1p0rQO4ugdCYZuCiylABmr0",
     altText: "Before and after sofa repair in Noida showing worn cushions transformed to firm plush seating by FurniRevive doorstep service",
-    caption: "Sofa Repair Noida — Cushion & upholstery restoration | All Sectors, Greater Noida | Starting ₹800 | FurniRevive",
+    caption: "Sofa Repair Noida — Cushion & upholstery restoration | All Sectors, Greater Noida | Starting ₹500 | FurniRevive",
   },
   intro: [
     "Is your sofa losing its comfort and charm? Sagging cushions, torn upholstery, and creaky frames are common problems in Noida homes — especially in apartments where sofas are used daily by the entire family. Instead of spending ₹30,000–₹1,50,000 on a new sofa, let FurniRevive restore your existing one at a fraction of the cost with our professional sofa repair services in Noida.",
     "We serve every corner of Noida — from the established societies of Sector 15, 18, 25, 37, and 50 to the high-rise towers of Sector 75, 76, 77, 78, 93, 100, 104, 120, 128, 137, 143, and 150. Our team also covers Greater Noida West (Noida Extension) including Gaur City, Supertech Eco Village, ATS Pristine, Ace City, and all residential societies, as well as Greater Noida including Knowledge Park, Pari Chowk, Alpha, Beta, Gamma, and Jaypee Greens.",
-    "Our Noida sofa repair service starts at just ₹800 and includes same-day availability and a 6-month warranty on all repairs. We use Sleepwell and Duraflex branded HR foam (32–40 density) and carry 500+ fabric options including premium D'Decor and Raymond Home swatches — not cheap unbranded materials. Our experienced upholstery specialists and carpenters arrive at your doorstep with all tools, foam, fabric, and hardware needed to complete the repair in a single visit — no need to transport your heavy sofa anywhere.",
+    "Our Noida sofa repair service starts at just ₹500 and includes same-day availability and a 6-month warranty on all repairs. We use Sleepwell and Duraflex branded HR foam (32–40 density) and carry 500+ fabric options including premium D'Decor and Raymond Home swatches — not cheap unbranded materials. Our experienced upholstery specialists and carpenters arrive at your doorstep with all tools, foam, fabric, and hardware needed to complete the repair in a single visit — no need to transport your heavy sofa anywhere.",
     "Whether you need a quick cushion re-stuff, complete fabric replacement, leather crack repair, or structural frame reinforcement, FurniRevive is Noida's most trusted sofa repair service. We've repaired thousands of sofas across Noida and are rated 4.8 stars by our customers — making us the go-to choice for same-day doorstep repair across all sectors.",
   ],
   whyChoose: [
     { title: "All Noida Sectors Covered", description: "Sectors 1–168, Greater Noida, Noida Extension — we reach every residential society in Noida with doorstep sofa repair." },
     { title: "Apartment-Friendly Service", description: "We understand high-rise living. Our team works neatly inside your apartment with minimal disruption and complete cleanup." },
-    { title: "Starting at ₹800", description: "Noida's most affordable sofa repair. Save up to 70% compared to buying a new sofa. Transparent pricing with no hidden charges." },
+    { title: "Starting at ₹500", description: "Noida's most affordable sofa repair. Save up to 70% compared to buying a new sofa. Transparent pricing with no hidden charges." },
     { title: "Same Day Service", description: "Book before noon for same-day sofa repair at your Noida home. Quick response for urgent repair needs across all sectors." },
     { title: "All Sofa Types", description: "L-shape, sectional, recliner, sofa cum bed, chesterfield — we repair every type of sofa in fabric, leather, and rexine." },
     { title: "6 Month Warranty", description: "Every sofa repair backed by a 6-month service warranty. If anything goes wrong, we fix it free at your Noida address." },
@@ -660,7 +656,7 @@ export const sofaRepairNoida: SeoPageData = {
     "Color-matched fabric and leather sourcing",
     "High-rise apartment friendly — minimal mess",
     "6-month warranty on all sofa repairs",
-    "Transparent pricing starting at ₹800",
+    "Transparent pricing starting at ₹500",
     "10,000+ sofas repaired across Delhi NCR",
   ],
   contentSections: [
@@ -676,7 +672,7 @@ export const sofaRepairNoida: SeoPageData = {
     {
       heading: "Sofa Repair Cost in Noida — Complete Price Guide",
       body: [
-        "Our sofa repair cost in Noida starts at just ₹999 for basic cushion work like foam replacement for a single seat. A complete 3-seater sofa overhaul including re-upholstery, foam replacement, and frame repair typically costs ₹3,000–₹12,000 depending on the sofa size and extent of damage.",
+        "Our sofa repair cost in Noida starts at just ₹500 for basic cushion work like foam replacement for a single seat. A complete 3-seater sofa overhaul including re-upholstery, foam replacement, and frame repair typically costs ₹3,000–₹12,000 depending on the sofa size and extent of damage.",
         "Compare this to buying a new sofa — which costs anywhere from ₹25,000 to ₹1,50,000 or more from stores and online retailers. With professional sofa repair, you save up to 70% while getting a sofa that looks and feels brand new. We always provide a free inspection and transparent quotation before starting any work, so there are absolutely no surprises.",
         "Residents in Sector 134, Sector 142, and Sector 145 often ask about the cost of restoring imported sofas — pieces brought from abroad or purchased from international furniture brands. Our <a href=\"/imported-furniture-repair-noida\">imported furniture repair specialists</a> use material-matched techniques suited to European foam grades, non-standard joinery, and international upholstery standards, protecting the value of these investments.",
       ],
@@ -969,7 +965,7 @@ export const sofaRepairNoida: SeoPageData = {
   },
   faqs: [
     { question: "Do you provide sofa repair near me in Noida?", answer: "Yes — FurniRevive provides sofa repair near me across all Noida sectors (1–168), Greater Noida, and Noida Extension. Our technicians are stationed across the city for same-day doorstep response. Call +91 92179 99355 or WhatsApp to confirm availability at your sector." },
-    { question: "How much does sofa repair cost in Noida?", answer: "Sofa repair in Noida starts at ₹800 for spring fixes and goes up to ₹4,500 for full re-upholstery. Complete 3-seater overhauls cost ₹3,000–₹12,000. Free doorstep inspection and written quotation provided before starting." },
+    { question: "How much does sofa repair cost in Noida?", answer: "Sofa repair in Noida starts at ₹500 for spring fixes and goes up to ₹4,500 for full re-upholstery. Complete 3-seater overhauls cost ₹3,000–₹12,000. Free doorstep inspection and written quotation provided before starting." },
     { question: "Do you provide home service for sofa repair in Noida?", answer: "Yes, all repairs are done at your Noida doorstep. Our technicians cover all sectors (1–168), Greater Noida, Noida Extension, and Gaur City with full tools and materials. No need to transport your sofa." },
     { question: "How long does sofa repair take?", answer: "Most sofa repairs in Noida are completed in 2–4 hours at your home. Simple foam replacement takes 1–2 hours. Full re-upholstery may take 4–6 hours. Same-day service available — book before noon." },
     { question: "Can foam be replaced at home in Noida?", answer: "Yes. Our technicians carry pre-cut 32–40 density foam and replace it on-site in your Noida apartment. Takes 1–2 hours per sofa and instantly restores comfort. No workshop visit needed." },
@@ -980,7 +976,7 @@ export const sofaRepairNoida: SeoPageData = {
     { question: "Do you offer sofa repair near me at home in Delhi?", answer: "Yes. FurniRevive provides doorstep sofa repair near me across Delhi — East Delhi, South Delhi, and the full Noida–Delhi corridor — with same-day availability. Our technicians arrive at your home with all tools and materials so your sofa never needs to leave your living room. Call or WhatsApp +91 92179 99355 to book your slot." },
     { question: "What is sofa repair cost per seat in Noida?", answer: "Sofa repair cost per seat in Noida depends on the work needed: foam replacement ₹1,200–₹3,500 per seat; fabric/upholstery change ₹800–₹2,000 per seat; spring replacement ₹800–₹2,000 per sofa; leather crack repair ₹1,500–₹5,000. A complete 3-seater overhaul (foam + upholstery + springs) typically costs ₹3,000–₹12,000. Free inspection before any work begins." },
     { question: "Can you repair a recliner sofa in my Noida apartment?", answer: "Yes. FurniRevive repairs both manual and motorised recliner sofas at your Noida doorstep. Manual mechanism repair starts at ₹1,499 and motorised recliner repair starts at ₹2,499. Our technicians diagnose the issue on-site and carry spare parts for most common recliner mechanisms. We cover all Noida sectors, Greater Noida, and Noida Extension." },
-    { question: "How much does sofa repair cost in Noida?", answer: "Sofa repair in Noida starts at ₹800. Foam replacement costs ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner mechanism repair ₹1,499–₹5,500, leather sofa repair ₹1,500–₹5,000. FurniRevive provides free inspection and a written quote at your Noida doorstep before starting any work. 6-month warranty included." },
+    { question: "How much does sofa repair cost in Noida?", answer: "Sofa repair in Noida starts at ₹500. Foam replacement costs ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner mechanism repair ₹1,499–₹5,500, leather sofa repair ₹1,500–₹5,000. FurniRevive provides free inspection and a written quote at your Noida doorstep before starting any work. 6-month warranty included." },
     { question: "Do you provide same-day sofa repair in Noida?", answer: "Yes. FurniRevive offers same-day sofa repair across Noida when booked before noon. Our technicians are stationed locally across Noida's sectors for fast response. Book before noon and your sofa is repaired the same day — no need to wait days for an appointment. Call +91 92179 99355 for same-day slot confirmation." },
     { question: "Which Noida sectors do you cover for sofa repair?", answer: "FurniRevive covers all Noida sectors for sofa repair — Sectors 1 through 168, Greater Noida (Knowledge Park, Alpha, Beta, Gamma, Pari Chowk, Jaypee sectors), and Noida Extension (Gaur City, ATS Pristine, Supertech Eco Village, Ace City, Mahagun Moderne). High-rise society service available — technicians are trained to work neatly inside apartments without disruption." },
     { question: "Can you repair an L-shape or sectional sofa in Noida?", answer: "Yes. L-shape and sectional sofa repair in Noida is one of our most common services. We repair sagging corner seats, replace foam in chaise sections, fix the joining mechanism, and re-upholster any panel at your Noida doorstep. L-shape sofa foam replacement and upholstery typically costs ₹4,000–₹15,000 depending on size and scope." },
@@ -1052,29 +1048,29 @@ export const sofaRepairGurgaon: SeoPageData = {
   slug: "sofa-repair-gurgaon",
   category: "Sofa Repair",
   cityKey: "gurgaon" as const,
-  title: "Sofa Repair Near Me in Gurgaon (Gurugram) | ₹800 Home Service — DLF, Golf Course Road | FurniRevive",
+  title: "Sofa Repair in Gurgaon | ₹500 Doorstep Service | FurniRevive",
   metaDescription:
-    "Sofa repair in Gurgaon from ₹800. 4.8★ rated. Same-day doorstep service across DLF Phases, Golf Course Road, Sohna Road & all sectors. Foam, leather, recliner & cover change. Free inspection. 6-month warranty. Call +91 92179 99355.",
+    "Sofa repair in Gurgaon from ₹500. Same-day doorstep service — DLF, Golf Course Road, Sohna Road. Free inspection, 6-month warranty. Call 92179 99355.",
   quickAnswer:
     "Sofa repair in Gurgaon costs ₹500–₹4,500 for most repairs — foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery ₹2,000–₹4,500 per seat. FurniRevive provides same-day home service across all Gurgaon localities with free inspection and a 6-month written warranty. Call +91 92179 99355.",
-  h1: "Sofa Repair in Gurgaon / Gurugram — Same-Day Home Service from ₹800",
+  h1: "Sofa Repair in Gurgaon / Gurugram — Same-Day Home Service from ₹500",
   heroSubtitle:
     "Gurgaon's most trusted sofa repair — 500+ sofas repaired, at your doorstep in 4 hours or less. Starting ₹500. Free inspection. 6-month warranty. Limited same-day slots — book before noon. DLF Phases, Golf Course Road, Sohna Road & 50+ areas.",
   showcaseImage: {
     heading: "Sofa Repair Before & After — Real Results in Gurgaon",
     imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
     altText: "Before and after sofa restoration in Gurgaon showing complete upholstery and cushion revival in an upscale apartment by FurniRevive",
-    caption: "Sofa Repair Gurgaon — Full restoration | DLF Phases, Golf Course Road, Sohna Road | Starting ₹800 | FurniRevive",
+    caption: "Sofa Repair Gurgaon — Full restoration | DLF Phases, Golf Course Road, Sohna Road | Starting ₹500 | FurniRevive",
   },
   intro: [
     "Gurgaon (Gurugram) residents invest in premium furniture that reflects their lifestyle. When your high-end sofa starts showing signs of wear — sagging cushions, torn leather, faded fabric, or a wobbly frame — you need a repair service that matches the quality standards you expect. FurniRevive delivers exactly that with our premium <a href=\"/sofa-repair-delhi\">sofa repair services</a> across Gurgaon.",
     "We serve every premium locality in Gurgaon — from the upscale villas and apartments of DLF Phase 1 through 5, the luxury high-rises along Golf Course Road and Golf Course Extension, the family-friendly societies on Sohna Road, the corporate apartments near Cyber City, to the growing communities of New Gurgaon (Sectors 76–95) and along the Dwarka Expressway.",
-    "Our sofa repair specialists understand that Gurgaon homeowners demand quality. We use Sleepwell and Duraflex branded HR foam (32–40 density), source premium fabrics from D'Decor and Raymond Home collections (500+ options), and use genuine leather — not rexine substitutes. These are the same materials you'd find in a premium furniture showroom. Starting at ₹800 with same-day availability and a 6-month warranty, we make sofa repair convenient, reliable, and affordable. See our <a href=\"/sofa-repair-cost-delhi\">sofa repair cost guide</a> for detailed pricing.",
+    "Our sofa repair specialists understand that Gurgaon homeowners demand quality. We use Sleepwell and Duraflex branded HR foam (32–40 density), source premium fabrics from D'Decor and Raymond Home collections (500+ options), and use genuine leather — not rexine substitutes. These are the same materials you'd find in a premium furniture showroom. Starting at ₹500 with same-day availability and a 6-month warranty, we make sofa repair convenient, reliable, and affordable. See our <a href=\"/sofa-repair-cost-delhi\">sofa repair cost guide</a> for detailed pricing.",
     "Whether it's a designer leather sofa in a DLF villa or a family sectional in a Sohna Road apartment, our experienced craftsmen handle every repair with precision. We carry all tools and materials to your doorstep and complete most repairs in a single visit.",
   ],
   whyChoose: [
     { title: "All Gurgaon Covered", description: "DLF Phases, Golf Course Road, Sohna Road, MG Road, New Gurgaon, Manesar — we reach every corner of Gurgaon." },
-    { title: "Transparent Pricing from ₹800", description: "High-grade materials at honest prices starting ₹800. Free inspection and written quotation before work begins. No surprises." },
+    { title: "Transparent Pricing from ₹500", description: "High-grade materials at honest prices starting ₹500. Free inspection and written quotation before work begins. No surprises." },
     { title: "Society Access Experience", description: "Our team is familiar with gated community protocols. We carry ID, coordinate with security, and follow all access rules." },
     { title: "Same Day Service", description: "Book before noon for same-day sofa repair at your Gurgaon address. Quick turnaround on most repairs." },
     { title: "All Sofa Types", description: "L-shape, recliner, sectional, leather, fabric, imported — we repair every type of sofa found in Gurgaon homes." },
@@ -1097,7 +1093,7 @@ export const sofaRepairGurgaon: SeoPageData = {
     "Gated community and society friendly",
     "Recliner mechanism and motor repair",
     "6-month warranty on all sofa repairs",
-    "Transparent pricing starting at ₹800",
+    "Transparent pricing starting at ₹500",
     "Imported and premium sofa brand expertise",
   ],
   priceTable: {
@@ -1144,6 +1140,11 @@ export const sofaRepairGurgaon: SeoPageData = {
   },
   trustSignals: ["500+ sofas repaired in Gurgaon", "Same-day doorstep — DLF, Golf Course Road, Sohna Road", "Premium 32–40D foam for AC-heavy apartments", "Society & gated community access experience", "6-month written warranty on every repair"],
   localAreasSection: {
+    links: {
+      "DLF Gurgaon": "sofa-repair-dlf-gurgaon",
+      "Chair Repair Gurgaon": "chair-repair-gurgaon",
+      "Office Chair Repair Gurgaon": "office-chair-repair-gurgaon",
+    },
     heading: "Areas We Serve in Gurgaon",
     areas: [
       "DLF Phase 1",
@@ -1160,6 +1161,11 @@ export const sofaRepairGurgaon: SeoPageData = {
       "New Gurgaon",
       "Dwarka Expressway",
       "Manesar",
+      "Sector 46",
+      "Palam Vihar",
+      "DLF Gurgaon",
+      "Chair Repair Gurgaon",
+      "Office Chair Repair Gurgaon",
     ],
   },
   contentSections: [
@@ -1173,7 +1179,7 @@ export const sofaRepairGurgaon: SeoPageData = {
     {
       heading: "Sofa Repair Cost in Gurgaon — Price Guide",
       body: [
-        "Our sofa repair cost in Gurgaon starts at ₹999 for basic cushion work. Complete 3-seater sofa overhauls range from ₹3,000–₹15,000 depending on size, material, and damage. Premium leather sofa restoration may cost more depending on the type of leather and extent of work.",
+        "Our sofa repair cost in Gurgaon starts at ₹500 for basic cushion work. Complete 3-seater sofa overhauls range from ₹3,000–₹15,000 depending on size, material, and damage. Premium leather sofa restoration may cost more depending on the type of leather and extent of work.",
         "Gurgaon residents often invest ₹50,000–₹3,00,000 in quality sofas. Professional repair at a fraction of that cost extends the life of your investment by years. We save our Gurgaon customers an average of 60–70% compared to replacement costs. Free inspection and transparent quotation provided before any work begins.",
       ],
     },
@@ -1363,17 +1369,17 @@ export const sofaRepairGurgaon: SeoPageData = {
   ],
   faqs: [
     { question: "Do you provide sofa repair near me in Gurgaon?", answer: "Yes — FurniRevive provides sofa repair near me across all Gurgaon localities including DLF Phases 1–5, Golf Course Road, Sohna Road, Sector 56, New Gurgaon, and Dwarka Expressway. Our technicians are stationed across Gurugram for same-day response. Call +91 92179 99355 or WhatsApp to confirm your slot." },
-    { question: "How much does sofa repair cost in Gurgaon?", answer: "Sofa repair in Gurgaon starts at ₹800 for spring repairs and goes up to ₹4,500 for full re-upholstery. Complete 3-seater overhauls cost ₹3,000–₹15,000. Free doorstep inspection and written quotation provided." },
+    { question: "How much does sofa repair cost in Gurgaon?", answer: "Sofa repair in Gurgaon starts at ₹500 for spring repairs and goes up to ₹4,500 for full re-upholstery. Complete 3-seater overhauls cost ₹3,000–₹15,000. Free doorstep inspection and written quotation provided." },
     { question: "Do you provide home service for sofa repair in Gurgaon?", answer: "Yes, all repairs happen at your doorstep — DLF Phases, Golf Course Road, Sohna Road, Sector 56, New Gurgaon, and all localities. Our team arrives with tools, foam, fabric, and hardware." },
     { question: "How long does sofa repair take?", answer: "Most sofa repairs in Gurgaon are completed in 2–4 hours at your home. Foam replacement takes 1–2 hours. Full re-upholstery of a 3-seater takes 4–6 hours. Same-day service available." },
     { question: "Can foam be replaced at home in Gurgaon?", answer: "Yes. Our technicians carry pre-cut 32–40 density foam and replace it on-site. Takes 1–2 hours per sofa. No need to take your sofa to a workshop." },
     { question: "Do you repair all sofa types in Gurgaon?", answer: "Yes — 3-seaters, L-shape sectionals, recliners, sofa cum beds, modular, designer, and imported sofas in fabric, leather, and rexine. We specialise in premium and luxury sofa repair." },
     { question: "Do you cover DLF Phases and Golf Course Road?", answer: "Yes, we serve DLF Phase 1–5, Golf Course Road, Golf Course Extension, and all premium Gurgaon localities with same-day doorstep service." },
     { question: "Do you offer warranty on sofa repair in Gurgaon?", answer: "Yes, every repair comes with a written 6-month warranty. If any issue arises, we fix it free at your Gurgaon address." },
-    { question: "How much does sofa cover change cost in Gurgaon?", answer: "Sofa cover change in Gurgaon costs ₹500–₹3,500 per seat depending on fabric type. Cotton blend starts at ₹500, velvet from ₹800, faux leather from ₹1,200, and genuine leather from ₹2,500 per seat. New cover is stitched and fitted at your doorstep in a single visit across all Gurgaon areas." },
+    { question: "How much does sofa cover change cost in Gurgaon?", answer: "Sofa cover change in Gurgaon costs ₹500–₹3,500 per seat depending on fabric type. Cotton blend starts at ₹500, velvet from ₹500, faux leather from ₹1,200, and genuine leather from ₹2,500 per seat. New cover is stitched and fitted at your doorstep in a single visit across all Gurgaon areas." },
     { question: "Do you repair recliners in Gurgaon?", answer: "Yes. Recliner repair is one of our most popular services in Gurgaon. We repair manual recliners (broken cables, jammed levers), motorised recliners (motor replacement, wiring faults), and recliner frame damage. Recliner repair in Gurgaon costs ₹1,499–₹6,000 depending on fault type. Same-day service available across DLF, Golf Course Road and Sohna Road." },
     { question: "What is sofa refurbishing cost in Gurgaon?", answer: "Sofa refurbishing in Gurgaon — including foam replacement, new fabric, frame repair and cleaning — costs ₹3,000–₹15,000 for a 3-seater sofa. Individual services: foam replacement ₹1,200–₹3,500, full fabric change ₹2,000–₹4,500 per seat, frame repair ₹1,500–₹4,000. Free inspection and written quote provided before work begins." },
-    { question: "How much does sofa repair cost in Gurgaon?", answer: "Sofa repair in Gurgaon starts at ₹999. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, full upholstery ₹2,000–₹4,500 per seat, leather sofa restoration ₹2,000–₹8,500, recliner motor repair ₹2,500–₹6,000. FurniRevive provides a free doorstep inspection and written quote before starting. 6-month warranty on all Gurgaon repairs." },
+    { question: "How much does sofa repair cost in Gurgaon?", answer: "Sofa repair in Gurgaon starts at ₹500. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, full upholstery ₹2,000–₹4,500 per seat, leather sofa restoration ₹2,000–₹8,500, recliner motor repair ₹2,500–₹6,000. FurniRevive provides a free doorstep inspection and written quote before starting. 6-month warranty on all Gurgaon repairs." },
     { question: "Do you repair sofas in DLF Phase areas and Golf Course Road Gurgaon?", answer: "Yes. FurniRevive provides doorstep sofa repair across all DLF Phases (1–5), Golf Course Road, Golf Course Extension Road, Sohna Road, MG Road, Cyber City, South City, Nirvana Country, Malibu Town, and all Gurgaon sectors. Technicians are stationed locally for fast same-day response. Premium leather and imported sofa restoration specialists available for DLF and Golf Course Road properties." },
     { question: "Can you repair motorised recliner sofas in Gurgaon?", answer: "Yes. Motorised recliner sofa repair is one of our most in-demand services in Gurgaon. We replace faulty motors, repair wiring faults, fix remote control issues, and restore broken reclining mechanisms at your Gurgaon doorstep. Electric recliner motor repair costs ₹2,500–₹6,000. Same-day service available across DLF, Golf Course Road, and Sohna Road." },
     { question: "Is sofa repair available in Gurgaon for imported and luxury sofas?", answer: "Yes. FurniRevive specialises in imported and luxury sofa repair in Gurgaon — Italian leather (Natuzzi, Poltrona Frau), designer sofas from international brands, and custom-made pieces from interior studios. We use material-matched techniques, colour-matched dyes, and premium replacement materials. Luxury sofa restoration in Gurgaon is available across DLF Phases, Golf Course Road, Sohna Road, and Dwarka Expressway." },
@@ -1439,24 +1445,24 @@ export const sofaRepairGhaziabad: SeoPageData = {
   slug: "sofa-repair-ghaziabad",
   category: "Sofa Repair",
   cityKey: "ghaziabad" as const,
-  title: "Sofa Repair in Ghaziabad | ₹800 Home Service — Indirapuram, Vaishali | FurniRevive",
+  title: "Sofa Repair in Ghaziabad | ₹500 Doorstep | FurniRevive",
   metaDescription:
-    "Sofa repair in Ghaziabad from ₹800. 4.8★ rated. Same-day doorstep service in Indirapuram, Vaishali, Raj Nagar Extension & Crossing Republik. Foam replacement, leather & recliner repair. Free inspection. 6-month warranty. Call +91 92179 99355.",
+    "Sofa repair in Ghaziabad from ₹500. Same-day service in Indirapuram, Vaishali, Raj Nagar Extension. Free inspection, 6-month warranty. Call 92179 99355.",
   quickAnswer:
     "Sofa repair in Ghaziabad costs ₹500–₹4,500 for most repairs — foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery ₹2,000–₹4,500 per seat. FurniRevive provides same-day home service across all Ghaziabad localities with free inspection and a 6-month written warranty. Call +91 92179 99355.",
-  h1: "Sofa Repair Near Me in Ghaziabad — Same Day Home Service from ₹800",
+  h1: "Sofa Repair Near Me in Ghaziabad — Same Day Home Service from ₹500",
   heroSubtitle:
     "Ghaziabad's most trusted sofa repair — 500+ sofas repaired, at your doorstep in 4 hours or less. Starting ₹500. Free inspection. 6-month warranty. Indirapuram, Vaishali, Crossing Republik & all areas.",
   intro: [
     "Ghaziabad has become one of NCR's most popular residential cities, with thriving communities in <a href=\"/sofa-repair-indirapuram-ghaziabad\">Indirapuram</a>, <a href=\"/sofa-repair-vaishali-ghaziabad\">Vaishali</a>, <a href=\"/sofa-repair-kaushambi-ghaziabad\">Kaushambi</a>, <a href=\"/sofa-repair-crossing-republik-ghaziabad\">Crossing Republik</a>, <a href=\"/sofa-repair-raj-nagar-extension\">Raj Nagar Extension</a>, and <a href=\"/sofa-repair-vasundhara-ghaziabad\">Vasundhara</a>. With lakhs of families calling Ghaziabad home, sofa repair is one of the most in-demand home services in the city. If your sofa is looking tired, FurniRevive brings professional sofa repair right to your doorstep.",
     "We offer comprehensive sofa repair services across every locality in Ghaziabad. Whether you live in the established societies of <a href=\"/sofa-repair-indirapuram-ghaziabad\">Indirapuram</a> (<a href=\"/sofa-repair-ahinsa-khand\">Ahinsa Khand</a>, <a href=\"/sofa-repair-shakti-khand\">Shakti Khand</a>) or the newer developments of <a href=\"/sofa-repair-raj-nagar-extension\">Raj Nagar Extension</a>, <a href=\"/sofa-repair-crossing-republik-ghaziabad\">Crossing Republik</a>, and Wave City, our skilled upholstery specialists and carpenters reach you with all tools and materials needed.",
-    "Our Ghaziabad sofa repair service covers everything from quick cushion re-stuffing and <a href=\"/sofa-fabric-tear-repair-delhi\">fabric patching</a> to complete <a href=\"/sofa-upholstery-delhi\">re-upholstery</a>, <a href=\"/leather-sofa-repair-ghaziabad\">leather restoration</a>, and <a href=\"/sofa-frame-repair-delhi\">structural frame repair</a>. With starting prices at just ₹800, same-day availability, and a 6-month warranty, we make sofa repair easy, affordable, and hassle-free for Ghaziabad families.",
+    "Our Ghaziabad sofa repair service covers everything from quick cushion re-stuffing and <a href=\"/sofa-fabric-tear-repair-delhi\">fabric patching</a> to complete <a href=\"/sofa-upholstery-delhi\">re-upholstery</a>, <a href=\"/leather-sofa-repair-ghaziabad\">leather restoration</a>, and <a href=\"/sofa-frame-repair-delhi\">structural frame repair</a>. With starting prices at just ₹500, same-day availability, and a 6-month warranty, we make sofa repair easy, affordable, and hassle-free for Ghaziabad families.",
     "Why spend ₹25,000–₹1,00,000 on a new sofa when expert repair can make your existing one look and feel brand new? Our repairs save Ghaziabad families 50–70% compared to buying new furniture. See our <a href=\"/blog/sofa-repair-vs-buy-new-sofa\">sofa repair vs buy new guide</a> for a detailed breakdown.",
   ],
   whyChoose: [
     { title: "All Ghaziabad Areas", description: "Indirapuram, Vaishali, Kaushambi, Crossing Republik, Raj Nagar Extension, Vasundhara — complete Ghaziabad coverage." },
     { title: "Quick Response", description: "Strategically located team ensures fast response times across Ghaziabad. Same-day sofa repair service available." },
-    { title: "Budget-Friendly from ₹800", description: "Sofa repair starting at ₹800. Affordable pricing designed for Ghaziabad families. No hidden charges." },
+    { title: "Budget-Friendly from ₹500", description: "Sofa repair starting at ₹500. Affordable pricing designed for Ghaziabad families. No hidden charges." },
     { title: "Society-Friendly Service", description: "Experienced with residential society protocols in Ghaziabad. Clean, professional work with full cleanup." },
     { title: "All Sofa Types", description: "Fabric, leather, rexine, L-shape, recliner, sofa cum bed — we repair every type at your Ghaziabad doorstep." },
     { title: "6 Month Warranty", description: "All sofa repairs backed by a 6-month warranty. Quality workmanship you can trust." },
@@ -1476,7 +1482,7 @@ export const sofaRepairGhaziabad: SeoPageData = {
     "Cushion re-stuffing with high-density foam",
     "Frame repair and spring replacement",
     "Apartment and society friendly service",
-    "Affordable pricing starting at ₹800",
+    "Affordable pricing starting at ₹500",
     "6-month warranty on all sofa repairs",
     "Experienced craftsmen with 10+ years",
     "Free inspection and transparent quotation",
@@ -1492,7 +1498,7 @@ export const sofaRepairGhaziabad: SeoPageData = {
     {
       heading: "Sofa Repair Cost in Ghaziabad",
       body: [
-        "Our pricing is designed to be accessible for every Ghaziabad family. Basic sofa cushion work starts at ₹999. Complete 3-seater sofa overhauls range from ₹3,000–₹10,000 depending on the sofa size and extent of damage. <a href=\"/sofa-upholstery-price-list-delhi\">Fabric re-upholstery costs ₹2,500–₹8,000</a> depending on fabric chosen.",
+        "Our pricing is designed to be accessible for every Ghaziabad family. Basic sofa cushion work starts at ₹500. Complete 3-seater sofa overhauls range from ₹3,000–₹10,000 depending on the sofa size and extent of damage. <a href=\"/sofa-upholstery-price-list-delhi\">Fabric re-upholstery costs ₹2,500–₹8,000</a> depending on fabric chosen.",
         "Compare this to a new sofa costing ₹25,000–₹1,00,000 from furniture stores. Professional sofa repair saves 50–70% while delivering results that look and feel as good as new. See our <a href=\"/sofa-repair-cost-delhi\">sofa repair cost guide</a> and <a href=\"/furniture-repair-price-guide-delhi\">furniture repair price guide</a> for full pricing details.",
       ],
     },
@@ -1626,7 +1632,7 @@ export const sofaRepairGhaziabad: SeoPageData = {
   },
   faqs: [
     { question: "Do you provide sofa repair near me in Ghaziabad?", answer: "Yes — FurniRevive provides sofa repair near me across all Ghaziabad localities including Indirapuram, Vaishali, Kaushambi, Crossing Republik, Raj Nagar Extension, and Vasundhara. Our technicians are stationed across the city for same-day doorstep response. Call +91 92179 99355 or WhatsApp to book." },
-    { question: "How much does sofa repair cost in Ghaziabad?", answer: "Sofa repair in Ghaziabad starts at ₹800 for spring fixes and goes up to ₹4,500 for full re-upholstery. Complete 3-seater overhauls cost ₹3,000–₹10,000. Free doorstep inspection and transparent quotation provided." },
+    { question: "How much does sofa repair cost in Ghaziabad?", answer: "Sofa repair in Ghaziabad starts at ₹500 for spring fixes and goes up to ₹4,500 for full re-upholstery. Complete 3-seater overhauls cost ₹3,000–₹10,000. Free doorstep inspection and transparent quotation provided." },
     { question: "Do you provide home service for sofa repair in Ghaziabad?", answer: "Yes, all repairs are done at your Ghaziabad doorstep — Indirapuram, Vaishali, Kaushambi, Crossing Republik, Raj Nagar Extension, and all areas. Our technicians bring all tools and materials." },
     { question: "How long does sofa repair take?", answer: "Most sofa repairs in Ghaziabad take 2–4 hours at your home. Simple foam replacement is 1–2 hours. Full re-upholstery may take 4–6 hours. Same-day service available if booked before noon." },
     { question: "Can foam be replaced at home in Ghaziabad?", answer: "Yes. Our technicians carry pre-cut high-density foam (32–40 density) and replace it on-site at your Ghaziabad flat. Takes 1–2 hours per sofa — no workshop trip needed." },
@@ -1636,7 +1642,7 @@ export const sofaRepairGhaziabad: SeoPageData = {
     { question: "Do you offer sofa cover change near me in Ghaziabad?", answer: "Yes. Sofa cover change near me is available across all Ghaziabad localities — Indirapuram, Vaishali, Raj Nagar Extension, Crossing Republik and surrounding areas. Fresh fabric stitched and fitted on-site from ₹500 per seat with 500+ material options. Call +91 92179 99355." },
     { question: "Is sofa repair near me home service available in Raj Nagar Extension?", answer: "Yes. FurniRevive provides sofa repair near me home service across Raj Nagar Extension and Crossing Republik. Book before noon for same-day service. Foam replacement from ₹999, fabric change from ₹2,500, recliner repair from ₹1,500. Call +91 92179 99355." },
     { question: "Do you provide recliner repair near me in Ghaziabad?", answer: "Yes. Recliner repair near me in Ghaziabad covers manual and motorised recliners — mechanism repair from ₹1,500, motor replacement from ₹2,500. Same-day service across Indirapuram, Vaishali, Crossing Republik and all Ghaziabad areas. Call +91 92179 99355." },
-    { question: "How much does sofa repair cost in Ghaziabad?", answer: "Sofa repair in Ghaziabad starts at ₹999. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner mechanism repair ₹1,499–₹5,500, leather repair ₹1,500–₹5,000. Free inspection and written quote at your Ghaziabad doorstep before starting. 6-month warranty on all repairs." },
+    { question: "How much does sofa repair cost in Ghaziabad?", answer: "Sofa repair in Ghaziabad starts at ₹500. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner mechanism repair ₹1,499–₹5,500, leather repair ₹1,500–₹5,000. Free inspection and written quote at your Ghaziabad doorstep before starting. 6-month warranty on all repairs." },
     { question: "Which areas of Ghaziabad do you cover for sofa repair?", answer: "FurniRevive covers all major Ghaziabad areas — Indirapuram (all 6 Khands), Vaishali (Sectors 1–6), Kaushambi, Crossing Republik, Raj Nagar Extension, Vasundhara, Wave City, and Mohan Nagar. We serve both independent houses and high-rise societies. Same-day service available across all Ghaziabad localities when booked before noon." },
     { question: "Do you repair sofa cum beds in Ghaziabad?", answer: "Yes. Sofa cum bed repair is a common service in Ghaziabad — we fix jammed folding mechanisms, broken hinges, bent frames, and sagging foam on sofa beds. Most sofa cum bed repairs cost ₹1,500–₹4,000 at your Ghaziabad doorstep. Completed in a single visit with same-day availability when booked before noon." },
     { question: "Is same-day sofa repair available in Ghaziabad?", answer: "Yes. FurniRevive provides same-day sofa repair in Ghaziabad and the Ghaziabad–Delhi border corridor when booked before noon. Our locally stationed technicians reach Indirapuram, Vaishali, Kaushambi, and Crossing Republik within 2–4 hours of booking confirmation. Call +91 92179 99355 to confirm your same-day slot." },
@@ -1688,30 +1694,30 @@ export const sofaRepairGhaziabad: SeoPageData = {
 export const sofaRepairFaridabad: SeoPageData = {
   slug: "sofa-repair-faridabad",
   cityKey: "faridabad" as const,
-  title: "Sofa Repair in Faridabad | ₹800 Home Service — NIT, BPTP, Greater Faridabad | FurniRevive",
+  title: "Sofa Repair in Faridabad | ₹500 Doorstep | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Faridabad from ₹800. Same-day doorstep service across NIT sectors, BPTP, Greater Faridabad & Ballabgarh. Foam replacement, spring repair, upholstery, leather & recliner repair. Free inspection. 6-month warranty. Call +91 92179 99355.",
+    "Sofa repair in Faridabad from ₹500. Same-day doorstep service — NIT, BPTP, Greater Faridabad. Free inspection, 6-month warranty. Call 92179 99355.",
   quickAnswer:
     "Sofa repair in Faridabad costs ₹500–₹4,500 for most repairs — foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery ₹2,000–₹4,500 per seat. FurniRevive provides same-day home service across all Faridabad localities with free inspection and a 6-month written warranty. Call +91 92179 99355.",
-  h1: "Sofa Repair Near Me in Faridabad — Home Service from ₹999",
+  h1: "Sofa Repair Near Me in Faridabad — Home Service from ₹500",
   heroSubtitle:
     "Faridabad's most trusted sofa repair — 500+ sofas repaired, at your doorstep in 4 hours or less. Starting ₹500. Free inspection. 6-month warranty. NIT Sectors, Greater Faridabad, Ballabgarh & BPTP.",
   showcaseImage: {
     heading: "Sofa Repair Before & After — Real Results in Faridabad",
     imageUrl: "https://hercules-cdn.com/file_VS3rjREhOnL5vv0YVgREXFdm",
     altText: "Before and after sofa repair in Faridabad showing armrest and fabric restoration on a classic upholstered sofa by FurniRevive",
-    caption: "Sofa Repair Faridabad — Fabric & frame restoration | NIT, Greater Faridabad, BPTP | Starting ₹999 | FurniRevive",
+    caption: "Sofa Repair Faridabad — Fabric & frame restoration | NIT, Greater Faridabad, BPTP | Starting ₹500 | FurniRevive",
   },
   intro: [
     "Faridabad families take pride in their homes, and the sofa is often the centrepiece of the living room. When your sofa starts showing signs of wear — sagging cushions, torn fabric, cracked leather, or a creaky frame — it can bring down the entire look of your room. FurniRevive provides professional sofa repair services across Faridabad, restoring your beloved sofa to like-new condition at a fraction of the cost of buying new.",
     "We serve every part of Faridabad — from the well-established NIT sectors (1–89) to the modern townships of BPTP, Greater Faridabad, and Neharpar. Our team also covers Ballabgarh, Surajkund, Badarpur Border, and surrounding areas. No matter where you are in Faridabad, expert sofa repair is just a phone call away.",
-    "Our Faridabad sofa repair service starts at just ₹800 and includes same-day availability. Our experienced upholstery specialists arrive at your doorstep with all tools, foam, fabric, springs, and hardware needed to complete the repair in a single visit. Every repair comes with a 6-month warranty for your complete peace of mind.",
+    "Our Faridabad sofa repair service starts at just ₹500 and includes same-day availability. Our experienced upholstery specialists arrive at your doorstep with all tools, foam, fabric, springs, and hardware needed to complete the repair in a single visit. Every repair comes with a 6-month warranty for your complete peace of mind.",
     "Buying a new sofa costs ₹25,000–₹1,00,000 or more. Professional sofa repair saves Faridabad families 50–70% while delivering results that look and feel as good as new. It's the smart, practical choice that Faridabad families trust.",
   ],
   whyChoose: [
     { title: "Complete Faridabad Coverage", description: "All NIT sectors, BPTP, Greater Faridabad, Ballabgarh, Surajkund, Neharpar — we serve every area of Faridabad." },
     { title: "Doorstep Convenience", description: "No need to transport your heavy sofa anywhere. Our team comes to your Faridabad home with everything needed for the repair." },
-    { title: "Affordable from ₹800", description: "Faridabad's most competitive sofa repair rates. Save up to 70% compared to buying new. Transparent pricing." },
+    { title: "Affordable from ₹500", description: "Faridabad's most competitive sofa repair rates. Save up to 70% compared to buying new. Transparent pricing." },
     { title: "Experienced Specialists", description: "10+ years experience in sofa repair. Our team handles fabric, leather, rexine, and all sofa materials with expert precision." },
     { title: "Same Day Service", description: "Book before noon for same-day sofa repair at your Faridabad address. Quick turnaround guaranteed." },
     { title: "6 Month Warranty", description: "Every sofa repair backed by a 6-month service warranty for your complete peace of mind." },
@@ -1731,7 +1737,7 @@ export const sofaRepairFaridabad: SeoPageData = {
     "Cushion re-stuffing with high-density foam",
     "Frame reinforcement and spring replacement",
     "Apartment and independent house friendly",
-    "Starting at just ₹800",
+    "Starting at just ₹500",
     "6-month warranty on all sofa repairs",
     "Experienced craftsmen with 10+ years",
     "Free inspection and transparent quotation",
@@ -1747,7 +1753,7 @@ export const sofaRepairFaridabad: SeoPageData = {
     {
       heading: "Sofa Repair Cost in Faridabad",
       body: [
-        "Our pricing is designed to be accessible for every Faridabad family. Basic sofa cushion work starts at ₹999. Complete 3-seater sofa overhauls range from ₹3,000–₹10,000 depending on damage extent and materials needed. Fabric re-upholstery costs ₹2,500–₹8,000 depending on the fabric chosen.",
+        "Our pricing is designed to be accessible for every Faridabad family. Basic sofa cushion work starts at ₹500. Complete 3-seater sofa overhauls range from ₹3,000–₹10,000 depending on damage extent and materials needed. Fabric re-upholstery costs ₹2,500–₹8,000 depending on the fabric chosen.",
         "Professional sofa repair typically saves Faridabad families 50–70% compared to buying new. A sofa costing ₹40,000 new can be fully restored for ₹3,000–₹10,000. We always provide a free inspection and transparent quote before starting work — no hidden charges.",
       ],
     },
@@ -1918,7 +1924,7 @@ export const sofaRepairFaridabad: SeoPageData = {
   },
   faqs: [
     { question: "Do you provide sofa repair near me in Faridabad?", answer: "Yes — FurniRevive provides sofa repair near me across all Faridabad localities including NIT sectors (1–89), Greater Faridabad, BPTP, Ballabgarh, Neharpar, and Surajkund. Our technicians are stationed across Faridabad for same-day doorstep response. Call +91 92179 99355 or WhatsApp to confirm your slot." },
-    { question: "How much does sofa repair cost in Faridabad?", answer: "Sofa repair in Faridabad starts at ₹800 for spring fixes and goes up to ₹4,500 for full re-upholstery. Complete 3-seater overhauls cost ₹3,000–₹10,000. Free doorstep inspection and transparent quotation provided." },
+    { question: "How much does sofa repair cost in Faridabad?", answer: "Sofa repair in Faridabad starts at ₹500 for spring fixes and goes up to ₹4,500 for full re-upholstery. Complete 3-seater overhauls cost ₹3,000–₹10,000. Free doorstep inspection and transparent quotation provided." },
     { question: "Do you provide home service for sofa repair in Faridabad?", answer: "Yes, all repairs happen at your Faridabad doorstep — NIT sectors, Greater Faridabad, BPTP, Ballabgarh, Surajkund, and all surrounding areas. We bring all tools and materials." },
     { question: "How long does sofa repair take?", answer: "Most sofa repairs in Faridabad are completed in 2–4 hours at your home. Foam replacement takes 1–2 hours. Full re-upholstery may take 4–6 hours. Same-day service available if booked before noon." },
     { question: "Can foam be replaced at home in Faridabad?", answer: "Yes. Our technicians carry pre-cut high-density foam (32–40 density) and replace it on-site at your Faridabad home. Takes 1–2 hours per sofa — no need to visit any workshop." },
@@ -1927,9 +1933,9 @@ export const sofaRepairFaridabad: SeoPageData = {
     { question: "Do you offer warranty on sofa repair in Faridabad?", answer: "Yes, every repair comes with a written 6-month warranty. If any issue arises within the warranty period, we fix it at no additional cost at your Faridabad address." },
     { question: "Do you offer sofa repair near me at home in Delhi?", answer: "Yes. FurniRevive provides doorstep sofa repair near me across Delhi — South Delhi, East Delhi, Badarpur, and the full Faridabad–Delhi corridor — with same-day availability. Our technicians arrive at your home with all tools and materials, so your sofa never leaves your living room. Call or WhatsApp +91 92179 99355 to confirm your slot." },
     { question: "Do you offer sofa repair near me at home in Faridabad?", answer: "Yes, FurniRevive provides doorstep sofa repair near me across all Faridabad localities — NIT sectors (1–89), Greater Faridabad, BPTP, Ballabgarh, Neharpar, and Surajkund — with same-day service. Our technicians come to your home with all tools and materials so your sofa never needs to leave your living room." },
-    { question: "What is the sofa repairing cost near me in Faridabad?", answer: "Sofa repairing cost in Faridabad starts at ₹999 for foam filling. Fabric change costs ₹2,500–₹8,000, leather repair ₹1,500–₹6,000, recliner repair ₹1,499–₹4,000, and full sofa renovation ₹3,000–₹12,000. Free inspection and transparent quote before work begins." },
+    { question: "What is the sofa repairing cost near me in Faridabad?", answer: "Sofa repairing cost in Faridabad starts at ₹500 for foam filling. Fabric change costs ₹2,500–₹8,000, leather repair ₹1,500–₹6,000, recliner repair ₹1,499–₹4,000, and full sofa renovation ₹3,000–₹12,000. Free inspection and transparent quote before work begins." },
     { question: "Do you provide sofa repair near me home service in Faridabad?", answer: "Yes. FurniRevive's sofa repair near me home service covers all Faridabad — NIT Sectors 1–89, Greater Faridabad, BPTP, Ballabgarh, and surrounding areas. Book before noon for same-day service. Call +91 92179 99355 for sofa repair near me contact number." },
-    { question: "How much does sofa repair cost in Faridabad?", answer: "Sofa repair in Faridabad starts at ₹999. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner repair ₹1,499–₹5,500, leather repair ₹1,500–₹5,000. FurniRevive provides a free inspection and written quote at your Faridabad doorstep before starting. No hidden charges. 6-month warranty." },
+    { question: "How much does sofa repair cost in Faridabad?", answer: "Sofa repair in Faridabad starts at ₹500. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner repair ₹1,499–₹5,500, leather repair ₹1,500–₹5,000. FurniRevive provides a free inspection and written quote at your Faridabad doorstep before starting. No hidden charges. 6-month warranty." },
     { question: "Which areas of Faridabad do you cover for sofa repair?", answer: "FurniRevive covers all Faridabad sectors for sofa repair — NIT Sectors 1–89, Greater Faridabad (Sectors 75–89), BPTP Parklands, Ballabgarh, Surajkund, Sector 21, Old Faridabad, and the Faridabad–Badarpur border corridor. Same-day service available when booked before noon. Call +91 92179 99355 to confirm availability at your Faridabad address." },
     { question: "Do you repair old sheesham and teak wood sofas in Faridabad?", answer: "Yes — and we strongly recommend repairing them. Faridabad's older sheesham and teak sofa frames are significantly higher quality than modern mass-produced replacements at the same price point. We reinforce joints with seasoned wood and traditional joinery, replace damaged sections with matching wood, and re-upholster with premium fabrics. These sofas routinely last another 10–15 years after professional restoration." },
     { question: "Is same-day sofa repair available in Faridabad?", answer: "Yes. FurniRevive offers same-day sofa repair in Faridabad and the Faridabad–Delhi corridor when booked before noon. Our technicians are stationed locally for fast response. Most repairs — foam replacement, spring fixing, upholstery patching — completed in 2–4 hours in a single visit. Call +91 92179 99355 before noon to confirm your same-day slot." },

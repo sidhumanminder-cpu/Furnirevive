@@ -6,9 +6,9 @@ const WHATSAPP_NUMBER = "919217999355";
 export const SOUTH_DELHI_AUTHORITY_P4: SeoPageData[] = [
   {
     slug: "furniture-repair-east-of-kailash",
-    title: "Furniture Repair East of Kailash – Doorstep Restoration | FurniRevive Delhi",
+    title: "Furniture Repair East of Kailash – Doorstep Restoration",
     metaDescription:
-      "Furniture repair in East of Kailash Delhi. Upholstery replacement, wooden furniture polishing, sofa & chair repair at home. From ₹599. 6-month warranty. Call FurniRevive!",
+      "Furniture repair in East of Kailash Delhi. Upholstery replacement, wooden furniture polishing, sofa & chair repair at home. From ₹599. 6-month warranty.",
     h1: "Furniture Repair in East of Kailash – Complete Home Furniture Restoration",
     heroSubtitle:
       "Expert upholstery replacement, wooden furniture polishing, sofa repair, and complete furniture restoration in East of Kailash. Free home visit. Same-day service. 6-month warranty.",

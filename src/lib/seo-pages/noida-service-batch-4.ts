@@ -5,10 +5,10 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const woodenFurnitureRestorationNoida: SeoPageData = {
   slug: "wooden-furniture-restoration-noida",
-  title: "Wooden Furniture Restoration in Noida | Expert Repair & Refinishing",
+  title: "Wooden Furniture Restoration in Noida",
   metaDescription:
-    "Expert wooden furniture restoration in Noida. Teak, sheesham & wood furniture repair & polishing at your doorstep. All sectors. 6-month warranty. FurniRevive.",
-  h1: "Wooden Furniture Restoration in Noida | Expert Repair & Refinishing",
+    "Expert wooden furniture restoration in Noida. Teak, sheesham & wood furniture repair & polishing at your doorstep. All sectors. 6-month warranty.",
+  h1: "Wooden Furniture Restoration in Noida",
   heroSubtitle:
     "Noida's specialist wooden furniture restoration service — teak, sheesham, walnut, and all hardwood furniture repaired, refinished, and restored to original condition at your doorstep across all Noida sectors, Noida Extension, and Greater Noida West. Fixed pricing. 6-month warranty. Call +91 92179 99355.",
   showcaseImage: {
@@ -217,10 +217,10 @@ const woodenFurnitureRestorationNoida: SeoPageData = {
 
 const luxurySofaRestorationNoida: SeoPageData = {
   slug: "luxury-sofa-restoration-noida",
-  title: "Luxury Sofa Restoration in Noida | Premium Sofa Restoration Experts",
+  title: "Luxury Sofa Restoration in Noida",
   metaDescription:
-    "Expert luxury sofa restoration in Noida. Designer, imported & premium sofa revival at your doorstep. All Noida sectors covered. 6-month warranty. Call FurniRevive.",
-  h1: "Luxury Sofa Restoration in Noida | Premium Sofa Restoration Experts",
+    "Expert luxury sofa restoration in Noida. Designer, imported & premium sofa revival at your doorstep. All Noida sectors covered. 6-month warranty.",
+  h1: "Luxury Sofa Restoration in Noida",
   heroSubtitle:
     "Noida's premium luxury sofa restoration service — Italian leather sectionals, imported designer sofas, luxury upholstered pieces, and all premium sofas restored to showroom condition at your doorstep across all Noida sectors, Noida Extension, and Greater Noida West. Fixed pricing. 6-month warranty. Call +91 92179 99355.",
   showcaseImage: {

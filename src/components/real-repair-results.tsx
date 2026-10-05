@@ -9,31 +9,33 @@ import {
   PHONE_NUMBER,
   WHATSAPP_NUMBER,
 } from "@/lib/seo-constants.ts";
+import { SERVICE_HUB_CONFIG } from "@/pages/services/service-hub/_lib/hub-config.ts";
+import { getRelatedLinks } from "@/lib/seoConfigs/cta-copy.ts";
 
 type CaseStudyResult = {
   _id: string;
   heading: string;
   beforeUrl: string | null;
   afterUrl: string | null;
+  combinedImageUrl?: string;
   altTextBefore: string;
   altTextAfter: string;
   problem: string;
   solution: string;
   materialsUsed?: string;
+  repairType?: string;
   costMin: number;
   costMax: number;
   timeTaken: string;
 };
 
-const INTERNAL_LINKS = [
-  { href: "/sofa-repair-cost-delhi", label: "Sofa Repair Cost Delhi" },
-  { href: "/sofa-repair-near-me-delhi", label: "Sofa Repair Near Me Delhi" },
-  { href: "/sofa-upholstery-delhi", label: "Sofa Upholstery Delhi" },
-  { href: "/furniture-repair-cost-delhi", label: "Furniture Repair Cost Delhi" },
-  { href: "/upholstery-home-service-delhi", label: "Upholstery Home Service Delhi" },
-];
+const REPAIR_TYPE_LABELS: Record<string, string> = {
+  sofa: "Sofa Repair",
+  recliner: "Recliner Repair",
+};
 
-function CaseBlock({ study, index }: { study: CaseStudyResult; index: number }) {
+function CaseBlock({ study, index, showTypeLabel }: { study: CaseStudyResult; index: number; showTypeLabel: boolean }) {
+  const typeLabel = showTypeLabel && study.repairType ? REPAIR_TYPE_LABELS[study.repairType] : undefined;
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -43,6 +45,14 @@ function CaseBlock({ study, index }: { study: CaseStudyResult; index: number }) 
       className="rounded-xl border bg-card overflow-hidden"
     >
       {/* Before / After images */}
+      {study.combinedImageUrl ? (
+        <img
+          src={study.combinedImageUrl}
+          alt={study.altTextAfter}
+          loading="lazy"
+          className="w-full object-contain bg-muted"
+        />
+      ) : (
       <div className="grid grid-cols-2 gap-px bg-border">
         <div className="relative bg-card">
           {study.beforeUrl ? (
@@ -79,9 +89,13 @@ function CaseBlock({ study, index }: { study: CaseStudyResult; index: number }) 
           </span>
         </div>
       </div>
+      )}
 
       {/* Details */}
       <div className="p-5 space-y-3">
+        {typeLabel && (
+          <p className="text-xs font-semibold uppercase tracking-wide text-primary">{typeLabel} — Before/After</p>
+        )}
         <h3 className="text-lg font-serif font-bold text-foreground">{study.heading}</h3>
 
         <div className="space-y-2 text-sm">
@@ -139,14 +153,41 @@ function LoadingSkeleton() {
   );
 }
 
-export default function RealRepairResults({ pageSlug, cityName }: { pageSlug: string; cityName?: string }) {
-  const caseStudies = useQuery(api.caseStudies.getForPage, { pageSlug });
+/** Headline price for the page's service, from the single source of truth in the hub config. */
+function headlinePriceFor(pageSlug: string, service?: string): string | null {
+  const slug = pageSlug.toLowerCase();
+  const key =
+    service ??
+    (slug.includes("recliner") ? "recliner-repair"
+      : slug.includes("upholstery") ? "sofa-upholstery"
+      : slug.includes("sofa") ? "sofa-repair"
+      : slug.includes("furniture") || slug.includes("carpenter") ? "furniture-repair"
+      : null);
+  if (!key || !(key in SERVICE_HUB_CONFIG)) return null;
+  return SERVICE_HUB_CONFIG[key as keyof typeof SERVICE_HUB_CONFIG].headlinePrice;
+}
+
+type RealRepairResultsProps = {
+  pageSlug: string;
+  cityName?: string;
+  /** When set, only this service's case studies are shown (registry pages). */
+  service?: "sofa-repair" | "recliner-repair" | "furniture-repair" | "sofa-upholstery";
+};
+
+export default function RealRepairResults({ pageSlug, cityName, service }: RealRepairResultsProps) {
+  const byPage = useQuery(api.caseStudies.getForPage, service ? "skip" : { pageSlug });
+  const byService = useQuery(api.caseStudies.getByService, service ? { service } : "skip");
+  const caseStudies = service ? byService : byPage;
 
   // Don't render the section at all if there are no case studies
   if (caseStudies !== undefined && caseStudies.length === 0) {
     return null;
   }
 
+  // Furniture/upholstery borrow sofa and recliner work, so the heading stays general
+  const isGeneral = service === "furniture-repair" || service === "sofa-upholstery";
+  const cityLabel = cityName ? cityName.charAt(0).toUpperCase() + cityName.slice(1) : "Delhi/NCR";
+  const price = headlinePriceFor(pageSlug, service);
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
     "Hi! I saw your repair results and would like to get a quotation."
   )}`;
@@ -166,10 +207,10 @@ export default function RealRepairResults({ pageSlug, cityName }: { pageSlug: st
             Verified Results
           </div>
           <h2 className="text-2xl sm:text-3xl font-serif font-bold">
-            Real Repair Results in {cityName ? cityName.charAt(0).toUpperCase() + cityName.slice(1) : "Delhi/NCR"}
+            {isGeneral ? "See the Quality of Our Work" : `Real Repair Results in ${cityLabel}`}
           </h2>
           <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
-            See actual before and after transformations by our skilled craftsmen across {cityName ? cityName.charAt(0).toUpperCase() + cityName.slice(1) : "Delhi NCR"}.
+            {isGeneral ? "Recent sofa and recliner restorations by our craftsmen, shown as examples of our finishing standard." : `See actual before and after transformations by our skilled craftsmen across ${cityLabel}.`}
           </p>
         </motion.div>
 
@@ -185,7 +226,7 @@ export default function RealRepairResults({ pageSlug, cityName }: { pageSlug: st
             }`}
           >
             {caseStudies.map((study, i) => (
-              <CaseBlock key={study._id} study={study} index={i} />
+              <CaseBlock key={study._id} study={study} index={i} showTypeLabel={isGeneral} />
             ))}
           </div>
         )}
@@ -198,8 +239,13 @@ export default function RealRepairResults({ pageSlug, cityName }: { pageSlug: st
           className="mt-10 text-center"
         >
           <p className="text-lg font-semibold text-foreground mb-5">
-            Get similar results starting{" "}
-            <span className="text-primary">₹999</span> – Book Now
+            {price ? (
+              <>
+                Get similar results {price.startsWith("from") ? "" : "from "}<span className="text-primary">{price}</span> – Book Now
+              </>
+            ) : (
+              "Get a free quote for similar results – Book Now"
+            )}
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <a href={`tel:${PHONE_NUMBER}`}>
@@ -233,7 +279,7 @@ export default function RealRepairResults({ pageSlug, cityName }: { pageSlug: st
             Related Services
           </p>
           <div className="flex flex-wrap gap-x-4 gap-y-1.5">
-            {INTERNAL_LINKS.filter((link) => link.href !== `/${pageSlug}`).map((link) => (
+            {getRelatedLinks(pageSlug).filter((link) => link.href !== `/${pageSlug}`).map((link) => (
               <Link
                 key={link.href}
                 to={link.href}

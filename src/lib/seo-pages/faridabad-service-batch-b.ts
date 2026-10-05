@@ -36,9 +36,9 @@ const GENERAL_LINKS = [
 
 const importedFurnitureRepairFaridabad: SeoPageData = {
   slug: "imported-furniture-repair-faridabad",
-  title: "Imported Furniture Repair Faridabad | European, Italian & American Furniture Specialists",
+  title: "Imported Furniture Repair Faridabad",
   metaDescription:
-    "Expert imported furniture repair in Faridabad. European, Italian & American brands restored at your doorstep. Serving BPTP Parklands, Omaxe Heights, Sector 15–88. Premium spare parts. Call FurniRevive.",
+    "Expert imported furniture repair in Faridabad. European, Italian & American brands restored at your doorstep.",
   h1: "Imported Furniture Repair Faridabad — European, Italian & American Specialists",
   heroSubtitle:
     "Faridabad's only specialist team for imported European, Italian and American furniture repair. Serving villa owners and premium apartment residents across Sectors 15–88, BPTP Parklands, Omaxe Heights and all Greater Faridabad communities.",
@@ -369,9 +369,9 @@ const importedFurnitureRepairFaridabad: SeoPageData = {
 
 const reclinerMotorRepairFaridabad: SeoPageData = {
   slug: "recliner-motor-repair-faridabad",
-  title: "Recliner Motor Repair Faridabad | Actuator, Wiring & Control Box Specialists",
+  title: "Recliner Motor Repair Faridabad",
   metaDescription:
-    "Expert recliner motor repair in Faridabad. Actuator replacement, wiring faults, control boxes, dual motor systems. Serving Sector 15–88, BPTP Parklands & Greater Faridabad. Same-day slots available.",
+    "Expert recliner motor repair in Faridabad. Actuator replacement, wiring faults, control boxes, dual motor systems.",
   h1: "Recliner Motor Repair Faridabad — Actuator, Wiring & Control Box Specialists",
   heroSubtitle:
     "Faridabad's dedicated recliner motor repair service. We fix actuator failures, wiring faults, control box failures and dual-motor system problems across Sectors 15–88, BPTP Parklands, Omaxe Heights and all Greater Faridabad communities.",
@@ -693,9 +693,9 @@ const reclinerMotorRepairFaridabad: SeoPageData = {
 
 const italianSofaRepairFaridabad: SeoPageData = {
   slug: "italian-sofa-repair-faridabad",
-  title: "Italian Sofa Repair Faridabad | Natuzzi, Poliform & Luxury Italian Leather Specialists",
+  title: "Italian Sofa Repair Faridabad",
   metaDescription:
-    "Expert Italian sofa repair in Faridabad. Natuzzi, Poliform, Flexform & imported Italian leather restoration. Serving Sectors 15–88, BPTP Parklands & Greater Faridabad. Premium stitching, leather & frame repair.",
+    "Expert Italian sofa repair in Faridabad. Natuzzi, Poliform, Flexform & imported Italian leather restoration.",
   h1: "Italian Sofa Repair Faridabad — Luxury Italian Leather & Designer Sofa Specialists",
   heroSubtitle:
     "Faridabad's dedicated Italian sofa repair specialists. We restore Natuzzi, Poliform, Flexform, B&B Italia and all Italian leather sofas with authentic materials and expert craftsmanship across Sectors 15–88, BPTP Parklands and Greater Faridabad.",

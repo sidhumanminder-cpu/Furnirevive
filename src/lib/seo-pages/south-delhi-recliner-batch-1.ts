@@ -5,15 +5,15 @@ const WHATSAPP_NUMBER = "919217999355";
 
 const reclineRepairGreaterKailash: SeoPageData = {
   slug: "recliner-repair-greater-kailash",
-  title: "Recliner Repair Greater Kailash – Expert Doorstep Service | Same Day | From ₹1,499",
+  title: "Recliner Repair Greater Kailash – Expert Doorstep Service",
   metaDescription: "Recliner repair in Greater Kailash from ₹1,499. Motor, mechanism & leather experts. Free home visit, same-day service for GK I & II. Call FurniRevive now!",
   h1: "Recliner Repair in Greater Kailash – Luxury & Imported Recliner Specialists",
   heroSubtitle: "Motor repair, mechanism fixes, leather restoration & full reupholstery for Natuzzi, La-Z-Boy, Ashley, Stressless and all premium recliners in GK I & GK II. Free home visit. Same-day slots available.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
-    altText: "Professional sofa repair technician working on an ivory premium fabric sofa in a luxury South Delhi home (Greater Kailash) — FurniRevive",
-    caption: "Sofa Repair in Greater Kailash | Premium upholstery & foam service | Home visit | FurniRevive",
+    heading: "Premium Recliner Repair — Expert Service at Your South Delhi Home",
+    imageUrl: "https://hercules-cdn.com/file_LOHAKGqtU1iWl0Py1MTUfn3g",
+    altText: "Professional recliner repair technician working on a cream recliner in a luxury South Delhi home (Greater Kailash) — FurniRevive",
+    caption: "Recliner Repair in Greater Kailash | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
     "FurniRevive repairs all recliners in Greater Kailash – from imported power recliners to manual mechanism fixes – starting at ₹1,499 with a free home visit and 6-month warranty. Same-day slots available for GK I and GK II.",
@@ -274,14 +274,14 @@ const reclineRepairGreaterKailash: SeoPageData = {
 
 const reclineRepairDefenceColony: SeoPageData = {
   slug: "recliner-repair-defence-colony",
-  title: "Recliner Repair Defence Colony – Doorstep Motor & Mechanism Service | From ₹1,499",
+  title: "Recliner Repair Defence Colony",
   metaDescription: "Recliner repair in Defence Colony from ₹1,499. Spring, motor & upholstery experts for family recliners & independent homes. Free visit. Book FurniRevive!",
   h1: "Recliner Repair in Defence Colony – Trusted Restoration for Family Recliners",
   heroSubtitle: "Mechanism overhaul, spring repair, motor servicing & full reupholstery for all recliner types in Defence Colony's independent homes and apartments. Free home visit. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
-    altText: "Professional sofa repair technician working on an ivory premium fabric sofa in a luxury South Delhi home (Defence Colony) — FurniRevive",
+    imageUrl: "https://hercules-cdn.com/file_LOHAKGqtU1iWl0Py1MTUfn3g",
+    altText: "Professional recliner repair technician working on a cream recliner in a luxury South Delhi home (Defence Colony) — FurniRevive",
     caption: "Sofa Repair in Defence Colony | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
@@ -540,14 +540,14 @@ const reclineRepairDefenceColony: SeoPageData = {
 
 const reclineRepairGreenPark: SeoPageData = {
   slug: "recliner-repair-green-park",
-  title: "Recliner Repair Green Park – Motor & Mechanism Experts | Doorstep | From ₹1,499",
+  title: "Recliner Repair Green Park – Motor & Mechanism Experts",
   metaDescription: "Recliner repair in Green Park from ₹1,499. Motor servicing, wall-hugger mechanism repair & foam replacement for apartments. Free visit. Call FurniRevive!",
   h1: "Recliner Repair in Green Park – Doorstep Motor & Mechanism Service for Modern Apartments",
   heroSubtitle: "Power recliner motor repair, wall-hugger mechanism servicing, foam replacement & upholstery for Green Park and Green Park Extension apartments. Free home visit. Same-day available.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
-    altText: "Professional sofa repair technician working on an ivory premium fabric sofa in a luxury South Delhi home (Green Park) — FurniRevive",
+    imageUrl: "https://hercules-cdn.com/file_LOHAKGqtU1iWl0Py1MTUfn3g",
+    altText: "Professional recliner repair technician working on a cream recliner in a luxury South Delhi home (Green Park) — FurniRevive",
     caption: "Sofa Repair in Green Park | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
@@ -806,14 +806,14 @@ const reclineRepairGreenPark: SeoPageData = {
 
 const reclineRepairHauzKhas: SeoPageData = {
   slug: "recliner-repair-hauz-khas",
-  title: "Recliner Repair Hauz Khas – Home Theatre & Designer Recliner Experts | From ₹1,499",
+  title: "Recliner Repair Hauz Khas",
   metaDescription: "Recliner repair in Hauz Khas from ₹1,499. Home theatre, designer & power recliners. Boutique service for HK Village & Enclave. Free visit. FurniRevive!",
   h1: "Recliner Repair in Hauz Khas – Boutique Service for Home Theatre & Designer Recliners",
   heroSubtitle: "Specialist repair for home theatre recliners, designer power chairs, and luxury manual recliners in Hauz Khas Village, Hauz Khas Enclave, and surrounding areas. Free doorstep visit. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
-    altText: "Professional sofa repair technician working on an ivory premium fabric sofa in a luxury South Delhi home (Hauz Khas) — FurniRevive",
+    imageUrl: "https://hercules-cdn.com/file_LOHAKGqtU1iWl0Py1MTUfn3g",
+    altText: "Professional recliner repair technician working on a cream recliner in a luxury South Delhi home (Hauz Khas) — FurniRevive",
     caption: "Sofa Repair in Hauz Khas | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
@@ -1072,14 +1072,14 @@ const reclineRepairHauzKhas: SeoPageData = {
 
 const reclineRepairSouthExtension: SeoPageData = {
   slug: "recliner-repair-south-extension",
-  title: "Recliner Repair South Extension – Imported & Luxury Recliner Experts | From ₹1,499",
-  metaDescription: "Recliner repair in South Extension from ₹1,499. Imported brand specialists, luxury upholstery & motor repair. Free doorstep visit for South Ex I & II. Call!",
+  title: "Recliner Repair South Extension",
+  metaDescription: "Recliner repair in South Extension from ₹1,499. Imported brand specialists, luxury upholstery & motor repair. Free doorstep visit for South Ex I & II.",
   h1: "Recliner Repair in South Extension – Premium Imported Recliner Restoration Service",
   heroSubtitle: "Motor repair, leather restoration, mechanism servicing, and full reupholstery for imported and luxury recliners in South Extension I & II. Free home visit. Same-day slots available.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
-    altText: "Professional sofa repair technician working on an ivory premium fabric sofa in a luxury South Delhi home (South Extension) — FurniRevive",
+    imageUrl: "https://hercules-cdn.com/file_LOHAKGqtU1iWl0Py1MTUfn3g",
+    altText: "Professional recliner repair technician working on a cream recliner in a luxury South Delhi home (South Extension) — FurniRevive",
     caption: "Sofa Repair in South Extension | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:

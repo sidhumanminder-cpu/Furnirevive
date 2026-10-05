@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const furnitureRepairPalamViharGurgaon: SeoPageData = {
   slug: "furniture-repair-palam-vihar-gurgaon",
-  title: "Furniture Repair in Palam Vihar Gurgaon | Doorstep ₹999 | FurniRevive",
-  metaDescription: "Furniture repair in Palam Vihar Gurgaon — Sectors A–E, Palam Vihar Extension. Sofa, wardrobe, bed, recliner repair at your doorstep from ₹999. 6-month warranty. Same-day slots.",
+  title: "Furniture Repair in Palam Vihar Gurgaon | FurniRevive",
+  metaDescription: "Furniture repair in Palam Vihar Gurgaon — Sectors A–E, Palam Vihar Extension. Sofa, wardrobe, bed, recliner repair at your doorstep from ₹999.",
   h1: "Furniture Repair in Palam Vihar, Gurgaon",
   heroSubtitle: "Palam Vihar is one of Gurgaon's largest and most established residential townships — spanning Sectors A through E, Palam Vihar Extension, and thousands of independent floors and builder apartments just minutes from Dwarka Expressway. FurniRevive brings certified furniture repair craftsmen directly to your Palam Vihar home, starting at ₹999, so your sofa, wardrobe, bed, or dining set is restored without the hassle of shifting it to a workshop.",
   showcaseImage: {

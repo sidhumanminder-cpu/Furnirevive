@@ -10,6 +10,7 @@
  */
 
 import type { LocalityEntry, ServiceEntry } from "@/lib/registry/types.ts";
+import { getEffectiveContentWeight } from "@/lib/registry/effective-content-weight.ts";
 
 export type PageAuditResult = {
   url: string;
@@ -105,7 +106,7 @@ function scoreIntro(locality: LocalityEntry, service: ServiceEntry): number {
     return hasLandmark ? 72 : 62;
   }
   // Residential: contentWeight drives depth, propertyType + housingAge + affluence differ
-  const full = locality.contentWeight >= 90;
+  const full = getEffectiveContentWeight(locality) >= 90;
   const hasLandmark = locality.landmarks && locality.landmarks.length > 0;
   if (full && hasLandmark) return 84;
   if (full) return 76;
@@ -235,7 +236,7 @@ function getDuplicateRisk(overall: number, faqScore: number, introScore: number)
 }
 
 function getThinContentRisk(locality: LocalityEntry, overall: number, introScore: number): "Low" | "Medium" | "High" {
-  const cw = locality.contentWeight;
+  const cw = getEffectiveContentWeight(locality);
   if (cw >= 90 && introScore >= 76 && overall >= 70) return "Low";
   if (cw >= 70 && overall >= 62) return "Medium";
   return "High";

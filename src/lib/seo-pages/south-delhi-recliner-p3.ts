@@ -5,19 +5,16 @@ const WHATSAPP_NUMBER = "919217999355";
 
 const reclinerRepairSafdarjungEnclave: SeoPageData = {
   slug: "recliner-repair-safdarjung-enclave",
-  title: "Recliner Repair in Safdarjung Enclave | Expert Home Service – FurniRevive",
-  metaDescription:
-    "Professional recliner repair in Safdarjung Enclave. Electric motor, manual mechanism, cable, foam & upholstery repair — all at your home. Call " +
-    PHONE_DISPLAY +
-    ". Same-day slots available.",
+  title: "Recliner Repair in Safdarjung Enclave",
+  metaDescription: "Professional recliner repair in Safdarjung Enclave. Call +91 92179 99355.",
   h1: "Recliner Repair in Safdarjung Enclave",
   heroSubtitle:
     "Trusted recliner repair service for apartments and builder floors in Safdarjung Enclave — electric, manual, leather & fabric recliners restored at your doorstep.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
-    altText: "Professional sofa repair technician working on an ivory premium fabric sofa in a luxury South Delhi home (Safdarjung Enclave) — FurniRevive",
-    caption: "Sofa Repair in Safdarjung Enclave | Premium upholstery & foam service | Home visit | FurniRevive",
+    heading: "Premium Recliner Repair — Expert Service at Your South Delhi Home",
+    imageUrl: "https://hercules-cdn.com/file_LOHAKGqtU1iWl0Py1MTUfn3g",
+    altText: "Professional recliner repair technician working on a cream recliner in a luxury South Delhi home (Safdarjung Enclave) — FurniRevive",
+    caption: "Recliner Repair in Safdarjung Enclave | Premium upholstery & foam service | Home visit | FurniRevive",
   },
 
   quickAnswer:

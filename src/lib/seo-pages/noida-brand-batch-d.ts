@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const royaloakFurnitureRepairNoida: SeoPageData = {
   slug: "royaloak-furniture-repair-noida",
-  title: "Royaloak Furniture Repair Noida | Recliner & Leatherette Sofa Restoration | FurniRevive",
-  metaDescription: "Expert Royaloak furniture repair in Noida. Recliner motor repair, leatherette sofa restoration, foam replacement at your doorstep. All sectors, ATS Greens, Jaypee Greens. 6-month warranty.",
+  title: "Royaloak Furniture Repair Noida | FurniRevive",
+  metaDescription: "Expert Royaloak furniture repair in Noida. Recliner motor repair, leatherette sofa restoration, foam replacement at your doorstep.",
   h1: "Royaloak Furniture Repair in Noida | Recliner & Leatherette Specialists",
   heroSubtitle: "Skilled technicians repairing Royaloak motorised recliners, leatherette sofas, and wooden furniture -- doorstep service across all Noida sectors with a 6-month warranty.",
   showcaseImage: {
@@ -248,8 +248,8 @@ const royaloakFurnitureRepairNoida: SeoPageData = {
 
 const nilkamalFurnitureRepairNoida: SeoPageData = {
   slug: "nilkamal-furniture-repair-noida",
-  title: "Nilkamal Furniture Repair Noida | Office & Home Furniture Restoration | FurniRevive",
-  metaDescription: "Expert Nilkamal furniture repair in Noida. Office furniture repair, sofa restoration, MDF structural repair at your doorstep. All sectors, Noida Extension, Greater Noida West. 6-month warranty.",
+  title: "Nilkamal Furniture Repair Noida | FurniRevive",
+  metaDescription: "Expert Nilkamal furniture repair in Noida. Office furniture repair, sofa restoration, MDF structural repair at your doorstep.",
   h1: "Nilkamal Furniture Repair in Noida | Office & Home Furniture Specialists",
   heroSubtitle: "Skilled technicians repairing Nilkamal office chairs, sofas, MDF furniture, and plastic furniture -- doorstep service across all Noida sectors and Greater Noida West.",
   showcaseImage: {

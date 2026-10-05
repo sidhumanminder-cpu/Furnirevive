@@ -73,7 +73,7 @@ const FURNITURE_CONTENT_SECTIONS = [
   {
     heading: "Sofa & Upholstery Repair",
     body: [
-      "We repair fabric, leather, and imported upholstered sofas at your home — covering foam replacement, spring repair, frame fixes, leather stitching, and full reupholstery. Sofa repair starts from ₹999, full reupholstery from ₹5,000.",
+      "We repair fabric, leather, and imported upholstered sofas at your home — covering foam replacement, spring repair, frame fixes, leather stitching, and full reupholstery. Sofa repair starts from ₹500, full reupholstery from ₹5,000.",
     ],
   },
   {
@@ -207,7 +207,7 @@ const furnitureRepairRohini: SeoPageData = {
   slug: "furniture-repair-rohini",
   title: "Furniture Repair Rohini – Doorstep Service | Same Day | From ₹599",
   metaDescription:
-    "Furniture repair in Rohini from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home across all sectors. 6-month warranty. Free home visit. Call FurniRevive!",
+    "Furniture repair in Rohini from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home across all sectors. 6-month warranty. Free home visit.",
   h1: "Furniture Repair in Rohini – Expert Doorstep Restoration for Every Sector",
   heroSubtitle:
     "Complete furniture repair for sofas, chairs, wooden furniture, beds, wardrobes, and dining sets across all Rohini sectors. Free home visit. Same-day slots. 6-month warranty. Serving Rohini Sector 1–25, Prashant Vihar, and Pitampura border areas.",
@@ -298,9 +298,9 @@ const furnitureRepairRohini: SeoPageData = {
 
 const furnitureRepairAshokVihar: SeoPageData = {
   slug: "furniture-repair-ashok-vihar",
-  title: "Furniture Repair Ashok Vihar – Doorstep Service | Same Day | From ₹599",
+  title: "Furniture Repair Ashok Vihar – Doorstep Service | Same Day",
   metaDescription:
-    "Furniture repair in Ashok Vihar from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. All phases covered. 6-month warranty. Call FurniRevive!",
+    "Furniture repair in Ashok Vihar from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. All phases covered. 6-month warranty.",
   h1: "Furniture Repair in Ashok Vihar – Trusted Doorstep Service for Every Home",
   heroSubtitle:
     "Expert furniture repair for sofas, chairs, wooden furniture, beds, wardrobes, and dining sets across Ashok Vihar Phase I–IV. Free home visit. Same-day slots. 6-month warranty. Serving Ashok Vihar and nearby Pitampura, Rohini, Punjabi Bagh.",
@@ -391,9 +391,9 @@ const furnitureRepairAshokVihar: SeoPageData = {
 
 const furnitureRepairModelTown: SeoPageData = {
   slug: "furniture-repair-model-town",
-  title: "Furniture Repair Model Town – Doorstep Service | Same Day | From ₹599",
+  title: "Furniture Repair Model Town – Doorstep Service | Same Day",
   metaDescription:
-    "Furniture repair in Model Town from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. Serving Model Town I, II & III. 6-month warranty. Call FurniRevive!",
+    "Furniture repair in Model Town from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. Serving Model Town I, II & III. 6-month warranty.",
   h1: "Furniture Repair in Model Town – Premium Doorstep Restoration for North Delhi Homes",
   heroSubtitle:
     "Expert furniture repair for all piece types across Model Town I, II, and III — sofas, chairs, wooden furniture, beds, wardrobes, dining sets. Free home visit. Same-day slots. 6-month warranty. Serving Model Town and nearby Shalimar Bagh, Pitampura, Azadpur.",
@@ -484,9 +484,9 @@ const furnitureRepairModelTown: SeoPageData = {
 
 const reclineRepairShalimarBagh: SeoPageData = {
   slug: "recliner-repair-shalimar-bagh",
-  title: "Recliner Repair Shalimar Bagh – Expert Doorstep Service | Same Day | From ₹1,499",
+  title: "Recliner Repair Shalimar Bagh – Expert Doorstep Service",
   metaDescription:
-    "Recliner repair in Shalimar Bagh from ₹1,499. Motor, mechanism & leather experts. Free home visit across all blocks. North Delhi specialists. Call FurniRevive now!",
+    "Recliner repair in Shalimar Bagh from ₹1,499. Motor, mechanism & leather experts. Free home visit across all blocks. North Delhi specialists.",
   h1: "Recliner Repair in Shalimar Bagh – Motor & Mechanism Specialists at Your Door",
   heroSubtitle:
     "Motor repair, mechanism fixes, leather restoration and full reupholstery for Natuzzi, La-Z-Boy, Ashley, Stressless and all recliner brands in Shalimar Bagh. Free home visit. Same-day slots available.",
@@ -577,9 +577,9 @@ const reclineRepairShalimarBagh: SeoPageData = {
 
 const furnitureRepairShalimarBagh: SeoPageData = {
   slug: "furniture-repair-shalimar-bagh",
-  title: "Furniture Repair Shalimar Bagh – Doorstep Service | Same Day | From ₹599",
+  title: "Furniture Repair Shalimar Bagh – Doorstep Service | Same Day",
   metaDescription:
-    "Furniture repair in Shalimar Bagh from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. All blocks covered. 6-month warranty. Call FurniRevive!",
+    "Furniture repair in Shalimar Bagh from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. All blocks covered. 6-month warranty.",
   h1: "Furniture Repair in Shalimar Bagh – Trusted Doorstep Restoration for North Delhi",
   heroSubtitle:
     "Complete furniture repair for sofas, chairs, wooden furniture, beds, wardrobes, and dining sets across all Shalimar Bagh blocks. Free home visit. Same-day slots. 6-month warranty. Serving Shalimar Bagh and nearby Pitampura, Rohini, Ashok Vihar.",

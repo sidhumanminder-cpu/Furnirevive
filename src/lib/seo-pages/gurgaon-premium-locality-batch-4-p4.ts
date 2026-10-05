@@ -3,9 +3,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const furnitureRepairSector46Gurgaon: SeoPageData = {
   slug: "furniture-repair-sector-46-gurgaon",
-  title: "Furniture Repair in Sector 46 Gurgaon | Doorstep ₹999 | FurniRevive",
+  title: "Furniture Repair in Sector 46 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert furniture repair in Sector 46 Gurgaon — HUDA plots, private builder floors near Golf Course Extension Road. Sofa, wardrobe, recliner & more from ₹999. 6-month warranty.",
+    "Expert furniture repair in Sector 46 Gurgaon — HUDA plots, private builder floors near Golf Course Extension Road.",
   h1: "Furniture Repair in Sector 46, Gurgaon",
   heroSubtitle:
     "Sector 46 is a well-established mid-premium residential sector in Gurgaon — characterised by HUDA plotted homes, private builder floors, and its prime location adjoining Golf Course Extension Road with easy connectivity to Sector 45 and Sector 47. When the furniture in your Sector 46 home needs professional attention, FurniRevive's doorstep technicians arrive at your address with the tools and materials to restore it properly, starting at just ₹999.",

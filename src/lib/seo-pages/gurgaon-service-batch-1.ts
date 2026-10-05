@@ -5,9 +5,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const sofaUpholsteryGurgaon: SeoPageData = {
   slug: "sofa-upholstery-gurgaon",
-  title: "Sofa Upholstery Gurgaon | Premium Re-Upholstery Service from ₹999",
+  title: "Sofa Upholstery Gurgaon",
   metaDescription:
-    "Expert sofa upholstery in Gurgaon from ₹999. Fabric, leather, velvet & custom upholstery at your doorstep. DLF, Golf Course Road, Sohna Road. 6-month warranty. FurniRevive.",
+    "Expert sofa upholstery in Gurgaon from ₹2,000 per seat. Fabric, leather, velvet & custom upholstery at your doorstep. DLF, Golf Course Road, Sohna Road.",
   h1: "Sofa Upholstery Gurgaon — Transform Your Sofa Without Buying New",
   heroSubtitle:
     "Gurgaon's premium sofa upholstery specialists. Fabric replacement, leather re-upholstery, velvet, linen, performance and pet-friendly fabrics — all at your doorstep across DLF Phase 1–5, Golf Course Road, Golf Course Extension Road, Sohna Road, and every sector from 42 to 65. From ₹999. 6-month workmanship warranty on every project.",
@@ -261,9 +261,9 @@ const sofaUpholsteryGurgaon: SeoPageData = {
 
 const sofaFoamReplacementGurgaon: SeoPageData = {
   slug: "sofa-foam-replacement-gurgaon",
-  title: "Sofa Foam Replacement Gurgaon | High-Density Cushion Restoration from ₹999",
+  title: "Sofa Foam Replacement Gurgaon",
   metaDescription:
-    "Expert sofa foam replacement in Gurgaon from ₹999. High-density foam, cushion rebuilding & sagging sofa solutions at your doorstep. DLF, Golf Course Road, Sohna Road. 6-month warranty. FurniRevive.",
+    "Expert sofa foam replacement in Gurgaon from ₹999. High-density foam, cushion rebuilding & sagging sofa solutions at your doorstep.",
   h1: "Sofa Foam Replacement Gurgaon — Restore Comfort and Support",
   heroSubtitle:
     "Is your sofa sagging, sinking, or simply no longer supporting you the way it did when new? FurniRevive's foam replacement specialists restore original seat comfort across Gurgaon — DLF Phase 1–5, Golf Course Road, Golf Course Extension Road, Sohna Road, and all sectors. Premium high-density foam at your doorstep. From ₹999. 6-month warranty.",

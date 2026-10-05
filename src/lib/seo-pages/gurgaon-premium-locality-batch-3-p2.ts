@@ -3,17 +3,17 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const recliinerRepairDlfPhase4Gurgaon: SeoPageData = {
   slug: "recliner-repair-dlf-phase-4-gurgaon",
-  title: "Recliner Repair in DLF Phase 4 Gurgaon | Doorstep ₹999 | FurniRevive",
+  title: "Recliner Repair in DLF Phase 4 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert recliner repair in DLF Phase 4 Gurgaon — Gardencity, Belvedere Park, The Pinnacle, Westend Heights. Motor, mechanism & leather repair at your doorstep from ₹999. 6-month warranty.",
+    "Expert recliner repair in DLF Phase 4 Gurgaon — Gardencity, Belvedere Park, The Pinnacle, Westend Heights.",
   h1: "Recliner Repair in DLF Phase 4, Gurgaon",
   heroSubtitle:
     "DLF Phase 4 — home to Gardencity, Belvedere Park, The Pinnacle, and Westend Heights — is where discerning Gurgaon residents invest in premium recliners. When your motorised La-Z-Boy, leather Stressless, or multi-seat recliner suite develops a fault, FurniRevive's specialist technicians reach your door in DLF Phase 4 within hours, restoring full function from ₹999 with a 6-month warranty.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
-    altText: "Professional sofa repair technician working on a beige premium fabric sofa in a luxury Gurgaon (DLF Phase 4) home — FurniRevive",
-    caption: "Sofa Repair in Gurgaon (DLF Phase 4) | Premium upholstery & foam service | Home visit | FurniRevive",
+    altText: "Professional recliner repair technician working on a beige premium fabric sofa in a luxury Gurgaon (DLF Phase 4) home — FurniRevive",
+    caption: "Recliner Repair in Gurgaon (DLF Phase 4) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
     "FurniRevive repairs all recliner types in DLF Phase 4 Gurgaon — including electric motor faults, mechanism failures, actuator replacement, leather restoration, and foam rebuilds — at your apartment in Gardencity, Belvedere Park, The Pinnacle, or Westend Heights. Doorstep service starts at ₹999, with a free on-site inspection, fixed written quote before work begins, and a 6-month workmanship warranty. Call or WhatsApp +91 92179 99355 to book your DLF Phase 4 slot today.",

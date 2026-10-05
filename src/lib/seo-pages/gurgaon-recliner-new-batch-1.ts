@@ -3,15 +3,15 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const reclinerRepairGolfCourseExtensionRoadGurgaon: SeoPageData = {
   slug: "recliner-repair-golf-course-extension-road-gurgaon",
-  title: "Recliner Repair in Golf Course Extension Road Gurgaon | Doorstep ₹999 | FurniRevive",
+  title: "Recliner Repair in Golf Course Extension Road Gurgaon",
   metaDescription:
-    "Expert recliner repair in Golf Course Extension Road Gurgaon — Tata Primanti, Emaar Gurgaon Greens, Paras Quartier, Ireo Victory Valley. Motor, mechanism & leather repair from ₹999. 6-month warranty.",
+    "Expert recliner repair in Golf Course Extension Road Gurgaon — Tata Primanti, Emaar Gurgaon Greens, Paras Quartier, Ireo Victory Valley.",
   h1: "Recliner Repair in Golf Course Extension Road, Gurgaon",
   heroSubtitle:
     "Golf Course Extension Road — spanning Sectors 58–67 and home to Tata Primanti, Emaar Gurgaon Greens, M3M Broadway, Paras Quartier, Ireo Victory Valley, and Bestech Park View Grand Spa — is Gurgaon's fastest-growing premium residential corridor. FurniRevive brings certified recliner repair directly to these newer luxury towers, restoring manual mechanisms, electric motors, and leather upholstery from just ₹999 with a 6-month workmanship warranty.",
   showcaseImage: {
     heading: "Premium Recliner Repair — Expert Service at Your Golf Course Extension Road Home",
-    imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
+    imageUrl: "https://hercules-cdn.com/file_2c8bbpkuu9qh7mm9w7sbecpE",
     altText: "Professional recliner repair technician servicing a premium leather recliner in a luxury Golf Course Extension Road apartment — FurniRevive",
     caption: "Recliner Repair in Golf Course Extension Road Gurgaon | Motor, mechanism & leather service | Home visit | FurniRevive",
   },

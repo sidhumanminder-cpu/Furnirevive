@@ -7,12 +7,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 // ---------------------------------------------------------------------------
 export const sofaRepairDwarkaExpresswayGurgaon: SeoPageData = {
   slug: "sofa-repair-dwarka-expressway-gurgaon",
-  title: "Sofa Repair Dwarka Expressway Gurgaon | Near Me ₹999 | Same-Day Doorstep",
+  title: "Sofa Repair Dwarka Expressway Gurgaon | Near Me ₹500",
   metaDescription:
-    "Sofa repair near me on Dwarka Expressway Gurgaon from ₹999. Foam, spring & recliner repair doorstep — Sectors 76–113, Conscient, Sobha, Adani. Same-day. 6-month warranty. Book!",
+    "Sofa repair near me on Dwarka Expressway Gurgaon from ₹500. Foam, spring & recliner repair doorstep — Sectors 76–113, Conscient, Sobha, Adani. Same-day.",
   h1: "Sofa Repair on Dwarka Expressway Gurgaon — Doorstep Service for All Societies",
   heroSubtitle:
-    "Professional sofa repair across Dwarka Expressway Gurgaon — Sector 76 to 113, Pataudi Road societies, Conscient Heritage One, Sobha International City, Adani Samsara, and all high-rise townships. Foam replacement, reupholstery, spring repair, and recliner fixing. Starting ₹999 with 6-month warranty.",
+    "Professional sofa repair across Dwarka Expressway Gurgaon — Sector 76 to 113, Pataudi Road societies, Conscient Heritage One, Sobha International City, Adani Samsara, and all high-rise townships. Foam replacement, reupholstery, spring repair, and recliner fixing. Starting ₹500 with 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Dwarka Expressway Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -20,7 +20,7 @@ export const sofaRepairDwarkaExpresswayGurgaon: SeoPageData = {
     caption: "Sofa Repair on Dwarka Expressway Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Sofa repair on Dwarka Expressway Gurgaon costs ₹999–₹4,500. Foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹3,000 per seat. FurniRevive provides same-day doorstep service across all Dwarka Expressway societies from Sector 76 to 113. 6-month written warranty included.",
+    "Sofa repair on Dwarka Expressway Gurgaon costs ₹999–₹4,500. Foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹2,000 per seat. FurniRevive provides same-day doorstep service across all Dwarka Expressway societies from Sector 76 to 113. 6-month written warranty included.",
   priceTable: {
     heading: "Sofa Repair Price Guide — Dwarka Expressway Gurgaon",
     rows: [
@@ -45,7 +45,7 @@ export const sofaRepairDwarkaExpresswayGurgaon: SeoPageData = {
   intro: [
     "The Dwarka Expressway corridor has transformed into one of Gurgaon's fastest-growing residential belts — towering high-rise societies from Sector 76 all the way to Sector 113 and beyond to Pataudi Road. Thousands of families have moved into apartments at Conscient Heritage One, Sobha International City, Adani Samsara, Hero Homes, Tata Primanti, and dozens of other group-housing projects. These modern apartments feature premium sofa sets that, after three to five years of daily use, inevitably develop sagging cushions, torn upholstery, weakened springs, and creaking frames.",
     "FurniRevive's sofa repair technicians serve every society along the Dwarka Expressway corridor. We specialise exclusively in sofa and upholstered seating — leather sofas, fabric sectionals, L-shaped sets, motorised recliners, and sofa-cum-beds. Our team arrives at your apartment with 32D and 40D high-resilience foam, 500+ upholstery fabric swatches, spring replacement kits, and leather conditioning materials. Most repairs are completed in 2–3 hours without moving the sofa from your living room.",
-    "Starting at just ₹999 with every repair backed by a 6-month written warranty, professional sofa repair saves Dwarka Expressway families 60–70% compared to buying new. Call +91 92179 99355 or WhatsApp photos for an instant estimate.",
+    "Starting at just ₹500 with every repair backed by a 6-month written warranty, professional sofa repair saves Dwarka Expressway families 60–70% compared to buying new. Call +91 92179 99355 or WhatsApp photos for an instant estimate.",
   ],
   whyChoose: [
     {
@@ -104,13 +104,13 @@ export const sofaRepairDwarkaExpresswayGurgaon: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across all Dwarka Expressway societies",
     "Cushion foam replacement — 32D and 40D high-resilience options",
-    "Full sofa reupholstery from ₹3,000/seat — 500+ fabric choices",
+    "Full sofa reupholstery from ₹2,000/seat — 500+ fabric choices",
     "Sofa spring and zigzag wire repair from ₹1,500",
     "Recliner mechanism repair — manual and motorised",
     "L-shaped and sectional sofa repair in your apartment",
     "Leather sofa conditioning, crack-filling, and colour restoration",
     "Sofa frame joint reinforcement with industrial adhesive",
-    "Save 60–70% vs buying new — repairs from ₹999",
+    "Save 60–70% vs buying new — repairs from ₹500",
     "Same-day service for morning bookings",
     "6-month written warranty on all repairs",
   ],
@@ -148,7 +148,7 @@ export const sofaRepairDwarkaExpresswayGurgaon: SeoPageData = {
     {
       question: "What does sofa repair cost on Dwarka Expressway Gurgaon?",
       answer:
-        "Sofa repair on Dwarka Expressway starts at ₹999. Foam replacement: ₹999–₹2,500 per seat. Spring repair: ₹1,500–₹4,000. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection provides the exact price.",
+        "Sofa repair on Dwarka Expressway starts at ₹500. Foam replacement: ₹999–₹2,500 per seat. Spring repair: ₹1,500–₹4,000. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection provides the exact price.",
     },
     {
       question: "Do you serve all societies on Dwarka Expressway?",
@@ -189,12 +189,12 @@ export const sofaRepairDwarkaExpresswayGurgaon: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairGolfCourseRoadGurgaon: SeoPageData = {
   slug: "sofa-repair-golf-course-road-gurgaon",
-  title: "Sofa Repair Golf Course Road Gurgaon | Near Me ₹999 | Premium Same-Day Service",
+  title: "Sofa Repair Golf Course Road Gurgaon | Near Me ₹500",
   metaDescription:
-    "Sofa repair near me on Golf Course Road Gurgaon from ₹999. Leather, foam & recliner repair doorstep — DLF Phase 5, South City, Nirvana Country. Same-day. 6-month warranty. Book!",
+    "Sofa repair near me on Golf Course Road Gurgaon from ₹500. Leather, foam & recliner repair doorstep — DLF Phase 5, South City, Nirvana Country. Same-day.",
   h1: "Sofa Repair Near Me on Golf Course Road Gurgaon — Premium Doorstep Service",
   heroSubtitle:
-    "Expert sofa repair across Golf Course Road, Golf Course Extension, DLF Phase 5, South City 1 & 2, Nirvana Country, Sector 54–57, and Sushant Lok. Leather restoration, fabric reupholstery, foam replacement, and recliner mechanism repair. Starting ₹999 with 6-month warranty.",
+    "Expert sofa repair across Golf Course Road, Golf Course Extension, DLF Phase 5, South City 1 & 2, Nirvana Country, Sector 54–57, and Sushant Lok. Leather restoration, fabric reupholstery, foam replacement, and recliner mechanism repair. Starting ₹500 with 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Golf Course Road Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -202,7 +202,7 @@ export const sofaRepairGolfCourseRoadGurgaon: SeoPageData = {
     caption: "Sofa Repair on Golf Course Road Gurgaon | Premium leather & fabric sofa service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Sofa repair on Golf Course Road Gurgaon costs ₹999–₹4,500. Leather sofa restoration starts at ₹1,500, foam replacement at ₹999 per seat, and full reupholstery from ₹3,000 per seat. FurniRevive provides same-day doorstep service to Golf Course Road, DLF Phase 5, South City, and Nirvana Country. 6-month warranty on all repairs.",
+    "Sofa repair on Golf Course Road Gurgaon costs ₹999–₹4,500. Leather sofa restoration starts at ₹1,500, foam replacement at ₹999 per seat, and full reupholstery from ₹2,000 per seat. FurniRevive provides same-day doorstep service to Golf Course Road, DLF Phase 5, South City, and Nirvana Country. 6-month warranty on all repairs.",
   priceTable: {
     heading: "Sofa Repair Price Guide — Golf Course Road Gurgaon",
     rows: [
@@ -227,7 +227,7 @@ export const sofaRepairGolfCourseRoadGurgaon: SeoPageData = {
   intro: [
     "Golf Course Road is Gurgaon's most prestigious residential address — home to DLF Aralias, Magnolias, The Camellias, Central Park, and dozens of ultra-premium residential towers. The homes here feature some of the finest sofas in the NCR — imported Italian leather sets, designer sectionals, high-end recliners, and custom-built modular sofas. When these premium sofas need <a href=\"/furniture-repair-dlf-gurgaon\">furniture repair in DLF Gurgaon</a>, they deserve specialist handling — not a general carpenter with a hammer.",
     "FurniRevive's sofa repair technicians bring premium-grade tools and materials to your Golf Course Road residence. We handle genuine <a href=\"/leather-sofa-repair-dlf-gurgaon\">leather sofa repair in DLF Gurgaon</a>, Alcantara and suede conditioning, premium fabric reupholstery, high-density foam replacement, and <a href=\"/recliner-repair-dlf-gurgaon\">motorised recliner service</a> and mechanism repair. Our team serves every address along Golf Course Road, Golf Course Extension, DLF Phase 5, South City, Nirvana Country, and the Sectors 54–57 corridor.",
-    "Premium repair does not mean premium pricing. Sofa repairs on Golf Course Road start at ₹999 — saving 60–70% compared to replacement — and every job carries a 6-month written warranty. Call +91 92179 99355 or WhatsApp photos for an estimate.",
+    "Premium repair does not mean premium pricing. Sofa repairs on Golf Course Road start at ₹500 — saving 60–70% compared to replacement — and every job carries a 6-month written warranty. Call +91 92179 99355 or WhatsApp photos for an estimate.",
   ],
   whyChoose: [
     {
@@ -286,7 +286,7 @@ export const sofaRepairGolfCourseRoadGurgaon: SeoPageData = {
   benefits: [
     "Premium doorstep sofa repair across Golf Course Road and surrounding areas",
     "Genuine leather restoration — crack-filling, re-dyeing, conditioning",
-    "Full sofa reupholstery from ₹3,000/seat — 500+ premium fabric options",
+    "Full sofa reupholstery from ₹2,000/seat — 500+ premium fabric options",
     "40D high-density foam replacement for lasting comfort",
     "Motorised and manual recliner mechanism repair",
     "L-shaped and modular sectional sofa repair in-place",
@@ -322,7 +322,7 @@ export const sofaRepairGolfCourseRoadGurgaon: SeoPageData = {
       heading: "Sofa Repair Near Me on Golf Course Road — Same-Day Premium Service",
       body: [
         "Looking for sofa repair near me on Golf Course Road Gurgaon? FurniRevive's premium technicians serve DLF Phase 5, DLF Aralias, Magnolias, Camellias, Central Park, South City, Nirvana Country, Sushant Lok, and all Sectors 54–57 addresses with same-day availability. Our sofa repair near me at home service handles imported leather sets, designer sectionals, and motorised recliners without moving them from your living room.",
-        "Sofa repair near me cost on Golf Course Road starts at ₹999 — no premium-area surcharge. Free doorstep inspection and detailed written quote. Trusted by Golf Course Road residents for leather restoration, foam upgrade, and recliner repair. Book at furnirevive.com or WhatsApp +91 92179 99355.",
+        "Sofa repair near me cost on Golf Course Road starts at ₹500 — no premium-area surcharge. Free doorstep inspection and detailed written quote. Trusted by Golf Course Road residents for leather restoration, foam upgrade, and recliner repair. Book at furnirevive.com or WhatsApp +91 92179 99355.",
       ],
     },
   ],
@@ -335,7 +335,7 @@ export const sofaRepairGolfCourseRoadGurgaon: SeoPageData = {
     {
       question: "What does sofa repair cost on Golf Course Road Gurgaon?",
       answer:
-        "Sofa repair starts at ₹999. Leather restoration: ₹1,500–₹8,000. Foam replacement: ₹999–₹2,500 per seat. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection for exact pricing.",
+        "Sofa repair starts at ₹500. Leather restoration: ₹1,500–₹8,000. Foam replacement: ₹999–₹2,500 per seat. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection for exact pricing.",
     },
     {
       question: "Can you fix motorised recliner sofas in DLF Phase 5?",
@@ -371,12 +371,12 @@ export const sofaRepairGolfCourseRoadGurgaon: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairNoidaSector18: SeoPageData = {
   slug: "sofa-repair-noida-sector-18",
-  title: "Sofa Repair Near Me Noida Sector 18 | ₹999 Same-Day Home Service | FurniRevive",
+  title: "Sofa Repair Near Me Noida Sector 18 | FurniRevive",
   metaDescription:
-    "Sofa repair near me in Noida Sector 18 from ₹999. Doorstep foam, spring & recliner repair near DLF Mall & Atta Market. Same-day home service. 6-month warranty. Call now!",
+    "Sofa repair near me in Noida Sector 18 from ₹500. Doorstep foam, spring & recliner repair near DLF Mall & Atta Market. Same-day home service.",
   h1: "Sofa Repair in Noida Sector 18 — Near DLF Mall & Atta Market",
   heroSubtitle:
-    "Professional sofa repair at your doorstep in Noida Sector 18 and surrounding sectors 15–25. Serving residences near DLF Mall of India, Atta Market, Great India Place, and Botanical Garden metro. Foam replacement, reupholstery, spring repair, and recliner fixing. Starting ₹999 with 6-month warranty.",
+    "Professional sofa repair at your doorstep in Noida Sector 18 and surrounding sectors 15–25. Serving residences near DLF Mall of India, Atta Market, Great India Place, and Botanical Garden metro. Foam replacement, reupholstery, spring repair, and recliner fixing. Starting ₹500 with 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Sector 18 Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -384,7 +384,7 @@ export const sofaRepairNoidaSector18: SeoPageData = {
     caption: "Sofa Repair in Noida Sector 18 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Sofa repair in Noida Sector 18 costs ₹999–₹4,500. Cushion foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹3,000 per seat. FurniRevive offers same-day doorstep service across Sector 18 and nearby sectors including 15, 16, 17, 19, 20, and 25. 6-month warranty included.",
+    "Sofa repair in Noida Sector 18 costs ₹999–₹4,500. Cushion foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹2,000 per seat. FurniRevive offers same-day doorstep service across Sector 18 and nearby sectors including 15, 16, 17, 19, 20, and 25. 6-month warranty included.",
   priceTable: {
     heading: "Sofa Repair Price Guide — Noida Sector 18",
     rows: [
@@ -409,7 +409,7 @@ export const sofaRepairNoidaSector18: SeoPageData = {
   intro: [
     "Noida Sector 18 is the commercial and residential heart of Noida — a bustling hub anchored by DLF Mall of India, Atta Market, Great India Place, and the Botanical Garden metro station. The residential areas in and around Sector 18, including Sectors 15, 16, 17, 19, 20, and 25, house a dense mix of apartment complexes, builder floors, and DDA flats. The sofas in these homes endure heavy daily use, and after three to five years, they inevitably show signs of wear: sagging cushions, torn fabric, broken springs, and weakened frames.",
     "FurniRevive's sofa repair technicians serve every residential pocket in and around Sector 18. We specialise in sofa and upholstered seating — fabric sofas, leather sets, L-shaped sectionals, recliners, and sofa-cum-beds. Our team carries 32D and 40D foam, 500+ fabric swatches, spring kits, and leather conditioning materials to complete most repairs in a single 2–3 hour doorstep visit.",
-    "Sofa repair in Sector 18 starts at ₹999, saving 60–70% compared to buying new. Every repair carries a 6-month written warranty. Call +91 92179 99355 or WhatsApp photos for a quick estimate.",
+    "Sofa repair in Sector 18 starts at ₹500, saving 60–70% compared to buying new. Every repair carries a 6-month written warranty. Call +91 92179 99355 or WhatsApp photos for a quick estimate.",
   ],
   whyChoose: [
     {
@@ -468,13 +468,13 @@ export const sofaRepairNoidaSector18: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across Sector 18 and surrounding Noida sectors",
     "Cushion foam replacement — 32D and 40D high-resilience options",
-    "Full sofa reupholstery from ₹3,000/seat — 500+ fabric choices",
+    "Full sofa reupholstery from ₹2,000/seat — 500+ fabric choices",
     "Sofa spring and zigzag wire repair from ₹1,500",
     "Recliner mechanism repair — manual and motorised",
     "L-shaped and sectional sofa repair in-place",
     "Leather sofa conditioning, crack-filling, and colour restoration",
     "Frame joint reinforcement with industrial adhesive",
-    "Save 60–70% vs buying new — repairs from ₹999",
+    "Save 60–70% vs buying new — repairs from ₹500",
     "Same-day service for morning bookings",
     "6-month written warranty on all repairs",
   ],
@@ -504,7 +504,7 @@ export const sofaRepairNoidaSector18: SeoPageData = {
       heading: "Sofa Repair Near Me in Noida Sector 18 (Same-Day Home Service)",
       body: [
         "Looking for sofa repair near me in Noida Sector 18? FurniRevive brings a skilled technician directly to your door — whether you live near DLF Mall of India, Atta Market, or in the surrounding sectors 15–25. Our sofa repair near me at home service covers every residential pocket in the Sector 18 area with same-day slots available for morning bookings.",
-        "Sofa repair near me cost in Sector 18 starts at ₹999 for standard repairs. You get a free doorstep inspection and a written quote before any work begins. Looking for the best sofa repair near me near DLF Mall or Botanical Garden Metro? Our technicians reach Sector 18 addresses within 60–90 minutes. Trusted, fast, and backed by a 6-month warranty. Book online or WhatsApp +91 92179 99355. Also see: <a href='/sofa-repair-noida'>sofa repair Noida</a> | <a href='/furniture-repair-noida-sector-18'>furniture repair Noida Sector 18</a>.",
+        "Sofa repair near me cost in Sector 18 starts at ₹500 for standard repairs. You get a free doorstep inspection and a written quote before any work begins. Looking for the best sofa repair near me near DLF Mall or Botanical Garden Metro? Our technicians reach Sector 18 addresses within 60–90 minutes. Trusted, fast, and backed by a 6-month warranty. Book online or WhatsApp +91 92179 99355. Also see: <a href='/sofa-repair-noida'>sofa repair Noida</a> | <a href='/furniture-repair-noida-sector-18'>furniture repair Noida Sector 18</a>.",
       ],
     },
   ],
@@ -512,7 +512,7 @@ export const sofaRepairNoidaSector18: SeoPageData = {
     {
       question: "What does sofa repair cost in Noida Sector 18?",
       answer:
-        "Sofa repair in Sector 18 starts at ₹999. Foam: ₹999–₹2,500 per seat. Springs: ₹1,500–₹4,000. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection provides the exact price.",
+        "Sofa repair in Sector 18 starts at ₹500. Foam: ₹999–₹2,500 per seat. Springs: ₹1,500–₹4,000. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection provides the exact price.",
     },
     {
       question: "How quickly can you reach Sector 18 Noida?",
@@ -530,7 +530,7 @@ export const sofaRepairNoidaSector18: SeoPageData = {
     },
     {
       question: "What is the sofa repair near me cost near DLF Mall Sector 18?",
-      answer: "Sofa repair near me cost in Noida Sector 18 starts at ₹999. Foam replacement is ₹999–₹2,500 per seat, spring repair ₹1,500–₹4,000, and full reupholstery ₹3,000–₹15,000 per seat. A free doorstep inspection confirms your exact price before work begins — no hidden charges.",
+      answer: "Sofa repair near me cost in Noida Sector 18 starts at ₹500. Foam replacement is ₹999–₹2,500 per seat, spring repair ₹1,500–₹4,000, and full reupholstery ₹3,000–₹15,000 per seat. A free doorstep inspection confirms your exact price before work begins — no hidden charges.",
     },
   ],
   relatedPages: buildRelatedPages("sofa-repair-noida-sector-18", [
@@ -561,12 +561,12 @@ export const sofaRepairNoidaSector18: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairNoidaSector150: SeoPageData = {
   slug: "sofa-repair-noida-sector-150",
-  title: "Sofa Repair Near Me Noida Sector 150 | ₹999 Same-Day Home Service | FurniRevive",
+  title: "Sofa Repair Near Me Noida Sector 150 | FurniRevive",
   metaDescription:
-    "Sofa repair near me in Noida Sector 150 from ₹999. Doorstep service at Ace Divino, Mahagun Mywoods & CRC Sublimis. Same-day home repair. 6-month warranty. Call now!",
+    "Sofa repair near me in Noida Sector 150 from ₹500. Doorstep service at Ace Divino, Mahagun Mywoods & CRC Sublimis. Same-day home repair. 6-month warranty.",
   h1: "Sofa Repair in Noida Sector 150 — Ace Divino, Mahagun Mywoods & All Societies",
   heroSubtitle:
-    "Doorstep sofa repair across Noida Sector 150 — Ace Divino, Mahagun Mywoods, CRC Sublimis, Ajnara Le Garden, and all societies along the Noida Expressway. Foam replacement, reupholstery, spring repair, and recliner fixing. Starting ₹999 with 6-month warranty.",
+    "Doorstep sofa repair across Noida Sector 150 — Ace Divino, Mahagun Mywoods, CRC Sublimis, Ajnara Le Garden, and all societies along the Noida Expressway. Foam replacement, reupholstery, spring repair, and recliner fixing. Starting ₹500 with 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Sector 150 Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -574,7 +574,7 @@ export const sofaRepairNoidaSector150: SeoPageData = {
     caption: "Sofa Repair in Noida Sector 150 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Sofa repair in Noida Sector 150 costs ₹999–₹4,500. Foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹3,000 per seat. FurniRevive provides same-day doorstep service to all Sector 150 societies including Ace Divino, Mahagun Mywoods, and CRC Sublimis. 6-month written warranty included.",
+    "Sofa repair in Noida Sector 150 costs ₹999–₹4,500. Foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹2,000 per seat. FurniRevive provides same-day doorstep service to all Sector 150 societies including Ace Divino, Mahagun Mywoods, and CRC Sublimis. 6-month written warranty included.",
   priceTable: {
     heading: "Sofa Repair Price Guide — Noida Sector 150",
     rows: [
@@ -599,7 +599,7 @@ export const sofaRepairNoidaSector150: SeoPageData = {
   intro: [
     "Noida Sector 150 has emerged as one of the Noida Expressway's most popular residential corridors — home to large group-housing societies like Ace Divino, Mahagun Mywoods, CRC Sublimis, Ajnara Le Garden, Sethi Max Royal, and Supertech Supernova. Young families who moved into these apartments 3–5 years ago are now discovering that their sofas need attention: cushions have sagged, upholstery is worn at the edges, and springs have lost their tension.",
     "FurniRevive's sofa repair technicians serve every society in Sector 150 and neighbouring sectors along the Noida Expressway. We specialise in sofa and upholstered seating — handling fabric sofas, <a href=\"/leather-sofa-repair-noida-expressway\">leatherette sets</a>, L-shaped sectionals, and <a href=\"/recliner-repair-noida-expressway\">recliner mechanisms</a>. Our team carries 32D and 40D foam, 500+ fabric swatches, and spring kits to complete most repairs in a single 2–3 hour visit at your apartment.",
-    "With prices starting at ₹999 and full restoration saving 60–70% versus buying new, Sector 150 families get restored sofas at a fraction of the replacement cost. Every repair carries a 6-month warranty. Call +91 92179 99355 or WhatsApp photos for an estimate.",
+    "With prices starting at ₹500 and full restoration saving 60–70% versus buying new, Sector 150 families get restored sofas at a fraction of the replacement cost. Every repair carries a 6-month warranty. Call +91 92179 99355 or WhatsApp photos for an estimate.",
   ],
   whyChoose: [
     {
@@ -610,7 +610,7 @@ export const sofaRepairNoidaSector150: SeoPageData = {
     {
       title: "Young Family-Friendly Pricing",
       description:
-        "Sector 150 is home to many young families on budgets. Our repairs start at ₹999 and save 60–70% vs buying new — helping families maintain quality furniture affordably.",
+        "Sector 150 is home to many young families on budgets. Our repairs start at ₹500 and save 60–70% vs buying new — helping families maintain quality furniture affordably.",
     },
     {
       title: "High-Rise Apartment Expertise",
@@ -658,7 +658,7 @@ export const sofaRepairNoidaSector150: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across all Sector 150 societies",
     "Cushion foam replacement — 32D and 40D options",
-    "Full reupholstery from ₹3,000/seat — 500+ fabric choices",
+    "Full reupholstery from ₹2,000/seat — 500+ fabric choices",
     "Sofa spring and zigzag wire repair from ₹1,500",
     "Recliner mechanism repair — manual and motorised",
     "L-shaped and sectional sofa repair in your apartment",
@@ -694,7 +694,7 @@ export const sofaRepairNoidaSector150: SeoPageData = {
       heading: "Sofa Repair Near Me in Noida Sector 150 (Same-Day Home Service)",
       body: [
         "Searching for sofa repair near me in Noida Sector 150? FurniRevive sends a certified technician directly to your apartment — no workshop trips, no logistics. Our sofa repair near me at home service covers every society in Sector 150, including Ace Divino, Mahagun Mywoods, CRC Sublimis, Ajnara Le Garden, and Sethi Max Royal. Same-day slots are available for bookings placed before noon.",
-        "Sofa repair near me cost in Sector 150 starts at ₹999 — you get a free doorstep inspection and a written quote before any work begins. Looking for the best sofa repair near me along the Noida Expressway? FurniRevive is trusted by hundreds of families across Sector 150 societies. Fast, affordable, and backed by a 6-month warranty. Book online or WhatsApp +91 92179 99355. Also see: <a href='/sofa-repair-noida'>sofa repair Noida</a> | <a href='/furniture-repair-noida-sector-150'>furniture repair Noida Sector 150</a>.",
+        "Sofa repair near me cost in Sector 150 starts at ₹500 — you get a free doorstep inspection and a written quote before any work begins. Looking for the best sofa repair near me along the Noida Expressway? FurniRevive is trusted by hundreds of families across Sector 150 societies. Fast, affordable, and backed by a 6-month warranty. Book online or WhatsApp +91 92179 99355. Also see: <a href='/sofa-repair-noida'>sofa repair Noida</a> | <a href='/furniture-repair-noida-sector-150'>furniture repair Noida Sector 150</a>.",
       ],
     },
   ],
@@ -702,7 +702,7 @@ export const sofaRepairNoidaSector150: SeoPageData = {
     {
       question: "What does sofa repair cost in Noida Sector 150?",
       answer:
-        "Starts at ₹999. Foam: ₹999–₹2,500 per seat. Springs: ₹1,500–₹4,000. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection for the exact price.",
+        "Starts at ₹500. Foam: ₹999–₹2,500 per seat. Springs: ₹1,500–₹4,000. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection for the exact price.",
     },
     {
       question: "Do you serve Ace Divino and Mahagun Mywoods?",
@@ -720,7 +720,7 @@ export const sofaRepairNoidaSector150: SeoPageData = {
     },
     {
       question: "What is the sofa repair near me cost in Noida Sector 150?",
-      answer: "Sofa repair near me cost in Sector 150 starts at ₹999. Foam replacement: ₹999–₹2,500 per seat. Spring repair: ₹1,500–₹4,000. Full reupholstery: ₹3,000–₹15,000 per seat. A free doorstep inspection confirms your exact price with no hidden charges.",
+      answer: "Sofa repair near me cost in Sector 150 starts at ₹500. Foam replacement: ₹999–₹2,500 per seat. Spring repair: ₹1,500–₹4,000. Full reupholstery: ₹3,000–₹15,000 per seat. A free doorstep inspection confirms your exact price with no hidden charges.",
     },
   ],
   relatedPages: buildRelatedPages("sofa-repair-noida-sector-150", [
@@ -751,12 +751,12 @@ export const sofaRepairNoidaSector150: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairCrossingRepublikGhaziabad: SeoPageData = {
   slug: "sofa-repair-crossing-republik-ghaziabad",
-  title: "Sofa Repair Near Me in Crossing Republik Ghaziabad | ₹999 Home Service",
+  title: "Sofa Repair Near Me in Crossing Republik Ghaziabad",
   metaDescription:
-    "Sofa repair near me in Crossing Republik Ghaziabad from ₹999. Foam, recliner & cover change near me at doorstep — all GH towers & Raj Nagar Extension. Same-day service. 6-month warranty.",
+    "Sofa repair near me in Crossing Republik Ghaziabad from ₹500. Foam, recliner & cover change near me at doorstep — all GH towers & Raj Nagar Extension.",
   h1: "Sofa Repair Near Me in Crossing Republik & Raj Nagar Extension Ghaziabad",
   heroSubtitle:
-    "Professional sofa repair across Crossing Republik township — GH-02 to GH-07, all residential towers, and surrounding Raj Nagar Extension. Foam replacement, reupholstery, spring repair, and recliner fixing at your doorstep. Starting ₹999 with 6-month warranty.",
+    "Professional sofa repair across Crossing Republik township — GH-02 to GH-07, all residential towers, and surrounding Raj Nagar Extension. Foam replacement, reupholstery, spring repair, and recliner fixing at your doorstep. Starting ₹500 with 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Crossing Republik Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -764,7 +764,7 @@ export const sofaRepairCrossingRepublikGhaziabad: SeoPageData = {
     caption: "Sofa Repair in Crossing Republik Ghaziabad | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Sofa repair in Crossing Republik Ghaziabad costs ₹999–₹4,500. Foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and reupholstery from ₹3,000 per seat. FurniRevive provides same-day doorstep service to all GH towers in Crossing Republik and adjacent Raj Nagar Extension. 6-month written warranty on every repair.",
+    "Sofa repair in Crossing Republik Ghaziabad costs ₹999–₹4,500. Foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and reupholstery from ₹2,000 per seat. FurniRevive provides same-day doorstep service to all GH towers in Crossing Republik and adjacent Raj Nagar Extension. 6-month written warranty on every repair.",
   priceTable: {
     heading: "Sofa Repair Price Guide — Crossing Republik Ghaziabad",
     rows: [
@@ -789,7 +789,7 @@ export const sofaRepairCrossingRepublikGhaziabad: SeoPageData = {
   intro: [
     "Crossing Republik is Ghaziabad's largest integrated township — a self-contained city with residential towers from GH-02 through GH-07, each home to thousands of families. Developed along the NH-24 corridor near the Ghaziabad-Noida border, this township was built in phases starting over a decade ago. Many families who moved in during the early phases now have sofas that are 5–8 years old with significant wear: compressed foam, torn upholstery, broken springs, and creaking frames.",
     "FurniRevive's sofa repair technicians serve every tower and block within Crossing Republik and the adjoining Raj Nagar Extension. We specialise in sofa and upholstered seating — fabric sofas, leatherette sets, L-shaped sectionals, and recliner mechanisms. Our team arrives at your apartment with all materials needed for a single-visit repair: 32D and 40D foam, 500+ fabric swatches, spring kits, and industrial adhesive.",
-    "Starting at ₹999 with a 6-month written warranty, professional sofa repair saves Crossing Republik families 60–70% compared to replacement. Call +91 92179 99355 or WhatsApp photos for a quick estimate.",
+    "Starting at ₹500 with a 6-month written warranty, professional sofa repair saves Crossing Republik families 60–70% compared to replacement. Call +91 92179 99355 or WhatsApp photos for a quick estimate.",
   ],
   whyChoose: [
     {
@@ -805,7 +805,7 @@ export const sofaRepairCrossingRepublikGhaziabad: SeoPageData = {
     {
       title: "Budget-Conscious Repairs",
       description:
-        "Many Crossing Republik families are first-time homeowners on budgets. Repairs from ₹999 help maintain quality sofas affordably instead of expensive replacement.",
+        "Many Crossing Republik families are first-time homeowners on budgets. Repairs from ₹500 help maintain quality sofas affordably instead of expensive replacement.",
     },
     {
       title: "Same-Day Ghaziabad Service",
@@ -848,7 +848,7 @@ export const sofaRepairCrossingRepublikGhaziabad: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across all Crossing Republik towers",
     "Cushion foam replacement — 32D and 40D options",
-    "Full reupholstery from ₹3,000/seat — 500+ fabrics",
+    "Full reupholstery from ₹2,000/seat — 500+ fabrics",
     "Sofa spring and zigzag wire repair from ₹1,500",
     "Recliner mechanism repair — manual and motorised",
     "L-shaped and sectional sofa repair in your apartment",
@@ -892,7 +892,7 @@ export const sofaRepairCrossingRepublikGhaziabad: SeoPageData = {
     {
       question: "What does sofa repair cost in Crossing Republik?",
       answer:
-        "Starts at ₹999. Foam: ₹999–₹2,500 per seat. Springs: ₹1,500–₹4,000. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection for the exact price.",
+        "Starts at ₹500. Foam: ₹999–₹2,500 per seat. Springs: ₹1,500–₹4,000. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection for the exact price.",
     },
     {
       question: "Do you cover all GH towers in Crossing Republik?",
@@ -936,12 +936,12 @@ export const sofaRepairCrossingRepublikGhaziabad: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairNitFaridabad: SeoPageData = {
   slug: "sofa-repair-nit-faridabad",
-  title: "Sofa Repair NIT Faridabad | ₹999 Near Me Home Service | FurniRevive",
+  title: "Sofa Repair NIT Faridabad | FurniRevive",
   metaDescription:
-    "Sofa repair near me in NIT Faridabad from ₹999. Foam filling, fabric change, recliner & spring repair at your doorstep — Sectors 1–31, Greenfield Colony & BPTP. 6-month warranty.",
+    "Sofa repair near me in NIT Faridabad from ₹500. Foam filling, fabric change, recliner & spring repair at your doorstep — Sectors 1–31.",
   h1: "Sofa Repair Near Me in NIT Faridabad — Sectors 1–31 & Greenfield Colony",
   heroSubtitle:
-    "Doorstep sofa repair across NIT Faridabad — Sector 1 to 31, Crown Interiorz Mall area, Greenfield Colony, BPTP, and surrounding areas. Foam replacement, reupholstery, spring repair, and recliner fixing. Starting ₹999 with 6-month warranty.",
+    "Doorstep sofa repair across NIT Faridabad — Sector 1 to 31, Crown Interiorz Mall area, Greenfield Colony, BPTP, and surrounding areas. Foam replacement, reupholstery, spring repair, and recliner fixing. Starting ₹500 with 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your NIT Faridabad Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -949,7 +949,7 @@ export const sofaRepairNitFaridabad: SeoPageData = {
     caption: "Sofa Repair in NIT Faridabad | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Sofa repair in NIT Faridabad costs ₹999–₹4,500. Foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹3,000 per seat. FurniRevive provides same-day doorstep service across NIT Sectors 1–31, Greenfield Colony, and BPTP. 6-month written warranty on all repairs.",
+    "Sofa repair in NIT Faridabad costs ₹999–₹4,500. Foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹2,000 per seat. FurniRevive provides same-day doorstep service across NIT Sectors 1–31, Greenfield Colony, and BPTP. 6-month written warranty on all repairs.",
   priceTable: {
     heading: "Sofa Repair Price Guide — NIT Faridabad",
     rows: [
@@ -974,7 +974,7 @@ export const sofaRepairNitFaridabad: SeoPageData = {
   intro: [
     "NIT Faridabad (New Industrial Township) is one of Faridabad's most established residential areas — a well-planned township spanning Sectors 1 through 31 with a mix of DDA flats, HUDA houses, independent floors, and newer group-housing societies near Crown Interiorz Mall and Greenfield Colony. Families who have lived here for years have sofas that have served well but now show their age: flattened cushions, torn fabric at armrests, broken springs, and weakened frame joints.",
     "FurniRevive's sofa repair technicians serve every sector within NIT Faridabad and the surrounding residential belt. We focus exclusively on sofa and upholstered seating — fabric sofas, leatherette sets, L-shaped sectionals, recliner mechanisms, and sofa-cum-beds. Our team carries 32D and 40D foam, 500+ fabric swatches, spring kits, and leather conditioning materials for complete single-visit repairs.",
-    "Sofa repair in NIT Faridabad starts at just ₹999 — saving 60–70% compared to buying a new sofa set. Every repair carries a 6-month written warranty. Call +91 92179 99355 or WhatsApp photos for an instant estimate.",
+    "Sofa repair in NIT Faridabad starts at just ₹500 — saving 60–70% compared to buying a new sofa set. Every repair carries a 6-month written warranty. Call +91 92179 99355 or WhatsApp photos for an instant estimate.",
   ],
   whyChoose: [
     {
@@ -1033,13 +1033,13 @@ export const sofaRepairNitFaridabad: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across all NIT Faridabad sectors",
     "Cushion foam replacement — 32D and 40D options",
-    "Full reupholstery from ₹3,000/seat — 500+ fabric choices",
+    "Full reupholstery from ₹2,000/seat — 500+ fabric choices",
     "Sofa spring and zigzag wire repair from ₹1,500",
     "Recliner mechanism repair — manual and motorised",
     "L-shaped and sectional sofa repair in-place",
     "Leatherette and rexine sofa repair and conditioning",
     "Frame joint reinforcement with industrial adhesive",
-    "Save 60–70% vs buying new — from ₹999",
+    "Save 60–70% vs buying new — from ₹500",
     "Same-day service for morning bookings",
     "6-month written warranty on all repairs",
   ],
@@ -1077,7 +1077,7 @@ export const sofaRepairNitFaridabad: SeoPageData = {
     {
       question: "What does sofa repair cost in NIT Faridabad?",
       answer:
-        "Starts at ₹999. Foam: ₹999–₹2,500 per seat. Springs: ₹1,500–₹4,000. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection provides the exact price.",
+        "Starts at ₹500. Foam: ₹999–₹2,500 per seat. Springs: ₹1,500–₹4,000. Reupholstery: ₹3,000–₹15,000 per seat. Free doorstep inspection provides the exact price.",
     },
     {
       question: "Do you cover all NIT Faridabad sectors?",

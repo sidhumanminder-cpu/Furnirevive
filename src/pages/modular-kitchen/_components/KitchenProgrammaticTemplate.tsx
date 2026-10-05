@@ -51,6 +51,11 @@ const KitchenProgrammaticTemplate = ({ entry }: Props) => {
       title: entry.metaTitle,
       description: entry.metaDescription,
       canonical,
+      keywords: [
+        `${entry.layoutName.toLowerCase()} modular kitchen`,
+        `modular kitchen ${entry.localityName.toLowerCase()}`,
+        `modular kitchen ${entry.cityName.toLowerCase()}`,
+      ],
       ogTitle: entry.metaTitle,
       ogDescription: entry.metaDescription,
       ogUrl: canonical,

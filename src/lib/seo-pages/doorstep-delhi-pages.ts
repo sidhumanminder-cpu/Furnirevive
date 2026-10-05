@@ -7,9 +7,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 export const doorstepFurnitureRepairDelhi: SeoPageData = {
   slug: "doorstep-furniture-repair-delhi",
   title:
-    "Doorstep Furniture Repair Delhi | All Furniture Fixed at Home | FurniRevive",
+    "Doorstep Furniture Repair Delhi | FurniRevive",
   metaDescription:
-    "Doorstep furniture repair in Delhi — sofas, beds, tables, chairs, wardrobes repaired at your home. No transport needed. Starting ₹599. 6-month warranty. Free inspection. Call FurniRevive!",
+    "Doorstep furniture repair in Delhi — sofas, beds, tables, chairs, wardrobes repaired at your home. No transport needed. Starting ₹599. 6-month warranty.",
   h1: "Doorstep Furniture Repair in Delhi — Every Piece Fixed at Your Home",
   heroSubtitle:
     "Stop hauling furniture to workshops. FurniRevive's doorstep furniture repair brings professional carpenters, upholsterers, and hardware experts to your Delhi home. Every piece — sofas, beds, wardrobes, tables, chairs, cabinets — repaired right where it stands. Starting ₹599.",
@@ -179,9 +179,9 @@ export const doorstepFurnitureRepairDelhi: SeoPageData = {
 export const doorstepCarpenterServiceDelhi: SeoPageData = {
   slug: "doorstep-carpenter-service-delhi",
   title:
-    "Doorstep Carpenter Service Delhi | Carpenter at Your Home | FurniRevive",
+    "Doorstep Carpenter Service Delhi | FurniRevive",
   metaDescription:
-    "Doorstep carpenter service in Delhi — experienced carpenters at your home for furniture repair, assembly, fitting, and custom work. Starting ₹499. Same-day. 6-month warranty. FurniRevive.",
+    "Doorstep carpenter service in Delhi — experienced carpenters at your home for furniture repair, assembly, fitting, and custom work. Starting ₹499.",
   h1: "Doorstep Carpenter Service in Delhi — Expert Carpenter at Your Home",
   heroSubtitle:
     "Three out of four Delhi homeowners who hire a carpenter through a marketplace app report inflated bills, missed appointments, or shoddy finishing. FurniRevive eliminates that risk — background-verified carpenters arrive at your door with per-job quotes (not daily rates), complete every task in a single visit, and back the work with a 6-month warranty. Starting ₹499.",
@@ -376,9 +376,9 @@ export const doorstepCarpenterServiceDelhi: SeoPageData = {
 export const doorstepUpholsteryRepairDelhi: SeoPageData = {
   slug: "doorstep-upholstery-repair-delhi",
   title:
-    "Doorstep Upholstery Repair Delhi | Sofa, Chair, Bed Fabric Work at Home | FurniRevive",
+    "Doorstep Upholstery Repair Delhi | FurniRevive",
   metaDescription:
-    "Doorstep upholstery repair in Delhi — sofa re-upholstery, chair cover, cushion re-stuffing, bed headboard fabric work done at your home. 200+ fabrics. Starting ₹999. 6-month warranty.",
+    "Doorstep upholstery repair in Delhi — sofa re-upholstery, chair cover, cushion re-stuffing, bed headboard fabric work done at your home. 200+ fabrics.",
   h1: "Doorstep Upholstery Repair in Delhi — Fabric & Foam Work at Your Home",
   heroSubtitle:
     "Torn sofa fabric? Flat cushions? Faded chair covers? FurniRevive's doorstep upholstery repair brings 200+ fabric options, premium foams, and skilled upholsterers right to your Delhi home. Starting ₹999 with 6-month warranty.",
@@ -389,11 +389,11 @@ export const doorstepUpholsteryRepairDelhi: SeoPageData = {
     caption: "Doorstep Upholstery Repair in Delhi | Sofa re-upholstery & foam service at home | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides doorstep upholstery repair across Delhi — sofa re-upholstery from ₹3,000, cushion re-stuffing from ₹999, chair re-cover from ₹1,200. Upholsterers arrive with 200+ fabric swatches and multiple foam densities. Work completed at your home with 6-month warranty.",
+    "FurniRevive provides doorstep upholstery repair across Delhi — sofa re-upholstery from ₹2,000 per seat, cushion re-stuffing from ₹999, chair re-cover from ₹1,200. Upholsterers arrive with 200+ fabric swatches and multiple foam densities. Work completed at your home with 6-month warranty.",
   intro: [
     "Upholstery work was traditionally a workshop job — your sofa would disappear for a week while fabric was measured, cut, and stitched elsewhere. But transporting a heavy sofa through Delhi's narrow building corridors is impractical, and being without your main seating for days is inconvenient. FurniRevive's doorstep upholstery service changes this completely — our skilled upholsterers come to your home with fabric swatches, foam rolls, tools, and everything needed to transform your furniture in your living room.",
     "Doorstep upholstery offers a unique advantage: you select fabric in your room's natural lighting, see how colours interact with your walls and curtains, and make real-time decisions during the process. No more choosing fabric from small samples in a showroom only to discover it looks different at home. Our upholsterers carry 200+ fabric options from Kirti Nagar suppliers, including cotton, linen, velvet, chenille, leatherette, and genuine leather.",
-    "From sofa re-upholstery and cushion re-stuffing to dining chair re-covering and bed headboard fabric work, every upholstery repair is completed at your Delhi doorstep. Starting at ₹999 for cushion work, with same-day availability and a 6-month warranty on all fabric and foam installations.",
+    "From sofa re-upholstery and cushion re-stuffing to dining chair re-covering and bed headboard fabric work, every upholstery repair is completed at your Delhi doorstep. Starting at ₹500 for cushion work, with same-day availability and a 6-month warranty on all fabric and foam installations.",
   ],
   whyChoose: [
     {
@@ -424,7 +424,7 @@ export const doorstepUpholsteryRepairDelhi: SeoPageData = {
     {
       title: "Starting ₹999 — 6-Month Warranty",
       description:
-        "Cushion re-stuffing from ₹999. Full re-upholstery from ₹3,000. Every job backed by a 6-month warranty on fabric and foam.",
+        "Cushion re-stuffing from ₹999. Full re-upholstery from ₹2,000 per seat. Every job backed by a 6-month warranty on fabric and foam.",
     },
   ],
   process: [
@@ -459,7 +459,7 @@ export const doorstepUpholsteryRepairDelhi: SeoPageData = {
     "Fabric selected in your room's natural lighting",
     "No transit damage — furniture stays in place",
     "Real-time supervision and adjustments",
-    "Starting at ₹999 for cushion work",
+    "Starting at ₹500 for cushion work",
     "Same-day availability across Delhi",
     "6-month warranty on fabric and foam",
   ],

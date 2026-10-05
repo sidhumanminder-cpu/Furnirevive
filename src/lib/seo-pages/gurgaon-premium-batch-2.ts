@@ -5,9 +5,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const customFurnitureRepairGurgaon: SeoPageData = {
   slug: "custom-furniture-repair-gurgaon",
-  title: "Custom Furniture Repair in Gurgaon | Bespoke Sofa & Furniture Experts",
+  title: "Custom Furniture Repair in Gurgaon",
   metaDescription:
-    "Expert custom furniture repair in Gurgaon. Made-to-order sofa repair, bespoke furniture restoration & upholstery customization at your doorstep. DLF, Golf Course Road. 6-month warranty.",
+    "Expert custom furniture repair in Gurgaon. Made-to-order sofa repair, bespoke furniture restoration & upholstery customization at your doorstep.",
   h1: "Custom Furniture Repair in Gurgaon | Bespoke Furniture Restoration Services",
   heroSubtitle:
     "Made-to-order and bespoke furniture demands restoration that understands its unique construction and design intent. FurniRevive repairs and restores custom sofas, handcrafted furniture, customized upholstery, and made-to-order pieces across Gurgaon — entirely at your doorstep. DLF Phase 1–5, Golf Course Road, Sohna Road. From ₹999. 6-month warranty.",
@@ -239,9 +239,9 @@ const customFurnitureRepairGurgaon: SeoPageData = {
 
 const woodenFurnitureRestorationGurgaon: SeoPageData = {
   slug: "wooden-furniture-restoration-gurgaon",
-  title: "Wooden Furniture Restoration in Gurgaon | Repair & Polishing Specialists",
+  title: "Wooden Furniture Restoration in Gurgaon",
   metaDescription:
-    "Expert wooden furniture restoration in Gurgaon. Teak, sheesham, antique & veneer repair, polishing & scratch removal at your doorstep. DLF, Golf Course Road. 6-month warranty. FurniRevive.",
+    "Expert wooden furniture restoration in Gurgaon. Teak, sheesham, antique & veneer repair, polishing & scratch removal at your doorstep.",
   h1: "Wooden Furniture Restoration in Gurgaon | Expert Wood Repair & Refinishing",
   heroSubtitle:
     "Gurgaon's specialist for wooden furniture restoration. Teak, sheesham, antique furniture, veneer repair, wood polishing, scratch removal, and water damage repair — entirely at your doorstep. DLF Phase 1–5, Golf Course Road, Golf Course Extension Road, Sohna Road, and all sectors. From ₹999. 6-month warranty.",
@@ -480,7 +480,7 @@ const luxurySofaRestorationGurgaon: SeoPageData = {
   slug: "luxury-sofa-restoration-gurgaon",
   title: "Luxury Sofa Restoration in Gurgaon | Premium Sofa Repair Experts",
   metaDescription:
-    "Expert luxury sofa restoration in Gurgaon. Premium sofa repair, designer sofa restoration & imported leather sofa revival at your doorstep. DLF, Golf Course Road. 6-month warranty. FurniRevive.",
+    "Expert luxury sofa restoration in Gurgaon. Premium sofa repair, designer sofa restoration & imported leather sofa revival at your doorstep.",
   h1: "Luxury Sofa Restoration in Gurgaon | Premium Sofa Repair Specialists",
   heroSubtitle:
     "Your premium sofa deserves more than a generic repair service. FurniRevive's luxury sofa restoration specialists restore imported leather sofas, designer sectionals, premium upholstery, and luxury recliners to their original specification — entirely at your doorstep across DLF Phase 1–5, Golf Course Road, Golf Course Extension Road, and all Gurgaon luxury addresses. 6-month warranty.",

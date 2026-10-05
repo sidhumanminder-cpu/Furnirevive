@@ -6,9 +6,9 @@ const WHATSAPP_NUMBER = "919217999355";
 const furnitureRepairPanchsheelPark: SeoPageData = {
   slug: "furniture-repair-panchsheel-park",
   title:
-    "Furniture Repair Panchsheel Park – Premium Doorstep Service | FurniRevive",
+    "Furniture Repair Panchsheel Park – Premium Doorstep Service",
   metaDescription:
-    "Expert furniture repair in Panchsheel Park Delhi. Imported furniture, luxury wooden pieces, designer sofas & recliners. Home visit from ₹599. 6-month warranty. Call FurniRevive!",
+    "Expert furniture repair in Panchsheel Park Delhi. Imported furniture, luxury wooden pieces, designer sofas & recliners. Home visit from ₹599.",
   h1: "Furniture Repair in Panchsheel Park – Luxury Home Furniture Restoration at Your Door",
   heroSubtitle:
     "Premium repair for imported sofas, designer wooden furniture, antique pieces, and luxury recliners in Panchsheel Park. Free home visit. Same-day slots. 6-month warranty.",
@@ -162,7 +162,7 @@ const furnitureRepairPanchsheelPark: SeoPageData = {
       heading:
         "Pricing Transparency: What Furniture Repair Costs in Panchsheel Park",
       body: [
-        "Pricing for furniture repair in Panchsheel Park reflects the premium materials and specialist expertise required, while remaining substantially below replacement costs for quality furniture. Our <a href=\"/furniture-repair-price-list-delhi\">detailed price list</a> and <a href=\"/furniture-repair-price-guide-delhi\">repair price guide</a> provide pre-visit estimates across all furniture categories. As a general guide: sofa cushion foam replacement starts from ₹999 per cushion; full sofa reupholstery from ₹3,000 per seat for fabric and from ₹6,000 per seat for leather; wooden furniture polishing from ₹1,500 for a single chair; dining table refinishing from ₹4,000; wardrobe hinge replacement from ₹199 per hinge; and full antique restoration from ₹5,000 depending on complexity.",
+        "Pricing for furniture repair in Panchsheel Park reflects the premium materials and specialist expertise required, while remaining substantially below replacement costs for quality furniture. Our <a href=\"/furniture-repair-price-list-delhi\">detailed price list</a> and <a href=\"/furniture-repair-price-guide-delhi\">repair price guide</a> provide pre-visit estimates across all furniture categories. As a general guide: sofa cushion foam replacement starts from ₹999 per cushion; full sofa reupholstery from ₹2,000 per seat for fabric and from ₹6,000 per seat for leather; wooden furniture polishing from ₹1,500 for a single chair; dining table refinishing from ₹4,000; wardrobe hinge replacement from ₹199 per hinge; and full antique restoration from ₹5,000 depending on complexity.",
         "The key principle at FurniRevive is price transparency: the quote given after the free on-site assessment is the price you pay. There are no material surcharges discovered mid-job, no hidden callout fees, and no ambiguous invoices. The ₹599 assessment visit is applied as a credit against any repair work undertaken. Our <a href=\"/furniture-repair-cost-delhi\">furniture repair cost page</a> explains how we build each quote — so you can verify the reasonableness of any number we provide.",
         "For Panchsheel Park homeowners managing large-scale interior refresh projects — perhaps a new furniture polish throughout a villa, or full reupholstery of a complete living and dining set — we offer coordinated project pricing that simplifies billing and scheduling. One call, one project manager, one invoice. This is the model that suits the way premium homes in this neighbourhood approach maintenance: comprehensively, with minimum friction, and to a high standard. Reach us at <a href=\"tel:+919217999355\">" + PHONE_DISPLAY + "</a> or WhatsApp at " + WHATSAPP_NUMBER + " to discuss a project quote.",
       ],
@@ -183,7 +183,7 @@ const furnitureRepairPanchsheelPark: SeoPageData = {
       question:
         "How much does furniture repair cost in Panchsheel Park?",
       answer:
-        "Furniture repair in Panchsheel Park starts from ₹599 for a single-item repair such as a chair joint or hinge replacement. More comprehensive repairs — sofa foam replacement from ₹999 per cushion, full fabric reupholstery from ₹3,000 per seat, leather restoration from ₹2,500 per section, wooden furniture polishing from ₹1,500 — are priced after the free on-site assessment. Our <a href=\"/furniture-repair-price-guide-delhi\">furniture repair price guide</a> and <a href=\"/furniture-repair-cost-delhi\">repair cost page</a> give you detailed pre-visit estimates. The assessment visit fee (₹599) is credited against any repair work you approve. There are no hidden material charges or mid-job escalations.",
+        "Furniture repair in Panchsheel Park starts from ₹599 for a single-item repair such as a chair joint or hinge replacement. More comprehensive repairs — sofa foam replacement from ₹999 per cushion, full fabric reupholstery from ₹2,000 per seat, leather restoration from ₹2,500 per section, wooden furniture polishing from ₹1,500 — are priced after the free on-site assessment. Our <a href=\"/furniture-repair-price-guide-delhi\">furniture repair price guide</a> and <a href=\"/furniture-repair-cost-delhi\">repair cost page</a> give you detailed pre-visit estimates. The assessment visit fee (₹599) is credited against any repair work you approve. There are no hidden material charges or mid-job escalations.",
     },
     {
       question:

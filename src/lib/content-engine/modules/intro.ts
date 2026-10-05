@@ -5,13 +5,14 @@
  * from meaningful locality attributes (propertyType, housingAge, affluence,
  * landmarks). Domain data only.
  *
- * Depth: contentWeight <= 70 → 2 paragraphs + 4 key facts;
- *        contentWeight >= 90 → 3 paragraphs + 5 key facts.
+ * Depth: effective content weight <= 70 → 2 paragraphs + 4 key facts;
+ *        effective content weight >= 90 → 3 paragraphs + 5 key facts.
  */
 
 import type { LocalityEntry, ServiceEntry, HousingAgeCategory, AffluenceLevel } from "@/lib/registry/types.ts";
 import type { IntroSectionData } from "../types.ts";
 import { CITY_DISPLAY_NAMES, RESPONSE_TIMES } from "../content-pools.ts";
+import { getEffectiveContentWeight } from "@/lib/registry/effective-content-weight.ts";
 import { getIntroOpener, getMicroLocalContext } from "../content-uniqueness.ts";
 
 function housingAgePhrase(age: HousingAgeCategory): string {
@@ -25,6 +26,16 @@ function housingAgePhrase(age: HousingAgeCategory): string {
     case "heritage":
       return "a heritage neighbourhood with older housing stock";
   }
+}
+
+/**
+ * Landmark phrase for the intro: "X" for one landmark, "X and Y" for two or more.
+ * Only the first two are named to keep the sentence readable; data is never invented.
+ */
+export function landmarkPhrase(locality: Pick<LocalityEntry, "landmarks">): string | undefined {
+  const [first, second] = locality.landmarks;
+  if (!first) return undefined;
+  return second ? `${first} and ${second}` : first;
 }
 
 function affluenceParagraph(
@@ -58,7 +69,7 @@ function buildParagraphs(
   const overview = `FurniRevive brings professional ${svc} directly to your home in ${locality.name}, ${cityName}. From foam and spring issues to fabric, leather, and frame work, our trained technicians diagnose and repair on-site — so you never have to move your furniture to a workshop.`;
 
   // Paragraph 2 — locality context
-  const landmark = locality.landmarks[0];
+  const landmark = landmarkPhrase(locality);
   const localityContext = `${locality.name} is ${housingAgePhrase(locality.housingAge)} known for its ${locality.propertyType}.${
     landmark ? ` With ${landmark} nearby, we serve the area regularly and reach most addresses in ${RESPONSE_TIMES[locality.city]}.` : ` We serve the area regularly and reach most addresses in ${RESPONSE_TIMES[locality.city]}.`
   }`;
@@ -100,7 +111,7 @@ function buildKeyFacts(
 }
 
 function buildCorporateParagraphs(locality: LocalityEntry): string[] {
-  const landmark = locality.landmarks[0];
+  const landmark = landmarkPhrase(locality);
   return [
     `FurniRevive provides professional office chair repair directly at your workplace in ${locality.name}. From sinking gas lifts and broken caster wheels to torn mesh panels and worn executive chair leather, our technicians diagnose and fix on-site — no shipping, no downtime.`,
     `${locality.name} is home to a growing cluster of corporate offices, startups, and co-working spaces.${landmark ? ` With ${landmark} nearby, we serve the area regularly and reach most offices in ${RESPONSE_TIMES[locality.city]}.` : ` We serve the area regularly and reach most offices in ${RESPONSE_TIMES[locality.city]}.`} Our technicians carry a full parts kit — gas lifts, casters, foam, mesh panels, and armrest components — for same-visit repairs.`,
@@ -119,7 +130,7 @@ function buildCorporateKeyFacts(locality: LocalityEntry): string[] {
 }
 
 function buildFurnitureParagraphs(locality: LocalityEntry): string[] {
-  const landmark = locality.landmarks[0];
+  const landmark = landmarkPhrase(locality);
   return [
     `FurniRevive provides professional office furniture repair directly at your workplace in ${locality.name}. From scratched executive desks and wobbly workstations to damaged conference tables and broken storage cabinets, our technicians diagnose and fix on-site — no moving, no downtime.`,
     `${locality.name} is home to a growing cluster of corporate offices, startups, and co-working spaces.${landmark ? ` With ${landmark} nearby, we serve the area regularly and reach most offices in ${RESPONSE_TIMES[locality.city]}.` : ` We serve the area regularly and reach most offices in ${RESPONSE_TIMES[locality.city]}.`} Our technicians carry a complete toolkit — wood fillers, veneer sheets, hardware, laminate, and structural reinforcement materials — for same-visit repairs.`,
@@ -139,7 +150,7 @@ function buildFurnitureKeyFacts(locality: LocalityEntry): string[] {
 
 export function buildIntro(locality: LocalityEntry, service: ServiceEntry): IntroSectionData {
   const cityName = CITY_DISPLAY_NAMES[locality.city];
-  const full = locality.contentWeight >= 90;
+  const full = getEffectiveContentWeight(locality) >= 90;
   const ctx = { locality, service, city: cityName };
 
   const isFurniture = service.slug === "office-furniture-repair";

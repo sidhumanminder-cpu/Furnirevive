@@ -28,7 +28,7 @@ const KITCHEN_LINKS = [
   {
     title: "Kitchen Cost Guide",
     description: "Transparent pricing — know your kitchen budget upfront.",
-    href: "/modular-kitchen-cost",
+    href: "/modular-kitchen-cost-delhi",
   },
   {
     title: "All Kitchen Designs",

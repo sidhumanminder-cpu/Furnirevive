@@ -135,6 +135,11 @@ const KitchenPriceRangeLocalityTemplate = ({ entry, faqs }: Props) => {
       title: metaTitle,
       description: metaDesc,
       canonical,
+      keywords: [
+        "modular kitchen",
+        `modular kitchen under ${entry.priceCapLabel.toLowerCase()}`,
+        `modular kitchen ${entry.localityName.toLowerCase()}`,
+      ],
       ogUrl: canonical,
     });
 

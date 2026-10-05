@@ -6,7 +6,7 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 // ---------------------------------------------------------------------------
 export const sofaRepairNearMeDelhi: SeoPageData = {
   slug: "sofa-repair-near-me-delhi",
-  title: "Sofa Repair Near Me Delhi | Starting ₹499 | Furnirevive",
+  title: "Sofa Repair Near Me Delhi | Starting ₹500 | Furnirevive",
   metaDescription:
     "Get sofa repair near me in Delhi with doorstep service in Delhi NCR. Affordable pricing, expert carpenters, and quick service.",
   h1: "Sofa Repair Near Me in Delhi",
@@ -19,34 +19,34 @@ export const sofaRepairNearMeDelhi: SeoPageData = {
     caption: "Sofa Repair Near Me in Delhi NCR | Same-day doorstep service across all localities | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive is Delhi's top-rated sofa repair near me service. We provide doorstep sofa repair starting at ₹999 across all Delhi localities — South Delhi, Dwarka, Rohini, East Delhi, and more — with same-day service and a 6-month warranty on every repair.",
+    "FurniRevive is Delhi's top-rated sofa repair near me service. We provide doorstep sofa repair starting at ₹500 across all Delhi localities — South Delhi, Dwarka, Rohini, East Delhi, and more — with same-day service and a 6-month warranty on every repair.",
   nearMeSection: {
     heading: "Find Sofa Repair Near You in Delhi",
     content: "Looking for sofa repair near you in Delhi? FurniRevive provides doorstep service across every Delhi locality including South Delhi, Dwarka, Rohini, East Delhi, Lajpat Nagar, Greater Kailash, Vasant Kunj, and Pitampura. Our technicians are available near your location for quick and reliable same-day sofa repair.",
     microLocationContent: "Our team regularly services apartments, builder floors, and homes in nearby Delhi areas, ensuring fast response times and same-day repair availability in most localities.",
-    trustSignals: ["Starting ₹999", "Same-Day Service", "Doorstep Repair"],
+    trustSignals: ["Starting ₹500", "Same-Day Service", "Doorstep Repair"],
   },
   comparisonSection: {
     heading: "Repair vs Replace — What's Better for Your Delhi Sofa?",
     rows: [
       { label: "New sofa cost (Kirti Nagar / online)", value: "₹25,000 – ₹1,50,000" },
-      { label: "Sofa repair cost with FurniRevive", value: "₹999 – ₹12,000" },
+      { label: "Sofa repair cost with FurniRevive", value: "₹500 – ₹12,000" },
       { label: "Savings", value: "Up to 70–80%" },
       { label: "Time to complete", value: "Same day vs 2–4 weeks delivery" },
     ],
     conclusion: [
-      "In most cases, repairing your sofa is far more affordable than buying a new one. New sofas can cost ₹25,000 or more, while repair services start from ₹999. Repairing saves up to 70% and restores comfort quickly — all at your Delhi doorstep.",
+      "In most cases, repairing your sofa is far more affordable than buying a new one. New sofas can cost ₹25,000 or more, while repair services start from ₹500. Repairing saves up to 70% and restores comfort quickly — all at your Delhi doorstep.",
     ],
   },
   intro: [
     "When your sofa cushions start sinking, the upholstery tears, or the wooden frame begins creaking, the first thing you search for is 'sofa repair near me in Delhi'. FurniRevive is the trusted answer for thousands of Delhi families who want fast, affordable, and reliable <a href=\"/sofa-repair-delhi\">sofa repair</a> without leaving home. Our doorstep service means a trained technician comes to you — whether you're in Greater Kailash, Dwarka Sector 12, Rohini Sector 7, or any other Delhi locality — with all tools, foam, fabric, and hardware needed to fix your sofa in a single visit.",
     "We handle every type of sofa problem: sagging cushions from worn-out foam, torn fabric or cracked leather upholstery, broken wooden frames, snapped springs, and damaged recliner mechanisms. Our repair specialists carry a wide inventory of materials — high-density foam in various firmness levels, over 200 fabric options, genuine and faux leather, springs, and professional-grade adhesives — so most repairs are completed on the spot without requiring a second appointment.",
-    "Starting at just ₹999, our sofa repair near me service in Delhi is designed to save you up to 70% compared to buying a new sofa from Kirti Nagar or online retailers. Every repair is backed by a 6-month service warranty, and our 4.8-star rating across 10,000+ repairs speaks to the quality and reliability Delhi families have come to expect from FurniRevive. We also serve <a href=\"/sofa-repair-gurgaon\">Gurgaon</a> and <a href=\"/sofa-repair-noida\">Noida</a> with the same quality. See our <a href=\"/sofa-repair-cost-delhi\">sofa repair cost guide</a> for transparent pricing.",
+    "Starting at just ₹500, our sofa repair near me service in Delhi is designed to save you up to 70% compared to buying a new sofa from Kirti Nagar or online retailers. Every repair is backed by a 6-month service warranty, and our 4.8-star rating across 10,000+ repairs speaks to the quality and reliability Delhi families have come to expect from FurniRevive. We also serve <a href=\"/sofa-repair-gurgaon\">Gurgaon</a> and <a href=\"/sofa-repair-noida\">Noida</a> with the same quality. See our <a href=\"/sofa-repair-cost-delhi\">sofa repair cost guide</a> for transparent pricing.",
   ],
   whyChoose: [
     { title: "Genuinely Near You in Delhi", description: "Our craftsmen are stationed across all Delhi zones — South, North, West, East, and Central Delhi. When you search sofa repair near me, we are truly nearby and arrive fast." },
     { title: "Same-Day Doorstep Service", description: "Book before noon for same-day sofa repair at your Delhi home. No need to transport heavy furniture — we come fully equipped to your doorstep." },
-    { title: "Transparent Pricing from ₹999", description: "We share a complete, itemised quote before any work begins. No surprise charges, no pressure upsells. Starting at ₹999 for basic cushion work." },
+    { title: "Transparent Pricing from ₹500", description: "We share a complete, itemised quote before any work begins. No surprise charges, no pressure upsells. Starting at ₹500 for basic cushion work." },
     { title: "All Sofa Types & Materials", description: "Fabric, leather, rexine, velvet sofas. L-shape, recliner, sectional, sofa cum bed — we repair every configuration at your Delhi address." },
     { title: "6-Month Repair Warranty", description: "Every sofa repair comes with a documented 6-month warranty. If the same issue returns, we fix it free at your Delhi home." },
     { title: "Vetted, Experienced Craftsmen", description: "Our technicians have 5+ years of hands-on experience, are background-verified, and trained to work professionally inside your home." },
@@ -60,7 +60,7 @@ export const sofaRepairNearMeDelhi: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across every Delhi locality",
     "Same-day service when booked before noon",
-    "Starting at ₹999 — save up to 70% vs buying new",
+    "Starting at ₹500 — save up to 70% vs buying new",
     "All sofa types: fabric, leather, rexine, velvet",
     "L-shape, sectional, recliner, sofa cum bed specialists",
     "High-density foam cushion re-stuffing",
@@ -89,7 +89,7 @@ export const sofaRepairNearMeDelhi: SeoPageData = {
     {
       heading: "Pricing — Sofa Repair Near Me Cost in Delhi",
       body: [
-        "Single cushion re-stuffing starts at ₹999. Full 3-seater sofa overhaul including re-upholstery, foam replacement, and frame repair ranges from ₹3,000 to ₹12,000 depending on size and damage. Leather sofa repair starts at ₹1,500. Compare these to a new sofa costing ₹25,000–₹1,50,000 — professional repair delivers equivalent results at a fraction of the price.",
+        "Single cushion re-stuffing starts at ₹500. Full 3-seater sofa overhaul including re-upholstery, foam replacement, and frame repair ranges from ₹3,000 to ₹12,000 depending on size and damage. Leather sofa repair starts at ₹1,500. Compare these to a new sofa costing ₹25,000–₹1,50,000 — professional repair delivers equivalent results at a fraction of the price.",
         "Every quote is provided in writing before work begins, with a breakdown of material and labour costs. We never change the price mid-job. If during inspection we find the sofa isn't worth repairing, we'll tell you honestly. That's the transparency that has earned us 4.8 stars from Delhi families.",
       ],
     },
@@ -98,7 +98,7 @@ export const sofaRepairNearMeDelhi: SeoPageData = {
     { question: "How quickly can you reach me for sofa repair in Delhi?", answer: "We offer same-day service across Delhi for bookings placed before noon. Our average response time from booking to technician arrival is under 24 hours across all Delhi localities." },
     { question: "What areas in Delhi do you serve for sofa repair near me?", answer: "We cover every Delhi area — South Delhi (GK, Saket, Vasant Kunj), West Delhi (Dwarka, Janakpuri), North Delhi (Rohini, Pitampura), East Delhi (Preet Vihar, Mayur Vihar), and Central Delhi (CP, Karol Bagh)." },
     { question: "Do you charge for the inspection visit?", answer: "No, the home inspection is completely free. Our technician visits your Delhi home, assesses the sofa, and provides a detailed quote at no charge with no obligation to proceed." },
-    { question: "What is the minimum charge for sofa repair near me in Delhi?", answer: "Our minimum charge is ₹999, covering minor repairs like a single cushion re-stuffing or small upholstery patch. All charges are communicated before work begins." },
+    { question: "What is the minimum charge for sofa repair near me in Delhi?", answer: "Our minimum charge is ₹500, covering minor repairs like a single cushion re-stuffing or small upholstery patch. All charges are communicated before work begins." },
     { question: "Is the warranty valid across all Delhi localities?", answer: "Yes. Our 6-month warranty is valid at the address where the work was done, anywhere in Delhi. If the repaired issue recurs, we return and fix it at no charge." },
     { question: "How do I find sofa repair near me in Delhi?", answer: "You can book doorstep sofa repair with FurniRevive, available across every Delhi locality. Just call +91 92179 99355, WhatsApp us, or book online — our technician arrives at your nearby Delhi location for quick service." },
     { question: "Do you provide same-day sofa repair near me in Delhi?", answer: "Yes, most repairs are completed the same day when booked before noon. Our technicians carry all necessary tools, foam, and fabric for on-the-spot repair at your Delhi home." },
@@ -123,7 +123,7 @@ export const sofaRepairNearMeDelhi: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const furnitureRepairNearMeDelhi: SeoPageData = {
   slug: "furniture-repair-near-me-delhi",
-  title: "Furniture Repair Near Me Delhi | Starting ₹499 | Furnirevive",
+  title: "Furniture Repair Near Me Delhi | Starting ₹599 | Furnirevive",
   metaDescription:
     "Get furniture repair near me in Delhi with doorstep service in Delhi NCR. Affordable pricing, expert carpenters, and quick service.",
   h1: "Furniture Repair Near Me in Delhi",
@@ -179,7 +179,7 @@ export const furnitureRepairNearMeDelhi: SeoPageData = {
     "Average arrival time 45-90 minutes from confirmation",
     "Sofa, bed, chair, dining table, wardrobe, TV unit, and cabinet repair",
     "Delhi climate expertise: humidity warping, heat foam compression, dust damage",
-    "Chair repair from ₹599, sofa repair from ₹999, bed repair from ₹1,199",
+    "Chair repair from ₹599, sofa repair from ₹500, bed repair from ₹1,199",
     "Same-day service for pre-noon bookings across all localities",
     "Carpentry + upholstery + polish specialists deployed as one team",
     "Solid wood, engineered wood, MDF, plywood, and metal furniture covered",
@@ -255,7 +255,7 @@ export const carpenterNearMeDelhi: SeoPageData = {
   slug: "carpenter-near-me-delhi",
   title: "Carpenter Near Me in Delhi | ₹499 Doorstep Service | FurniRevive",
   metaDescription:
-    "Verified carpenter near me in Delhi — same-day doorstep service from ₹499. Furniture repair, IKEA assembly, wardrobe & door fixing. 4.8★ rated. 6-month warranty. Call +91 92179 99355.",
+    "Verified carpenter near me in Delhi — same-day doorstep service from ₹499. Furniture repair, IKEA assembly, wardrobe & door fixing. 8★ rated.",
   h1: "Carpenter Near Me in Delhi",
   heroSubtitle:
     "Need a skilled carpenter near you in Delhi? FurniRevive provides verified, experienced carpenters at your doorstep for furniture repair, assembly, installation, and custom work — starting ₹499 with same-day availability.",

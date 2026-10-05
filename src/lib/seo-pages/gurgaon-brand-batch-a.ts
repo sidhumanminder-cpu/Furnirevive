@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const durianFurnitureRepairGurgaon: SeoPageData = {
   slug: "durian-furniture-repair-gurgaon",
-  title: "Durian Furniture Repair in Gurgaon | Premium Leather & Recliner Restoration | FurniRevive",
-  metaDescription: "Expert Durian furniture repair in Gurgaon. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep across DLF, Golf Course Road & all sectors. 6-month warranty. Call FurniRevive.",
+  title: "Durian Furniture Repair in Gurgaon | FurniRevive",
+  metaDescription: "Expert Durian furniture repair in Gurgaon. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep across DLF.",
   h1: "Durian Furniture Repair in Gurgaon | Premium Restoration Specialists",
   heroSubtitle: "Skilled technicians with hands-on experience restoring Durian leather sofas, motorised recliners, and wooden pieces -- brought back to showroom condition at your doorstep across Gurgaon.",
   showcaseImage: {
@@ -273,8 +273,8 @@ const durianFurnitureRepairGurgaon: SeoPageData = {
 
 const urbanLadderFurnitureRepairGurgaon: SeoPageData = {
   slug: "urban-ladder-furniture-repair-gurgaon",
-  title: "Urban Ladder Furniture Repair in Gurgaon | Fabric Sofa & Sectional Restoration | FurniRevive",
-  metaDescription: "Expert Urban Ladder furniture repair in Gurgaon. Fabric sofa restoration, foam replacement, L-shaped sectional repair at your doorstep. DLF, Sohna Road, all sectors. 6-month warranty. Call FurniRevive.",
+  title: "Urban Ladder Furniture Repair in Gurgaon | FurniRevive",
+  metaDescription: "Expert Urban Ladder furniture repair in Gurgaon. Fabric sofa restoration, foam replacement, L-shaped sectional repair at your doorstep.",
   h1: "Urban Ladder Furniture Repair in Gurgaon | Fabric Sofa Specialists",
   heroSubtitle: "Skilled technicians restoring Urban Ladder fabric sofas, L-shaped sectionals, and contemporary apartment furniture -- at your doorstep across Gurgaon.",
   showcaseImage: {

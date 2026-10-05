@@ -9,13 +9,13 @@ const reclinerRepairSouthDelhi: SeoPageData = {
   slug: "recliner-repair-south-delhi",
   title: "Recliner Repair South Delhi | Electric & Manual Experts",
   metaDescription:
-    "Expert recliner repair in South Delhi — electric, motorised & manual. Doorstep service from ₹999. Motor, actuator & leather restoration. Same-day slots. Call FurniRevive.",
+    "Expert recliner repair in South Delhi — electric, motorised & manual. Doorstep service from ₹999. Motor, actuator & leather restoration. Same-day slots.",
   h1: "Premium Recliner Repair in South Delhi",
   heroSubtitle:
     "South Delhi's most trusted recliner repair specialists — from imported Italian recliners in Greater Kailash to motorised home-theatre suites in Defence Colony. Doorstep service, genuine parts, 6-month warranty.",
   showcaseImage: {
-    heading: "Professional Sofa Repair — Premium Home Service in Delhi",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    heading: "Professional Recliner Repair — Premium Home Service in Delhi",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText: "Professional recliner repair technician working on an Italian leather recliner in a South Delhi home — FurniRevive",
     caption: "Recliner Repair in South Delhi | Electric & motorised recliner service in GK, Defence Colony, Hauz Khas | FurniRevive",
   },
@@ -341,13 +341,13 @@ const reclinerRepairDlfGurgaon: SeoPageData = {
   slug: "recliner-repair-dlf-gurgaon",
   title: "Recliner Repair DLF Gurgaon | Motorized Recliner Restoration",
   metaDescription:
-    "Premium recliner repair in DLF Gurgaon — electric, motorised & leather recliners. Doorstep service from ₹999. Motor, actuator & mechanism repair. Call FurniRevive today.",
+    "Premium recliner repair in DLF Gurgaon — electric, motorised & leather recliners. Doorstep service from ₹999. Motor, actuator & mechanism repair.",
   h1: "Electric Recliner Repair Services in DLF Gurgaon",
   heroSubtitle:
     "DLF Gurgaon's most trusted recliner repair specialists — serving premium motorised recliners in DLF Phase 1 through 5 and Golf Course Road. Certified technicians, genuine components, 6-month warranty.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText: "Professional recliner repair technician working on a motorised recliner in a DLF Gurgaon apartment — FurniRevive",
     caption: "Recliner Repair in DLF Gurgaon | Electric & motorised recliner service across all phases | FurniRevive",
   },

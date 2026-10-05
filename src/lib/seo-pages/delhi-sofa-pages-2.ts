@@ -18,9 +18,9 @@ function relatedExcluding(slug: string) {
 
 export const sofaRepairMalviyaNagar: SeoPageData = {
   slug: "sofa-repair-malviya-nagar",
-  title: "Sofa Repair in Malviya Nagar Delhi | ₹999 Onwards",
+  title: "Sofa Repair in Malviya Nagar Delhi | ₹500 Onwards",
   metaDescription:
-    "Expert sofa repair in Malviya Nagar Delhi. Covering Hauz Khas, Panchsheel, Sheikh Sarai & Sarvapriya Vihar. Doorstep service from ₹999. Book same day!",
+    "Expert sofa repair in Malviya Nagar Delhi. Covering Hauz Khas, Panchsheel, Sheikh Sarai & Sarvapriya Vihar. Doorstep service from ₹500. Book same day!",
   h1: "Sofa Repair in Malviya Nagar, Delhi",
   heroSubtitle:
     "Professional sofa repair and reupholstery for South Delhi's most vibrant residential neighbourhood — doorstep service across Malviya Nagar, Hauz Khas, Panchsheel Enclave and beyond.",
@@ -31,7 +31,7 @@ export const sofaRepairMalviyaNagar: SeoPageData = {
     caption: "Sofa Repair in Malviya Nagar Delhi | South Delhi | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "We provide doorstep sofa repair across Malviya Nagar, Hauz Khas, Panchsheel Enclave, Sheikh Sarai and Sarvapriya Vihar. Cushion repair starts at ₹999, full reupholstery from ₹3,500 per seat. Same-day slots are available six days a week.",
+    "We provide doorstep sofa repair across Malviya Nagar, Hauz Khas, Panchsheel Enclave, Sheikh Sarai and Sarvapriya Vihar. Cushion repair starts at ₹500, full reupholstery from ₹2,000 per seat. Same-day slots are available six days a week.",
   intro: [
     "Malviya Nagar is one of South Delhi's most well-established and sought-after residential areas, home to professionals, academics connected to the nearby IIT Delhi campus, and multi-generational families who have lived here for decades. The neighbourhood's character — a blend of compact DDA flats, builder floors, and gracious independent houses — means its residents often own quality sofas that get intensive daily use. When those pieces develop sagging cushions, torn fabric, broken springs, or wobbly frames, our sofa repair service in Malviya Nagar dispatches trained technicians directly to your doorstep, restoring your sofa fully without the inconvenience of dismantling or transporting it to a distant workshop.",
     "We cover every category of sofa repair need in Malviya Nagar: cushion foam replacement from ₹999 per cushion, full fabric reupholstery priced from ₹3,500 to ₹14,000 per seat, leather sofa restoration starting at ₹2,999, structural frame and spring repair, and custom stitching for torn or frayed sections. Whether your sofa sits in a compact flat in Khirki Extension or a spacious bungalow in Panchsheel Enclave, our team carries all the tools and materials required to complete most repairs in a single on-site visit. No repeat calls, no waiting days for a return trip.",
@@ -44,9 +44,9 @@ export const sofaRepairMalviyaNagar: SeoPageData = {
         "Our technicians travel to every Malviya Nagar block — from flats near the police station to independent houses backing onto Deer Park, Hauz Khas. Your sofa never needs to leave your home.",
     },
     {
-      title: "Transparent Pricing from ₹999",
+      title: "Transparent Pricing from ₹500",
       description:
-        "Cushion repair starts at ₹999, fabric reupholstery at ₹3,500 per seat, and leather restoration at ₹2,999. Every quote is provided in writing after a free in-home inspection with zero hidden charges or call-out fees.",
+        "Cushion repair starts at ₹500, fabric reupholstery at ₹2,000 per seat, and leather restoration at ₹2,999. Every quote is provided in writing after a free in-home inspection with zero hidden charges or call-out fees.",
     },
     {
       title: "Premium Materials from Aurobindo Market Suppliers",
@@ -144,7 +144,7 @@ export const sofaRepairMalviyaNagar: SeoPageData = {
     {
       question: "What does sofa repair cost in Malviya Nagar?",
       answer:
-        "Cushion foam replacement starts at ₹999, minor stitching from ₹500, and full fabric reupholstery from ₹3,500 per seat. Leather restoration starts at ₹2,999 and goes up to ₹15,000 per seat for full hide replacement. We provide a free written quote after an in-home inspection.",
+        "Cushion foam replacement starts at ₹999, minor stitching from ₹500, and full fabric reupholstery from ₹2,000 per seat. Leather restoration starts at ₹2,999 and goes up to ₹15,000 per seat for full hide replacement. We provide a free written quote after an in-home inspection.",
     },
     {
       question: "Can you repair a leather sofa near Hauz Khas or Deer Park?",
@@ -330,7 +330,7 @@ export const sofaRepairPitampura: SeoPageData = {
     {
       question: "What is the starting price for sofa repair in Pitampura?",
       answer:
-        "Basic sofa repair in Pitampura starts at ₹899 for stitching and minor foam work. Spring replacement begins at ₹1,500, cushion foam refilling at ₹999, and full fabric reupholstery from ₹3,500 per seat. All prices are confirmed in writing first.",
+        "Basic sofa repair in Pitampura starts at ₹899 for stitching and minor foam work. Spring replacement begins at ₹1,500, cushion foam refilling at ₹999, and full fabric reupholstery from ₹2,000 per seat. All prices are confirmed in writing first.",
     },
     {
       question: "Is same-day sofa repair available in Pitampura?",
@@ -591,10 +591,10 @@ export const sofaRepairRajouriGarden: SeoPageData = {
     caption: "Sofa Repair in Rajouri Garden Delhi | West Delhi | L-shape sofa & fabric repair service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Doorstep sofa repair across all Rajouri Garden blocks A through P, Ramesh Nagar, Moti Nagar, and the Kirti Nagar area. Services start at ₹899, L-shaped sofa repair from ₹8,000, fabric change from ₹3,000 per seat. Expert team near Kirti Nagar furniture market.",
+    "Doorstep sofa repair across all Rajouri Garden blocks A through P, Ramesh Nagar, Moti Nagar, and the Kirti Nagar area. Services start at ₹899, L-shaped sofa repair from ₹8,000, fabric change from ₹2,000 per seat. Expert team near Kirti Nagar furniture market.",
   intro: [
     "Rajouri Garden is West Delhi's most commercially and residentially vibrant neighbourhood, anchored by the Pacific Mall, a major metro interchange, and a thriving street market culture along J-Block Market and the main shopping strip. Its lettered residential blocks — A through P — house a broad demographic of established families, young professionals, and business owners who furnish their homes with care. The drawing room sofa is central to social life here, and when it develops sagging cushions, worn fabric, broken springs, or a loose frame, our doorstep sofa repair service in Rajouri Garden restores it to full function from ₹899.",
-    "Our Rajouri Garden team handles every scope of sofa work: fabric reupholstery from ₹3,000 per seat, L-shaped sofa complete restoration starting at ₹8,000 for the full unit, leather and rexine repair from ₹2,500, cushion foam replacement from ₹999, spring repair from ₹1,200, and custom stitching from ₹500. Our proximity to the Kirti Nagar furniture market — one of North India's largest hubs for raw materials and furniture components — gives us fast access to a wider range of fabrics, foam grades, and hardware than services based in less central parts of the city. This translates to more options for you and competitive pricing.",
+    "Our Rajouri Garden team handles every scope of sofa work: fabric reupholstery from ₹2,000 per seat, L-shaped sofa complete restoration starting at ₹8,000 for the full unit, leather and rexine repair from ₹2,500, cushion foam replacement from ₹999, spring repair from ₹1,200, and custom stitching from ₹500. Our proximity to the Kirti Nagar furniture market — one of North India's largest hubs for raw materials and furniture components — gives us fast access to a wider range of fabrics, foam grades, and hardware than services based in less central parts of the city. This translates to more options for you and competitive pricing.",
     "Our service zone extends naturally from Rajouri Garden into Ramesh Nagar, Moti Nagar, New Rajinder Nagar, Punjabi Bagh Extension, and Kirti Nagar itself. Customers near Pacific Mall, the busy Rajouri Garden metro station commercial cluster, and the residential lanes of J-Block and H-Block are in our core zone — our team is familiar with the area's layout and typically arrives within a reliable two-hour window. We operate six days a week, with Sunday slots reserved for families who prefer to be home for the full duration of the repair.",
   ],
   whyChoose: [
@@ -616,7 +616,7 @@ export const sofaRepairRajouriGarden: SeoPageData = {
     {
       title: "Competitive Pricing from ₹899",
       description:
-        "Starting prices are kept accessible for Rajouri Garden's value-conscious households: ₹899 for basic stitching, ₹999 for cushion foam, ₹3,000 per seat for fabric reupholstery. All quotes are in writing before work begins.",
+        "Starting prices are kept accessible for Rajouri Garden's value-conscious households: ₹899 for basic stitching, ₹999 for cushion foam, ₹2,000 per seat for fabric reupholstery. All quotes are in writing before work begins.",
     },
     {
       title: "Same-Day and Next-Day Availability",
@@ -655,7 +655,7 @@ export const sofaRepairRajouriGarden: SeoPageData = {
     "Coverage across all Rajouri Garden blocks A through P",
     "Proximity to Kirti Nagar for superior material sourcing",
     "L-shaped sofa repair specialisation from ₹8,000",
-    "Fabric reupholstery from ₹3,000 per seat",
+    "Fabric reupholstery from ₹2,000 per seat",
     "Accessible starting price of ₹899",
     "Covers Ramesh Nagar, Moti Nagar & Punjabi Bagh Extension",
     "Same-day service for cushion and stitching repairs",
@@ -690,7 +690,7 @@ export const sofaRepairRajouriGarden: SeoPageData = {
     {
       heading: "Fabric Change and Full Reupholstery in Rajouri Garden",
       body: [
-        "Fabric reupholstery — replacing worn or outdated upholstery with a fresh fabric of the customer's choosing — is one of our most popular services in Rajouri Garden. Prices start at ₹3,000 per seat for standard cotton and polyester blends, rising to ₹12,000 per seat for premium velvet, woven linen, or imported microfibre options. This service is popular not only when fabric is damaged but also when a family simply wants to refresh the look of their living room without the expense of buying a new sofa.",
+        "Fabric reupholstery — replacing worn or outdated upholstery with a fresh fabric of the customer's choosing — is one of our most popular services in Rajouri Garden. Prices start at ₹2,000 per seat for standard cotton and polyester blends, rising to ₹12,000 per seat for premium velvet, woven linen, or imported microfibre options. This service is popular not only when fabric is damaged but also when a family simply wants to refresh the look of their living room without the expense of buying a new sofa.",
         "Our technicians bring a comprehensive fabric catalogue to every visit — dozens of colours, weave types, and textures represented in physical swatches so you can feel the material and see the colour accurately before committing. For Rajouri Garden customers who bought sofas from the local J-Block Market or Pacific Mall furniture stores, we can often source a very close match to the original fabric or guide you toward a complementary upgrade. The combination of competitive pricing and material access from nearby Kirti Nagar makes fabric change one of the best-value services we offer in West Delhi.",
       ],
     },
@@ -704,7 +704,7 @@ export const sofaRepairRajouriGarden: SeoPageData = {
     {
       question: "What is the cost of sofa repair in Rajouri Garden?",
       answer:
-        "Basic repairs start at ₹899 for stitching. Cushion foam replacement is from ₹999, fabric change from ₹3,000 per seat, and L-shaped sofa full restoration starts at ₹8,000. All quotes are confirmed in writing after a free in-home inspection.",
+        "Basic repairs start at ₹899 for stitching. Cushion foam replacement is from ₹999, fabric change from ₹2,000 per seat, and L-shaped sofa full restoration starts at ₹8,000. All quotes are confirmed in writing after a free in-home inspection.",
     },
     {
       question: "Do you specialise in L-shaped sofa repair in Rajouri Garden?",

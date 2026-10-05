@@ -4,10 +4,9 @@ export const sofaRepairDwarka: SeoPageData = {
   slug: "sofa-repair-dwarka",
 
   title:
-    "Sofa Repair in Dwarka Delhi (\u20b9500 Onwards) | Same Day Doorstep Service | FurniRevive",
+    "Sofa Repair in Dwarka Delhi | From ₹500 | FurniRevive",
 
-  metaDescription:
-    "Sofa repair Dwarka from \u20b9500 \u2014 same day doorstep service across all 25 sectors. Sofa repair near me Dwarka? Call +91 92179 99355. Foam, spring, upholstery & recliner repair at home.",
+  metaDescription: "Sofa repair Dwarka from ₹500 — same day doorstep service across all 25 sectors. Sofa repair near me Dwarka? Call +91 92179 99355.",
 
   h1: "Sofa Repair in Dwarka \u2013 Same Day Doorstep Service",
 

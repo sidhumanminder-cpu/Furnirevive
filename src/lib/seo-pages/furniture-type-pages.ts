@@ -21,9 +21,9 @@ function relatedExcluding(slug: string) {
 export const woodenFurnitureRepairDelhi: SeoPageData = {
   slug: "wooden-furniture-repair-delhi",
   title:
-    "Wooden Furniture Repair Delhi NCR | Teak, Sheesham, MDF | FurniRevive",
+    "Wooden Furniture Repair Delhi NCR | FurniRevive",
   metaDescription:
-    "Expert wooden furniture repair in Delhi NCR. Teak, sheesham, MDF, plywood & engineered wood repair at your doorstep. Polish, refinishing, joint repair. 6-month warranty. ₹599 onwards.",
+    "Expert wooden furniture repair in Delhi NCR. Teak, sheesham, MDF, plywood & engineered wood repair at your doorstep. Polish, refinishing, joint repair.",
   h1: "Wooden Furniture Repair in Delhi NCR — All Wood Types, Doorstep Service",
   heroSubtitle:
     "Professional repair and restoration for all wooden furniture — teak, sheesham, mango wood, MDF, plywood, and engineered wood. Joint repair, polish, refinishing, termite damage restoration, and structural reinforcement at your doorstep across Delhi, Noida, Gurgaon, Ghaziabad & Faridabad. Starting ₹599 with a 6-month warranty.",
@@ -299,7 +299,7 @@ export const bedRepairDelhi: SeoPageData = {
   slug: "bed-repair-delhi",
   title: "Bed Repair in Delhi NCR | Frame, Headboard, Storage | FurniRevive",
   metaDescription:
-    "Professional bed repair in Delhi NCR. Bed frame, headboard, hydraulic storage, slat, and plywood base repair at your doorstep. All bed types. 6-month warranty. ₹799 onwards.",
+    "Professional bed repair in Delhi NCR. Bed frame, headboard, hydraulic storage, slat, and plywood base repair at your doorstep. All bed types.",
   h1: "Bed Repair in Delhi NCR — Frame, Headboard & Storage Repair at Your Doorstep",
   heroSubtitle:
     "Expert bed repair at your doorstep across Delhi, Noida, Gurgaon, Ghaziabad & Faridabad. Bed frame reinforcement, headboard repair, hydraulic storage mechanism fix, slat replacement, plywood base repair, and cot joint repair — starting ₹799 with a 6-month warranty.",
@@ -581,9 +581,9 @@ export const bedRepairDelhi: SeoPageData = {
 export const wardrobeRepairDelhi: SeoPageData = {
   slug: "wardrobe-repair-delhi",
   title:
-    "Wardrobe Repair in Delhi NCR | Sliding Door, Hinge, Shelf | FurniRevive",
+    "Wardrobe Repair in Delhi NCR | FurniRevive",
   metaDescription:
-    "Expert wardrobe & almirah repair in Delhi NCR. Sliding door, hinge, shelf, drawer, and modular wardrobe repair at your doorstep. All brands. 6-month warranty. ₹499 onwards.",
+    "Expert wardrobe & almirah repair in Delhi NCR. Sliding door, hinge, shelf, drawer, and modular wardrobe repair at your doorstep. All brands.",
   h1: "Wardrobe Repair in Delhi NCR — Door, Hinge, Shelf & Modular Wardrobe Fix",
   heroSubtitle:
     "Professional wardrobe and almirah repair at your doorstep across Delhi, Noida, Gurgaon, Ghaziabad & Faridabad. Sliding door track repair, hinge replacement, shelf fixing, drawer runner replacement, and modular wardrobe servicing — starting ₹499 with a 6-month warranty.",

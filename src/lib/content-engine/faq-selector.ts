@@ -15,6 +15,7 @@
 import type { LocalityEntry, ServiceSlug } from "@/lib/registry/types.ts";
 import type { LocalityInfo } from "@/lib/seoConfigs/localities.ts";
 import { FAQ_POOL_DYNAMIC } from "@/lib/seoConfigs/faq-engine.ts";
+import { getServiceFaqs, type FaqServiceCategory } from "@/lib/seoConfigs/faq-service-pools.ts";
 import { CITY_DISPLAY_NAMES, RESPONSE_TIMES } from "./content-pools.ts";
 
 export type SelectedFaq = { question: string; answer: string };
@@ -150,11 +151,23 @@ export function selectFaqs(locality: LocalityEntry, service: ServiceSlug): Selec
 
   const selected: SelectedFaq[] = [];
   const usedGroups = new Set<string>();
+  // Slots dropped for non-sofa services still count toward the total, so they are
+  // not backfilled with other sofa-worded FAQs.
+  let dropped = 0;
 
   for (const entry of sorted) {
-    if (selected.length >= count) break;
+    if (selected.length + dropped >= count) break;
     if (usedGroups.has(entry.intentGroup)) continue;
     usedGroups.add(entry.intentGroup);
+
+    // Non-sofa services use their real service-pool FAQ for these slots, or drop the
+    // slot when no real equivalent exists (never reuse sofa wording).
+    if (SERVICE_FAQ_GROUPS.has(entry.intentGroup) && SERVICE_FAQ_CATEGORY[service]) {
+      const serviceFaq = serviceFaqFor(info, service, entry.intentGroup);
+      if (serviceFaq) selected.push(serviceFaq);
+      else dropped += 1;
+      continue;
+    }
 
     const answerFn = entry.answers[answerIndex];
     selected.push({
@@ -164,6 +177,24 @@ export function selectFaqs(locality: LocalityEntry, service: ServiceSlug): Selec
   }
 
   return selected;
+}
+
+const SERVICE_FAQ_CATEGORY: Partial<Record<ServiceSlug, FaqServiceCategory>> = {
+  "recliner-repair": "recliner",
+  "furniture-repair": "furniture",
+  "sofa-upholstery": "upholstery",
+};
+
+// Sofa-worded slots that must not appear on non-sofa pages. The 3+1+1 pricing entry
+// shares the "pricing" group, so it is replaced by the service pricing FAQ too.
+const SERVICE_FAQ_GROUPS = new Set(["pricing", "warranty", "response_time", "same_day", "repair_vs_replace", "free_inspection", "service_areas"]);
+
+/** Real FAQ for this slot from the service pools, or null when the pool has none. */
+function serviceFaqFor(info: LocalityInfo, service: ServiceSlug, group: string): SelectedFaq | null {
+  const category = SERVICE_FAQ_CATEGORY[service];
+  if (!category) return null;
+  const faq = getServiceFaqs(info, category, Number.MAX_SAFE_INTEGER)?.find((f) => f.intentGroup === group);
+  return faq ? { question: faq.question, answer: faq.answer } : null;
 }
 
 // ─── Office Chair FAQ Selection (B2B) ────────────────────────────────────────

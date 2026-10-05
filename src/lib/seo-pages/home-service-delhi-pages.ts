@@ -6,12 +6,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 // ---------------------------------------------------------------------------
 export const sofaRepairHomeServiceDelhi: SeoPageData = {
   slug: "sofa-repair-home-service-delhi",
-  title: "Sofa Repair Home Service Delhi | Starting ₹499 | Furnirevive",
+  title: "Sofa Repair Home Service Delhi | Starting ₹500 | Furnirevive",
   metaDescription:
     "Get sofa repair home service in Delhi with doorstep service in Delhi NCR. Affordable pricing, expert carpenters, and quick service.",
   h1: "Sofa Repair Home Service in Delhi",
   heroSubtitle:
-    "Professional sofa repair at your home across Delhi — our technicians come to you with all tools and materials. No transportation needed, no workshop delays. Starting ₹999 with same-day availability and 6-month warranty.",
+    "Professional sofa repair at your home across Delhi — our technicians come to you with all tools and materials. No transportation needed, no workshop delays. Starting ₹500 with same-day availability and 6-month warranty.",
   showcaseImage: {
     heading: "Sofa Repair Home Service Delhi — Expert Technician at Your Doorstep",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -19,18 +19,18 @@ export const sofaRepairHomeServiceDelhi: SeoPageData = {
     caption: "Sofa Repair Home Service in Delhi | Expert technician at your door | Same-day service | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive's sofa repair home service in Delhi sends expert technicians directly to your house with all tools, foam, fabric, and hardware needed. Repairs start at ₹999, are completed in a single visit, and include a 6-month warranty. We serve every Delhi locality.",
+    "FurniRevive's sofa repair home service in Delhi sends expert technicians directly to your house with all tools, foam, fabric, and hardware needed. Repairs start at ₹500, are completed in a single visit, and include a 6-month warranty. We serve every Delhi locality.",
   intro: [
     "Transporting a heavy sofa to a repair shop is impractical, expensive, and unnecessary. FurniRevive's sofa repair home service in Delhi eliminates that hassle entirely — our skilled technicians come to your home anywhere in Delhi with a fully stocked toolkit, premium materials, and the expertise to handle any sofa problem on the spot. From sagging cushions in your Saket living room to torn leather on your Dwarka sectional, we fix it right where your sofa sits.",
     "Our home service model is built for Delhi's urban lifestyle. We understand that families have busy schedules, apartments have limited space, and moving a sofa down four flights of stairs isn't an option. That's why we bring everything to you — high-density foam in multiple firmness levels, over 200 fabric options, leather repair kits, springs, webbing, and professional-grade tools. Most repairs are completed in 2-4 hours during a single visit.",
-    "Starting at ₹999, our sofa repair home service saves Delhi families significant money versus buying new furniture. Every repair includes a free home inspection, transparent pricing with no hidden fees, and a 6-month service warranty. We've completed over 10,000 sofa repairs across Delhi homes and maintain a 4.8-star rating for quality and reliability.",
+    "Starting at ₹500, our sofa repair home service saves Delhi families significant money versus buying new furniture. Every repair includes a free home inspection, transparent pricing with no hidden fees, and a 6-month service warranty. We've completed over 10,000 sofa repairs across Delhi homes and maintain a 4.8-star rating for quality and reliability.",
   ],
   whyChoose: [
     { title: "Complete Home Service — No Transport Needed", description: "We repair your sofa right where it is. No moving, no dismantling, no workshop wait. Our technicians handle everything in your living room." },
     { title: "Fully Equipped Technicians", description: "Our team arrives with professional tools, foam, fabric swatches, springs, adhesives, and hardware. Most repairs completed without needing a second visit." },
     { title: "Same-Day Home Service", description: "Book before noon for same-day sofa repair at your Delhi home. Urgent repair needs accommodated across all localities." },
     { title: "All Sofa Types Repaired at Home", description: "Fabric, leather, rexine sofas. L-shape, recliner, sectional, sofa cum bed — every configuration repaired at your doorstep." },
-    { title: "Starting at ₹999", description: "Affordable sofa repair home service designed for Delhi families. Save up to 70% compared to buying a new sofa." },
+    { title: "Starting at ₹500", description: "Affordable sofa repair home service designed for Delhi families. Save up to 70% compared to buying a new sofa." },
     { title: "6-Month Warranty", description: "Every home service repair is backed by a 6-month written warranty. If the same issue returns, we come back and fix it free." },
   ],
   process: [
@@ -49,7 +49,7 @@ export const sofaRepairHomeServiceDelhi: SeoPageData = {
     "Frame reinforcement and spring replacement",
     "Recliner mechanism and motor repair",
     "Free home inspection before any work begins",
-    "Starting at ₹999 — transparent pricing",
+    "Starting at ₹500 — transparent pricing",
     "6-month warranty on all home service repairs",
     "10,000+ sofas repaired at Delhi homes",
   ],
@@ -71,7 +71,7 @@ export const sofaRepairHomeServiceDelhi: SeoPageData = {
     {
       heading: "Sofa Home Service Pricing in Delhi",
       body: [
-        "Basic cushion re-stuffing starts at ₹999. Full 3-seater re-upholstery ranges from ₹3,000 to ₹8,000 depending on fabric choice. Structural repairs like frame work or <a href=\"/sofa-frame-repair-delhi\">sofa frame repair</a> range from ₹1,500 to ₹5,000. <a href=\"/sofa-spring-repair-delhi\">Sofa spring replacement</a> costs ₹1,500–₹4,000. <a href=\"/recliner-repair-delhi\">Recliner mechanism repair</a> starts at ₹2,000. For complete pricing: <a href=\"/sofa-repair-cost-delhi\">sofa repair cost guide</a>, <a href=\"/furniture-repair-price-list-delhi\">furniture repair price list</a>. Read our blog on <a href=\"/blog/how-long-does-sofa-foam-last\">how long sofa foam lasts</a> to understand when replacement is needed.",
+        "Basic cushion re-stuffing starts at ₹500. Full 3-seater re-upholstery ranges from ₹3,000 to ₹8,000 depending on fabric choice. Structural repairs like frame work or <a href=\"/sofa-frame-repair-delhi\">sofa frame repair</a> range from ₹1,500 to ₹5,000. <a href=\"/sofa-spring-repair-delhi\">Sofa spring replacement</a> costs ₹1,500–₹4,000. <a href=\"/recliner-repair-delhi\">Recliner mechanism repair</a> starts at ₹2,000. For complete pricing: <a href=\"/sofa-repair-cost-delhi\">sofa repair cost guide</a>, <a href=\"/furniture-repair-price-list-delhi\">furniture repair price list</a>. Read our blog on <a href=\"/blog/how-long-does-sofa-foam-last\">how long sofa foam lasts</a> to understand when replacement is needed.",
       ],
     },
     {
@@ -108,7 +108,7 @@ export const sofaRepairHomeServiceDelhi: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const furnitureRepairHomeServiceDelhi: SeoPageData = {
   slug: "furniture-repair-home-service-delhi",
-  title: "Furniture Repair Home Service Delhi | Starting ₹499 | Furnirevive",
+  title: "Furniture Repair Home Service Delhi | Starting ₹599 | Furnirevive",
   metaDescription:
     "Get furniture repair home service in Delhi with doorstep service in Delhi NCR. Affordable pricing, expert carpenters, and quick service.",
   h1: "Furniture Repair Home Service in Delhi",
@@ -125,12 +125,12 @@ export const furnitureRepairHomeServiceDelhi: SeoPageData = {
   intro: [
     "Moving furniture to a workshop for repair is a major hassle — heavy lifting, transport costs, being without your furniture for days, and the risk of further damage during transit. FurniRevive's furniture repair home service in Delhi eliminates all of this. Our skilled team of carpenters and upholsterers comes to your home with professional tools, hardware, and materials to repair any piece of furniture right where it stands.",
     "We fix everything — from sofas and beds to dining tables, wardrobes, bookshelves, and kitchen cabinets — all at your Delhi doorstep. Our home service team handles structural repairs, upholstery work, polish refinishing, and hardware replacement in a single visit. Whether you're in Defence Colony, Dwarka, Rohini Sector 17, or Preet Vihar, our technicians reach you equipped and ready to work.",
-    "With starting prices at ₹599 for chair repair and ₹999 for sofa work, our furniture repair home service in Delhi is the most practical and cost-effective way to maintain your furniture. Same-day service is available when you book before noon, and every repair comes with a 6-month warranty. No workshop visits, no transportation stress — just professional repairs at your convenience.",
+    "With starting prices at ₹599 for chair repair and ₹500 for sofa work, our furniture repair home service in Delhi is the most practical and cost-effective way to maintain your furniture. Same-day service is available when you book before noon, and every repair comes with a 6-month warranty. No workshop visits, no transportation stress — just professional repairs at your convenience.",
   ],
   whyChoose: [
     { title: "Everything Repaired at Your Home", description: "No transport, no workshop wait. Sofas, beds, chairs, tables, wardrobes — all repaired on-site in your Delhi home by our expert team." },
     { title: "Combined Carpentry & Upholstery", description: "Our home service team includes both carpenters and upholstery specialists. Structural and cosmetic repairs handled together in one visit." },
-    { title: "Starting at ₹599", description: "Affordable home service pricing designed for Delhi families. Chair repair from ₹599, sofa repair from ₹999. Transparent, written quotes." },
+    { title: "Starting at ₹599", description: "Affordable home service pricing designed for Delhi families. Chair repair from ₹599, sofa repair from ₹500. Transparent, written quotes." },
     { title: "Same-Day Home Visits", description: "Book before noon for same-day furniture repair at your Delhi home. Most repairs completed within a few hours." },
     { title: "All Delhi Localities Covered", description: "South Delhi, Dwarka, Rohini, Preet Vihar, CP, and every other locality. Wherever you live in Delhi, we reach your doorstep." },
     { title: "6-Month Warranty", description: "All home service repairs backed by a 6-month written warranty. Free return visits if any issue recurs." },
@@ -173,7 +173,7 @@ export const furnitureRepairHomeServiceDelhi: SeoPageData = {
     {
       heading: "Home Service Pricing for Furniture Repair in Delhi",
       body: [
-        "<a href=\"/chair-repair-delhi\">Chair repair</a> starts at ₹599, <a href=\"/sofa-repair-delhi\">sofa repair</a> from ₹999, <a href=\"/bed-repair-delhi\">bed repair</a> from ₹1,199, and <a href=\"/wardrobe-repair-delhi\">wardrobe repair</a> from ₹799. For complete pricing across all services: <a href=\"/furniture-repair-price-list-delhi\">furniture repair price list Delhi</a>. Read our blog on <a href=\"/blog/furniture-repair-vs-replace\">furniture repair vs replace</a> to understand the economics of repair. For sofa-specific decisions: <a href=\"/blog/is-sofa-restoration-worth-it\">is sofa restoration worth it</a>.",
+        "<a href=\"/chair-repair-delhi\">Chair repair</a> starts at ₹599, <a href=\"/sofa-repair-delhi\">sofa repair</a> from ₹500, <a href=\"/bed-repair-delhi\">bed repair</a> from ₹1,199, and <a href=\"/wardrobe-repair-delhi\">wardrobe repair</a> from ₹799. For complete pricing across all services: <a href=\"/furniture-repair-price-list-delhi\">furniture repair price list Delhi</a>. Read our blog on <a href=\"/blog/furniture-repair-vs-replace\">furniture repair vs replace</a> to understand the economics of repair. For sofa-specific decisions: <a href=\"/blog/is-sofa-restoration-worth-it\">is sofa restoration worth it</a>.",
       ],
     },
     {
@@ -209,7 +209,7 @@ export const furnitureRepairHomeServiceDelhi: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const upholsteryHomeServiceDelhi: SeoPageData = {
   slug: "upholstery-home-service-delhi",
-  title: "Upholstery Home Service Delhi | Starting ₹499 | Furnirevive",
+  title: "Upholstery Home Service Delhi | Furnirevive",
   metaDescription:
     "Get upholstery home service in Delhi with doorstep service in Delhi NCR. Affordable pricing, expert carpenters, and quick service.",
   h1: "Upholstery Home Service in Delhi",
@@ -222,18 +222,18 @@ export const upholsteryHomeServiceDelhi: SeoPageData = {
     caption: "Upholstery Home Service in Delhi | Sofa re-upholstery & fabric change at home | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive's upholstery home service in Delhi provides professional fabric change, leather restoration, and cushion replacement at your doorstep. Choose from 200+ fabrics, get expert re-upholstery starting at ₹2,999, and enjoy a 6-month warranty — all without leaving your home.",
+    "FurniRevive's upholstery home service in Delhi provides professional fabric change, leather restoration, and cushion replacement at your doorstep. Choose from 200+ fabrics, get expert re-upholstery starting at ₹2,000 per seat, and enjoy a 6-month warranty — all without leaving your home.",
   intro: [
     "Upholstery work transforms the look and feel of your furniture — but the traditional model of taking sofas and chairs to a workshop is time-consuming and risky. FurniRevive's upholstery home service in Delhi brings the workshop to your doorstep. Our skilled upholstery craftsmen arrive at your home with fabric samples, foam options, and professional tools, carry out the entire re-upholstery process on-site, and leave you with furniture that looks brand new.",
     "Whether you need a complete sofa fabric change, dining chair seat replacement, cushion re-stuffing, or leather crack repair, our home service covers it all. We bring over 200 fabric options to your Delhi home — cotton, velvet, linen, microfibre, genuine leather, and faux leather in dozens of colours and patterns. You choose the perfect fabric by seeing it against your actual room décor, not under workshop lighting.",
-    "Our upholstery home service starts at ₹2,999 for a 2-seater sofa fabric change and includes foam replacement if needed. We serve every Delhi locality from Greater Kailash and Saket to Dwarka, Rohini, and Preet Vihar. Every job comes with a 6-month warranty, and most re-upholstery projects are completed in a single extended visit.",
+    "Our upholstery home service starts at ₹2,000 per seat and includes foam replacement if needed. We serve every Delhi locality from Greater Kailash and Saket to Dwarka, Rohini, and Preet Vihar. Every job comes with a 6-month warranty, and most re-upholstery projects are completed in a single extended visit.",
   ],
   whyChoose: [
     { title: "200+ Fabric Options at Your Home", description: "Our craftsmen bring an extensive fabric sample collection to your Delhi home. Choose the perfect material by seeing it in your actual room setting." },
     { title: "Complete Home-Based Service", description: "The entire re-upholstery process — from old fabric removal to new fabric fitting — is done at your home. No transport, no workshop delays." },
     { title: "Expert Upholstery Craftsmen", description: "Our upholsterers have 10+ years of specialist experience. Clean seams, tight corners, pattern matching, and precise cushion fitting." },
     { title: "Foam + Fabric + Frame Care", description: "We don't just change the outer cover. We replace worn foam, inspect the frame, and ensure your furniture is renewed inside and out." },
-    { title: "Affordable from ₹2,999", description: "Two-seater sofa re-upholstery from ₹2,999. Save 50-70% compared to buying new furniture while getting a completely customised look." },
+    { title: "Affordable from ₹2,000/seat", description: "Two-seater sofa re-upholstery from ₹2,000/seat. Save 50-70% compared to buying new furniture while getting a completely customised look." },
     { title: "6-Month Warranty", description: "All upholstery home service work is covered by a 6-month warranty. If any seam opens or material fails, we return and fix it free." },
   ],
   process: [
@@ -274,7 +274,7 @@ export const upholsteryHomeServiceDelhi: SeoPageData = {
     {
       heading: "Upholstery Home Service Cost in Delhi",
       body: [
-        "Two-seater sofa re-upholstery in mid-range fabric starts at ₹2,999. Standard 3-seater costs ₹3,999–₹7,000 depending on fabric choice. Dining chair seat replacement costs ₹800–₹2,000 per chair. All pricing includes fabric, foam replacement if needed, and labour with no hidden extras. For complete pricing: <a href=\"/furniture-repair-price-list-delhi\">furniture repair price list</a> and <a href=\"/furniture-repair-price-guide-delhi\">furniture repair price guide</a>. Coverage areas: <a href=\"/furniture-repair-greater-kailash\">Greater Kailash</a>, <a href=\"/furniture-repair-dwarka\">Dwarka</a>, <a href=\"/furniture-repair-rohini\">Rohini</a>, and across Delhi. Check <a href=\"/areas-we-serve\">areas we serve</a>.",
+        "Two-seater sofa re-upholstery in mid-range fabric starts at ₹2,000 per seat. Standard 3-seater costs ₹3,999–₹7,000 depending on fabric choice. Dining chair seat replacement costs ₹800–₹2,000 per chair. All pricing includes fabric, foam replacement if needed, and labour with no hidden extras. For complete pricing: <a href=\"/furniture-repair-price-list-delhi\">furniture repair price list</a> and <a href=\"/furniture-repair-price-guide-delhi\">furniture repair price guide</a>. Coverage areas: <a href=\"/furniture-repair-greater-kailash\">Greater Kailash</a>, <a href=\"/furniture-repair-dwarka\">Dwarka</a>, <a href=\"/furniture-repair-rohini\">Rohini</a>, and across Delhi. Check <a href=\"/areas-we-serve\">areas we serve</a>.",
       ],
     },
   ],

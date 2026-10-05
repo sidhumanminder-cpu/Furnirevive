@@ -21,9 +21,9 @@ function relatedExcluding(slug: string) {
 export const woodenFurnitureTermiteTreatmentDelhi: SeoPageData = {
   slug: "wooden-furniture-termite-treatment-delhi",
   title:
-    "Wooden Furniture Termite Treatment Delhi | Anti-Termite ₹1,500 | FurniRevive",
+    "Wooden Furniture Termite Treatment Delhi | FurniRevive",
   metaDescription:
-    "Professional wooden furniture termite treatment in Delhi NCR. Anti-termite chemical injection, borer treatment, and wood preservation. Doorstep service from ₹1,500. 6-month warranty.",
+    "Professional wooden furniture termite treatment in Delhi NCR. Anti-termite chemical injection, borer treatment, and wood preservation.",
   h1: "Wooden Furniture Termite Treatment in Delhi — Anti-Termite Service from ₹1,500",
   heroSubtitle:
     "Termites silently destroying your wooden furniture? FurniRevive provides professional anti-termite treatment, borer control, and wood preservation at your doorstep across Delhi NCR. Starting at ₹1,500 with a 6-month warranty.",
@@ -209,9 +209,9 @@ export const woodenFurnitureTermiteTreatmentDelhi: SeoPageData = {
 export const diningTableRepairDelhi: SeoPageData = {
   slug: "dining-table-repair-delhi",
   title:
-    "Dining Table Repair in Delhi | Refinishing & Restoration ₹1,200 | FurniRevive",
+    "Dining Table Repair in Delhi | FurniRevive",
   metaDescription:
-    "Expert dining table repair in Delhi NCR. Scratches, water rings, wobbly legs, glass top replacement & wood refinishing. Doorstep service from ₹1,200. 6-month warranty. Book now!",
+    "Expert dining table repair in Delhi NCR. Scratches, water rings, wobbly legs, glass top replacement & wood refinishing. Doorstep service from ₹1,200.",
   h1: "Dining Table Repair in Delhi — Refinishing & Restoration from ₹1,200",
   heroSubtitle:
     "Scratched, stained, or wobbly dining table? FurniRevive restores dining tables of all types — wooden, marble-top, glass-top, and extendable — at your doorstep across Delhi NCR. Starting at ₹1,200 with a 6-month warranty.",
@@ -414,9 +414,9 @@ export const officeChairRepairDelhi: SeoPageData = {
   slug: "office-chair-repair-delhi",
   category: "Chair Repair",
   title:
-    "Office Chair Repair Near Me Delhi | Same Day Service from ₹500 | FurniRevive",
+    "Office Chair Repair Near Me Delhi | FurniRevive",
   metaDescription:
-    "Office chair repair near me in Delhi — sinking gas lift, broken wheels, armrest & mesh fixed at your doorstep. Same day home service from ₹500. Bulk corporate rates. 6-month warranty. Call +91 92179 99355.",
+    "Office chair repair near me in Delhi — sinking gas lift, broken wheels, armrest & mesh fixed at your doorstep. Same day home service from ₹500.",
   h1: "Office Chair Repair in Delhi — Gas Lift, Wheels & Armrest Fix from ₹500",
   heroSubtitle:
     "Sinking office chair? Broken armrest? Worn-out wheels? FurniRevive repairs all office chair brands — Featherlite, Godrej, IKEA, HNI, Green Soul — at your doorstep or office across Delhi NCR. Starting at ₹500 with bulk corporate discounts.",

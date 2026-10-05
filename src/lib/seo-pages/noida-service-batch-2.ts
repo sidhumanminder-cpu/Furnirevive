@@ -5,10 +5,10 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const importedFurnitureRepairNoida: SeoPageData = {
   slug: "imported-furniture-repair-noida",
-  title: "Imported Furniture Repair in Noida | Specialists in Premium Furniture Restoration",
+  title: "Imported Furniture Repair in Noida",
   metaDescription:
-    "Expert imported furniture repair in Noida. Italian, European & luxury sofa restoration at your doorstep. All sectors covered. 6-month warranty. Call FurniRevive.",
-  h1: "Imported Furniture Repair in Noida | Specialists in Premium Furniture Restoration",
+    "Expert imported furniture repair in Noida. Italian, European & luxury sofa restoration at your doorstep. All sectors covered. 6-month warranty.",
+  h1: "Imported Furniture Repair in Noida",
   heroSubtitle:
     "Noida's specialist imported furniture repair service — Italian sofas, European luxury pieces, and premium imported furniture restored to original specification at your doorstep across Sector 44, Sector 50, Sector 121, Sector 137, Noida Extension, and Greater Noida West. Fixed pricing. 6-month warranty. Call +91 92179 99355.",
   showcaseImage: {
@@ -227,7 +227,7 @@ const recliverMotorRepairNoida: SeoPageData = {
   slug: "recliner-motor-repair-noida",
   title: "Recliner Motor Repair in Noida | Power Recliner Experts",
   metaDescription:
-    "Expert recliner motor repair in Noida. Electric, power & motorized recliner repair at your doorstep. All sectors covered. 6-month warranty. Call FurniRevive.",
+    "Expert recliner motor repair in Noida. Electric, power & motorized recliner repair at your doorstep. All sectors covered. 6-month warranty.",
   h1: "Recliner Motor Repair in Noida | Power Recliner Experts",
   heroSubtitle:
     "Noida's specialist recliner motor and power recliner repair service — electric recliners, actuator repair, motorized recliner mechanisms, and full recliner restoration at your doorstep across Sector 44, Sector 50, Sector 121, Sector 137, Noida Extension, and Greater Noida West. Fixed pricing. 6-month warranty. Call +91 92179 99355.",
@@ -436,10 +436,10 @@ const recliverMotorRepairNoida: SeoPageData = {
 
 const italianSofaRepairNoida: SeoPageData = {
   slug: "italian-sofa-repair-noida",
-  title: "Italian Sofa Repair in Noida | Imported Sofa Restoration Specialists",
+  title: "Italian Sofa Repair in Noida",
   metaDescription:
-    "Expert Italian sofa repair in Noida. Imported leather sofa restoration & luxury sofa repair at your doorstep. All sectors. 6-month warranty. Call FurniRevive.",
-  h1: "Italian Sofa Repair in Noida | Imported Sofa Restoration Specialists",
+    "Expert Italian sofa repair in Noida. Imported leather sofa restoration & luxury sofa repair at your doorstep. All sectors. 6-month warranty.",
+  h1: "Italian Sofa Repair in Noida",
   heroSubtitle:
     "Noida's specialist Italian sofa repair and imported leather sofa restoration service — Natuzzi, Poltrona Frau, B&B Italia, and all Italian luxury sofas restored to original specification at your doorstep across Sector 44, Sector 50, Sector 121, Sector 137, Noida Extension, and Greater Noida West. Fixed pricing. 6-month warranty.",
   showcaseImage: {

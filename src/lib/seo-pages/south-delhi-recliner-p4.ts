@@ -7,17 +7,15 @@ const reclinerRepairEastOfKailash: SeoPageData = {
   slug: "recliner-repair-east-of-kailash",
   title: "Recliner Repair in East of Kailash, South Delhi | Expert Service",
   metaDescription:
-    "Professional recliner repair in East of Kailash, South Delhi. Motor, mechanism, fabric & foam replacement. Same-day service at your doorstep. Call " +
-    PHONE_DISPLAY +
-    ".",
+    "Professional recliner repair in East of Kailash, South Delhi. Motor, mechanism, fabric & foam replacement. Call " + PHONE_DISPLAY + ".",
   h1: "Recliner Repair in East of Kailash, South Delhi",
   heroSubtitle:
     "Trusted recliner repair specialists serving East of Kailash apartments and residences — motor repair, mechanism fixes, fabric replacement & foam renewal. Book a doorstep visit today.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
-    altText: "Professional sofa repair technician working on an ivory premium fabric sofa in a luxury South Delhi home (East of Kailash) — FurniRevive",
-    caption: "Sofa Repair in East of Kailash | Premium upholstery & foam service | Home visit | FurniRevive",
+    heading: "Premium Recliner Repair — Expert Service at Your South Delhi Home",
+    imageUrl: "https://hercules-cdn.com/file_LOHAKGqtU1iWl0Py1MTUfn3g",
+    altText: "Professional recliner repair technician working on a cream recliner in a luxury South Delhi home (East of Kailash) — FurniRevive",
+    caption: "Recliner Repair in East of Kailash | Premium upholstery & foam service | Home visit | FurniRevive",
   },
 
   quickAnswer:

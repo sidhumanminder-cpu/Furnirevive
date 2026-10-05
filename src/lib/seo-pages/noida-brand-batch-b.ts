@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const homeCentreFurnitureRepairNoida: SeoPageData = {
   slug: "home-centre-furniture-repair-noida",
-  title: "Home Centre Furniture Repair Noida | Sofa & Recliner Restoration | FurniRevive",
-  metaDescription: "Expert Home Centre furniture repair in Noida. Sofa upholstery, recliner repair, foam replacement at your doorstep. Sectors 44-168, ATS Greens, Jaypee Greens. 6-month warranty. Call FurniRevive.",
+  title: "Home Centre Furniture Repair Noida | FurniRevive",
+  metaDescription: "Expert Home Centre furniture repair in Noida. Sofa upholstery, recliner repair, foam replacement at your doorstep.",
   h1: "Home Centre Furniture Repair in Noida | Sofa & Recliner Specialists",
   heroSubtitle: "Skilled technicians restoring Home Centre sofas, recliners, and wooden furniture -- doorstep service across all Noida sectors with matched materials and a 6-month warranty.",
   showcaseImage: {
@@ -248,8 +248,8 @@ const homeCentreFurnitureRepairNoida: SeoPageData = {
 
 const evokFurnitureRepairNoida: SeoPageData = {
   slug: "evok-furniture-repair-noida",
-  title: "Evok Furniture Repair Noida | Sofa & Wooden Furniture Restoration | FurniRevive",
-  metaDescription: "Expert Evok furniture repair in Noida. Sofa upholstery, wooden furniture restoration, recliner repair at your doorstep. All sectors, ATS Greens, Jaypee Greens. 6-month warranty. FurniRevive.",
+  title: "Evok Furniture Repair Noida | FurniRevive",
+  metaDescription: "Expert Evok furniture repair in Noida. Sofa upholstery, wooden furniture restoration, recliner repair at your doorstep.",
   h1: "Evok Furniture Repair in Noida | Sofa & Wooden Furniture Specialists",
   heroSubtitle: "Skilled technicians restoring Evok sofas, wooden furniture, and recliners at your doorstep across all Noida sectors with matched materials and a 6-month service warranty.",
   showcaseImage: {

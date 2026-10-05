@@ -4,9 +4,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 export const sofaRepairUdyogViharGurgaon: SeoPageData = {
   slug: "sofa-repair-udyog-vihar-gurgaon",
   title:
-    "Sofa Repair in Udyog Vihar Gurgaon | Office & Commercial ₹999 | FurniRevive",
+    "Sofa Repair in Udyog Vihar Gurgaon | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Udyog Vihar Gurgaon — office sofas, reception seating, co-working lounges & hospitality venues. Bulk B2B pricing, minimal downtime. Starts ₹999. 6-month warranty.",
+    "Expert sofa repair in Udyog Vihar Gurgaon — office sofas, reception seating, co-working lounges & hospitality venues. Bulk B2B pricing, minimal downtime.",
   h1: "Sofa Repair in Udyog Vihar, Gurgaon",
   heroSubtitle:
     "Udyog Vihar is Gurgaon's largest and most strategically important commercial-industrial zone — spanning Phases I through VI, it is home to thousands of corporates, MNC campuses, co-working hubs, hotels, and hospitality venues, all of which rely on high-volume seating that endures relentless daily use. FurniRevive delivers specialist office and commercial sofa repair across every phase of Udyog Vihar, with B2B pricing, bulk-order capability, and same-week scheduling designed to keep your workspace looking professional with zero unnecessary downtime.",
@@ -217,7 +217,7 @@ export const sofaRepairUdyogViharGurgaon: SeoPageData = {
     microLocationContent:
       "Full coverage across Udyog Vihar Phases I, II, III, IV, V, and VI — including all office parks, hotel properties, BPO campuses, co-working centres, and commercial complexes within the Udyog Vihar industrial-commercial zone.",
     trustSignals: [
-      "From ₹999",
+      "From ₹500",
       "6-Month Warranty",
       "GST Invoicing",
       "Bulk B2B Pricing",

@@ -9,7 +9,7 @@ export const latestSofaRepairServicesDelhi: SeoPageData = {
   slug: "latest-sofa-repair-services-delhi",
   title: "Latest Sofa Repair Services in Delhi 2026 | FurniRevive",
   metaDescription:
-    "Explore FurniRevive's complete range of sofa repair services in Delhi NCR 2026. Spring repair, foam replacement, re-upholstery, area-specific services, and more.",
+    "Explore FurniRevive's complete range of sofa repair services in Delhi NCR 2026.",
   h1: "Latest Sofa Repair Services in Delhi — 2026 Update",
   heroSubtitle:
     "Complete guide to all sofa repair services available in Delhi NCR in 2026. Explore service-specific pages, area pages, and pricing guides.",
@@ -26,7 +26,7 @@ export const latestSofaRepairServicesDelhi: SeoPageData = {
   whyChoose: [
     { title: "Complete Service Range", description: "From minor foam re-stuffing to full re-upholstery — we cover every sofa repair need in Delhi NCR." },
     { title: "Doorstep Service", description: "All services available at your doorstep. No transport needed." },
-    { title: "Starting ₹999", description: "Affordable pricing across all our sofa repair services." },
+    { title: "Starting ₹500", description: "Affordable pricing across all our sofa repair services." },
     { title: "6-Month Warranty", description: "Every service backed by a 6-month warranty." },
     { title: "Same-Day Available", description: "Same-day service available for urgent repairs across Delhi NCR." },
     { title: "Updated 2026 Pricing", description: "All pricing updated as of March 2026 to reflect current market rates." },
@@ -87,7 +87,7 @@ export const latestSofaRepairServicesDelhi: SeoPageData = {
     },
   ],
   faqs: [
-    { question: "What sofa repair services do you offer in Delhi?", answer: "We offer the complete range: cushion re-stuffing, foam replacement, spring repair, re-upholstery, leather repair, frame repair, and recliner mechanism repair. All at your doorstep starting from ₹999." },
+    { question: "What sofa repair services do you offer in Delhi?", answer: "We offer the complete range: cushion re-stuffing, foam replacement, spring repair, re-upholstery, leather repair, frame repair, and recliner mechanism repair. All at your doorstep starting from ₹500." },
     { question: "Are these services available across all of Delhi?", answer: "Yes, all services are available across Delhi and the entire NCR — Noida, Gurgaon, Ghaziabad, and Faridabad." },
   ],
   relatedPages: [

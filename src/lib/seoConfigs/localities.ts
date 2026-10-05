@@ -275,6 +275,8 @@ function toTitleCase(str: string): string {
     .split("-")
     .map((w) => {
       if (["in", "of", "at", "the", "a", "an", "and"].includes(w)) return w;
+      // Keep well-known acronyms upper-case ("Dlf" -> "DLF")
+      if (["dlf", "bptp", "nit", "huda", "sez", "mdc", "rwa"].includes(w)) return w.toUpperCase();
       return w.charAt(0).toUpperCase() + w.slice(1);
     })
     .join(" ");

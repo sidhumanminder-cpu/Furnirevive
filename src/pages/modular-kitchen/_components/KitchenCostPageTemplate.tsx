@@ -319,6 +319,11 @@ export default function KitchenCostPageTemplate({ content }: Props) {
       title: pageTitle,
       description: metaDescription,
       canonical,
+      keywords: [
+        "modular kitchen",
+        `modular kitchen cost ${content.cityDisplayName.toLowerCase()}`,
+        `modular kitchen price ${content.cityDisplayName.toLowerCase()}`,
+      ],
       ogImage: heroImage,
       ogUrl: canonical,
       ogSiteName: "FurniRevive",

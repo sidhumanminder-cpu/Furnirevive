@@ -3,13 +3,13 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const reclinerRepairPalamViharGurgaon: SeoPageData = {
   slug: "recliner-repair-palam-vihar-gurgaon",
-  title: "Recliner Repair in Palam Vihar Gurgaon | Doorstep Service ₹999 | FurniRevive",
-  metaDescription: "Expert recliner repair in Palam Vihar Gurgaon — all sectors, independent floors & societies. Motor, mechanism & upholstery repair from ₹999. Same-day available. 6-month warranty.",
+  title: "Recliner Repair in Palam Vihar Gurgaon | FurniRevive",
+  metaDescription: "Expert recliner repair in Palam Vihar Gurgaon — all sectors, independent floors & societies. Motor, mechanism & upholstery repair from ₹999.",
   h1: "Recliner Repair in Palam Vihar, Gurgaon",
   heroSubtitle: "Palam Vihar's established family homes deserve specialist recliner care. FurniRevive repairs manual and electric recliners across Sectors 2–23 — mechanisms, motors, springs, leather, foam — from ₹999. Same-day slots. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Recliner Repair — Expert Doorstep Service in Palam Vihar",
-    imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
+    imageUrl: "https://hercules-cdn.com/file_2c8bbpkuu9qh7mm9w7sbecpE",
     altText: "Professional recliner repair technician servicing a recliner mechanism at a Palam Vihar Gurgaon home — FurniRevive",
     caption: "Recliner Repair in Palam Vihar Gurgaon | Mechanism & motor specialist | Home visit | FurniRevive",
   },
@@ -158,13 +158,13 @@ export const reclinerRepairPalamViharGurgaon: SeoPageData = {
 
 export const reclinerRepairNirvanaCountryGurgaon: SeoPageData = {
   slug: "recliner-repair-nirvana-country-gurgaon",
-  title: "Recliner Repair in Nirvana Country Gurgaon | Golf Course Road | FurniRevive",
-  metaDescription: "Expert recliner repair in Nirvana Country Gurgaon — Phase 1 & 2, Nirvana Courtyard, Vipul Greens. Motor, mechanism & leather repair from ₹999. 6-month warranty.",
+  title: "Recliner Repair in Nirvana Country Gurgaon | FurniRevive",
+  metaDescription: "Expert recliner repair in Nirvana Country Gurgaon — Phase 1 & 2, Nirvana Courtyard, Vipul Greens. Motor, mechanism & leather repair from ₹999.",
   h1: "Recliner Repair in Nirvana Country, Golf Course Road Gurgaon",
   heroSubtitle: "Nirvana Country's premium villas and floors deserve expert recliner care. FurniRevive repairs luxury and standard recliners across Phase 1, Phase 2, Nirvana Courtyard, and Vipul Greens — motors, mechanisms, leather, foam — from ₹999. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Recliner Repair — Expert Service at Your Nirvana Country Home",
-    imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
+    imageUrl: "https://hercules-cdn.com/file_2c8bbpkuu9qh7mm9w7sbecpE",
     altText: "Professional recliner repair technician servicing a premium leather recliner at a Nirvana Country Gurgaon villa — FurniRevive",
     caption: "Recliner Repair in Nirvana Country Gurgaon | Premium leather & motor specialist | Home visit | FurniRevive",
   },

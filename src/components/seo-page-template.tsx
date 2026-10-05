@@ -23,6 +23,9 @@ import {
   Quote,
   type LucideIcon,
 } from "lucide-react";
+import AreaPills from "@/components/area-pills.tsx";
+import SofaSizePricing from "@/components/seo/SofaSizePricing.tsx";
+import { sofaSizePricingDecision, sofaSizeLocality } from "@/lib/seoConfigs/sofa-size-gating.ts";
 import Navbar from "@/components/navbar.tsx";
 import Footer from "@/components/footer.tsx";
 import RealRepairResults from "@/components/real-repair-results.tsx";
@@ -61,6 +64,8 @@ import {
 } from "@/lib/seo-pages/content-uniqueness.ts";
 import { getPyramidLinks } from "@/lib/seo-pages/pyramid-links.ts";
 import NearMeSection, { type CityKey } from "@/components/seo/NearMeSection.tsx";
+import { getCtaNoun, getInlineCtaLabel } from "@/lib/seoConfigs/cta-copy.ts";
+import { getLocalityInfo } from "@/lib/seoConfigs/localities.ts";
 import LocalityNearMeSection from "@/components/seo/LocalityNearMeSection.tsx";
 import NearbyAreasSection from "@/components/seo/NearbyAreasSection.tsx";
 import ServiceAvailabilitySection from "@/components/seo/ServiceAvailabilitySection.tsx";
@@ -73,6 +78,7 @@ import { resolvePageType, resolveServiceKey } from "@/lib/seoConfigs/location-gr
 import TopicalAuthoritySection from "@/components/seo/TopicalAuthoritySection.tsx";
 import { getAuthorityLinks } from "@/lib/seoConfigs/authority-engine.ts";
 import KitchenCrossLinkBanner from "@/components/kitchen-cross-link-banner.tsx";
+import ProtectedHubGrid from "@/pages/services/service-hub/_components/ProtectedHubGrid.tsx";
 
 // Map icon name strings from the utility to actual Lucide components
 const ICON_MAP: Record<string, LucideIcon> = {
@@ -174,7 +180,7 @@ function TestimonialsSection({ data }: { data: SeoPageData }) {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-3 mb-10">
           <Star className="size-6 text-amber-400 fill-amber-400" />
-          <h2 className="text-2xl sm:text-3xl font-serif font-bold">What Our {getCityDisplayLabel(data.cityKey)} Customers Say</h2>
+          <h2 className="text-2xl sm:text-3xl font-serif font-bold">What Our {getCityDisplayLabel(data.cityKey, data.slug)} Customers Say</h2>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {data.testimonials.map((t, i) => (
@@ -441,11 +447,16 @@ function getServiceAreasForCity(cityKey?: string): { heading: string; subtitle: 
         areas: TRICITY_SERVICE_AREAS,
       };
     case "noida":
+      return {
+        heading: "Service Areas in Noida",
+        subtitle: "We provide doorstep furniture repair services across Noida including:",
+        areas: NOIDA_SERVICE_AREAS,
+      };
     case "ghaziabad":
       return {
-        heading: "Service Areas in Noida & Ghaziabad",
-        subtitle: "We provide doorstep furniture repair services across Noida and Ghaziabad including:",
-        areas: NOIDA_SERVICE_AREAS,
+        heading: "Service Areas in Ghaziabad",
+        subtitle: "We provide doorstep furniture repair services across Ghaziabad including:",
+        areas: GHAZIABAD_SERVICE_AREAS,
       };
     case "gurgaon":
       return {
@@ -468,7 +479,8 @@ function getServiceAreasForCity(cityKey?: string): { heading: string; subtitle: 
   }
 }
 
-function getCityDisplayLabel(cityKey?: string): string {
+/** Falls back to the slug (and known-locality list) when a page has no explicit cityKey, so it never silently reads "Delhi". */
+function getCityDisplayLabel(cityKey: string | undefined, slug: string): string {
   const map: Record<string, string> = {
     delhi: "Delhi",
     noida: "Noida",
@@ -479,7 +491,8 @@ function getCityDisplayLabel(cityKey?: string): string {
     mohali: "Mohali",
     panchkula: "Panchkula",
   };
-  return cityKey ? (map[cityKey] ?? "Delhi") : "Delhi";
+  const key = cityKey ?? getLocalityInfo(slug).cityKey;
+  return map[key] ?? "Delhi";
 }
 
 // ─── Main template ────────────────────────────────────────────────────────
@@ -559,6 +572,33 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
     document.title = data.title;
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute("content", data.metaDescription);
+
+    // Keep Open Graph tags in sync with the page-specific title/description
+    // above. Without this, og:title/og:description stay stuck at the
+    // generic values baked into index.html for every legacy-pipeline page.
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute("content", data.title);
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", data.metaDescription);
+
+    // Sync og:url to the same page-specific URL used by the canonical link
+    // below, so social/crawler previews point at the correct page instead of "/".
+    // index.html has no static og:url tag, so create it if missing (same
+    // create-if-absent approach the canonical link below already uses).
+    let ogUrl = document.querySelector('meta[property="og:url"]');
+    if (!ogUrl) {
+      ogUrl = document.createElement("meta");
+      ogUrl.setAttribute("property", "og:url");
+      document.head.appendChild(ogUrl);
+    }
+    ogUrl.setAttribute("content", `https://furnirevive.com/${data.slug}`);
+
+    // Sync existing page-specific keywords into the existing meta keywords tag
+    // (was previously stuck on index.html's generic Delhi-focused value).
+    const metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (metaKeywords && data.keywords.length > 0) {
+      metaKeywords.setAttribute("content", data.keywords.join(", "));
+    }
 
     // Inject JSON-LD structured data — single @graph block via seo-schema.ts
     const existingScripts = document.querySelectorAll('script[data-schema="seo-page"]');
@@ -707,6 +747,9 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
         </section>
       )}
 
+      {/* Size-based starting prices — sofa-repair pages only, skipped where size tiers already exist */}
+      {sofaSizePricingDecision(data) === "show" && <SofaSizePricing locality={sofaSizeLocality(data)} />}
+
       {/* Inline CTA after pricing */}
       {data.priceTable && (
         <InlineCta label="Get your free doorstep inspection — no obligation, no hidden costs." />
@@ -758,9 +801,11 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
         <ServiceHubSection slug={data.slug} currentService={resolvedServiceKey} />
       )}
 
-      {/* Near-me section — city/hub pages only */}
-      {data.cityKey && (
-        <NearMeSection city={data.cityKey as CityKey} serviceLabel={getServiceLabel(data.slug)} />
+      {/* Near-me section — city pages use NearMeSection, all other pages use LocalityNearMeSection */}
+      {data.cityKey ? (
+        <NearMeSection city={data.cityKey as CityKey} serviceLabel={getServiceLabel(data.slug)} emitFaqSchema={false} />
+      ) : (
+        <LocalityNearMeSection slug={data.slug} emitFaqSchema={false} />
       )}
 
       {/* Location Graph sections — driven by resolved pageType */}
@@ -842,17 +887,7 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
             <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-6">
               {data.localAreasSection.heading}
             </h2>
-            <div className="flex flex-wrap gap-2">
-              {data.localAreasSection.areas.map((area) => (
-                <span
-                  key={area}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-secondary/50 border border-border rounded-full text-sm text-foreground"
-                >
-                  <MapPin className="size-3.5 text-primary" />
-                  {area}
-                </span>
-              ))}
-            </div>
+            <AreaPills areas={data.localAreasSection.areas} pageSlug={data.slug} links={data.localAreasSection.links} />
           </div>
         </section>
       )}
@@ -871,14 +906,7 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
               <>
                 <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-6">{heading}</h2>
                 <p className="text-muted-foreground mb-6">{subtitle}</p>
-                <div className="flex flex-wrap gap-2">
-                  {areas.map((area) => (
-                    <span key={area} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-background border border-border rounded-full text-sm text-foreground">
-                      <MapPin className="size-3.5 text-primary" />
-                      {area}
-                    </span>
-                  ))}
-                </div>
+                <AreaPills areas={[...areas]} pageSlug={data.slug} tone="background" />
               </>
             );
           })()}
@@ -937,14 +965,14 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
       </section>
 
       {/* Inline CTA after FAQs */}
-      <InlineCta label="Ready to restore your sofa? Book a free inspection today — same-day slots available." />
+      <InlineCta label={getInlineCtaLabel(data.slug)} />
       <section className="py-16 lg:py-20 bg-primary text-primary-foreground">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-4">
-            Ready to Restore Your Furniture?
+            Ready to Restore Your {getCtaNoun(data.slug)}?
           </h2>
           <p className="text-primary-foreground/80 mb-8 max-w-lg mx-auto">
-            Get a free quotation today. Our expert craftsmen serve all of {getCityDisplayLabel(data.cityKey)} with same-day service available.
+            Get a free quotation today. Our expert craftsmen serve all of {getCityDisplayLabel(data.cityKey, data.slug)} with same-day service available.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <a href={`tel:${PHONE_NUMBER}`}>
@@ -962,6 +990,9 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
           </div>
         </div>
       </section>
+
+      {/* Locality grid for established hub pages (no-op for every other slug) */}
+      <ProtectedHubGrid slug={data.slug} />
 
       {/* Related Pages — Pyramid links + secondary relatedPages authority layer */}
       <section className="py-10 lg:py-14">

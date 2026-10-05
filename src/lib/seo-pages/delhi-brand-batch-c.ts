@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const wakefitFurnitureRepairDelhi: SeoPageData = {
   slug: "wakefit-furniture-repair-delhi",
-  title: "Wakefit Furniture Repair in Delhi | Sofa Repair and Restoration Experts | FurniRevive",
-  metaDescription: "Expert repair services for Wakefit furniture in Delhi. Sofa bed repair, foam replacement, modular sofa repair at your doorstep. 6-month warranty. Call FurniRevive.",
+  title: "Wakefit Furniture Repair in Delhi | FurniRevive",
+  metaDescription: "Expert repair services for Wakefit furniture in Delhi. Sofa bed repair, foam replacement, modular sofa repair at your doorstep. 6-month warranty.",
   h1: "Wakefit Furniture Repair in Delhi | Sofa Restoration Experts",
   heroSubtitle: "Professional repair and restoration services for Wakefit sofas, sofa beds, modular units and ottomans across Delhi -- with 6-month service warranty and doorstep convenience.",
   showcaseImage: {
@@ -228,8 +228,8 @@ const wakefitFurnitureRepairDelhi: SeoPageData = {
 
 const woodenStreetFurnitureRepairDelhi: SeoPageData = {
   slug: "wooden-street-furniture-repair-delhi",
-  title: "Wooden Street Furniture Repair in Delhi | Sheesham Wood Restoration Experts | FurniRevive",
-  metaDescription: "Expert repair for Wooden Street furniture in Delhi. Sheesham wood crack filling, joint repair, polishing, refinishing and wooden sofa upholstery at your doorstep. 6-month warranty.",
+  title: "Wooden Street Furniture Repair in Delhi | FurniRevive",
+  metaDescription: "Expert repair for Wooden Street furniture in Delhi. Sheesham wood crack filling, joint repair, polishing.",
   h1: "Wooden Street Furniture Repair in Delhi | Sheesham Wood Restoration Specialists",
   heroSubtitle: "Professional repair and restoration for solid wood furniture purchased from Wooden Street -- sheesham crack repair, joint tightening, polishing, refinishing, and wooden sofa upholstery across Delhi.",
   showcaseImage: {

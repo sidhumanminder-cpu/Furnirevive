@@ -4,13 +4,13 @@ const recliinerRepairGreaterNoida: SeoPageData = {
   slug: "recliner-repair-greater-noida",
   title: "Recliner Repair Greater Noida | Electric Specialists",
   metaDescription:
-    "Expert recliner repair in Greater Noida — electric motor, actuator & leather restoration. Doorstep service across Alpha, Beta, Gamma & Knowledge Park. Call now!",
+    "Expert recliner repair in Greater Noida — electric motor, actuator & leather restoration. Doorstep service across Alpha, Beta, Gamma & Knowledge Park.",
   h1: "Expert Recliner Repair & Restoration in Greater Noida",
   heroSubtitle:
     "Greater Noida's planned boulevards and spacious luxury apartments deserve furniture that works as beautifully as the city was designed. Our certified technicians bring workshop-grade recliner repair straight to your door — from Pari Chowk penthouses to Knowledge Park condos.",
   showcaseImage: {
     heading: "Premium Recliner Repair — Expert Service at Your Greater Noida Home",
-    imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
+    imageUrl: "https://hercules-cdn.com/file_SkQRYzIVvyqVJZeutqrjLNvq",
     altText: "Professional recliner repair technician working on a premium electric recliner in a luxury Greater Noida apartment — FurniRevive",
     caption: "Recliner Repair in Greater Noida | Electric motor, actuator & leather restoration | Home visit | FurniRevive",
   },

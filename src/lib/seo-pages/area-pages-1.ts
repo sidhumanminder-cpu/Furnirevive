@@ -23,7 +23,7 @@ export const furnitureRepairDwarka: SeoPageData = {
   slug: "furniture-repair-dwarka",
   title: "Furniture Repair Dwarka | ₹599 Doorstep | Same-Day | FurniRevive",
   metaDescription:
-    "Expert furniture repair in Dwarka, Delhi from ₹599. Sofa, bed, wardrobe & chair repaired at doorstep. All 28 sectors covered. Same-day service. 6-month warranty. Book now!",
+    "Expert furniture repair in Dwarka, Delhi from ₹599. Sofa, bed, wardrobe & chair repaired at doorstep. All 28 sectors covered. Same-day service.",
   quickAnswer:
     "FurniRevive offers doorstep furniture repair in Dwarka, Delhi starting at ₹599. All 28 sectors are covered with same-day service available. Sofa foam replacement starts at ₹999, bed frame repair from ₹1,500. Free inspection with a 6-month written warranty on every repair.",
   h1: "Furniture Repair in Dwarka — Doorstep Service Across All Sectors",
@@ -163,7 +163,7 @@ export const furnitureRepairDwarka: SeoPageData = {
       heading: "Recliner and Upholstery Services in Dwarka — Specialist Expertise",
       body: [
         "Motorised recliners have become a staple in Dwarka's larger DDA flats, particularly in Sectors 6, 10, 12, 18, 19, and 21. When a motor burns out, the footrest locks, or the backrest won't recline, most families assume a new sofa is the only answer. Our specialised <a href='/recliner-motor-repair-delhi'>recliner motor repair service</a> proves otherwise — motor replacement, switch repair, cable reconnection, and mechanism realignment restore full function at a fraction of replacement cost. Our <a href='/recliner-repair-cost-delhi'>recliner repair cost guide</a> details pricing for every scenario: cable replacement (₹800–₹1,500), mechanism overhaul (₹1,499–₹4,000), and full motor replacement (₹3,000–₹6,000). We also fix <a href='/sofa-spring-repair-delhi'>sofa spring issues</a> in recliner base sections and address structural damage through our <a href='/sofa-frame-repair-delhi'>sofa frame repair service</a>.",
-        "Upholstery transformation is our most visually dramatic service. Our <a href='/sofa-upholstery-price-list-delhi'>sofa upholstery price list for Delhi</a> catalogues 500+ fabric options — from durable polyester blends at ₹3,000 per seat to premium Belgian velvet at ₹10,000–₹12,000 per seat. Our <a href='/sofa-foam-replacement-cost-delhi'>sofa foam replacement cost guide</a> explains the quality spectrum and helps Dwarka residents choose between a budget fix and a long-lasting solution. For a complete sofa economics view, our <a href='/sofa-repair-cost-delhi'>Delhi sofa repair cost resource</a> combines all variables into a total cost comparison. All upholstery and mechanism work is backed by our 6-month warranty through the broader <a href='/sofa-repair-delhi'>Delhi sofa repair service</a>.",
+        "Upholstery transformation is our most visually dramatic service. Our <a href='/sofa-upholstery-price-list-delhi'>sofa upholstery price list for Delhi</a> catalogues 500+ fabric options — from durable polyester blends at ₹2,000 per seat to premium Belgian velvet at ₹10,000–₹12,000 per seat. Our <a href='/sofa-foam-replacement-cost-delhi'>sofa foam replacement cost guide</a> explains the quality spectrum and helps Dwarka residents choose between a budget fix and a long-lasting solution. For a complete sofa economics view, our <a href='/sofa-repair-cost-delhi'>Delhi sofa repair cost resource</a> combines all variables into a total cost comparison. All upholstery and mechanism work is backed by our 6-month warranty through the broader <a href='/sofa-repair-delhi'>Delhi sofa repair service</a>.",
       ],
     },
     {
@@ -188,7 +188,7 @@ export const furnitureRepairDwarka: SeoPageData = {
     {
       question: "What is the starting price for furniture repair in Dwarka?",
       answer:
-        "Furniture repair in Dwarka starts at ₹599 for basic fixes. Sofa cushion repair starts at ₹999. We provide a free doorstep inspection and detailed written quote before any work begins.",
+        "Furniture repair in Dwarka starts at ₹599 for basic fixes. Sofa cushion repair starts at ₹500. We provide a free doorstep inspection and detailed written quote before any work begins.",
     },
     {
       question: "Do you repair furniture in Dwarka DDA flats?",
@@ -263,7 +263,7 @@ export const furnitureRepairRohini: SeoPageData = {
   slug: "furniture-repair-rohini",
   title: "Furniture Repair Rohini | ₹599 Doorstep | Same-Day | FurniRevive",
   metaDescription:
-    "Expert furniture repair in Rohini, Delhi from ₹599. Sofa, bed & wardrobe repaired at doorstep. All 38 sectors covered. Same-day service. 6-month warranty. Book now!",
+    "Expert furniture repair in Rohini, Delhi from ₹599. Sofa, bed & wardrobe repaired at doorstep. All 38 sectors covered. Same-day service. 6-month warranty.",
   quickAnswer:
     "FurniRevive provides doorstep furniture repair across all 38 Rohini sectors starting at ₹599. Sofa cushion replacement begins at ₹999, bed frame repair from ₹1,500, wardrobe hinge fix from ₹499. Same-day service available. Free inspection and 6-month warranty included with every repair.",
   h1: "Furniture Repair in Rohini — Expert Doorstep Service All Sectors",
@@ -386,7 +386,7 @@ export const furnitureRepairRohini: SeoPageData = {
     {
       question: "What is the cheapest furniture repair in Rohini?",
       answer:
-        "Basic repairs like chair re-gluing and hinge replacement start at ₹599. Sofa cushion repair starts at ₹999. A free doorstep inspection and written quote are always provided first.",
+        "Basic repairs like chair re-gluing and hinge replacement start at ₹599. Sofa cushion repair starts at ₹500. A free doorstep inspection and written quote are always provided first.",
     },
     {
       question: "Do you repair furniture in Pitampura and Shalimar Bagh?",
@@ -459,11 +459,11 @@ export const furnitureRepairRohini: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairSouthDelhi: SeoPageData = {
   slug: "sofa-repair-south-delhi",
-  title: "Sofa Repair South Delhi | ₹999 Doorstep | Same-Day | FurniRevive",
+  title: "Sofa Repair South Delhi | ₹500 Doorstep | Same-Day | FurniRevive",
   metaDescription:
-    "Expert sofa repair in South Delhi — GK, Saket, Vasant Kunj, Hauz Khas, Defence Colony. Foam, leather & reupholstery from ₹999 at doorstep. Same-day. 6-month warranty. Book now!",
+    "Expert sofa repair in South Delhi — GK, Saket, Vasant Kunj, Hauz Khas, Defence Colony. Foam, leather & reupholstery from ₹500 at doorstep. Same-day.",
   quickAnswer:
-    "FurniRevive offers premium sofa repair in South Delhi starting at ₹999. Leather crack repair from ₹2,999, full reupholstery from ₹4,000 per seat. All localities — GK, Saket, Vasant Kunj, Hauz Khas — covered with same-day doorstep service and a 6-month written warranty.",
+    "FurniRevive offers premium sofa repair in South Delhi starting at ₹500. Leather crack repair from ₹2,999, full reupholstery from ₹2,000 per seat. All localities — GK, Saket, Vasant Kunj, Hauz Khas — covered with same-day doorstep service and a 6-month written warranty.",
   h1: "Sofa Repair in South Delhi — Premium Doorstep Restoration Service",
   heroSubtitle:
     "Professional sofa repair across South Delhi's premium neighbourhoods — Greater Kailash, Saket, Vasant Kunj, Hauz Khas, Defence Colony, Lajpat Nagar, Green Park, and more. Leather restoration, reupholstery, foam replacement, and mechanism repair with a 6-month warranty.",
@@ -546,6 +546,20 @@ export const sofaRepairSouthDelhi: SeoPageData = {
     "Background-verified craftsmen with premium furniture experience",
     "Transparent pricing — detailed written quotes before work",
   ],
+  localAreasSection: {
+    heading: "Areas We Serve in South Delhi",
+    areas: ["Saket", "Vasant Kunj", "Malviya Nagar", "Greater Kailash", "Hauz Khas", "Defence Colony", "Lajpat Nagar", "South Extension"],
+    links: {
+      "Saket": "sofa-repair-saket",
+      "Vasant Kunj": "sofa-repair-vasant-kunj",
+      "Malviya Nagar": "sofa-repair-malviya-nagar",
+      "Greater Kailash": "sofa-repair-greater-kailash",
+      "Hauz Khas": "sofa-repair-hauz-khas",
+      "Defence Colony": "sofa-repair-defence-colony",
+      "Lajpat Nagar": "sofa-repair-lajpat-nagar",
+      "South Extension": "sofa-repair-south-extension",
+    },
+  },
   contentSections: [
     {
       heading: "Sofa Repair Services for South Delhi Homes",
@@ -590,7 +604,7 @@ export const sofaRepairSouthDelhi: SeoPageData = {
     {
       question: "How much does sofa repair cost in South Delhi?",
       answer:
-        "Cushion foam replacement starts at ₹999. Leather crack repair from ₹2,999. Fabric reupholstery from ₹4,000/seat. Full 3-seater restoration ₹15,000–₹35,000. Free doorstep quote provided.",
+        "Cushion foam replacement starts at ₹999. Leather crack repair from ₹2,999. Fabric reupholstery from ₹2,000/seat. Full 3-seater restoration ₹15,000–₹35,000. Free doorstep quote provided.",
     },
     {
       question: "Can you repair designer and custom-made sofas?",

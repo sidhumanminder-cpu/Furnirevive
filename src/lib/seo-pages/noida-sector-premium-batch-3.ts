@@ -3,7 +3,7 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const sofaRepairSector134Noida: SeoPageData = {
   slug: "sofa-repair-sector-134-noida",
-  title: "Sofa Repair in Sector 134 Noida | Doorstep Sofa Repair Experts | FurniRevive",
+  title: "Sofa Repair in Sector 134 Noida | FurniRevive",
   metaDescription:
     "Expert sofa repair in Sector 134 Noida with doorstep service. Cushion foam, fabric tears, leatherette peeling & frame repair. 6-month warranty. Book now!",
   h1: "Sofa Repair in Sector 134 Noida | Trusted Furniture Repair Specialists",
@@ -16,7 +16,7 @@ const sofaRepairSector134Noida: SeoPageData = {
     caption: "Sofa Repair in Noida (Sector 134) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides professional sofa repair in Sector 134 Noida starting at ₹999. We offer doorstep service for cushion foam replacement, fabric tear repair, leatherette peeling, armrest restoration, and frame tightening — with a 6-month service warranty.",
+    "FurniRevive provides professional sofa repair in Sector 134 Noida starting at ₹500. We offer doorstep service for cushion foam replacement, fabric tear repair, leatherette peeling, armrest restoration, and frame tightening — with a 6-month service warranty.",
   intro: [
     `Sector 134 sits at Noida's southern edge near the Greater Noida border, home to large residential communities where families depend heavily on their sofas every single day. Whether you live in <strong>Amrapali Princely Estate</strong>, <strong>Gaur City 2</strong>, <strong>RG Luxury Homes</strong>, or <strong>Mahagun Mywoods</strong>, your sofa faces real-world punishment — kids jumping on cushions, pets clawing at fabric, and the inevitable wear that comes with a busy household. FurniRevive brings <a href="/sofa-repair-noida">professional sofa repair in Noida</a> directly to your door, so you never have to haul heavy furniture across the city.`,
     `The most common sofa complaints we hear from Sector 134 residents are flat cushion foam, torn fabric upholstery, peeling leatherette armrests, and wobbly frames — typically caused by moving flats within the same complex or relocating from another part of Noida. Our craftsmen are experienced with both fabric and leatherette sofas in the mid-to-premium segment that are popular in this locality. We also handle <a href="/leather-sofa-repair-noida">leather sofa repair</a>, <a href="/recliner-repair-noida">recliner repair</a>, and <a href="/sofa-upholstery-noida">complete sofa upholstery in Noida</a> for homeowners looking to refresh their living rooms without the cost of buying new furniture.`,
@@ -44,7 +44,7 @@ const sofaRepairSector134Noida: SeoPageData = {
         "A wobbly sofa frame is a safety hazard. We tighten joints, replace broken wooden slats, re-tension spring webbing, and reinforce corner blocks — restoring full structural integrity so your sofa lasts another decade.",
     },
     {
-      title: "Transparent Pricing Starting at ₹999",
+      title: "Transparent Pricing Starting at ₹500",
       description:
         "We provide a detailed written estimate before any work begins. Cushion foam replacement starts at ₹999, full upholstery from ₹3,000. No hidden charges, no surprise bills on completion day.",
     },
@@ -152,7 +152,7 @@ const sofaRepairSector134Noida: SeoPageData = {
     {
       question: "How much does sofa repair cost in Sector 134 Noida?",
       answer:
-        "Sofa repair in Sector 134 starts at ₹999 for basic repairs such as stitching, minor spring work, or leg replacement. Cushion foam replacement costs ₹999–₹2,500 per seat. Full upholstery rework is ₹3,000–₹15,000 depending on size and material. Recliner repair is ₹1,499–₹6,000. We provide a free itemised quote at your doorstep before beginning any work.",
+        "Sofa repair in Sector 134 starts at ₹500 for basic repairs such as stitching, minor spring work, or leg replacement. Cushion foam replacement costs ₹999–₹2,500 per seat. Full upholstery rework is ₹3,000–₹15,000 depending on size and material. Recliner repair is ₹1,499–₹6,000. We provide a free itemised quote at your doorstep before beginning any work.",
     },
     {
       question: "Do you provide doorstep sofa repair service in Amrapali Princely Estate?",
@@ -271,9 +271,9 @@ const sofaRepairSector134Noida: SeoPageData = {
 
 const sofaRepairSector142Noida: SeoPageData = {
   slug: "sofa-repair-sector-142-noida",
-  title: "Sofa Repair in Sector 142 Noida | Doorstep Sofa Repair Experts | FurniRevive",
+  title: "Sofa Repair in Sector 142 Noida | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Sector 142 Noida — upholstery refresh, recliner motor repair & foam replacement. Doorstep service, 6-month warranty. Book today!",
+    "Professional sofa repair in Sector 142 Noida — upholstery refresh, recliner motor repair & foam replacement. Doorstep service, 6-month warranty.",
   h1: "Sofa Repair in Sector 142 Noida | Trusted Furniture Repair Specialists",
   heroSubtitle:
     "Serving Mahagun Mywoods, Arihant Arden & Ace Golfshire residents. Upholstery upgrades, recliner repairs & foam replacement at your doorstep. 6-month warranty guaranteed.",
@@ -284,11 +284,11 @@ const sofaRepairSector142Noida: SeoPageData = {
     caption: "Sofa Repair in Noida (Sector 142) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides expert sofa repair in Sector 142 Noida starting at ₹999. We specialise in upholstery upgrades for 3–5 year old sofas, recliner cable and motor repairs, foam compression fixes, and spring noise elimination — all carried out at your doorstep with a 6-month warranty.",
+    "FurniRevive provides expert sofa repair in Sector 142 Noida starting at ₹500. We specialise in upholstery upgrades for 3–5 year old sofas, recliner cable and motor repairs, foam compression fixes, and spring noise elimination — all carried out at your doorstep with a 6-month warranty.",
   intro: [
     `Sector 142 is one of the fastest-growing residential zones along the Noida Expressway, home to premium tower societies like <strong>Mahagun Mywoods</strong>, <strong>Arihant Arden</strong>, and <strong>Ace Golfshire</strong>. As these communities mature, residents who moved in 3–5 years ago are now finding that their sofas — purchased when the flats were new — are showing their age. Upholstery fading, foam compression, recliner failures, and spring noise are the most common complaints we hear. FurniRevive's <a href="/sofa-repair-noida">sofa repair service in Noida</a> is perfectly positioned to address exactly these issues with doorstep service and premium materials.`,
     `The Sector 142 demographic skews toward working professionals and dual-income households who value quality and convenience. Recliners are particularly popular in this locality, and our <a href="/recliner-repair-noida">recliner repair service</a> is in high demand — covering both manual cable mechanisms and electric motor-driven models. For sofas that are structurally sound but visually tired, our <a href="/sofa-upholstery-noida">sofa upholstery service in Noida</a> delivers a complete transformation. We also handle <a href="/imported-furniture-repair-noida">imported furniture repair</a> and <a href="/luxury-furniture-restoration-noida">luxury furniture restoration</a> for the premium and international sofa brands common in this zone.`,
-    `FurniRevive has built a strong presence across the <a href="/sofa-repair-noida-expressway">Noida Expressway belt</a>, serving <a href="/sofa-repair-noida-sector-143">Sector 143</a>, <a href="/sofa-repair-noida-sector-137">Sector 137</a>, <a href="/sofa-repair-sector-145-noida">Sector 145</a>, and beyond. Our transparent pricing starts at ₹999, every repair comes with a 6-month written warranty, and our technicians are available seven days a week. Book your free doorstep assessment in Sector 142 today — and discover how much life is still left in your sofa.`,
+    `FurniRevive has built a strong presence across the <a href="/sofa-repair-noida-expressway">Noida Expressway belt</a>, serving <a href="/sofa-repair-noida-sector-143">Sector 143</a>, <a href="/sofa-repair-noida-sector-137">Sector 137</a>, <a href="/sofa-repair-sector-145-noida">Sector 145</a>, and beyond. Our transparent pricing starts at ₹500, every repair comes with a 6-month written warranty, and our technicians are available seven days a week. Book your free doorstep assessment in Sector 142 today — and discover how much life is still left in your sofa.`,
   ],
   whyChoose: [
     {
@@ -312,7 +312,7 @@ const sofaRepairSector142Noida: SeoPageData = {
         "We understand that working professionals cannot spend a day waiting for repairmen. We offer precise appointment windows, arrive on time, and complete most repairs within 2–4 hours without disrupting your home.",
     },
     {
-      title: "Transparent Pricing Starting at ₹999",
+      title: "Transparent Pricing Starting at ₹500",
       description:
         "Our pricing is always disclosed before work begins. From a simple spring tightening at ₹999 to a full luxury upholstery rework at ₹15,000, you know exactly what you are paying — and why.",
     },
@@ -420,7 +420,7 @@ const sofaRepairSector142Noida: SeoPageData = {
     {
       question: "How much does sofa repair cost in Sector 142 Noida?",
       answer:
-        "Sofa repair in Sector 142 starts at ₹999 for basic repairs. Foam replacement is ₹999–₹2,500 per seat. Full upholstery renewal is ₹3,000–₹15,000 depending on size and material. Recliner cable repair starts at ₹1,499 and motor replacement goes up to ₹6,000. The doorstep assessment and quote are always free.",
+        "Sofa repair in Sector 142 starts at ₹500 for basic repairs. Foam replacement is ₹999–₹2,500 per seat. Full upholstery renewal is ₹3,000–₹15,000 depending on size and material. Recliner cable repair starts at ₹1,499 and motor replacement goes up to ₹6,000. The doorstep assessment and quote are always free.",
     },
     {
       question: "Do you repair sofas in Mahagun Mywoods Sector 142?",

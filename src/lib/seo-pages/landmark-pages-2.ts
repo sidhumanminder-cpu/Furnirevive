@@ -21,9 +21,9 @@ function relatedExcluding(slug: string) {
 // ---------------------------------------------------------------------------
 export const furnitureRepairVasantKunj: SeoPageData = {
   slug: "furniture-repair-vasant-kunj",
-  title: "Furniture Repair in Vasant Kunj Delhi | Doorstep ₹599 | FurniRevive",
+  title: "Furniture Repair in Vasant Kunj Delhi | FurniRevive",
   metaDescription:
-    "Professional furniture repair in Vasant Kunj, Munirka, R.K. Puram, Saket & surrounding South Delhi areas. Sofa, bed, wardrobe, dining table repair. 6-month warranty. ₹599 onwards.",
+    "K. Puram, Saket & surrounding South Delhi areas. Sofa, bed, wardrobe, dining table repair. 6-month warranty. ₹599 onwards.",
   h1: "Furniture Repair in Vasant Kunj & Surrounding South-West Delhi Areas",
   heroSubtitle:
     "Expert furniture repair at your doorstep in Vasant Kunj Sectors A–D, DDA flats, Munirka, R.K. Puram, Saket, Vasant Vihar, Kishangarh, and Mahipalpur. Sofa, bed, dining table, wardrobe — all repaired with a 6-month warranty starting at ₹599.",
@@ -62,7 +62,7 @@ export const furnitureRepairVasantKunj: SeoPageData = {
     {
       title: "Starting at ₹599",
       description:
-        "Minor repairs from ₹599, sofa cushion work from ₹999. Transparent written quotes. No hidden charges or area surcharges.",
+        "Minor repairs from ₹599, sofa cushion work from ₹500. Transparent written quotes. No hidden charges or area surcharges.",
     },
     {
       title: "6-Month Written Warranty",
@@ -165,7 +165,7 @@ export const furnitureRepairVasantKunj: SeoPageData = {
     {
       question: "What is the cheapest furniture repair in Vasant Kunj?",
       answer:
-        "Basic repairs start at ₹599 — chair re-gluing, hinge replacement, and minor fixes. Sofa cushion repair from ₹999. Free inspection and quote provided.",
+        "Basic repairs start at ₹599 — chair re-gluing, hinge replacement, and minor fixes. Sofa cushion repair from ₹500. Free inspection and quote provided.",
     },
     {
       question: "Do you provide multi-piece repair packages for Vasant Kunj?",
@@ -203,12 +203,12 @@ export const furnitureRepairVasantKunj: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairNoidaExpressway: SeoPageData = {
   slug: "sofa-repair-noida-expressway",
-  title: "Sofa Repair Noida Expressway | High-Rise Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Noida Expressway | High-Rise Doorstep ₹500",
   metaDescription:
-    "Expert sofa repair along Noida Expressway — Sectors 93–168, Amity, Jaypee Greens, Pari Chowk, Gaur City & Greater Noida West. Reupholstery, foam, frame repair. 6-month warranty.",
+    "Expert sofa repair along Noida Expressway — Sectors 93–168, Amity, Jaypee Greens, Pari Chowk, Gaur City & Greater Noida West.",
   h1: "Sofa Repair Along Noida Expressway — High-Rise Doorstep Service",
   heroSubtitle:
-    "Professional sofa repair at your doorstep across Noida Expressway societies — Sectors 93–168, Jaypee Greens, Amity University area, Pari Chowk, Gaur City, Ace City, Supertech, ATS, and all Greater Noida West societies. Cushion replacement, reupholstery, leather repair, and recliner servicing from ₹999 with a 6-month warranty.",
+    "Professional sofa repair at your doorstep across Noida Expressway societies — Sectors 93–168, Jaypee Greens, Amity University area, Pari Chowk, Gaur City, Ace City, Supertech, ATS, and all Greater Noida West societies. Cushion replacement, reupholstery, leather repair, and recliner servicing from ₹500 with a 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Expressway Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -218,7 +218,7 @@ export const sofaRepairNoidaExpressway: SeoPageData = {
   intro: [
     "The Noida Expressway corridor — stretching from Sector 93 near the Delhi border all the way to Pari Chowk and Greater Noida West — has become one of the fastest-growing residential zones in the entire Delhi NCR region. Tens of thousands of families now live in high-rise societies along this corridor: ATS, Supertech, Jaypee, Gaur, Ace, Mahagun, Prateek, Amrapali, Paramount, and dozens of other builder developments. These modern apartments come with modern furniture — L-shaped sectional sofas, premium recliners, modular seating sets, and designer sofas purchased from online brands and Noida's furniture showrooms.",
     "FurniRevive provides professional doorstep sofa repair to every society along the Noida Expressway and Greater Noida West corridor. We understand the unique requirements of high-rise apartment living: our technicians arrive with all materials in bags that fit in society lifts, work with protective sheeting on apartment flooring, and complete repairs without disturbing neighbours. We handle every sofa type found in these modern apartments — fabric, leather, rexine, velvet, L-shaped, sectional, recliner, and sofa cum bed.",
-    "Starting at ₹999 with a 6-month warranty, our sofa repair service is the practical alternative to replacing expensive sofas. A sofa that cost ₹30,000–₹80,000 just 3–4 years ago can be fully restored for ₹8,000–₹18,000 — saving you significant money while keeping furniture that perfectly fits your apartment layout. Call +91 92179 99355 or WhatsApp photos for an estimate.",
+    "Starting at ₹500 with a 6-month warranty, our sofa repair service is the practical alternative to replacing expensive sofas. A sofa that cost ₹30,000–₹80,000 just 3–4 years ago can be fully restored for ₹8,000–₹18,000 — saving you significant money while keeping furniture that perfectly fits your apartment layout. Call +91 92179 99355 or WhatsApp photos for an estimate.",
   ],
   whyChoose: [
     {
@@ -247,9 +247,9 @@ export const sofaRepairNoidaExpressway: SeoPageData = {
         "Our Noida-based team covers the Expressway corridor with same-day availability for bookings before noon. Fast response to all sectors.",
     },
     {
-      title: "6-Month Warranty from ₹999",
+      title: "6-Month Warranty from ₹500",
       description:
-        "All sofa repairs backed by a 6-month written warranty. Starting at ₹999. Transparent pricing — written quotes before any work.",
+        "All sofa repairs backed by a 6-month written warranty. Starting at ₹500. Transparent pricing — written quotes before any work.",
     },
   ],
   process: [
@@ -286,7 +286,7 @@ export const sofaRepairNoidaExpressway: SeoPageData = {
     "Sofa frame reinforcement for wood and metal frames",
     "High-rise apartment–friendly service with floor protection",
     "Same-day service from Noida-based technicians",
-    "6-month written warranty from ₹999",
+    "6-month written warranty from ₹500",
   ],
   contentSections: [
     {
@@ -385,9 +385,9 @@ export const sofaRepairNoidaExpressway: SeoPageData = {
 export const furnitureRepairGolfCourseRoad: SeoPageData = {
   slug: "furniture-repair-golf-course-road-gurgaon",
   title:
-    "Furniture Repair Golf Course Road Gurgaon | Near Me ₹599 | Premium Doorstep Service",
+    "Furniture Repair Golf Course Road Gurgaon | Near Me ₹599",
   metaDescription:
-    "Premium furniture repair near me on Golf Course Road Gurgaon — Sohna Road, Golf Course Extension, South City, Nirvana Country, Sector 56–57. Sofa, bed, wardrobe repair. 6-month warranty.",
+    "Premium furniture repair near me on Golf Course Road Gurgaon — Sohna Road, Golf Course Extension, South City, Nirvana Country, Sector 56–57.",
   h1: "Furniture Repair Near Me on Golf Course Road & South Gurgaon — Premium Doorstep Service",
   heroSubtitle:
     "Expert furniture repair at your doorstep along Golf Course Road, Golf Course Extension Road, Sohna Road, South City, Nirvana Country, Sectors 42–57, and all premium South Gurgaon residences. Leather sofa restoration, imported furniture repair, wardrobe servicing, and complete home furniture repair — with a 6-month warranty.",

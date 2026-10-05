@@ -5,12 +5,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const sofaRepairFriendsColony: SeoPageData = {
   slug: "sofa-repair-friends-colony",
-  title: "Sofa Repair in Friends Colony | Trusted Local Specialists | FurniRevive",
+  title: "Sofa Repair in Friends Colony | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Friends Colony, South Delhi from ₹999. Leather restoration, foam replacement, recliner repair at your doorstep. Same-day service, 6-month warranty. Call FurniRevive.",
+    "Expert sofa repair in Friends Colony, South Delhi from ₹500. Leather restoration, foam replacement, recliner repair at your doorstep.",
   h1: "Sofa Repair in Friends Colony, South Delhi",
   heroSubtitle:
-    "Friends Colony's distinguished homes deserve distinguished furniture care. FurniRevive brings premium doorstep sofa restoration to Friends Colony East, West, and beyond — from ₹999. 6-month warranty on every repair.",
+    "Friends Colony's distinguished homes deserve distinguished furniture care. FurniRevive brings premium doorstep sofa restoration to Friends Colony East, West, and beyond — from ₹500. 6-month warranty on every repair.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
     imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
@@ -18,11 +18,11 @@ export const sofaRepairFriendsColony: SeoPageData = {
     caption: "Sofa Repair in Friends Colony | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Friends Colony — covering Friends Colony East, Friends Colony West, New Friends Colony, Ashram, Maharani Bagh, and the Mathura Road corridor — starting at ₹999. Our craftsmen are specialists in Italian leather restoration, premium recliner mechanisms, designer fabric matching, and high-resilience foam replacement. Every job begins with a free on-site assessment and ends with a transparent, fixed quote and a 6-month workmanship warranty. Same-day afternoon slots are available for morning bookings.",
+    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Friends Colony — covering Friends Colony East, Friends Colony West, New Friends Colony, Ashram, Maharani Bagh, and the Mathura Road corridor — starting at ₹500. Our craftsmen are specialists in Italian leather restoration, premium recliner mechanisms, designer fabric matching, and high-resilience foam replacement. Every job begins with a free on-site assessment and ends with a transparent, fixed quote and a 6-month workmanship warranty. Same-day afternoon slots are available for morning bookings.",
   intro: [
     "Friends Colony occupies a unique position in South Delhi's residential hierarchy — a colony where the quality of daily life is evident in every carefully tended garden and every meticulously furnished drawing room. The homes in Friends Colony East and West are not merely lived in; they are curated over years and sometimes decades, with furniture that reflects not just taste but intention. The Italian leather sofa that anchors the drawing room was chosen after weeks of showroom visits. The custom sectional was commissioned from a Kirti Nagar workshop and built to the precise dimensions of the room. These are pieces with history, and when they begin to need care — whether a <a href=\"/leather-sofa-repair-south-delhi\">leather sofa restoration in South Delhi</a> or a structural rebuild after years of devoted family use — they deserve a restoration partner with equal intention.",
     "FurniRevive's South Delhi team has worked across Friends Colony, the lanes near Ashram Chowk, Maharani Bagh's bungalow streets, and the residential pockets along Mathura Road for years. We understand the furniture profile of this area intimately — the preference for full-grain and semi-aniline leathers sourced from Greater Kailash importers, the prevalence of European-style modular sectionals, the heritage teak-framed sofas that have been part of the family since the colony was built. We are part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair network in Delhi</a>, but with a South Delhi depth that makes every Friends Colony job feel like a neighbourhood service call rather than a generic home visit. We also serve the extended area including <a href=\"/sofa-repair-maharani-bagh\">Maharani Bagh</a> and <a href=\"/sofa-repair-new-friends-colony\">New Friends Colony</a> with the same craftsmen and the same standards.",
-    "Whether you are dealing with leather that has cracked in another harsh Delhi AC season, a sofa frame that creaks and shifts at the joints after years of family use, a recliner mechanism that jams mid-motion and requires our <a href=\"/recliner-repair-south-delhi\">expert recliner repair service</a>, or an upholstery fabric that has faded beyond what the room can accept — we bring the solution to your door. The starting rate is ₹999 for minor repairs, with the free on-site assessment establishing a precise, fixed quote before a single stitch is touched. The 6-month workmanship warranty means every completed repair is backed unconditionally by the team that did the work. This is <a href=\"/sofa-repair-south-delhi\">South Delhi sofa repair</a> delivered at the standard Friends Colony homes have always expected.",
+    "Whether you are dealing with leather that has cracked in another harsh Delhi AC season, a sofa frame that creaks and shifts at the joints after years of family use, a recliner mechanism that jams mid-motion and requires our <a href=\"/recliner-repair-south-delhi\">expert recliner repair service</a>, or an upholstery fabric that has faded beyond what the room can accept — we bring the solution to your door. The starting rate is ₹500 for minor repairs, with the free on-site assessment establishing a precise, fixed quote before a single stitch is touched. The 6-month workmanship warranty means every completed repair is backed unconditionally by the team that did the work. This is <a href=\"/sofa-repair-south-delhi\">South Delhi sofa repair</a> delivered at the standard Friends Colony homes have always expected.",
   ],
   whyChoose: [
     {
@@ -41,7 +41,7 @@ export const sofaRepairFriendsColony: SeoPageData = {
         "Call or WhatsApp before noon and we can typically confirm a same-day afternoon appointment in Friends Colony. We maintain dedicated South Delhi craftsmen on standby specifically to minimise the wait between noticing a problem and having it professionally addressed. Afternoon bookings typically receive a next-morning slot. A broken recliner or a cracked leather armrest should not wait a week — and with FurniRevive, it generally doesn't have to.",
     },
     {
-      title: "Pricing from ₹999 — Transparent and Fully Fixed Before Work Begins",
+      title: "Pricing from ₹500 — Transparent and Fully Fixed Before Work Begins",
       description:
         "After the free on-site assessment, you receive a single, itemised quote. That number is fixed at that point — it does not increase because a hidden material cost appeared, or because the craftsman decided the labour was more complex than anticipated, or because a part needed sourcing. What you approve is exactly what you pay. For the premium furniture typical of Friends Colony, this level of pricing transparency matters — and we are proud to offer it without exception.",
     },
@@ -164,7 +164,7 @@ export const sofaRepairFriendsColony: SeoPageData = {
     {
       question: "How much does sofa repair cost in Friends Colony?",
       answer:
-        "Minor repairs — re-stitching, joint tightening, basic conditioning — start at ₹999. Foam replacement for a 3-seater: ₹3,500–₹6,500. Leather reconditioning and crack treatment: ₹2,500–₹5,000. Full 3-seater re-upholstery: ₹5,000–₹14,000 depending on fabric choice. Recliner mechanism repair: ₹1,500–₹9,000 depending on fault type. The free on-site assessment gives you a precise, itemised quote for your specific sofa before any decision is required.",
+        "Minor repairs — re-stitching, joint tightening, basic conditioning — start at ₹500. Foam replacement for a 3-seater: ₹3,500–₹6,500. Leather reconditioning and crack treatment: ₹2,500–₹5,000. Full 3-seater re-upholstery: ₹5,000–₹14,000 depending on fabric choice. Recliner mechanism repair: ₹1,500–₹9,000 depending on fault type. The free on-site assessment gives you a precise, itemised quote for your specific sofa before any decision is required.",
     },
     {
       question: "Do you offer same-day sofa repair in Friends Colony?",
@@ -202,9 +202,9 @@ export const sofaRepairFriendsColony: SeoPageData = {
         "Ashram, Maharani Bagh, and the Mathura Road residential corridor are all within our standard Friends Colony service zone. No additional travel charge applies, and the same craftsmen, same pricing, and same warranty cover your address. When booking, simply mention your location and we'll confirm coverage.",
     },
     {
-      question: "Is the ₹999 starting price genuine, or does the actual cost always end up much higher?",
+      question: "Is the ₹500 starting price genuine, or does the actual cost always end up much higher?",
       answer:
-        "₹999 is a genuine starting rate for minor repairs — basic re-stitching, simple tightening, small patch work on localised damage. Most comprehensive sofa restoration in Friends Colony, involving foam replacement, leather treatment, or re-upholstery, falls in the ₹4,000–₹18,000 range depending on scope. The free on-site assessment always gives you a precise figure before any commitment is made.",
+        "₹500 is a genuine starting rate for minor repairs — basic re-stitching, simple tightening, small patch work on localised damage. Most comprehensive sofa restoration in Friends Colony, involving foam replacement, leather treatment, or re-upholstery, falls in the ₹4,000–₹18,000 range depending on scope. The free on-site assessment always gives you a precise figure before any commitment is made.",
     },
     {
       question: "Do you provide a warranty on repairs?",
@@ -240,12 +240,12 @@ export const sofaRepairFriendsColony: SeoPageData = {
 
 export const sofaRepairMaharaniBagh: SeoPageData = {
   slug: "sofa-repair-maharani-bagh",
-  title: "Sofa Repair in Maharani Bagh | Expert Upholstery ₹999 | FurniRevive",
+  title: "Sofa Repair in Maharani Bagh | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Maharani Bagh, South Delhi from ₹999. Leather care, fabric upholstery, recliner fix at home. Same-day doorstep service, 6-month warranty. FurniRevive.",
+    "Professional sofa repair in Maharani Bagh, South Delhi from ₹500. Leather care, fabric upholstery, recliner fix at home.",
   h1: "Sofa Repair in Maharani Bagh, South Delhi",
   heroSubtitle:
-    "Maharani Bagh's elegant bungalows hold South Delhi's most distinguished furniture. FurniRevive brings premium doorstep restoration to your door — from ₹999, covering Ashram Chowk, New Friends Colony & Defence Colony.",
+    "Maharani Bagh's elegant bungalows hold South Delhi's most distinguished furniture. FurniRevive brings premium doorstep restoration to your door — from ₹500, covering Ashram Chowk, New Friends Colony & Defence Colony.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
     imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
@@ -253,11 +253,11 @@ export const sofaRepairMaharaniBagh: SeoPageData = {
     caption: "Sofa Repair in Maharani Bagh | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Maharani Bagh starting at ₹999. We cover the full Maharani Bagh area — including the bungalow lanes toward Ashram Chowk, Kalindi Colony, New Friends Colony, Defence Colony, and the Ring Road corridor — with specialist craftsmen trained in Italian leather restoration, premium fabric upholstery, and luxury recliner mechanisms. Same-day afternoon slots for morning bookings. 6-month workmanship warranty on every job.",
+    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Maharani Bagh starting at ₹500. We cover the full Maharani Bagh area — including the bungalow lanes toward Ashram Chowk, Kalindi Colony, New Friends Colony, Defence Colony, and the Ring Road corridor — with specialist craftsmen trained in Italian leather restoration, premium fabric upholstery, and luxury recliner mechanisms. Same-day afternoon slots for morning bookings. 6-month workmanship warranty on every job.",
   intro: [
     "Maharani Bagh is one of South Delhi's most quietly distinguished residential enclaves — a tree-lined colony of bungalows where the quality of daily life is matched by the quality of the furniture within those homes. The drawing rooms here are not decorated; they are composed. An Italian leather suite chosen with the same deliberateness as the house itself. A custom sectional built by a Kirti Nagar master craftsman to fit a specific room. A heritage wooden sofa that has been in the family across three generations and carries more meaning than any furniture catalogue can quantify. When these pieces need care — whether <a href=\"/leather-sofa-repair-south-delhi\">specialist leather sofa restoration</a> or structural renewal after years of devoted use — they deserve a craftsman with the skill to match their quality.",
     "FurniRevive's South Delhi team has served Maharani Bagh and the surrounding pocket for years. We understand the furniture that lives in these homes — the imported European leather, the custom-built sectionals, the handcrafted teak pieces that arrived in a previous era and have survived everything Delhi could throw at them. We are part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair network in Delhi</a>, with a South Delhi presence built on years of working in homes just like yours. Our standard service area extends naturally from Maharani Bagh into <a href=\"/sofa-repair-friends-colony\">Friends Colony</a>, <a href=\"/sofa-repair-new-friends-colony\">New Friends Colony</a>, Ashram Chowk, Kalindi Colony, and the Defence Colony corridor — all under the same pricing and the same unconditional 6-month warranty.",
-    "Whether your sofa has developed leather cracking from another brutal Delhi AC season, sagging foam that makes sitting feel like an ergonomic test, a recliner mechanism that has finally given out after years of daily use and needs our <a href=\"/recliner-repair-south-delhi\">expert recliner repair service in South Delhi</a>, or a frame joint that creaks and shifts — we bring the solution to your Maharani Bagh home. Starting at ₹999 for minor repairs, with a free on-site assessment establishing a precise, itemised quote before work begins. The 6-month warranty means your repair is backed unconditionally, and the same-day slot availability means you don't have to wait.",
+    "Whether your sofa has developed leather cracking from another brutal Delhi AC season, sagging foam that makes sitting feel like an ergonomic test, a recliner mechanism that has finally given out after years of daily use and needs our <a href=\"/recliner-repair-south-delhi\">expert recliner repair service in South Delhi</a>, or a frame joint that creaks and shifts — we bring the solution to your Maharani Bagh home. Starting at ₹500 for minor repairs, with a free on-site assessment establishing a precise, itemised quote before work begins. The 6-month warranty means your repair is backed unconditionally, and the same-day slot availability means you don't have to wait.",
   ],
   whyChoose: [
     {
@@ -276,7 +276,7 @@ export const sofaRepairMaharaniBagh: SeoPageData = {
         "For bookings made before noon, we typically confirm same-day afternoon appointments in Maharani Bagh. South Delhi craftsmen are kept available specifically for rapid response — because a cracked leather surface that remains untreated through another AC season deepens, and a mechanism fault that is ignored can cause further damage to the mechanism housing. Early intervention is both better for the furniture and cheaper for the homeowner.",
     },
     {
-      title: "₹999 Starting Rate — Fully Transparent, Fixed Before Work Begins",
+      title: "₹500 Starting Rate — Fully Transparent, Fixed Before Work Begins",
       description:
         "The free on-site assessment produces an itemised quote that is fixed from that moment. The number does not change because of a mid-job material discovery or a revised labour estimate. What you approve is precisely what you pay. For Maharani Bagh's premium furniture — pieces that represent significant investment and personal meaning — this pricing transparency is not just reassuring, it is the only way we would work.",
     },
@@ -394,7 +394,7 @@ export const sofaRepairMaharaniBagh: SeoPageData = {
     {
       question: "How much does sofa repair cost in Maharani Bagh?",
       answer:
-        "Minor repairs start at ₹999. Foam replacement for a 3-seater: ₹3,500–₹6,500. Leather reconditioning and crack treatment: ₹2,500–₹5,500. Full 3-seater re-upholstery: ₹7,000–₹16,000. Recliner mechanism repair: ₹1,500–₹9,000. The free on-site assessment provides a precise, itemised quote for your specific sofa before any work begins.",
+        "Minor repairs start at ₹500. Foam replacement for a 3-seater: ₹3,500–₹6,500. Leather reconditioning and crack treatment: ₹2,500–₹5,500. Full 3-seater re-upholstery: ₹7,000–₹16,000. Recliner mechanism repair: ₹1,500–₹9,000. The free on-site assessment provides a precise, itemised quote for your specific sofa before any work begins.",
     },
     {
       question: "Can you repair a heritage teak sofa that has significant frame damage?",
@@ -470,12 +470,12 @@ export const sofaRepairMaharaniBagh: SeoPageData = {
 
 export const sofaRepairSouthExtension: SeoPageData = {
   slug: "sofa-repair-south-extension",
-  title: "Sofa Repair in South Extension | Expert Upholstery & Restoration | FurniRevive",
+  title: "Sofa Repair in South Extension | FurniRevive",
   metaDescription:
-    "Expert sofa repair in South Extension (South Ex), Delhi from ₹999. Leather restoration, foam replacement, recliner repair at your door. Same-day service available. 6-month warranty.",
+    "Expert sofa repair in South Extension (South Ex), Delhi from ₹500. Leather restoration, foam replacement, recliner repair at your door.",
   h1: "Sofa Repair in South Extension, South Delhi",
   heroSubtitle:
-    "South Extension's premium residential and commercial community deserves furniture care at the same standard. FurniRevive brings expert doorstep sofa repair to South Ex Part 1 and Part 2 from ₹999, with same-day slots and a 6-month warranty.",
+    "South Extension's premium residential and commercial community deserves furniture care at the same standard. FurniRevive brings expert doorstep sofa repair to South Ex Part 1 and Part 2 from ₹500, with same-day slots and a 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
     imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
@@ -483,11 +483,11 @@ export const sofaRepairSouthExtension: SeoPageData = {
     caption: "Sofa Repair in South Extension | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep sofa repair across South Extension — covering South Ex Part 1, South Ex Part 2, Defence Colony, AIIMS area, and Lajpat Nagar — starting at ₹999. Our craftsmen specialise in Italian leather restoration, premium fabric upholstery, recliner mechanism repair, and high-resilience foam replacement. Every job includes a free on-site assessment, a fixed transparent quote, and a 6-month workmanship warranty. Same-day afternoon slots are available for morning bookings.",
+    "FurniRevive provides 4.8-star rated doorstep sofa repair across South Extension — covering South Ex Part 1, South Ex Part 2, Defence Colony, AIIMS area, and Lajpat Nagar — starting at ₹500. Our craftsmen specialise in Italian leather restoration, premium fabric upholstery, recliner mechanism repair, and high-resilience foam replacement. Every job includes a free on-site assessment, a fixed transparent quote, and a 6-month workmanship warranty. Same-day afternoon slots are available for morning bookings.",
   intro: [
     "South Extension is one of Delhi's most layered neighbourhoods — a place where premium residential life and curated commercial activity share streets with a particular energy that is hard to find elsewhere in the city. The homes in South Ex Part 1 and Part 2 occupy that stratum of South Delhi residential life where furniture is chosen with seriousness: Italian leather suites from the premium showrooms that line Ring Road, custom sectionals configured to specific drawing room dimensions, recliner chairs sourced from Greater Kailash importers, heritage wooden sofas from a previous era that have simply refused to age badly. When this furniture needs professional care — whether <a href=\"/leather-sofa-repair-south-delhi\">specialist leather restoration</a> or comprehensive structural renewal — it deserves a partner with the training to match its quality.",
     "FurniRevive's South Delhi team serves South Extension regularly and understands the furniture profile of this area well. We are part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair network in Delhi</a>, with a dedicated South Delhi presence covering South Ex, <a href=\"/sofa-repair-south-delhi\">South Delhi broadly</a>, the Defence Colony corridor, and the AIIMS-adjacent residential streets. Our <a href=\"/furniture-repair-delhi\">furniture repair team in Delhi</a> handles everything from a simple conditioning treatment for a leather sofa showing its first cracks to a complete structural restoration of a sagging sectional that has been the centrepiece of a South Extension drawing room for a decade. We also cover the neighbouring Lajpat Nagar residential areas.",
-    "The service model is simple: one booking brings a specialist craftsman to your South Extension home, a free on-site assessment establishes a precise and fixed quote, and a 6-month workmanship warranty backs every repaired element unconditionally. For recliners that need mechanism repair, we offer the same <a href=\"/recliner-repair-south-delhi\">expert recliner repair available across South Delhi</a>. For furniture that needs re-upholstery, our 40+ swatch kit travels with the craftsman. Starting at ₹999. No workshop transport. No surprises.",
+    "The service model is simple: one booking brings a specialist craftsman to your South Extension home, a free on-site assessment establishes a precise and fixed quote, and a 6-month workmanship warranty backs every repaired element unconditionally. For recliners that need mechanism repair, we offer the same <a href=\"/recliner-repair-south-delhi\">expert recliner repair available across South Delhi</a>. For furniture that needs re-upholstery, our 40+ swatch kit travels with the craftsman. Starting at ₹500. No workshop transport. No surprises.",
   ],
   whyChoose: [
     {
@@ -506,7 +506,7 @@ export const sofaRepairSouthExtension: SeoPageData = {
         "South Extension homes with active household use cannot afford to have a damaged sofa out of commission for a week. For morning bookings, we typically confirm same-day afternoon appointments. Our South Delhi craftsmen are kept available for rapid response — because a cracked leather surface or a failed recliner mechanism should be addressed promptly, not queued for a week.",
     },
     {
-      title: "₹999 Starting Price — Precise, Fixed Quote After Free Assessment",
+      title: "₹500 Starting Price — Precise, Fixed Quote After Free Assessment",
       description:
         "The free on-site assessment produces a single, itemised quote that is fixed from that point forward. No mid-job revisions, no additional material charges, no revised labour estimates. The number you approve is the number you pay. For South Extension's premium furniture, this transparency is the foundation of every job we do.",
     },
@@ -624,7 +624,7 @@ export const sofaRepairSouthExtension: SeoPageData = {
     {
       question: "How much does sofa repair cost in South Extension?",
       answer:
-        "Minor repairs start at ₹999. Foam replacement for a 3-seater: ₹3,500–₹6,500. Leather crack treatment: ₹3,000–₹6,000. Full 3-seater re-upholstery: ₹7,000–₹16,000. Recliner mechanism repair: ₹1,500–₹9,000. The free on-site assessment gives a precise, itemised quote for your specific sofa.",
+        "Minor repairs start at ₹500. Foam replacement for a 3-seater: ₹3,500–₹6,500. Leather crack treatment: ₹3,000–₹6,000. Full 3-seater re-upholstery: ₹7,000–₹16,000. Recliner mechanism repair: ₹1,500–₹9,000. The free on-site assessment gives a precise, itemised quote for your specific sofa.",
     },
     {
       question: "Can you repair a sofa in a high-floor apartment in South Ex Part 2?",

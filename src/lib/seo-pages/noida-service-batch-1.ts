@@ -242,7 +242,7 @@ const sofaFoamReplacementNoida: SeoPageData = {
   slug: "sofa-foam-replacement-noida",
   title: "Sofa Foam Replacement in Noida | Restore Comfort & Support",
   metaDescription:
-    "Expert sofa foam replacement in Noida. High-density cushion rebuilding & sagging sofa repair at your doorstep. All sectors covered. 6-month warranty. FurniRevive.",
+    "Expert sofa foam replacement in Noida. High-density cushion rebuilding & sagging sofa repair at your doorstep. All sectors covered. 6-month warranty.",
   h1: "Sofa Foam Replacement in Noida | Restore Comfort & Support",
   heroSubtitle:
     "Is your Noida sofa sagging, sinking, or no longer supporting you the way it did when new? FurniRevive's foam replacement specialists restore original seat comfort across all Noida sectors — Sector 50, Sector 75, Sector 121, Sector 137, Noida Extension, Raj Nagar Extension, and Greater Noida West. Premium high-density foam at your doorstep. From ₹999. 6-month warranty.",
@@ -465,10 +465,10 @@ const sofaFoamReplacementNoida: SeoPageData = {
 
 const luxuryFurnitureRestorationNoida: SeoPageData = {
   slug: "luxury-furniture-restoration-noida",
-  title: "Luxury Furniture Restoration in Noida | Premium Furniture Revival Experts",
+  title: "Luxury Furniture Restoration in Noida",
   metaDescription:
-    "Expert luxury furniture restoration in Noida. Premium sofa, imported & designer furniture revival at your doorstep. All sectors. 6-month warranty. Call FurniRevive.",
-  h1: "Luxury Furniture Restoration in Noida | Premium Furniture Revival Experts",
+    "Expert luxury furniture restoration in Noida. Premium sofa, imported & designer furniture revival at your doorstep. All sectors. 6-month warranty.",
+  h1: "Luxury Furniture Restoration in Noida",
   heroSubtitle:
     "Noida's premier luxury furniture restoration specialists. Imported sofas, Italian furniture, designer pieces, and premium upholstery — restored to showroom condition at your doorstep across Sector 44, Sector 50, Sector 121, Sector 137, Noida Extension, and Greater Noida West. 6-month warranty. Transparent pricing. Call +91 92179 99355.",
   showcaseImage: {
@@ -587,7 +587,7 @@ const luxuryFurnitureRestorationNoida: SeoPageData = {
     {
       question: "What is the cost of luxury furniture restoration in Noida?",
       answer:
-        "Luxury furniture restoration in Noida is priced by element: structural repairs from ₹3,000, foam replacement ₹6,000–₹12,000 for a sofa set, leather restoration ₹8,000–₹25,000, full sofa restoration ₹25,000–₹75,000. Fixed itemised quote after free on-site assessment.",
+        "Luxury furniture restoration in Noida is priced by element: structural repairs from ₹2,000 per seat, foam replacement ₹6,000–₹12,000 for a sofa set, leather restoration ₹8,000–₹25,000, full sofa restoration ₹25,000–₹75,000. Fixed itemised quote after free on-site assessment.",
     },
     {
       question: "Do you restore Italian furniture in Noida?",

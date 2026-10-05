@@ -5,8 +5,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const durianFurnitureRepairChandigarh: SeoPageData = {
   slug: "durian-furniture-repair-chandigarh",
-  title: "Durian Furniture Repair in Chandigarh | Leather & Recliner Restoration | FurniRevive",
-  metaDescription: "Expert Durian furniture repair in Chandigarh. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep across all sectors, Mohali & Panchkula. 6-month warranty. Call FurniRevive.",
+  title: "Durian Furniture Repair in Chandigarh | FurniRevive",
+  metaDescription: "Expert Durian furniture repair in Chandigarh. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep across all sectors.",
   h1: "Durian Furniture Repair in Chandigarh | Premium Leather & Recliner Specialists",
   heroSubtitle: "Skilled technicians with hands-on experience restoring Durian leather sofas, motorised recliners, and solid-wood pieces -- brought back to showroom condition at your doorstep across Chandigarh Tricity.",
   showcaseImage: {
@@ -198,8 +198,8 @@ const durianFurnitureRepairChandigarh: SeoPageData = {
 
 const urbanLadderFurnitureRepairChandigarh: SeoPageData = {
   slug: "urban-ladder-furniture-repair-chandigarh",
-  title: "Urban Ladder Furniture Repair in Chandigarh | Fabric Sofa Restoration | FurniRevive",
-  metaDescription: "Expert Urban Ladder furniture repair in Chandigarh. Fabric sofa restoration, foam replacement, L-shaped sectional repair at your doorstep across all sectors, Mohali & Panchkula. 6-month warranty.",
+  title: "Urban Ladder Furniture Repair in Chandigarh | FurniRevive",
+  metaDescription: "Expert Urban Ladder furniture repair in Chandigarh. Fabric sofa restoration, foam replacement.",
   h1: "Urban Ladder Furniture Repair in Chandigarh | Fabric Sofa Specialists",
   heroSubtitle: "Skilled technicians restoring Urban Ladder fabric sofas, L-shaped sectionals, and contemporary apartment furniture -- at your doorstep across Chandigarh Tricity.",
   showcaseImage: {
@@ -369,8 +369,8 @@ const urbanLadderFurnitureRepairChandigarh: SeoPageData = {
 
 const durianFurnitureRepairMohali: SeoPageData = {
   slug: "durian-furniture-repair-mohali",
-  title: "Durian Furniture Repair in Mohali | Leather & Recliner Restoration | FurniRevive",
-  metaDescription: "Expert Durian furniture repair in Mohali. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep across all phases, Aerocity, IT City, Zirakpur & Kharar. 6-month warranty.",
+  title: "Durian Furniture Repair in Mohali | FurniRevive",
+  metaDescription: "Expert Durian furniture repair in Mohali. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep across all phases, Aerocity.",
   h1: "Durian Furniture Repair in Mohali | Premium Leather & Recliner Specialists",
   heroSubtitle: "Skilled technicians restoring Durian leather sofas, motorised recliners, and solid-wood pieces at your doorstep across Mohali -- Phase 1–11, Aerocity, IT City, Zirakpur, and Kharar.",
   showcaseImage: {
@@ -523,8 +523,8 @@ const durianFurnitureRepairMohali: SeoPageData = {
 
 const urbanLadderFurnitureRepairMohali: SeoPageData = {
   slug: "urban-ladder-furniture-repair-mohali",
-  title: "Urban Ladder Furniture Repair in Mohali | Fabric Sofa Restoration | FurniRevive",
-  metaDescription: "Expert Urban Ladder furniture repair in Mohali. Fabric sofa restoration, foam replacement, L-shaped sectional repair at your doorstep across all phases, Aerocity, IT City & Zirakpur. 6-month warranty.",
+  title: "Urban Ladder Furniture Repair in Mohali | FurniRevive",
+  metaDescription: "Expert Urban Ladder furniture repair in Mohali. Fabric sofa restoration, foam replacement, L-shaped sectional repair at your doorstep across all phases.",
   h1: "Urban Ladder Furniture Repair in Mohali | Fabric Sofa Specialists",
   heroSubtitle: "Skilled technicians restoring Urban Ladder fabric sofas, L-shaped sectionals, and contemporary apartment furniture -- at your doorstep across Mohali.",
   showcaseImage: {
@@ -677,8 +677,8 @@ const urbanLadderFurnitureRepairMohali: SeoPageData = {
 
 const durianFurnitureRepairPanchkula: SeoPageData = {
   slug: "durian-furniture-repair-panchkula",
-  title: "Durian Furniture Repair in Panchkula | Leather & Recliner Restoration | FurniRevive",
-  metaDescription: "Expert Durian furniture repair in Panchkula. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep across Sector 1–21, MDC Sector 4 & 5, Kalka & Pinjore. 6-month warranty.",
+  title: "Durian Furniture Repair in Panchkula | FurniRevive",
+  metaDescription: "Expert Durian furniture repair in Panchkula. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep across Sector 1–21.",
   h1: "Durian Furniture Repair in Panchkula | Premium Leather & Recliner Specialists",
   heroSubtitle: "Skilled technicians restoring Durian leather sofas, motorised recliners, and solid-wood pieces at your doorstep across Panchkula -- all sectors, MDC colonies, Kalka, and Pinjore.",
   showcaseImage: {
@@ -830,8 +830,8 @@ const durianFurnitureRepairPanchkula: SeoPageData = {
 
 const urbanLadderFurnitureRepairPanchkula: SeoPageData = {
   slug: "urban-ladder-furniture-repair-panchkula",
-  title: "Urban Ladder Furniture Repair in Panchkula | Fabric Sofa Restoration | FurniRevive",
-  metaDescription: "Expert Urban Ladder furniture repair in Panchkula. Fabric sofa restoration, foam replacement, L-shaped sectional repair at your doorstep across Sector 1–21, MDC Sector 4 & 5, Kalka & Dhakoli. 6-month warranty.",
+  title: "Urban Ladder Furniture Repair in Panchkula | FurniRevive",
+  metaDescription: "Expert Urban Ladder furniture repair in Panchkula. Fabric sofa restoration, foam replacement.",
   h1: "Urban Ladder Furniture Repair in Panchkula | Fabric Sofa Specialists",
   heroSubtitle: "Skilled technicians restoring Urban Ladder fabric sofas, L-shaped sectionals, and contemporary furniture -- at your doorstep across Panchkula.",
   showcaseImage: {

@@ -2,9 +2,9 @@ import type { SeoPageData } from "@/lib/seo-constants.ts";
 
 const sofaRepairSector16aFaridabad: SeoPageData = {
   slug: "sofa-repair-sector-16a-faridabad",
-  title: "Sofa Repair in Sector 16A Faridabad | FurniRevive – Doorstep Service",
+  title: "Sofa Repair in Sector 16A Faridabad",
   metaDescription:
-    "Expert sofa repair in Sector 16A Faridabad. Foam replacement from ₹999/seat, reupholstery ₹3,000–₹15,000/seat. 6-month warranty. Same-day doorstep service. Call +91 92179 99355.",
+    "Expert sofa repair in Sector 16A Faridabad. Foam replacement from ₹999/seat, reupholstery ₹3,000–₹15,000/seat. 6-month warranty. Same-day doorstep service.",
   h1: "Sofa Repair in Sector 16A Faridabad",
   heroSubtitle:
     "Professional doorstep sofa repair for residents of Sector 16A, Faridabad — foam replacement, reupholstery & spring fixing with a 6-month warranty.",
@@ -15,7 +15,7 @@ const sofaRepairSector16aFaridabad: SeoPageData = {
     caption: "Sofa Repair in Sector 16A Faridabad | Foam replacement & reupholstery | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers expert sofa repair in Sector 16A Faridabad with doorstep service, foam replacement from ₹999/seat, reupholstery from ₹3,000/seat, and a 6-month warranty. Call +91 92179 99355 for same-day booking.",
+    "FurniRevive offers expert sofa repair in Sector 16A Faridabad with doorstep service, foam replacement from ₹999/seat, reupholstery from ₹2,000/seat, and a 6-month warranty. Call +91 92179 99355 for same-day booking.",
   intro: [
     "Sector 16A in Faridabad is one of the city's well-established residential zones, home to multi-storey apartments, independent houses, and cooperative housing societies near the NIT Faridabad belt. Residents here invest heavily in premium sofas and sectional sets to furnish spacious drawing rooms — and when those sofas lose their shape, develop sagging seats, or show worn-out fabric, FurniRevive is the trusted name they call. Our technicians service all of Sector 16A, including the pocket societies near Mathura Road and the residential clusters bordering Sector 15.",
     "Our sofa repair process is completely doorstep-based. We arrive at your home in Sector 16A with all tools, foam grades, and fabric swatches needed to complete most repairs in a single visit. Whether you have a three-seater leather sofa from a brand showroom or a custom-made velvet sectional, our craftsmen assess the damage, explain the repair scope in plain language, and get to work only after your approval. We handle ripped fabric, broken frames, snapped springs, sunken cushions, and wobbly legs — all under one roof.",
@@ -201,7 +201,7 @@ const sofaRepairSector16aFaridabad: SeoPageData = {
 
 const sofaRepairSector21cFaridabad: SeoPageData = {
   slug: "sofa-repair-sector-21c-faridabad",
-  title: "Sofa Repair in Sector 21C Faridabad | FurniRevive – Same-Day Doorstep",
+  title: "Sofa Repair in Sector 21C Faridabad",
   metaDescription:
     "Sofa repair in Sector 21C Faridabad by FurniRevive. Foam replacement from ₹999/seat, reupholstery ₹3,000–₹15,000. 6-month warranty. Call +91 92179 99355.",
   h1: "Sofa Repair in Sector 21C Faridabad",
@@ -214,7 +214,7 @@ const sofaRepairSector21cFaridabad: SeoPageData = {
     caption: "Sofa Repair in Sector 21C Faridabad | Foam, springs & reupholstery | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides doorstep sofa repair in Sector 21C Faridabad. Foam replacement starts at ₹999/seat, reupholstery at ₹3,000/seat, with a 6-month warranty. Book now at +91 92179 99355.",
+    "FurniRevive provides doorstep sofa repair in Sector 21C Faridabad. Foam replacement starts at ₹999/seat, reupholstery at ₹2,000/seat, with a 6-month warranty. Book now at +91 92179 99355.",
   intro: [
     "Sector 21C is one of Faridabad's most vibrant residential sectors, featuring a mix of builder floors, independent houses, and group housing societies close to the YMCA Chowk and the Faridabad-Badarpur highway corridor. Many households in this area own high-end sofas — L-shaped sectionals, recliner sets, and imported leather couches — that accumulate wear over the years. FurniRevive has been restoring these sofas to like-new condition with our reliable, doorstep repair service across all of Sector 21C.",
     "Our repair vans carry all the materials needed for on-site work: high-density foam rolls, spring wire, upholstery fabric swatches, and structural hardware. When you call us for sofa repair in Sector 21C, we schedule a convenient slot, arrive on time, and complete the assessment before presenting a clear, itemised quote. Only after your approval do we begin any repair work — there are no surprises on the final bill.",
@@ -402,7 +402,7 @@ const recliferSofaRepairNoida: SeoPageData = {
   slug: "recliner-sofa-repair-noida",
   title: "Recliner Sofa Repair in Noida | FurniRevive – Doorstep Service",
   metaDescription:
-    "Expert recliner sofa repair in Noida. Mechanism replacement, foam refilling, reupholstery from ₹1,499. 6-month warranty. Doorstep service. Call +91 92179 99355.",
+    "Expert recliner sofa repair in Noida. Mechanism replacement, foam refilling, reupholstery from ₹1,499. 6-month warranty. Doorstep service.",
   h1: "Recliner Sofa Repair in Noida",
   heroSubtitle:
     "Specialised doorstep recliner sofa repair across Noida sectors — mechanisms, foam, motors, and upholstery fixed by certified craftsmen with a 6-month warranty.",
@@ -413,11 +413,11 @@ const recliferSofaRepairNoida: SeoPageData = {
     caption: "Recliner Sofa Repair in Noida | Mechanism, motor & upholstery | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive specialises in recliner sofa repair in Noida with doorstep service. Mechanism repair starts at ₹1,499, foam replacement from ₹999/seat, reupholstery from ₹3,000/seat. 6-month warranty. Call +91 92179 99355.",
+    "FurniRevive specialises in recliner sofa repair in Noida with doorstep service. Mechanism repair starts at ₹1,499, foam replacement from ₹999/seat, reupholstery from ₹2,000/seat. 6-month warranty. Call +91 92179 99355.",
   intro: [
     "Noida's rapidly expanding residential landscape — from the high-rise societies of Sector 50 and Sector 137 to the villa communities of Sector 44 and the apartments lining Expressway sectors — is filled with recliner sofas. These premium pieces, whether manual or power-operated, are beloved for their comfort but are also among the most technically complex sofas to repair. FurniRevive has built a dedicated recliner repair division to serve Noida residents, combining mechanical expertise with upholstery craftsmanship to restore recliners of all makes and models.",
     "Recliner repairs are different from standard sofa repairs because they involve moving parts — metal locking mechanisms, side release handles, motorised actuators (in power recliners), USB charging ports, and heat/massage components. Our technicians are trained specifically on recliner mechanisms from brands like La-Z-Boy, Durian, Furlenco, IKEA, and local manufacturers. We carry commonly needed spare parts on our vans and can source brand-specific components for rarer models within 1–2 working days.",
-    "Beyond mechanisms, we also fix recliner foam, springs, and upholstery. If your leather recliner has developed cracks, your velvet recliner has stains that won't come off, or your fabric recliner simply needs a colour change, our reupholstery team can transform it entirely starting at ₹3,000 per seat. Every recliner repair in Noida is backed by our 6-month workmanship warranty. Call +91 92179 99355 to book your doorstep repair today.",
+    "Beyond mechanisms, we also fix recliner foam, springs, and upholstery. If your leather recliner has developed cracks, your velvet recliner has stains that won't come off, or your fabric recliner simply needs a colour change, our reupholstery team can transform it entirely starting at ₹2,000 per seat. Every recliner repair in Noida is backed by our 6-month workmanship warranty. Call +91 92179 99355 to book your doorstep repair today.",
   ],
   whyChoose: [
     {
@@ -443,7 +443,7 @@ const recliferSofaRepairNoida: SeoPageData = {
     {
       title: "Complete Upholstery Overhaul",
       description:
-        "From cracked leather to stained fabric, we reupholster recliners in your choice of material — leather, faux leather, velvet, or premium fabric — from ₹3,000/seat.",
+        "From cracked leather to stained fabric, we reupholster recliners in your choice of material — leather, faux leather, velvet, or premium fabric — from ₹2,000/seat.",
     },
     {
       title: "6-Month Warranty on Every Job",
@@ -477,7 +477,7 @@ const recliferSofaRepairNoida: SeoPageData = {
     "Doorstep recliner repair across all Noida sectors",
     "Mechanism repair from ₹1,499",
     "Foam seat replacement from ₹999/seat",
-    "Reupholstery from ₹3,000/seat in 200+ fabric options",
+    "Reupholstery from ₹2,000/seat in 200+ fabric options",
     "Motor and wiring repair for power recliners",
     "Compatible parts for La-Z-Boy, Durian, IKEA, and local brands",
     "6-month warranty on all repairs",
@@ -554,7 +554,7 @@ const recliferSofaRepairNoida: SeoPageData = {
     {
       question: "Can you reupholster a leather recliner in Noida?",
       answer:
-        "Absolutely. We reupholster recliners in genuine leather, premium faux leather, velvet, and fabric. Reupholstery starts at ₹3,000/seat with a 200+ swatch selection.",
+        "Absolutely. We reupholster recliners in genuine leather, premium faux leather, velvet, and fabric. Reupholstery starts at ₹2,000/seat with a 200+ swatch selection.",
     },
     {
       question: "Is there a warranty on recliner repairs in Noida?",
@@ -603,7 +603,7 @@ const sofaRepairOldFaridabad: SeoPageData = {
   slug: "sofa-repair-old-faridabad",
   title: "Sofa Repair in Old Faridabad | FurniRevive – Doorstep & Same-Day",
   metaDescription:
-    "Expert sofa repair in Old Faridabad. Foam replacement from ₹999/seat, reupholstery ₹3,000–₹15,000. 6-month warranty. Doorstep service. Call +91 92179 99355.",
+    "Expert sofa repair in Old Faridabad. Foam replacement from ₹999/seat, reupholstery ₹3,000–₹15,000. 6-month warranty. Doorstep service.",
   h1: "Sofa Repair in Old Faridabad",
   heroSubtitle:
     "Trusted doorstep sofa repair for Old Faridabad — serving Model Town, BK Chowk, Sarai Khwaja, and surrounding areas with foam, spring & reupholstery expertise.",
@@ -618,7 +618,7 @@ const sofaRepairOldFaridabad: SeoPageData = {
   intro: [
     "Old Faridabad is one of the city's most historically rooted areas, encompassing well-known localities like Model Town, BK Chowk, Sarai Khwaja, Old Faridabad Railway Station vicinity, and the congested but vibrant markets of Subhash Chowk. The residential homes and apartments here range from older kothi-style houses with spacious living rooms to modern flats in newly constructed societies. Many families in this area own classic wooden-framed sofas and traditional designs passed down through generations — all of which benefit greatly from skilled repair and restoration rather than costly replacement.",
     "FurniRevive has been serving Old Faridabad residents for years, building a trusted reputation through word-of-mouth referrals in the mohallas and colony WhatsApp groups of this area. Our craftsmen understand the specific furniture styles popular here — from the heavy teak-frame three-seaters to double-seater jute-weave designs — and have the materials and skills to restore them correctly. Foam replacement, cane weaving, spring replacement, reupholstery, and structural carpentry are all available as doorstep services.",
-    "Affordability is a priority for our Old Faridabad clients. Foam replacement starts at ₹999 per seat, and full reupholstery using domestic fabric starts at ₹3,000 per seat. For customers who want a premium finish, imported fabrics and genuine leather options are available up to ₹15,000 per seat. All work is backed by a 6-month warranty. To book a free inspection in Old Faridabad, call +91 92179 99355.",
+    "Affordability is a priority for our Old Faridabad clients. Foam replacement starts at ₹999 per seat, and full reupholstery using domestic fabric starts at ₹2,000 per seat. For customers who want a premium finish, imported fabrics and genuine leather options are available up to ₹15,000 per seat. All work is backed by a 6-month warranty. To book a free inspection in Old Faridabad, call +91 92179 99355.",
   ],
   whyChoose: [
     {

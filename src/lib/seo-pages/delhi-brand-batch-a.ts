@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const durianFurnitureRepairDelhi: SeoPageData = {
   slug: "durian-furniture-repair-delhi",
-  title: "Durian Furniture Repair in Delhi | Premium Furniture Restoration Experts | FurniRevive",
-  metaDescription: "Expert repair services for furniture purchased from Durian in Delhi. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep. 6-month warranty. Call FurniRevive now.",
+  title: "Durian Furniture Repair in Delhi | FurniRevive",
+  metaDescription: "Expert repair services for furniture purchased from Durian in Delhi. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep.",
   h1: "Durian Furniture Repair in Delhi | Premium Furniture Repair Specialists",
   heroSubtitle: "Skilled technicians with hands-on experience restoring Durian furniture -- leather sofas, motorised recliners, and wooden pieces -- brought back to showroom condition at your doorstep across Delhi.",
   showcaseImage: {
@@ -228,8 +228,8 @@ const durianFurnitureRepairDelhi: SeoPageData = {
 
 const urbanLadderFurnitureRepairDelhi: SeoPageData = {
   slug: "urban-ladder-furniture-repair-delhi",
-  title: "Urban Ladder Furniture Repair in Delhi | Fabric Sofa Restoration Experts | FurniRevive",
-  metaDescription: "Expert repair services for furniture purchased from Urban Ladder in Delhi. Fabric upholstery replacement, foam restoration, structural repair for L-shaped sofas and sectionals. 6-month warranty. Call FurniRevive.",
+  title: "Urban Ladder Furniture Repair in Delhi | FurniRevive",
+  metaDescription: "Expert repair services for furniture purchased from Urban Ladder in Delhi.",
   h1: "Urban Ladder Furniture Repair in Delhi | Fabric Sofa and Sectional Specialists",
   heroSubtitle: "Skilled technicians with hands-on experience restoring Urban Ladder furniture -- fabric sofas, L-shaped sectionals, and contemporary apartment pieces -- brought back to like-new condition at your doorstep across Delhi.",
   showcaseImage: {

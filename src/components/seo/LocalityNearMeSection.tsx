@@ -34,6 +34,102 @@ const CORPORATE_TRUST_SIGNALS = [
   "Bulk Discounts",
 ] as const;
 
+// ─── Service category ──────────────────────────────────────────────────────
+
+export type ServiceCategory = "sofa" | "furniture" | "recliner" | "upholstery" | "chair" | "corporate";
+
+/** Derive the page's service from its slug so pages never show another service's copy. */
+export function inferServiceLabel(slug: string): string {
+  if (slug.startsWith("recliner-upholstery")) return "Recliner Upholstery";
+  if (slug.startsWith("recliner")) return "Recliner Repair";
+  if (slug.startsWith("sofa-upholstery") || slug.startsWith("sofa-reupholstery")) return "Sofa Upholstery";
+  if (slug.startsWith("chair-upholstery")) return "Chair Upholstery";
+  if (slug.startsWith("chair-repair")) return "Chair Repair";
+  if (slug.startsWith("furniture-polishing")) return "Furniture Polishing";
+  if (slug.startsWith("furniture-repair")) return "Furniture Repair";
+  return "Sofa Repair";
+}
+
+function resolveCategory(serviceLabel: string, isCorporate: boolean): ServiceCategory {
+  if (isCorporate) return "corporate";
+  const l = serviceLabel.toLowerCase();
+  if (l.includes("recliner")) return "recliner";
+  if (l.includes("upholster")) return "upholstery";
+  if (l.includes("chair")) return "chair";
+  if (l.includes("furniture")) return "furniture";
+  return "sofa";
+}
+
+type CategoryCopy = {
+  noun: string;
+  para1: (name: string, city: string, propertyType: string, responseTime: string) => string;
+  para2: (name: string) => string;
+  landmarkText: (city: string) => string;
+  landmarkHref: (city: string, fallback: string) => string;
+  pricing: string;
+  trust: string;
+};
+
+/** Cities that actually have a city-level page for each service (avoids broken links). */
+const CITY_PAGES: Record<string, readonly string[]> = {
+  "recliner-repair": ["delhi", "gurgaon", "noida", "ghaziabad", "faridabad", "chandigarh", "mohali", "panchkula"],
+  "sofa-upholstery": ["delhi", "gurgaon", "noida", "faridabad", "chandigarh", "mohali", "panchkula"],
+  "chair-repair": ["delhi", "gurgaon", "faridabad"],
+  "furniture-repair": ["delhi", "gurgaon", "noida", "ghaziabad", "faridabad", "chandigarh", "mohali", "panchkula"],
+};
+
+function cityHref(prefix: string, city: string, fallback: string): string {
+  const c = city.toLowerCase();
+  return CITY_PAGES[prefix]?.includes(c) ? `/${prefix}-${c}` : fallback;
+}
+
+const CATEGORY_COPY: Record<Exclude<ServiceCategory, "sofa" | "corporate">, CategoryCopy> = {
+  furniture: {
+    noun: "furniture repair",
+    para1: (name, city, propertyType, rt) =>
+      `Searching for furniture repair near me in ${name}? FurniRevive sends a skilled carpenter to your ${propertyType} within ${rt} across ${city}. We arrive with tools, wood filler, hardware, fabric and foam to repair sofas, beds, wardrobes, dining tables, chairs, cabinets and TV units at your doorstep — no pickup, no workshop, no wait. Most jobs are finished in a single same-day visit.`,
+    para2: (name) =>
+      `Common furniture problems we fix in ${name} include loose joints, broken legs, wobbly chairs, sagging bed frames, misaligned wardrobe doors, broken hinges, scratched or faded wood polish, and worn upholstery. Furniture repair cost in ${name} starts at ₹599 with a free inspection — no obligation, no hidden charges. Call or WhatsApp to book and get a 6-month warranty on every job.`,
+    landmarkText: (city) => `furniture repair in ${city}`,
+    landmarkHref: (city, fb) => cityHref("furniture-repair", city, fb),
+    pricing: "Transparent pricing starting ₹599 with a free doorstep inspection before any work begins.",
+    trust: "10,000+ Repairs Done",
+  },
+  recliner: {
+    noun: "recliner repair",
+    para1: (name, city, propertyType, rt) =>
+      `Need recliner repair near me in ${name}? FurniRevive's recliner technicians reach your ${propertyType} within ${rt} across ${city}. We bring replacement mechanisms, cables, motors, control handsets, foam and tools to fix manual and motorised recliners on the spot — no pickup and no workshop. Stuck footrests, jammed backrests and dead motors are usually solved in a single visit.`,
+    para2: (name) =>
+      `Common recliner problems we fix in ${name} include a footrest that will not close, a backrest that will not lock, a noisy or jammed mechanism, a dead or slow motor, control handset and wiring faults, and sagging seat foam. Recliner repair cost in ${name} starts at ₹1,499 for manual mechanisms with a free inspection. Call or WhatsApp to book — every repair carries a 6-month warranty.`,
+    landmarkText: (city) => `recliner repair in ${city}`,
+    landmarkHref: (city, fb) => cityHref("recliner-repair", city, fb),
+    pricing: "Transparent pricing starting ₹1,499 with a free doorstep inspection before any work begins.",
+    trust: "Manual & Motorised Recliners",
+  },
+  upholstery: {
+    noun: "upholstery",
+    para1: (name, city, propertyType, rt) =>
+      `Looking for upholstery near me in ${name}? FurniRevive brings fabric and leather swatches to your ${propertyType} within ${rt} across ${city}, so you choose the material at home. Our craftsmen then measure, cut and fit new covers and foam on site — no pickup, no workshop. We work with velvet, linen, cotton blends, microfibre, leatherette and genuine leather.`,
+    para2: (name) =>
+      `Reupholstery in ${name} suits sofas with worn, torn or outdated fabric and a sound frame. We replace covers, renew foam, and refresh piping and stitching to match your room. Upholstery in ${name} starts at ₹2,000 per seat with a free inspection and written quote. Call or WhatsApp to book — the work carries a 6-month warranty.`,
+    landmarkText: (city) => `sofa upholstery in ${city}`,
+    landmarkHref: (city, fb) => cityHref("sofa-upholstery", city, fb),
+    pricing: "Transparent pricing starting ₹2,000 per seat with free fabric selection at your doorstep.",
+    trust: "500+ Fabric Options",
+  },
+  chair: {
+    noun: "chair repair",
+    para1: (name, city, propertyType, rt) =>
+      `Searching for chair repair near me in ${name}? FurniRevive reaches your ${propertyType} within ${rt} across ${city} with gas lifts, casters, armrests, foam and fabric. We repair office, dining, gaming and study chairs at your doorstep — no pickup and no workshop.`,
+    para2: (name) =>
+      `Common chair problems we fix in ${name} include a sinking gas lift, broken wheels, loose armrests, wobbly legs, flat seat foam and torn upholstery. Chair repair cost in ${name} starts at ₹599 with a free inspection. Call or WhatsApp to book — every repair carries a 6-month warranty.`,
+    landmarkText: (city) => `chair repair in ${city}`,
+    landmarkHref: (city, fb) => cityHref("chair-repair", city, fb),
+    pricing: "Transparent pricing starting ₹599 with a free doorstep inspection before any work begins.",
+    trust: "Office & Home Chairs",
+  },
+};
+
 // ─── Content variation helpers ─────────────────────────────────────────────
 
 /** Deterministic 0–3 variant from slug (no randomness — stable on every render) */
@@ -43,8 +139,10 @@ function slugVariant(slug: string): 0 | 1 | 2 | 3 {
   return (h % 4) as 0 | 1 | 2 | 3;
 }
 
-function buildPara1(info: LocalityInfo, variant: 0 | 1 | 2 | 3, isCorporate: boolean): string {
+function buildPara1(info: LocalityInfo, variant: 0 | 1 | 2 | 3, category: ServiceCategory): string {
   const { name, city, propertyType, responseTime } = info;
+  const isCorporate = category === "corporate";
+  if (category !== "sofa" && !isCorporate) return CATEGORY_COPY[category].para1(name, city, propertyType, responseTime);
 
   if (isCorporate) {
     return `Searching for reliable office chair repair near me in ${name}? FurniRevive provides on-site corporate chair repair for offices, startups and co-working spaces in ${city}. Our technician reaches your premises in ${responseTime} with all parts — gas lifts, casters, armrests, mesh panels, and executive chair components. Same-day repair for hydraulic cylinders, wheels, armrests, and fabric/leather seating.`;
@@ -59,18 +157,20 @@ function buildPara1(info: LocalityInfo, variant: 0 | 1 | 2 | 3, isCorporate: boo
   return options[variant];
 }
 
-function buildPara2(info: LocalityInfo, variant: 0 | 1 | 2 | 3, isCorporate: boolean): string {
+function buildPara2(info: LocalityInfo, variant: 0 | 1 | 2 | 3, category: ServiceCategory): string {
   const { name } = info;
+  const isCorporate = category === "corporate";
+  if (category !== "sofa" && !isCorporate) return CATEGORY_COPY[category].para2(name);
 
   if (isCorporate) {
     return `We handle all common office chair issues in ${name}: gas lift replacement, hydraulic cylinder repair, caster wheel replacement, armrest repair, mesh back panel repair, and executive chair restoration. Office chair repair price in ${name} starts at ₹599 per chair with bulk discounts for 10+ chairs. GST invoice provided. Book a corporate chair technician near you — 6-month warranty on every repair.`;
   }
 
   const options = [
-    `Common issues we fix in ${name} include sofa sagging from worn foam, torn fabric upholstery, sofa frame repair for wobbly joints, sofa spring repair for collapsed seating, and leather sofa repair for peeling or cracked surfaces. Sofa repair cost in ${name} starts at ₹999 with a free inspection — no obligation, no hidden charges. Call or WhatsApp to book the best sofa repair in ${name} and get a 6-month warranty on every job.`,
-    `Whether your sofa has a sagging seat from flat foam, needs sofa spring repair, sofa frame repair, recliner mechanism work, or torn sofa repair for fabric or leather, our same-day sofa repair service in ${name} handles it all. Sofa repair price in ${name} starts at ₹999 with a free doorstep inspection included. Book a sofa technician near you today — all repairs come with a 6-month warranty.`,
-    `We handle all common sofa problems in ${name}: sofa sagging repair, sofa spring repair, sofa frame repair, torn sofa repair, leather sofa repair, recliner repair near me, and wooden sofa repair. Sofa repair cost in ${name} starts at ₹999 and includes a free inspection. FurniRevive is rated the best sofa repair service by hundreds of ${name} customers — every repair is backed by a 6-month warranty.`,
-    `From sofa sagging and sofa spring repair to sofa frame repair and leather sofa repair, our same-day sofa repair covers every issue in ${name} starting at ₹999. Free doorstep inspection before any work begins — no surprise bills. WhatsApp us or call now to book a local sofa technician near you in ${name}; we provide a 6-month warranty on every repair.`,
+    `Common issues we fix in ${name} include sofa sagging from worn foam, torn fabric upholstery, sofa frame repair for wobbly joints, sofa spring repair for collapsed seating, and leather sofa repair for peeling or cracked surfaces. Sofa repair cost in ${name} starts at ₹500 with a free inspection — no obligation, no hidden charges. Call or WhatsApp to book the best sofa repair in ${name} and get a 6-month warranty on every job.`,
+    `Whether your sofa has a sagging seat from flat foam, needs sofa spring repair, sofa frame repair, recliner mechanism work, or torn sofa repair for fabric or leather, our same-day sofa repair service in ${name} handles it all. Sofa repair price in ${name} starts at ₹500 with a free doorstep inspection included. Book a sofa technician near you today — all repairs come with a 6-month warranty.`,
+    `We handle all common sofa problems in ${name}: sofa sagging repair, sofa spring repair, sofa frame repair, torn sofa repair, leather sofa repair, recliner repair near me, and wooden sofa repair. Sofa repair cost in ${name} starts at ₹500 and includes a free inspection. FurniRevive is rated the best sofa repair service by hundreds of ${name} customers — every repair is backed by a 6-month warranty.`,
+    `From sofa sagging and sofa spring repair to sofa frame repair and leather sofa repair, our same-day sofa repair covers every issue in ${name} starting at ₹500. Free doorstep inspection before any work begins — no surprise bills. WhatsApp us or call now to book a local sofa technician near you in ${name}; we provide a 6-month warranty on every repair.`,
   ];
   return options[variant];
 }
@@ -80,7 +180,7 @@ function buildPara2(info: LocalityInfo, variant: 0 | 1 | 2 | 3, isCorporate: boo
 export interface LocalityNearMeSectionProps {
   /** The page's slug — used to derive all locality content */
   slug: string;
-  /** Optional service label for ARIA (defaults to "Sofa Repair") */
+  /** Service label shown in headings (inferred from the slug when omitted) */
   serviceLabel?: string;
   /** When true, renders B2B / corporate copy (e.g. office chair repair) */
   isCorporate?: boolean;
@@ -92,35 +192,52 @@ export interface LocalityNearMeSectionProps {
   gscBoosts?: Record<string, number>;
   /** Whether to render the FAQ block and FAQ JSON-LD (default true) */
   showFaqs?: boolean;
+  /** Set false when the host page already emits its own FAQPage schema (avoids duplicates) */
+  emitFaqSchema?: boolean;
 }
 
 export default function LocalityNearMeSection({
   slug,
-  serviceLabel = "Sofa Repair",
+  serviceLabel: serviceLabelProp,
   isCorporate = false,
   gscBoosts,
   showFaqs = true,
+  emitFaqSchema = true,
 }: LocalityNearMeSectionProps) {
+  const serviceLabel = serviceLabelProp ?? inferServiceLabel(slug);
+  const category = resolveCategory(serviceLabel, isCorporate);
   const info: LocalityInfo = getLocalityInfo(slug);
   const variant = slugVariant(slug);
-  const faqs: SelectedFaq[] = selectFaqs(info, { count: 7, gscBoosts });
+  const faqs: SelectedFaq[] = selectFaqs(info, { count: 7, gscBoosts, category });
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
     `Hi! I need ${serviceLabel.toLowerCase()} near me in ${info.name}. Please share a quote.`,
   )}`;
 
   const sectionId = `locality-near-me-${slug}`;
-  const trustSignals = isCorporate ? CORPORATE_TRUST_SIGNALS : TRUST_SIGNALS;
+  const trustSignals =
+    category === "corporate"
+      ? CORPORATE_TRUST_SIGNALS
+      : category === "sofa"
+        ? TRUST_SIGNALS
+        : ([CATEGORY_COPY[category].trust, ...TRUST_SIGNALS.slice(1)] as readonly string[]);
 
   // Landmark paragraph link details
-  const landmarkLinkText = isCorporate
-    ? `office chair repair in ${info.city}`
-    : `sofa repair in ${info.city}`;
-  const landmarkLinkHref = isCorporate
-    ? `/office-chair-repair-${info.city.toLowerCase()}`
-    : info.parentServiceSlug;
-  const landmarkPricing = isCorporate
-    ? "Transparent pricing starting ₹599 per chair with GST invoice and AMC plans available."
-    : "Transparent pricing starting ₹999 with a free doorstep inspection before any work begins.";
+  const copy = category === "sofa" || category === "corporate" ? null : CATEGORY_COPY[category];
+  const landmarkLinkText = copy
+    ? copy.landmarkText(info.city)
+    : isCorporate
+      ? `office chair repair in ${info.city}`
+      : `sofa repair in ${info.city}`;
+  const landmarkLinkHref = copy
+    ? copy.landmarkHref(info.city, info.parentServiceSlug)
+    : isCorporate
+      ? `/office-chair-repair-${info.city.toLowerCase()}`
+      : info.parentServiceSlug;
+  const landmarkPricing = copy
+    ? copy.pricing
+    : isCorporate
+      ? "Transparent pricing starting ₹599 per chair with GST invoice and AMC plans available."
+      : "Transparent pricing starting ₹500 with a free doorstep inspection before any work begins.";
 
   return (
     <section
@@ -148,12 +265,12 @@ export default function LocalityNearMeSection({
 
         {/* Para 1 — near me, doorstep, home, local, sofa/chair types */}
         <p className="text-foreground/90 leading-relaxed text-base lg:text-lg ml-9 mb-4">
-          {buildPara1(info, variant, isCorporate)}
+          {buildPara1(info, variant, category)}
         </p>
 
         {/* Para 2 — problem keywords, cost, warranty, CTA nudge */}
         <p className="text-foreground/90 leading-relaxed text-base lg:text-lg ml-9 mb-5">
-          {buildPara2(info, variant, isCorporate)}
+          {buildPara2(info, variant, category)}
         </p>
 
         {/* Trust signal chips */}
@@ -265,7 +382,7 @@ export default function LocalityNearMeSection({
       </div>
 
       {/* FAQ JSON-LD schema — scoped to this section */}
-      {showFaqs !== false && (
+      {showFaqs !== false && emitFaqSchema && (
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

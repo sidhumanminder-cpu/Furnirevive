@@ -8,7 +8,7 @@
  *   1. Locality match (localitySlugs contains current slug fragment)
  *   2. City match (cityKeys contains current cityKey)
  *   3. Service match (services contains serviceKey)
- *   4. Any record (highest priority)
+ *   4. Any record (highest priority) — only if no image is service-eligible
  *   5. null — only if registry is empty
  *
  * Tie-breaking: score DESC → priority DESC → id ASC (fully deterministic)
@@ -50,12 +50,20 @@ function humanise(slug: string): string {
 
 // ─── Scoring ──────────────────────────────────────────────────────────────────
 
+/**
+ * Hard eligibility gate: an image must actually depict the page's service or
+ * furniture type before it may be scored. Stops a city-tagged sofa image from
+ * out-scoring a recliner/chair image on small pools.
+ */
+function isEligible(record: HeroImageRecord, serviceKey: SeoServiceKey): boolean {
+  return record.services.includes(serviceKey) || serviceKey.includes(record.furnitureType);
+}
+
 function scoreRecord(
   record: HeroImageRecord,
   serviceKey: SeoServiceKey,
   localityFragment: string,
   cityKey: string,
-  isPremiumLocality: boolean,
 ): number {
   let score = 0;
 
@@ -78,24 +86,14 @@ function scoreRecord(
     score += HERO_MATCH_WEIGHTS.service;
   }
 
-  // Premium boost
-  if (isPremiumLocality && record.isPremium) {
-    score += HERO_MATCH_WEIGHTS.premium;
-  }
-
-  // Style match — premium localities prefer luxury/contemporary, others prefer modern/minimal/traditional
-  if (isPremiumLocality) {
-    if (record.style === "luxury" || record.style === "contemporary") {
-      score += HERO_MATCH_WEIGHTS.style;
-    }
-  } else {
-    if (
-      record.style === "modern" ||
-      record.style === "minimal" ||
-      record.style === "traditional"
-    ) {
-      score += HERO_MATCH_WEIGHTS.style;
-    }
+  // Style match — repair pages prefer modern/minimal/traditional scenes.
+  // (Premium-locality scoring was dead code — it was hardcoded off — and has been removed.)
+  if (
+    record.style === "modern" ||
+    record.style === "minimal" ||
+    record.style === "traditional"
+  ) {
+    score += HERO_MATCH_WEIGHTS.style;
   }
 
   // Furniture type match — record.furnitureType appears in serviceKey
@@ -165,12 +163,14 @@ export function getHeroImage(
   const cityKey = localityInfo.cityKey;
   const localityFragment = slug;
 
-  // Premium locality detection — conservative default, expandable later
-  const isPremiumLocality = false;
+  // Only service-relevant images are candidates; fall back to the full set
+  // only when nothing in the registry matches (keeps "always returns a result").
+  const eligible = entries.filter((r) => isEligible(r, serviceKey));
+  const pool = eligible.length > 0 ? eligible : entries;
 
-  const scored: ScoredCandidate[] = entries.map((record) => ({
+  const scored: ScoredCandidate[] = pool.map((record) => ({
     record,
-    score: scoreRecord(record, serviceKey, localityFragment, cityKey, isPremiumLocality),
+    score: scoreRecord(record, serviceKey, localityFragment, cityKey),
   }));
 
   // Derive a deterministic index from the locality slug so tied candidates

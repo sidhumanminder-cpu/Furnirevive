@@ -267,6 +267,21 @@ export default function KitchenCommercialIntentTemplate({ entry }: { entry: Comm
     }
     metaDesc.setAttribute("content", entry.metaDescription);
 
+    let metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (!metaKeywords) {
+      metaKeywords = document.createElement("meta");
+      metaKeywords.setAttribute("name", "keywords");
+      document.head.appendChild(metaKeywords);
+    }
+    metaKeywords.setAttribute(
+      "content",
+      [
+        `modular kitchen ${entry.intent}`,
+        `modular kitchen ${entry.cityName.toLowerCase()}`,
+        "modular kitchen",
+      ].join(", ")
+    );
+
     let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
     if (!canonical) {
       canonical = document.createElement("link");

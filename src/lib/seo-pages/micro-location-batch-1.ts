@@ -5,12 +5,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const sofaRepairPaschimVihar: SeoPageData = {
   slug: "sofa-repair-paschim-vihar",
-  title: "Sofa Repair in Paschim Vihar | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Paschim Vihar | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Paschim Vihar starting ₹999. Doorstep service in Sectors A, B, C, D, Peeragarhi & Madipur. Same-day booking, 6-month warranty. Call FurniRevive now.",
+    "Professional sofa repair in Paschim Vihar starting ₹500. Doorstep service in Sectors A, B, C, D, Peeragarhi & Madipur. Same-day booking, 6-month warranty.",
   h1: "Sofa Repair in Paschim Vihar, Delhi",
   heroSubtitle:
-    "Your sofa holds a thousand family moments — don't let sagging cushions or torn fabric end its story. Doorstep repairs across Sectors A, B, C & D from ₹999, with a 6-month warranty that has your back.",
+    "Your sofa holds a thousand family moments — don't let sagging cushions or torn fabric end its story. Doorstep repairs across Sectors A, B, C & D from ₹500, with a 6-month warranty that has your back.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
@@ -18,7 +18,7 @@ export const sofaRepairPaschimVihar: SeoPageData = {
     caption: "Sofa Repair in Paschim Vihar | Doorstep service across Sectors A, B, C & D | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive brings 4.8-star rated sofa repair right to your door in Paschim Vihar — Sectors A, B, C, D, Peeragarhi, and Madipur. Starting at just ₹999, our verified craftsmen fix sagging cushions, torn fabric, broken recliners, wobbly frames, and more in a single visit. No workshop drop-off, no hidden charges, and a 6-month warranty on every repair. Most Paschim Vihar bookings before noon get a same-day slot.",
+    "FurniRevive brings 4.8-star rated sofa repair right to your door in Paschim Vihar — Sectors A, B, C, D, Peeragarhi, and Madipur. Starting at just ₹500, our verified craftsmen fix sagging cushions, torn fabric, broken recliners, wobbly frames, and more in a single visit. No workshop drop-off, no hidden charges, and a 6-month warranty on every repair. Most Paschim Vihar bookings before noon get a same-day slot.",
   intro: [
     "Picture this: it's a Sunday afternoon, the family is settled in for a movie, and just as everyone sinks into the sofa — that familiar, depressing collapse of a seat cushion that's given up. Or maybe it's the slow-motion embarrassment of a guest noticing the torn leatherette on your armrest before you do. These small moments sting, especially in a home you've worked hard to build.",
     "Here's the good news: most Paschim Vihar residents don't realise just how fixable their sofa actually is — and how little it costs compared to buying new. FurniRevive has completed thousands of repairs across Delhi, and we've made it our mission to bring that same expert service to every sector of Paschim Vihar and the surrounding Peeragarhi and Madipur lanes. We're a proud part of the wider <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network, but with a team that knows the Outer Ring Road side streets as well as you do.",
@@ -36,7 +36,7 @@ export const sofaRepairPaschimVihar: SeoPageData = {
         "Call before noon and a technician can be at your home that same afternoon. We keep dedicated craftsmen stationed in West Delhi specifically to minimise travel time, so Paschim Vihar residents are never made to wait days for a simple repair.",
     },
     {
-      title: "Pricing from ₹999 — Fixed Before We Start, Final When We Finish",
+      title: "Pricing from ₹500 — Fixed Before We Start, Final When We Finish",
       description:
         "After a free on-site assessment, you get a single, honest number. No 'material discovered mid-job' additions. No separate labour invoices appearing at the end. The quote you approve is exactly what you pay — always.",
     },
@@ -147,9 +147,9 @@ export const sofaRepairPaschimVihar: SeoPageData = {
         "Our technician arrives with a physical swatch kit of 40+ fabrics — linen blends, velvet, leatherette, cotton canvas, premium faux leather — across a wide colour range. You choose the fabric and approve the colour before we cut or sew a single thing. No surprises.",
     },
     {
-      question: "Is the ₹999 starting price genuinely the minimum, or will it go up once you see the sofa?",
+      question: "Is the ₹500 starting price genuinely the minimum, or will it go up once you see the sofa?",
       answer:
-        "₹999 is our genuine starting price for minor repairs — basic re-stitching, simple tightening, small patch work. The technician quotes precisely after the free on-site assessment, and that quoted number is what you pay. We don't inflate prices once we're inside your home.",
+        "₹500 is our genuine starting price for minor repairs — basic re-stitching, simple tightening, small patch work. The technician quotes precisely after the free on-site assessment, and that quoted number is what you pay. We don't inflate prices once we're inside your home.",
     },
     {
       question: "What exactly does the 6-month warranty cover?",
@@ -183,12 +183,12 @@ export const sofaRepairPaschimVihar: SeoPageData = {
 
 export const sofaRepairPunjabiBagh: SeoPageData = {
   slug: "sofa-repair-punjabi-bagh",
-  title: "Sofa Repair in Punjabi Bagh | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Punjabi Bagh | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Punjabi Bagh starting ₹999. Doorstep service on East/West Club Road, Tagore Garden & Rajouri Garden. Same-day slots, 6-month warranty. Book FurniRevive today.",
+    "Expert sofa repair in Punjabi Bagh starting ₹500. Doorstep service on East/West Club Road, Tagore Garden & Rajouri Garden.",
   h1: "Sofa Repair in Punjabi Bagh, Delhi",
   heroSubtitle:
-    "From carved teak heirlooms on Club Road to Italian leather imports near Tagore Garden Flyover — Punjabi Bagh sofas carry stories no showroom can replicate. Our restoration specialists arrive at your doorstep from ₹999, armed with heritage-grade techniques and a 6-month warranty that honours what your furniture means to your family.",
+    "From carved teak heirlooms on Club Road to Italian leather imports near Tagore Garden Flyover — Punjabi Bagh sofas carry stories no showroom can replicate. Our restoration specialists arrive at your doorstep from ₹500, armed with heritage-grade techniques and a 6-month warranty that honours what your furniture means to your family.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
@@ -196,7 +196,7 @@ export const sofaRepairPunjabiBagh: SeoPageData = {
     caption: "Sofa Repair in Punjabi Bagh | Premium leather & heritage sofa restoration at your doorstep | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers specialist sofa restoration across Punjabi Bagh East, West, Club Road, Tagore Garden, and Rajouri Garden — starting at ₹999 with same-day priority scheduling. Our senior craftsmen handle heritage antique frames, Italian leather Chesterfields, and expensive imported sectionals with restoration-grade care. 6-month warranty, single-visit completion, and your sofa never leaves the drawing room. Nearby areas like Paschim Vihar, Shivaji Park, and Srinagar Colony also served at identical rates.",
+    "FurniRevive delivers specialist sofa restoration across Punjabi Bagh East, West, Club Road, Tagore Garden, and Rajouri Garden — starting at ₹500 with same-day priority scheduling. Our senior craftsmen handle heritage antique frames, Italian leather Chesterfields, and expensive imported sectionals with restoration-grade care. 6-month warranty, single-visit completion, and your sofa never leaves the drawing room. Nearby areas like Paschim Vihar, Shivaji Park, and Srinagar Colony also served at identical rates.",
   intro: [
     "Walk down Club Road past the Punjabi Bagh Club on a quiet morning, turn into one of the sprawling bungalows behind the hedgerows, and you will almost certainly find a sofa with a biography. Perhaps it is a 25-year-old carved teak three-seater — commissioned for a wedding, reupholstered once in the nineties, and now showing the kind of wear that makes a family wonder whether it can survive one more celebration. Or it might be a full-grain Italian leather import that cost more than a small car and has developed hairline cracks along the seat fronts after a decade of daily use. In Punjabi Bagh, furniture is an investment — and investments deserve restoration, not disposal.",
     "FurniRevive exists precisely for sofas like these. Our senior craftsmen — specialists within our city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network — are trained in antique joinery, European leather conditioning, and brocade re-upholstery techniques that a standard repair service simply cannot offer. We bring that expertise directly to your residence, whether you are near Punjabi Bagh West metro station, behind Tagore Garden Flyover, in the Rajouri Garden Market lanes, or in the quieter pockets toward Paschim Vihar and Shivaji Park.",
@@ -360,12 +360,12 @@ export const sofaRepairPunjabiBagh: SeoPageData = {
 
 export const sofaRepairModelTown: SeoPageData = {
   slug: "sofa-repair-model-town",
-  title: "Sofa Repair in Model Town | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Model Town | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Sofa repair in Model Town Delhi from ₹999. Doorstep service across Model Town I, II, III, GT Road, Mukherjee Nagar & Adarsh Nagar. Same-day booking, 6-month warranty. Book FurniRevive now.",
+    "Sofa repair in Model Town Delhi from ₹500. Doorstep service across Model Town I, II, III, GT Road, Mukherjee Nagar & Adarsh Nagar.",
   h1: "Sofa Repair in Model Town, Delhi",
   heroSubtitle:
-    "From solid sheesham classics in Phase I kothis to sunken-cushion Wakefit sofas in Mukherjee Nagar flats — Model Town's furniture tells the story of three generations living side by side. Our North Delhi craftsmen restore each piece at your doorstep from ₹999, backed by a 6-month warranty and weekend slots that fit your schedule.",
+    "From solid sheesham classics in Phase I kothis to sunken-cushion Wakefit sofas in Mukherjee Nagar flats — Model Town's furniture tells the story of three generations living side by side. Our North Delhi craftsmen restore each piece at your doorstep from ₹500, backed by a 6-month warranty and weekend slots that fit your schedule.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
@@ -373,7 +373,7 @@ export const sofaRepairModelTown: SeoPageData = {
     caption: "Sofa Repair in Model Town Delhi | Doorstep service across Phase I, II & III | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated sofa repair across Model Town Phase I, II, and III, the GT Road residential stretch, Mukherjee Nagar, and Adarsh Nagar — starting at ₹999. We fix foam collapse in DDA flat sofas, joint loosening in older sheesham frames, and mechanism failures in modern recliners — all at your doorstep in a single visit. Same-day weekday and weekend slots available. 6-month warranty on every repair. Landmarks we service near: Model Town Metro Station, GT Road frontage, Azadpur Mandi area, and Adarsh Nagar Metro.",
+    "FurniRevive provides 4.8-star rated sofa repair across Model Town Phase I, II, and III, the GT Road residential stretch, Mukherjee Nagar, and Adarsh Nagar — starting at ₹500. We fix foam collapse in DDA flat sofas, joint loosening in older sheesham frames, and mechanism failures in modern recliners — all at your doorstep in a single visit. Same-day weekday and weekend slots available. 6-month warranty on every repair. Landmarks we service near: Model Town Metro Station, GT Road frontage, Azadpur Mandi area, and Adarsh Nagar Metro.",
   intro: [
     "Step off the GT Road near Model Town Metro Station and into the leafy Phase II lanes, and you will notice something distinct about the furniture visible through ground-floor windows: it has been chosen to last. These are not trend-cycle purchases. A Phase I kothi might hold a 40-year-old sheesham three-seater with mortise-and-tenon joints still tight as the day it was built — needing only fresh foam and new fabric to serve another decade. A Mukherjee Nagar flat two kilometres away might have a three-year-old Wakefit sofa whose middle cushion has already sunk into a valley because the foam density was not rated for daily family use. Both situations are fixable. Both deserve professional attention rather than premature disposal.",
     "FurniRevive's North Delhi team operates across this entire spectrum — from heritage solid-wood restoration to modern modular sofa troubleshooting. We are part of the comprehensive <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network, with craftsmen who know the difference between a DDA flat's standard 3+1+1 configuration and a custom kothi sectional. The two most common issues we encounter in this neighbourhood — foam collapse in newer apartment sofas and joint loosening in older sheesham pieces — are resolved routinely, often within a single afternoon visit.",
@@ -396,7 +396,7 @@ export const sofaRepairModelTown: SeoPageData = {
         "Foam collapse in DDA flat sofas is the single most common call we receive from this neighbourhood. Low-density foam (20–24 kg/m³) used in budget and mid-range sofas compresses permanently within 2–4 years of family use. We replace it with high-resilience 36–40 kg/m³ foam rated for 8–12 years — eliminating the sunken-middle problem for good.",
     },
     {
-      title: "Transparent Pricing from ₹999 — Written Quote Before Work Starts",
+      title: "Transparent Pricing from ₹500 — Written Quote Before Work Starts",
       description:
         "After the free home inspection, you receive one written number. That number includes all labour, materials, and finishing. It does not change after we begin. There are no separate parts invoices, no 'complexity surcharges,' and no rounding up at the end. The figure you approve is the figure on your receipt.",
     },
@@ -434,7 +434,7 @@ export const sofaRepairModelTown: SeoPageData = {
     },
   ],
   benefits: [
-    "Repairs from ₹999 — a fraction of sofa replacement costs in today's market",
+    "Repairs from ₹500 — a fraction of sofa replacement costs in today's market",
     "All three Model Town phases covered as primary service zones",
     "GT Road, Mukherjee Nagar, and Adarsh Nagar included — no travel premium",
     "Same-day weekday and weekend morning slots available",
@@ -538,12 +538,12 @@ export const sofaRepairModelTown: SeoPageData = {
 
 export const sofaRepairPreetVihar: SeoPageData = {
   slug: "sofa-repair-preet-vihar",
-  title: "Sofa Repair in Preet Vihar | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Preet Vihar | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Preet Vihar starting ₹999. Doorstep service near Vikas Marg, Karkardooma & IP Extension. Same-day booking, 6-month warranty. Call FurniRevive now.",
+    "Professional sofa repair in Preet Vihar starting ₹500. Doorstep service near Vikas Marg, Karkardooma & IP Extension. Same-day booking, 6-month warranty.",
   h1: "Sofa Repair in Preet Vihar, Delhi",
   heroSubtitle:
-    "East Delhi families use their sofas hard — and their sofas deserve expert care. Doorstep repair across Preet Vihar, Vikas Marg, Karkardooma & IP Extension from ₹999, with recliner specialists on call and a 6-month warranty on everything we touch.",
+    "East Delhi families use their sofas hard — and their sofas deserve expert care. Doorstep repair across Preet Vihar, Vikas Marg, Karkardooma & IP Extension from ₹500, with recliner specialists on call and a 6-month warranty on everything we touch.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
@@ -551,7 +551,7 @@ export const sofaRepairPreetVihar: SeoPageData = {
     caption: "Sofa Repair in Preet Vihar | Recliner & upholstery service near Vikas Marg & Karkardooma | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated sofa repair in Preet Vihar — and across the Vikas Marg corridor, Karkardooma, and IP Extension — starting at ₹999. Our East Delhi-based craftsmen specialise in the high-use wear patterns common in this part of the city, including recliner mechanism failures, compressed foam, and armrest fabric damage. Same-day slots for bookings before noon, 6-month warranty on all repairs, and the sofa never leaves your home.",
+    "FurniRevive delivers 4.8-star rated sofa repair in Preet Vihar — and across the Vikas Marg corridor, Karkardooma, and IP Extension — starting at ₹500. Our East Delhi-based craftsmen specialise in the high-use wear patterns common in this part of the city, including recliner mechanism failures, compressed foam, and armrest fabric damage. Same-day slots for bookings before noon, 6-month warranty on all repairs, and the sofa never leaves your home.",
   intro: [
     "If you live in Preet Vihar or along the Vikas Marg corridor, your sofa is working harder than most sofas in Delhi. This is a neighbourhood of busy, close-knit families where the living room is genuinely lived in — homework gets done on the sofa, Sunday lunches spill into the afternoon on the sofa, the evening news is watched from the same spot every night. That kind of daily use tells on furniture eventually, no matter how good the original purchase was.",
     "The good news — and this surprises most Preet Vihar residents — is that the things that go wrong with well-used sofas are almost always fixable. Foam compression, torn armrest fabric, recliner mechanisms that refuse to lock — these aren't death sentences for your sofa. They're repair jobs. FurniRevive has handled thousands of them across Delhi as part of our comprehensive <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network, and our East Delhi team knows the specific wear patterns, furniture types, and building logistics of this part of the city better than anyone.",
@@ -579,7 +579,7 @@ export const sofaRepairPreetVihar: SeoPageData = {
         "Karkardooma housing societies and IP Extension apartment blocks are served under the same same-day promise and pricing as Preet Vihar proper. No additional booking process, no zone premium, no different arrival window.",
     },
     {
-      title: "Fixed Quote Before Work Starts — ₹999 Minimum, Zero Hidden Additions",
+      title: "Fixed Quote Before Work Starts — ₹500 Minimum, Zero Hidden Additions",
       description:
         "Your quote is confirmed after the free assessment and it doesn't change — whether the job takes 2 hours or 5, whether materials run to more than estimated. You pay the quoted number. Materials are itemised but included in the single total.",
     },
@@ -616,7 +616,7 @@ export const sofaRepairPreetVihar: SeoPageData = {
     "Same-day response for bookings made before noon",
     "Recliner specialists on the team — most mechanism faults resolved in one visit",
     "Covers Karkardooma housing societies and IP Extension apartments under same pricing",
-    "Starting price ₹999 with zero hidden additions — quote fixed before work starts",
+    "Starting price ₹500 with zero hidden additions — quote fixed before work starts",
     "6-month warranty on every repaired component — foam, fabric, springs, mechanisms",
     "High-resilience foam (32–40 kg/m³) rated for 8–12 years of regular use",
     "Colour-matched fabric from 40+ swatches in the technician's kit",
@@ -682,7 +682,7 @@ export const sofaRepairPreetVihar: SeoPageData = {
     {
       question: "Is the ₹999 minimum charge realistic, or will it always be higher once you see the sofa?",
       answer:
-        "₹999 is genuinely our minimum for simple repairs: minor re-stitching, zip replacement, tightening a loose leg, small patch work. Most jobs are more involved and priced accordingly — but the quote is always given after the free assessment, before any work starts. You decide what to proceed with.",
+        "₹500 is genuinely our minimum for simple repairs: minor re-stitching, zip replacement, tightening a loose leg, small patch work. Most jobs are more involved and priced accordingly — but the quote is always given after the free assessment, before any work starts. You decide what to proceed with.",
     },
     {
       question: "Can you work in a high-rise apartment in IP Extension without an issue?",
@@ -719,12 +719,12 @@ export const sofaRepairPreetVihar: SeoPageData = {
 
 export const sofaRepairAshokVihar: SeoPageData = {
   slug: "sofa-repair-ashok-vihar",
-  title: "Sofa Repair in Ashok Vihar | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Ashok Vihar | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Ashok Vihar starting ₹999. Doorstep service across Phase I, II, III & IV, Shalimar Bagh & Pitampura. Same-day booking, 6-month warranty. Book FurniRevive today.",
+    "Expert sofa repair in Ashok Vihar starting ₹500. Doorstep service across Phase I, II, III & IV, Shalimar Bagh & Pitampura.",
   h1: "Sofa Repair in Ashok Vihar, Delhi",
   heroSubtitle:
-    "Four phases, thousands of families, one truth: Ashok Vihar sofas are worth saving. Doorstep repair across Phase I–IV, Shalimar Bagh & Pitampura from ₹999 — same-day slots, 6-month warranty, craftsmen who've worked in this neighbourhood for years.",
+    "Four phases, thousands of families, one truth: Ashok Vihar sofas are worth saving. Doorstep repair across Phase I–IV, Shalimar Bagh & Pitampura from ₹500 — same-day slots, 6-month warranty, craftsmen who've worked in this neighbourhood for years.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
@@ -732,11 +732,11 @@ export const sofaRepairAshokVihar: SeoPageData = {
     caption: "Sofa Repair in Ashok Vihar | Doorstep service across Phase I–IV, Shalimar Bagh & Pitampura | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep sofa repair across all four phases of Ashok Vihar, Shalimar Bagh, and Pitampura — starting at ₹999. Whether you're in a Phase I kothi with a classic sheesham-framed three-seater, a Shalimar Bagh apartment with a modern sectional, or a Pitampura high-rise with a bonded leather sofa showing its age — our verified craftsmen come to you, fix it in a single visit, and back it with a 6-month warranty. Same-day availability for bookings before noon.",
+    "FurniRevive provides 4.8-star rated doorstep sofa repair across all four phases of Ashok Vihar, Shalimar Bagh, and Pitampura — starting at ₹500. Whether you're in a Phase I kothi with a classic sheesham-framed three-seater, a Shalimar Bagh apartment with a modern sectional, or a Pitampura high-rise with a bonded leather sofa showing its age — our verified craftsmen come to you, fix it in a single visit, and back it with a 6-month warranty. Same-day availability for bookings before noon.",
   intro: [
     "Walk into a Phase I kothi in Ashok Vihar and there's a good chance you'll find a sofa that has been in the family for twenty years or more — solid, well-constructed, and perfectly worthy of another two decades with the right care. Walk into a newer Shalimar Bagh apartment and you might find a contemporary Italian leather sectional whose bonded panels are starting to peel after four years. Both situations call for expert attention. Both call for FurniRevive.",
     "Ashok Vihar's four phases represent different eras of North-West Delhi residential life, and the furniture inside those homes reflects that range. Phase I and II houses contain durable, heavy pieces from craftsmen who built things to last. Phase III and IV flats hold a mix of modern purchases and hand-me-down classics. Shalimar Bagh leans contemporary. Pitampura has the high-density tower reality of working families who need fast, efficient service without the inconvenience of taking their sofa anywhere.",
-    "FurniRevive's North-West Delhi team has worked this neighbourhood for years. We're part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network but with deep local familiarity — the lanes of Ashok Vihar are not unfamiliar territory to us. Every repair is priced honestly, completed at your home, and warranted for 6 months. Starting at ₹999.",
+    "FurniRevive's North-West Delhi team has worked this neighbourhood for years. We're part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network but with deep local familiarity — the lanes of Ashok Vihar are not unfamiliar territory to us. Every repair is priced honestly, completed at your home, and warranted for 6 months. Starting at ₹500.",
   ],
   whyChoose: [
     {
@@ -765,7 +765,7 @@ export const sofaRepairAshokVihar: SeoPageData = {
         "Family function this weekend and you've just noticed your sofa isn't looking its best? We maintain same-day priority slots for Ashok Vihar, Shalimar Bagh, and Pitampura residents. Call before noon and we'll schedule that afternoon.",
     },
     {
-      title: "Fixed Pricing from ₹999 — Confirmed Before We Start",
+      title: "Fixed Pricing from ₹500 — Confirmed Before We Start",
       description:
         "The assessment is free. The quote is fixed and approved by you before work begins. The invoice matches the quote exactly. This is how we've operated in every neighbourhood we serve — and Ashok Vihar is no different.",
     },
@@ -795,7 +795,7 @@ export const sofaRepairAshokVihar: SeoPageData = {
   benefits: [
     "All four Ashok Vihar phases covered as primary zones — no extra charges based on phase",
     "Shalimar Bagh and Pitampura served under identical pricing and availability",
-    "Starting at ₹999 — transparent, flat-rate quotes always confirmed before work starts",
+    "Starting at ₹500 — transparent, flat-rate quotes always confirmed before work starts",
     "Same-day service for morning bookings across the full coverage zone",
     "6-month warranty on foam, fabric, springs, frame, and mechanisms",
     "Heritage restoration expertise for Phase I and II classic sofas",
@@ -818,7 +818,7 @@ export const sofaRepairAshokVihar: SeoPageData = {
     {
       heading: "Sofa Repair Pricing in Ashok Vihar — What Honest Numbers Actually Look Like",
       body: [
-        "We've found that Ashok Vihar residents — particularly those in Phases I and II who have invested significantly in quality furniture over the years — appreciate knowing what repairs actually cost before picking up the phone. Here is our honest pricing guide for this area. Minor re-stitching or cushion repair: ₹999–₁,800. Single-panel fabric replacement: ₹2,500–₄,500. Full fabric replacement on a 3-seater: ₹3,500–₆,000. High-resilience foam replacement (full sofa set): ₹2,000–₄,000. Recliner mechanism repair: ₹1,800–₄,500. Leather or leatherette restoration: ₹1,500–₅,000. Full re-upholstery (new fabric, foam, frame and spring check): ₹4,000–₉,000.",
+        "We've found that Ashok Vihar residents — particularly those in Phases I and II who have invested significantly in quality furniture over the years — appreciate knowing what repairs actually cost before picking up the phone. Here is our honest pricing guide for this area. Minor re-stitching or cushion repair: ₹500–₁,800. Single-panel fabric replacement: ₹2,500–₄,500. Full fabric replacement on a 3-seater: ₹3,500–₆,000. High-resilience foam replacement (full sofa set): ₹2,000–₄,000. Recliner mechanism repair: ₹1,800–₄,500. Leather or leatherette restoration: ₹1,500–₅,000. Full re-upholstery (new fabric, foam, frame and spring check): ₹4,000–₉,000.",
         "For Phase I and II homes where the sofa in question is a well-constructed piece from the 1980s or 90s: a full restoration — new foam, complete re-upholstery in a chosen fabric, frame reinforcement — typically costs ₹4,500–₇,000. Compare that to sourcing a comparable-quality replacement today: ₹35,000–₈0,000 for a genuinely well-made sofa, with delivery, disposal of the existing piece, and weeks of wait time. The economic and practical case for restoration is overwhelming.",
         "The numbers for Shalimar Bagh and Pitampura residents with newer sofas are equally clear: a bonded leather sectional that originally cost ₹40,000 can be brought back to near-new condition for ₹5,000–₈,000. Instead of spending ₹40,000 again — and losing the spatial familiarity of a sofa you've already arranged your room around — you invest a fraction and keep what works.",
       ],

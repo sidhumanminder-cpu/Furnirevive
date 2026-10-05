@@ -64,24 +64,38 @@ describe("hero-image-engine", () => {
     expect(result).toBe(recordA);
   });
 
-  it("city match beats service match", () => {
-    const recordA = makeRecord("a", {
+  it("a city-tagged image for the wrong service is never selected over a service-matched one", () => {
+    // Wrong service AND wrong furniture type, but the only city-specific image.
+    const wrongServiceCityImage = makeRecord("a", {
       localitySlugs: [],
       cityKeys: ["delhi"],
       services: [],
+      furnitureType: "recliner",
     });
-    const recordB = makeRecord("b", {
+    const rightServiceNoCityImage = makeRecord("b", {
       localitySlugs: [],
       cityKeys: [],
       services: ["sofa-repair"],
     });
 
     const result = getHeroImage("sofa-repair", "sofa-repair-rohini", {
-      a: recordA,
-      b: recordB,
+      a: wrongServiceCityImage,
+      b: rightServiceNoCityImage,
     });
 
-    expect(result).toBe(recordA);
+    expect(result).toBe(rightServiceNoCityImage);
+  });
+
+  it("city match still beats no city match among service-eligible images", () => {
+    const withCity = makeRecord("a", { localitySlugs: [], cityKeys: ["delhi"] });
+    const withoutCity = makeRecord("b", { localitySlugs: [], cityKeys: [] });
+
+    const result = getHeroImage("sofa-repair", "sofa-repair-rohini", {
+      a: withCity,
+      b: withoutCity,
+    });
+
+    expect(result).toBe(withCity);
   });
 
   it("fallback returns something when no exact match", () => {

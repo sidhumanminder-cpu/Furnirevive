@@ -7,7 +7,7 @@ const furnitureRepairDlfGurgaon: SeoPageData = {
   slug: "furniture-repair-dlf-gurgaon",
   title: "Furniture Repair in DLF Gurgaon | Restore Premium Furniture",
   metaDescription:
-    "Expert furniture restoration in DLF Gurgaon from ₹999. Leather sofas, recliners, imported furniture repaired at your doorstep. 6-month warranty. Call FurniRevive.",
+    "Expert furniture restoration in DLF Gurgaon from ₹999. Leather sofas, recliners, imported furniture repaired at your doorstep. 6-month warranty.",
   h1: "Furniture Restoration Services in DLF Gurgaon",
   heroSubtitle:
     "DLF Gurgaon's premium homes demand a premium restoration standard. FurniRevive restores imported leather sofas, luxury recliners, designer sectionals, and antique wooden furniture across DLF Phase 1, 2, 3, 4, and 5 — entirely at your doorstep from ₹999. 6-month warranty. Same-day inspection available.",
@@ -270,7 +270,7 @@ const furnitureRepairGolfCourseExtension: SeoPageData = {
   slug: "furniture-repair-golf-course-extension-road",
   title: "Furniture Repair Golf Course Extension Road | FurniRevive",
   metaDescription:
-    "Expert furniture restoration on Golf Course Extension Road, Gurgaon from ₹999. Leather sofas, recliners & imported furniture repaired at your doorstep. 6-month warranty.",
+    "Expert furniture restoration on Golf Course Extension Road, Gurgaon from ₹999. Leather sofas, recliners & imported furniture repaired at your doorstep.",
   h1: "Premium Furniture Restoration on Golf Course Extension Road",
   heroSubtitle:
     "Golf Course Extension Road's luxury tower residences — M3M Golf Estate, Ireo Grand Arch, and the premium societies of Sectors 58, 59, and 61 — deserve furniture restoration at the level their interiors represent. FurniRevive brings specialist-grade leather sofa repair, recliner restoration, and premium upholstery services entirely to your doorstep from ₹999.",

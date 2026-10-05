@@ -22,9 +22,9 @@ function relatedExcluding(slug: string) {
 export const sofaCushionRepairDelhi: SeoPageData = {
   slug: "sofa-cushion-repair-delhi",
   title:
-    "Sofa Cushion Repair in Delhi | Foam Replacement ₹999 | FurniRevive",
+    "Sofa Cushion Repair in Delhi | FurniRevive",
   metaDescription:
-    "Expert sofa cushion repair in Delhi. Foam replacement, re-stuffing, sagging fix for all sofa types. Doorstep service across Delhi NCR from ₹999. 6-month warranty. Book now!",
+    "Expert sofa cushion repair in Delhi. Foam replacement, re-stuffing, sagging fix for all sofa types. Doorstep service across Delhi NCR from ₹999.",
   h1: "Sofa Cushion Repair in Delhi — Foam Replacement & Re-Stuffing from ₹999",
   heroSubtitle:
     "Delhi NCR's extreme heat, monsoon humidity, and AC-dried air create a triple assault on sofa foam that no other Indian city replicates. When your cushions collapse, the fix is not a new sofa — it is a precision foam diagnosis and replacement engineered for your specific climate and usage pattern.",
@@ -202,7 +202,7 @@ export const sofaCushionRepairDelhi: SeoPageData = {
     {
       question: "Do you repair IKEA sofa cushions?",
       answer:
-        "Yes. IKEA sofas like KIVIK and EKTORP use removable covers over foam/fibre composite cushions. We replace the inner foam core with 32D foam while retaining the fibre wrap layer. IKEA cushion repair from ₹999 at your doorstep across Delhi NCR.",
+        "Yes. IKEA sofas like KIVIK and EKTORP use removable covers over foam/fibre composite cushions. We replace the inner foam core with 32D foam while retaining the fibre wrap layer. IKEA cushion repair from ₹500 at your doorstep across Delhi NCR.",
     },
     {
       question: "How does Delhi's heat affect sofa foam lifespan?",
@@ -257,9 +257,9 @@ export const sofaCushionRepairDelhi: SeoPageData = {
 export const reclinerRepairDelhi: SeoPageData = {
   slug: "recliner-repair-delhi",
   title:
-    "Recliner Repair in Delhi | Mechanism, Motor & Upholstery Fix from ₹1,499 | FurniRevive",
+    "Recliner Repair in Delhi | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Delhi NCR from ₹1,499. Manual & electric recliner mechanism fix, motor replacement, La-Z-Boy, Durian & all brands. Doorstep service, same-day slots, 6-month warranty. Call +91 92179 99355.",
+    "Expert recliner repair in Delhi NCR from ₹1,499. Manual & electric recliner mechanism fix, motor replacement, La-Z-Boy, Durian & all brands.",
   h1: "Recliner Repair in Delhi — Mechanism, Motor & Upholstery Fix from ₹1,499",
   heroSubtitle:
     "Recliner stuck, motor broken, or upholstery torn? FurniRevive repairs all recliner brands and types at your doorstep across Delhi NCR — manual and electric mechanism repair, motor replacement, and fabric or leather restoration from ₹1,499.",
@@ -468,7 +468,7 @@ export const reclinerRepairDelhi: SeoPageData = {
   showcaseImage: {
     heading: "Recliner Repair — Real Results",
     imageUrl: "https://hercules-cdn.com/file_r90po5MLAvi73rhfUYV1fjVg",
-    altText: "Recliner sofa repair before and after in Delhi — mechanism and upholstery restored to like-new condition by FurniRevive",
+    altText: "Recliner recliner repair before and after in Delhi — mechanism and upholstery restored to like-new condition by FurniRevive",
     caption: "Recliner Repair Delhi | Motor & mechanism restoration | ₹1,499–₹7,000 | Single home visit",
   },
   relatedPages: [

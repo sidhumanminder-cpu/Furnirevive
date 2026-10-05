@@ -22,9 +22,9 @@ function relatedExcluding(slug: string) {
 // ---------------------------------------------------------------------------
 export const furnitureRepairLajpatNagar: SeoPageData = {
   slug: "furniture-repair-lajpat-nagar",
-  title: "Furniture Repair in Lajpat Nagar Delhi | Doorstep ₹599 | FurniRevive",
+  title: "Furniture Repair in Lajpat Nagar Delhi | FurniRevive",
   metaDescription:
-    "Professional furniture repair in Lajpat Nagar, Defence Colony, Jangpura, South Extension & surrounding South Delhi areas. Sofa, bed, wardrobe repair. 6-month warranty. ₹599 onwards.",
+    "Professional furniture repair in Lajpat Nagar, Defence Colony, Jangpura, South Extension & surrounding South Delhi areas. Sofa, bed, wardrobe repair.",
   h1: "Furniture Repair in Lajpat Nagar & Surrounding South Delhi Localities",
   heroSubtitle:
     "Expert furniture repair at your doorstep in Lajpat Nagar I–IV, Defence Colony, Jangpura, Andrews Ganj, South Extension, Nizamuddin, and surrounding areas. Sofa, bed, dining table, wardrobe, chair — all repaired with a 6-month warranty starting at ₹599.",
@@ -63,7 +63,7 @@ export const furnitureRepairLajpatNagar: SeoPageData = {
     {
       title: "Starting at ₹599",
       description:
-        "Chair repair from ₹599, sofa repair from ₹999. Written quotation before any work begins. No hidden charges, no market-rate markups.",
+        "Chair repair from ₹599, sofa repair from ₹500. Written quotation before any work begins. No hidden charges, no market-rate markups.",
     },
     {
       title: "6-Month Written Warranty",
@@ -151,7 +151,7 @@ export const furnitureRepairLajpatNagar: SeoPageData = {
     {
       question: "What is the starting price for furniture repair in Lajpat Nagar?",
       answer:
-        "Basic chair and hardware repairs start at ₹599. Sofa cushion repair from ₹999. Free doorstep inspection and written quote before any work begins.",
+        "Basic chair and hardware repairs start at ₹599. Sofa cushion repair from ₹500. Free doorstep inspection and written quote before any work begins.",
     },
     {
       question: "Can you work in compact DDA flats in Lajpat Nagar?",
@@ -204,9 +204,9 @@ export const furnitureRepairLajpatNagar: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const furnitureRepairKirtiNagar: SeoPageData = {
   slug: "furniture-repair-kirti-nagar",
-  title: "Furniture Repair Near Kirti Nagar Delhi | Doorstep ₹599 | FurniRevive",
+  title: "Furniture Repair Near Kirti Nagar Delhi | FurniRevive",
   metaDescription:
-    "Expert furniture repair near Kirti Nagar furniture market, Rajouri Garden, Tilak Nagar, Hari Nagar & Moti Nagar. Sofa, bed, wardrobe repair at your doorstep. 6-month warranty. ₹599 onwards.",
+    "Expert furniture repair near Kirti Nagar furniture market, Rajouri Garden, Tilak Nagar, Hari Nagar & Moti Nagar.",
   h1: "Furniture Repair Near Kirti Nagar — West Delhi's Doorstep Repair Service",
   heroSubtitle:
     "Professional furniture repair at your doorstep near Kirti Nagar furniture market, Rajouri Garden, Tilak Nagar, Hari Nagar, Moti Nagar, Tagore Garden, Subhash Nagar, and Ramesh Nagar. Sofa, bed, chair, wardrobe, dining table — all repaired with a 6-month warranty from ₹599.",
@@ -338,7 +338,7 @@ export const furnitureRepairKirtiNagar: SeoPageData = {
     {
       question: "What is the cheapest furniture repair near Kirti Nagar?",
       answer:
-        "Basic repairs start at ₹599 — chair re-gluing, hinge replacement, and minor fixes. Sofa cushion repair from ₹999. Free inspection and written quote provided.",
+        "Basic repairs start at ₹599 — chair re-gluing, hinge replacement, and minor fixes. Sofa cushion repair from ₹500. Free inspection and written quote provided.",
     },
     {
       question: "Do you cover Tilak Nagar and Hari Nagar?",
@@ -387,12 +387,12 @@ export const furnitureRepairKirtiNagar: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairMayurVihar: SeoPageData = {
   slug: "sofa-repair-mayur-vihar",
-  title: "Sofa Repair in Mayur Vihar Delhi | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Mayur Vihar Delhi | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Mayur Vihar Phase 1, 2, 3, Patparganj, Preet Vihar, Laxmi Nagar & East Delhi. Reupholstery, foam, frame repair. 6-month warranty. ₹999 onwards.",
+    "Professional sofa repair in Mayur Vihar Phase 1, 2, 3, Patparganj, Preet Vihar, Laxmi Nagar & East Delhi. Reupholstery, foam, frame repair.",
   h1: "Sofa Repair in Mayur Vihar & East Delhi — Doorstep Reupholstery & Restoration",
   heroSubtitle:
-    "Expert sofa repair at your doorstep in Mayur Vihar Phase 1, 2, 3, Patparganj, IP Extension, Preet Vihar, Laxmi Nagar, Vivek Vihar, and all East Delhi areas. Cushion replacement, reupholstery, leather repair, frame reinforcement, and recliner servicing — starting ₹999 with a 6-month warranty.",
+    "Expert sofa repair at your doorstep in Mayur Vihar Phase 1, 2, 3, Patparganj, IP Extension, Preet Vihar, Laxmi Nagar, Vivek Vihar, and all East Delhi areas. Cushion replacement, reupholstery, leather repair, frame reinforcement, and recliner servicing — starting ₹500 with a 6-month warranty.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -402,7 +402,7 @@ export const sofaRepairMayurVihar: SeoPageData = {
   intro: [
     "Mayur Vihar is East Delhi's largest and most prominent residential area — spanning Phase 1, Phase 2, Phase 3, and the adjacent Patparganj and IP Extension colonies. With thousands of DDA flats, CGHS apartments, builder floors, and pocket colonies, Mayur Vihar is home to over half a million residents whose sofas endure the full spectrum of Delhi life: joint family gatherings, festival celebrations, children's play, and daily use by working professionals who come home wanting a comfortable seat after a long commute.",
     "FurniRevive provides professional doorstep sofa repair across the entire Mayur Vihar area and all surrounding East Delhi localities — Preet Vihar, Laxmi Nagar, Vivek Vihar, Shakarpur, Mandawali, and Pandav Nagar. We handle every sofa type found in East Delhi homes: fabric three-seater sets, L-shaped sectionals in newer apartments, leather sofas in premium flats, recliners purchased from Kirti Nagar or online brands, and sofa cum beds in compact flats. Our services cover cushion foam replacement, complete reupholstery with 500+ fabric options, leather crack repair and conditioning, spring replacement, frame reinforcement, and recliner mechanism servicing.",
-    "Starting at ₹999 with a 6-month warranty, our sofa repair saves Mayur Vihar residents 60–70% compared to buying a new sofa. We work at your home — no need to transport a heavy sofa through Mayur Vihar's apartment corridors and stairways. Call +91 92179 99355 or WhatsApp photos for an instant estimate.",
+    "Starting at ₹500 with a 6-month warranty, our sofa repair saves Mayur Vihar residents 60–70% compared to buying a new sofa. We work at your home — no need to transport a heavy sofa through Mayur Vihar's apartment corridors and stairways. Call +91 92179 99355 or WhatsApp photos for an instant estimate.",
   ],
   whyChoose: [
     {
@@ -431,9 +431,9 @@ export const sofaRepairMayurVihar: SeoPageData = {
         "Book before noon for same-day sofa repair in Mayur Vihar. Our East Delhi team ensures fast response across all phases and surrounding colonies.",
     },
     {
-      title: "6-Month Warranty from ₹999",
+      title: "6-Month Warranty from ₹500",
       description:
-        "All sofa repairs backed by a 6-month written warranty. Starting at ₹999. Transparent pricing with written quotes before work begins.",
+        "All sofa repairs backed by a 6-month written warranty. Starting at ₹500. Transparent pricing with written quotes before work begins.",
     },
   ],
   process: [
@@ -469,7 +469,7 @@ export const sofaRepairMayurVihar: SeoPageData = {
     "L-shaped and sectional sofa panel reupholstery",
     "Doorstep service across all Mayur Vihar phases and East Delhi",
     "Same-day service available for bookings before noon",
-    "6-month written warranty from ₹999",
+    "6-month written warranty from ₹500",
     "Save 60–70% compared to buying a new sofa",
   ],
   contentSections: [

@@ -11,9 +11,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 export const lShapeSofaRepairDelhi: SeoPageData = {
   slug: "l-shape-sofa-repair-delhi",
   title:
-    "L-Shape Sofa Repair Delhi | Sectional Sofa Fix | ₹1,999 | FurniRevive",
+    "L-Shape Sofa Repair Delhi | Sectional Sofa Fix | FurniRevive",
   metaDescription:
-    "Expert L-shape and sectional sofa repair in Delhi. Corner sofa re-upholstery, cushion fix, frame repair at doorstep. Starting ₹1,999. 6-month warranty. Call FurniRevive!",
+    "Expert L-shape and sectional sofa repair in Delhi. Corner sofa re-upholstery, cushion fix, frame repair at doorstep. Starting ₹1,999. 6-month warranty.",
   h1: "L-Shape Sofa Repair in Delhi — Sectional & Corner Sofa Specialists",
   heroSubtitle:
     "L-shape and sectional sofas need specialist attention due to their size and structure. FurniRevive repairs every L-shape configuration at your Delhi doorstep — cushions, upholstery, frame, and connectors. Starting ₹1,999.",

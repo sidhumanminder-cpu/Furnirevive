@@ -21,9 +21,9 @@ function relatedExcluding(slug: string) {
 // ---------------------------------------------------------------------------
 export const furnitureRepairIndirapuram: SeoPageData = {
   slug: "furniture-repair-indirapuram",
-  title: "Furniture Repair Indirapuram | ₹599 Doorstep | Same-Day | FurniRevive",
+  title: "Furniture Repair Indirapuram | ₹599 Doorstep | FurniRevive",
   metaDescription:
-    "Expert furniture repair in Indirapuram, Ghaziabad from ₹599. Sofa, bed & wardrobe repaired at doorstep. Vaishali, Vasundhara, Crossings Republik covered. Same-day. 6-month warranty. Book!",
+    "Expert furniture repair in Indirapuram, Ghaziabad from ₹599. Sofa, bed & wardrobe repaired at doorstep. Vaishali, Vasundhara, Crossings Republik covered.",
   quickAnswer:
     "FurniRevive offers doorstep furniture repair across Indirapuram, Vaishali, and Vasundhara starting at ₹599. Sofa foam replacement from ₹999, hydraulic bed repair from ₹2,000, wardrobe hinge fix from ₹499. Same-day service available for all Ghaziabad localities with a 6-month written warranty.",
   h1: "Furniture Repair in Indirapuram — Doorstep Service for Ghaziabad",
@@ -151,7 +151,7 @@ export const furnitureRepairIndirapuram: SeoPageData = {
     {
       question: "What is the cost of sofa repair in Indirapuram?",
       answer:
-        "Sofa cushion repair starts at ₹999. Full L-shaped sofa restoration costs ₹12,000–₹25,000. Reupholstery costs ₹3,000–₹15,000 per seat. Free doorstep quote provided.",
+        "Sofa cushion repair starts at ₹500. Full L-shaped sofa restoration costs ₹12,000–₹25,000. Reupholstery costs ₹3,000–₹15,000 per seat. Free doorstep quote provided.",
     },
     {
       question: "Can you repair modular furniture in Indirapuram apartments?",
@@ -219,11 +219,11 @@ export const furnitureRepairIndirapuram: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairDlfGurgaon: SeoPageData = {
   slug: "sofa-repair-dlf-gurgaon",
-  title: "Sofa Repair DLF Gurgaon | Near Me ₹999 | Same-Day Premium Doorstep Service",
+  title: "Sofa Repair DLF Gurgaon | Near Me ₹500",
   metaDescription:
-    "Premium sofa repair near me in DLF Gurgaon — Phase 1–5, Golf Course Road, Sohna Road. Leather repair, reupholstery & foam replacement from ₹999. Same-day doorstep. 6-month warranty.",
+    "Premium sofa repair near me in DLF Gurgaon — Phase 1–5, Golf Course Road, Sohna Road. Leather repair, reupholstery & foam replacement from ₹500.",
   quickAnswer:
-    "FurniRevive provides premium sofa repair across DLF Gurgaon Phases 1–5 and Golf Course Road starting at ₹999. Leather crack repair from ₹2,999, reupholstery from ₹5,000 per seat. Same-day doorstep service with gated community coordination and a 6-month written warranty.",
+    "FurniRevive provides premium sofa repair across DLF Gurgaon Phases 1–5 and Golf Course Road starting at ₹500. Leather crack repair from ₹2,999, reupholstery from ₹5,000 per seat. Same-day doorstep service with gated community coordination and a 6-month written warranty.",
   h1: "Sofa Repair in DLF Gurgaon — Premium Doorstep Restoration",
   heroSubtitle:
     "Professional sofa repair across DLF Phase 1–5, Golf Course Road, Golf Course Extension, Sohna Road, and all Gurgaon sectors. Leather restoration, designer reupholstery, foam replacement, and recliner repair with a 6-month warranty.",
@@ -318,7 +318,7 @@ export const sofaRepairDlfGurgaon: SeoPageData = {
       heading: "Sofa Repair Cost in Gurgaon — Premium Quality, Fair Pricing",
       body: [
         "Our Gurgaon pricing covers both standard and premium repair options. Standard sofa cushion foam replacement with 32D foam starts at ₹999 per cushion — the same rate across all Delhi NCR. Premium 40D foam adds ₹300–₹500 per cushion. Leather crack repair starts at ₹2,999 for minor work. Full leather restoration for a 3-seater runs ₹8,000–₹18,000.",
-        "Fabric reupholstery ranges from ₹3,000 per seat for quality Indian fabrics to ₹8,000–₹15,000 per seat for imported premium options. Recliner mechanism repair costs ₹1,499–₹6,000, with European motor replacement at ₹4,000–₹8,000. A complete premium restoration of a luxury 3-seater sofa — leather conditioning, foam upgrade, spring replacement, and frame reinforcement — typically costs ₹20,000–₹40,000 versus ₹1,00,000–₹3,00,000 for a comparable new piece.",
+        "Fabric reupholstery ranges from ₹2,000 per seat for quality Indian fabrics to ₹8,000–₹15,000 per seat for imported premium options. Recliner mechanism repair costs ₹1,499–₹6,000, with European motor replacement at ₹4,000–₹8,000. A complete premium restoration of a luxury 3-seater sofa — leather conditioning, foam upgrade, spring replacement, and frame reinforcement — typically costs ₹20,000–₹40,000 versus ₹1,00,000–₹3,00,000 for a comparable new piece.",
       ],
     },
     {
@@ -332,7 +332,7 @@ export const sofaRepairDlfGurgaon: SeoPageData = {
       heading: "Sofa Repair Near Me in DLF Gurgaon — Same-Day Premium Service",
       body: [
         "Looking for sofa repair near me in DLF Gurgaon? FurniRevive's premium technicians serve DLF Phase 1–5, Golf Course Road, Sohna Road, South City, Nirvana Country, and all Gurgaon sectors with same-day availability. Our sofa repair near me at home service means your imported leather sofa or designer sectional never leaves your apartment.",
-        "Sofa repair near me cost in DLF Gurgaon starts at ₹999 — and we provide a free doorstep inspection with a written quote before any work begins. Trusted by residents in DLF Magnolias, Aralias, The Crest, and premium societies across Gurgaon. Book at furnirevive.com or WhatsApp +91 92179 99355.",
+        "Sofa repair near me cost in DLF Gurgaon starts at ₹500 — and we provide a free doorstep inspection with a written quote before any work begins. Trusted by residents in DLF Magnolias, Aralias, The Crest, and premium societies across Gurgaon. Book at furnirevive.com or WhatsApp +91 92179 99355.",
       ],
     },
   ],
@@ -426,9 +426,9 @@ export const sofaRepairDlfGurgaon: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const furnitureRepairGreaterNoida: SeoPageData = {
   slug: "furniture-repair-greater-noida",
-  title: "Furniture Repair Greater Noida | ₹599 Doorstep | Same-Day | FurniRevive",
+  title: "Furniture Repair Greater Noida | ₹599 Doorstep | FurniRevive",
   metaDescription:
-    "Expert furniture repair in Greater Noida & Noida Extension from ₹599. Sofa, bed & wardrobe repaired at doorstep. Gaur City, ATS, Ace City covered. Same-day. 6-month warranty. Book!",
+    "Expert furniture repair in Greater Noida & Noida Extension from ₹599. Sofa, bed & wardrobe repaired at doorstep. Gaur City, ATS, Ace City covered.",
   quickAnswer:
     "FurniRevive offers doorstep furniture repair across Greater Noida and Noida Extension starting at ₹599. Sofa foam replacement from ₹999, hydraulic bed repair from ₹2,000. All major societies — Gaur City, ATS, Ace City — covered with same-day service and a 6-month written warranty.",
   h1: "Furniture Repair in Greater Noida — Doorstep Service for Every Society",

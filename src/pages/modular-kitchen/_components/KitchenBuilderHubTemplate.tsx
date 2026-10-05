@@ -69,6 +69,11 @@ const KitchenBuilderHubTemplate = ({ entry, faqs }: Props) => {
       title: metaTitle,
       description: metaDesc,
       canonical,
+      keywords: [
+        "modular kitchen",
+        `modular kitchen ${entry.builderName.toLowerCase()}`,
+        `modular kitchen ${entry.cityName.toLowerCase()}`,
+      ],
       ogUrl: canonical,
       ogType: "website",
       ogImage: "https://hercules-cdn.com/file_vHwBQgnl3KLJL1Yzu4ujy33h",

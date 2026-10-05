@@ -3,15 +3,15 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const reclinerRepairSushantLokGurgaon: SeoPageData = {
   slug: "recliner-repair-sushant-lok-gurgaon",
-  title: "Recliner Repair in Sushant Lok Gurgaon | Doorstep Service | FurniRevive",
-  metaDescription: "Expert recliner repair in Sushant Lok Gurgaon — Phase 1, 2 & 3. Manual & electric recliners, motor replacement from ₹1,499. Family home specialist. 6-month warranty.",
+  title: "Recliner Repair in Sushant Lok Gurgaon | FurniRevive",
+  metaDescription: "Expert recliner repair in Sushant Lok Gurgaon — Phase 1, 2 & 3. Manual & electric recliners, motor replacement from ₹1,499. Family home specialist.",
   h1: "Recliner Repair in Sushant Lok, Gurgaon",
   heroSubtitle: "Sushant Lok's established family villas own the best recliners — Durian, La-Z-Boy, HTL. When mechanisms seize, motors fail, or leather cracks, FurniRevive fixes it at your door. From ₹1,499. 6-month warranty.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
-    altText: "Professional sofa repair technician working on a beige premium fabric sofa in a luxury Gurgaon (Sushant Lok) home — FurniRevive",
-    caption: "Sofa Repair in Gurgaon (Sushant Lok) | Premium upholstery & foam service | Home visit | FurniRevive",
+    altText: "Professional recliner repair technician working on a beige premium fabric sofa in a luxury Gurgaon (Sushant Lok) home — FurniRevive",
+    caption: "Recliner Repair in Gurgaon (Sushant Lok) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer: "FurniRevive provides doorstep recliner repair across all three phases of Sushant Lok, Gurgaon — Phase 1, Phase 2, and Phase 3 — starting at ₹1,499. We repair manual recliners (mechanisms, springs, cables), electric recliners (motors, actuators, remote sync, wiring), and recliner upholstery (leather cracks, fabric tears, foam replacement). Brands: Durian, La-Z-Boy, HTL, Godrej Interio, and most imported models. Free on-site diagnosis, fixed transparent quote, same-day slots, 6-month warranty.",
   intro: [

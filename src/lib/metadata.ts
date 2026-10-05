@@ -18,6 +18,7 @@ export type PageMetadataOpts = {
   title: string;
   description: string;
   canonical: string;
+  keywords?: string[];
   ogTitle?: string;
   ogDescription?: string;
   ogUrl?: string;
@@ -35,6 +36,7 @@ export function setPageMetadata(opts: PageMetadataOpts): () => void {
     title,
     description,
     canonical,
+    keywords,
     ogTitle,
     ogDescription,
     ogUrl,
@@ -62,6 +64,7 @@ export function setPageMetadata(opts: PageMetadataOpts): () => void {
   }
 
   const prevDescription = updateMeta('meta[name="description"]', description);
+  const prevKeywords = keywords != null ? updateMeta('meta[name="keywords"]', keywords.join(", ")) : undefined;
   const prevOgTitle = updateMeta('meta[property="og:title"]', ogTitle ?? title);
   const prevOgDescription = updateMeta('meta[property="og:description"]', ogDescription ?? description);
   const prevOgType = updateMeta('meta[property="og:type"]', ogType ?? "website");
@@ -100,6 +103,11 @@ export function setPageMetadata(opts: PageMetadataOpts): () => void {
 
     const descEl = document.querySelector('meta[name="description"]');
     if (descEl && prevDescription !== null) descEl.setAttribute("content", prevDescription);
+
+    if (keywords != null && prevKeywords !== undefined) {
+      const keywordsEl = document.querySelector('meta[name="keywords"]');
+      if (keywordsEl && prevKeywords !== null) keywordsEl.setAttribute("content", prevKeywords);
+    }
 
     const ogTitleEl = document.querySelector('meta[property="og:title"]');
     if (ogTitleEl && prevOgTitle !== null) ogTitleEl.setAttribute("content", prevOgTitle);

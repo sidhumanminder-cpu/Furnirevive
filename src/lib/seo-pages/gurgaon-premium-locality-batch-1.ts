@@ -5,9 +5,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const furnitureRepairSushantLok: SeoPageData = {
   slug: "furniture-repair-sushant-lok-gurgaon",
-  title: "Furniture Repair in Sushant Lok Gurgaon | Doorstep ₹999 | FurniRevive",
+  title: "Furniture Repair in Sushant Lok Gurgaon | FurniRevive",
   metaDescription:
-    "Expert furniture repair in Sushant Lok, Gurgaon from ₹999. Sofa, wooden furniture, dining sets, wardrobes & bed repair at your villa. 6-month warranty. Call FurniRevive.",
+    "Expert furniture repair in Sushant Lok, Gurgaon from ₹999. Sofa, wooden furniture, dining sets, wardrobes & bed repair at your villa. 6-month warranty.",
   h1: "Furniture Repair in Sushant Lok, Gurgaon",
   heroSubtitle:
     "Sushant Lok's established villas and family homes deserve a furniture restorer who understands long-term care — not a one-off handyman. Doorstep repair from ₹999 across Sushant Lok Phase 1, 2 & 3. 6-month warranty.",
@@ -303,9 +303,9 @@ export const furnitureRepairSushantLok: SeoPageData = {
 
 export const furnitureRepairDlfPhase1: SeoPageData = {
   slug: "furniture-repair-dlf-phase-1",
-  title: "Furniture Repair in DLF Phase 1 Gurgaon | Luxury Restoration | FurniRevive",
+  title: "Furniture Repair in DLF Phase 1 Gurgaon | FurniRevive",
   metaDescription:
-    "Premium furniture repair in DLF Phase 1, Gurgaon from ₹999. Luxury sofa restoration, imported furniture, refinishing & antique repair at your villa. 6-month warranty.",
+    "Premium furniture repair in DLF Phase 1, Gurgaon from ₹999. Luxury sofa restoration, imported furniture, refinishing & antique repair at your villa.",
   h1: "Furniture Repair in DLF Phase 1, Gurgaon",
   heroSubtitle:
     "DLF Phase 1's premium villas and bungalows deserve restoration-grade craftsmanship — not a generic repair visit. Luxury furniture repair, refinishing and imported-piece restoration from ₹999. 6-month warranty.",
@@ -601,9 +601,9 @@ export const furnitureRepairDlfPhase1: SeoPageData = {
 
 export const furnitureRepairDlfPhase2: SeoPageData = {
   slug: "furniture-repair-dlf-phase-2",
-  title: "Furniture Repair in DLF Phase 2 Gurgaon | Imported & High-Value | FurniRevive",
+  title: "Furniture Repair in DLF Phase 2 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert furniture repair in DLF Phase 2, Gurgaon from ₹999. Imported furniture, high-value interiors, leather sofa & cabinetry restoration at home. 6-month warranty.",
+    "Expert furniture repair in DLF Phase 2, Gurgaon from ₹999. Imported furniture, high-value interiors, leather sofa & cabinetry restoration at home.",
   h1: "Furniture Repair in DLF Phase 2, Gurgaon",
   heroSubtitle:
     "DLF Phase 2's high-value interiors and imported furniture deserve a specialist restorer. Doorstep furniture repair, imported-piece restoration and refinishing from ₹999, serving Cyber City & Ambience Mall vicinity. 6-month warranty.",
@@ -893,9 +893,9 @@ export const furnitureRepairDlfPhase2: SeoPageData = {
 
 export const furnitureRepairDlfPhase3: SeoPageData = {
   slug: "furniture-repair-dlf-phase-3",
-  title: "Furniture Repair in DLF Phase 3 Gurgaon | Family & Recliner | FurniRevive",
+  title: "Furniture Repair in DLF Phase 3 Gurgaon | FurniRevive",
   metaDescription:
-    "Trusted furniture repair in DLF Phase 3, Gurgaon from ₹999. Family furniture restoration, sofa, dining, wardrobe & recliner repair at home. 6-month warranty. Call FurniRevive.",
+    "Trusted furniture repair in DLF Phase 3, Gurgaon from ₹999. Family furniture restoration, sofa, dining, wardrobe & recliner repair at home.",
   h1: "Furniture Repair in DLF Phase 3, Gurgaon",
   heroSubtitle:
     "DLF Phase 3's family homes deserve a furniture restorer who treats every piece as a long-term investment. Doorstep family furniture restoration and recliner repair from ₹999, serving Cyber Hub & DLF Phase 3 sectors. 6-month warranty.",
@@ -1183,9 +1183,9 @@ export const furnitureRepairDlfPhase3: SeoPageData = {
 
 export const furnitureRepairDlfPhase4: SeoPageData = {
   slug: "furniture-repair-dlf-phase-4",
-  title: "Furniture Repair in DLF Phase 4 Gurgaon | Designer Furniture | FurniRevive",
+  title: "Furniture Repair in DLF Phase 4 Gurgaon | FurniRevive",
   metaDescription:
-    "Premium furniture repair in DLF Phase 4, Gurgaon from ₹999. Designer furniture restoration, leather sofa, cabinetry & upholstery repair at your home. 6-month warranty.",
+    "Premium furniture repair in DLF Phase 4, Gurgaon from ₹999. Designer furniture restoration, leather sofa, cabinetry & upholstery repair at your home.",
   h1: "Furniture Repair in DLF Phase 4, Gurgaon",
   heroSubtitle:
     "DLF Phase 4's premium households and designer interiors deserve furniture restoration done right. Doorstep designer furniture repair, leather restoration and refinishing from ₹999, serving Galleria Market & South Point vicinity. 6-month warranty.",

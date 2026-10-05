@@ -8,9 +8,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 export const furnitureRepairPriceGuideDelhi: SeoPageData = {
   slug: "furniture-repair-price-guide-delhi",
   title:
-    "Furniture Repair Price Guide Delhi 2026: Complete Cost List | FurniRevive",
+    "Furniture Repair Price Guide Delhi 2026: Complete Cost List",
   metaDescription:
-    "Complete furniture repair price guide for Delhi NCR 2026. Sofa repair ₹999+, leather sofa ₹2,500+, recliner ₹3,500+, wooden furniture ₹2,000+. All prices with FurniRevive.",
+    "Complete furniture repair price guide for Delhi NCR 2026. Sofa repair ₹500+, leather sofa ₹2,500+, recliner ₹3,500+, wooden furniture ₹2,000+.",
   h1: "Furniture Repair Price Guide Delhi 2026: The Complete Cost Reference",
   heroSubtitle:
     "The most comprehensive furniture repair pricing guide for Delhi NCR. Every repair type, every material, every area covered — with transparent, honest cost ranges. Updated for 2026.",
@@ -21,7 +21,7 @@ export const furnitureRepairPriceGuideDelhi: SeoPageData = {
     caption: "Furniture Repair Price Guide Delhi | Complete 2026 cost reference | Free inspection | FurniRevive",
   },
   quickAnswer:
-    "Furniture repair costs in Delhi range from ₹999 for basic cushion work to ₹25,000+ for full luxury restoration. Sofa repair: ₹999–₹12,000. Leather sofa: ₹2,500–₹18,000. Recliner: ₹3,500–₹12,000. Wooden furniture: ₹2,000–₹15,000. Free inspection with written quote from FurniRevive.",
+    "Furniture repair costs in Delhi range from ₹500 for basic cushion work to ₹25,000+ for full luxury restoration. Sofa repair: ₹999–₹12,000. Leather sofa: ₹2,500–₹18,000. Recliner: ₹3,500–₹12,000. Wooden furniture: ₹2,000–₹15,000. Free inspection with written quote from FurniRevive.",
   keywords: [
     "furniture repair price guide Delhi",
     "furniture repair cost Delhi",
@@ -49,7 +49,7 @@ export const furnitureRepairPriceGuideDelhi: SeoPageData = {
   intro: [
     `If you're budgeting a furniture repair project in Delhi, this is the only pricing guide you'll need. ${BRAND_NAME}'s master cost hub consolidates every repair price, material rate, and service estimate into one structured reference — sourced from thousands of real jobs completed across Delhi NCR in 2025 and 2026. Our <a href="/furniture-repair-delhi">furniture repair specialists in Delhi</a> cover everything from single-stitch fabric repairs to complete frame rebuilds, and this page links directly to detailed cost breakdowns for every furniture type and repair category. Whether you're a homeowner in Vasant Vihar or a property manager in Dwarka, prices here reflect real Delhi market conditions — not national averages. For sofa owners specifically, our dedicated <a href="/sofa-repair-delhi">sofa repair services in Delhi</a> page is the best starting point for service bookings.`,
     `Cost transparency drives everything ${BRAND_NAME} does. Our <a href="/furniture-repair-cost-delhi">complete furniture repair cost guide</a> covers more than 40 repair types across all furniture categories, with low-end and high-end price ranges for each. The companion <a href="/furniture-repair-price-list-delhi">furniture repair price list</a> is a quick-reference table ideal for fast budgeting — you can identify a ballpark figure for your repair in under 60 seconds. Both resources are updated every quarter to reflect rising fabric import costs, labour rate changes, and foam price fluctuations across the Delhi NCR market. Bookmark them if you manage a property or regularly refresh furniture in your home.`,
-    `Sofa repairs dominate repair requests across Delhi — the cost range runs from ₹800 for a basic stitch fix to ₹38,000 for a full re-upholstery on a large imported sectional. Our dedicated <a href="/sofa-repair-cost-delhi">sofa repair cost guide</a> organises these ranges by repair type, sofa style, fabric, and brand — covering Pepperfry, Home Centre, Urban Ladder, and Evok sofas separately. If you want to understand what drives those price swings on a real job, the <a href="/blog/sofa-repair-cost-delhi">sofa repair cost blog</a> walks through more than a dozen actual estimates in detail. For homeowners whose sofa cushions have gone flat, our <a href="/sofa-foam-replacement-cost-delhi">foam replacement cost breakdown</a> covers every foam grade from economy HR foam to the imported high-resilience foam used in premium Wakefit and Durian sofas.`,
+    `Sofa repairs dominate repair requests across Delhi — the cost range runs from ₹500 for a basic stitch fix to ₹38,000 for a full re-upholstery on a large imported sectional. Our dedicated <a href="/sofa-repair-cost-delhi">sofa repair cost guide</a> organises these ranges by repair type, sofa style, fabric, and brand — covering Pepperfry, Home Centre, Urban Ladder, and Evok sofas separately. If you want to understand what drives those price swings on a real job, the <a href="/blog/sofa-repair-cost-delhi">sofa repair cost blog</a> walks through more than a dozen actual estimates in detail. For homeowners whose sofa cushions have gone flat, our <a href="/sofa-foam-replacement-cost-delhi">foam replacement cost breakdown</a> covers every foam grade from economy HR foam to the imported high-resilience foam used in premium Wakefit and Durian sofas.`,
     `Leather sofa and premium furniture owners will find specific cost intelligence on our <a href="/leather-sofa-repair-cost-delhi">leather sofa restoration pricing</a> page — it covers bonded leather, full-grain, nubuck, and bi-cast leather repairs separately, with real price ranges for brands like Nilkamal, Royaloak, and Wooden Street. Motorised recliner owners should bookmark the <a href="/recliner-repair-cost-delhi">recliner repair costs</a> guide, which breaks out mechanism repair, motor replacement, and upholstery separately so you know exactly what you're paying for. For fabric sofas and sectionals due for a makeover, the <a href="/sofa-upholstery-price-list-delhi">sofa upholstery pricing</a> page lists per-metre fabric rates and full-job estimates across cotton, velvet, leatherette, and imported woven fabrics.`,
     `Unsure whether repairing your sofa is smarter than buying new? Our <a href="/blog/sofa-repair-vs-buy-new-sofa">sofa repair vs replacement guide</a> walks you through a clear decision framework with real cost comparisons from Delhi retailers and ${BRAND_NAME}'s own repair cost data. ${BRAND_NAME} operates across all of Delhi NCR — our <a href="/sofa-repair-noida">sofa repair Noida</a> and <a href="/sofa-repair-gurgaon">sofa repair Gurgaon</a> pages carry location-specific pricing and service area details for customers outside central Delhi. To schedule a free home visit and written estimate, call ${PHONE_DISPLAY} — our technicians typically arrive within 24 hours and provide a written quote before any work begins.`,
   ],
@@ -535,9 +535,9 @@ export const furnitureRepairPriceGuideDelhi: SeoPageData = {
 export const leatherSofaRepairCostDelhi: SeoPageData = {
   slug: "leather-sofa-repair-cost-delhi",
   title:
-    "Leather Sofa Repair Cost in Delhi 2026: Complete Price Guide | FurniRevive",
+    "Leather Sofa Repair Cost in Delhi 2026: Complete Price Guide",
   metaDescription:
-    "Leather sofa repair cost in Delhi: scratch repair ₹1,500–₹4,000, colour restoration ₹3,000–₹8,000, full re-leather ₹6,000–₹25,000. Transparent pricing by FurniRevive.",
+    "Leather sofa repair cost in Delhi: scratch repair ₹1,500–₹4,000, colour restoration ₹3,000–₹8,000, full re-leather ₹6,000–₹25,000.",
   h1: "Leather Sofa Repair Cost in Delhi 2026 — Complete Price Guide",
   heroSubtitle:
     "Transparent leather sofa repair pricing for Delhi NCR. From minor scratch repairs to full re-leathering — all costs explained with no hidden charges.",

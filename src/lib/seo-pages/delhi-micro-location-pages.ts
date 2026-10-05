@@ -1,14 +1,16 @@
 import type { SeoPageData } from "@/lib/seo-constants.ts";
+import { furnitureRepairDelhi } from "@/lib/seo-service-pages.ts";
+import { enrichCityPage } from "@/lib/seo-location-pages/city-enrichment.ts";
 import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 // ---------------------------------------------------------------------------
 // 1. FURNITURE REPAIR SOUTH DELHI
 // ---------------------------------------------------------------------------
-export const furnitureRepairSouthDelhi: SeoPageData = {
+const furnitureRepairSouthDelhiBase: SeoPageData = {
   slug: "furniture-repair-south-delhi",
   title: "Furniture Repair in South Delhi | Doorstep ₹599 | FurniRevive",
   metaDescription:
-    "Top furniture repair in South Delhi — GK, Lajpat Nagar, Saket, Hauz Khas, Defence Colony, Vasant Kunj. Sofa, bed, wardrobe repaired at home. 6-month warranty.",
+    "Top furniture repair in South Delhi — GK, Lajpat Nagar, Saket, Hauz Khas, Defence Colony, Vasant Kunj. Sofa, bed, wardrobe repaired at home.",
   h1: "Furniture Repair in South Delhi — GK, Saket, Lajpat Nagar & More",
   heroSubtitle:
     "Expert doorstep furniture repair across South Delhi's premium colonies. Sofas, beds, chairs, wardrobes, and dining tables restored with a 6-month warranty — starting at ₹599.",
@@ -77,7 +79,7 @@ export const furnitureRepairSouthDelhi: SeoPageData = {
   ],
   faqs: [
     { question: "Do you provide furniture repair in Greater Kailash?", answer: "Yes, we serve GK-1, GK-2, Kailash Colony, and East of Kailash with doorstep furniture repair. Our craftsmen are experienced with the premium furniture found in Greater Kailash homes." },
-    { question: "How much does furniture repair cost in South Delhi?", answer: "Starting at ₹599 for basic chair repair. Sofa repair from ₹999, bed repair from ₹1,199, wardrobe repair from ₹799. Free inspection and transparent quotation before any work begins." },
+    { question: "How much does furniture repair cost in South Delhi?", answer: "Starting at ₹599 for basic chair repair. Sofa repair from ₹500, bed repair from ₹1,199, wardrobe repair from ₹799. Free inspection and transparent quotation before any work begins." },
     { question: "Can you repair antique furniture in South Delhi?", answer: "Absolutely. Many South Delhi colonies have heritage homes with antique furniture. Our craftsmen use traditional techniques to preserve the original character while restoring full functionality." },
     { question: "Is same-day furniture repair available in South Delhi?", answer: "Yes, book before noon for same-day service anywhere in South Delhi. Call us directly for the fastest response on urgent repairs." },
     { question: "Do you serve Defence Colony and Lajpat Nagar?", answer: "Yes, we provide doorstep furniture repair across Defence Colony, Lajpat Nagar (I–IV), Amar Colony, Jangpura, and all surrounding areas." },
@@ -107,6 +109,8 @@ export const furnitureRepairSouthDelhi: SeoPageData = {
   ],
 };
 
+export const furnitureRepairSouthDelhi: SeoPageData = enrichCityPage(furnitureRepairSouthDelhiBase, { city: "delhi", clusters: ["southDelhi"], label: "South Delhi", serviceNoun: "furniture repair", furnitureSource: furnitureRepairDelhi, pinnedAreas: ["Saket", "Vasant Kunj", "Malviya Nagar"], faqSet: "furniture" });
+
 // ---------------------------------------------------------------------------
 // 2. FURNITURE REPAIR EAST DELHI
 // ---------------------------------------------------------------------------
@@ -114,7 +118,7 @@ export const furnitureRepairEastDelhi: SeoPageData = {
   slug: "furniture-repair-east-delhi",
   title: "Furniture Repair in East Delhi | Doorstep ₹599 | FurniRevive",
   metaDescription:
-    "Professional furniture repair in East Delhi — Preet Vihar, Mayur Vihar, Laxmi Nagar, Patparganj, IP Extension. Doorstep service. 6-month warranty. Starting ₹599.",
+    "Professional furniture repair in East Delhi — Preet Vihar, Mayur Vihar, Laxmi Nagar, Patparganj, IP Extension. Doorstep service. 6-month warranty.",
   h1: "Furniture Repair in East Delhi — Preet Vihar, Mayur Vihar & All Areas",
   heroSubtitle:
     "Doorstep furniture repair for every East Delhi locality. Sofas, beds, chairs, wardrobes, and dining tables expertly restored — starting ₹599 with a 6-month warranty.",
@@ -175,7 +179,7 @@ export const furnitureRepairEastDelhi: SeoPageData = {
     {
       heading: "Furniture Repair Cost in East Delhi",
       body: [
-        "Our pricing is designed to be budget-friendly for East Delhi families. Basic chair repair starts at ₹599, sofa repair at ₹999, bed repair at ₹1,199, and wardrobe repair at ₹799. Complete re-upholstery and structural overhauls are quoted after free inspection.",
+        "Our pricing is designed to be budget-friendly for East Delhi families. Basic chair repair starts at ₹599, sofa repair at ₹500, bed repair at ₹1,199, and wardrobe repair at ₹799. Complete re-upholstery and structural overhauls are quoted after free inspection.",
         "East Delhi residents value practical spending. Professional furniture repair saves 50–70% compared to buying new from Laxmi Nagar markets or online retailers. A sofa costing ₹35,000 new can be fully restored for ₹3,000–₹10,000. We always provide a transparent quote before starting work.",
       ],
     },
@@ -224,7 +228,7 @@ export const furnitureRepairEastDelhi: SeoPageData = {
   ],
   faqs: [
     { question: "Do you provide furniture repair in Preet Vihar?", answer: "Yes, Preet Vihar is one of our primary East Delhi service areas. We provide doorstep furniture repair for all types of home and office furniture with same-day availability." },
-    { question: "How much does furniture repair cost in East Delhi?", answer: "Starting at ₹599 for basic chair repair. Sofa repair from ₹999, bed repair from ₹1,199. Free inspection and transparent quotation provided before any work begins." },
+    { question: "How much does furniture repair cost in East Delhi?", answer: "Starting at ₹599 for basic chair repair. Sofa repair from ₹500, bed repair from ₹1,199. Free inspection and transparent quotation provided before any work begins." },
     { question: "Do you serve Mayur Vihar for furniture repair?", answer: "Yes, we cover Mayur Vihar Phase 1, 2, and 3 with doorstep furniture repair service. Our team arrives with all tools and materials needed." },
     { question: "Is same-day furniture repair available in East Delhi?", answer: "Yes, book before noon for same-day service anywhere in East Delhi. Call us directly for the fastest response on urgent repairs." },
     { question: "Do you repair office furniture in East Delhi?", answer: "Absolutely. We repair office chairs, desks, conference tables, and cabinets across East Delhi's commercial areas including Patparganj, IP Extension, and Laxmi Nagar. Bulk pricing available." },
@@ -310,10 +314,10 @@ export const sofaRepairGreaterKailash: SeoPageData = {
   slug: "sofa-repair-greater-kailash",
   title: "Sofa Repair in Greater Kailash | GK-1 & GK-2 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Greater Kailash, Delhi. Leather, fabric & recliner sofa repair at doorstep in GK-1, GK-2, Kailash Colony. ₹999 onwards. 6-month warranty.",
+    "Expert sofa repair in Greater Kailash, Delhi. Leather, fabric & recliner sofa repair at doorstep in GK-1, GK-2, Kailash Colony. ₹500 onwards.",
   h1: "Sofa Repair in Greater Kailash — GK-1, GK-2 & Kailash Colony",
   heroSubtitle:
-    "Premium sofa repair at your doorstep in Greater Kailash. Leather restoration, fabric change, cushion work, and frame repair for GK's finest sofas — starting ₹999 with a 6-month warranty.",
+    "Premium sofa repair at your doorstep in Greater Kailash. Leather restoration, fabric change, cushion work, and frame repair for GK's finest sofas — starting ₹500 with a 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Greater Kailash Delhi Home",
     imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
@@ -325,7 +329,7 @@ export const sofaRepairGreaterKailash: SeoPageData = {
   intro: [
     "Greater Kailash is synonymous with quality living in Delhi. Homes in GK-1, GK-2, Kailash Colony, and East of Kailash feature some of the finest furniture in the city — imported leather sofas, designer sectionals, heritage wooden pieces, and luxury recliners. When these premium sofas need repair, they deserve a service that understands and respects their quality.",
     "FurniRevive provides premium <a href=\"/sofa-repair-south-delhi\">sofa repair in South Delhi</a> with a special focus on Greater Kailash's high-end homes. Our upholstery specialists and carpenters are experienced with luxury brands, imported leather, designer fabrics, and antique restoration. We arrive at your GK doorstep with professional-grade tools and premium materials to restore your sofa to showroom condition.",
-    "Whether it's a crack in your Italian leather sofa needing <a href=\"/leather-sofa-repair-south-delhi\">professional leather sofa restoration</a> in GK-1, sagging cushions in a tufted Chesterfield in GK-2, or a broken recliner mechanism where our <a href=\"/recliner-repair-south-delhi\">electric recliner repair service</a> can help in Kailash Colony, our craftsmen handle it with the precision and care your furniture deserves. Starting at ₹999 with same-day availability and a 6-month warranty.",
+    "Whether it's a crack in your Italian leather sofa needing <a href=\"/leather-sofa-repair-south-delhi\">professional leather sofa restoration</a> in GK-1, sagging cushions in a tufted Chesterfield in GK-2, or a broken recliner mechanism where our <a href=\"/recliner-repair-south-delhi\">electric recliner repair service</a> can help in Kailash Colony, our craftsmen handle it with the precision and care your furniture deserves. Starting at ₹500 with same-day availability and a 6-month warranty.",
   ],
   whyChoose: [
     { title: "GK & Nearby Colonies", description: "GK-1, GK-2, Kailash Colony, East of Kailash, Nehru Place, Lajpat Nagar, Defence Colony — we serve the entire GK cluster and surrounding areas." },
@@ -351,7 +355,7 @@ export const sofaRepairGreaterKailash: SeoPageData = {
     "Antique and heritage sofa restoration",
     "Frame reinforcement and spring replacement",
     "Same-day service in Greater Kailash",
-    "Starting at ₹999 with transparent pricing",
+    "Starting at ₹500 with transparent pricing",
     "6-month warranty on all sofa repairs",
     "Colour-matched material sourcing",
   ],
@@ -366,7 +370,7 @@ export const sofaRepairGreaterKailash: SeoPageData = {
     {
       heading: "Sofa Repair Cost in Greater Kailash",
       body: [
-        "Our GK sofa repair starts at ₹999 for basic cushion foam replacement. Complete 3-seater sofa overhauls range from ₹3,000–₹15,000 depending on sofa size and materials. Premium leather restoration may cost ₹5,000–₹20,000 depending on the type of leather and extent of damage.",
+        "Our GK sofa repair starts at ₹500 for basic cushion foam replacement. Complete 3-seater sofa overhauls range from ₹3,000–₹15,000 depending on sofa size and materials. Premium leather restoration may cost ₹5,000–₹20,000 depending on the type of leather and extent of damage.",
         "GK residents often own sofas worth ₹1,00,000–₹5,00,000. Professional repair at a fraction of that cost extends the life of your investment by 5–10 years. We always provide a free inspection and honest assessment — if repair doesn't make sense, we tell you upfront.",
       ],
     },
@@ -380,7 +384,7 @@ export const sofaRepairGreaterKailash: SeoPageData = {
   ],
   faqs: [
     { question: "Do you provide sofa repair in GK-1 and GK-2?", answer: "Yes, we serve both GK-1 and GK-2 with doorstep sofa repair. Our craftsmen are experienced with the premium and imported sofas commonly found in Greater Kailash homes." },
-    { question: "How much does sofa repair cost in Greater Kailash?", answer: "Starting at ₹999 for basic cushion work. Complete overhauls range from ₹3,000–₹15,000. Premium leather restoration may cost more. Free inspection and transparent quote provided." },
+    { question: "How much does sofa repair cost in Greater Kailash?", answer: "Starting at ₹500 for basic cushion work. Complete overhauls range from ₹3,000–₹15,000. Premium leather restoration may cost more. Free inspection and transparent quote provided." },
     { question: "Can you repair imported leather sofas in GK?", answer: "Absolutely. We specialise in imported and luxury leather sofa repair — crack filling, colour restoration, conditioning, and full panel replacement using matching high-quality leather." },
     { question: "Is same-day sofa repair available in Greater Kailash?", answer: "Yes, book before noon for same-day service in Greater Kailash. Our South Delhi team is strategically positioned for fast response." },
     { question: "Do you repair recliner sofas in GK?", answer: "Yes, we repair all recliner types — manual and motorised. Services include mechanism repair, motor replacement, leather repair, and cushion work." },

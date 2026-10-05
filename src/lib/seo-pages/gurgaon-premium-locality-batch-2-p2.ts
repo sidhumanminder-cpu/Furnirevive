@@ -3,15 +3,15 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const reclinerRepairGolfCourseRoadGurgaon: SeoPageData = {
   slug: "recliner-repair-golf-course-road-gurgaon",
-  title: "Recliner Repair in Golf Course Road Gurgaon | Expert Doorstep Service | FurniRevive",
-  metaDescription: "Expert recliner repair in Golf Course Road Gurgaon — Central Park, Nirvana Country, M3M Golfestate. Manual & electric recliner, motor repair from ₹1,499. 6-month warranty.",
+  title: "Recliner Repair in Golf Course Road Gurgaon | FurniRevive",
+  metaDescription: "Expert recliner repair in Golf Course Road Gurgaon — Central Park, Nirvana Country, M3M Golfestate. Manual & electric recliner, motor repair from ₹1,499.",
   h1: "Recliner Repair in Golf Course Road, Gurgaon",
   heroSubtitle: "Golf Course Road is home to Gurgaon's most premium residential towers — Central Park Resorts, Nirvana Country, M3M Golfestate. Your luxury recliners deserve specialist repair. From ₹1,499. 6-month warranty.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
-    altText: "Professional sofa repair technician working on a beige premium fabric sofa in a luxury Gurgaon (Golf Course Road) home — FurniRevive",
-    caption: "Sofa Repair in Gurgaon (Golf Course Road) | Premium upholstery & foam service | Home visit | FurniRevive",
+    altText: "Professional recliner repair technician working on a beige premium fabric sofa in a luxury Gurgaon (Golf Course Road) home — FurniRevive",
+    caption: "Recliner Repair in Gurgaon (Golf Course Road) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer: "FurniRevive provides 4.8-star rated doorstep recliner repair across Golf Course Road, Gurgaon — covering Central Park Resorts, Nirvana Country, M3M Golfestate, and all premium towers — starting at ₹1,499. We repair manual recliners (mechanism, spring, cable), electric recliners (motor replacement, actuator, wiring), and luxury imported recliners including Durian, La-Z-Boy, and HTL. Free on-site assessment, fixed transparent quote, and a 6-month workmanship warranty.",
   intro: [

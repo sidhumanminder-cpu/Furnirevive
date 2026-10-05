@@ -120,6 +120,7 @@ export default function ModularKitchenRenovationNoidaPage() {
       title: PAGE_TITLE,
       description: META_DESCRIPTION,
       canonical: CANONICAL,
+      keywords: ["modular kitchen renovation noida", "kitchen renovation noida", "modular kitchen noida"],
     });
     return cleanupMeta;
   }, []);

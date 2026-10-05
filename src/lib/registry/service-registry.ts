@@ -36,6 +36,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
       "faq:v1",
       "testimonials:v1",
       "comparison:v1",
+      "before-after:v1",
       "topical-authority:v1",
       "blog-links:v1",
       "cta:v1",
@@ -58,6 +59,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     ],
     seo: {
       titleModifier: "Same-Day Sofa Repair at Home",
+      shortTitleBenefit: "Same-Day Repair",
       metaKeywords: ["foam replacement", "spring repair"],
       synonyms: ["sofa reupholstery", "couch repair"],
       commercialTerms: ["sofa repair cost", "sofa repair price"],
@@ -95,6 +97,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
       "faq:v1",
       "testimonials:v1",
       "comparison:v1",
+      "before-after:v1",
       "topical-authority:v1",
       "blog-links:v1",
       "cta:v1",
@@ -117,6 +120,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     ],
     seo: {
       titleModifier: "Electric & Manual Recliner Specialists",
+      shortTitleBenefit: "Motor & Mechanism Fix",
       metaKeywords: ["motor repair", "mechanism repair"],
       synonyms: ["electric recliner repair", "recliner mechanism fix"],
       commercialTerms: ["recliner repair cost", "recliner repair price"],
@@ -154,6 +158,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
       "faq:v1",
       "testimonials:v1",
       "comparison:v1",
+      "before-after:v1",
       "topical-authority:v1",
       "blog-links:v1",
       "cta:v1",
@@ -176,6 +181,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     ],
     seo: {
       titleModifier: "All Furniture Repaired at Home",
+      shortTitleBenefit: "All Furniture Fixed",
       metaKeywords: ["wooden furniture repair", "sofa repair"],
       synonyms: ["home furniture repair", "carpenter service"],
       commercialTerms: ["furniture repair cost", "furniture repair price"],
@@ -213,6 +219,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
       "faq:v1",
       "testimonials:v1",
       "comparison:v1",
+      "before-after:v1",
       "topical-authority:v1",
       "blog-links:v1",
       "cta:v1",
@@ -235,6 +242,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     ],
     seo: {
       titleModifier: "Premium Fabric & Leather Reupholstery",
+      shortTitleBenefit: "Reupholstery Experts",
       metaKeywords: ["fabric change", "foam replacement"],
       synonyms: ["sofa fabric change", "sofa cover change"],
       commercialTerms: ["sofa upholstery cost", "sofa reupholstery price"],
@@ -305,6 +313,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     ],
     seo: {
       titleModifier: "Same-Day Corporate Chair Repair | GST Invoice",
+      shortTitleBenefit: "GST Invoice & AMC",
       metaKeywords: ["gas lift replacement", "bulk office chair repair"],
       synonyms: ["corporate chair repair", "ergonomic chair repair"],
       commercialTerms: ["office chair repair cost", "office chair repair price", "office chair AMC"],
@@ -429,6 +438,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     ],
     seo: {
       titleModifier: "Same-Day Corporate Furniture Repair | GST Invoice",
+      shortTitleBenefit: "GST Invoice & AMC",
       metaKeywords: ["office desk repair", "workstation repair"],
       synonyms: ["corporate furniture repair", "commercial furniture repair"],
       commercialTerms: ["office furniture repair cost", "office furniture repair price", "office furniture AMC"],

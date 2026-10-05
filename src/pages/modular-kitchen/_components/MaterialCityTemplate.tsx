@@ -44,6 +44,11 @@ export default function MaterialCityTemplate({ entry }: Props) {
       title: entry.metaTitle,
       description: entry.metaDescription,
       canonical,
+      keywords: [
+        `${entry.materialName.toLowerCase()} modular kitchen`,
+        `modular kitchen ${entry.cityName.toLowerCase()}`,
+        "modular kitchen",
+      ],
       ogTitle: entry.metaTitle,
       ogDescription: entry.metaDescription,
       ogUrl: canonical,

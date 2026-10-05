@@ -73,7 +73,7 @@ const FURNITURE_CONTENT_SECTIONS = [
   {
     heading: "Sofa & Upholstery Repair",
     body: [
-      "We repair fabric, leather, and imported upholstered sofas at your home — covering foam replacement, spring repair, frame fixes, leather stitching, and full reupholstery. Sofa repair starts from ₹999, full reupholstery from ₹5,000.",
+      "We repair fabric, leather, and imported upholstered sofas at your home — covering foam replacement, spring repair, frame fixes, leather stitching, and full reupholstery. Sofa repair starts from ₹500, full reupholstery from ₹5,000.",
     ],
   },
   {
@@ -167,9 +167,9 @@ const GK_RELATED_PAGES = [
 
 const reclineRepairGreaterKailash1: SeoPageData = {
   slug: "recliner-repair-greater-kailash-1",
-  title: "Recliner Repair Greater Kailash 1 – Expert Doorstep Service | Same Day | From ₹1,499",
+  title: "Recliner Repair Greater Kailash 1 – Expert Doorstep Service",
   metaDescription:
-    "Recliner repair in Greater Kailash 1 from ₹1,499. Motor, mechanism & leather experts. Free home visit in GK-I M Block, N Block & surrounding lanes. Call FurniRevive now!",
+    "Recliner repair in Greater Kailash 1 from ₹1,499. Motor, mechanism & leather experts. Free home visit in GK-I M Block, N Block & surrounding lanes.",
   h1: "Recliner Repair in Greater Kailash 1 – Luxury Recliner Specialists at Your Door",
   heroSubtitle:
     "Motor repair, mechanism fixes, leather restoration and full reupholstery for Natuzzi, La-Z-Boy, Ashley, Stressless and all premium recliners in GK-I. Free home visit. Same-day slots available.",
@@ -261,9 +261,9 @@ const reclineRepairGreaterKailash1: SeoPageData = {
 
 const furnitureRepairGreaterKailash1: SeoPageData = {
   slug: "furniture-repair-greater-kailash-1",
-  title: "Furniture Repair Greater Kailash 1 – Doorstep Service | Same Day | From ₹599",
+  title: "Furniture Repair Greater Kailash 1 – Doorstep Service",
   metaDescription:
-    "Furniture repair in Greater Kailash 1 from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. GK-I M Block, N Block & surroundings. 6-month warranty. Call FurniRevive!",
+    "Furniture repair in Greater Kailash 1 from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. GK-I M Block, N Block & surroundings.",
   h1: "Furniture Repair in Greater Kailash 1 – Premium Doorstep Restoration for GK-I Homes",
   heroSubtitle:
     "Complete furniture repair for imported sofas, designer chairs, wooden furniture, beds, and wardrobes across GK-I M Block, N Block and all surrounding lanes. Free home visit. Same-day slots. 6-month warranty.",
@@ -347,9 +347,9 @@ const furnitureRepairGreaterKailash1: SeoPageData = {
 
 const furnitureRepairGreaterKailash2: SeoPageData = {
   slug: "furniture-repair-greater-kailash-2",
-  title: "Furniture Repair Greater Kailash 2 – Doorstep Service | Same Day | From ₹599",
+  title: "Furniture Repair Greater Kailash 2 – Doorstep Service",
   metaDescription:
-    "Furniture repair in Greater Kailash 2 from ₹599. Sofa, chair, wooden furniture, beds and wardrobes repaired at your GK-II home. 6-month warranty. Call FurniRevive!",
+    "Furniture repair in Greater Kailash 2 from ₹599. Sofa, chair, wooden furniture, beds and wardrobes repaired at your GK-II home. 6-month warranty.",
   h1: "Furniture Repair in Greater Kailash 2 – Premium Doorstep Restoration for GK-II Homes",
   heroSubtitle:
     "Expert furniture repair for all piece types across GK-II M Block, S Block and surrounding streets. Free home visit. Same-day slots. 6-month warranty. Serving Greater Kailash 2 and nearby Defence Colony, Kailash Colony.",
@@ -431,9 +431,9 @@ const furnitureRepairGreaterKailash2: SeoPageData = {
 
 const reclineRepairGreaterKailash3: SeoPageData = {
   slug: "recliner-repair-greater-kailash-3",
-  title: "Recliner Repair Greater Kailash 3 – Expert Doorstep Service | Same Day | From ₹1,499",
+  title: "Recliner Repair Greater Kailash 3 – Expert Doorstep Service",
   metaDescription:
-    "Recliner repair in Greater Kailash 3 from ₹1,499. Motor, mechanism & leather experts. Free home visit in GK-III and surrounding South Delhi areas. Call FurniRevive now!",
+    "Recliner repair in Greater Kailash 3 from ₹1,499. Motor, mechanism & leather experts. Free home visit in GK-III and surrounding South Delhi areas.",
   h1: "Recliner Repair in Greater Kailash 3 – Expert Doorstep Service for GK-III",
   heroSubtitle:
     "Motor repair, mechanism fixes, leather restoration and full reupholstery for all recliner brands in GK-III. Free home visit. Same-day slots. Serving Greater Kailash 3, Malviya Nagar and Saket.",
@@ -515,9 +515,9 @@ const reclineRepairGreaterKailash3: SeoPageData = {
 
 const furnitureRepairGreaterKailash3: SeoPageData = {
   slug: "furniture-repair-greater-kailash-3",
-  title: "Furniture Repair Greater Kailash 3 – Doorstep Service | Same Day | From ₹599",
+  title: "Furniture Repair Greater Kailash 3 – Doorstep Service",
   metaDescription:
-    "Furniture repair in Greater Kailash 3 from ₹599. Sofas, chairs, wooden furniture, beds and wardrobes repaired at home in GK-III. 6-month warranty. Call FurniRevive!",
+    "Furniture repair in Greater Kailash 3 from ₹599. Sofas, chairs, wooden furniture, beds and wardrobes repaired at home in GK-III. 6-month warranty.",
   h1: "Furniture Repair in Greater Kailash 3 – Premium Doorstep Restoration",
   heroSubtitle:
     "Expert furniture repair for all types across GK-III — sofas, chairs, wooden furniture, beds, wardrobes, recliners. Free home visit. Same-day slots. 6-month warranty.",
@@ -599,9 +599,9 @@ const furnitureRepairGreaterKailash3: SeoPageData = {
 
 const furnitureRepairMaharaniBagh: SeoPageData = {
   slug: "furniture-repair-maharani-bagh",
-  title: "Furniture Repair Maharani Bagh – Doorstep Service | Same Day | From ₹599",
+  title: "Furniture Repair Maharani Bagh – Doorstep Service | Same Day",
   metaDescription:
-    "Furniture repair in Maharani Bagh from ₹599. Sofa, chair, wooden furniture, beds and wardrobes repaired at your Maharani Bagh or Friends Colony home. 6-month warranty. Call FurniRevive!",
+    "Furniture repair in Maharani Bagh from ₹599. Sofa, chair, wooden furniture, beds and wardrobes repaired at your Maharani Bagh or Friends Colony home.",
   h1: "Furniture Repair in Maharani Bagh – Premium Doorstep Restoration",
   heroSubtitle:
     "Expert furniture repair for every piece in Maharani Bagh — sofas, chairs, wooden furniture, beds, wardrobes, recliners. Free home visit. Same-day slots. 6-month warranty. Serving Maharani Bagh, Friends Colony, and nearby South Delhi.",

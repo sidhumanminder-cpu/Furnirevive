@@ -23,10 +23,10 @@ function relatedExcluding(slug: string) {
 export const sofaRepairGurgaonSector56: SeoPageData = {
   slug: "sofa-repair-gurgaon-sector-56",
 
-  title: "Sofa Repair Gurgaon Sector 56 | ₹999 Same-Day Home Service | FurniRevive",
+  title: "Sofa Repair in Gurgaon Sector 56 | ₹500 Same-Day Home Service",
 
   metaDescription:
-    "Doorstep sofa repair in Gurgaon Sector 56 from ₹999. Cover change, foam, leather & recliner repair. Suncity, Vipul Greens, Vatika City & Sohna Road corridor. 6-month warranty.",
+    "Doorstep sofa repair in Gurgaon Sector 56 from ₹500. Cover change, foam, leather & recliner repair.",
 
   h1: "Sofa Repair in Gurgaon Sector 56",
 
@@ -47,7 +47,7 @@ export const sofaRepairGurgaonSector56: SeoPageData = {
 
     "Our team travels directly to your home in Suncity Parikrama, Vipul Greens, Vatika City, Park View City, Bestech Park View Spa, Tulip Violet, Emaar Palm Hills or M3M Merlin — no hauling furniture across town, no leaving your sofa at a workshop for weeks. A trained craftsman arrives with all tools, fabrics and leather treatment supplies needed to complete most repairs in a single visit. Whether the issue is a snapped recliner mechanism, torn upholstery, faded leather or a wobbly wooden frame, we diagnose and fix it on-site with precision.",
 
-    "Sector 56 residents can reach us easily whether they live near the Sohna Road stretch connecting to Nirvana Country, closer to South City 2, or in the pockets bordering Sector 49 and Sector 57. IFFCO Chowk and Huda City Centre metros anchor the area's connectivity, and our service teams use the same road network to reach you swiftly. Pricing starts at ₹999 for basic fabric repairs and goes up to ₹18,000 for full leather restoration on large sectional sofas, with transparent quotes provided before any work begins.",
+    "Sector 56 residents can reach us easily whether they live near the Sohna Road stretch connecting to Nirvana Country, closer to South City 2, or in the pockets bordering Sector 49 and Sector 57. IFFCO Chowk and Huda City Centre metros anchor the area's connectivity, and our service teams use the same road network to reach you swiftly. Pricing starts at ₹500 for basic fabric repairs and goes up to ₹18,000 for full leather restoration on large sectional sofas, with transparent quotes provided before any work begins.",
   ],
 
   whyChoose: [
@@ -74,7 +74,7 @@ export const sofaRepairGurgaonSector56: SeoPageData = {
     {
       title: "Transparent Fixed Pricing",
       description:
-        "Sofa repair starts at ₹999, leather restoration from ₹2,999, and full reupholstery from ₹3,500. You receive a written quote after inspection — no surprise additions when the bill arrives.",
+        "Sofa repair starts at ₹500, leather restoration from ₹2,999, and full reupholstery from ₹3,500. You receive a written quote after inspection — no surprise additions when the bill arrives.",
     },
     {
       title: "6-Month Written Warranty",
@@ -108,7 +108,7 @@ export const sofaRepairGurgaonSector56: SeoPageData = {
 
   benefits: [
     "Doorstep service at all major Sector 56 societies with no transport required",
-    "Sofa repair pricing starts at just ₹999 — affordable for common fixes",
+    "Sofa repair pricing starts at just ₹500 — affordable for common fixes",
     "Full leather restoration from ₹2,999 with colour-matched treatments",
     "Reupholstery available from ₹3,500 with 400+ fabric and leather swatches",
     "Coverage extends to Sector 49, Sector 57, South City 2 and Nirvana Country",
@@ -146,7 +146,7 @@ export const sofaRepairGurgaonSector56: SeoPageData = {
     {
       heading: "Pricing Transparency and Warranty for Sector 56 Customers",
       body: [
-        "Residents in Sector 56 and the surrounding Sohna Road corridor frequently ask about repair costs before booking. We publish our price ranges openly: basic fabric tear repair starts at ₹999, foam replacement for a single seat costs ₹800 to ₹2,500, full leather restoration ranges from ₹2,999 to ₹18,000 for large sectional sofas, and complete reupholstery in customer-chosen fabric starts at ₹3,500 per seat. These figures are ranges — the exact quote depends on sofa size, material type, extent of damage and the number of components requiring attention. Every customer receives a written quote before work begins and pays only what was agreed.",
+        "Residents in Sector 56 and the surrounding Sohna Road corridor frequently ask about repair costs before booking. We publish our price ranges openly: basic fabric tear repair starts at ₹999, foam replacement for a single seat costs ₹800 to ₹2,500, full leather restoration ranges from ₹2,999 to ₹18,000 for large sectional sofas, and complete reupholstery in customer-chosen fabric starts at ₹2,000 per seat. These figures are ranges — the exact quote depends on sofa size, material type, extent of damage and the number of components requiring attention. Every customer receives a written quote before work begins and pays only what was agreed.",
         "Our 6-month warranty is not a marketing phrase — it is a written commitment signed by our craftsman at the end of each job. If any repair fails or any restored component deteriorates within six months of service, we return to your home and fix the issue at no charge. This warranty policy has been the foundation of our reputation across Gurgaon's residential communities and is why residents recommend us to neighbours in the same society. To read more about our services or explore tips on sofa maintenance, visit our Blog or check the Sofa Repair Delhi and Furniture Repair Delhi pages for comparison.",
       ],
     },
@@ -163,7 +163,7 @@ export const sofaRepairGurgaonSector56: SeoPageData = {
     {
       question: "How much does sofa repair cost in Gurgaon Sector 56?",
       answer:
-        "Sofa repair in Sector 56 starts at ₹999 for basic fabric fixes. Leather restoration ranges from ₹2,999 to ₹18,000 depending on the size of the sofa and severity of damage. Full reupholstery with new fabric starts from ₹3,500 per seat. You receive a transparent written quote after inspection before any work begins.",
+        "Sofa repair in Sector 56 starts at ₹500 for basic fabric fixes. Leather restoration ranges from ₹2,999 to ₹18,000 depending on the size of the sofa and severity of damage. Full reupholstery with new fabric starts from ₹2,000 per seat. You receive a transparent written quote after inspection before any work begins.",
     },
     {
       question: "Do you provide sofa repair service at home in Sector 56?",
@@ -247,10 +247,10 @@ export const sofaRepairGurgaonSector56: SeoPageData = {
 export const furnitureRepairGurgaonSector45: SeoPageData = {
   slug: "furniture-repair-gurgaon-sector-45",
 
-  title: "Furniture Repair Gurgaon Sector 45 | ₹599 Doorstep Home Service",
+  title: "Furniture Repair in Gurgaon Sector 45",
 
   metaDescription:
-    "Expert furniture repair in Gurgaon Sector 45 from ₹599. Sofa, wardrobe, bed & dining table repair in Sushant Lok, South City 1 & DLF Phase 4. 6-month warranty. Book now.",
+    "Expert furniture repair in Gurgaon Sector 45 from ₹599. Sofa, wardrobe, bed & dining table repair in Sushant Lok, South City 1 & DLF Phase 4.",
 
   h1: "Furniture Repair in Gurgaon Sector 45",
 
@@ -462,10 +462,10 @@ export const furnitureRepairGurgaonSector45: SeoPageData = {
 export const sofaRepairGurgaonSector57: SeoPageData = {
   slug: "sofa-repair-gurgaon-sector-57",
 
-  title: "Sofa Repair Gurgaon Sector 57 | ₹999 Same-Day Doorstep Service | FurniRevive",
+  title: "Sofa Repair in Gurgaon Sector 57 | ₹500 Same-Day Doorstep Service",
 
   metaDescription:
-    "Doorstep sofa repair in Gurgaon Sector 57 from ₹999. Sofa cover change, foam, leather & recliner repair near South City 2, Vatika City & Sohna Road. 6-month warranty.",
+    "Doorstep sofa repair in Gurgaon Sector 57 from ₹500. Sofa cover change, foam, leather & recliner repair near South City 2, Vatika City & Sohna Road.",
 
   h1: "Sofa Repair in Gurgaon Sector 57",
 
@@ -513,7 +513,7 @@ export const sofaRepairGurgaonSector57: SeoPageData = {
     {
       title: "Transparent Pricing With No Hidden Charges",
       description:
-        "Sofa repair starts at ₹999, foam replacement from ₹800 per seat, leather restoration from ₹2,999, and full reupholstery from ₹3,500 per seat. Every customer receives a detailed written quote after the doorstep inspection — the final bill matches what was agreed, no exceptions.",
+        "Sofa repair starts at ₹500, foam replacement from ₹800 per seat, leather restoration from ₹2,999, and full reupholstery from ₹2,000 per seat. Every customer receives a detailed written quote after the doorstep inspection — the final bill matches what was agreed, no exceptions.",
     },
     {
       title: "6-Month Written Warranty on All Work",
@@ -547,9 +547,9 @@ export const sofaRepairGurgaonSector57: SeoPageData = {
 
   benefits: [
     "Doorstep service at all major Sector 57 societies with no furniture transport required",
-    "Sofa repair pricing starts at ₹999 — affordable entry point for common fixes",
+    "Sofa repair pricing starts at ₹500 — affordable entry point for common fixes",
     "Full leather restoration from ₹2,999 with professional colour-matched treatments",
-    "Reupholstery from ₹3,500 per seat with 400+ fabric and leather swatches on site",
+    "Reupholstery from ₹2,000 per seat with 400+ fabric and leather swatches on site",
     "Coverage extends to South City 2, Nirvana Country, Vatika City and Sector 56",
     "Same-day and next-day slots available for urgent sofa repair requests",
     "6-month written warranty on all workmanship and replacement materials",
@@ -565,7 +565,7 @@ export const sofaRepairGurgaonSector57: SeoPageData = {
       heading: "Sofa Repair Across Sector 57's Premium Residential Communities",
       body: [
         "The residential communities of Sector 57 range from the luxury towers of Emaar Palm Drive — with its well-designed apartments and landscaped common areas — to the villa rows of Vatika City and the builder floors tucked into the sector's older residential grid. Each community type brings its own sofa repair challenges. In the high-rise towers, large modular sectionals and imported leather recliners are common; residents cannot easily transport these to a workshop, making our doorstep model essential. Tulip Violet residents frequently contact us for leather sofa restoration after Gurgaon's harsh winters strip the moisture from leather surfaces, leaving visible cracking on armrests and seat fronts. We treat each repair with the same care and material quality regardless of whether it is a compact studio apartment or a spacious penthouse.",
-        "The independent houses and plotted developments within Sector 57's grid often contain older, solid wood-frame sofas that are structurally sound but cosmetically tired. These sofas — typically with sheesham or teak frames wrapped in heavy cotton or velvet upholstery — respond beautifully to a reupholstery treatment. Our craftsmen bring full-length fabric swatches, take precise measurements, and execute stitching off-site before returning for a clean on-site installation. The result is a sofa that looks completely new at a fraction of replacement cost. Pricing for full reupholstery in this category starts at ₹3,500 per seat with a two-day turnaround from measurement to installation.",
+        "The independent houses and plotted developments within Sector 57's grid often contain older, solid wood-frame sofas that are structurally sound but cosmetically tired. These sofas — typically with sheesham or teak frames wrapped in heavy cotton or velvet upholstery — respond beautifully to a reupholstery treatment. Our craftsmen bring full-length fabric swatches, take precise measurements, and execute stitching off-site before returning for a clean on-site installation. The result is a sofa that looks completely new at a fraction of replacement cost. Pricing for full reupholstery in this category starts at ₹2,000 per seat with a two-day turnaround from measurement to installation.",
       ],
     },
     {
@@ -595,7 +595,7 @@ export const sofaRepairGurgaonSector57: SeoPageData = {
     {
       question: "How much does sofa repair cost in Gurgaon Sector 57?",
       answer:
-        "Sofa repair in Sector 57 starts at ₹999 for basic fabric fixes. Foam replacement costs ₹800 to ₹2,500 per seat. Leather restoration ranges from ₹2,999 to ₹18,000 depending on sofa size and damage severity. Full reupholstery in new fabric starts from ₹3,500 per seat. Every customer receives a written quote after inspection before work begins.",
+        "Sofa repair in Sector 57 starts at ₹500 for basic fabric fixes. Foam replacement costs ₹800 to ₹2,500 per seat. Leather restoration ranges from ₹2,999 to ₹18,000 depending on sofa size and damage severity. Full reupholstery in new fabric starts from ₹2,000 per seat. Every customer receives a written quote after inspection before work begins.",
     },
     {
       question: "Do you offer doorstep sofa repair in Gurgaon Sector 57?",
@@ -668,10 +668,10 @@ export const sofaRepairGurgaonSector57: SeoPageData = {
 export const sofaRepairGurgaonSector45: SeoPageData = {
   slug: "sofa-repair-gurgaon-sector-45",
 
-  title: "Sofa Repair Gurgaon Sector 45 | ₹999 Doorstep Home Service | FurniRevive",
+  title: "Sofa Repair in Gurgaon Sector 45 | ₹500 Doorstep Home Service",
 
   metaDescription:
-    "Expert sofa repair in Gurgaon Sector 45 from ₹999. Sofa cover change, foam replacement, leather & recliner repair near Sushant Lok, South City 1 & DLF Phase 4. 6-month warranty.",
+    "Expert sofa repair in Gurgaon Sector 45 from ₹500. Sofa cover change, foam replacement, leather & recliner repair near Sushant Lok.",
 
   h1: "Sofa Repair in Gurgaon Sector 45",
 
@@ -692,7 +692,7 @@ export const sofaRepairGurgaonSector45: SeoPageData = {
 
     "Our craftsmen travel directly to your home in Sector 45 — whether you live in one of Sushant Lok's spacious independent plots, a villa in Hamilton Court, an apartment in Orchid Island or a builder floor near the Sector 46 boundary. We arrive equipped with all the tools, upholstery fabrics, leather treatment products and mechanical components required to complete most sofa repairs in a single visit. No lugging your sofa out of the living room, no workshop drop-offs, no waiting weeks to get your furniture back. The entire process happens in your home, at a time of your choosing, and concludes with a written 6-month warranty.",
 
-    "Sector 45 sits in one of Gurgaon's best-connected zones — the IFFCO Chowk Metro brings commuters to the Cyber City corridor, and the Guru Dronacharya Metro links residents to the MG Road commercial belt. Our service teams use the same infrastructure to reach your home swiftly. Sofa repair pricing starts at ₹999 for basic fabric repairs, foam replacement from ₹800 per seat, leather restoration from ₹2,999, and full reupholstery with your choice of fabric from ₹3,500 per seat. A transparent written quote is provided after inspection — there are no additions when the bill arrives.",
+    "Sector 45 sits in one of Gurgaon's best-connected zones — the IFFCO Chowk Metro brings commuters to the Cyber City corridor, and the Guru Dronacharya Metro links residents to the MG Road commercial belt. Our service teams use the same infrastructure to reach your home swiftly. Sofa repair pricing starts at ₹500 for basic fabric repairs, foam replacement from ₹800 per seat, leather restoration from ₹2,999, and full reupholstery with your choice of fabric from ₹2,000 per seat. A transparent written quote is provided after inspection — there are no additions when the bill arrives.",
   ],
 
   whyChoose: [
@@ -717,9 +717,9 @@ export const sofaRepairGurgaonSector45: SeoPageData = {
         "Homeowners in Greenwood City, Orchid Island and Hamilton Court can browse a physical swatch library of over 400 fabric and leather options brought to their doorstep. From premium velvet and linen to faux leather and genuine hide, we help you choose a cover that enhances your living room.",
     },
     {
-      title: "Transparent Pricing From ₹999",
+      title: "Transparent Pricing From ₹500",
       description:
-        "Sofa repair starts at ₹999, recliner repair from ₹1,499, leather restoration from ₹2,999, and full reupholstery from ₹3,500 per seat. Every customer receives a written, itemised quote after inspection — the final bill always matches what was approved.",
+        "Sofa repair starts at ₹500, recliner repair from ₹1,499, leather restoration from ₹2,999, and full reupholstery from ₹2,000 per seat. Every customer receives a written, itemised quote after inspection — the final bill always matches what was approved.",
     },
     {
       title: "6-Month Written Warranty",
@@ -753,9 +753,9 @@ export const sofaRepairGurgaonSector45: SeoPageData = {
 
   benefits: [
     "Doorstep service at all Sector 45 addresses — villas, apartments and builder floors",
-    "Sofa repair starts at just ₹999 for basic fabric and upholstery fixes",
+    "Sofa repair starts at just ₹500 for basic fabric and upholstery fixes",
     "Full leather restoration from ₹2,999 with professional colour-matched treatments",
-    "Reupholstery from ₹3,500 per seat with 400+ fabric and leather swatches on site",
+    "Reupholstery from ₹2,000 per seat with 400+ fabric and leather swatches on site",
     "Coverage across Sushant Lok, Hamilton Court, South City 1 and DLF Phase 4",
     "Same-day and next-day appointments near IFFCO Chowk and Galleria Market",
     "6-month written warranty on all workmanship and replacement materials",
@@ -801,7 +801,7 @@ export const sofaRepairGurgaonSector45: SeoPageData = {
     {
       question: "How much does sofa repair cost in Gurgaon Sector 45?",
       answer:
-        "Sofa repair in Sector 45 starts at ₹999 for basic fabric fixes. Foam replacement costs ₹800 to ₹2,500 per seat. Leather restoration ranges from ₹2,999 to ₹18,000 depending on sofa size and condition. Full reupholstery with new fabric starts at ₹3,500 per seat. A written quote is provided after doorstep inspection before work begins.",
+        "Sofa repair in Sector 45 starts at ₹500 for basic fabric fixes. Foam replacement costs ₹800 to ₹2,500 per seat. Leather restoration ranges from ₹2,999 to ₹18,000 depending on sofa size and condition. Full reupholstery with new fabric starts at ₹2,000 per seat. A written quote is provided after doorstep inspection before work begins.",
     },
     {
       question: "Do you provide sofa repair at home in Sector 45?",
@@ -876,10 +876,10 @@ export const sofaRepairGurgaonSector45: SeoPageData = {
 export const sofaRepairGurgaonSector14: SeoPageData = {
   slug: "sofa-repair-gurgaon-sector-14",
 
-  title: "Sofa Repair Gurgaon Sector 14 | ₹999 Same-Day Home Service | FurniRevive",
+  title: "Sofa Repair in Gurgaon Sector 14 | ₹500 Same-Day Home Service",
 
   metaDescription:
-    "Doorstep sofa repair in Gurgaon Sector 14 from ₹999. Sofa cover change, foam, recliner & leather repair near Old Gurgaon, Huda City Centre & MG Road. 6-month warranty.",
+    "Doorstep sofa repair in Gurgaon Sector 14 from ₹500. Sofa cover change, foam, recliner & leather repair near Old Gurgaon, Huda City Centre & MG Road.",
 
   h1: "Sofa Repair in Gurgaon Sector 14",
 
@@ -900,7 +900,7 @@ export const sofaRepairGurgaonSector14: SeoPageData = {
 
     "Huda City Centre Metro station — one of the busiest metro stops on the Yellow Line — sits just minutes from Sector 14, making this neighbourhood one of Gurgaon's best-connected residential zones. Residents who commute to Cyber City, Udyog Vihar or the MG Road corporate belt appreciate the same convenience when calling a home service. Our craftsmen use the MG Road and Old Delhi Road corridors to reach homes in Sector 14 quickly, typically arriving within thirty to forty-five minutes of booking confirmation. Whether you are in a large independent plot near Sector 15 Part 1, a smaller builder floor in Sector 17, or a compact house in old Gurgaon's residential grid near Sector 29, we are within reach.",
 
-    "The sofa repair needs in old Gurgaon are somewhat different from those of the newer high-rise sectors. Wooden sofa frames are more prevalent here, and the repairs often involve re-tying broken springs, replacing worn-out cotton or jute webbing, restoring split wood frames and recovering sofas in fresh fabric that respects the piece's original character. FurniRevive's craftsmen are trained in traditional upholstery and carpentry techniques that newer-generation technicians often lack — making us particularly well suited for the kind of quality restoration that Sector 14 residents' furniture deserves. Pricing starts at ₹999 for basic repairs with transparent written quotes provided after each doorstep inspection.",
+    "The sofa repair needs in old Gurgaon are somewhat different from those of the newer high-rise sectors. Wooden sofa frames are more prevalent here, and the repairs often involve re-tying broken springs, replacing worn-out cotton or jute webbing, restoring split wood frames and recovering sofas in fresh fabric that respects the piece's original character. FurniRevive's craftsmen are trained in traditional upholstery and carpentry techniques that newer-generation technicians often lack — making us particularly well suited for the kind of quality restoration that Sector 14 residents' furniture deserves. Pricing starts at ₹500 for basic repairs with transparent written quotes provided after each doorstep inspection.",
   ],
 
   whyChoose: [
@@ -961,10 +961,10 @@ export const sofaRepairGurgaonSector14: SeoPageData = {
 
   benefits: [
     "Doorstep service at all Sector 14 addresses — independent houses, bungalows and builder floors",
-    "Sofa repair starts at ₹999 — accessible pricing for established family homes",
+    "Sofa repair starts at ₹500 — accessible pricing for established family homes",
     "Traditional solid-wood-frame sofa restoration with spring and webbing expertise",
     "Leather restoration from ₹2,999 for newer leather sofas in old Gurgaon homes",
-    "Full reupholstery from ₹3,500 per seat with 400+ fabric swatches on site",
+    "Full reupholstery from ₹2,000 per seat with 400+ fabric swatches on site",
     "Coverage extends to Sector 15, Sector 17, Sector 29 and the MG Road corridor",
     "Fast arrival via Huda City Centre Metro corridor — 30–45 minutes typical",
     "Same-day appointments available for urgent sofa repair requests",
@@ -1009,7 +1009,7 @@ export const sofaRepairGurgaonSector14: SeoPageData = {
     {
       question: "How much does sofa repair cost in Gurgaon Sector 14?",
       answer:
-        "Sofa repair in Sector 14 starts at ₹999 for basic fabric fixes. Foam or batting replacement costs ₹800 to ₹2,500 per seat. Leather restoration ranges from ₹2,999 to ₹18,000. Full reupholstery starts at ₹3,500 per seat. A written quote is always provided after the doorstep inspection before any work begins.",
+        "Sofa repair in Sector 14 starts at ₹500 for basic fabric fixes. Foam or batting replacement costs ₹800 to ₹2,500 per seat. Leather restoration ranges from ₹2,999 to ₹18,000. Full reupholstery starts at ₹2,000 per seat. A written quote is always provided after the doorstep inspection before any work begins.",
     },
     {
       question: "Do you repair old wooden-frame sofas in Sector 14?",
@@ -1082,10 +1082,10 @@ export const sofaRepairGurgaonSector14: SeoPageData = {
 export const sofaRepairDlfCyberCity: SeoPageData = {
   slug: "sofa-repair-gurgaon-dlf-cyber-city",
 
-  title: "Sofa Repair DLF Cyber City Gurgaon | ₹999 Doorstep Service | FurniRevive",
+  title: "Sofa Repair DLF Cyber City Gurgaon | FurniRevive",
 
   metaDescription:
-    "Doorstep sofa repair near DLF Cyber City Gurgaon from ₹999. Sofa cover change, leather repair, foam & recliner repair in DLF Phase 2, Phase 3, Sector 24 & Cyber Hub area. 6-month warranty.",
+    "Doorstep sofa repair near DLF Cyber City Gurgaon from ₹500. Sofa cover change, leather repair, foam & recliner repair in DLF Phase 2, Phase 3.",
 
   h1: "Sofa Repair near DLF Cyber City Gurgaon",
 
@@ -1106,7 +1106,7 @@ export const sofaRepairDlfCyberCity: SeoPageData = {
 
     "After three to five years of daily use — intensified in many households by the work-from-home shift that saw sofas become all-day workstations as well as evening relaxation spots — even the finest furniture requires professional attention. Leather develops surface cracks and loses its suppleness. Seat foam compresses beyond the point of comfortable support. Recliner mechanisms accumulate wear that makes them stiff, noisy or non-functional. Fabric upholstery pills, fades and develops structural weakness at seam edges. FurniRevive provides a fully doorstep sofa repair service specifically designed for the busy professional households of the Cyber City corridor — skilled craftsmen, no workshop trip, transparent pricing and a 6-month written warranty.",
 
-    "The DLF Cyber City residential zone — encompassing DLF Phase 2, DLF Phase 3, Sector 24 and Sector 25 — is one of Gurgaon's most affluent and densely populated premium residential areas. Properties here range from the independent villas and bungalows of DLF Phase 2's older grid to the contemporary apartment towers of Sector 24 and 25 that have been developed over the past decade to house the growing professional workforce. FurniRevive serves the full residential spectrum: our sofa repair and restoration services are available at identical pricing and quality standards across all property types in this zone, from studio apartments to four-bedroom penthouse suites. Pricing starts at ₹999 for basic repairs, with full leather restoration from ₹2,999 and complete reupholstery from ₹3,500 per seat.",
+    "The DLF Cyber City residential zone — encompassing DLF Phase 2, DLF Phase 3, Sector 24 and Sector 25 — is one of Gurgaon's most affluent and densely populated premium residential areas. Properties here range from the independent villas and bungalows of DLF Phase 2's older grid to the contemporary apartment towers of Sector 24 and 25 that have been developed over the past decade to house the growing professional workforce. FurniRevive serves the full residential spectrum: our sofa repair and restoration services are available at identical pricing and quality standards across all property types in this zone, from studio apartments to four-bedroom penthouse suites. Pricing starts at ₹500 for basic repairs, with full leather restoration from ₹2,999 and complete reupholstery from ₹2,000 per seat.",
   ],
 
   whyChoose: [
@@ -1131,9 +1131,9 @@ export const sofaRepairDlfCyberCity: SeoPageData = {
         "Residents in Cyber Hub's premium apartment towers can browse a physical swatch library of over 400 fabric and leather options brought to their home. From premium microfibre and Italian faux leather to designer velvet and linen, we match the contemporary aesthetic of Cyber City-area interiors with precision.",
     },
     {
-      title: "Transparent Fixed Pricing From ₹999",
+      title: "Transparent Fixed Pricing From ₹500",
       description:
-        "Sofa repair from ₹999, foam replacement from ₹800 per seat, leather restoration from ₹2,999, and full reupholstery from ₹3,500 per seat. A written itemised quote is provided after the doorstep inspection — the final bill matches exactly what was approved, without additions.",
+        "Sofa repair from ₹500, foam replacement from ₹800 per seat, leather restoration from ₹2,999, and full reupholstery from ₹2,000 per seat. A written itemised quote is provided after the doorstep inspection — the final bill matches exactly what was approved, without additions.",
     },
     {
       title: "6-Month Warranty With Zero-Hassle Return Policy",
@@ -1168,9 +1168,9 @@ export const sofaRepairDlfCyberCity: SeoPageData = {
   benefits: [
     "Doorstep service across DLF Phase 2, Phase 3, Sector 24 and Sector 25",
     "Evening and weekend slots designed for Cyber City professionals' schedules",
-    "Sofa repair starting at ₹999 — accessible for all repair types and budgets",
+    "Sofa repair starting at ₹500 — accessible for all repair types and budgets",
     "Premium leather restoration from ₹2,999 using professional five-stage treatment",
-    "Full reupholstery from ₹3,500 per seat with 400+ fabric and leather swatches",
+    "Full reupholstery from ₹2,000 per seat with 400+ fabric and leather swatches",
     "Motorised and manual recliner repair — diagnosis and component replacement on-site",
     "6-month written warranty with zero-hassle free return visit policy",
     "Coverage extends to Cyber Hub, MG Road, Sector 26 and Golf Course Road",
@@ -1215,7 +1215,7 @@ export const sofaRepairDlfCyberCity: SeoPageData = {
     {
       question: "How much does sofa repair cost near DLF Cyber City?",
       answer:
-        "Sofa repair near DLF Cyber City starts at ₹999 for basic fabric repairs. Foam replacement costs ₹800 to ₹2,500 per seat. Leather restoration ranges from ₹2,999 to ₹18,000 depending on sofa size and damage. Full reupholstery with new fabric starts at ₹3,500 per seat. A written quote is provided after doorstep inspection before work begins.",
+        "Sofa repair near DLF Cyber City starts at ₹500 for basic fabric repairs. Foam replacement costs ₹800 to ₹2,500 per seat. Leather restoration ranges from ₹2,999 to ₹18,000 depending on sofa size and damage. Full reupholstery with new fabric starts at ₹2,000 per seat. A written quote is provided after doorstep inspection before work begins.",
     },
     {
       question: "Do you offer doorstep sofa repair in DLF Phase 2 and Phase 3?",

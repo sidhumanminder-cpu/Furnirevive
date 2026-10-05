@@ -42,7 +42,10 @@ export function pick<T>(arr: readonly T[], ctx: PageContext, salt = 0): T {
 // ─── Location & service helpers ────────────────────────────────────────────────
 
 function locationLabel(ctx: PageContext): string {
-  return `${ctx.locality.name}, ${ctx.city}`;
+  const locality = ctx.locality.name.trim();
+  const city = ctx.city.trim();
+  if (locality.toLowerCase() === city.toLowerCase()) return city;
+  return `${locality}, ${city}`;
 }
 
 function serviceLabel(ctx: PageContext): string {
@@ -74,10 +77,32 @@ const INTRO_PATTERNS = [
     `Choosing ${svc} in ${loc} over buying new isn't just budget-friendly — it's an eco-conscious decision that keeps quality furniture out of landfills.`,
 ] as const;
 
+/** NCR cities are the only ones where "Delhi NCR" copy is accurate */
+const TRICITY_CITIES: readonly string[] = ["chandigarh", "mohali", "panchkula"];
+
+function isTricity(ctx: PageContext): boolean {
+  return TRICITY_CITIES.includes(ctx.locality.city);
+}
+
+/**
+ * Tricity replacements for the NCR-specific openers. Same indices as INTRO_PATTERNS
+ * so pool size and hash selection stay identical; NCR pages keep the originals.
+ */
+const TRICITY_INTRO_OVERRIDES: Readonly<Record<number, (svc: string, loc: string) => string>> = {
+  2: (_svc, loc) =>
+    `In ${loc}, furniture bears the brunt of daily family life and the Chandigarh tricity's hot summers and humid monsoons. Professional repair keeps your favourite pieces going strong.`,
+  5: (_svc, loc) =>
+    `The Chandigarh tricity's hot summers, humid monsoons, and chilly winters accelerate furniture wear in ${loc} homes — making timely professional repair essential.`,
+};
+
+const TRICITY_INTRO_PATTERNS = INTRO_PATTERNS.map(
+  (fn, i) => TRICITY_INTRO_OVERRIDES[i] ?? fn,
+);
+
 export function getIntroOpener(ctx: PageContext): string {
   const loc = locationLabel(ctx);
   const svc = serviceLabel(ctx);
-  const fn = pick(INTRO_PATTERNS, ctx);
+  const fn = pick(isTricity(ctx) ? TRICITY_INTRO_PATTERNS : INTRO_PATTERNS, ctx);
   return fn(svc, loc);
 }
 
@@ -102,9 +127,20 @@ const MICRO_CONTEXTS: ((loc: string) => string)[] = [
     `The air-conditioned interiors common in ${loc} homes can accelerate leather cracking and fabric fading, issues our specialists address with climate-appropriate materials.`,
 ];
 
+/** Tricity replacements for the two "Delhi NCR" micro-contexts (indices 0 and 4). */
+const TRICITY_MICRO_OVERRIDES: Readonly<Record<number, (loc: string) => string>> = {
+  0: (loc) =>
+    `Homes in ${loc} often deal with furniture wear caused by seasonal humidity changes, heavy daily use, and the compact apartment layouts typical of the Chandigarh tricity.`,
+  4: (loc) =>
+    `With rising furniture prices across the Chandigarh tricity, residents in ${loc} increasingly turn to professional repair as the smart, economical alternative to buying new.`,
+};
+
+const TRICITY_MICRO_CONTEXTS = MICRO_CONTEXTS.map((fn, i) => TRICITY_MICRO_OVERRIDES[i] ?? fn);
+
 export function getMicroLocalContext(ctx: PageContext): string {
   const loc = locationLabel(ctx);
-  return pick(MICRO_CONTEXTS, ctx, 3)(loc);
+  const pool = isTricity(ctx) ? TRICITY_MICRO_CONTEXTS : MICRO_CONTEXTS;
+  return pick(pool, ctx, 3)(loc);
 }
 
 // ─── STEP 3 — Rotated trust badges ────────────────────────────────────────────

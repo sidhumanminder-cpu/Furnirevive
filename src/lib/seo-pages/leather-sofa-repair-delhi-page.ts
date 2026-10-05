@@ -5,10 +5,10 @@ export const leatherSofaRepairDelhi: SeoPageData = {
   category: "Leather Sofa Repair",
 
   title:
-    "Leather Sofa Repair in Delhi | Cracks, Peeling & Colour Fade Fixed at Home | FurniRevive",
+    "Leather Sofa Repair in Delhi | FurniRevive",
 
   metaDescription:
-    "Leather sofa repair in Delhi from ₹1,500. Genuine, bonded & PU leather — cracks filled, peeling fixed, colour restored at your doorstep. 4.8★ rated. Free inspection. 6-month warranty. Call +91 92179 99355.",
+    "Leather sofa repair in Delhi from ₹1,500. Genuine, bonded & PU leather — cracks filled, peeling fixed, colour restored at your doorstep. 8★ rated.",
 
   h1: "Leather Sofa Repair Near Me in Delhi — Same Day Home Service",
 

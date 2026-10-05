@@ -22,6 +22,7 @@ import AuditPage from "./pages/audit/page.tsx";
 import CaseStudiesAdminPage from "./pages/admin/case-studies/page.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import FloatingTestimonial from "./components/floating-testimonial.tsx";
+import BusinessSchemaFallback from "./components/business-schema-fallback.tsx";
 import FloatingWhatsApp from "./components/floating-whatsapp.tsx";
 import DynamicSeoPage from "./pages/services/dynamic-seo-page.tsx";
 import SofaRepairNewGurgaon from "./pages/services/programmatic/sofa-repair-new-gurgaon.tsx";
@@ -436,6 +437,7 @@ import KitchenBlogWarrantyGuide from "./pages/blog/modular-kitchen-warranty-guid
 import KitchenBlogDesignIdeas from "./pages/blog/modular-kitchen-design-ideas.tsx";
 import KitchenBlogSmallApartment from "./pages/blog/small-apartment-modular-kitchen.tsx";
 import KitchenBlogChecklist from "./pages/blog/modular-kitchen-checklist.tsx";
+import DynamicBlogPost from "./pages/blog/dynamic-blog-post.tsx";
 import HomeInteriorsDelhiPage from "./pages/services/home-interiors-delhi.tsx";
 import KitchenPartnerPage from "./pages/modular-kitchen/kitchen-partner/page.tsx";
 import ModularKitchenGuidePage from "./pages/modular-kitchen/guide/page.tsx";
@@ -534,6 +536,7 @@ export default function App() {
     <DefaultProviders>
       <BrowserRouter>
         <ScrollToTop />
+        <BusinessSchemaFallback />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/contact" element={<ContactPage />} />
@@ -666,6 +669,8 @@ export default function App() {
           <Route path="/blog/modular-kitchen-design-ideas" element={<KitchenBlogDesignIdeas />} />
           <Route path="/blog/small-apartment-modular-kitchen" element={<KitchenBlogSmallApartment />} />
           <Route path="/blog/modular-kitchen-checklist" element={<KitchenBlogChecklist />} />
+          {/* Fallback for blog posts defined in blog-data without a dedicated route file */}
+          <Route path="/blog/:slug" element={<DynamicBlogPost />} />
           <Route path="/home-interiors-delhi" element={<HomeInteriorsDelhiPage />} />
           {/* 301 Redirects — /services/* to canonical slugs */}
           <Route path="/leather-couch-repair-delhi" element={<Navigate to="/leather-sofa-repair-delhi" replace />} />

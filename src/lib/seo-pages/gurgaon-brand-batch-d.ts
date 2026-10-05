@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const royaloakFurnitureRepairGurgaon: SeoPageData = {
   slug: "royaloak-furniture-repair-gurgaon",
-  title: "Royaloak Furniture Repair in Gurgaon | Recliner & Leatherette Sofa Restoration | FurniRevive",
-  metaDescription: "Expert Royaloak furniture repair in Gurgaon. Recliner mechanism repair, leatherette sofa restoration, foam replacement at your doorstep. DLF, Golf Course Road & all sectors. 6-month warranty.",
+  title: "Royaloak Furniture Repair in Gurgaon | FurniRevive",
+  metaDescription: "Expert Royaloak furniture repair in Gurgaon. Recliner mechanism repair, leatherette sofa restoration, foam replacement at your doorstep.",
   h1: "Royaloak Furniture Repair in Gurgaon | Recliner and Leatherette Specialists",
   heroSubtitle: "Skilled technicians restoring Royaloak recliners, leatherette sofas, and furniture -- back to full function and appearance at your doorstep across Gurgaon.",
   showcaseImage: {
@@ -233,8 +233,8 @@ const royaloakFurnitureRepairGurgaon: SeoPageData = {
 
 const nilkamalFurnitureRepairGurgaon: SeoPageData = {
   slug: "nilkamal-furniture-repair-gurgaon",
-  title: "Nilkamal Furniture Repair in Gurgaon | Sofa & Office Furniture Restoration | FurniRevive",
-  metaDescription: "Expert Nilkamal furniture repair in Gurgaon. Sofa restoration, office furniture repair, upholstery renewal at your doorstep across DLF, Golf Course Road & all sectors. 6-month warranty.",
+  title: "Nilkamal Furniture Repair in Gurgaon | FurniRevive",
+  metaDescription: "Expert Nilkamal furniture repair in Gurgaon. Sofa restoration, office furniture repair, upholstery renewal at your doorstep across DLF.",
   h1: "Nilkamal Furniture Repair in Gurgaon | Sofa and Office Furniture Specialists",
   heroSubtitle: "Skilled technicians restoring Nilkamal furniture -- fabric sofas, office seating, and home furniture -- at your doorstep across Gurgaon.",
   showcaseImage: {

@@ -21,9 +21,9 @@ function relatedExcluding(slug: string) {
 // ---------------------------------------------------------------------------
 export const whyChooseFurnirevive: SeoPageData = {
   slug: "why-choose-furnirevive",
-  title: "Furniture Repair Delhi | 10,000+ Trusted | Free Inspection | FurniRevive",
+  title: "Furniture Repair Delhi | 10,000+ Trusted | FurniRevive",
   metaDescription:
-    "FurniRevive: Delhi NCR's most trusted furniture repair. 10,000+ repairs, 4.8-star rating, 6-month warranty & free doorstep inspection. Sofa repair from ₹999. Book now!",
+    "FurniRevive: Delhi NCR's most trusted furniture repair. 8-star rating, 6-month warranty & free doorstep inspection. Sofa repair from ₹500. Book now!",
   h1: "Why Choose FurniRevive — Delhi NCR's Most Trusted Furniture Repair Service",
   heroSubtitle:
     "After completing 10,000 furniture repairs across Delhi NCR, we have gathered hard data on what homeowners actually struggle with — unreliable appointments, mismatched skills, overpriced materials, and zero accountability. Here is how FurniRevive was engineered to solve each one.",
@@ -227,9 +227,9 @@ export const whyChooseFurnirevive: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const furnitureRepairWarrantyDelhi: SeoPageData = {
   slug: "furniture-repair-warranty-delhi",
-  title: "Furniture Repair Warranty Delhi | 6-Month Free Returns | ₹999 Onwards | FurniRevive",
+  title: "Furniture Repair Warranty Delhi | ₹599 Onwards | FurniRevive",
   metaDescription:
-    "FurniRevive offers a 6-month written warranty on all furniture repairs in Delhi NCR. Same issue returns? We fix it free. Sofa repair from ₹999. Book now!",
+    "FurniRevive offers a 6-month written warranty on all furniture repairs in Delhi NCR. Same issue returns? We fix it free. Sofa repair from ₹500. Book now!",
   h1: "Furniture Repair with 6-Month Warranty — FurniRevive Delhi NCR",
   heroSubtitle:
     "Before you confirm any furniture repair booking in Delhi NCR, there are seven warranty questions you should ask. Most services cannot answer even three of them. Here is what a genuine furniture repair warranty looks like — and how to verify you are actually covered.",
@@ -240,7 +240,7 @@ export const furnitureRepairWarrantyDelhi: SeoPageData = {
     caption: "Furniture Repair Warranty Delhi | 6-month written guarantee | Free return visits | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive issues a written warranty card with QR-code verification on every repair. Warranty return visits are scheduled within 24 hours of your call. Coverage includes both materials and labour at zero cost. The warranty remains valid even if you relocate within Delhi NCR. Your warranty record is stored digitally under your name. And there are no voiding conditions — we do not blame usage or deny claims. Sofa repairs start from ₹999.",
+    "FurniRevive issues a written warranty card with QR-code verification on every repair. Warranty return visits are scheduled within 24 hours of your call. Coverage includes both materials and labour at zero cost. The warranty remains valid even if you relocate within Delhi NCR. Your warranty record is stored digitally under your name. And there are no voiding conditions — we do not blame usage or deny claims. Sofa repairs start from ₹500.",
   priceTable: {
     heading: "Furniture Repair Price Guide — With 6-Month Warranty",
     rows: [

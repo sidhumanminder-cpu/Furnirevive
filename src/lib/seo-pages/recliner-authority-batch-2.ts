@@ -4,15 +4,15 @@ import type { SeoPageData } from "@/lib/seo-constants.ts";
 
 const reclinerRepairNoidaExpressway: SeoPageData = {
   slug: "recliner-repair-noida-expressway",
-  title: "Recliner Repair Noida Expressway | Electric Recliner Experts",
+  title: "Recliner Repair in Noida Expressway | Electric Recliner Experts",
   metaDescription:
-    "Expert recliner repair on Noida Expressway — electric motor, actuator & leather restoration. Doorstep service sectors 104–150. From ₹999. Call FurniRevive today.",
+    "Expert recliner repair on Noida Expressway — electric motor, actuator & leather restoration. Doorstep service sectors 104–150. From ₹999.",
   h1: "Expert Recliner Restoration in Noida Expressway",
   heroSubtitle:
     "Noida Expressway's luxury high-rises deserve furniture care to match. FurniRevive brings certified recliner repair to your door across Sectors 104, 107, 137, 143, and 150 — electric motors, actuators, leather, foam. 6-month warranty.",
   showcaseImage: {
-    heading: "Professional Sofa Repair — Premium Home Service in Delhi",
-    imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
+    heading: "Professional Recliner Repair — Premium Home Service in Delhi",
+    imageUrl: "https://hercules-cdn.com/file_2c8bbpkuu9qh7mm9w7sbecpE",
     altText: "Professional recliner repair technician working on an electric recliner in a Noida Expressway apartment — FurniRevive",
     caption: "Recliner Repair on Noida Expressway | Electric motor & actuator service across Sectors 104–150 | FurniRevive",
   },
@@ -309,13 +309,13 @@ const reclinerRepairIndirapuram: SeoPageData = {
   slug: "recliner-repair-indirapuram",
   title: "Recliner Repair in Indirapuram | Doorstep Electric Recliner Fix",
   metaDescription:
-    "Expert recliner repair in Indirapuram — electric, motorised & manual recliners. Doorstep service across Shakti Khand, Vaishali, Vasundhara. From ₹999. FurniRevive.",
+    "Expert recliner repair in Indirapuram — electric, motorised & manual recliners. Doorstep service across Shakti Khand, Vaishali, Vasundhara. From ₹999.",
   h1: "Premium Recliner Repair Services in Indirapuram",
   heroSubtitle:
     "Indirapuram's most trusted recliner specialists — certified technicians serving Shakti Khand, Ahinsa Khand, Vaishali, Vasundhara, and the Shipra Mall area. Electric motors, actuators, leather, foam. All done at your door.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
-    imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
+    imageUrl: "https://hercules-cdn.com/file_2c8bbpkuu9qh7mm9w7sbecpE",
     altText: "Professional recliner repair technician working on an electric recliner in an Indirapuram apartment — FurniRevive",
     caption: "Recliner Repair in Indirapuram | Electric motor & leather restoration in Shakti Khand & Ahinsa Khand | FurniRevive",
   },

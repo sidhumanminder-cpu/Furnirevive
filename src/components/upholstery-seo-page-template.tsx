@@ -64,6 +64,7 @@ import { getIntroOpener, getMicroLocalContext, getUniqueFaq } from "@/lib/seo-pa
 import ServicesGridSection from "@/components/seo/ServicesGridSection.tsx";
 import { getPyramidLinks } from "@/lib/seo-pages/pyramid-links.ts";
 import type { BlogPost } from "@/lib/blog-data.ts";
+import { BUSINESS_ADDRESS, BUSINESS_AREA_SERVED, BUSINESS_GEO } from "@/lib/business-config.ts";
 
 // ─── Section type ──────────────────────────────────────────────────────────────
 
@@ -518,10 +519,12 @@ function UpholsterySchema({ data, localityName, cityName }: { data: SeoPageData;
     telephone: PHONE_NUMBER,
     url: `https://furnirevive.com/${data.slug}`,
     sameAs: [whatsappUrl],
-    areaServed: {
-      "@type": "Place",
-      name: `${localityName}, ${cityName}`,
-    },
+    address: BUSINESS_ADDRESS,
+    geo: BUSINESS_GEO,
+    areaServed: [
+      { "@type": "Place", name: `${localityName}, ${cityName}` },
+      ...BUSINESS_AREA_SERVED,
+    ],
     serviceType: "Sofa Upholstery",
     priceRange: "₹₹",
     hasOfferCatalog: {
@@ -938,6 +941,9 @@ export default function UpholsterySeoPageTemplateV1({
 
       {/* ── Service Hub ───────────────────────────────────────────────────── */}
       <ServiceHubSection slug={data.slug} currentService="sofa-upholstery" />
+
+      {/* ── Near Me ───────────────────────────────────────────────────────── */}
+      <LocalityNearMeSection slug={data.slug} serviceLabel="Sofa Reupholstery" showFaqs={false} />
 
       {/* ── FAQ ───────────────────────────────────────────────────────────── */}
       {isOn(sections, "faq") && <FaqSection faqs={allDisplayFaqs} />}

@@ -2,9 +2,9 @@ import type { SeoPageData } from "@/lib/seo-constants.ts";
 
 const sofaUpholsteryFaridabad: SeoPageData = {
   slug: "sofa-upholstery-faridabad",
-  title: "Sofa Upholstery Faridabad | Premium Fabric & Leather Upholstery Service",
+  title: "Sofa Upholstery Faridabad",
   metaDescription:
-    "Expert sofa upholstery in Faridabad for villa owners and luxury apartment residents. Fabric, leather, velvet & pet-friendly options. Serving Sectors 15–88 & BPTP Parklands. Call now.",
+    "Expert sofa upholstery in Faridabad for villa owners and luxury apartment residents. Fabric, leather, velvet & pet-friendly options.",
   h1: "Sofa Upholstery Faridabad — Restore, Reimagine, Revive",
   heroSubtitle:
     "Faridabad's premier upholstery specialists transforming worn sofas into statement pieces for discerning homeowners across Sectors 15 to 88, BPTP Parklands, Omaxe Heights and every premium address in between.",
@@ -400,9 +400,9 @@ const sofaUpholsteryFaridabad: SeoPageData = {
 
 const sofaFoamReplacementFaridabad: SeoPageData = {
   slug: "sofa-foam-replacement-faridabad",
-  title: "Sofa Foam Replacement Faridabad | High-Density Cushion Restoration",
+  title: "Sofa Foam Replacement Faridabad",
   metaDescription:
-    "Sofa foam replacement in Faridabad for sagging, flat cushions. High-density foam, memory foam & sectional solutions for villa and luxury apartment owners. Sectors 15–88 & BPTP. Book now.",
+    "Sofa foam replacement in Faridabad for sagging, flat cushions. High-density foam, memory foam & sectional solutions for villa and luxury apartment owners.",
   h1: "Sofa Foam Replacement Faridabad — End Sagging Cushions for Good",
   heroSubtitle:
     "Specialist foam replacement for Faridabad's discerning homeowners. High-density, memory foam and custom-profile cushion restoration for sofas, sectionals and statement seating across every premium address in the city.",
@@ -798,9 +798,9 @@ const sofaFoamReplacementFaridabad: SeoPageData = {
 
 const luxuryFurnitureRestorationFaridabad: SeoPageData = {
   slug: "luxury-furniture-restoration-faridabad",
-  title: "Luxury Furniture Restoration Faridabad | Villa & Designer Furniture Specialists",
+  title: "Luxury Furniture Restoration Faridabad",
   metaDescription:
-    "Expert luxury furniture restoration in Faridabad for villa owners, designer furniture collectors and imported pieces. Heritage, European and custom furniture specialists. Sectors 15–88 & BPTP. Enquire now.",
+    "Expert luxury furniture restoration in Faridabad for villa owners, designer furniture collectors and imported pieces.",
   h1: "Luxury Furniture Restoration Faridabad — Expert Care for Exceptional Pieces",
   heroSubtitle:
     "Specialist restoration for designer, heritage and imported furniture in Faridabad's premium villas and residences. Because extraordinary pieces deserve extraordinary care — not the nearest workshop.",

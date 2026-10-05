@@ -7,9 +7,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const sofaRepairTagoreGarden: SeoPageData = {
   slug: "sofa-repair-tagore-garden",
-  title: "Sofa Repair in Tagore Garden Delhi | Leather & Recliner Specialists – FurniRevive",
+  title: "Sofa Repair in Tagore Garden Delhi",
   metaDescription:
-    "Premium sofa repair in Tagore Garden, Delhi. Leather sofa restoration, motorised recliner repair, imported furniture specialists. Skilled craftsmen, genuine materials, same-week service. Call FurniRevive today.",
+    "Premium sofa repair in Tagore Garden, Delhi. Leather sofa restoration, motorised recliner repair, imported furniture specialists.",
   h1: "Sofa Repair in Tagore Garden — Premium Restoration for Discerning Homes",
   heroSubtitle:
     "Tagore Garden residents know quality furniture when they own it. FurniRevive brings the craftsmanship to match — leather restoration, recliner repair, and imported furniture care, at your doorstep.",
@@ -20,7 +20,7 @@ export const sofaRepairTagoreGarden: SeoPageData = {
     caption: "Sofa Repair in West Delhi (Tagore Garden) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers professional sofa repair in Tagore Garden covering leather sofa restoration, recliner mechanism repair, imported furniture care, and full reupholstery. Prices start at ₹800 for minor fixes, ₹999/cushion for foam replacement, and ₹3,000–₹15,000/seat for reupholstery. Home visits available 7 days a week across East Tagore Garden, West Tagore Garden, Subhash Nagar, and the surrounding Rajouri Garden belt.",
+    "FurniRevive offers professional sofa repair in Tagore Garden covering leather sofa restoration, recliner mechanism repair, imported furniture care, and full reupholstery. Prices start at ₹500 for minor fixes, ₹999/cushion for foam replacement, and ₹3,000–₹15,000/seat for reupholstery. Home visits available 7 days a week across East Tagore Garden, West Tagore Garden, Subhash Nagar, and the surrounding Rajouri Garden belt.",
 
   intro: [
     "There is a particular kind of frustration that comes with owning a beautiful Italian leather sofa — or a motorised recliner you had shipped in from a branded showroom — and watching it age poorly because the people you called in to fix it simply didn't understand what they were working with. Tagore Garden is full of homes like that: well-appointed, carefully furnished, with pieces that were expensive not because of a label but because of real material quality. Those pieces deserve repairs that match.",
@@ -52,7 +52,7 @@ export const sofaRepairTagoreGarden: SeoPageData = {
     {
       title: "Transparent, Written Quotes",
       description:
-        "We visit, we assess, we quote in writing before any work begins. No surprises, no scope creep, no calling you mid-job to say it costs more. Our furniture repair price guide gives you a realistic range upfront. Minor sofa repairs start at ₹800, foam replacement runs ₹999 per cushion, and full reupholstery is quoted per seat at ₹3,000–₹15,000 depending on fabric and complexity.",
+        "We visit, we assess, we quote in writing before any work begins. No surprises, no scope creep, no calling you mid-job to say it costs more. Our furniture repair price guide gives you a realistic range upfront. Minor sofa repairs start at ₹500, foam replacement runs ₹999 per cushion, and full reupholstery is quoted per seat at ₹3,000–₹15,000 depending on fabric and complexity.",
     },
     {
       title: "Same-Week Service Across the Tagore Garden Belt",
@@ -242,9 +242,9 @@ export const sofaRepairTagoreGarden: SeoPageData = {
 
 export const sofaRepairDelhiCantt: SeoPageData = {
   slug: "sofa-repair-delhi-cantt",
-  title: "Sofa & Furniture Repair in Delhi Cantt | Durable Restoration for Defence Homes – FurniRevive",
+  title: "Sofa & Furniture Repair in Delhi Cantt",
   metaDescription:
-    "Professional sofa and furniture repair in Delhi Cantt. Wooden furniture restoration, heavy-duty sofa repair, government quarter handover fixes. Trusted by defence families across Shankar Vihar, Dhaula Kuan, and the Cantt area. Call FurniRevive.",
+    "Professional sofa and furniture repair in Delhi Cantt. Wooden furniture restoration, heavy-duty sofa repair, government quarter handover fixes.",
   h1: "Sofa & Furniture Repair in Delhi Cantt — Built to Last Through Every Posting",
   heroSubtitle:
     "Defence families in Delhi Cantt don't need furniture that looks good for photographs. They need repairs that hold up through years of use, through the next transfer, and through a government quarter handover inspection. That is exactly what we deliver.",
@@ -255,7 +255,7 @@ export const sofaRepairDelhiCantt: SeoPageData = {
     caption: "Sofa Repair in West Delhi (Delhi Cantt) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides sofa repair, wooden furniture restoration, and government-issue furniture fixing across Delhi Cantt, Shankar Vihar, Dhaula Kuan, and the surrounding areas. Prices start at ₹800 for minor repairs, ₹999/cushion for foam replacement, and ₹3,000–₹15,000/seat for reupholstery. We specialise in durable, long-lasting repairs for defence households — including pre-transfer preparation and pre-handover government furniture restoration.",
+    "FurniRevive provides sofa repair, wooden furniture restoration, and government-issue furniture fixing across Delhi Cantt, Shankar Vihar, Dhaula Kuan, and the surrounding areas. Prices start at ₹500 for minor repairs, ₹999/cushion for foam replacement, and ₹3,000–₹15,000/seat for reupholstery. We specialise in durable, long-lasting repairs for defence households — including pre-transfer preparation and pre-handover government furniture restoration.",
 
   intro: [
     "In most Delhi neighbourhoods, a sofa repair is a convenience. In Delhi Cantt, it often has a deadline attached. A posting order comes in, a family needs to prepare their government quarters for handover, or a set of wooden furniture needs to be restored to inspection-ready condition before they move on. Cosmetic fixes that fail six months later are not acceptable here — because six months later, someone else may be living in that house.",

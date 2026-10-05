@@ -5,12 +5,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const sofaRepairGreaterKailash1: SeoPageData = {
   slug: "sofa-repair-greater-kailash-1",
-  title: "Sofa Repair in Greater Kailash 1 | Premium Doorstep Service | FurniRevive",
+  title: "Sofa Repair in Greater Kailash 1 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Greater Kailash 1, South Delhi from ₹999. Italian leather restoration, foam replacement, recliner repair at your door. Same-day slots, 6-month warranty.",
+    "Expert sofa repair in Greater Kailash 1, South Delhi from ₹500. Italian leather restoration, foam replacement, recliner repair at your door.",
   h1: "Sofa Repair in Greater Kailash 1, South Delhi",
   heroSubtitle:
-    "GK 1 is home to some of South Delhi's most considered interiors — and FurniRevive is the premium restoration service they deserve. Doorstep sofa repair from ₹999 across Greater Kailash 1, M Block, N Block & Kailash Colony.",
+    "GK 1 is home to some of South Delhi's most considered interiors — and FurniRevive is the premium restoration service they deserve. Doorstep sofa repair from ₹500 across Greater Kailash 1, M Block, N Block & Kailash Colony.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
     imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
@@ -18,11 +18,11 @@ export const sofaRepairGreaterKailash1: SeoPageData = {
     caption: "Sofa Repair in Greater Kailash 1 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Greater Kailash 1 — covering M Block, N Block, the residential lanes near GK 1 Market, Kailash Colony, and the GK 2 border — starting at ₹999. Our craftsmen are trained in Italian leather restoration, premium sectional repair, imported recliner mechanisms, and high-resilience foam replacement. Same-day afternoon slots for morning bookings. 6-month workmanship warranty on every repair.",
+    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Greater Kailash 1 — covering M Block, N Block, the residential lanes near GK 1 Market, Kailash Colony, and the GK 2 border — starting at ₹500. Our craftsmen are trained in Italian leather restoration, premium sectional repair, imported recliner mechanisms, and high-resilience foam replacement. Same-day afternoon slots for morning bookings. 6-month workmanship warranty on every repair.",
   intro: [
     "Greater Kailash 1 has long held a position at the apex of South Delhi's residential character. The homes here — spanning everything from the grand bungalows of M Block to the elegantly arranged apartments near N Block Market — are furnished with a deliberateness that is recognisable at first sight. The leather sofa in the drawing room was not purchased on impulse; it was chosen over weeks of visits to the showrooms that line Greater Kailash's commercial streets, the same showrooms that supply the area's own residents with Italian leather, European-specification fabrics, and imported recliner models. When that sofa needs attention — whether targeted <a href=\"/leather-sofa-repair-south-delhi\">leather sofa restoration in South Delhi</a> or a structural renewal after a decade of devoted family use — the standard of care expected is proportional to the standard of the original purchase.",
     "FurniRevive's South Delhi team works regularly in GK 1 and understands the furniture profile of this area better than any generalist repair service could. We are part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair network in Delhi</a>, with a focused South Delhi presence covering Greater Kailash 1 and extending naturally into <a href=\"/sofa-repair-greater-kailash-2\">GK 2</a>, Kailash Colony, Nehru Place residential areas, and the lanes between GK 1 and GK 3. Our craftsmen are not upholstery generalists — they are trained specifically in the materials and construction techniques that define premium South Delhi furniture: full-grain and semi-aniline leather treatment, precision colour-matching for imported fabrics, European-specification spring replacement, and the mechanism repair required by the luxury recliners sourced from GK's own showrooms. Our South Delhi <a href=\"/sofa-repair-south-delhi\">sofa repair service</a> spans the entire Greater Kailash pocket.",
-    "The service is simple and backed at every stage: a free on-site assessment producing a precise, fixed quote; specialist repair completed at your GK 1 address; a 6-month workmanship warranty delivered digitally before the craftsman leaves. For recliners that need mechanism attention, we offer the same <a href=\"/recliner-repair-south-delhi\">expert recliner repair available across South Delhi</a>. Starting at ₹999 for minor repairs. No workshop transport. No hidden charges. No surprises.",
+    "The service is simple and backed at every stage: a free on-site assessment producing a precise, fixed quote; specialist repair completed at your GK 1 address; a 6-month workmanship warranty delivered digitally before the craftsman leaves. For recliners that need mechanism attention, we offer the same <a href=\"/recliner-repair-south-delhi\">expert recliner repair available across South Delhi</a>. Starting at ₹500 for minor repairs. No workshop transport. No hidden charges. No surprises.",
   ],
   whyChoose: [
     {
@@ -41,7 +41,7 @@ export const sofaRepairGreaterKailash1: SeoPageData = {
         "For bookings made before 12 noon, same-day afternoon appointments are typically available across Greater Kailash 1. South Delhi craftsmen are kept available specifically to minimise the interval between a booking and a completed repair. Afternoon bookings receive a confirmed next-morning slot. A failing recliner mechanism or a progressively cracking leather surface does not improve with delay — and with FurniRevive, it generally doesn't have to wait.",
     },
     {
-      title: "Pricing from ₹999 — Fixed, Itemised, Final",
+      title: "Pricing from ₹500 — Fixed, Itemised, Final",
       description:
         "The free on-site assessment produces a single, itemised quote that is locked in from that point. It does not increase because of a mid-job material discovery, a revised complexity assessment, or a hidden charge that was not in the original discussion. What you approve is precisely what you pay. For GK 1's premium furniture, this pricing certainty is not optional — it is the standard we apply without exception.",
     },
@@ -159,7 +159,7 @@ export const sofaRepairGreaterKailash1: SeoPageData = {
     {
       question: "How much does sofa repair cost in Greater Kailash 1?",
       answer:
-        "Minor repairs start at ₹999. Foam replacement for a 3-seater: ₹3,500–₹6,500. Leather crack treatment: ₹3,000–₹6,000. Full 3-seater re-upholstery: ₹7,000–₹16,000. Recliner mechanism repair: ₹1,500–₹9,000. The free on-site assessment gives a precise, itemised quote.",
+        "Minor repairs start at ₹500. Foam replacement for a 3-seater: ₹3,500–₹6,500. Leather crack treatment: ₹3,000–₹6,000. Full 3-seater re-upholstery: ₹7,000–₹16,000. Recliner mechanism repair: ₹1,500–₹9,000. The free on-site assessment gives a precise, itemised quote.",
     },
     {
       question: "Do you offer same-day sofa repair in GK 1?",
@@ -209,7 +209,7 @@ export const sofaRepairGreaterKailash1: SeoPageData = {
     {
       question: "Is there a minimum job value for a GK 1 visit?",
       answer:
-        "No. We attend for repairs starting at ₹999. A minor re-stitching job or a simple joint tightening is worth a visit to us — both because it resolves the problem before it grows, and because it introduces our service to a household that may have future repair needs.",
+        "No. We attend for repairs starting at ₹500. A minor re-stitching job or a simple joint tightening is worth a visit to us — both because it resolves the problem before it grows, and because it introduces our service to a household that may have future repair needs.",
     },
     {
       question: "How should I maintain my leather sofa between professional visits?",
@@ -239,12 +239,12 @@ export const sofaRepairGreaterKailash1: SeoPageData = {
 
 export const sofaRepairGreaterKailash2: SeoPageData = {
   slug: "sofa-repair-greater-kailash-2",
-  title: "Sofa Repair in Greater Kailash 2 | Expert Upholstery & Restoration | FurniRevive",
+  title: "Sofa Repair in Greater Kailash 2 | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Greater Kailash 2, South Delhi from ₹999. Leather sofa care, upholstery replacement, recliner fix at home. 6-month warranty, same-day available.",
+    "Professional sofa repair in Greater Kailash 2, South Delhi from ₹500. Leather sofa care, upholstery replacement, recliner fix at home.",
   h1: "Sofa Repair in Greater Kailash 2, South Delhi",
   heroSubtitle:
-    "Greater Kailash 2 blends vibrant commercial energy with some of South Delhi's finest homes. FurniRevive brings expert doorstep sofa restoration to GK 2, M Block & Nehru Place residential areas from ₹999.",
+    "Greater Kailash 2 blends vibrant commercial energy with some of South Delhi's finest homes. FurniRevive brings expert doorstep sofa restoration to GK 2, M Block & Nehru Place residential areas from ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
     imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
@@ -252,11 +252,11 @@ export const sofaRepairGreaterKailash2: SeoPageData = {
     caption: "Sofa Repair in Greater Kailash 2 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep sofa repair in Greater Kailash 2 — covering the full GK 2 residential area, M Block, Nehru Place residential zones, GK 1, and GK 3 — starting at ₹999. Our craftsmen are trained in Italian leather restoration, premium upholstery, recliner mechanism repair, and high-resilience foam replacement. Same-day afternoon slots for morning bookings. 6-month workmanship warranty on every job.",
+    "FurniRevive provides 4.8-star rated doorstep sofa repair in Greater Kailash 2 — covering the full GK 2 residential area, M Block, Nehru Place residential zones, GK 1, and GK 3 — starting at ₹500. Our craftsmen are trained in Italian leather restoration, premium upholstery, recliner mechanism repair, and high-resilience foam replacement. Same-day afternoon slots for morning bookings. 6-month workmanship warranty on every job.",
   intro: [
     "Greater Kailash 2 occupies a distinctive position in South Delhi — a neighbourhood where the commercial energy of its markets sits comfortably alongside the quiet residential streets where South Delhi families have built their homes for decades. The homes in GK 2 are typically furnished with the discernment that comes from living surrounded by premium furniture showrooms: Italian leather sofas sourced from the commercial corridors nearby, custom sectionals built by GK designers to specific room dimensions, imported recliners that arrived in GK 2 drawing rooms from showrooms on this very neighbourhood's commercial streets. When this furniture needs professional care — <a href=\"/leather-sofa-repair-south-delhi\">specialist leather sofa restoration</a> or comprehensive structural renewal — the expectations are informed by the same premium standard.",
     "FurniRevive's South Delhi team serves GK 2 and understands this area's furniture character well. We are part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair network across Delhi</a>, with a dedicated South Delhi presence covering <a href=\"/sofa-repair-greater-kailash-1\">GK 1</a>, GK 2, <a href=\"/sofa-repair-greater-kailash-3\">GK 3</a>, and the wider Kailash Colony and Nehru Place residential corridor. Our craftsmen bring specialist-grade skill to every GK 2 job: penetrating leather treatment, precision fabric colour-matching, European-style upholstery joinery, and mechanism repair for the luxury recliners that define premium South Delhi living. The <a href=\"/recliner-repair-south-delhi\">recliner repair expertise we bring to South Delhi</a> homes extends fully to GK 2.",
-    "The model is simple: one call brings a skilled craftsman to your GK 2 address for a free on-site assessment, a single fixed quote, and expert repair backed by a 6-month workmanship warranty. Starting at ₹999 for minor work. No transport. No workshop. No surprises. Just the quality that GK 2's furniture — and its owners — deserve.",
+    "The model is simple: one call brings a skilled craftsman to your GK 2 address for a free on-site assessment, a single fixed quote, and expert repair backed by a 6-month workmanship warranty. Starting at ₹500 for minor work. No transport. No workshop. No surprises. Just the quality that GK 2's furniture — and its owners — deserve.",
   ],
   whyChoose: [
     {
@@ -393,7 +393,7 @@ export const sofaRepairGreaterKailash2: SeoPageData = {
     {
       question: "How much does sofa repair cost in GK 2?",
       answer:
-        "Minor repairs start at ₹999. Foam replacement for a 3-seater: ₹3,500–₹6,500. Leather crack treatment: ₹3,000–₹6,000. Full re-upholstery: ₹7,000–₹16,000. Recliner mechanism repair: ₹1,500–₹9,000. Free on-site assessment gives a precise quote.",
+        "Minor repairs start at ₹500. Foam replacement for a 3-seater: ₹3,500–₹6,500. Leather crack treatment: ₹3,000–₹6,000. Full re-upholstery: ₹7,000–₹16,000. Recliner mechanism repair: ₹1,500–₹9,000. Free on-site assessment gives a precise quote.",
     },
     {
       question: "Do you also cover GK 1, GK 3, and Kailash Colony?",
@@ -459,12 +459,12 @@ export const sofaRepairGreaterKailash2: SeoPageData = {
 
 export const sofaRepairGreaterKailash3: SeoPageData = {
   slug: "sofa-repair-greater-kailash-3",
-  title: "Sofa Repair in Greater Kailash 3 | Doorstep Expert Service | FurniRevive",
+  title: "Sofa Repair in Greater Kailash 3 | FurniRevive",
   metaDescription:
-    "Expert sofa and upholstery repair in Greater Kailash 3, South Delhi from ₹999. Premium leather restoration, foam replacement, recliner repair at your home. 6-month warranty.",
+    "Expert sofa and upholstery repair in Greater Kailash 3, South Delhi from ₹500. Premium leather restoration, foam replacement, recliner repair at your home.",
   h1: "Sofa Repair in Greater Kailash 3, South Delhi",
   heroSubtitle:
-    "Greater Kailash 3's quieter residential character is home to some of South Delhi's finest furniture. FurniRevive brings premium doorstep sofa restoration to GK 3 from ₹999, covering Savitri Nagar, Kailash Colony & Nehru Place.",
+    "Greater Kailash 3's quieter residential character is home to some of South Delhi's finest furniture. FurniRevive brings premium doorstep sofa restoration to GK 3 from ₹500, covering Savitri Nagar, Kailash Colony & Nehru Place.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
     imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
@@ -472,11 +472,11 @@ export const sofaRepairGreaterKailash3: SeoPageData = {
     caption: "Sofa Repair in Greater Kailash 3 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep sofa repair in Greater Kailash 3 — covering the residential blocks of GK 3, Savitri Nagar, Kailash Colony, Nehru Place residential areas, GK 1, and GK 2 — starting at ₹999. Specialist craftsmen for Italian leather restoration, premium fabric upholstery, recliner mechanisms, and high-resilience foam replacement. Same-day slots available for morning bookings. 6-month workmanship warranty.",
+    "FurniRevive provides 4.8-star rated doorstep sofa repair in Greater Kailash 3 — covering the residential blocks of GK 3, Savitri Nagar, Kailash Colony, Nehru Place residential areas, GK 1, and GK 2 — starting at ₹500. Specialist craftsmen for Italian leather restoration, premium fabric upholstery, recliner mechanisms, and high-resilience foam replacement. Same-day slots available for morning bookings. 6-month workmanship warranty.",
   intro: [
     "Greater Kailash 3 has the quietest character of the Greater Kailash cluster — a residential area where the pace of life is more measured, the streets more tree-lined, and the homes more consistently focused on considered living rather than commercial activity. GK 3 draws on the same premium furniture culture that defines the entire Greater Kailash area, with the Italian leather suites, custom sectionals, and luxury recliners that have come to characterise South Delhi's finest residential interiors. When these pieces need professional care — <a href=\"/leather-sofa-repair-south-delhi\">leather sofa restoration</a> for a cracking Italian hide or structural renewal for a sagging sectional — the expectation for quality is set by the original purchase.",
     "FurniRevive's South Delhi craftsmen serve GK 3 regularly and carry the specific skills required by the furniture found in these homes. We are part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair network across Delhi</a>, with a South Delhi presence that covers GK 3 and extends naturally into <a href=\"/sofa-repair-greater-kailash-1\">GK 1</a>, <a href=\"/sofa-repair-greater-kailash-2\">GK 2</a>, Kailash Colony, Savitri Nagar, and the Nehru Place residential corridor. Our service is grounded in <a href=\"/sofa-repair-south-delhi\">South Delhi sofa repair</a> expertise that encompasses the full Greater Kailash area. For recliners requiring mechanism attention, we bring the same <a href=\"/recliner-repair-south-delhi\">expert recliner repair service available across South Delhi</a>.",
-    "The service is simple and fully warranted: a free on-site assessment, a transparent fixed quote, expert repair completed at your GK 3 home, and a 6-month workmanship warranty. Starting at ₹999. No workshop transport. No hidden charges. No generalist handymen — only specialist furniture craftsmen who have spent their careers working with premium South Delhi furniture.",
+    "The service is simple and fully warranted: a free on-site assessment, a transparent fixed quote, expert repair completed at your GK 3 home, and a 6-month workmanship warranty. Starting at ₹500. No workshop transport. No hidden charges. No generalist handymen — only specialist furniture craftsmen who have spent their careers working with premium South Delhi furniture.",
   ],
   whyChoose: [
     {
@@ -495,7 +495,7 @@ export const sofaRepairGreaterKailash3: SeoPageData = {
         "For bookings before noon, same-day afternoon slots are typically available in GK 3. South Delhi craftsmen are kept available specifically to minimise delay — because a cracking leather surface or a failing mechanism does not improve with time.",
     },
     {
-      title: "Pricing from ₹999 — Itemised and Fixed Before Work Begins",
+      title: "Pricing from ₹500 — Itemised and Fixed Before Work Begins",
       description:
         "The free on-site assessment produces a transparent, itemised quote that is locked in from that point. No mid-job revisions, no hidden charges. The quote you approve is the total you pay.",
     },
@@ -613,7 +613,7 @@ export const sofaRepairGreaterKailash3: SeoPageData = {
     {
       question: "How much does sofa repair cost in GK 3?",
       answer:
-        "Minor repairs from ₹999. Foam replacement (3-seater): ₹3,500–₹7,000. Leather crack treatment: ₹3,000–₹6,000. Full re-upholstery (3-seater): ₹7,000–₹16,000. Recliner mechanism repair: ₹1,500–₹9,000. Free on-site assessment provides precise itemised quote.",
+        "Minor repairs from ₹500. Foam replacement (3-seater): ₹3,500–₹7,000. Leather crack treatment: ₹3,000–₹6,000. Full re-upholstery (3-seater): ₹7,000–₹16,000. Recliner mechanism repair: ₹1,500–₹9,000. Free on-site assessment provides precise itemised quote.",
     },
     {
       question: "Do you cover Kailash Colony and the Nehru Place residential area?",

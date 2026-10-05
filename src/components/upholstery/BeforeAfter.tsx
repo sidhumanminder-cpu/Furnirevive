@@ -16,42 +16,42 @@ const BEFORE_AFTER_EXAMPLES: BeforeAfterItem[] = [
     newFabric: "Premium leatherette, charcoal grey",
     sofaType: "3-seater sofa",
     completionTime: "4 days",
-    location: "DLF Phase 4, Gurgaon",
+    location: "Premium apartment",
   },
   {
     oldFabric: "Worn polyester, sagging cushions",
     newFabric: "36D foam + chenille fabric, olive green",
     sofaType: "L-shaped sectional",
     completionTime: "6 days",
-    location: "Sector 56, Gurgaon",
+    location: "Independent floor",
   },
   {
     oldFabric: "Cat-scratched suede",
     newFabric: "Microfiber, dark navy (pet-proof)",
     sofaType: "2-seater + 3-seater set",
     completionTime: "5 days",
-    location: "Golf Course Extension, Gurgaon",
+    location: "Main road residence",
   },
   {
     oldFabric: "Sun-faded linen, broken springs",
     newFabric: "Jacquard fabric + 40D foam replacement",
     sofaType: "5-seater sofa",
     completionTime: "7 days",
-    location: "Sushant Lok, Gurgaon",
+    location: "Gated society villa",
   },
   {
     oldFabric: "Stained velvet, flat cushions",
     newFabric: "Bouclé fabric, ivory white + 36D foam",
     sofaType: "Chesterfield sofa",
     completionTime: "5 days",
-    location: "Nirvana Country, Gurgaon",
+    location: "Family home",
   },
   {
     oldFabric: "Ripped leatherette, yellowed arms",
     newFabric: "Premium leatherette, dark espresso brown",
     sofaType: "Recliner (3-seat)",
     completionTime: "6 days",
-    location: "Sector 49, Gurgaon",
+    location: "Residential society apartment",
   },
 ];
 
@@ -64,7 +64,7 @@ export default function BeforeAfter() {
             Before & After Transformations
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Real upholstery jobs completed across Gurgaon — showing old fabric, new material, and completion time.
+            Real upholstery jobs completed in homes and apartments like yours — showing old fabric, new material, and completion time.
           </p>
         </div>
 

@@ -22,9 +22,9 @@ function relatedExcluding(slug: string) {
 
 export const sofaRepairNoidaSector62: SeoPageData = {
   slug: "sofa-repair-noida-sector-62",
-  title: "Sofa Repair in Sector 62 Noida – Home Service from ₹999 | FurniRevive",
+  title: "Sofa Repair in Sector 62 Noida – Home Service from ₹500",
   metaDescription:
-    "Professional sofa repair in Sector 62 Noida. FurniRevive offers same-day doorstep service from ₹999. Serving Paramount Symphony and all Sector 62 societies near the IT corridor. 6-month warranty. Call now.",
+    "Professional sofa repair in Sector 62 Noida. FurniRevive offers same-day doorstep service from ₹500.",
   h1: "Sofa Repair in Sector 62 Noida",
   heroSubtitle:
     "Trusted sofa repair for Paramount Symphony and all Sector 62 societies. Fast turnaround tailored for busy working professionals near HCL Technologies and Infosys Noida.",
@@ -35,11 +35,11 @@ export const sofaRepairNoidaSector62: SeoPageData = {
     caption: "Sofa Repair in Noida (Sector 62) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "Sofa repair in Sector 62 Noida starts from ₹999 depending on repair type, sofa size and upholstery material. FurniRevive provides same-day doorstep sofa repair across all Sector 62 societies including Paramount Symphony and the surrounding IT corridor.",
+    "Sofa repair in Sector 62 Noida starts from ₹500 depending on repair type, sofa size and upholstery material. FurniRevive provides same-day doorstep sofa repair across all Sector 62 societies including Paramount Symphony and the surrounding IT corridor.",
   intro: [
     "Noida Sector 62 is the nerve centre of the NCR's IT corridor, home to thousands of tech professionals employed at companies like HCL Technologies and Infosys Noida. The sector combines modern high-rise residential apartments — including Paramount Symphony — with a dense commercial and office landscape along the Electronic City stretch. When sofas in these apartments suffer sagging cushions, torn upholstery or structural damage, finding a reliable repair service that fits around a demanding work schedule becomes a genuine challenge.",
     "FurniRevive offers professional doorstep sofa repair throughout Sector 62, designed around the lifestyle of working professionals and young households. Whether you own a fabric L-shaped sectional or a leather three-seater in your Sector 62 apartment, our certified technicians arrive at a time that suits you — including evenings and weekends. We extend our coverage into Sector 61, Sector 63, Sector 71 and the Noida Golf Course area around Sector 52, ensuring the entire IT corridor is served.",
-    "From sagging foam and broken sofa legs to torn upholstery and worn recliner mechanisms, our technicians carry high-grade materials and specialist tools to complete most repairs in a single visit. We source premium high-resilience foam, colour-matched fabric swatches and durable replacement hardware so your sofa looks and functions as good as new. Pricing starts at ₹999 with no hidden charges, and a 6-month workmanship warranty is included with every repair.",
+    "From sagging foam and broken sofa legs to torn upholstery and worn recliner mechanisms, our technicians carry high-grade materials and specialist tools to complete most repairs in a single visit. We source premium high-resilience foam, colour-matched fabric swatches and durable replacement hardware so your sofa looks and functions as good as new. Pricing starts at ₹500 with no hidden charges, and a 6-month workmanship warranty is included with every repair.",
   ],
   whyChoose: [
     {
@@ -50,7 +50,7 @@ export const sofaRepairNoidaSector62: SeoPageData = {
     {
       title: "Transparent Fixed Pricing",
       description:
-        "Sofa repairs start from ₹999. Foam replacement is priced at ₹999–₹2,500 and full reupholstery ranges from ₹3,000–₹14,000. Every quote is provided in writing before work begins — no surprises on the final invoice.",
+        "Sofa repairs start from ₹500. Foam replacement is priced at ₹999–₹2,500 and full reupholstery ranges from ₹3,000–₹14,000. Every quote is provided in writing before work begins — no surprises on the final invoice.",
     },
     {
       title: "Same-Day Slots Available",
@@ -98,7 +98,7 @@ export const sofaRepairNoidaSector62: SeoPageData = {
   benefits: [
     "Doorstep service at your Sector 62 apartment",
     "Same-day booking available for urgent repairs",
-    "Affordable pricing from ₹999 for sofa repairs",
+    "Affordable pricing from ₹500 for sofa repairs",
     "Trained and background-verified technicians",
     "Evening and weekend slots for working professionals",
     "Premium-grade foam and fabric materials used",
@@ -143,7 +143,7 @@ export const sofaRepairNoidaSector62: SeoPageData = {
     {
       question: "How much does sofa repair cost in Sector 62 Noida?",
       answer:
-        "Sofa repair in Sector 62 starts at ₹999 for basic repairs like leg replacement or cushion stitching. Foam replacement costs ₹999–₹2,500 per seat and full reupholstery ranges from ₹3,000–₹14,000 depending on sofa size and fabric type. All quotes are provided in writing before work begins.",
+        "Sofa repair in Sector 62 starts at ₹500 for basic repairs like leg replacement or cushion stitching. Foam replacement costs ₹999–₹2,500 per seat and full reupholstery ranges from ₹3,000–₹14,000 depending on sofa size and fabric type. All quotes are provided in writing before work begins.",
     },
     {
       question: "Do you offer same-day sofa repair in Sector 62?",
@@ -214,9 +214,9 @@ export const sofaRepairNoidaSector62: SeoPageData = {
 
 export const furnitureRepairNoidaSector18: SeoPageData = {
   slug: "furniture-repair-noida-sector-18",
-  title: "Furniture Repair Noida Sector 18 | ₹599 Doorstep",
+  title: "Furniture Repair in Noida Sector 18 | ₹599 Doorstep",
   metaDescription:
-    "Furniture repair in Noida Sector 18 starting ₹599. Doorstep service near DLF Mall, Atta Market & Great India Place. Sofa, bed, wardrobe, dining table repair.",
+    "Furniture repair in Noida Sector 18 starting ₹599. Doorstep service near DLF Mall, Atta Market & Great India Place.",
   h1: "Furniture Repair in Noida Sector 18 – Trusted Service for NCR's Oldest Hub",
   heroSubtitle:
     "Complete furniture repair for Sector 18 residences near DLF Mall of India, Atta Market and Great India Place. Sofas, beds, wardrobes, dining tables and all household furniture repaired at your doorstep from ₹599.",
@@ -393,7 +393,7 @@ export const furnitureRepairNoidaSector18: SeoPageData = {
 
 export const furnitureRepairNoidaSector150: SeoPageData = {
   slug: "furniture-repair-noida-sector-150",
-  title: "Furniture Repair Noida Sector 150 | From ₹599",
+  title: "Furniture Repair in Noida Sector 150 | From ₹599",
   metaDescription:
     "Doorstep furniture repair in Noida Sector 150 from ₹599. Serving Ace Divino, Mahagun Mywoods & CRC Sublimis. Budget-friendly service with 6-month warranty.",
   h1: "Furniture Repair in Noida Sector 150 – Affordable Doorstep Service for Growing Families",

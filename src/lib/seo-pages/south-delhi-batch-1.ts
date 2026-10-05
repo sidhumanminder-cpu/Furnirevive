@@ -5,12 +5,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const sofaRepairPanchsheelPark: SeoPageData = {
   slug: "sofa-repair-panchsheel-park",
-  title: "Sofa Repair in Panchsheel Park | Premium Doorstep Service ₹999 | FurniRevive",
+  title: "Sofa Repair in Panchsheel Park | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Panchsheel Park, South Delhi from ₹999. Leather restoration, foam replacement, recliner repair at your doorstep. 6-month warranty. Call FurniRevive.",
+    "Expert sofa repair in Panchsheel Park, South Delhi from ₹500. Leather restoration, foam replacement, recliner repair at your doorstep. 6-month warranty.",
   h1: "Sofa Repair in Panchsheel Park, South Delhi",
   heroSubtitle:
-    "Your premium South Delhi home deserves expert care — not a mediocre patch job. Doorstep sofa restoration in Panchsheel Park and nearby Hauz Khas, Green Park & Greater Kailash from ₹999. 6-month warranty included.",
+    "Your premium South Delhi home deserves expert care — not a mediocre patch job. Doorstep sofa restoration in Panchsheel Park and nearby Hauz Khas, Green Park & Greater Kailash from ₹500. 6-month warranty included.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
     imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
@@ -18,11 +18,11 @@ export const sofaRepairPanchsheelPark: SeoPageData = {
     caption: "Sofa Repair in Panchsheel Park | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Panchsheel Park — including the surrounding Hauz Khas, Green Park, Greater Kailash, and Shahpur Jat pockets — starting at ₹999. Our specialist craftsmen are trained in Italian leather restoration, premium recliner repair, designer fabric matching, and high-resilience foam replacement. A free on-site assessment, a fixed transparent quote, and a 6-month workmanship warranty come standard on every job. Most Panchsheel Park bookings made before noon secure a same-day afternoon slot.",
+    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Panchsheel Park — including the surrounding Hauz Khas, Green Park, Greater Kailash, and Shahpur Jat pockets — starting at ₹500. Our specialist craftsmen are trained in Italian leather restoration, premium recliner repair, designer fabric matching, and high-resilience foam replacement. A free on-site assessment, a fixed transparent quote, and a 6-month workmanship warranty come standard on every job. Most Panchsheel Park bookings made before noon secure a same-day afternoon slot.",
   intro: [
     "Panchsheel Park occupies a particular tier of South Delhi living that demands a particular standard of everything — including who you trust with your furniture. The homes here are not accident-furnished. The leather sectional in the study was chosen over three visits to Hauz Khas showrooms. The Italian Natuzzi in the drawing room arrived in a crate from Shahpur Jat's import district. The custom teak-framed sofa was built by a craftsman in Greater Kailash and has survived two sets of children and one very energetic Labrador. These pieces carry memory as much as they carry people — and when they start to show the strain of South Delhi living, they deserve skilled <a href=\"/leather-sofa-repair-south-delhi\">leather sofa care in South Delhi</a> and expert restoration, not a rushed replacement.",
     "FurniRevive's South Delhi team has spent years working in homes exactly like yours. We're not generalists who occasionally touch upholstery — we're <a href=\"/sofa-repair-delhi\">specialist sofa repair craftsmen in Delhi</a> with a dedicated South Delhi operation covering Panchsheel Park, <a href=\"/sofa-repair-green-park\">Green Park</a>, Hauz Khas, Greater Kailash, and the Shahpur Jat and Panchsheel Club lanes. Our craftsmen carry the tools, materials, and knowledge to handle everything from a precision leather conditioning treatment on a semi-aniline hide to a complete structural rebuild of a sagging custom sectional or a precision-serviced recliner via our <a href=\"/recliner-repair-south-delhi\">expert recliner repair in South Delhi</a> — all within the walls of your home, without dismantling or transporting a single thing.",
-    "The starting rate of ₹999 is genuine — verified by thousands of jobs across Delhi. The free, no-obligation on-site assessment gives you an honest, fixed quote before a single stitch is touched. And the 6-month workmanship warranty means you're not taking any risk. Our Panchsheel Park residents regularly tell us they wish they'd called sooner. If your sofa is asking for help, this is where you start.",
+    "The starting rate of ₹500 is genuine — verified by thousands of jobs across Delhi. The free, no-obligation on-site assessment gives you an honest, fixed quote before a single stitch is touched. And the 6-month workmanship warranty means you're not taking any risk. Our Panchsheel Park residents regularly tell us they wish they'd called sooner. If your sofa is asking for help, this is where you start.",
   ],
   whyChoose: [
     {
@@ -41,7 +41,7 @@ export const sofaRepairPanchsheelPark: SeoPageData = {
         "Call or WhatsApp before noon and we can typically confirm a same-day afternoon visit. We keep South Delhi craftsmen available specifically to minimise wait times — because leaving a broken recliner or a cracked leather armrest for a week makes the problem worse and the mood worse. Afternoon bookings receive a morning slot the following day.",
     },
     {
-      title: "Pricing from ₹999 — Transparent, Fixed, Final",
+      title: "Pricing from ₹500 — Transparent, Fixed, Final",
       description:
         "After the free on-site assessment, you receive a single, itemised quote. That number doesn't change because a 'hidden material cost' appeared mid-job. It doesn't grow because the craftsman decides extra labour was involved. What you approve is precisely what you pay — always. For Panchsheel Park's premium sofas, this transparency matters.",
     },
@@ -181,7 +181,7 @@ export const sofaRepairPanchsheelPark: SeoPageData = {
     {
       question: "What is the starting price for sofa repair in Panchsheel Park?",
       answer:
-        "₹999 is our genuine starting rate for minor repairs — basic re-stitching, simple tightening, small patch work on localised fabric damage. Most premium sofa repairs in Panchsheel Park, involving foam replacement, leather restoration, or recliner mechanism work, fall in the ₹3,000–₹15,000 range depending on extent. The free on-site assessment gives you a precise number before work begins.",
+        "₹500 is our genuine starting rate for minor repairs — basic re-stitching, simple tightening, small patch work on localised fabric damage. Most premium sofa repairs in Panchsheel Park, involving foam replacement, leather restoration, or recliner mechanism work, fall in the ₹3,000–₹15,000 range depending on extent. The free on-site assessment gives you a precise number before work begins.",
     },
     {
       question: "Can you restore a leather sofa that has developed significant cracking across the seat?",
@@ -255,12 +255,12 @@ export const sofaRepairPanchsheelPark: SeoPageData = {
 
 export const sofaRepairGulmoharPark: SeoPageData = {
   slug: "sofa-repair-gulmohar-park",
-  title: "Sofa Repair in Gulmohar Park | Expert Upholstery ₹999 | FurniRevive",
+  title: "Sofa Repair in Gulmohar Park | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Gulmohar Park, South Delhi from ₹999. Fabric upholstery, leather care, recliner fix at your door. Same-day slots, 6-month warranty. Call FurniRevive.",
+    "Professional sofa repair in Gulmohar Park, South Delhi from ₹500. Fabric upholstery, leather care, recliner fix at your door.",
   h1: "Sofa Repair in Gulmohar Park, South Delhi",
   heroSubtitle:
-    "Your beautifully furnished Gulmohar Park home deserves craftsmen who understand premium furniture. Doorstep repair and restoration service from ₹999, covering Green Park, Hauz Khas & Yusuf Sarai.",
+    "Your beautifully furnished Gulmohar Park home deserves craftsmen who understand premium furniture. Doorstep repair and restoration service from ₹500, covering Green Park, Hauz Khas & Yusuf Sarai.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
     imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
@@ -268,11 +268,11 @@ export const sofaRepairGulmoharPark: SeoPageData = {
     caption: "Sofa Repair in Gulmohar Park | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive brings 4.8-star rated doorstep sofa repair to Gulmohar Park — covering Green Park, Hauz Khas, Yusuf Sarai, Deer Park, and the SDA Market area — starting at ₹999. Our craftsmen specialise in premium fabric upholstery, Italian leather restoration, luxury recliner mechanisms, and high-density foam replacement. Free on-site assessment, fixed transparent quotes, and a 6-month workmanship warranty on every job. Same-day slots for morning bookings are routinely available in Gulmohar Park.",
+    "FurniRevive brings 4.8-star rated doorstep sofa repair to Gulmohar Park — covering Green Park, Hauz Khas, Yusuf Sarai, Deer Park, and the SDA Market area — starting at ₹500. Our craftsmen specialise in premium fabric upholstery, Italian leather restoration, luxury recliner mechanisms, and high-density foam replacement. Free on-site assessment, fixed transparent quotes, and a 6-month workmanship warranty on every job. Same-day slots for morning bookings are routinely available in Gulmohar Park.",
   intro: [
     "Gulmohar Park has always had a quiet distinction among South Delhi's residential colonies — a character shaped by its wide, shaded streets, the proximity of Deer Park's green lungs, and a resident community that tends toward considered living. The homes here reflect that character: interiors that take fabric and form seriously, furniture that was chosen thoughtfully and expected to last a generation. The sofa in the drawing room is rarely an afterthought. It is, more often, the reason the room exists as it does.",
     "FurniRevive's South Delhi team works regularly in Gulmohar Park and its neighbouring colonies — <a href=\"/sofa-repair-green-park\">Green Park</a>, Hauz Khas, Yusuf Sarai, and the SDA Market residential blocks — and we understand the furniture profile that defines this area. Premium fabric sofas in velvet, cotton canvas, and woven linen. Imported leather pieces sourced from Greater Kailash showrooms — our <a href=\"/leather-sofa-repair-south-delhi\">leather sofa repair specialists</a> know them well. Custom sectionals built by Kirti Nagar workshops to fit specific room dimensions. We are part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network, but with a South Delhi presence that knows the difference between standard upholstery and the premium work these homes require.",
-    "Whether the problem is fabric fading from Deer Park's morning sun streaming through east-facing windows, sagging cushion foam that has compressed under years of family use, a recliner mechanism that jams mid-position and needs our <a href=\"/recliner-repair-south-delhi\">electric recliner repair service</a>, or stitching that has unravelled from a favourite sofa corner — we fix it at your door, with a fixed quote and a 6-month warranty. Starting at ₹999. No workshop. No transport. No surprises.",
+    "Whether the problem is fabric fading from Deer Park's morning sun streaming through east-facing windows, sagging cushion foam that has compressed under years of family use, a recliner mechanism that jams mid-position and needs our <a href=\"/recliner-repair-south-delhi\">electric recliner repair service</a>, or stitching that has unravelled from a favourite sofa corner — we fix it at your door, with a fixed quote and a 6-month warranty. Starting at ₹500. No workshop. No transport. No surprises.",
   ],
   whyChoose: [
     {
@@ -291,7 +291,7 @@ export const sofaRepairGulmoharPark: SeoPageData = {
         "Gulmohar Park's east and south-facing rooms receive significant direct sunlight through much of the year, particularly in the lanes nearest Deer Park. UV damage to upholstery accelerates if left unaddressed. We offer same-day slots for morning bookings specifically because early intervention saves material. Book before noon, get a same-day afternoon visit.",
     },
     {
-      title: "Pricing from ₹999 — Complete Transparency Before Work Starts",
+      title: "Pricing from ₹500 — Complete Transparency Before Work Starts",
       description:
         "Our on-site assessment produces a single, itemised quote that is fixed from that point forward. No mid-job material discoveries. No retrospective labour additions. The number you approve is the number you pay. For Gulmohar Park's premium furniture, this transparency removes any hesitation about calling.",
     },
@@ -459,9 +459,9 @@ export const sofaRepairGulmoharPark: SeoPageData = {
         "With proper maintenance, high-resilience foam replacements typically last 8–12 years before significant compression. Professional re-upholstery with premium fabric, done correctly, lasts 10–15 years. Leather reconditioning, with twice-yearly follow-up maintenance, keeps leather supple and crack-free for the long term. Frame and spring repairs, when properly executed with appropriate materials, last the life of the sofa structure.",
     },
     {
-      question: "Is the ₹999 starting price real for Gulmohar Park?",
+      question: "Is the ₹500 starting price real for Gulmohar Park?",
       answer:
-        "Yes. ₹999 covers genuine minor repairs — basic re-stitching of a small tear, tightening of a loose joint, localised spot treatment. Most comprehensive sofa restoration in Gulmohar Park — involving foam replacement, leather work, or re-upholstery — falls in the ₹4,000–₹15,000 range. The free on-site assessment always gives you a precise number before any decision is made.",
+        "Yes. ₹500 covers genuine minor repairs — basic re-stitching of a small tear, tightening of a loose joint, localised spot treatment. Most comprehensive sofa restoration in Gulmohar Park — involving foam replacement, leather work, or re-upholstery — falls in the ₹4,000–₹15,000 range. The free on-site assessment always gives you a precise number before any decision is made.",
     },
   ],
   keywords: [

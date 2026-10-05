@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const furnitureRepairTilakNagar: SeoPageData = {
   slug: "furniture-repair-tilak-nagar",
-  title: "Furniture Repair in Tilak Nagar Delhi – FurniRevive | Sofa, Wooden & Wardrobe Repair",
-  metaDescription: "Expert furniture repair in Tilak Nagar, West Delhi. Sofa foam, wooden furniture, wardrobe, dining sets & recliners. Home visit from ₹599. 6-month warranty. Call FurniRevive.",
+  title: "Furniture Repair in Tilak Nagar Delhi – FurniRevive",
+  metaDescription: "Expert furniture repair in Tilak Nagar, West Delhi. Sofa foam, wooden furniture, wardrobe, dining sets & recliners. Home visit from ₹599. 6-month warranty.",
   h1: "Furniture Repair in Tilak Nagar – All Home Furniture Restored at Your Door",
   heroSubtitle: "FurniRevive repairs all furniture in Tilak Nagar — sofas, wardrobes, dining sets, recliners & wooden furniture. Home visit. Transparent pricing. 6-month warranty.",
   showcaseImage: {
@@ -22,7 +22,7 @@ const furnitureRepairTilakNagar: SeoPageData = {
   whyChoose: [
     { title: "All Furniture Types — One Visit", description: "Sofas, wooden furniture, wardrobes, dining sets, recliners, beds — we repair everything in a single booking. You get a single transparent quote covering all items." },
     { title: "Home Visit Across Tilak Nagar", description: "We come to your address — DDA flat, housing society, or independent floor — with all tools and materials. No transport, no disruption." },
-    { title: "Transparent Pricing", description: "Furniture repair from ₹599, sofa foam from ₹999/cushion, full reupholstery from ₹3,000/seat, polishing from ₹800. Written quote before work starts." },
+    { title: "Transparent Pricing", description: "Furniture repair from ₹599, sofa foam from ₹999/cushion, full reupholstery from ₹2,000/seat, polishing from ₹800. Written quote before work starts." },
     { title: "6-Month Warranty", description: "All repairs carry a 6-month workmanship warranty with digital certificate via WhatsApp." },
   ],
   process: [
@@ -52,7 +52,7 @@ const furnitureRepairTilakNagar: SeoPageData = {
   ],
   faqs: [
     { question: "What furniture types do you repair in Tilak Nagar?", answer: "We repair all home furniture: sofas, wooden furniture, wardrobes, dining sets, recliners, beds, chairs, and storage units. One booking covers multiple pieces." },
-    { question: "How much does furniture repair cost in Tilak Nagar?", answer: "Furniture repair from ₹599, sofa foam from ₹999/cushion, reupholstery from ₹3,000/seat, polishing from ₹800, recliner repair from ₹1,500. Written quote after free inspection." },
+    { question: "How much does furniture repair cost in Tilak Nagar?", answer: "Furniture repair from ₹599, sofa foam from ₹999/cushion, reupholstery from ₹2,000/seat, polishing from ₹800, recliner repair from ₹1,500. Written quote after free inspection." },
     { question: "Do you offer home visits in Tilak Nagar?", answer: "Yes. We repair at your home — DDA flat, society flat, or independent floor. No transport needed." },
     { question: "What warranty do you provide?", answer: "All repairs carry a 6-month workmanship warranty. If any fault appears within six months, we return and fix it free of charge." },
   ],
@@ -71,8 +71,8 @@ const furnitureRepairTilakNagar: SeoPageData = {
 
 const furnitureRepairRajouriGarden: SeoPageData = {
   slug: "furniture-repair-rajouri-garden",
-  title: "Furniture Repair in Rajouri Garden Delhi – FurniRevive | Sofa, Leather & Recliner Repair",
-  metaDescription: "Expert furniture repair in Rajouri Garden, West Delhi. Leather sofas, imported recliners, wooden furniture & wardrobes. Home visit from ₹599. 6-month warranty. Call FurniRevive.",
+  title: "Furniture Repair in Rajouri Garden Delhi – FurniRevive",
+  metaDescription: "Expert furniture repair in Rajouri Garden, West Delhi. Leather sofas, imported recliners, wooden furniture & wardrobes. Home visit from ₹599.",
   h1: "Furniture Repair in Rajouri Garden – Premium & Designer Furniture Restored at Your Door",
   heroSubtitle: "FurniRevive repairs all furniture in Rajouri Garden — leather sofas, imported recliners, designer wardrobes & wooden furniture. Home visit. Transparent pricing. 6-month warranty.",
   showcaseImage: {
@@ -139,8 +139,8 @@ const furnitureRepairRajouriGarden: SeoPageData = {
 
 const furnitureRepairPaschimVihar: SeoPageData = {
   slug: "furniture-repair-paschim-vihar",
-  title: "Furniture Repair in Paschim Vihar Delhi – FurniRevive | Sofa, Recliner & Wardrobe Repair",
-  metaDescription: "Expert furniture repair in Paschim Vihar, West Delhi. Sofa foam, electric recliners, wooden furniture & wardrobes. Home visit from ₹599. 6-month warranty. Call FurniRevive.",
+  title: "Furniture Repair in Paschim Vihar Delhi – FurniRevive",
+  metaDescription: "Expert furniture repair in Paschim Vihar, West Delhi. Sofa foam, electric recliners, wooden furniture & wardrobes. Home visit from ₹599. 6-month warranty.",
   h1: "Furniture Repair in Paschim Vihar – All Home Furniture Restored at Your Door",
   heroSubtitle: "FurniRevive repairs all furniture in Paschim Vihar — sofas, electric recliners, wardrobes & wooden furniture. Home visit. Transparent pricing. 6-month warranty.",
   showcaseImage: {
@@ -207,8 +207,8 @@ const furnitureRepairPaschimVihar: SeoPageData = {
 
 const furnitureRepairPunjabiBagh: SeoPageData = {
   slug: "furniture-repair-punjabi-bagh",
-  title: "Furniture Repair in Punjabi Bagh Delhi – FurniRevive | Luxury, Antique & Designer Furniture",
-  metaDescription: "Expert furniture repair in Punjabi Bagh, West Delhi. Italian leather sofas, European wardrobes, antiques & designer furniture. Home visit from ₹599. 6-month warranty. Call FurniRevive.",
+  title: "Furniture Repair in Punjabi Bagh Delhi – FurniRevive",
+  metaDescription: "Expert furniture repair in Punjabi Bagh, West Delhi. Italian leather sofas, European wardrobes, antiques & designer furniture. Home visit from ₹599.",
   h1: "Furniture Repair in Punjabi Bagh – Luxury & Designer Furniture Restored at Your Door",
   heroSubtitle: "FurniRevive repairs premium furniture in Punjabi Bagh — Italian leather sofas, European wardrobes, antiques, imported recliners & bespoke pieces. Home visit. 6-month warranty.",
   showcaseImage: {
@@ -275,8 +275,8 @@ const furnitureRepairPunjabiBagh: SeoPageData = {
 
 const furnitureRepairSubhashNagar: SeoPageData = {
   slug: "furniture-repair-subhash-nagar",
-  title: "Furniture Repair in Subhash Nagar Delhi – FurniRevive | Sofa, Wooden & Wardrobe Repair",
-  metaDescription: "Expert furniture repair in Subhash Nagar, West Delhi. Sofa foam, wooden furniture, wardrobes & dining sets. Home visit from ₹599. 6-month warranty. Call FurniRevive.",
+  title: "Furniture Repair in Subhash Nagar Delhi – FurniRevive",
+  metaDescription: "Expert furniture repair in Subhash Nagar, West Delhi. Sofa foam, wooden furniture, wardrobes & dining sets. Home visit from ₹599. 6-month warranty.",
   h1: "Furniture Repair in Subhash Nagar – All Home Furniture Restored at Your Door",
   heroSubtitle: "FurniRevive repairs all furniture in Subhash Nagar — sofas, wardrobes, dining sets, recliners & wooden furniture. Home visit. Transparent pricing. 6-month warranty.",
   showcaseImage: {
@@ -294,7 +294,7 @@ const furnitureRepairSubhashNagar: SeoPageData = {
   whyChoose: [
     { title: "Practical, Affordable Repairs for Indian-Made Furniture", description: "We specialise in the fabric sofas, sheesham wardrobes, and standard dining sets common in Subhash Nagar homes — with competitive pricing and no hidden costs." },
     { title: "Home Visit Across Subhash Nagar", description: "We come to your apartment or plotted house with all tools and materials. No transport, no disruption." },
-    { title: "Transparent Pricing", description: "Furniture repair from ₹599, sofa foam from ₹999/cushion, full reupholstery from ₹3,000/seat, polishing from ₹800. Written quote before work starts." },
+    { title: "Transparent Pricing", description: "Furniture repair from ₹599, sofa foam from ₹999/cushion, full reupholstery from ₹2,000/seat, polishing from ₹800. Written quote before work starts." },
     { title: "6-Month Warranty", description: "All repairs carry a 6-month workmanship warranty with digital certificate via WhatsApp." },
   ],
   process: [
@@ -324,7 +324,7 @@ const furnitureRepairSubhashNagar: SeoPageData = {
   ],
   faqs: [
     { question: "What furniture types do you repair in Subhash Nagar?", answer: "We repair all home furniture: sofas, wooden furniture, wardrobes, dining sets, recliners, beds, chairs, and storage units. One booking covers multiple pieces." },
-    { question: "How much does furniture repair cost in Subhash Nagar?", answer: "Furniture repair from ₹599, sofa foam from ₹999/cushion, reupholstery from ₹3,000/seat, polishing from ₹800, recliner repair from ₹1,500. Written quote after free inspection." },
+    { question: "How much does furniture repair cost in Subhash Nagar?", answer: "Furniture repair from ₹599, sofa foam from ₹999/cushion, reupholstery from ₹2,000/seat, polishing from ₹800, recliner repair from ₹1,500. Written quote after free inspection." },
     { question: "Do you offer home visits in Subhash Nagar?", answer: "Yes. We repair at your home — apartment or plotted house. No transport needed." },
     { question: "What warranty do you provide?", answer: "All repairs carry a 6-month workmanship warranty. If any fault appears within six months, we return and fix it free of charge." },
   ],
@@ -343,8 +343,8 @@ const furnitureRepairSubhashNagar: SeoPageData = {
 
 const furnitureRepairTagoreGarden: SeoPageData = {
   slug: "furniture-repair-tagore-garden",
-  title: "Furniture Repair in Tagore Garden Delhi – FurniRevive | Sofa, Teak & Wardrobe Repair",
-  metaDescription: "Expert furniture repair in Tagore Garden, West Delhi. Teak antiques, market sofas, wooden furniture & wardrobes. Home visit from ₹599. 6-month warranty. Call FurniRevive.",
+  title: "Furniture Repair in Tagore Garden Delhi – FurniRevive",
+  metaDescription: "Expert furniture repair in Tagore Garden, West Delhi. Teak antiques, market sofas, wooden furniture & wardrobes. Home visit from ₹599. 6-month warranty.",
   h1: "Furniture Repair in Tagore Garden – All Home Furniture Restored at Your Door",
   heroSubtitle: "FurniRevive repairs all furniture in Tagore Garden — teak antiques, sofas, wardrobes, recliners & wooden furniture. Home visit. Transparent pricing. 6-month warranty.",
   showcaseImage: {
@@ -411,8 +411,8 @@ const furnitureRepairTagoreGarden: SeoPageData = {
 
 const furnitureRepairDelhiCantt: SeoPageData = {
   slug: "furniture-repair-delhi-cantt",
-  title: "Furniture Repair in Delhi Cantt – FurniRevive | Sofa, Antique & Wooden Furniture Repair",
-  metaDescription: "Expert furniture repair in Delhi Cantonment. Military family housing, bungalows, antique furniture & quality originals. Home visit from ₹599. 6-month warranty. Call FurniRevive.",
+  title: "Furniture Repair in Delhi Cantt – FurniRevive",
+  metaDescription: "Expert furniture repair in Delhi Cantonment. Military family housing, bungalows, antique furniture & quality originals. Home visit from ₹599.",
   h1: "Furniture Repair in Delhi Cantt – Quality & Antique Furniture Restored at Your Door",
   heroSubtitle: "FurniRevive repairs all furniture in Delhi Cantonment — quality original pieces, antiques, sofas, wardrobes & recliners. Home visit. Transparent pricing. 6-month warranty.",
   showcaseImage: {
@@ -479,8 +479,8 @@ const furnitureRepairDelhiCantt: SeoPageData = {
 
 const furnitureRepairUttamNagar: SeoPageData = {
   slug: "furniture-repair-uttam-nagar",
-  title: "Furniture Repair in Uttam Nagar Delhi – FurniRevive | Sofa, Wooden & Wardrobe Repair",
-  metaDescription: "Expert furniture repair in Uttam Nagar, West Delhi. Sofa foam, wooden furniture, wardrobes & dining sets. Home visit from ₹599. 6-month warranty. Call FurniRevive.",
+  title: "Furniture Repair in Uttam Nagar Delhi – FurniRevive",
+  metaDescription: "Expert furniture repair in Uttam Nagar, West Delhi. Sofa foam, wooden furniture, wardrobes & dining sets. Home visit from ₹599. 6-month warranty.",
   h1: "Furniture Repair in Uttam Nagar – All Home Furniture Restored at Your Door",
   heroSubtitle: "FurniRevive repairs all furniture in Uttam Nagar — sofas, wardrobes, dining sets, recliners & wooden furniture. Home visit. Transparent pricing. 6-month warranty.",
   showcaseImage: {
@@ -529,7 +529,7 @@ const furnitureRepairUttamNagar: SeoPageData = {
   faqs: [
     { question: "Do you repair large joint-family sofa sets in Uttam Nagar?", answer: "Yes. We specialise in large 3+2+1 and L-shaped sets common in Uttam Nagar homes — full foam replacement to consistent density, spring repair, and reupholstery across all pieces." },
     { question: "What furniture types do you repair in Uttam Nagar?", answer: "We repair all home furniture: sofas, wooden furniture, wardrobes, dining sets, recliners, beds, chairs, and storage units. One booking covers multiple pieces." },
-    { question: "How much does furniture repair cost in Uttam Nagar?", answer: "Furniture repair from ₹599, sofa foam from ₹999/cushion, reupholstery from ₹3,000/seat, polishing from ₹800, recliner repair from ₹1,500. Written quote after free inspection." },
+    { question: "How much does furniture repair cost in Uttam Nagar?", answer: "Furniture repair from ₹599, sofa foam from ₹999/cushion, reupholstery from ₹2,000/seat, polishing from ₹800, recliner repair from ₹1,500. Written quote after free inspection." },
     { question: "What warranty do you provide?", answer: "All repairs carry a 6-month workmanship warranty. If any fault appears within six months, we return and fix it free of charge." },
   ],
   relatedPages: buildRelatedPages("furniture-repair-uttam-nagar", [

@@ -68,6 +68,18 @@ const KitchenBudgetLocalityTemplate = ({ entry, faqs }: Props) => {
       metas.push(el);
     }
     setMeta("description", metaDesc);
+    const keywordsContent = [
+      `${cfg.label.toLowerCase()} modular kitchen`,
+      `modular kitchen ${entry.localityName.toLowerCase()}`,
+      `modular kitchen ${entry.cityName.toLowerCase()}`,
+    ].join(", ");
+    const existingKeywordsEl = document.querySelector('meta[name="keywords"]');
+    const prevKeywords = existingKeywordsEl?.getAttribute("content") ?? null;
+    if (existingKeywordsEl) {
+      existingKeywordsEl.setAttribute("content", keywordsContent);
+    } else {
+      setMeta("keywords", keywordsContent);
+    }
     setMeta("og:title", metaTitle, "property");
     setMeta("og:description", metaDesc, "property");
     setMeta("og:url", canonical, "property");
@@ -107,6 +119,7 @@ const KitchenBudgetLocalityTemplate = ({ entry, faqs }: Props) => {
 
     return () => {
       metas.forEach((m) => m.remove());
+      if (existingKeywordsEl && prevKeywords !== null) existingKeywordsEl.setAttribute("content", prevKeywords);
       linkEl.remove();
       breadcrumbSchema.remove();
       faqSchema.remove();

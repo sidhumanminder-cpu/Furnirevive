@@ -5,19 +5,16 @@ const WHATSAPP_NUMBER = "919217999355";
 
 const reclinerRepairNewFriendsColony: SeoPageData = {
   slug: "recliner-repair-new-friends-colony",
-  title: "Recliner Repair in New Friends Colony, Delhi | Premium Leather & Motorised Recliner Restoration",
-  metaDescription:
-    "Expert recliner repair in New Friends Colony, South Delhi. Specialising in imported recliners, motorised systems, leather restoration & luxury home theatre seating. Call " +
-    PHONE_DISPLAY +
-    " for same-day service.",
+  title: "Recliner Repair in New Friends Colony, Delhi",
+  metaDescription: "Expert recliner repair in New Friends Colony, South Delhi. Call +91 92179 99355.",
   h1: "Recliner Repair in New Friends Colony, South Delhi",
   heroSubtitle:
     "Premium recliner repair for New Friends Colony's luxury homes — imported leather recliners, motorised systems, home theatre seating and designer upholstery restored to showroom condition.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_nlD3aHBk5v2TxQrX5CCC92Wx",
-    altText: "Professional sofa repair technician working on an ivory premium fabric sofa in a luxury South Delhi home (New Friends Colony) — FurniRevive",
-    caption: "Sofa Repair in New Friends Colony | Premium upholstery & foam service | Home visit | FurniRevive",
+    heading: "Premium Recliner Repair — Expert Service at Your South Delhi Home",
+    imageUrl: "https://hercules-cdn.com/file_LOHAKGqtU1iWl0Py1MTUfn3g",
+    altText: "Professional recliner repair technician working on a cream recliner in a luxury South Delhi home (New Friends Colony) — FurniRevive",
+    caption: "Recliner Repair in New Friends Colony | Premium upholstery & foam service | Home visit | FurniRevive",
   },
 
   quickAnswer:

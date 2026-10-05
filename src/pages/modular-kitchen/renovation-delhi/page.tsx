@@ -121,6 +121,7 @@ export default function ModularKitchenRenovationDelhiPage() {
       title: PAGE_TITLE,
       description: META_DESCRIPTION,
       canonical: CANONICAL,
+      keywords: ["modular kitchen renovation delhi", "kitchen renovation delhi", "modular kitchen delhi"],
     });
     return cleanupMeta;
   }, []);

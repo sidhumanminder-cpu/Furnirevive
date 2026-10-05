@@ -20,7 +20,7 @@
 
 import { composePage, type ResolvedSeoPage } from "./page-composition-engine.ts";
 import { SEO_SERVICE_CONFIG, type SeoServiceKey } from "./service-config.ts";
-import { getLocalityInfo } from "./localities.ts";
+import { getLocalityInfo, type LocalityInfo } from "./localities.ts";
 import type { LocalitySlug } from "./repair-scenarios.ts";
 import type { SeoPageData } from "@/lib/seo-constants.ts";
 import {
@@ -28,6 +28,8 @@ import {
   formatH1,
   formatHeroSubtitle,
   formatMetaDescription,
+  formatUpholsteryTitle,
+  formatUpholsteryMetaDescription,
   localitySlugToIndex,
 } from "./metadata-formatter.ts";
 
@@ -53,6 +55,48 @@ function buildSlug(service: SeoServiceKey, locality: LocalitySlug): string {
   return `${service}-${locality}`;
 }
 
+// ─── Locality-specific copy (real LocalityInfo data only) ──────────────────────
+
+const MAX_LANDMARKS = 2;
+const MAX_NEARBY_AREAS = 6;
+
+/** "A and B" / "A" / "" — only landmarks that exist and aren't already named in the property type. */
+function joinLandmarks(info: LocalityInfo): string {
+  const type = info.propertyType.toLowerCase();
+  return info.landmarks
+    .filter((l) => !type.includes(l.toLowerCase()))
+    .slice(0, MAX_LANDMARKS)
+    .join(" and ");
+}
+
+/** Second intro paragraph built from the locality's property type, landmarks and response time. */
+function buildLocalityIntro(info: LocalityInfo, serviceName: string): string {
+  const landmarks = joinLandmarks(info);
+  const nearLandmarks = landmarks ? `, with many jobs close to ${landmarks}` : "";
+  return `Our ${serviceName.toLowerCase()} work in ${info.name} covers the ${info.propertyType}${nearLandmarks}. Technicians are usually at your door within ${info.responseTime}.`;
+}
+
+/** Doorstep item that names the locality's property type and a real neighbouring area. */
+function buildDoorstepText(info: LocalityInfo): string {
+  const neighbour = info.adjacentAreas[0];
+  const alsoCovering = neighbour ? `, and nearby ${neighbour} too` : "";
+  return `We come to you in ${info.name}, across the ${info.propertyType}${alsoCovering} — no transportation needed.`;
+}
+
+/** "Areas we serve near X" section from the locality's real adjacent areas. */
+function buildNearbySection(info: LocalityInfo, serviceName: string): { heading: string; body: string[] }[] {
+  const areas = info.adjacentAreas.slice(0, MAX_NEARBY_AREAS);
+  if (areas.length === 0) return [];
+  return [
+    {
+      heading: `${serviceName} Near ${info.name}`,
+      body: [
+        `Along with ${info.name}, our technicians also cover ${areas.join(", ")}. Customers in these neighbouring areas get the same free doorstep inspection, fixed quote and 6-month warranty.`,
+      ],
+    },
+  ];
+}
+
 // ─── SeoPageData builder ──────────────────────────────────────────────────────
 
 /**
@@ -75,13 +119,13 @@ export function buildSeoPageData(service: SeoServiceKey, locality: LocalitySlug)
   const isUpholstery = service === "sofa-upholstery";
   const location = `${info.name}, ${info.city}`;
   const title = isUpholstery
-    ? `Sofa Reupholstery in ${location} – FurniRevive`
+    ? formatUpholsteryTitle(info.name, info.city)
     : formatTitle(serviceName, info.name, info.city, localityIndex);
   const h1 = isUpholstery
     ? `Sofa Reupholstery in ${location}`
     : formatH1(serviceName, info.name);
   const metaDescription = isUpholstery
-    ? `Get expert sofa reupholstery and upholstery services in ${location}. Replace fabric, upgrade foam and repair stitching at your doorstep. Free inspection, 6-month warranty. Call 92179 99355.`
+    ? formatUpholsteryMetaDescription(location)
     : formatMetaDescription(serviceName, info.name, localityIndex);
 
   return {
@@ -92,15 +136,16 @@ export function buildSeoPageData(service: SeoServiceKey, locality: LocalitySlug)
     heroSubtitle: formatHeroSubtitle(serviceName, info.name, furnitureType, localityIndex),
     intro: [
       `FurniRevive offers expert ${serviceName.toLowerCase()} in ${info.name}, ${info.city}. Our trained technicians visit your home, assess the damage, and restore your furniture — all in one visit.`,
+      buildLocalityIntro(info, serviceName),
     ],
     whyChoose: [
-      { title: "Doorstep Service", description: `We come to you in ${info.name} — no transportation needed.` },
+      { title: "Doorstep Service", description: buildDoorstepText(info) },
       { title: "Free Inspection", description: "Honest assessment before any work begins." },
       { title: "6-Month Warranty", description: "Every repair is backed by a written warranty." },
     ],
     process: [
       { step: "Book", description: "Call or WhatsApp 92179 99355 to schedule your visit." },
-      { step: "Inspect", description: "Our technician visits your home for a free assessment." },
+      { step: "Inspect", description: `Our technician visits your home, typically within ${info.responseTime}, for a free assessment.` },
       { step: "Repair", description: `We complete the ${serviceName.toLowerCase()} at your doorstep.` },
     ],
     benefits: [
@@ -110,7 +155,7 @@ export function buildSeoPageData(service: SeoServiceKey, locality: LocalitySlug)
       "5,000+ sofas repaired",
       "10+ years experience",
     ],
-    contentSections: [],
+    contentSections: buildNearbySection(info, serviceName),
     relatedPages: [],
     faqs: [],
   } as unknown as SeoPageData;

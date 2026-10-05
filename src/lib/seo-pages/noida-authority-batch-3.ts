@@ -6,12 +6,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 const sofaRepairAhinsaKhand: SeoPageData = {
   slug: "sofa-repair-ahinsa-khand",
   title:
-    "Sofa Repair in Ahinsa Khand Indirapuram | Recliner & Upholstery | FurniRevive",
+    "Sofa Repair in Ahinsa Khand Indirapuram | FurniRevive",
   metaDescription:
-    "Expert sofa & recliner repair in Ahinsa Khand, Indirapuram from ₹999. Doorstep service, foam replacement, leather care & 6-month warranty. Call FurniRevive today.",
+    "Expert sofa & recliner repair in Ahinsa Khand, Indirapuram from ₹500. Doorstep service, foam replacement, leather care & 6-month warranty.",
   h1: "Sofa Repair in Ahinsa Khand, Indirapuram",
   heroSubtitle:
-    "Ahinsa Khand's favourite doorstep sofa repair service — recliner restoration, foam replacement, and full upholstery work starting from ₹999. Covering Indirapuram, Vaishali, and Vasundhara with same-day slots and a 6-month workmanship warranty.",
+    "Ahinsa Khand's favourite doorstep sofa repair service — recliner restoration, foam replacement, and full upholstery work starting from ₹500. Covering Indirapuram, Vaishali, and Vasundhara with same-day slots and a 6-month workmanship warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Ghaziabad Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -23,7 +23,7 @@ const sofaRepairAhinsaKhand: SeoPageData = {
   intro: [
     "Ahinsa Khand sits at the organised heart of Indirapuram — a residential quarter where mid-rise apartment blocks line broad streets, IT professionals have built settled lives, and the furniture inside each flat carries the ambitions of a family that chose this neighbourhood deliberately. The sofa in the drawing room was probably not an impulse buy. It was picked from a showroom in Vasundhara or a furniture mall near Vaishali, chosen after several visits, and it arrived in the building lift with considerable effort on moving day. These pieces represent real money, real thought, and often real sentiment — and when they begin to show the strain of Indirapuram living, they deserve skilled restoration, not a rushed patch job from the first person who answers a classifieds call.",
     "FurniRevive's Indirapuram team works across the full <a href='/furniture-repair-indirapuram'>furniture repair Indirapuram</a> catchment and has developed particular depth in Ahinsa Khand specifically. We know the apartment complexes here — the building committees that require technician ID at the gate, the narrow lifts that limit what equipment can be brought up in a single trip, the east-facing drawing rooms where UV fades upholstery faster than most residents expect. We also know the furniture: recliners bought from Vasundhara's Godrej Interio and HomeTown outlets — now cared for by our <a href='/recliner-repair-indirapuram'>recliner repair experts</a> — <a href='/leather-sofa-repair-indirapuram'>leather sofa restoration in Indirapuram</a> cases sourced from Vaishali's showroom strip, and imported three-seaters that arrived when a family shifted from Noida along NH-24. We cover neighbouring areas too — <a href='/sofa-repair-shakti-khand'>Shakti Khand</a> and <a href='/sofa-repair-vaishali'>Vaishali</a> are both within our standard service zone at identical pricing.",
-    "The ₹999 starting rate is real — confirmed by thousands of completed repairs across the region. Your booking begins with a free, no-obligation on-site assessment that gives you a fixed, itemised quote before a single stitch is touched. The craftsman carries everything needed for most repairs in the service vehicle — foam grades, fabric swatches, recliner hardware, leather conditioning compounds — so work typically begins and ends in the same visit. No workshop trip. No transport charges. No surprises on the invoice.",
+    "The ₹500 starting rate is real — confirmed by thousands of completed repairs across the region. Your booking begins with a free, no-obligation on-site assessment that gives you a fixed, itemised quote before a single stitch is touched. The craftsman carries everything needed for most repairs in the service vehicle — foam grades, fabric swatches, recliner hardware, leather conditioning compounds — so work typically begins and ends in the same visit. No workshop trip. No transport charges. No surprises on the invoice.",
   ],
   whyChoose: [
     {
@@ -247,9 +247,9 @@ const sofaRepairAhinsaKhand: SeoPageData = {
     },
     {
       question:
-        "Is ₹999 genuinely the starting price for sofa repair in Ahinsa Khand?",
+        "Is ₹500 genuinely the starting price for sofa repair in Ahinsa Khand?",
       answer:
-        "Yes. ₹999 is our real starting rate — it covers minor repairs such as basic re-stitching of a small seam tear, tightening of a loose joint, or a simple handle replacement on a manual recliner. Most comprehensive repairs in Ahinsa Khand apartments — involving foam replacement, recliner mechanism work, leather conditioning, or panel re-upholstery — fall in the ₹3,000–₹15,000 range depending on extent and material. The free on-site assessment gives you a precise, fixed number before you commit to anything.",
+        "Yes. ₹500 is our real starting rate — it covers minor repairs such as basic re-stitching of a small seam tear, tightening of a loose joint, or a simple handle replacement on a manual recliner. Most comprehensive repairs in Ahinsa Khand apartments — involving foam replacement, recliner mechanism work, leather conditioning, or panel re-upholstery — fall in the ₹3,000–₹15,000 range depending on extent and material. The free on-site assessment gives you a precise, fixed number before you commit to anything.",
     },
   ],
   keywords: [

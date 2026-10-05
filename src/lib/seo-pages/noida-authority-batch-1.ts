@@ -7,10 +7,10 @@ const sofaRepairNoidaSector104: SeoPageData = {
   slug: "sofa-repair-noida-sector-104",
   title: "Sofa Repair in Noida Sector 104 | ATS One Hamlet | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Noida Sector 104 from ₹999. Leather sectional restoration, foam replacement, recliner repair at your doorstep. 6-month warranty. Serving ATS One Hamlet & nearby.",
+    "Expert sofa repair in Noida Sector 104 from ₹500. Leather sectional restoration, foam replacement, recliner repair at your doorstep. 6-month warranty.",
   h1: "Sofa Repair in Noida Sector 104",
   heroSubtitle:
-    "Sector 104's premium high-rise apartments deserve precision craftsmanship — not a generic patch job. Doorstep sofa repair covering ATS One Hamlet and every gated society along the Noida Expressway corridor from ₹999. Same-day slots. 6-month warranty.",
+    "Sector 104's premium high-rise apartments deserve precision craftsmanship — not a generic patch job. Doorstep sofa repair covering ATS One Hamlet and every gated society along the Noida Expressway corridor from ₹500. Same-day slots. 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -18,11 +18,11 @@ const sofaRepairNoidaSector104: SeoPageData = {
     caption: "Sofa Repair in Noida (Sector 104) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Noida Sector 104 — serving ATS One Hamlet, the Expressway-facing towers, and residential pockets toward Sector 100 and Sector 110 — starting at ₹999. Our specialist craftsmen handle Italian leather sectional restoration, high-density foam replacement, recliner mechanism repair, and premium upholstery work entirely at your home. Free on-site assessment, fixed transparent pricing, and a 6-month workmanship warranty are standard on every booking.",
+    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Noida Sector 104 — serving ATS One Hamlet, the Expressway-facing towers, and residential pockets toward Sector 100 and Sector 110 — starting at ₹500. Our specialist craftsmen handle Italian leather sectional restoration, high-density foam replacement, recliner mechanism repair, and premium upholstery work entirely at your home. Free on-site assessment, fixed transparent pricing, and a 6-month workmanship warranty are standard on every booking.",
   intro: [
     "Sector 104 is one of the Noida Expressway's most recognisable residential addresses — a stretch of premium apartment towers where the decision to live here was never casual. Residents of ATS One Hamlet and the other gated societies along this corridor have made considered choices about everything in their homes, including the furniture. The <a href=\"/leather-sofa-repair-noida-expressway\">leather sectional</a> in the drawing room was chosen after comparing three showrooms near Sector 93. The modular L-shape sofa was configured to the precise dimensions of a new flat before shifting day. The <a href=\"/recliner-repair-noida-expressway\">recliner pair</a> in the lounge was researched online for weeks before purchase. These are not disposable objects — and when they start to show the strain of Expressway apartment living, they deserve careful restoration by people who understand premium furniture, not a rushed fix from whoever answers a classifieds listing.",
     "FurniRevive's Noida team operates across the full <a href='/sofa-repair-noida'>sofa repair Noida</a> service zone with dedicated depth in the Expressway corridor — covering Sector 104, <a href='/sofa-repair-noida-sector-93'>Sector 93</a>, <a href='/sofa-repair-noida-sector-121'>Sector 121</a>, and <a href='/sofa-repair-noida-sector-137'>Sector 137</a> under identical pricing and the same 6-month warranty. Our craftsmen understand the specific challenges of Expressway apartments: the narrow building lifts that determine how equipment is carried up, the society security gates that require advance technician ID, the south-facing drawing rooms where UV compounds leather damage, and the premium imported sofas that many Sector 104 households own. We carry the tools, foam grades, fabric swatches, and leather conditioning compounds needed to handle the full range of repairs on-site, in your flat, without a workshop trip.",
-    "Starting from ₹999, the free no-obligation on-site assessment gives you a fixed, itemised quote before anything is touched. That quote does not change. Most Sector 104 repairs are completed cleanly in 2–4 hours. If you book before noon, a same-day afternoon slot is typically available — because leaving a cracked leather sectional or a failed recliner mechanism waiting makes the problem worse and daily life harder. This is where premium Noida sofa repair starts.",
+    "Starting from ₹500, the free no-obligation on-site assessment gives you a fixed, itemised quote before anything is touched. That quote does not change. Most Sector 104 repairs are completed cleanly in 2–4 hours. If you book before noon, a same-day afternoon slot is typically available — because leaving a cracked leather sectional or a failed recliner mechanism waiting makes the problem worse and daily life harder. This is where premium Noida sofa repair starts.",
   ],
   whyChoose: [
     {
@@ -41,7 +41,7 @@ const sofaRepairNoidaSector104: SeoPageData = {
         "Our craftsmen carry FurniRevive-issued photo ID verified documents and a prior-notification message that you can share with your building security team. We understand ATS One Hamlet's entry procedures and those of neighbouring gated societies, and we coordinate the access process so you don't have to manage a complicated entry permit for a repair visit.",
     },
     {
-      title: "Pricing from ₹999 — Fixed After On-Site Assessment",
+      title: "Pricing from ₹500 — Fixed After On-Site Assessment",
       description:
         "After the free assessment, you receive one itemised quote. It doesn't grow because a 'material cost' appeared mid-job, and it doesn't include a surprise 'complex apartment' surcharge. What you approve is exactly what you pay. For Sector 104's premium furniture, this pricing transparency removes the single biggest source of anxiety about bringing craftsmen into a high-value home.",
     },
@@ -164,7 +164,7 @@ const sofaRepairNoidaSector104: SeoPageData = {
     {
       question: "What is the cost of sofa repair in Sector 104?",
       answer:
-        "Repairs start at ₹999. After a free on-site assessment, you receive a fixed, itemised quote covering all work needed. The most common repairs — foam replacement in 2–3 seats, leather conditioning with crack treatment, or recliner cable replacement — typically fall between ₹2,500 and ₹12,000 depending on sofa size and damage extent.",
+        "Repairs start at ₹500. After a free on-site assessment, you receive a fixed, itemised quote covering all work needed. The most common repairs — foam replacement in 2–3 seats, leather conditioning with crack treatment, or recliner cable replacement — typically fall between ₹2,500 and ₹12,000 depending on sofa size and damage extent.",
     },
     {
       question: "Can you repair Italian or imported leather sofas in Sector 104?",
@@ -257,12 +257,12 @@ const sofaRepairNoidaSector104: SeoPageData = {
 
 const sofaRepairNoidaSector107: SeoPageData = {
   slug: "sofa-repair-noida-sector-107",
-  title: "Sofa Repair in Noida Sector 107 | Great Value Sharnam & Lotus 300 | FurniRevive",
+  title: "Sofa Repair in Noida Sector 107 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Noida Sector 107 from ₹999. Serving Great Value Sharnam, Lotus 300 & nearby societies. Foam replacement, leather repair, recliners. 6-month warranty.",
+    "Expert sofa repair in Noida Sector 107 from ₹500. Serving Great Value Sharnam, Lotus 300 & nearby societies. Foam replacement, leather repair, recliners.",
   h1: "Sofa Repair in Noida Sector 107",
   heroSubtitle:
-    "Sector 107's family communities — from Great Value Sharnam to Lotus 300 — trust FurniRevive for premium doorstep sofa repair. Sagging sofas, cracked leather, recliner faults restored from ₹999. Same-day slots. 6-month warranty included.",
+    "Sector 107's family communities — from Great Value Sharnam to Lotus 300 — trust FurniRevive for premium doorstep sofa repair. Sagging sofas, cracked leather, recliner faults restored from ₹500. Same-day slots. 6-month warranty included.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -270,11 +270,11 @@ const sofaRepairNoidaSector107: SeoPageData = {
     caption: "Sofa Repair in Noida (Sector 107) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers 4.8-star rated doorstep sofa repair in Noida Sector 107 — covering Great Value Sharnam, Lotus 300, and every residential society between Sector 100 and the Expressway — starting at ₹999. Our craftsmen specialise in heavy-use family sofa restoration: foam replacement for sagging sectionals, leather conditioning and crack treatment, spring deck repair, and recliner mechanism work. Free assessment, fixed pricing, 6-month warranty on all repairs.",
+    "FurniRevive offers 4.8-star rated doorstep sofa repair in Noida Sector 107 — covering Great Value Sharnam, Lotus 300, and every residential society between Sector 100 and the Expressway — starting at ₹500. Our craftsmen specialise in heavy-use family sofa restoration: foam replacement for sagging sectionals, leather conditioning and crack treatment, spring deck repair, and recliner mechanism work. Free assessment, fixed pricing, 6-month warranty on all repairs.",
   intro: [
     "Sector 107 occupies a distinct place in the Noida Expressway's residential landscape — denser and more family-centred than some of its neighbours, with large apartment societies like Great Value Sharnam and Lotus 300 housing multigenerational households where the drawing room sofa is not a decorative object but the genuine centre of daily life. These sofas carry school-age children doing homework, grandparents watching evening television, weekend gatherings that fill every seat, and the persistent attention of family pets. They are used hard, every day, and the wear that accumulates over five to eight years is not gentle. When the sagging becomes impossible to ignore and the <a href=\"/leather-sofa-repair-noida-expressway\">leather cracking</a> reaches a point where guests notice, Sector 107 families deserve a repair service that understands exactly this kind of use.",
     "FurniRevive's Noida team has handled hundreds of repair calls from <a href='/sofa-repair-noida'>sofa repair Noida</a> addresses across the Expressway corridor, and Sector 107's specific repair patterns are among the best understood in our operation. We know that Great Value Sharnam families typically own large 5–7 seater sets that develop pronounced seat dipping at the two most-used positions. We know that Lotus 300's smaller 2BHK flats often have compact L-shape sofas that accumulate armrest damage and loose cushion covers faster than their owners expect. And we know that the sector's proximity to <a href='/sofa-repair-noida-sector-104'>Sector 104</a> and <a href='/sofa-repair-noida-sector-93'>Sector 93</a> means we're frequently covering the same families across multiple repairs over the years — which builds a service relationship, not just a transaction. <a href='/sofa-repair-noida-sector-121'>Sector 121</a> residents are also within our standard same-day zone.",
-    "From ₹999, a free on-site assessment gives you a fixed, itemised quote covering every fault — structural, cosmetic, and mechanical. Our craftsmen carry foam grades, fabric swatches, spring components, and <a href=\"/recliner-repair-noida-expressway\">recliner hardware</a> in the service vehicle, so work begins and completes in the same visit for most repairs. No workshop trips. No material wait. No return visits for parts. If you book before noon, a same-day slot is almost always available — because your family shouldn't have to work around a broken sofa for a week when the fix can happen today.",
+    "From ₹500, a free on-site assessment gives you a fixed, itemised quote covering every fault — structural, cosmetic, and mechanical. Our craftsmen carry foam grades, fabric swatches, spring components, and <a href=\"/recliner-repair-noida-expressway\">recliner hardware</a> in the service vehicle, so work begins and completes in the same visit for most repairs. No workshop trips. No material wait. No return visits for parts. If you book before noon, a same-day slot is almost always available — because your family shouldn't have to work around a broken sofa for a week when the fix can happen today.",
   ],
   whyChoose: [
     {
@@ -293,7 +293,7 @@ const sofaRepairNoidaSector107: SeoPageData = {
         "Morning calls (before noon) receive same-day afternoon slots. Afternoon calls are scheduled for the following morning. We maintain Expressway-corridor availability specifically to service Sector 107 households without multi-day wait periods — because a broken sofa in a full family home is not a minor inconvenience.",
     },
     {
-      title: "Transparent Pricing from ₹999 — No Hidden Charges",
+      title: "Transparent Pricing from ₹500 — No Hidden Charges",
       description:
         "After the free assessment, you receive one fixed, itemised quote. Foam replacement, spring repair, leather treatment, and re-upholstery are priced clearly per element. There are no surprise charges for 'complex' repairs, no material add-ons beyond what was quoted, and no additional fees for upper-floor flat access.",
     },
@@ -421,7 +421,7 @@ const sofaRepairNoidaSector107: SeoPageData = {
     {
       question: "What does sofa repair cost in Noida Sector 107?",
       answer:
-        "Repairs start at ₹999. The most common Sector 107 jobs — foam replacement in 2–3 seats, spring repair, or fabric re-upholstery on a worn panel — typically cost ₹6,000–₹14,000 depending on sofa size and extent of work. We give you a fixed itemised quote after the free on-site assessment.",
+        "Repairs start at ₹500. The most common Sector 107 jobs — foam replacement in 2–3 seats, spring repair, or fabric re-upholstery on a worn panel — typically cost ₹6,000–₹14,000 depending on sofa size and extent of work. We give you a fixed itemised quote after the free on-site assessment.",
     },
     {
       question: "Can you repair leather sofa cracking in Sector 107 apartments?",

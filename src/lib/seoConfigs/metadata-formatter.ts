@@ -26,14 +26,11 @@ export const HERO_SUBTITLE_TEMPLATES = [
   "Same-day {service} at your doorstep in {locality}. Free inspection. 6-month warranty.",
 ] as const;
 
-// ─── Meta Description Templates (3 entries, rotated by localityIndex % 3) ────
-// Each template is crafted to produce 145–160 characters for typical inputs.
-
-export const META_DESCRIPTION_TEMPLATES = [
-  "Need {service} in {locality}? Doorstep upholstery, foam replacement & repair by expert technicians. Free inspection, warranty included. Call 92179 99355.",
-  "Looking for {service} in {locality}? FurniRevive offers doorstep repair, free inspection & 6-month warranty. 5,000+ happy customers. Call 92179 99355.",
-  "Get professional {service} in {locality} at your doorstep. Foam, upholstery & frame repair with free inspection and warranty included. Call 92179 99355.",
-] as const;
+// ─── Meta Description Templates ──────────────────────────────────────────────
+// Superseded by META_DESCRIPTION_SEGMENT_GROUPS below (same 3 rotations,
+// split into droppable sentences for graceful degradation). Kept as segment
+// groups only — the single-string form was removed to avoid drift between
+// the two representations.
 
 // ─── Helper: Deterministic index from locality slug ──────────────────────────
 
@@ -65,12 +62,27 @@ export function isCityRedundant(localityName: string, cityName: string): boolean
 
 // ─── Formatting Functions ────────────────────────────────────────────────────
 
+const TITLE_BUDGET = 65;
+const TITLE_MAX = 70;
+const DESCRIPTION_BUDGET = 155;
+const DESCRIPTION_MAX = 160;
+
+/** Defensive safety net only — see formatTitle/formatMetaDescription. */
+function hardTruncate(text: string, max: number): string {
+  if (text.length <= max) return text;
+  const hardCut = text.slice(0, max - 1);
+  const lastSpace = hardCut.lastIndexOf(" ");
+  const cut = lastSpace > max - 16 ? hardCut.slice(0, lastSpace) : hardCut;
+  return `${cut.trimEnd()}…`;
+}
+
 /**
- * Formats the <title> tag.
- * Pattern: "{Service} in {Location} – {Benefit}"
- * City is suppressed if already in localityName (isCityRedundant).
+ * Formats the <title> tag using graceful degradation so long real locality
+ * names (e.g. "Tata Raisina Residency", "Golf Course Extension") never get
+ * hard-truncated. Tries, in order: full form with city + benefit, without
+ * city, without benefit, bare service+locality. truncate() only fires as a
+ * last-resort safety net on names too long for even the shortest form.
  * localityIndex is used for deterministic benefit rotation (% 8).
- * Target: 50–60 characters.
  */
 export function formatTitle(
   serviceName: string,
@@ -82,7 +94,17 @@ export function formatTitle(
     ? localityName
     : `${localityName}, ${cityName}`;
   const benefit = BENEFITS[localityIndex % 8];
-  return `${serviceName} in ${location} – ${benefit}`;
+
+  const candidates = [
+    `${serviceName} in ${location} – ${benefit}`,
+    `${serviceName} in ${localityName} – ${benefit}`,
+    `${serviceName} in ${location}`,
+    `${serviceName} in ${localityName}`,
+  ];
+  for (const c of candidates) {
+    if (c.length <= TITLE_BUDGET) return c;
+  }
+  return hardTruncate(candidates[candidates.length - 1], TITLE_MAX);
 }
 
 /**
@@ -110,20 +132,102 @@ export function formatHeroSubtitle(
     .replace("{furnitureType}", furnitureType);
 }
 
+// ─── Meta description segment groups (short-form fallback per rotation) ─────
+// Each group mirrors one of the 3 META_DESCRIPTION_TEMPLATES above, but as
+// an ordered list of standalone sentences so a long locality name can drop
+// the least-essential trailing sentence instead of being sliced mid-word.
+// The phone number sentence is always last and always kept.
+const META_DESCRIPTION_SEGMENT_GROUPS = [
+  [
+    "Need {service} in {locality}?",
+    "Doorstep upholstery, foam replacement & repair by expert technicians.",
+    "Free inspection, warranty included.",
+    "Call 92179 99355.",
+  ],
+  [
+    "Looking for {service} in {locality}?",
+    "FurniRevive offers doorstep repair, free inspection & 6-month warranty.",
+    "5,000+ happy customers.",
+    "Call 92179 99355.",
+  ],
+  [
+    "Get professional {service} in {locality} at your doorstep.",
+    "Foam, upholstery & frame repair with free inspection and warranty included.",
+    "Call 92179 99355.",
+  ],
+] as const;
+
 /**
- * Formats the meta description.
- * Rotates deterministically between 3 templates by localityIndex % 3.
- * Target: 145–160 characters.
+ * Formats the meta description using graceful degradation. Rotates
+ * deterministically between 3 sentence groups by localityIndex % 3, then
+ * drops trailing sentences (never the opening question or the closing
+ * phone-number sentence) until the result fits the safe budget. Falls
+ * back to hardTruncate() only if even the shortest 2-sentence form
+ * (opening + phone) is still oversized.
  */
 export function formatMetaDescription(
   serviceName: string,
   localityName: string,
   localityIndex: number,
 ): string {
-  const template = META_DESCRIPTION_TEMPLATES[localityIndex % 3];
-  return template
-    .replace("{service}", serviceName)
-    .replace("{locality}", localityName);
+  const segments = META_DESCRIPTION_SEGMENT_GROUPS[localityIndex % 3].map((s) =>
+    s.replace("{service}", serviceName).replace("{locality}", localityName),
+  );
+  const opening = segments[0];
+  const phoneSentence = segments[segments.length - 1];
+  const middle = segments.slice(1, -1);
+
+  // Try keeping all middle sentences, then progressively drop from the end
+  // of the middle section, always keeping opening + phone sentence.
+  for (let keep = middle.length; keep >= 0; keep--) {
+    const candidate = [opening, ...middle.slice(0, keep), phoneSentence].join(" ");
+    if (candidate.length <= DESCRIPTION_BUDGET) return candidate;
+  }
+  return hardTruncate([opening, phoneSentence].join(" "), DESCRIPTION_MAX);
+}
+
+/**
+ * Formats a length-aware sofa-upholstery meta description. Distinct wording
+ * from formatMetaDescription() (keeps the "reupholstery" framing used only
+ * for this service), but follows the same graceful-degradation pattern:
+ * opening + phone sentence are always kept, middle detail sentences are
+ * dropped first if the locality name is long.
+ */
+export function formatUpholsteryMetaDescription(location: string): string {
+  const opening = `Get expert sofa reupholstery and upholstery services in ${location}.`;
+  const middle = [
+    "Replace fabric, upgrade foam and repair stitching at your doorstep.",
+    "Free inspection, 6-month warranty.",
+  ];
+  const phoneSentence = "Call 92179 99355.";
+
+  for (let keep = middle.length; keep >= 0; keep--) {
+    const candidate = [opening, ...middle.slice(0, keep), phoneSentence].join(" ");
+    if (candidate.length <= DESCRIPTION_BUDGET) return candidate;
+  }
+  return hardTruncate([opening, phoneSentence].join(" "), DESCRIPTION_MAX);
+}
+
+/**
+ * Formats a length-aware sofa-upholstery title. Distinct wording from
+ * formatTitle() (keeps the "Reupholstery" framing used only for this
+ * service), but follows the same graceful-degradation cascade: drop the
+ * city (if not redundant with the locality name) before ever truncating.
+ */
+export function formatUpholsteryTitle(localityName: string, cityName: string): string {
+  const location = isCityRedundant(localityName, cityName)
+    ? localityName
+    : `${localityName}, ${cityName}`;
+  const candidates = [
+    `Sofa Reupholstery in ${location} – FurniRevive`,
+    `Sofa Reupholstery in ${localityName} – FurniRevive`,
+    `Sofa Reupholstery in ${location}`,
+    `Sofa Reupholstery in ${localityName}`,
+  ];
+  for (const c of candidates) {
+    if (c.length <= TITLE_BUDGET) return c;
+  }
+  return hardTruncate(candidates[candidates.length - 1], TITLE_MAX);
 }
 
 /**

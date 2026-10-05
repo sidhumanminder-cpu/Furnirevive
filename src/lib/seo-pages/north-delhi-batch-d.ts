@@ -5,10 +5,10 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const woodenFurnitureRestorationNorthDelhi: SeoPageData = {
   slug: "wooden-furniture-restoration-north-delhi",
-  title: "Wooden Furniture Restoration North Delhi | Teak, Sheesham & Veneer Experts",
+  title: "Wooden Furniture Restoration North Delhi",
   metaDescription:
-    "Expert wooden furniture restoration in North Delhi. Teak, sheesham, veneer repair, water damage, refinishing. Model Town, Civil Lines, Rohini, Pitampura. Call FurniRevive.",
-  h1: "Wooden Furniture Restoration North Delhi | Teak, Sheesham & Veneer Experts",
+    "Expert wooden furniture restoration in North Delhi. Teak, sheesham, veneer repair, water damage, refinishing. Model Town, Civil Lines, Rohini, Pitampura.",
+  h1: "Wooden Furniture Restoration North Delhi",
   heroSubtitle:
     "North Delhi's specialist wooden furniture restoration service -- teak refinishing, sheesham repair, veneer restoration, water damage treatment, and structural joint repair across Model Town, Civil Lines, Hudson Lane, Rohini, Pitampura, and Shalimar Bagh. Premium results. Expert craftsmen.",
   showcaseImage: {
@@ -276,10 +276,10 @@ const woodenFurnitureRestorationNorthDelhi: SeoPageData = {
 
 const luxurySofaRestorationNorthDelhi: SeoPageData = {
   slug: "luxury-sofa-restoration-north-delhi",
-  title: "Luxury Sofa Restoration North Delhi | Complete Premium Transformation",
+  title: "Luxury Sofa Restoration North Delhi",
   metaDescription:
-    "Expert luxury sofa restoration in North Delhi. Imported sofas, leather restoration, cushion rebuilding, frame strengthening. Model Town, Civil Lines, Rohini. Call FurniRevive.",
-  h1: "Luxury Sofa Restoration North Delhi | Complete Premium Transformation",
+    "Expert luxury sofa restoration in North Delhi. Imported sofas, leather restoration, cushion rebuilding, frame strengthening.",
+  h1: "Luxury Sofa Restoration North Delhi",
   heroSubtitle:
     "North Delhi's premier luxury sofa restoration service -- complete transformation of imported sofas, Italian leather restoration, cushion rebuilding, and frame strengthening across Model Town, Civil Lines, Rohini, Pitampura, Shalimar Bagh, and Ashok Vihar. Premium results. Expert craftsmen. Guaranteed.",
   showcaseImage: {

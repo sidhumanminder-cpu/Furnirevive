@@ -40,3 +40,17 @@ export const REPAIR_TIMES: RepairTime[] = [
   { service: "Full Upholstery", time: "1–2 days", sameDay: "usually" },
   { service: "Fabric Replacement", time: "1–2 days", sameDay: "usually" },
 ];
+
+export type SofaSizePrice = { size: string; startingPrice: string };
+
+/** Starting prices by sofa size. Shown on sofa-repair pages only. */
+export const SOFA_SIZE_PRICES: SofaSizePrice[] = [
+  { size: "Single Seater Sofa Repair", startingPrice: "₹999 onwards" },
+  { size: "2 Seater Sofa Repair", startingPrice: "₹1,499 onwards" },
+  { size: "3 Seater Sofa Repair", startingPrice: "₹1,999 onwards" },
+  { size: "5 Seater Sofa Repair", startingPrice: "₹2,999 onwards" },
+  { size: "6–7 Seater Sofa Repair", startingPrice: "₹3,999 onwards" },
+  { size: "L-Shaped / Corner / Sectional Sofa Repair", startingPrice: "₹2,499 onwards" },
+  { size: "Sofa-Cum-Bed Repair", startingPrice: "₹1,999 onwards" },
+  { size: "Sofa Frame Repair", startingPrice: "₹799 onwards" },
+];

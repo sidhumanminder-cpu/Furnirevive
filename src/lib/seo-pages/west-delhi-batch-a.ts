@@ -7,9 +7,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const sofaRepairVikaspuri: SeoPageData = {
   slug: "sofa-repair-vikaspuri",
-  title: "Sofa Repair in Vikaspuri Delhi – FurniRevive | Foam, Upholstery & Spring Repair",
+  title: "Sofa Repair in Vikaspuri Delhi – FurniRevive",
   metaDescription:
-    "Expert sofa repair in Vikaspuri, Delhi. We repair sofa foam, springs, upholstery & fabric for DDA flats and housing societies. Home visit. Prices from ₹800. Call FurniRevive.",
+    "Expert sofa repair in Vikaspuri, Delhi. We repair sofa foam, springs, upholstery & fabric for DDA flats and housing societies. Home visit.",
   h1: "Sofa Repair in Vikaspuri – Trusted by Families Across Every Pocket Block",
   heroSubtitle:
     "From DDA Pocket Block A to J — we repair sofas that have seen 10, 15, even 20 years of real family life. Foam replacement, upholstery, spring repair. Done at your home.",
@@ -20,7 +20,7 @@ export const sofaRepairVikaspuri: SeoPageData = {
     caption: "Sofa Repair in West Delhi (Vikaspuri) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides professional sofa repair in Vikaspuri, Delhi. We cover all DDA pocket blocks and housing societies with same-week home visits. Sofa foam replacement starts at ₹999 per cushion, full reupholstery from ₹3,000 per seat, and spring repair from ₹800. We work on all sofa types — fabric, leatherette, rexine — and carry materials to your door.",
+    "FurniRevive provides professional sofa repair in Vikaspuri, Delhi. We cover all DDA pocket blocks and housing societies with same-week home visits. Sofa foam replacement starts at ₹999 per cushion, full reupholstery from ₹2,000 per seat, and spring repair from ₹800. We work on all sofa types — fabric, leatherette, rexine — and carry materials to your door.",
 
   intro: [
     "Vikaspuri is one of Delhi's most lived-in neighbourhoods. The DDA flats here weren't built yesterday — and neither were the sofas inside them. We regularly visit homes in Pocket Blocks A through J, across Hastsal Road and the stretches near Janakpuri West Metro, and the pattern is almost always the same: a sofa that has absorbed a decade or more of daily use, sitting in a joint-family drawing room, still structurally solid but visually tired and physically uncomfortable.",
@@ -37,7 +37,7 @@ export const sofaRepairVikaspuri: SeoPageData = {
     {
       title: "Transparent Pricing Before We Touch Anything",
       description:
-        "We quote the full repair cost after inspection — before any work begins. Foam replacement starts at ₹999 per cushion, spring repair from ₹800, and full reupholstery from ₹3,000 per seat. No surprise additions after the fact. Vikaspuri families have trusted us precisely because our bills match our quotes.",
+        "We quote the full repair cost after inspection — before any work begins. Foam replacement starts at ₹999 per cushion, spring repair from ₹800, and full reupholstery from ₹2,000 per seat. No surprise additions after the fact. Vikaspuri families have trusted us precisely because our bills match our quotes.",
     },
     {
       title: "We Repair What Others Recommend Replacing",
@@ -140,7 +140,7 @@ export const sofaRepairVikaspuri: SeoPageData = {
     {
       heading: "Pricing for Sofa Repair in Vikaspuri — Full Transparency",
       body: [
-        "We don't believe in mystery pricing. Here's what sofa repair in Vikaspuri typically costs with FurniRevive: foam replacement runs ₹999–₹1,800 per cushion depending on density; complete seat foam overhaul for a three-seater costs ₹4,000–₹9,000. Spring repair is ₹800–₹2,500 per sofa. Fabric reupholstery starts at ₹3,000 per seat for standard fabric, reaching ₹6,000–₹8,000 per seat for premium options. Structural frame repair is quoted after inspection but typically falls in the ₹1,500–₹5,000 range depending on complexity.",
+        "We don't believe in mystery pricing. Here's what sofa repair in Vikaspuri typically costs with FurniRevive: foam replacement runs ₹999–₹1,800 per cushion depending on density; complete seat foam overhaul for a three-seater costs ₹4,000–₹9,000. Spring repair is ₹800–₹2,500 per sofa. Fabric reupholstery starts at ₹2,000 per seat for standard fabric, reaching ₹6,000–₹8,000 per seat for premium options. Structural frame repair is quoted after inspection but typically falls in the ₹1,500–₹5,000 range depending on complexity.",
         "Combination repairs — foam plus reupholstery, or spring plus foam — are priced together with a modest discount for bundling work. Our furniture repair price guide for Delhi gives detailed ranges. For a more specific sofa quote, our <a href='/sofa-repair-cost-delhi'>sofa repair cost page</a> breaks down pricing by sofa type, size, and problem category.",
       ],
     },
@@ -235,9 +235,9 @@ export const sofaRepairVikaspuri: SeoPageData = {
 
 export const furnitureRepairVikaspuri: SeoPageData = {
   slug: "furniture-repair-vikaspuri",
-  title: "Furniture Repair in Vikaspuri Delhi – FurniRevive | Wooden, Chairs, Wardrobes & Polishing",
+  title: "Furniture Repair in Vikaspuri Delhi – FurniRevive",
   metaDescription:
-    "Professional furniture repair in Vikaspuri, Delhi. Wooden furniture polishing, dining chair repair, wardrobe repair & table restoration for DDA flats. Home visit. FurniRevive.",
+    "Professional furniture repair in Vikaspuri, Delhi. Wooden furniture polishing, dining chair repair, wardrobe repair & table restoration for DDA flats.",
   h1: "Furniture Repair in Vikaspuri — For Every Piece That Still Has Life in It",
   heroSubtitle:
     "Dining sets, wardrobes, wooden chairs, study tables — we repair and restore furniture across Vikaspuri's DDA flats and housing societies. No middlemen, no guesswork. Just honest craft.",
@@ -453,9 +453,9 @@ export const furnitureRepairVikaspuri: SeoPageData = {
 
 export const sofaRepairTilakNagar: SeoPageData = {
   slug: "sofa-repair-tilak-nagar",
-  title: "Sofa Repair in Tilak Nagar Delhi – FurniRevive | Upholstery, Foam & Spring Restoration",
+  title: "Sofa Repair in Tilak Nagar Delhi – FurniRevive",
   metaDescription:
-    "Expert sofa repair in Tilak Nagar, Delhi. Foam replacement, upholstery restoration & spring repair for homes and offices. Near Subhash Nagar Metro. Prices from ₹800. FurniRevive.",
+    "Expert sofa repair in Tilak Nagar, Delhi. Foam replacement, upholstery restoration & spring repair for homes and offices. Near Subhash Nagar Metro.",
   h1: "Sofa Repair in Tilak Nagar — Compact Flats, Old Sofas, Honest Repairs",
   heroSubtitle:
     "Tilak Nagar families have been trusting us with their sofas — the inherited ones, the office ones, the ones that have seen better days but aren't ready to give up. Foam, upholstery, springs. Done right, at home.",
@@ -466,7 +466,7 @@ export const sofaRepairTilakNagar: SeoPageData = {
     caption: "Sofa Repair in West Delhi (Tilak Nagar) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides professional sofa repair in Tilak Nagar, Delhi — covering upholstery restoration, foam replacement, spring repair, and structural fixes for residential and commercial sofas. We serve Tilak Nagar, Subhash Nagar, Janakpuri, Khyala, and Hari Nagar. Home visits available same-week. Foam replacement from ₹999 per cushion, full reupholstery from ₹3,000 per seat, spring repair from ₹800.",
+    "FurniRevive provides professional sofa repair in Tilak Nagar, Delhi — covering upholstery restoration, foam replacement, spring repair, and structural fixes for residential and commercial sofas. We serve Tilak Nagar, Subhash Nagar, Janakpuri, Khyala, and Hari Nagar. Home visits available same-week. Foam replacement from ₹999 per cushion, full reupholstery from ₹2,000 per seat, spring repair from ₹800.",
 
   intro: [
     "Tilak Nagar is one of those West Delhi localities where the furniture often outlives the décor around it. The 2BHKs and compact 3BHKs here — the ones that families have owned for 20, 30 years — frequently have sofas that have been through multiple generations of use. These aren't disposable pieces. They're often the same sofa a family brought when they first set up the home, recovered once in the early 2000s, and now needs proper attention again.",
@@ -533,7 +533,7 @@ export const sofaRepairTilakNagar: SeoPageData = {
   benefits: [
     "Expert sofa repair for compact 2BHK and 3BHK layouts — no room disruption",
     "Foam replacement in 28D, 32D, and 40D density — choose your comfort level",
-    "Full reupholstery starting at ₹3,000 per seat — fabric swatches brought to your home",
+    "Full reupholstery starting at ₹2,000 per seat — fabric swatches brought to your home",
     "Spring repair for both coil and sinuous spring systems — restores original support",
     "Older sofa revival — we work on pre-2000 designs that other technicians avoid",
     "Office and commercial sofa repair available with quick turnaround",
@@ -571,7 +571,7 @@ export const sofaRepairTilakNagar: SeoPageData = {
     {
       heading: "Office Sofa Repair in Tilak Nagar — Fast, Professional, Invoiced",
       body: [
-        "Tilak Nagar has a substantial commercial strip — shops, small offices, clinics, and businesses along the main market and the streets off it. We work with many of these businesses on office and reception area sofa repair. Office sofa repair in Tilak Nagar is priced the same as residential work — foam replacement from ₹999 per cushion, reupholstery from ₹3,000 per seat. We provide GST-compliant invoices.",
+        "Tilak Nagar has a substantial commercial strip — shops, small offices, clinics, and businesses along the main market and the streets off it. We work with many of these businesses on office and reception area sofa repair. Office sofa repair in Tilak Nagar is priced the same as residential work — foam replacement from ₹999 per cushion, reupholstery from ₹2,000 per seat. We provide GST-compliant invoices.",
         "The most common office sofa problems we handle in Tilak Nagar: foam sinkage in waiting room sofas, fabric wear on armrests, and structural creaking in older reception sets. We can usually complete office visits outside of your busiest hours if you give us a brief about your schedule.",
       ],
     },
@@ -586,7 +586,7 @@ export const sofaRepairTilakNagar: SeoPageData = {
       heading: "Sofa Upholstery in Tilak Nagar — Reviving the Fabric",
       body: [
         "Fabric wear in Tilak Nagar sofas follows predictable patterns: armrests and seat edges go first, then the seat surfaces, then the back. If the wear is widespread, full reupholstery is the only clean solution.",
-        "We offer full sofa reupholstery starting at ₹3,000 per seat for standard fabric. We bring fabric swatches to your home so you can make the selection in context — seeing how the fabric sits against your walls, floor, and other furniture. Our <a href='/sofa-repair-delhi'>sofa repair team</a> will show you suitable options based on your brief.",
+        "We offer full sofa reupholstery starting at ₹2,000 per seat for standard fabric. We bring fabric swatches to your home so you can make the selection in context — seeing how the fabric sits against your walls, floor, and other furniture. Our <a href='/sofa-repair-delhi'>sofa repair team</a> will show you suitable options based on your brief.",
       ],
     },
     {
@@ -613,7 +613,7 @@ export const sofaRepairTilakNagar: SeoPageData = {
     {
       heading: "Pricing Summary for Sofa Repair in Tilak Nagar",
       body: [
-        "For clarity, here's what sofa repair in Tilak Nagar typically costs with FurniRevive: foam cushion replacement starts at ₹999 for standard 32D and ₹1,400–₹1,800 for high-density 40D. A complete three-seater foam overhaul runs ₹4,000–₹10,000. Spring repair is ₹800–₹2,500. Fabric reupholstery starts at ₹3,000 per seat; full three-seater reupholstery runs ₹9,000–₹25,000 depending on fabric choice. Leatherette repair starts at ₹1,200 for small areas.",
+        "For clarity, here's what sofa repair in Tilak Nagar typically costs with FurniRevive: foam cushion replacement starts at ₹999 for standard 32D and ₹1,400–₹1,800 for high-density 40D. A complete three-seater foam overhaul runs ₹4,000–₹10,000. Spring repair is ₹800–₹2,500. Fabric reupholstery starts at ₹2,000 per seat; full three-seater reupholstery runs ₹9,000–₹25,000 depending on fabric choice. Leatherette repair starts at ₹1,200 for small areas.",
         "For a complete price reference across all sofa types and repairs, see our <a href='/sofa-repair-cost-delhi'>sofa repair cost breakdown</a> and the Delhi furniture repair price guide. We also recommend our <a href='/blog/is-sofa-restoration-worth-it'>honest guide on whether sofa restoration is worth it</a> before making your decision.",
       ],
     },

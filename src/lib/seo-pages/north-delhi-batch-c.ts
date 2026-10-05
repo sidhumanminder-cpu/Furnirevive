@@ -5,10 +5,10 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const italianSofaRepairNorthDelhi: SeoPageData = {
   slug: "italian-sofa-repair-north-delhi",
-  title: "Italian Sofa Repair North Delhi | Natuzzi & Premium Leather Specialists",
+  title: "Italian Sofa Repair North Delhi",
   metaDescription:
-    "Expert Italian sofa repair in North Delhi. Natuzzi, Poltrona Frau & premium Italian leather restoration. Civil Lines, Model Town, Rohini, Pitampura. Call FurniRevive.",
-  h1: "Italian Sofa Repair North Delhi | Natuzzi & Premium Leather Specialists",
+    "Expert Italian sofa repair in North Delhi. Natuzzi, Poltrona Frau & premium Italian leather restoration. Civil Lines, Model Town, Rohini, Pitampura.",
+  h1: "Italian Sofa Repair North Delhi",
   heroSubtitle:
     "North Delhi's specialist Italian sofa repair service -- Natuzzi-style leather restoration, premium Italian leather conditioning, crack repair, and luxury upholstery across Civil Lines, Model Town, Hudson Lane, Rohini, Pitampura, and Shalimar Bagh. Italian-sourced materials. Guaranteed results.",
   showcaseImage: {
@@ -276,10 +276,10 @@ const italianSofaRepairNorthDelhi: SeoPageData = {
 
 const designerFurnitureRepairNorthDelhi: SeoPageData = {
   slug: "designer-furniture-repair-north-delhi",
-  title: "Designer Furniture Repair North Delhi | Bespoke & Premium Restoration",
+  title: "Designer Furniture Repair North Delhi",
   metaDescription:
-    "Expert designer furniture repair in North Delhi. Bespoke furniture, design preservation, premium upholstery. Model Town, Civil Lines, Rohini, Pitampura. Call FurniRevive.",
-  h1: "Designer Furniture Repair North Delhi | Bespoke & Premium Restoration",
+    "Expert designer furniture repair in North Delhi. Bespoke furniture, design preservation, premium upholstery. Model Town, Civil Lines, Rohini, Pitampura.",
+  h1: "Designer Furniture Repair North Delhi",
   heroSubtitle:
     "North Delhi's specialist designer furniture repair service -- preserving design integrity for bespoke, commissioned, and premium furniture across Model Town, Civil Lines, Hudson Lane, Rohini, Shalimar Bagh, and Pitampura. Expert craftsmen. Premium materials. Guaranteed results.",
   showcaseImage: {
@@ -539,10 +539,10 @@ const designerFurnitureRepairNorthDelhi: SeoPageData = {
 
 const customFurnitureRepairNorthDelhi: SeoPageData = {
   slug: "custom-furniture-repair-north-delhi",
-  title: "Custom Furniture Repair North Delhi | Handmade & Built-to-Order Specialists",
+  title: "Custom Furniture Repair North Delhi",
   metaDescription:
-    "Expert custom furniture repair in North Delhi. Handmade furniture, built-to-order pieces, custom modifications. Model Town, Rohini, Pitampura, Civil Lines. Call FurniRevive.",
-  h1: "Custom Furniture Repair North Delhi | Handmade & Built-to-Order Specialists",
+    "Expert custom furniture repair in North Delhi. Handmade furniture, built-to-order pieces, custom modifications. Model Town, Rohini, Pitampura, Civil Lines.",
+  h1: "Custom Furniture Repair North Delhi",
   heroSubtitle:
     "Specialist repair for custom, handmade, and built-to-order furniture across North Delhi -- Model Town, Civil Lines, Rohini, Pitampura, Shalimar Bagh, Ashok Vihar. Premium restoration. Custom modifications. Rs. 8,000--60,000.",
   showcaseImage: {

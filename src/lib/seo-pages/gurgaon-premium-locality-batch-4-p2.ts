@@ -4,9 +4,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 export const furnitureRepairUdyogViharGurgaon: SeoPageData = {
   slug: "furniture-repair-udyog-vihar-gurgaon",
   title:
-    "Furniture Repair in Udyog Vihar Gurgaon | Commercial & Office ₹999 | FurniRevive",
+    "Furniture Repair in Udyog Vihar Gurgaon | FurniRevive",
   metaDescription:
-    "Professional furniture repair in Udyog Vihar Gurgaon — offices, hotels & co-working spaces across Phases I–VI. Sofa, workstation chairs, conference tables & more from ₹999. AMC contracts available.",
+    "Professional furniture repair in Udyog Vihar Gurgaon — offices, hotels & co-working spaces across Phases I–VI.",
   h1: "Furniture Repair in Udyog Vihar, Gurgaon",
   heroSubtitle:
     "Udyog Vihar — spanning Phases I through VI along NH-48 — is Gurgaon's largest and most densely populated commercial corridor, housing thousands of MNC offices, five-star hotels, BPO campuses, and co-working spaces. Keeping every workstation chair, lounge sofa, reception desk, and conference table in professional condition demands a reliable repair partner who understands zero-downtime commercial environments: that is exactly what FurniRevive delivers in Udyog Vihar.",

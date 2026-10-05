@@ -7,7 +7,7 @@ const designerFurnitureRepairNoida: SeoPageData = {
   slug: "designer-furniture-repair-noida",
   title: "Designer Furniture Repair in Noida | Luxury Furniture Experts",
   metaDescription:
-    "Expert designer furniture repair in Noida. Luxury & premium furniture restoration at your doorstep. All Noida sectors covered. 6-month warranty. FurniRevive.",
+    "Expert designer furniture repair in Noida. Luxury & premium furniture restoration at your doorstep. All Noida sectors covered. 6-month warranty.",
   h1: "Designer Furniture Repair in Noida | Luxury Furniture Experts",
   heroSubtitle:
     "Noida's specialist designer and luxury furniture repair service — bespoke sofas, designer chairs, premium furniture pieces, and high-end upholstered furniture repaired and restored at your doorstep across all Noida sectors and societies. Fixed pricing. 6-month warranty. Call +91 92179 99355.",
@@ -214,10 +214,10 @@ const designerFurnitureRepairNoida: SeoPageData = {
 
 const customFurnitureRepairNoida: SeoPageData = {
   slug: "custom-furniture-repair-noida",
-  title: "Custom Furniture Repair in Noida | Bespoke Furniture Restoration Specialists",
+  title: "Custom Furniture Repair in Noida",
   metaDescription:
-    "Expert custom furniture repair in Noida. Bespoke & made-to-order sofa and furniture restoration at your doorstep. All sectors. 6-month warranty. FurniRevive.",
-  h1: "Custom Furniture Repair in Noida | Bespoke Furniture Restoration Specialists",
+    "Expert custom furniture repair in Noida. Bespoke & made-to-order sofa and furniture restoration at your doorstep. All sectors. 6-month warranty.",
+  h1: "Custom Furniture Repair in Noida",
   heroSubtitle:
     "Noida's specialist custom and bespoke furniture repair service — made-to-order sofas, custom-designed furniture, and bespoke upholstered pieces repaired and restored at your doorstep across all Noida sectors and societies. Fixed pricing. 6-month warranty. Call +91 92179 99355.",
   showcaseImage: {

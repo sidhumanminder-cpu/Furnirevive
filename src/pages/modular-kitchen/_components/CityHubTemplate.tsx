@@ -126,6 +126,12 @@ export default function CityHubTemplate({ entry }: Props) {
       title: content.pageTitle,
       description: content.metaDescription,
       canonical: content.canonical,
+      keywords: [
+        "modular kitchen",
+        `modular kitchen ${content.cityDisplayName.toLowerCase()}`,
+        `modular kitchen design ${content.cityDisplayName.toLowerCase()}`,
+        `modular kitchen price ${content.cityDisplayName.toLowerCase()}`,
+      ],
       ogImage: content.heroImage,
       ogUrl: content.canonical,
       ogSiteName: "FurniRevive",

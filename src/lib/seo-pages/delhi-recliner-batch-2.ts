@@ -12,12 +12,9 @@ const reclinerRepairLajpatNagar: SeoPageData = {
   slug: "recliner-repair-lajpat-nagar",
 
   title:
-    "Recliner Repair in Lajpat Nagar Delhi | Motor, Mechanism & Leather Fix | FurniRevive",
+    "Recliner Repair in Lajpat Nagar Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Lajpat Nagar, South Delhi. Electric motor, mechanism, leather & foam restoration. Home service. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Lajpat Nagar, South Delhi. Electric motor, mechanism, leather & foam restoration. Home service. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Lajpat Nagar — Premium Home Service in South Delhi",
 
@@ -25,12 +22,10 @@ const reclinerRepairLajpatNagar: SeoPageData = {
     "Lajpat Nagar's trusted recliner repair specialists. We fix electric motors, mechanisms, leather and foam on all recliner types across Lajpat Nagar Parts I–IV and adjacent Jangpura, Defence Colony. Same-day appointments available.",
 
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
-    altText:
-      "Professional sofa repair technician working on a premium leather sofa in a South Delhi (Lajpat Nagar) home — FurniRevive",
-    caption:
-      "Recliner Repair in South Delhi (Lajpat Nagar) | Premium upholstery & foam service | Home visit | FurniRevive",
+    heading: "Premium Recliner Repair — Expert Service at Your South Delhi Home",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
+    altText: "Professional recliner repair technician working on a dark grey power recliner in a South Delhi (Lajpat Nagar) home — FurniRevive",
+    caption: "Recliner Repair in South Delhi (Lajpat Nagar) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
 
   quickAnswer:
@@ -240,12 +235,9 @@ const reclinerRepairSaket: SeoPageData = {
   slug: "recliner-repair-saket",
 
   title:
-    "Recliner Repair in Saket Delhi | Motor, Mechanism & Leather Service | FurniRevive",
+    "Recliner Repair in Saket Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Saket, South Delhi. Electric motor, mechanism, leather & foam restoration. Home service near Select Citywalk. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Saket, South Delhi. Electric motor, mechanism, leather & foam restoration. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Saket — Premium Home Service Near Select Citywalk",
 
@@ -254,9 +246,9 @@ const reclinerRepairSaket: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium leather sofa in a South Delhi (Saket) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a South Delhi (Saket) home — FurniRevive",
     caption:
       "Recliner Repair in South Delhi (Saket) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
@@ -467,12 +459,9 @@ const reclinerRepairGreaterKailash2: SeoPageData = {
   slug: "recliner-repair-greater-kailash-2",
 
   title:
-    "Recliner Repair in Greater Kailash 2 Delhi | Premium Motor & Leather Service | FurniRevive",
+    "Recliner Repair in Greater Kailash 2 Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Greater Kailash 2 (GK2), South Delhi. Premium electric motor, mechanism, leather & foam restoration. Home service. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Greater Kailash 2 (GK2), South Delhi. Premium electric motor, mechanism, leather & foam restoration. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Greater Kailash 2 — Premium Service for Luxury and Imported Recliners",
 
@@ -481,9 +470,9 @@ const reclinerRepairGreaterKailash2: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium leather sofa in a South Delhi (Greater Kailash 2) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a South Delhi (Greater Kailash 2) home — FurniRevive",
     caption:
       "Recliner Repair in South Delhi (Greater Kailash 2) | Premium leather & motor service | Home visit | FurniRevive",
   },
@@ -694,12 +683,9 @@ const reclinerRepairMalviyaNagar: SeoPageData = {
   slug: "recliner-repair-malviya-nagar",
 
   title:
-    "Recliner Repair in Malviya Nagar Delhi | Motor, Mechanism & Upholstery | FurniRevive",
+    "Recliner Repair in Malviya Nagar Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Malviya Nagar, South Delhi. Electric motor, mechanism, foam & leather restoration at your home. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Malviya Nagar, South Delhi. Electric motor, mechanism, foam & leather restoration at your home. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Malviya Nagar — Trusted Home Service in South Delhi",
 
@@ -708,9 +694,9 @@ const reclinerRepairMalviyaNagar: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium fabric sofa in a South Delhi (Malviya Nagar) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a South Delhi (Malviya Nagar) home — FurniRevive",
     caption:
       "Recliner Repair in South Delhi (Malviya Nagar) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
@@ -918,12 +904,9 @@ const reclinerRepairVasantKunj: SeoPageData = {
   slug: "recliner-repair-vasant-kunj",
 
   title:
-    "Recliner Repair in Vasant Kunj Delhi | Motor, Mechanism & Leather Service | FurniRevive",
+    "Recliner Repair in Vasant Kunj Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Vasant Kunj, South Delhi. Electric motor, mechanism, leather & foam restoration. Home service near Ambience Mall. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Vasant Kunj, South Delhi. Electric motor, mechanism, leather & foam restoration. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Vasant Kunj — Premium Home Service Near Ambience Mall",
 
@@ -932,9 +915,9 @@ const reclinerRepairVasantKunj: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium leather sofa in a South Delhi (Vasant Kunj) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a South Delhi (Vasant Kunj) home — FurniRevive",
     caption:
       "Recliner Repair in South Delhi (Vasant Kunj) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
@@ -1143,12 +1126,9 @@ const reclinerRepairVasantVihar: SeoPageData = {
   slug: "recliner-repair-vasant-vihar",
 
   title:
-    "Recliner Repair in Vasant Vihar Delhi | Premium Motor & Leather Service | FurniRevive",
+    "Recliner Repair in Vasant Vihar Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Vasant Vihar, South-West Delhi. Premium electric motor, mechanism, leather & foam restoration. Home service. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Vasant Vihar, South-West Delhi. Premium electric motor, mechanism, leather & foam restoration. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Vasant Vihar — Premium Home Service in South-West Delhi",
 
@@ -1157,9 +1137,9 @@ const reclinerRepairVasantVihar: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South-West Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium leather sofa in a South-West Delhi (Vasant Vihar) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a South-West Delhi (Vasant Vihar) home — FurniRevive",
     caption:
       "Recliner Repair in South-West Delhi (Vasant Vihar) | Premium leather & motor service | Home visit | FurniRevive",
   },
@@ -1370,12 +1350,9 @@ const reclinerRepairFriendsColony: SeoPageData = {
   slug: "recliner-repair-friends-colony",
 
   title:
-    "Recliner Repair in Friends Colony Delhi | Motor, Mechanism & Leather Service | FurniRevive",
+    "Recliner Repair in Friends Colony Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Friends Colony, South Delhi. Premium electric motor, mechanism, leather & foam restoration at your home. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Friends Colony, South Delhi. Premium electric motor, mechanism, leather & foam restoration at your home. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Friends Colony — Premium Home Service in South Delhi",
 
@@ -1384,9 +1361,9 @@ const reclinerRepairFriendsColony: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium leather sofa in a South Delhi (Friends Colony) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a South Delhi (Friends Colony) home — FurniRevive",
     caption:
       "Recliner Repair in South Delhi (Friends Colony) | Premium leather & motor service | Home visit | FurniRevive",
   },
@@ -1596,12 +1573,9 @@ const reclinerRepairMaharaniBagh: SeoPageData = {
   slug: "recliner-repair-maharani-bagh",
 
   title:
-    "Recliner Repair in Maharani Bagh Delhi | Premium Motor & Leather Service | FurniRevive",
+    "Recliner Repair in Maharani Bagh Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Maharani Bagh, South Delhi. Premium electric motor, mechanism, leather & foam restoration at your home. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Maharani Bagh, South Delhi. Premium electric motor, mechanism, leather & foam restoration at your home. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Maharani Bagh — Exclusive Home Service in South Delhi",
 
@@ -1610,9 +1584,9 @@ const reclinerRepairMaharaniBagh: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium leather sofa in a South Delhi (Maharani Bagh) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a South Delhi (Maharani Bagh) home — FurniRevive",
     caption:
       "Recliner Repair in South Delhi (Maharani Bagh) | Premium leather & motor service | Home visit | FurniRevive",
   },

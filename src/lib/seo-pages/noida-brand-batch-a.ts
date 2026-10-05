@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const durianFurnitureRepairNoida: SeoPageData = {
   slug: "durian-furniture-repair-noida",
-  title: "Durian Furniture Repair Noida | Leather & Recliner Restoration | FurniRevive",
-  metaDescription: "Expert Durian furniture repair in Noida. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep across Sectors 44-168, ATS Greens & Jaypee Greens. 6-month warranty.",
+  title: "Durian Furniture Repair Noida | FurniRevive",
+  metaDescription: "Expert Durian furniture repair in Noida. Leather sofa restoration, recliner motor repair, foam replacement at your doorstep across Sectors 44-168.",
   h1: "Durian Furniture Repair in Noida | Premium Leather & Recliner Specialists",
   heroSubtitle: "Skilled technicians with hands-on experience restoring Durian leather sofas, motorised recliners, and solid-wood pieces -- brought back to showroom condition at your doorstep across Noida.",
   showcaseImage: {
@@ -266,8 +266,8 @@ const durianFurnitureRepairNoida: SeoPageData = {
 
 const urbanLadderFurnitureRepairNoida: SeoPageData = {
   slug: "urban-ladder-furniture-repair-noida",
-  title: "Urban Ladder Furniture Repair Noida | Fabric Sofa Restoration | FurniRevive",
-  metaDescription: "Expert Urban Ladder furniture repair in Noida. Fabric sofa restoration, foam replacement, L-shaped sectional repair at your doorstep. All sectors, ATS Greens, Jaypee Greens. 6-month warranty.",
+  title: "Urban Ladder Furniture Repair Noida | FurniRevive",
+  metaDescription: "Expert Urban Ladder furniture repair in Noida. Fabric sofa restoration, foam replacement, L-shaped sectional repair at your doorstep.",
   h1: "Urban Ladder Furniture Repair in Noida | Fabric Sofa Specialists",
   heroSubtitle: "Skilled technicians restoring Urban Ladder fabric sofas, L-shaped sectionals, and contemporary apartment furniture -- at your doorstep across Noida.",
   showcaseImage: {

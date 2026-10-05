@@ -185,6 +185,13 @@ export type FeatureFlags = {
 export type ServiceSeo = {
   /** High-CTR string appended to title and H1, e.g. "Same-Day Sofa Repair at Home" */
   titleModifier: string;
+  /**
+   * Short (2-4 word) benefit phrase used only in the <title> tag's
+   * graceful-degradation builder in registry-page-template.tsx.
+   * Distinct from titleModifier, which also feeds the on-page H1 via
+   * content-engine/modules/hero.ts and must stay untouched by this field.
+   */
+  shortTitleBenefit?: string;
   /** 2+ secondary terms for meta description interpolation */
   metaKeywords: readonly string[];
   /** Alternate service terms for richer meta copy */

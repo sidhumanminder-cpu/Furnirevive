@@ -6,24 +6,23 @@ import { test, expect } from "@playwright/test";
  * These tests validate the complete request lifecycle:
  *   LOCALITY_REGISTRY → generatePages() → PAGE_MAP → Dynamic Route → Renderer
  *
- * The registry-e2e-test fixture locality is published specifically for these
- * tests and should never be used as a real production locality.
+ * These tests use a real published locality.
  */
 
-const TEST_LOCALITY_SLUG = "registry-e2e-test";
+const TEST_LOCALITY_SLUG = "gurgaon-sector-65";
 const PUBLISHED_URL = `/sofa-repair-${TEST_LOCALITY_SLUG}`;
 
 test.describe("Registry routing — published locality", () => {
   test("renders page with correct title", async ({ page }) => {
     await page.goto(PUBLISHED_URL);
     // Title should contain the service and locality name
-    await expect(page).toHaveTitle(/Registry Test Area/i);
+    await expect(page).toHaveTitle(/Gurgaon Sector 65/i);
   });
 
   test("canonical link tag is present", async ({ page }) => {
     await page.goto(PUBLISHED_URL);
     const canonical = page.locator('link[rel="canonical"]');
-    await expect(canonical).toHaveAttribute("href", /registry-e2e-test/);
+    await expect(canonical).toHaveAttribute("href", /gurgaon-sector-65/);
   });
 
   test("LocalBusiness JSON-LD is present in head", async ({ page }) => {
@@ -37,7 +36,7 @@ test.describe("Registry routing — published locality", () => {
   test("hero section renders with locality name", async ({ page }) => {
     await page.goto(PUBLISHED_URL);
     // The hero section should contain the locality name somewhere on the page
-    await expect(page.locator("body")).toContainText("Registry Test Area");
+    await expect(page.locator("body")).toContainText("Gurgaon Sector 65");
   });
 
   test("meta description is present", async ({ page }) => {

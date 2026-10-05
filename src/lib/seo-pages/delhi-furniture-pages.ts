@@ -21,7 +21,7 @@ export const furnitureRepairJanakpuri: SeoPageData = {
   slug: "furniture-repair-janakpuri",
   title: "Furniture Repair in Janakpuri Delhi | Starting ₹599",
   metaDescription:
-    "Expert furniture repair in Janakpuri, Vikaspuri & Tilak Nagar. Sofa, bed, wardrobe & dining table repair from ₹599. Same-day doorstep service, 6-month warranty.",
+    "Expert furniture repair in Janakpuri, Vikaspuri & Tilak Nagar. Sofa, bed, wardrobe & dining table repair from ₹599.",
   h1: "Furniture Repair in Janakpuri, Delhi",
   heroSubtitle:
     "Trusted doorstep furniture repair across Janakpuri's A–E Blocks, Vikaspuri, Tilak Nagar, Uttam Nagar & Hari Nagar — starting at just ₹599.",
@@ -206,7 +206,7 @@ export const furnitureRepairSaket: SeoPageData = {
   slug: "furniture-repair-saket",
   title: "Furniture Repair in Saket Delhi | Premium Service ₹599",
   metaDescription:
-    "Premium furniture repair in Saket, Mehrauli & Press Enclave from ₹599. Expert restoration for luxury sofas, beds & wardrobes. 6-month warranty, doorstep service.",
+    "Premium furniture repair in Saket, Mehrauli & Press Enclave from ₹599. Expert restoration for luxury sofas, beds & wardrobes.",
   h1: "Furniture Repair in Saket, Delhi",
   heroSubtitle:
     "High-quality furniture repair and restoration for Saket, Mehrauli, Pushp Vihar, Press Enclave & Kishangarh — premium craftsmanship starting at ₹599.",
@@ -392,7 +392,7 @@ export const furnitureRepairMalviyaNagar: SeoPageData = {
   slug: "furniture-repair-malviya-nagar",
   title: "Furniture Repair in Malviya Nagar Delhi | From ₹599",
   metaDescription:
-    "Doorstep furniture repair in Malviya Nagar, Panchsheel Enclave & Sheikh Sarai from ₹599. Beds, wardrobes, dining sets. 6-month warranty, same-day service available.",
+    "Doorstep furniture repair in Malviya Nagar, Panchsheel Enclave & Sheikh Sarai from ₹599. Beds, wardrobes, dining sets.",
   h1: "Furniture Repair in Malviya Nagar, Delhi",
   heroSubtitle:
     "Reliable furniture repair for Malviya Nagar, Sarvapriya Vihar, Panchsheel Enclave, Khirki Extension & Adchini — quality craftsmanship from ₹599.",
@@ -577,7 +577,7 @@ export const furnitureRepairPitampura: SeoPageData = {
   slug: "furniture-repair-pitampura",
   title: "Furniture Repair in Pitampura Delhi | From ₹599",
   metaDescription:
-    "Expert furniture repair in Pitampura, Shalimar Bagh & Kohat Enclave from ₹599. Sofa, bed, wardrobe repairs with bulk discounts. Same-day doorstep service available.",
+    "Expert furniture repair in Pitampura, Shalimar Bagh & Kohat Enclave from ₹599. Sofa, bed, wardrobe repairs with bulk discounts.",
   h1: "Furniture Repair in Pitampura, Delhi",
   heroSubtitle:
     "Same-day doorstep furniture repair across Pitampura all blocks, Shalimar Bagh, Saraswati Vihar, Rani Bagh & Ashok Vihar — starting at ₹599 with bulk discounts.",

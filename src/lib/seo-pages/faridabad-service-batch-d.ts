@@ -2,9 +2,9 @@ import type { SeoPageData } from "@/lib/seo-constants.ts";
 
 const woodenFurnitureRestorationFaridabad: SeoPageData = {
   slug: "wooden-furniture-restoration-faridabad",
-  title: "Wooden Furniture Restoration Faridabad | Teak, Sheesham & Veneer Experts",
+  title: "Wooden Furniture Restoration Faridabad",
   metaDescription:
-    "Expert wooden furniture restoration in Faridabad for teak, sheesham, rosewood and veneer pieces. Water damage repair, refinishing, structural restoration. Serving Sectors 15–88, BPTP Parklands, Omaxe Heights and all premium communities.",
+    "Expert wooden furniture restoration in Faridabad for teak, sheesham, rosewood and veneer pieces. Water damage repair, refinishing, structural restoration.",
   h1: "Wooden Furniture Restoration Faridabad",
   heroSubtitle:
     "Bringing Heritage Teak, Sheesham and Fine Veneer Back to Life — Precision Restoration for Faridabad's Discerning Homeowners",
@@ -425,9 +425,9 @@ const woodenFurnitureRestorationFaridabad: SeoPageData = {
 
 const luxurySofaRestorationFaridabad: SeoPageData = {
   slug: "luxury-sofa-restoration-faridabad",
-  title: "Luxury Sofa Restoration Faridabad | Italian, Imported & Premium Sofa Experts",
+  title: "Luxury Sofa Restoration Faridabad",
   metaDescription:
-    "Expert luxury sofa restoration in Faridabad — Italian leather, imported fabric, cushion rebuilding, frame strengthening, complete transformations. Serving BPTP Parklands, Omaxe Heights, sector villas and all premium Faridabad communities.",
+    "Expert luxury sofa restoration in Faridabad — Italian leather, imported fabric, cushion rebuilding, frame strengthening, complete transformations.",
   h1: "Luxury Sofa Restoration Faridabad",
   heroSubtitle:
     "Expert Restoration for Italian Leather, Imported Fabric, and Premium Sofas — Faridabad's Choice for Discerning Homeowners",

@@ -195,4 +195,95 @@ describe("selectFaqs", () => {
       expect(mentionsLocality).toBe(true);
     });
   });
+
+  describe("service-aware pricing FAQ", () => {
+    const CASES = [
+      { service: "sofa-repair", name: "sofa repair", price: "₹500" },
+      { service: "recliner-repair", name: "recliner repair", price: "₹1,499" },
+      { service: "furniture-repair", name: "furniture repair", price: "₹599" },
+      { service: "sofa-upholstery", name: "sofa upholstery", price: "₹2,000 per seat" },
+    ] as const;
+
+    it.each(CASES)("$service pricing FAQ names the right service", ({ service, name, price }) => {
+      const faqs = selectFaqs(makeLocality({ contentWeight: 90 }), service);
+      const pricing = faqs.find((f) => /how much does/i.test(f.question));
+      expect(pricing).toBeDefined();
+      expect(pricing?.question.toLowerCase()).toContain(name);
+      expect(pricing?.answer).toContain(price);
+      if (service !== "sofa-repair") {
+        expect(faqs.some((f) => /3\+1\+1/i.test(f.question))).toBe(false);
+      }
+    });
+  });
+
+  describe("service-aware warranty, response time, same-day and repair-vs-replace FAQs", () => {
+    const questions = (service: Parameters<typeof selectFaqs>[1]) =>
+      selectFaqs(makeLocality({ contentWeight: 90 }), service).map((f) => f.question);
+
+    it("sofa-repair keeps its sofa wording for every slot", () => {
+      const q = questions("sofa-repair").join("|");
+      expect(q).toContain("How long does a sofa technician take to reach");
+      expect(q).toContain("Do you offer same-day sofa repair");
+      expect(q).toContain("Is there a warranty on sofa repair");
+      expect(q).toContain("worth repairing or should be replaced");
+    });
+
+    const SLOTS = [
+      { slot: "response time", re: /^How quickly can an? .*reach/i },
+      { slot: "same-day", re: /^Do you offer same-day/i },
+      { slot: "warranty", re: /warranty/i },
+      { slot: "repair vs replace", re: /worth repairing|cheaper than buying/i },
+    ];
+    const WORDS = {
+      "recliner-repair": "recliner",
+      "furniture-repair": "furniture",
+      "sofa-upholstery": "upholster",
+    } as const;
+
+    it.each(Object.entries(WORDS))("%s has all 4 slots, service-correct, none dropped", (service, word) => {
+      const q = questions(service as keyof typeof WORDS);
+      for (const { slot, re } of SLOTS) {
+        const hit = q.find((x) => re.test(x));
+        expect(hit, slot).toBeDefined();
+        expect(hit?.toLowerCase(), slot).not.toContain("sofa repair");
+      }
+      expect(q.find((x) => /same-day/i.test(x))?.toLowerCase()).toContain(word === "upholster" ? "sofa upholstery" : word);
+      expect(q.join("|").toLowerCase()).not.toContain("sofa technician");
+    });
+
+    it("every non-sofa warranty answer states 6 months", () => {
+      for (const service of Object.keys(WORDS) as (keyof typeof WORDS)[]) {
+        const faq = selectFaqs(makeLocality({ contentWeight: 90 }), service).find((f) => /warranty/i.test(f.question));
+        expect(faq?.answer, service).toMatch(/6[- ]month/i);
+      }
+    });
+  });
+
+  describe("doorstep inspection and service area answers", () => {
+    const SERVICES = ["sofa-repair", "recliner-repair", "furniture-repair", "sofa-upholstery"] as const;
+    const ITEM = { "sofa-repair": "sofa", "recliner-repair": "recliner", "furniture-repair": "furniture", "sofa-upholstery": "sofa" } as const;
+
+    it.each(SERVICES)("%s doorstep inspection answer names the right item on every variant", (service) => {
+      for (const contentWeight of [90, 100, 50] as const) {
+        const faq = selectFaqs(makeLocality({ contentWeight }), service).find((f) => /doorstep inspection/i.test(f.question));
+        expect(faq, service).toBeDefined();
+        if (service !== "sofa-repair") {
+          expect(faq?.answer.toLowerCase()).toContain(service === "sofa-upholstery" ? "upholstery" : ITEM[service]);
+          expect(faq?.answer.toLowerCase()).not.toContain("diagnoses the sofa");
+        }
+      }
+    });
+
+    it.each(SERVICES)("%s service-area answer is not sofa-worded for non-sofa services", (service) => {
+      for (const contentWeight of [90, 100, 50] as const) {
+        const faq = selectFaqs(makeLocality({ contentWeight }), service).find((f) => /Which areas near/i.test(f.question));
+        // The lowest weight returns too few FAQs to include this slot
+        if (!faq) {
+          expect(contentWeight).toBe(50);
+          continue;
+        }
+        if (service !== "sofa-repair") expect(faq.answer.toLowerCase()).not.toContain("sofa repair");
+      }
+    });
+  });
 });

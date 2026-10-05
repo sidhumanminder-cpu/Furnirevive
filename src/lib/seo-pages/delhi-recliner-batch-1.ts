@@ -12,12 +12,9 @@ const reclinerRepairRohini: SeoPageData = {
   slug: "recliner-repair-rohini",
 
   title:
-    "Recliner Repair in Rohini Delhi | Motor, Mechanism & Upholstery Fix | FurniRevive",
+    "Recliner Repair in Rohini Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Rohini, North-West Delhi. Electric motor, mechanism, foam & leather restoration across all Rohini sectors. Home service. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Rohini, North-West Delhi. Electric motor, mechanism, foam & leather restoration across all Rohini sectors. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Rohini — Home Service Across All Rohini Sectors",
 
@@ -25,12 +22,10 @@ const reclinerRepairRohini: SeoPageData = {
     "Rohini's trusted recliner repair specialists. We fix electric motors, broken mechanisms, sagging foam and torn upholstery on all recliner brands across Rohini Sectors 1–30 and adjacent areas. Same-day appointments available.",
 
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your North Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
-    altText:
-      "Professional sofa repair technician working on a premium fabric sofa in a North Delhi (Rohini) home — FurniRevive",
-    caption:
-      "Recliner Repair in North-West Delhi (Rohini) | Premium upholstery & foam service | Home visit | FurniRevive",
+    heading: "Premium Recliner Repair — Expert Service at Your North Delhi Home",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
+    altText: "Professional recliner repair technician working on a dark grey power recliner in a North Delhi (Rohini) home — FurniRevive",
+    caption: "Recliner Repair in North-West Delhi (Rohini) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
 
   quickAnswer:
@@ -245,12 +240,9 @@ const reclinerRepairPitampura: SeoPageData = {
   slug: "recliner-repair-pitampura",
 
   title:
-    "Recliner Repair in Pitampura Delhi | Motor, Mechanism & Foam Service | FurniRevive",
+    "Recliner Repair in Pitampura Delhi | FurniRevive",
 
-  metaDescription:
-    "Professional recliner repair in Pitampura, North-West Delhi. Electric motor, manual mechanism, foam & upholstery at your home. All blocks & sectors covered. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Professional recliner repair in Pitampura, North-West Delhi. Electric motor, manual mechanism, foam & upholstery at your home. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Pitampura — Expert Home Service Across All Pitampura Blocks",
 
@@ -259,9 +251,9 @@ const reclinerRepairPitampura: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your North Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium fabric sofa in a North Delhi (Pitampura) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a North Delhi (Pitampura) home — FurniRevive",
     caption:
       "Recliner Repair in North-West Delhi (Pitampura) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
@@ -476,12 +468,9 @@ const reclinerRepairDwarka: SeoPageData = {
   slug: "recliner-repair-dwarka",
 
   title:
-    "Recliner Repair in Dwarka Delhi | Motor, Mechanism & Upholstery Fix | FurniRevive",
+    "Recliner Repair in Dwarka Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Dwarka, South-West Delhi. Electric motor, mechanism, foam & leather service across all Dwarka sectors. Home visit. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Dwarka, South-West Delhi. Electric motor, mechanism, foam & leather service across all Dwarka sectors. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Dwarka — Expert Home Service Across All Dwarka Sectors",
 
@@ -490,9 +479,9 @@ const reclinerRepairDwarka: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your South-West Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium fabric sofa in a South-West Delhi (Dwarka) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a South-West Delhi (Dwarka) home — FurniRevive",
     caption:
       "Recliner Repair in South-West Delhi (Dwarka) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
@@ -707,12 +696,9 @@ const reclinerRepairAshokVihar: SeoPageData = {
   slug: "recliner-repair-ashok-vihar",
 
   title:
-    "Recliner Repair in Ashok Vihar Delhi | Motor, Mechanism & Foam Fix | FurniRevive",
+    "Recliner Repair in Ashok Vihar Delhi | FurniRevive",
 
-  metaDescription:
-    "Professional recliner repair in Ashok Vihar, North Delhi. Electric motor, mechanism, foam & upholstery at your home. All phases covered. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Professional recliner repair in Ashok Vihar, North Delhi. Electric motor, mechanism, foam & upholstery at your home. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Ashok Vihar — Home Service Across All Phases",
 
@@ -721,9 +707,9 @@ const reclinerRepairAshokVihar: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your North Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium fabric sofa in a North Delhi (Ashok Vihar) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a North Delhi (Ashok Vihar) home — FurniRevive",
     caption:
       "Recliner Repair in North Delhi (Ashok Vihar) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
@@ -938,12 +924,9 @@ const reclinerRepairModelTown: SeoPageData = {
   slug: "recliner-repair-model-town",
 
   title:
-    "Recliner Repair in Model Town Delhi | Motor, Mechanism & Leather Fix | FurniRevive",
+    "Recliner Repair in Model Town Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Model Town, North Delhi. Electric motor, mechanism, leather & foam restoration. Home service across all blocks. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Model Town, North Delhi. Electric motor, mechanism, leather & foam restoration. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Model Town — Premium Home Service Across All Blocks",
 
@@ -952,9 +935,9 @@ const reclinerRepairModelTown: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your North Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium fabric sofa in a North Delhi (Model Town) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a North Delhi (Model Town) home — FurniRevive",
     caption:
       "Recliner Repair in North Delhi (Model Town) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
@@ -1169,12 +1152,9 @@ const reclinerRepairKarolBagh: SeoPageData = {
   slug: "recliner-repair-karol-bagh",
 
   title:
-    "Recliner Repair in Karol Bagh Delhi | Motor, Mechanism & Upholstery | FurniRevive",
+    "Recliner Repair in Karol Bagh Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Karol Bagh, Central Delhi. Electric motor, mechanism, foam & leather restoration at your home. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Karol Bagh, Central Delhi. Electric motor, mechanism, foam & leather restoration at your home. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Karol Bagh — Professional Home Service in Central Delhi",
 
@@ -1183,9 +1163,9 @@ const reclinerRepairKarolBagh: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Central Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium fabric sofa in a Central Delhi (Karol Bagh) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in a Central Delhi (Karol Bagh) home — FurniRevive",
     caption:
       "Recliner Repair in Central Delhi (Karol Bagh) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
@@ -1400,12 +1380,9 @@ const reclinerRepairPreetVihar: SeoPageData = {
   slug: "recliner-repair-preet-vihar",
 
   title:
-    "Recliner Repair in Preet Vihar Delhi | Motor, Mechanism & Foam Service | FurniRevive",
+    "Recliner Repair in Preet Vihar Delhi | FurniRevive",
 
-  metaDescription:
-    "Professional recliner repair in Preet Vihar, East Delhi. Electric motor, mechanism, foam & upholstery at your home. All blocks covered. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Professional recliner repair in Preet Vihar, East Delhi. Electric motor, mechanism, foam & upholstery at your home. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Preet Vihar — Home Service Across All East Delhi Blocks",
 
@@ -1414,9 +1391,9 @@ const reclinerRepairPreetVihar: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your East Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium fabric sofa in an East Delhi (Preet Vihar) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in an East Delhi (Preet Vihar) home — FurniRevive",
     caption:
       "Recliner Repair in East Delhi (Preet Vihar) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
@@ -1631,12 +1608,9 @@ const reclinerRepairMayurVihar: SeoPageData = {
   slug: "recliner-repair-mayur-vihar",
 
   title:
-    "Recliner Repair in Mayur Vihar Delhi | Motor, Mechanism & Foam Fix | FurniRevive",
+    "Recliner Repair in Mayur Vihar Delhi | FurniRevive",
 
-  metaDescription:
-    "Expert recliner repair in Mayur Vihar, East Delhi. Electric motor, mechanism, foam & upholstery at your home. Phase I, II, III covered. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Expert recliner repair in Mayur Vihar, East Delhi. Electric motor, mechanism, foam & upholstery at your home. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Mayur Vihar — Home Service Across All Three Phases",
 
@@ -1645,9 +1619,9 @@ const reclinerRepairMayurVihar: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your East Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium fabric sofa in an East Delhi (Mayur Vihar) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in an East Delhi (Mayur Vihar) home — FurniRevive",
     caption:
       "Recliner Repair in East Delhi (Mayur Vihar) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
@@ -1862,12 +1836,9 @@ const reclinerRepairLaxmiNagar: SeoPageData = {
   slug: "recliner-repair-laxmi-nagar",
 
   title:
-    "Recliner Repair in Laxmi Nagar Delhi | Motor, Mechanism & Foam Fix | FurniRevive",
+    "Recliner Repair in Laxmi Nagar Delhi | FurniRevive",
 
-  metaDescription:
-    "Professional recliner repair in Laxmi Nagar, East Delhi. Electric motor, mechanism, foam & upholstery at your home. Starting ₹1,500. Call FurniRevive " +
-    PHONE_DISPLAY +
-    ".",
+  metaDescription: "Professional recliner repair in Laxmi Nagar, East Delhi. Electric motor, mechanism, foam & upholstery at your home. Starting ₹1,500. Call +91 92179 99355.",
 
   h1: "Recliner Repair in Laxmi Nagar — Fast Home Service in East Delhi",
 
@@ -1876,9 +1847,9 @@ const reclinerRepairLaxmiNagar: SeoPageData = {
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your East Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
+    imageUrl: "https://hercules-cdn.com/file_ZLNLI6MDQ4ghQjASGH3dBaX5",
     altText:
-      "Professional sofa repair technician working on a premium fabric sofa in an East Delhi (Laxmi Nagar) home — FurniRevive",
+      "Professional recliner repair technician working on a dark grey power recliner in an East Delhi (Laxmi Nagar) home — FurniRevive",
     caption:
       "Recliner Repair in East Delhi (Laxmi Nagar) | Premium upholstery & foam service | Home visit | FurniRevive",
   },

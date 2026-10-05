@@ -48,7 +48,7 @@ export default function HeroSection() {
 
             {/* H1 — Primary SEO heading */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold leading-[1.1] text-balance">
-              FurniRevive – Sofa Repair &amp; Furniture Repair Experts in{" "}
+              FurniRevive – Sofa, Furniture &amp; Chair Repair Experts in{" "}
               <span className="text-primary">Delhi NCR</span>
             </h1>
 

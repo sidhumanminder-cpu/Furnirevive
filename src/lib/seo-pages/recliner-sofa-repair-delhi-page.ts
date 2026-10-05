@@ -4,10 +4,10 @@ export const recliferSofaRepairDelhi: SeoPageData = {
   slug: "recliner-sofa-repair-delhi",
 
   title:
-    "Recliner Repair Near Me in Delhi | ₹1,500 Motor & Mechanism Fix | FurniRevive",
+    "Recliner Repair Near Me in Delhi | FurniRevive",
 
   metaDescription:
-    "Recliner repair near me in Delhi from ₹1,500. Same-day doorstep motor, mechanism & upholstery repair for all recliner brands. Manual & motorised. 6-month warranty. Call +91 92179 99355.",
+    "Recliner repair near me in Delhi from ₹1,500. Same-day doorstep motor, mechanism & upholstery repair for all recliner brands. Manual & motorised.",
 
   h1: "Recliner Repair Near Me in Delhi — Motor, Mechanism & Upholstery Fixed at Home",
 
@@ -15,9 +15,9 @@ export const recliferSofaRepairDelhi: SeoPageData = {
     "Starting ₹1,500 onwards — manual and motorised recliners both covered. All major brands serviced, 500+ recliner repairs completed across Delhi NCR. Free inspection, 6-month warranty, and same-day doorstep service available.",
   showcaseImage: {
     heading: "Premium Recliner Repair — Expert Service at Your Delhi Home",
-    imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
-    altText: "Professional recliner sofa repair technician working on a premium motorised recliner in a Delhi home — FurniRevive",
-    caption: "Recliner Sofa Repair in Delhi | Manual & motorised, all brands | Same-day home visit | FurniRevive",
+    imageUrl: "https://hercules-cdn.com/file_SkQRYzIVvyqVJZeutqrjLNvq",
+    altText: "Professional recliner repair technician working on a premium motorised recliner in a Delhi home — FurniRevive",
+    caption: "Recliner Recliner Repair in Delhi | Manual & motorised, all brands | Same-day home visit | FurniRevive",
   },
 
   quickAnswer:

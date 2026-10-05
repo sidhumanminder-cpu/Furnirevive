@@ -1,5 +1,6 @@
 import { ConvexError, v } from "convex/values";
 import { mutation, query } from "./_generated/server";
+import type { Id } from "./_generated/dataModel.d.ts";
 import { requireAdmin } from "./helpers";
 
 // Shared validators
@@ -43,9 +44,7 @@ export const getAll = query({
 
     return await Promise.all(
       studies.map(async (study) => {
-        const beforeUrl = await ctx.storage.getUrl(study.beforeImageId);
-        const afterUrl = await ctx.storage.getUrl(study.afterImageId);
-        return { ...study, beforeUrl, afterUrl };
+        return await withUrls(ctx, study);
       })
     );
   },
@@ -149,8 +148,8 @@ export const remove = mutation({
     }
 
     // Delete stored images
-    await ctx.storage.delete(study.beforeImageId);
-    await ctx.storage.delete(study.afterImageId);
+    if (study.beforeImageId) await ctx.storage.delete(study.beforeImageId);
+    if (study.afterImageId) await ctx.storage.delete(study.afterImageId);
     await ctx.db.delete(args.id);
   },
 });
@@ -163,11 +162,16 @@ export const getForPage = query({
   handler: async (ctx, args) => {
     const slug = args.pageSlug.toLowerCase();
 
+    const repairType = deriveRepairType(slug);
+    const isRecliner = repairType === "recliner";
+
+    // Strict service scoping: recliner pages show only recliner studies,
+    // and recliner studies never appear on any other service page
+    const allStudies = (
+      await ctx.db.query("repairCaseStudies").order("asc").collect()
+    ).filter((s) => (s.repairType === "recliner") === isRecliner);
+
     // 1. Direct match: case studies explicitly assigned to this page
-    const allStudies = await ctx.db
-      .query("repairCaseStudies")
-      .order("asc")
-      .collect();
 
     const directMatches = allStudies.filter((s) =>
       s.pageSlugs.includes(slug)
@@ -179,7 +183,6 @@ export const getForPage = query({
 
     // 2. Auto-match by intent type derived from slug
     const intentType = deriveIntentType(slug);
-    const repairType = deriveRepairType(slug);
 
     // Collect candidates excluding already-matched ones
     const directIds = new Set(directMatches.map((s) => s._id));
@@ -215,6 +218,59 @@ export const getForPage = query({
   },
 });
 
+/** Services that have case studies, mapped to the repair type stored on each study. */
+const SERVICE_REPAIR_TYPE = {
+  "sofa-repair": "sofa",
+  "recliner-repair": "recliner",
+} as const;
+
+const MAX_SERVICE_STUDIES = 3;
+
+/** Featured first, then display order. */
+function rankStudies<T extends { isFeatured: boolean; displayOrder: number }>(studies: T[]): T[] {
+  return [...studies].sort(
+    (a, b) => Number(b.isFeatured) - Number(a.isFeatured) || a.displayOrder - b.displayOrder,
+  );
+}
+
+/**
+ * Case studies for one service only (used by registry pages). Returns an empty
+ * list when the service has none, so callers render nothing rather than another
+ * service's work. Recliner studies are only reachable through "recliner-repair".
+ */
+export const getByService = query({
+  args: {
+    service: v.union(
+      v.literal("sofa-repair"),
+      v.literal("recliner-repair"),
+      v.literal("furniture-repair"),
+      v.literal("sofa-upholstery"),
+    ),
+  },
+  handler: async (ctx, args) => {
+    if (args.service === "sofa-repair" || args.service === "recliner-repair") {
+      const repairType = SERVICE_REPAIR_TYPE[args.service];
+      const studies = await ctx.db
+        .query("repairCaseStudies")
+        .withIndex("by_repair_type", (q) => q.eq("repairType", repairType))
+        .take(50);
+      return await resolveUrls(ctx, rankStudies(studies).slice(0, MAX_SERVICE_STUDIES));
+    }
+
+    // Furniture / upholstery have no studies of their own: show general sofa and
+    // recliner work, unchanged. Each keeps its own heading and repairType so the
+    // UI can label it honestly.
+    const sofa = rankStudies(
+      await ctx.db.query("repairCaseStudies").withIndex("by_repair_type", (q) => q.eq("repairType", "sofa")).take(50),
+    );
+    const recliner = rankStudies(
+      await ctx.db.query("repairCaseStudies").withIndex("by_repair_type", (q) => q.eq("repairType", "recliner")).take(50),
+    );
+    const mixed = [sofa[0], recliner[0], sofa[1], recliner[1]].filter((s) => s !== undefined);
+    return await resolveUrls(ctx, mixed.slice(0, MAX_SERVICE_STUDIES));
+  },
+});
+
 // ─── Helpers ───
 
 /** Derive intent type from a page slug */
@@ -228,26 +284,30 @@ function deriveIntentType(slug: string): string | null {
 
 /** Derive repair type from a page slug */
 function deriveRepairType(slug: string): string | null {
-  if (slug.includes("leather")) return "leather";
   if (slug.includes("recliner")) return "recliner";
+  if (slug.includes("leather")) return "leather";
   if (slug.includes("upholstery")) return "upholstery";
   if (slug.includes("sofa")) return "sofa";
   if (slug.includes("furniture") || slug.includes("carpenter")) return "furniture";
   return null;
 }
 
-type StorageCtx = { storage: { getUrl: (id: string) => Promise<string | null> } };
+type StorageCtx = { storage: { getUrl: (id: Id<"_storage">) => Promise<string | null> } };
+
+/** Resolve one study's image URLs (storage files first, CDN combined image as fallback) */
+async function withUrls<T extends { beforeImageId?: Id<"_storage">; afterImageId?: Id<"_storage"> }>(
+  ctx: StorageCtx,
+  study: T
+) {
+  const beforeUrl = study.beforeImageId ? await ctx.storage.getUrl(study.beforeImageId) : null;
+  const afterUrl = study.afterImageId ? await ctx.storage.getUrl(study.afterImageId) : null;
+  return { ...study, beforeUrl, afterUrl };
+}
 
 /** Resolve storage IDs to URLs for an array of case studies */
-async function resolveUrls<T extends { beforeImageId: string; afterImageId: string }>(
+async function resolveUrls<T extends { beforeImageId?: Id<"_storage">; afterImageId?: Id<"_storage"> }>(
   ctx: StorageCtx,
   studies: T[]
 ) {
-  return await Promise.all(
-    studies.map(async (study) => {
-      const beforeUrl = await ctx.storage.getUrl(study.beforeImageId);
-      const afterUrl = await ctx.storage.getUrl(study.afterImageId);
-      return { ...study, beforeUrl, afterUrl };
-    })
-  );
+  return await Promise.all(studies.map((study) => withUrls(ctx, study)));
 }

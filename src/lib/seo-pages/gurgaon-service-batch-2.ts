@@ -5,9 +5,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const luxuryFurnitureRestorationGurgaon: SeoPageData = {
   slug: "luxury-furniture-restoration-gurgaon",
-  title: "Luxury Furniture Restoration Gurgaon | Designer & Imported Furniture Experts",
+  title: "Luxury Furniture Restoration Gurgaon",
   metaDescription:
-    "Expert luxury furniture restoration in Gurgaon. Designer sofas, antique pieces, imported furniture & premium upholstery restored at your doorstep. DLF, Golf Course Road. 6-month warranty. FurniRevive.",
+    "Expert luxury furniture restoration in Gurgaon. Designer sofas, antique pieces, imported furniture & premium upholstery restored at your doorstep.",
   h1: "Luxury Furniture Restoration Gurgaon — Premium Pieces Deserve Expert Care",
   heroSubtitle:
     "Gurgaon's specialist for luxury furniture restoration. Designer sofas, imported Italian furniture, antique pieces, premium leather, and structural restoration — entirely at your doorstep across DLF Phase 1–5, Golf Course Road, Golf Course Extension Road, and all Gurgaon luxury residential addresses. 6-month warranty on every project.",
@@ -248,9 +248,9 @@ const luxuryFurnitureRestorationGurgaon: SeoPageData = {
 
 const importedFurnitureRepairGurgaon: SeoPageData = {
   slug: "imported-furniture-repair-gurgaon",
-  title: "Imported Furniture Repair Gurgaon | Italian, European & Luxury Repair Experts",
+  title: "Imported Furniture Repair Gurgaon",
   metaDescription:
-    "Expert imported furniture repair in Gurgaon. Italian sofas, European furniture, luxury leather & structural repairs at your doorstep. DLF, Golf Course Road. 6-month warranty. FurniRevive.",
+    "Expert imported furniture repair in Gurgaon. Italian sofas, European furniture, luxury leather & structural repairs at your doorstep.",
   h1: "Imported Furniture Repair Gurgaon — Specialist Care for Premium Pieces",
   heroSubtitle:
     "Your imported Italian sofa, European sectional, or American recliner deserves specialist repair — not a generic handyman. FurniRevive's craftsmen are trained in the specific materials and construction of imported furniture, serving DLF Phase 1–5, Golf Course Road, Golf Course Extension Road, and all Gurgaon luxury addresses. From ₹999. 6-month warranty.",
@@ -480,9 +480,9 @@ const importedFurnitureRepairGurgaon: SeoPageData = {
 
 const reclimerMotorRepairGurgaon: SeoPageData = {
   slug: "recliner-motor-repair-gurgaon",
-  title: "Recliner Motor Repair Gurgaon | Electric & Power Recliner Specialists",
+  title: "Recliner Motor Repair Gurgaon",
   metaDescription:
-    "Expert recliner motor repair in Gurgaon from ₹999. Electric recliner, actuator, power recliner & mechanism repair at your doorstep. DLF, Golf Course Road, Sohna Road. 6-month warranty. FurniRevive.",
+    "Expert recliner motor repair in Gurgaon from ₹999. Electric recliner, actuator, power recliner & mechanism repair at your doorstep.",
   h1: "Recliner Motor Repair Gurgaon — Electric Recliner Specialists",
   heroSubtitle:
     "Recliner not responding? Stops mid-travel? Motor grinding? FurniRevive's recliner motor repair specialists fix electric recliners, actuator failures, power recliner mechanisms, and control issues entirely at your doorstep across Gurgaon. DLF Phase 1–5, Golf Course Road, Golf Course Extension Road, Sohna Road. From ₹999. 6-month warranty.",

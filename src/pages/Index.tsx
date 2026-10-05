@@ -14,6 +14,7 @@ import TestimonialsSection from "./home/_components/testimonials-section.tsx";
 import FaqSection from "./home/_components/faq-section.tsx";
 import BlogPreviewSection from "./home/_components/blog-preview-section.tsx";
 import CtaSection from "./home/_components/cta-section.tsx";
+import { BUSINESS_ADDRESS, BUSINESS_AREA_SERVED, BUSINESS_GEO } from "@/lib/business-config.ts";
 
 /** LocalBusiness + FurnitureRepair JSON-LD structured data */
 const LOCAL_BUSINESS_SCHEMA = {
@@ -27,45 +28,9 @@ const LOCAL_BUSINESS_SCHEMA = {
   email: "support@furnirevive.com",
   priceRange: "₹499 - ₹20,000",
   image: "https://cdn.hercules.app/file_dtr8PtooAsmRwfNTJKNRTESW",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.8",
-    reviewCount: "10000",
-    bestRating: "5",
-  },
-  areaServed: [
-    {
-      "@type": "City",
-      name: "Delhi",
-      containedInPlace: { "@type": "State", name: "Delhi" },
-    },
-    {
-      "@type": "City",
-      name: "Noida",
-      containedInPlace: { "@type": "State", name: "Uttar Pradesh" },
-    },
-    {
-      "@type": "City",
-      name: "Gurgaon",
-      containedInPlace: { "@type": "State", name: "Haryana" },
-    },
-    {
-      "@type": "City",
-      name: "Ghaziabad",
-      containedInPlace: { "@type": "State", name: "Uttar Pradesh" },
-    },
-    {
-      "@type": "City",
-      name: "Faridabad",
-      containedInPlace: { "@type": "State", name: "Haryana" },
-    },
-  ],
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Delhi",
-    addressRegion: "Delhi NCR",
-    addressCountry: "IN",
-  },
+  areaServed: BUSINESS_AREA_SERVED,
+  address: BUSINESS_ADDRESS,
+  geo: BUSINESS_GEO,
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Furniture Repair Services",
@@ -89,7 +54,7 @@ const FAQ_SCHEMA = {
       name: "Where can I find the best sofa repair near me in Delhi NCR?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "FurniRevive offers the best sofa repair near me service across Delhi NCR. We provide doorstep sofa repair in Delhi, Noida, Gurgaon, Ghaziabad, and Faridabad. Starting at just ₹999 with same-day service and a 6-month warranty.",
+        text: "FurniRevive offers the best sofa repair near me service across Delhi NCR. We provide doorstep sofa repair in Delhi, Noida, Gurgaon, Ghaziabad, and Faridabad. Starting at just ₹500 with same-day service and a 6-month warranty.",
       },
     },
     {
@@ -97,7 +62,7 @@ const FAQ_SCHEMA = {
       name: "How much does furniture repair cost in Delhi NCR?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Chair repair starts at ₹599, sofa repair at ₹999, bed repair at ₹1,199, and wood polish at ₹799. Professional furniture repair saves you 50-70% compared to buying new furniture.",
+        text: "Chair repair starts at ₹599, sofa repair at ₹500, bed repair at ₹1,199, and wood polish at ₹799. Professional furniture repair saves you 50-70% compared to buying new furniture.",
       },
     },
     {
@@ -122,13 +87,21 @@ const FAQ_SCHEMA = {
 export default function Index() {
   useEffect(() => {
     document.title =
-      "FurniRevive | Sofa Repair & Furniture Repair in Delhi NCR";
+      "Sofa, Furniture & Chair Repair in Delhi NCR | FurniRevive";
 
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
       metaDesc.setAttribute(
         "content",
-        "FurniRevive provides expert sofa repair, furniture repair, polishing, and carpenter services at home across Delhi NCR. Trusted FurniRevive experts. Book today."
+        "Doorstep sofa, furniture, chair & bed repair, wood polish & carpenter service across Delhi NCR. 4.8★ rated, 10,000+ repairs done. Same-day service. Book today."
+      );
+    }
+
+    const metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (metaKeywords) {
+      metaKeywords.setAttribute(
+        "content",
+        "furniture repair delhi, sofa repair near me, carpenter near me, furniture repair delhi ncr, sofa repair delhi, chair repair delhi, wood polish delhi, bed repair delhi, carpenter home service delhi, furniture repair noida, furniture repair gurgaon, chair repair near me, bed repair near me"
       );
     }
 

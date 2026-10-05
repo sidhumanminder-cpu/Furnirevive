@@ -5,8 +5,8 @@ const WHATSAPP_NUMBER = "919217999355";
 
 const furnitureRepairGreaterKailash: SeoPageData = {
   slug: "furniture-repair-greater-kailash",
-  title: "Furniture Repair Greater Kailash – Doorstep Service | Same Day | From ₹599",
-  metaDescription: "Furniture repair in Greater Kailash from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. GK I & GK II. 6-month warranty. Call FurniRevive!",
+  title: "Furniture Repair Greater Kailash – Doorstep Service",
+  metaDescription: "Furniture repair in Greater Kailash from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. GK I & GK II. 6-month warranty.",
   h1: "Furniture Repair in Greater Kailash – Premium Doorstep Restoration for GK Homes",
   heroSubtitle: "Complete furniture repair for imported sofas, designer chairs, wooden furniture, beds, and wardrobes across GK I and GK II. Free home visit. Same-day slots. 6-month warranty.",
   showcaseImage: {
@@ -94,7 +94,7 @@ const furnitureRepairGreaterKailash: SeoPageData = {
       heading: "Sofa Repair & Restoration in Greater Kailash",
       body: [
         "Sofas in Greater Kailash homes represent a significant investment — from <a href=\"/italian-sofa-repair-delhi\">Italian leather three-seaters</a> sourced from premium Kirti Nagar showrooms to custom sectionals built by local craftsmen to specific room dimensions. When a sofa starts to sag, creak, or show leather cracks, the instinct in GK is to repair properly rather than replace hastily. Our <a href=\"/sofa-repair-greater-kailash\">sofa repair specialists in Greater Kailash</a> have handled hundreds of these restoration jobs.",
-        "Sofa repair services we provide in GK include: sinuous spring replacement (sagging base), foam replacement using density-matched CertiPUR foam from <a href=\"/sofa-foam-replacement-cost-delhi\">₹999 per cushion</a>, complete fabric reupholstery from <a href=\"/sofa-upholstery-price-list-delhi\">₹3,000 per seat</a>, <a href=\"/leather-sofa-repair-delhi\">leather restoration</a> including crack filling and colour redyeing, frame joint re-gluing and structural reinforcement, and full sectional reconfiguration. Every repair comes with a 6-month warranty.",
+        "Sofa repair services we provide in GK include: sinuous spring replacement (sagging base), foam replacement using density-matched CertiPUR foam from <a href=\"/sofa-foam-replacement-cost-delhi\">₹999 per cushion</a>, complete fabric reupholstery from <a href=\"/sofa-upholstery-price-list-delhi\">₹2,000 per seat</a>, <a href=\"/leather-sofa-repair-delhi\">leather restoration</a> including crack filling and colour redyeing, frame joint re-gluing and structural reinforcement, and full sectional reconfiguration. Every repair comes with a 6-month warranty.",
         "Imported sofas from brands like Natuzzi, BoConcept, and Ashley require particularly careful handling — the leather grades, mechanism tolerances, and upholstery construction are different from domestic pieces. Our craftsmen identify the specific construction of each piece before commencing repair, ensuring the method and materials are appropriate. See our <a href=\"/imported-furniture-repair-delhi\">imported furniture repair page</a> and our <a href=\"/blog/imported-furniture-restoration-guide\">restoration guide</a> for more detail.",
       ],
     },
@@ -127,7 +127,7 @@ const furnitureRepairGreaterKailash: SeoPageData = {
     {
       question: "How much does furniture repair cost in Greater Kailash?",
       answer:
-        "Furniture repair in Greater Kailash starts from ₹599 for minor fixes. Foam replacement is from ₹999 per cushion, fabric reupholstery from ₹3,000 per seat, wooden furniture repair from ₹800, and full sofa reupholstery from ₹8,000. We provide a written quote after a free home visit.",
+        "Furniture repair in Greater Kailash starts from ₹599 for minor fixes. Foam replacement is from ₹999 per cushion, fabric reupholstery from ₹2,000 per seat, wooden furniture repair from ₹800, and full sofa reupholstery from ₹8,000. We provide a written quote after a free home visit.",
     },
     {
       question: "Do you repair all types of furniture in GK I and GK II?",
@@ -234,7 +234,7 @@ const furnitureRepairGreaterKailash: SeoPageData = {
     rows: [
       { service: "Minor Repair (joint/leg/spring)", price: "From ₹599" },
       { service: "Foam Replacement", price: "From ₹999/cushion" },
-      { service: "Fabric Reupholstery", price: "From ₹3,000/seat" },
+      { service: "Fabric Reupholstery", price: "From ₹2,000/seat" },
       { service: "Wooden Furniture Repair", price: "From ₹800" },
       { service: "Leather Sofa Restoration", price: "From ₹2,500" },
       { service: "Recliner Mechanism Repair", price: "From ₹1,499" },
@@ -270,7 +270,7 @@ const furnitureRepairGreaterKailash: SeoPageData = {
 
 const furnitureRepairDefenceColony: SeoPageData = {
   slug: "furniture-repair-defence-colony",
-  title: "Furniture Repair Defence Colony – Doorstep Service Near Me | From ₹599 | FurniRevive",
+  title: "Furniture Repair Defence Colony – Doorstep Service Near Me",
   metaDescription: "Furniture repair in Defence Colony from ₹599. Sofa, chair, wooden furniture & antique restoration for independent homes. Free visit, same day. Call now!",
   h1: "Furniture Repair in Defence Colony – Expert Restoration for South Delhi Homes",
   heroSubtitle: "Sofa repair, wooden furniture restoration, chair upholstery, antique care, and complete furniture maintenance for Defence Colony's independent homes. Free home visit. 6-month warranty.",
@@ -359,7 +359,7 @@ const furnitureRepairDefenceColony: SeoPageData = {
       heading: "Sofa Repair & Upholstery Restoration in Defence Colony",
       body: [
         "Sofas in Defence Colony independent homes are typically larger and older than apartment sofas — full-length three-seaters and L-shaped sectionals that have seen years of daily family use. Sagging cushions, broken spring decks, split leather arms, and faded or pilled fabric are the common complaints we address. Our <a href=\"/sofa-repair-defence-colony\">sofa repair service</a> in Defence Colony covers all of these with a guaranteed 6-month outcome.",
-        "For leather sofas, we offer <a href=\"/leather-sofa-repair-delhi\">leather crack repair and restoration</a> using pH-balanced fillers and colour-matched dyes that are indistinguishable from the original leather surface. The <a href=\"/leather-sofa-repair-cost-delhi\">leather restoration process</a> includes cleaning, conditioning, crack filling, redyeing, and protective topcoat — all done on-site in your drawing room without moving the sofa. For fabric sofas, we offer targeted panel replacement or complete reupholstery from <a href=\"/sofa-upholstery-price-list-delhi\">₹3,000 per seat</a>.",
+        "For leather sofas, we offer <a href=\"/leather-sofa-repair-delhi\">leather crack repair and restoration</a> using pH-balanced fillers and colour-matched dyes that are indistinguishable from the original leather surface. The <a href=\"/leather-sofa-repair-cost-delhi\">leather restoration process</a> includes cleaning, conditioning, crack filling, redyeing, and protective topcoat — all done on-site in your drawing room without moving the sofa. For fabric sofas, we offer targeted panel replacement or complete reupholstery from <a href=\"/sofa-upholstery-price-list-delhi\">₹2,000 per seat</a>.",
         "Foam replacement is one of the most impactful sofa repairs for Defence Colony homeowners with ageing sofas. After 8–10 years, even quality foam compresses to half its original thickness, leaving the sofa sitting far too low and providing inadequate support. Our CertiPUR-certified foam replacement service from <a href=\"/sofa-foam-replacement-cost-delhi\">₹999 per cushion</a> restores the sofa to its original height, firmness, and comfort profile — transforming the sitting experience without a rupee spent on replacement.",
       ],
     },
@@ -402,7 +402,7 @@ const furnitureRepairDefenceColony: SeoPageData = {
     {
       question: "How much does furniture repair cost in Defence Colony?",
       answer:
-        "Furniture repair starts from ₹599 for minor fixes. Foam replacement is from ₹999 per cushion, wooden furniture repair from ₹800, fabric reupholstery from ₹3,000 per seat. Our <a href=\"/furniture-repair-price-guide-delhi\">price guide</a> covers typical costs for all furniture types.",
+        "Furniture repair starts from ₹599 for minor fixes. Foam replacement is from ₹999 per cushion, wooden furniture repair from ₹800, fabric reupholstery from ₹2,000 per seat. Our <a href=\"/furniture-repair-price-guide-delhi\">price guide</a> covers typical costs for all furniture types.",
     },
     {
       question: "Can you repair my complete dining set in one visit?",
@@ -496,7 +496,7 @@ const furnitureRepairDefenceColony: SeoPageData = {
     rows: [
       { service: "Minor Repair (joint/leg/spring)", price: "From ₹599" },
       { service: "Foam Replacement", price: "From ₹999/cushion" },
-      { service: "Fabric Reupholstery", price: "From ₹3,000/seat" },
+      { service: "Fabric Reupholstery", price: "From ₹2,000/seat" },
       { service: "Wooden Furniture Repair", price: "From ₹800" },
       { service: "Leather Sofa Restoration", price: "From ₹2,500" },
       { service: "Recliner Mechanism Repair", price: "From ₹1,499" },
@@ -532,7 +532,7 @@ const furnitureRepairDefenceColony: SeoPageData = {
 
 const furnitureRepairGreenPark: SeoPageData = {
   slug: "furniture-repair-green-park",
-  title: "Furniture Repair Green Park – Doorstep Service | Same Day | From ₹599 | FurniRevive",
+  title: "Furniture Repair Green Park – Doorstep Service | FurniRevive",
   metaDescription: "Furniture repair in Green Park from ₹599. Sofa, chair, upholstery & wooden furniture at home in Green Park & Green Park Extension. Free visit. Call now!",
   h1: "Furniture Repair in Green Park – Expert Doorstep Service for Modern Apartments",
   heroSubtitle: "Sofa repair, chair upholstery, recliner servicing, wooden furniture repair, and complete furniture maintenance for Green Park and Green Park Extension apartments. Free home visit. Same-day available.",
@@ -622,7 +622,7 @@ const furnitureRepairGreenPark: SeoPageData = {
       body: [
         "Green Park apartments typically feature modular or sectional sofas — pieces that are often flat-pack assembled and use sinuous spring or no-sag webbing systems rather than traditional coil springs. When these systems fail — webbing snaps, modular connectors loosen, foam compresses — the repair requires knowledge of the specific construction method used. Our <a href=\"/sofa-repair-green-park\">sofa repair team in Green Park</a> is trained in all modern sofa construction types.",
         "Foam replacement is particularly impactful for Green Park apartment sofas. The foam used in most retail sofas at the ₹20,000–₹60,000 price point has a lifespan of 5–7 years before noticeable compression. Our <a href=\"/sofa-foam-replacement-cost-delhi\">foam replacement service from ₹999 per cushion</a> uses CertiPUR-certified high-resilience foam that outlasts the original by several years. Many Green Park residents report their sofa feels better than when new after foam replacement.",
-        "Reupholstery is also popular in Green Park homes as a way to refresh the look of an apartment without purchasing new furniture. Our <a href=\"/sofa-upholstery-price-list-delhi\">fabric reupholstery service from ₹3,000 per seat</a> brings 40+ fabric options to your home for selection. Performance fabrics — stain-resistant, pet-friendly, and easy-clean — are available for practical apartment living. For leather or <a href=\"/leather-sofa-repair-delhi\">leather sofa repair</a>, we offer matching and restoration to keep premium sofas in excellent condition.",
+        "Reupholstery is also popular in Green Park homes as a way to refresh the look of an apartment without purchasing new furniture. Our <a href=\"/sofa-upholstery-price-list-delhi\">fabric reupholstery service from ₹2,000 per seat</a> brings 40+ fabric options to your home for selection. Performance fabrics — stain-resistant, pet-friendly, and easy-clean — are available for practical apartment living. For leather or <a href=\"/leather-sofa-repair-delhi\">leather sofa repair</a>, we offer matching and restoration to keep premium sofas in excellent condition.",
       ],
     },
     {
@@ -664,7 +664,7 @@ const furnitureRepairGreenPark: SeoPageData = {
     {
       question: "How much does furniture repair cost in Green Park?",
       answer:
-        "Furniture repair starts from ₹599 in Green Park. Foam replacement from ₹999 per cushion, fabric reupholstery from ₹3,000 per seat, wooden furniture repair from ₹800. See our <a href=\"/furniture-repair-price-guide-delhi\">price guide</a> for full details.",
+        "Furniture repair starts from ₹599 in Green Park. Foam replacement from ₹999 per cushion, fabric reupholstery from ₹2,000 per seat, wooden furniture repair from ₹800. See our <a href=\"/furniture-repair-price-guide-delhi\">price guide</a> for full details.",
     },
     {
       question: "Can you repair a storage bed with a broken gas lift in Green Park?",
@@ -756,7 +756,7 @@ const furnitureRepairGreenPark: SeoPageData = {
     rows: [
       { service: "Minor Repair (joint/leg/spring)", price: "From ₹599" },
       { service: "Foam Replacement", price: "From ₹999/cushion" },
-      { service: "Fabric Reupholstery", price: "From ₹3,000/seat" },
+      { service: "Fabric Reupholstery", price: "From ₹2,000/seat" },
       { service: "Wooden Furniture Repair", price: "From ₹800" },
       { service: "Leather Sofa Restoration", price: "From ₹2,500" },
       { service: "Recliner Mechanism Repair", price: "From ₹1,499" },
@@ -792,7 +792,7 @@ const furnitureRepairGreenPark: SeoPageData = {
 
 const furnitureRepairHauzKhas: SeoPageData = {
   slug: "furniture-repair-hauz-khas",
-  title: "Furniture Repair Hauz Khas – Designer & Luxury Restoration | From ₹599 | FurniRevive",
+  title: "Furniture Repair Hauz Khas – Designer & Luxury Restoration",
   metaDescription: "Furniture repair in Hauz Khas from ₹599. Designer furniture, imported sofas & antique restoration for HK Village & Enclave. Free visit. Call FurniRevive!",
   h1: "Furniture Repair in Hauz Khas – Boutique Restoration for Designer & Luxury Furniture",
   heroSubtitle: "Premium furniture restoration for designer pieces, imported sofas, antique furniture, and luxury interiors across Hauz Khas Village, Hauz Khas Enclave, and surrounding areas. Free home visit. 6-month warranty.",
@@ -873,7 +873,7 @@ const furnitureRepairHauzKhas: SeoPageData = {
     "Discreet, background-verified craftsmen with advance profile",
     "Full furniture category coverage in a single booking",
     "Transparent pricing from ₹599 with written pre-work quote",
-    "Full reupholstery available in designer-grade fabrics from ₹3,000/seat",
+    "Full reupholstery available in designer-grade fabrics from ₹2,000/seat",
     "6-month workmanship warranty on every repair",
   ],
   contentSections: [
@@ -924,7 +924,7 @@ const furnitureRepairHauzKhas: SeoPageData = {
     {
       question: "How much does furniture repair cost in Hauz Khas?",
       answer:
-        "Furniture repair in Hauz Khas starts from ₹599 for minor work. Foam replacement from ₹999/cushion, fabric reupholstery from ₹3,000/seat, antique restoration from ₹2,500 depending on scope. See our <a href=\"/furniture-repair-price-guide-delhi\">price guide</a> for full details.",
+        "Furniture repair in Hauz Khas starts from ₹599 for minor work. Foam replacement from ₹999/cushion, fabric reupholstery from ₹2,000/seat, antique restoration from ₹2,500 depending on scope. See our <a href=\"/furniture-repair-price-guide-delhi\">price guide</a> for full details.",
     },
     {
       question: "Do you offer evening or weekend appointments in Hauz Khas?",
@@ -1018,7 +1018,7 @@ const furnitureRepairHauzKhas: SeoPageData = {
     rows: [
       { service: "Minor Repair (joint/leg/spring)", price: "From ₹599" },
       { service: "Foam Replacement", price: "From ₹999/cushion" },
-      { service: "Fabric Reupholstery", price: "From ₹3,000/seat" },
+      { service: "Fabric Reupholstery", price: "From ₹2,000/seat" },
       { service: "Wooden Furniture Repair", price: "From ₹800" },
       { service: "Leather Sofa Restoration", price: "From ₹2,500" },
       { service: "Antique Restoration", price: "From ₹2,500" },
@@ -1054,7 +1054,7 @@ const furnitureRepairHauzKhas: SeoPageData = {
 
 const furnitureRepairSouthExtension: SeoPageData = {
   slug: "furniture-repair-south-extension",
-  title: "Furniture Repair South Extension – Premium Doorstep Service | From ₹599 | FurniRevive",
+  title: "Furniture Repair South Extension – Premium Doorstep Service",
   metaDescription: "Furniture repair in South Extension from ₹599. Imported sofa, luxury upholstery & wooden furniture for South Ex I & II. Free visit. Call FurniRevive now!",
   h1: "Furniture Repair in South Extension – Expert Restoration for Premium South Delhi Homes",
   heroSubtitle: "Premium sofa repair, imported furniture restoration, antique care, luxury upholstery, and complete furniture maintenance for South Extension I & II. Free home visit. 6-month warranty.",
@@ -1181,7 +1181,7 @@ const furnitureRepairSouthExtension: SeoPageData = {
     {
       question: "How much does furniture repair cost in South Extension?",
       answer:
-        "Furniture repair starts from ₹599 in South Extension. Foam replacement from ₹999/cushion, fabric reupholstery from ₹3,000/seat, leather restoration from ₹2,500. Our <a href=\"/furniture-repair-price-guide-delhi\">price guide</a> covers all furniture types and services.",
+        "Furniture repair starts from ₹599 in South Extension. Foam replacement from ₹999/cushion, fabric reupholstery from ₹2,000/seat, leather restoration from ₹2,500. Our <a href=\"/furniture-repair-price-guide-delhi\">price guide</a> covers all furniture types and services.",
     },
     {
       question: "Can you repair antique furniture in South Extension?",
@@ -1279,7 +1279,7 @@ const furnitureRepairSouthExtension: SeoPageData = {
     rows: [
       { service: "Minor Repair (joint/leg/spring)", price: "From ₹599" },
       { service: "Foam Replacement", price: "From ₹999/cushion" },
-      { service: "Fabric Reupholstery", price: "From ₹3,000/seat" },
+      { service: "Fabric Reupholstery", price: "From ₹2,000/seat" },
       { service: "Wooden Furniture Repair", price: "From ₹800" },
       { service: "Leather Sofa Restoration", price: "From ₹2,500" },
       { service: "Recliner Mechanism Repair", price: "From ₹1,499" },

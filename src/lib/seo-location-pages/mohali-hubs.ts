@@ -30,14 +30,14 @@ function mohaliRelatedExcluding(slug: string) {
 export const sofaRepairMohali: SeoPageData = {
   slug: "sofa-repair-mohali",
   cityKey: "mohali" as const,
-  title: "Sofa Repair in Mohali from ₹800 | Same-Day Doorstep Service | FurniRevive",
+  title: "Sofa Repair in Mohali from ₹500 | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Mohali from ₹800. Same-day doorstep service in Phase 1–11, Sector 58–79, Aerocity, IT City, Kharar & Zirakpur. Foam, spring, upholstery, recliner repair. Free inspection. 6-month warranty. Call +91 92179 99355.",
+    "Professional sofa repair in Mohali from ₹500. Same-day doorstep service in Phase 1–11, Sector 58–79, Aerocity, IT City, Kharar & Zirakpur.",
   quickAnswer:
     "Sofa repair in Mohali costs ₹800–₹4,500 for most repairs — foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery ₹2,000–₹4,500 per seat. FurniRevive provides same-day home service across all Mohali phases, Aerocity, IT City, Kharar, and Zirakpur with free inspection and a 6-month written warranty. Call +91 92179 99355.",
-  h1: "Sofa Repair in Mohali — Doorstep Service from ₹800",
+  h1: "Sofa Repair in Mohali — Doorstep Service from ₹500",
   heroSubtitle:
-    "Mohali's trusted sofa repair — at your doorstep across all phases, Aerocity, IT City, Sunny Enclave, Kharar & Zirakpur. Starting ₹800. Free inspection. 6-month warranty.",
+    "Mohali's trusted sofa repair — at your doorstep across all phases, Aerocity, IT City, Sunny Enclave, Kharar & Zirakpur. Starting ₹500. Free inspection. 6-month warranty.",
   showcaseImage: {
     heading: "Sofa Repair Before & After — Real Results in Mohali",
     imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
@@ -53,7 +53,7 @@ export const sofaRepairMohali: SeoPageData = {
   whyChoose: [
     { title: "All Mohali Localities Covered", description: "We serve every phase (1–11), all sectors (58–79), Aerocity, IT City, Sunny Enclave, Kharar, Landran, and Zirakpur — complete Mohali coverage." },
     { title: "Same Day Doorstep Service", description: "Book before noon for same-day sofa repair. Our technicians arrive with all materials — no second visits needed." },
-    { title: "Affordable from ₹800", description: "Mohali's most competitive sofa repair rates. Save 50–70% compared to buying new. Transparent quotes with no hidden charges." },
+    { title: "Affordable from ₹500", description: "Mohali's most competitive sofa repair rates. Save 50–70% compared to buying new. Transparent quotes with no hidden charges." },
     { title: "Experienced Specialists", description: "10+ years experience handling fabric, leather, rexine, and all sofa materials common in Mohali's modern apartments with expert precision." },
     { title: "High-Rise Friendly", description: "Experienced with Mohali's premium apartments — Aerocity towers, Phase 7 complexes, GMADA flats. We coordinate with society security seamlessly." },
     { title: "6 Month Warranty", description: "Every sofa repair backed by a written 6-month warranty. Any issue within warranty period fixed free at your Mohali home." },
@@ -74,7 +74,7 @@ export const sofaRepairMohali: SeoPageData = {
     "Frame reinforcement and spring replacement",
     "Recliner mechanism repair — manual and motorised",
     "Apartment and high-rise friendly service",
-    "Starting at just ₹800",
+    "Starting at just ₹500",
     "6-month warranty on all repairs",
     "Free inspection and transparent pricing",
   ],
@@ -96,7 +96,7 @@ export const sofaRepairMohali: SeoPageData = {
     {
       heading: "Sofa Repair Cost in Mohali — Transparent Pricing",
       body: [
-        "Sofa repair in Mohali starts at ₹800 for basic spring fixes. Foam replacement costs ₹1,200–₹3,500 per seat depending on density. Fabric re-upholstery ranges from ₹2,000–₹4,500 per seat. Complete 3-seater sofa restoration: ₹3,000–₹12,000 depending on damage extent and materials chosen.",
+        "Sofa repair in Mohali starts at ₹500 for basic spring fixes. Foam replacement costs ₹1,200–₹3,500 per seat depending on density. Fabric re-upholstery ranges from ₹2,000–₹4,500 per seat. Complete 3-seater sofa restoration: ₹3,000–₹12,000 depending on damage extent and materials chosen.",
         "Professional sofa repair saves Mohali families 50–70% compared to buying new. A sofa costing ₹40,000 new can be fully restored for ₹4,000–₹10,000. We provide a free doorstep inspection and written quote before starting — no hidden charges. For full pricing details see our <a href=\"/sofa-repair-cost-mohali\">Mohali sofa repair cost guide</a>.",
       ],
     },
@@ -114,7 +114,7 @@ export const sofaRepairMohali: SeoPageData = {
     ],
   },
   faqs: [
-    { question: "How much does sofa repair cost in Mohali?", answer: "Sofa repair in Mohali starts at ₹800. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner repair ₹1,499–₹5,500. Free inspection and written quote at your doorstep. Call +91 92179 99355." },
+    { question: "How much does sofa repair cost in Mohali?", answer: "Sofa repair in Mohali starts at ₹500. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner repair ₹1,499–₹5,500. Free inspection and written quote at your doorstep. Call +91 92179 99355." },
     { question: "Do you provide sofa repair in all Mohali phases?", answer: "Yes — FurniRevive covers all Mohali phases (1–11), Sector 58–79, Aerocity, IT City, Sunny Enclave, Kharar, Landran, and Zirakpur. Same-day service available across all areas." },
     { question: "Is same-day sofa repair available in Mohali?", answer: "Yes. Book before noon for same-day sofa repair at your Mohali address. Most repairs — foam replacement, spring fixing, upholstery patching — completed in 2–4 hours in a single visit." },
     { question: "Do you serve Chandigarh from Mohali?", answer: "Yes. Our Mohali team extends coverage to all Chandigarh UT sectors and Panchkula. Same pricing and warranty apply across the entire Tricity region." },
@@ -138,9 +138,9 @@ export const sofaRepairMohali: SeoPageData = {
 export const reclinerRepairMohali: SeoPageData = {
   slug: "recliner-repair-mohali",
   cityKey: "mohali" as const,
-  title: "Recliner Repair in Mohali from ₹1,499 | Manual & Motorised | FurniRevive",
+  title: "Recliner Repair in Mohali from ₹1,499 | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Mohali from ₹1,499. Manual & motorised recliner mechanism fix, motor replacement, upholstery repair. Same-day doorstep service across all phases, Aerocity, IT City & Kharar. 6-month warranty. Call +91 92179 99355.",
+    "Expert recliner repair in Mohali from ₹1,499. Manual & motorised recliner mechanism fix, motor replacement, upholstery repair. Same-day doorstep service.",
   quickAnswer:
     "Recliner repair in Mohali costs ₹1,499–₹5,500. Manual mechanism repair ₹1,499–₹3,000, motorised motor replacement ₹2,999–₹5,500, upholstery repair ₹1,500–₹4,000. FurniRevive provides same-day doorstep service across all Mohali phases, Aerocity, and IT City with free inspection and 6-month warranty. Call +91 92179 99355.",
   h1: "Recliner Repair in Mohali — Manual & Motorised from ₹1,499",
@@ -148,7 +148,7 @@ export const reclinerRepairMohali: SeoPageData = {
     "Mohali's specialist recliner repair service — mechanism fixes, motor replacements, and upholstery restoration at your doorstep. All major brands covered. Same-day service. 6-month warranty.",
   showcaseImage: {
     heading: "Recliner Repair Before & After — Mohali",
-    imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
+    imageUrl: "https://hercules-cdn.com/file_Wf0mo2ViSrP0cT3iw8kwww0J",
     altText: "Recliner mechanism repair in Mohali showing motor and upholstery restoration by FurniRevive",
     caption: "Recliner Repair Mohali — Mechanism & upholstery fix | From ₹1,499 | FurniRevive",
   },
@@ -240,11 +240,11 @@ export const reclinerRepairMohali: SeoPageData = {
 export const furnitureRepairMohali: SeoPageData = {
   slug: "furniture-repair-mohali",
   cityKey: "mohali" as const,
-  title: "Furniture Repair in Mohali from ₹599 | Doorstep Service All Phases | FurniRevive",
+  title: "Furniture Repair in Mohali from ₹599 | FurniRevive",
   metaDescription:
-    "Expert furniture repair in Mohali from ₹599. Sofa, bed, chair, wardrobe, table repair at your doorstep across all phases, Aerocity, IT City, Kharar & Zirakpur. Same-day service. 6-month warranty. Call +91 92179 99355.",
+    "Expert furniture repair in Mohali from ₹599. Sofa, bed, chair, wardrobe, table repair at your doorstep across all phases, Aerocity, IT City.",
   quickAnswer:
-    "Furniture repair in Mohali starts at ₹599. Sofa repair from ₹800, bed repair ₹599–₹3,000, chair repair ₹500–₹2,500, wardrobe repair ₹800–₹4,000. FurniRevive provides same-day doorstep service across all Mohali phases, Aerocity, IT City, and Kharar with free inspection and 6-month warranty. Call +91 92179 99355.",
+    "Furniture repair in Mohali starts at ₹599. Sofa repair from ₹500, bed repair ₹599–₹3,000, chair repair ₹500–₹2,500, wardrobe repair ₹800–₹4,000. FurniRevive provides same-day doorstep service across all Mohali phases, Aerocity, IT City, and Kharar with free inspection and 6-month warranty. Call +91 92179 99355.",
   h1: "Furniture Repair in Mohali — All Types from ₹599",
   heroSubtitle:
     "Complete furniture repair across Mohali — sofas, beds, chairs, tables, wardrobes, and cabinets repaired at your doorstep. Starting ₹599. Free inspection. 6-month warranty.",
@@ -319,7 +319,7 @@ export const furnitureRepairMohali: SeoPageData = {
       { service: "Wardrobe / Cabinet Repair", price: "₹800–₹4,000" },
       { service: "Table Repair (dining/study)", price: "₹500–₹3,000" },
       { service: "Polish & Refinishing", price: "₹1,500–₹8,000" },
-      { service: "Sofa Repair", price: "₹800–₹12,000" },
+      { service: "Sofa Repair", price: "₹500–₹12,000" },
       { service: "Doorstep Visit Charge", price: "₹99–₹199 (adjusted)" },
     ],
   },
@@ -348,9 +348,9 @@ export const furnitureRepairMohali: SeoPageData = {
 export const sofaUpholsteryMohali: SeoPageData = {
   slug: "sofa-upholstery-mohali",
   cityKey: "mohali" as const,
-  title: "Sofa Upholstery in Mohali from ₹2,000/seat | 500+ Fabrics | FurniRevive",
+  title: "Sofa Upholstery in Mohali from ₹2,000/seat | FurniRevive",
   metaDescription:
-    "Professional sofa upholstery in Mohali from ₹2,000 per seat. 500+ fabric options — cotton, velvet, linen, microfibre, leatherette. Doorstep fabric selection and on-site re-upholstery across all phases. 6-month warranty. Call +91 92179 99355.",
+    "Professional sofa upholstery in Mohali from ₹2,000 per seat. 500+ fabric options — cotton, velvet, linen, microfibre, leatherette.",
   quickAnswer:
     "Sofa upholstery in Mohali costs ₹2,000–₹4,500 per seat. Full 3-seater re-upholstery ₹6,000–₹15,000 depending on fabric. 500+ materials available — cotton, velvet, linen, microfibre, rexine, leatherette. FurniRevive provides doorstep fabric selection and on-site upholstery across all Mohali phases. Call +91 92179 99355.",
   h1: "Sofa Upholstery in Mohali — 500+ Fabrics from ₹2,000/seat",
@@ -453,9 +453,9 @@ export const sofaUpholsteryMohali: SeoPageData = {
 export const officeChairRepairMohali: SeoPageData = {
   slug: "office-chair-repair-mohali",
   cityKey: "mohali" as const,
-  title: "Office Chair Repair in Mohali from ₹500 | Gas Lift, Wheels, Armrest | FurniRevive",
+  title: "Office Chair Repair in Mohali from ₹500 | FurniRevive",
   metaDescription:
-    "Office chair repair in Mohali from ₹500. Gas lift replacement, wheel repair, armrest fix, seat foam change. Doorstep service across IT City, Aerocity, all phases. Bulk corporate rates. Call +91 92179 99355.",
+    "Office chair repair in Mohali from ₹500. Gas lift replacement, wheel repair, armrest fix, seat foam change. Doorstep service across IT City, Aerocity.",
   h1: "Office Chair Repair in Mohali — Gas Lift, Wheels & More from ₹500",
   heroSubtitle:
     "Professional office chair repair across Mohali's IT City, Aerocity offices, and all phases. Gas lift, wheels, armrests, tilt mechanism, and seat foam — repaired at your office or home. Bulk rates available.",
@@ -551,9 +551,9 @@ export const officeChairRepairMohali: SeoPageData = {
 export const sameDaySofaRepairMohali: SeoPageData = {
   slug: "same-day-sofa-repair-mohali",
   cityKey: "mohali" as const,
-  title: "Same Day Sofa Repair in Mohali | Book Before Noon | FurniRevive",
+  title: "Same Day Sofa Repair in Mohali | FurniRevive",
   metaDescription:
-    "Same-day sofa repair in Mohali — book before noon, repaired by evening. Foam, spring, upholstery, leather, recliner repair. All phases, Aerocity, IT City & Kharar. Starting ₹800. Call +91 92179 99355.",
+    "Same-day sofa repair in Mohali — book before noon, repaired by evening. Foam, spring, upholstery, leather, recliner repair. All phases, Aerocity, IT City.",
   h1: "Same Day Sofa Repair in Mohali — Book Before Noon",
   heroSubtitle:
     "Urgent sofa repair in Mohali with same-day completion. Book before noon — our technician arrives within 4 hours with all materials. Foam, spring, upholstery, and recliner repairs completed in a single visit.",
@@ -561,12 +561,12 @@ export const sameDaySofaRepairMohali: SeoPageData = {
     heading: "Same Day Sofa Repair Mohali — Fast Turnaround",
     imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
     altText: "Same-day sofa repair service in Mohali with rapid doorstep turnaround by FurniRevive",
-    caption: "Same Day Sofa Repair Mohali — Book before noon | Starting ₹800 | FurniRevive",
+    caption: "Same Day Sofa Repair Mohali — Book before noon | Starting ₹500 | FurniRevive",
   },
   intro: [
     "Expecting guests at your Aerocity apartment tonight? Housewarming at your new Phase 10 flat? Can't sit comfortably on a sagging sofa? FurniRevive's same-day sofa repair in Mohali guarantees your sofa is fixed before the day ends — book before noon and our technician arrives within 4 hours with all materials needed for a single-visit repair.",
     "Same-day availability covers all Mohali phases (1–11), Sector 58–79, Aerocity, IT City, Sunny Enclave, and Kharar. We carry pre-cut foam, spring hardware, common fabrics, and recliner parts so there's no waiting for materials. Most repairs — foam replacement, spring fixing, upholstery patching — are completed in 2–4 hours.",
-    "Starting at ₹800 with the same quality, materials, and 6-month warranty as our scheduled service. Same-day is simply about speed — not cutting corners. For more complex repairs that take longer, see our standard <a href=\"/sofa-repair-mohali\">sofa repair service</a>. For pricing details, check the <a href=\"/sofa-repair-cost-mohali\">Mohali cost guide</a>. Also available as <a href=\"/same-day-sofa-repair-chandigarh\">same-day in Chandigarh</a>.",
+    "Starting at ₹500 with the same quality, materials, and 6-month warranty as our scheduled service. Same-day is simply about speed — not cutting corners. For more complex repairs that take longer, see our standard <a href=\"/sofa-repair-mohali\">sofa repair service</a>. For pricing details, check the <a href=\"/sofa-repair-cost-mohali\">Mohali cost guide</a>. Also available as <a href=\"/same-day-sofa-repair-chandigarh\">same-day in Chandigarh</a>.",
   ],
   whyChoose: [
     { title: "Guaranteed Same-Day Arrival", description: "Book before noon — our technician arrives within 4 hours. No next-day waiting. Your sofa is fixed today." },
@@ -574,7 +574,7 @@ export const sameDaySofaRepairMohali: SeoPageData = {
     { title: "Full Mohali Coverage", description: "Same-day available across all phases (1–11), Sector 58–79, Aerocity, IT City, Sunny Enclave, Kharar, and Zirakpur." },
     { title: "No Compromise on Quality", description: "Same branded materials, same skilled craftsmen, same 6-month warranty as our scheduled service. Speed ≠ shortcuts." },
     { title: "Ideal for Mohali Professionals", description: "IT professionals with tight schedules, new home move-ins, festival prep, sudden sofa failures — same-day handles it all." },
-    { title: "Transparent Same-Day Pricing", description: "Starting ₹800. No rush surcharge. Same rates as our regular service. Free inspection included." },
+    { title: "Transparent Same-Day Pricing", description: "Starting ₹500. No rush surcharge. Same rates as our regular service. Free inspection included." },
   ],
   process: [
     { step: "Call Before Noon", description: "Call +91 92179 99355 before noon. Share photos of the damage. We confirm same-day slot and provide an estimate." },
@@ -592,7 +592,7 @@ export const sameDaySofaRepairMohali: SeoPageData = {
     "Full Mohali coverage — all phases, Aerocity, IT City",
     "Same branded materials and 6-month warranty",
     "Perfect for working professionals and urgent needs",
-    "Starting at ₹800",
+    "Starting at ₹500",
   ],
   contentSections: [
     {
@@ -648,9 +648,9 @@ export const sameDaySofaRepairMohali: SeoPageData = {
 export const doorstepSofaRepairMohali: SeoPageData = {
   slug: "doorstep-sofa-repair-mohali",
   cityKey: "mohali" as const,
-  title: "Doorstep Sofa Repair in Mohali | Home Service All Phases | FurniRevive",
+  title: "Doorstep Sofa Repair in Mohali | FurniRevive",
   metaDescription:
-    "Doorstep sofa repair in Mohali — we come to your home. No transport, no workshop. Foam, spring, upholstery, leather repair at your doorstep across all phases, Aerocity, IT City & Kharar. From ₹800. Call +91 92179 99355.",
+    "Doorstep sofa repair in Mohali — we come to your home. No transport, no workshop.",
   h1: "Doorstep Sofa Repair in Mohali — We Come to You",
   heroSubtitle:
     "No transport, no workshop, no waiting. FurniRevive's doorstep sofa repair brings expert craftsmen, tools, and materials directly to your Mohali home. Complete repair in a single visit.",
@@ -658,12 +658,12 @@ export const doorstepSofaRepairMohali: SeoPageData = {
     heading: "Doorstep Sofa Repair Mohali — At Your Home",
     imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
     altText: "Doorstep sofa repair service in Mohali with technician working at customer home by FurniRevive",
-    caption: "Doorstep Sofa Repair Mohali — No transport needed | From ₹800 | FurniRevive",
+    caption: "Doorstep Sofa Repair Mohali — No transport needed | From ₹500 | FurniRevive",
   },
   intro: [
     "Why struggle to transport a heavy sofa out of your 12th-floor Aerocity apartment or navigate it through a Phase 7 society gate when expert repair can happen right in your drawing room? FurniRevive's doorstep sofa repair in Mohali brings everything needed — skilled craftsmen, professional tools, premium materials — directly to your home. Your sofa never leaves your living room.",
     "We serve all Mohali phases (1–11), Sector 58–79, Aerocity, IT City, Sunny Enclave, Kharar, Landran, and Zirakpur. Whether you live in a ground-floor kothi in Phase 3A or a 20th-floor apartment in Aerocity, our team works neatly and efficiently in your space.",
-    "Doorstep repair eliminates transportation damage risk, workshop waiting time, and the hassle of moving heavy furniture through lifts and narrow corridors. Starting at ₹800. For full pricing, see our <a href=\"/sofa-repair-cost-mohali\">cost guide</a>. For same-day urgency, see <a href=\"/same-day-sofa-repair-mohali\">same-day service</a>. Also available as <a href=\"/doorstep-sofa-repair-chandigarh\">doorstep service in Chandigarh</a>.",
+    "Doorstep repair eliminates transportation damage risk, workshop waiting time, and the hassle of moving heavy furniture through lifts and narrow corridors. Starting at ₹500. For full pricing, see our <a href=\"/sofa-repair-cost-mohali\">cost guide</a>. For same-day urgency, see <a href=\"/same-day-sofa-repair-mohali\">same-day service</a>. Also available as <a href=\"/doorstep-sofa-repair-chandigarh\">doorstep service in Chandigarh</a>.",
   ],
   whyChoose: [
     { title: "Zero Transportation Hassle", description: "Your sofa stays in your home. No awkward manoeuvring through lifts and corridors, no risk of transportation damage, no waiting at workshops." },
@@ -671,7 +671,7 @@ export const doorstepSofaRepairMohali: SeoPageData = {
     { title: "High-Rise Apartment Friendly", description: "Experienced with Mohali's premium towers — Aerocity high-rises, Phase 7 and Phase 10 complexes. Society coordination, lift usage, and neat in-apartment work." },
     { title: "Complete Material Kit", description: "Technicians carry foam, fabric swatches, springs, hardware, and recliner parts. No second visits for common repairs." },
     { title: "Safe for Premium Sofas", description: "Imported leather sofas, oversized L-shapes, and heavy recliners are risky to move. Doorstep repair eliminates all handling damage risk." },
-    { title: "Same Price as Workshop", description: "Doorstep service costs the same as our workshop rate. From ₹800. No convenience surcharge." },
+    { title: "Same Price as Workshop", description: "Doorstep service costs the same as our workshop rate. From ₹500. No convenience surcharge." },
   ],
   process: [
     { step: "Book a Home Visit", description: "Call +91 92179 99355 or WhatsApp photos of your sofa damage. We schedule a visit at your convenience." },
@@ -744,9 +744,9 @@ export const doorstepSofaRepairMohali: SeoPageData = {
 export const leatherSofaRepairMohali: SeoPageData = {
   slug: "leather-sofa-repair-mohali",
   cityKey: "mohali" as const,
-  title: "Leather Sofa Repair in Mohali from ₹1,500 | Crack, Colour, Conditioning | FurniRevive",
+  title: "Leather Sofa Repair in Mohali from ₹1,500 | FurniRevive",
   metaDescription:
-    "Leather sofa repair in Mohali from ₹1,500. Crack filling, colour restoration, tear mending, conditioning. Genuine & faux leather. Doorstep service all phases, Aerocity, IT City & Kharar. 6-month warranty. Call +91 92179 99355.",
+    "Leather sofa repair in Mohali from ₹1,500. Crack filling, colour restoration, tear mending, conditioning. Genuine & faux leather.",
   h1: "Leather Sofa Repair in Mohali — Crack, Colour & Conditioning from ₹1,500",
   heroSubtitle:
     "Mohali's air-conditioned interiors dry leather fast. Our specialists restore genuine and faux leather sofas — crack filling, colour matching, tear mending, and deep conditioning — all at your doorstep. From ₹1,500.",
@@ -842,9 +842,9 @@ export const leatherSofaRepairMohali: SeoPageData = {
 export const carpenterHomeServiceMohali: SeoPageData = {
   slug: "carpenter-home-service-mohali",
   cityKey: "mohali" as const,
-  title: "Carpenter Home Service in Mohali from ₹499 | Doorstep Carpentry | FurniRevive",
+  title: "Carpenter Home Service in Mohali from ₹499 | FurniRevive",
   metaDescription:
-    "Professional carpenter home service in Mohali from ₹499. Furniture repair, assembly, fitting, installation. Doorstep service across all phases, Aerocity, IT City & Kharar. Experienced craftsmen. Call +91 92179 99355.",
+    "Professional carpenter home service in Mohali from ₹499. Furniture repair, assembly, fitting, installation.",
   h1: "Carpenter Home Service in Mohali — Doorstep Carpentry from ₹499",
   heroSubtitle:
     "Need a carpenter at home? FurniRevive's skilled carpenters come to your Mohali doorstep for furniture repair, assembly, fitting, and installation. From ₹499. All phases, Aerocity, IT City & Kharar covered.",
@@ -943,9 +943,9 @@ export const carpenterHomeServiceMohali: SeoPageData = {
 export const sofaRepairCostMohali: SeoPageData = {
   slug: "sofa-repair-cost-mohali",
   cityKey: "mohali" as const,
-  title: "Sofa Repair Cost in Mohali 2026 | Complete Price Guide | FurniRevive",
+  title: "Sofa Repair Cost in Mohali 2026 | FurniRevive",
   metaDescription:
-    "Sofa repair cost in Mohali 2026: foam ₹1,200–₹3,500, spring ₹800–₹2,000, upholstery ₹2,000–₹4,500/seat, leather ₹1,500–₹5,000, recliner ₹1,499–₹5,500. Transparent pricing. Free inspection. Call +91 92179 99355.",
+    "Sofa repair cost in Mohali 2026: foam ₹1,200–₹3,500, spring ₹800–₹2,000, upholstery ₹2,000–₹4,500/seat, leather ₹1,500–₹5,000, recliner ₹1,499–₹5,500.",
   quickAnswer:
     "Sofa repair in Mohali costs ₹800–₹12,000 depending on repair type. Foam replacement ₹1,200–₹3,500 per seat, spring repair ₹800–₹2,000, upholstery ₹2,000–₹4,500 per seat, leather repair ₹1,500–₹5,000, recliner mechanism ₹1,499–₹5,500. Free doorstep inspection with written quote. Call +91 92179 99355.",
   h1: "Sofa Repair Cost in Mohali — 2026 Complete Price Guide",
@@ -1063,9 +1063,9 @@ export const sofaRepairCostMohali: SeoPageData = {
 export const reclinerRepairCostMohali: SeoPageData = {
   slug: "recliner-repair-cost-mohali",
   cityKey: "mohali" as const,
-  title: "Recliner Repair Cost in Mohali 2026 | Manual & Motorised Pricing | FurniRevive",
+  title: "Recliner Repair Cost in Mohali 2026 | FurniRevive",
   metaDescription:
-    "Recliner repair cost in Mohali 2026: manual mechanism ₹1,499–₹3,000, motorised motor ₹2,999–₹5,500, actuator ₹2,000–₹3,500. All brands. Free inspection. Transparent pricing. Call +91 92179 99355.",
+    "Recliner repair cost in Mohali 2026: manual mechanism ₹1,499–₹3,000, motorised motor ₹2,999–₹5,500, actuator ₹2,000–₹3,500. All brands. Free inspection.",
   quickAnswer:
     "Recliner repair in Mohali costs ₹1,499–₹5,500. Manual mechanism repair ₹1,499–₹3,000, motorised motor replacement ₹2,999–₹5,500, actuator ₹2,000–₹3,500, remote/transformer ₹800–₹2,000. Free doorstep diagnosis. All brands covered. Call +91 92179 99355.",
   h1: "Recliner Repair Cost in Mohali — 2026 Complete Price Guide",
@@ -1172,9 +1172,9 @@ export const reclinerRepairCostMohali: SeoPageData = {
 export const furnitureRepairCostMohali: SeoPageData = {
   slug: "furniture-repair-cost-mohali",
   cityKey: "mohali" as const,
-  title: "Furniture Repair Cost in Mohali 2026 | All Furniture Types | FurniRevive",
+  title: "Furniture Repair Cost in Mohali 2026 | FurniRevive",
   metaDescription:
-    "Furniture repair cost in Mohali 2026: chair ₹500–₹2,500, bed ₹599–₹3,000, wardrobe ₹800–₹4,000, table ₹500–₹3,000, polish ₹1,500–₹8,000. Transparent doorstep pricing. Free inspection. Call +91 92179 99355.",
+    "Furniture repair cost in Mohali 2026: chair ₹500–₹2,500, bed ₹599–₹3,000, wardrobe ₹800–₹4,000, table ₹500–₹3,000, polish ₹1,500–₹8,000.",
   quickAnswer:
     "Furniture repair in Mohali costs ₹499–₹15,000 depending on furniture type and damage. Chair repair ₹500–₹2,500, bed repair ₹599–₹3,000, wardrobe ₹800–₹4,000, table ₹500–₹3,000, sofa ₹800–₹12,000, polish ₹1,500–₹8,000. Free doorstep inspection. Call +91 92179 99355.",
   h1: "Furniture Repair Cost in Mohali — 2026 Complete Price Guide",
@@ -1210,7 +1210,7 @@ export const furnitureRepairCostMohali: SeoPageData = {
     "Bed repair from ₹599",
     "Wardrobe repair from ₹800",
     "Table repair from ₹500",
-    "Sofa repair from ₹800",
+    "Sofa repair from ₹500",
     "Polish and refinishing from ₹1,500",
     "Hydraulic bed mechanism from ₹1,000",
     "Free inspection — no obligation",
@@ -1258,7 +1258,7 @@ export const furnitureRepairCostMohali: SeoPageData = {
       { service: "Table Leg Reinforcement", price: "₹500–₹1,500" },
       { service: "Single Piece Polish Touch-up", price: "₹1,500–₹3,000" },
       { service: "Dining Set Polish (table + 6 chairs)", price: "₹4,000–₹8,000" },
-      { service: "Sofa Repair", price: "₹800–₹12,000" },
+      { service: "Sofa Repair", price: "₹500–₹12,000" },
       { service: "Complete Furniture Restoration", price: "₹2,000–₹15,000" },
       { service: "Doorstep Visit Charge", price: "₹99–₹199 (adjusted)" },
     ],

@@ -5,10 +5,10 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const importedFurnitureRepairNorthDelhi: SeoPageData = {
   slug: "imported-furniture-repair-north-delhi",
-  title: "Imported Furniture Repair North Delhi | European & Italian Specialists",
+  title: "Imported Furniture Repair North Delhi",
   metaDescription:
-    "Expert imported furniture repair in North Delhi. European, American, Italian furniture repair with original-spec parts. Civil Lines, Model Town, Rohini. Call FurniRevive.",
-  h1: "Imported Furniture Repair North Delhi | European & Italian Specialists",
+    "Expert imported furniture repair in North Delhi. European, American, Italian furniture repair with original-spec parts. Civil Lines, Model Town, Rohini.",
+  h1: "Imported Furniture Repair North Delhi",
   heroSubtitle:
     "Specialist repair for imported furniture across North Delhi -- European, American, and Italian pieces restored with original-spec materials. Civil Lines, Model Town, Hudson Lane, Rohini, Pitampura, Shalimar Bagh. Transparent pricing. Expert craftsmen.",
   showcaseImage: {
@@ -295,7 +295,7 @@ const reclimerMotorRepairNorthDelhi: SeoPageData = {
   slug: "recliner-motor-repair-north-delhi",
   title: "Recliner Motor Repair North Delhi | Power Recliner Specialists",
   metaDescription:
-    "Expert recliner motor repair in North Delhi. Actuator replacement, control box repair, wiring faults. Rohini, Pitampura, Model Town, Shalimar Bagh. Same-day service. Call FurniRevive.",
+    "Expert recliner motor repair in North Delhi. Actuator replacement, control box repair, wiring faults. Rohini, Pitampura, Model Town, Shalimar Bagh.",
   h1: "Recliner Motor Repair North Delhi | Power Recliner Specialists",
   heroSubtitle:
     "North Delhi's specialist power recliner repair service -- actuator replacement, control box repair, wiring fault diagnosis, and motor replacement across Rohini, Pitampura, Shalimar Bagh, Model Town, Ashok Vihar, and Rohini Sector 9. Same-day service. Rs. 3,500--18,000.",

@@ -3,17 +3,17 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const reclinerRepairDlfPhase3Gurgaon: SeoPageData = {
   slug: "recliner-repair-dlf-phase-3-gurgaon",
-  title: "Recliner Repair in DLF Phase 3 Gurgaon | Doorstep ₹999 | FurniRevive",
+  title: "Recliner Repair in DLF Phase 3 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert recliner repair in DLF Phase 3 Gurgaon — Beverly Park, Trinity Towers, Silver Oaks, DLF City Centre zone. Mechanism, motor & leather repair at your doorstep from ₹999. 6-month warranty.",
+    "Expert recliner repair in DLF Phase 3 Gurgaon — Beverly Park, Trinity Towers, Silver Oaks, DLF City Centre zone.",
   h1: "Recliner Repair in DLF Phase 3, Gurgaon",
   heroSubtitle:
     "DLF Phase 3 — home to Beverly Park I, II & III, Trinity Towers, Silver Oaks, and the bustling DLF City Centre zone — is where quality recliners meet demanding daily use. FurniRevive brings certified recliner repair directly to your doorstep, restoring manual mechanisms, electric motors, and leather upholstery from just ₹999 with a 6-month workmanship warranty.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
-    altText: "Professional sofa repair technician working on a beige premium fabric sofa in a luxury Gurgaon (DLF Phase 3) home — FurniRevive",
-    caption: "Sofa Repair in Gurgaon (DLF Phase 3) | Premium upholstery & foam service | Home visit | FurniRevive",
+    altText: "Professional recliner repair technician working on a beige premium fabric sofa in a luxury Gurgaon (DLF Phase 3) home — FurniRevive",
+    caption: "Recliner Repair in Gurgaon (DLF Phase 3) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
     "FurniRevive offers doorstep recliner repair in DLF Phase 3 Gurgaon covering Beverly Park, Trinity Towers, Silver Oaks, and the DLF City Centre corridor. We fix manual recliner mechanisms, electric motors, actuators, leather cracks, sagging foam, and broken footrests — all at your home. Service starts at ₹999, with a free on-site assessment, a fixed written quote before work begins, and a 6-month warranty on every repair.",

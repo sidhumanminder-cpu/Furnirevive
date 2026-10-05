@@ -7,14 +7,14 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 export const sofaRepairCostDelhi: SeoPageData = {
   slug: "sofa-repair-cost-delhi",
   title:
-    "Sofa Repair Cost in Delhi 2026 | Price List ₹999–₹12,000 | FurniRevive",
+    "Sofa Repair Cost in Delhi 2026 | FurniRevive",
   metaDescription:
-    "Complete sofa repair cost guide for Delhi 2026. Cushion re-stuffing ₹999, re-upholstery ₹3,000–₹8,000, full overhaul ₹5,000–₹12,000. Transparent pricing. Free inspection. Call FurniRevive!",
+    "Complete sofa repair cost guide for Delhi 2026. Cushion re-stuffing ₹500, re-upholstery ₹3,000–₹8,000, full overhaul ₹5,000–₹12,000. Transparent pricing.",
   h1: "Sofa Repair Cost in Delhi — Complete 2026 Price Guide",
   heroSubtitle:
-    "Wondering how much sofa repair costs in Delhi? FurniRevive provides transparent, honest pricing. Cushion work from ₹999, re-upholstery from ₹3,000, full overhaul from ₹5,000. Free inspection and written quotes — no hidden charges.",
+    "Wondering how much sofa repair costs in Delhi? FurniRevive provides transparent, honest pricing. Cushion work from ₹500, re-upholstery from ₹3,000, full overhaul from ₹5,000. Free inspection and written quotes — no hidden charges.",
   quickAnswer:
-    "Sofa repair in Delhi costs ₹999–₹12,000 depending on the type of repair. Single cushion re-stuffing starts at ₹999. Full 3-seater re-upholstery costs ₹3,000–₹8,000. Complete overhaul with frame repair ranges from ₹5,000–₹12,000. FurniRevive provides free inspection with transparent pricing.",
+    "Sofa repair in Delhi costs ₹500–₹12,000 depending on the type of repair. Single cushion re-stuffing starts at ₹500. Full 3-seater re-upholstery costs ₹3,000–₹8,000. Complete overhaul with frame repair ranges from ₹5,000–₹12,000. FurniRevive provides free inspection with transparent pricing.",
   showcaseImage: {
     heading: "Upholstery Before & After — Real Results",
     imageUrl: "https://hercules-cdn.com/file_X69HrS8v3MGEZinAMwkt8MvH",
@@ -23,7 +23,7 @@ export const sofaRepairCostDelhi: SeoPageData = {
   },
   intro: [
     "The first question every Delhi homeowner asks before repairing their sofa is: 'How much will it cost?' It's a fair question — and one that too many repair services dodge with vague answers like 'depends on the work' or 'we'll tell you after we start'. At FurniRevive, we believe you deserve clear, upfront pricing before a single tool touches your sofa. This guide gives you exact sofa repair cost ranges for every type of repair we do in Delhi.",
-    "Sofa repair costs in Delhi depend on three factors: the type of repair needed (cushion work, upholstery, structural, or a combination), the size of your sofa (2-seater, 3-seater, <a href=\"/l-shape-sofa-repair-delhi\">L-shape</a>, sectional), and the materials involved (basic cotton vs <a href=\"/leather-sofa-repair-delhi\">premium leather</a>). Our pricing starts at ₹999 for basic cushion re-stuffing and goes up to ₹12,000 for a complete sofa overhaul — still 50-70% less than buying a comparable new sofa.",
+    "Sofa repair costs in Delhi depend on three factors: the type of repair needed (cushion work, upholstery, structural, or a combination), the size of your sofa (2-seater, 3-seater, <a href=\"/l-shape-sofa-repair-delhi\">L-shape</a>, sectional), and the materials involved (basic cotton vs <a href=\"/leather-sofa-repair-delhi\">premium leather</a>). Our pricing starts at ₹500 for basic cushion re-stuffing and goes up to ₹12,000 for a complete sofa overhaul — still 50-70% less than buying a comparable new sofa.",
     "Every FurniRevive quote is provided in writing after a free home inspection. We break down materials and labour separately so you know exactly what you're paying for. If we inspect your sofa and determine repair isn't worthwhile, we'll tell you honestly rather than push unnecessary work. That level of transparency has earned us a 4.8-star rating from over 10,000 Delhi families.",
   ],
   whyChoose: [
@@ -83,7 +83,7 @@ export const sofaRepairCostDelhi: SeoPageData = {
   benefits: [
     "Complete sofa repair cost transparency before work begins",
     "Free home inspection with zero obligation",
-    "Cushion re-stuffing from ₹999 — Delhi's most affordable",
+    "Cushion re-stuffing from ₹500 — Delhi's most affordable",
     "Full re-upholstery from ₹3,000 for a 3-seater",
     "Complete overhaul from ₹5,000 including frame + upholstery",
     "Save 50-70% compared to buying a new sofa",
@@ -98,7 +98,7 @@ export const sofaRepairCostDelhi: SeoPageData = {
     heading: "Sofa Repair vs Buying New – Which is Better?",
     rows: [
       { label: "New sofa cost", value: "₹25,000 – ₹1,50,000" },
-      { label: "Repair cost", value: "₹999 – ₹12,000" },
+      { label: "Repair cost", value: "₹500 – ₹12,000" },
     ],
     conclusion: [
       "In most cases, repairing a sofa is far more cost-effective than buying a new one. Repairing your sofa can save up to 70–80% while restoring comfort and appearance. Unless the frame is completely damaged, repair is usually the smarter option.",
@@ -109,7 +109,7 @@ export const sofaRepairCostDelhi: SeoPageData = {
     {
       heading: "Sofa Repair Price List — Delhi 2026",
       body: [
-        "Single cushion re-stuffing (1 seat): ₹999–₹1,500. Full 3-seater cushion re-stuffing: ₹2,500–₹4,500. The cost depends on foam density — standard 32-density foam is more affordable while premium 40-density foam costs slightly more but lasts 5-8 years.",
+        "Single cushion re-stuffing (1 seat): ₹500–₹1,500. Full 3-seater cushion re-stuffing: ₹2,500–₹4,500. The cost depends on foam density — standard 32-density foam is more affordable while premium 40-density foam costs slightly more but lasts 5-8 years.",
         "Re-upholstery (fabric change) for a 3-seater: ₹3,000–₹8,000. Cotton and polyester fabrics are at the lower end, while velvet, microfibre, and chenille are mid-range. Genuine leather re-upholstery starts at ₹8,000 and goes up to ₹15,000 for a 3-seater depending on leather grade.",
         "Structural repairs — frame crack repair: ₹1,500–₹3,000. Spring replacement: ₹1,000–₹2,500. Complete frame rebuild: ₹3,000–₹6,000. Recliner mechanism repair: ₹2,000–₹4,000. Motor replacement for powered recliners: ₹3,000–₹5,000.",
         "Full sofa overhaul (cushions + upholstery + frame): ₹5,000–₹12,000 for a standard 3-seater. L-shape sofas: ₹8,000–₹18,000. Sectional sofas: quoted per section. All prices include doorstep service, labour, and materials.",
@@ -187,7 +187,7 @@ export const sofaRepairCostDelhi: SeoPageData = {
     {
       question: "What is the minimum sofa repair cost in Delhi?",
       answer:
-        "The minimum sofa repair cost at FurniRevive is ₹999, covering basic work like single cushion re-stuffing or a small upholstery patch. We provide exact pricing after free home inspection.",
+        "The minimum sofa repair cost at FurniRevive is ₹500, covering basic work like single cushion re-stuffing or a small upholstery patch. We provide exact pricing after free home inspection.",
     },
     {
       question: "How much does full sofa re-upholstery cost in Delhi?",
@@ -217,7 +217,7 @@ export const sofaRepairCostDelhi: SeoPageData = {
     {
       question: "What is the average sofa repair price in Delhi?",
       answer:
-        "Sofa repair prices in Delhi typically start from ₹999 for minor fixes and can go up to ₹12,000 depending on damage, material, and sofa type.",
+        "Sofa repair prices in Delhi typically start from ₹500 for minor fixes and can go up to ₹12,000 depending on damage, material, and sofa type.",
     },
     {
       question: "Is it cheaper to repair a sofa or buy a new one?",
@@ -253,12 +253,12 @@ export const sofaRepairCostDelhi: SeoPageData = {
 export const furnitureRepairCostDelhi: SeoPageData = {
   slug: "furniture-repair-cost-delhi",
   title:
-    "Furniture Repair Cost in Delhi 2026 | Complete Price List | FurniRevive",
+    "Furniture Repair Cost in Delhi 2026 | FurniRevive",
   metaDescription:
-    "Complete furniture repair cost guide for Delhi 2026. Chair ₹599, sofa ₹999, bed ₹1,199, wardrobe ₹799. Transparent pricing. Free inspection. No hidden charges. Call FurniRevive!",
+    "Complete furniture repair cost guide for Delhi 2026. Chair ₹599, sofa ₹500, bed ₹1,199, wardrobe ₹799. Transparent pricing. Free inspection.",
   h1: "Furniture Repair Cost in Delhi — Complete 2026 Price Guide",
   heroSubtitle:
-    "How much does furniture repair cost in Delhi? Chair repair from ₹599, sofa from ₹999, bed from ₹1,199, wardrobe from ₹799. FurniRevive provides transparent, written quotes with free inspection — no hidden charges.",
+    "How much does furniture repair cost in Delhi? Chair repair from ₹599, sofa from ₹500, bed from ₹1,199, wardrobe from ₹799. FurniRevive provides transparent, written quotes with free inspection — no hidden charges.",
   showcaseImage: {
     heading: "Premium Furniture Repair — Expert Service at Your Delhi Home",
     imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
@@ -266,7 +266,7 @@ export const furnitureRepairCostDelhi: SeoPageData = {
     caption: "Furniture Repair Cost in Delhi | Sofa, chair & bed repair | Free inspection | FurniRevive",
   },
   quickAnswer:
-    "Furniture repair cost in Delhi varies by item: chair repair ₹599–₹3,000, sofa repair ₹999–₹12,000, bed repair ₹1,199–₹5,000, wardrobe repair ₹799–₹4,000, table repair ₹699–₹3,000. FurniRevive offers free inspection and transparent written quotes.",
+    "Furniture repair cost in Delhi varies by item: chair repair ₹599–₹3,000, sofa repair ₹500–₹12,000, bed repair ₹1,199–₹5,000, wardrobe repair ₹799–₹4,000, table repair ₹699–₹3,000. FurniRevive offers free inspection and transparent written quotes.",
   intro: [
     "Understanding furniture repair costs in Delhi helps you make informed decisions about whether to repair or replace your damaged furniture. Most Delhi families are surprised to learn that professional furniture repair costs just 30-50% of buying a comparable new piece — making repair the smart financial choice in most cases. This guide covers the complete cost of repairing every type of furniture in Delhi.",
     "At FurniRevive, we've completed over 10,000 furniture repairs across Delhi and have a deep understanding of fair market pricing. Our costs are based on the actual materials used (sourced from Delhi's wholesale markets) and the skilled labour required. We don't inflate prices, and we don't undercut quality to offer misleadingly cheap quotes. What you get is honest, competitive pricing that reflects real value.",
@@ -329,7 +329,7 @@ export const furnitureRepairCostDelhi: SeoPageData = {
   benefits: [
     "Complete furniture repair pricing guide for all items",
     "Chair repair from ₹599 — Delhi's most competitive",
-    "Sofa repair from ₹999 with premium materials",
+    "Sofa repair from ₹500 with premium materials",
     "Bed repair from ₹1,199 including structural work",
     "Wardrobe repair from ₹799 — hinges, doors, shelves",
     "Table repair from ₹699 — legs, joints, surfaces",
@@ -345,7 +345,7 @@ export const furnitureRepairCostDelhi: SeoPageData = {
       heading: "Complete Furniture Repair Cost Guide — Delhi 2026",
       body: [
         "Chair repair: Basic joint tightening ₹599–₹800. Office chair gas lift replacement ₹800–₹1,500. Dining chair re-upholstery ₹1,000–₹3,000 per chair. Full office chair overhaul ₹1,500–₹3,000.",
-        "Sofa repair: Single cushion re-stuffing ₹999–₹1,500. Full 3-seater re-upholstery ₹3,000–₹8,000. Frame repair ₹1,500–₹3,000. Complete overhaul ₹5,000–₹12,000. L-shape sofa ₹8,000–₹18,000.",
+        "Sofa repair: Single cushion re-stuffing ₹500–₹1,500. Full 3-seater re-upholstery ₹3,000–₹8,000. Frame repair ₹1,500–₹3,000. Complete overhaul ₹5,000–₹12,000. L-shape sofa ₹8,000–₹18,000.",
         "Bed repair: Slat replacement ₹1,199–₹2,000. Headboard repair ₹1,500–₹3,000. Hydraulic storage repair ₹2,000–₹3,500. Complete frame rebuild ₹3,000–₹5,000.",
         "Wardrobe repair: Hinge replacement ₹799–₹1,200. Sliding door track repair ₹1,000–₹2,500. Shelf reinforcement ₹800–₹1,500. Full door panel replacement ₹2,000–₹4,000.",
         "Table repair: Wobbly leg fix ₹699–₹1,000. Joint reinforcement ₹800–₹1,500. Surface refinishing ₹1,500–₹4,000. Extension mechanism repair ₹1,000–₹2,500.",
@@ -370,7 +370,7 @@ export const furnitureRepairCostDelhi: SeoPageData = {
     {
       question: "What is the cheapest furniture repair in Delhi?",
       answer:
-        "The most affordable repair is basic chair joint tightening starting at ₹599. Sofa cushion work starts at ₹999. Wardrobe hinge replacement starts at ₹799.",
+        "The most affordable repair is basic chair joint tightening starting at ₹599. Sofa cushion work starts at ₹500. Wardrobe hinge replacement starts at ₹799.",
     },
     {
       question: "Do you provide free quotes for furniture repair?",
@@ -429,20 +429,20 @@ export const furnitureRepairCostDelhi: SeoPageData = {
 export const affordableFurnitureRepairDelhi: SeoPageData = {
   slug: "affordable-furniture-repair-delhi",
   title:
-    "Affordable Furniture Repair Delhi | Budget-Friendly Prices | FurniRevive",
+    "Affordable Furniture Repair Delhi | FurniRevive",
   metaDescription:
-    "Affordable furniture repair in Delhi from ₹599. Budget-friendly sofa, chair, bed, wardrobe repair without compromising quality. Doorstep service. 6-month warranty. Call FurniRevive!",
+    "Affordable furniture repair in Delhi from ₹599. Budget-friendly sofa, chair, bed, wardrobe repair without compromising quality. Doorstep service.",
   h1: "Affordable Furniture Repair in Delhi — Quality Work, Budget-Friendly Prices",
   heroSubtitle:
-    "Quality furniture repair doesn't have to be expensive. FurniRevive offers Delhi's most affordable repair service — chairs from ₹599, sofas from ₹999, beds from ₹1,199. Professional work, premium materials, 6-month warranty.",
+    "Quality furniture repair doesn't have to be expensive. FurniRevive offers Delhi's most affordable repair service — chairs from ₹599, sofas from ₹500, beds from ₹1,199. Professional work, premium materials, 6-month warranty.",
   showcaseImage: {
     heading: "Affordable Furniture Repair — Quality Work at Budget-Friendly Prices",
     imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
     altText: "Professional furniture repair technician working on upholstery at a Delhi home — affordable quality repair by FurniRevive",
-    caption: "Affordable Furniture Repair Delhi | Sofa from ₹999 | Doorstep service | FurniRevive",
+    caption: "Affordable Furniture Repair Delhi | Sofa from ₹500 | Doorstep service | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive is Delhi's most affordable furniture repair service. Chair repair from ₹599, sofa from ₹999, bed from ₹1,199, wardrobe from ₹799. We use premium materials, provide doorstep service across all Delhi localities, and back every repair with a 6-month warranty — all at budget-friendly prices.",
+    "FurniRevive is Delhi's most affordable furniture repair service. Chair repair from ₹599, sofa from ₹500, bed from ₹1,199, wardrobe from ₹799. We use premium materials, provide doorstep service across all Delhi localities, and back every repair with a 6-month warranty — all at budget-friendly prices.",
   intro: [
     "Many Delhi families put off furniture repair because they assume it's expensive — or worse, they buy cheap new furniture that falls apart within a year. FurniRevive proves that affordable furniture repair and quality workmanship are not mutually exclusive. We've built Delhi's most cost-effective furniture repair service by sourcing materials at trade prices, maintaining a lean mobile workforce, and focusing on doing high volumes of quality repairs.",
     "Our affordable pricing starts at just ₹599 for chair repair and covers every type of home furniture — sofas, beds, dining tables, wardrobes, bookshelves, TV units, and kitchen cabinets. 'Affordable' at FurniRevive doesn't mean cheap materials or shortcuts. It means fair pricing that reflects actual costs without the markup that many Delhi repair services add. We use the same high-density foam, premium fabrics, and quality hardware regardless of whether you choose our most basic or most comprehensive repair package.",
@@ -452,7 +452,7 @@ export const affordableFurnitureRepairDelhi: SeoPageData = {
     {
       title: "Delhi's Lowest Starting Prices",
       description:
-        "Chair repair from ₹599, sofa from ₹999, bed from ₹1,199, wardrobe from ₹799. Our prices are consistently 20-30% lower than other Delhi repair services.",
+        "Chair repair from ₹599, sofa from ₹500, bed from ₹1,199, wardrobe from ₹799. Our prices are consistently 20-30% lower than other Delhi repair services.",
     },
     {
       title: "Affordable ≠ Cheap Quality",
@@ -527,7 +527,7 @@ export const affordableFurnitureRepairDelhi: SeoPageData = {
     {
       heading: "Affordable Furniture Repair Prices — Delhi 2026",
       body: [
-        "Chair repair: ₹599–₹3,000. This covers dining chair joint tightening, office chair gas lift replacement, re-upholstery, and full restoration. Sofa repair: ₹999–₹12,000. From basic cushion re-stuffing to complete overhaul with frame repair and re-upholstery. Bed repair: ₹1,199–₹5,000. Including slat replacement, headboard repair, hydraulic storage fixing, and frame reinforcement.",
+        "Chair repair: ₹599–₹3,000. This covers dining chair joint tightening, office chair gas lift replacement, re-upholstery, and full restoration. Sofa repair: ₹500–₹12,000. From basic cushion re-stuffing to complete overhaul with frame repair and re-upholstery. Bed repair: ₹1,199–₹5,000. Including slat replacement, headboard repair, hydraulic storage fixing, and frame reinforcement.",
         "Wardrobe repair: ₹799–₹4,000. Hinge replacement, sliding door repair, shelf reinforcement, and panel replacement. Table repair: ₹699–₹3,000. Wobbly legs, joint repair, surface refinishing, and extension mechanism fixing. Multi-item repairs are quoted together with additional per-item savings.",
       ],
     },
@@ -543,7 +543,7 @@ export const affordableFurnitureRepairDelhi: SeoPageData = {
     {
       question: "What is the cheapest furniture repair you offer in Delhi?",
       answer:
-        "Our most affordable repair is basic chair joint tightening at ₹599. Sofa cushion re-stuffing starts at ₹999. Wardrobe hinge replacement at ₹799. All include doorstep service and 6-month warranty.",
+        "Our most affordable repair is basic chair joint tightening at ₹599. Sofa cushion re-stuffing starts at ₹500. Wardrobe hinge replacement at ₹799. All include doorstep service and 6-month warranty.",
     },
     {
       question: "Do you use cheap materials to keep prices low?",

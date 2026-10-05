@@ -8,9 +8,9 @@ import { BRAND_NAME, PHONE_DISPLAY } from "@/lib/seo-constants.ts";
 export const sofaFoamReplacementCostDelhi: SeoPageData = {
   slug: "sofa-foam-replacement-cost-delhi",
   title:
-    "Sofa Foam Replacement Cost in Delhi 2026: Complete Price Guide | FurniRevive",
+    "Sofa Foam Replacement Cost in Delhi 2026: Complete Price Guide",
   metaDescription:
-    "Sofa foam replacement cost in Delhi: 32D foam ₹800–₹1,500 per cushion, 40D ₹1,200–₹2,200, memory foam ₹2,000–₹4,500. Full 3-seater from ₹6,000. FurniRevive.",
+    "Sofa foam replacement cost in Delhi: 32D foam ₹800–₹1,500 per cushion, 40D ₹1,200–₹2,200, memory foam ₹2,000–₹4,500. Full 3-seater from ₹6,000.",
   h1: "Sofa Foam Replacement Cost in Delhi 2026 — Complete Price Guide",
   heroSubtitle:
     "Sofa cushions gone flat? This guide covers every sofa foam replacement cost in Delhi NCR — foam density options, per-cushion pricing, and full sofa replacement packages.",
@@ -369,9 +369,9 @@ export const sofaFoamReplacementCostDelhi: SeoPageData = {
 export const sofaUpholsteryPriceListDelhi: SeoPageData = {
   slug: "sofa-upholstery-price-list-delhi",
   title:
-    "Sofa Upholstery Price List Delhi 2026: Cost Guide for All Fabrics | FurniRevive",
+    "Sofa Upholstery Price List Delhi 2026: Cost Guide for All Fabrics",
   metaDescription:
-    "Sofa upholstery price list for Delhi 2026. Budget fabric ₹3,000/seat, velvet ₹5,000/seat, leather ₹8,000–₹25,000/seat. Complete guide by FurniRevive.",
+    "Sofa upholstery price list for Delhi 2026. Budget fabric ₹2,000/seat, velvet ₹5,000/seat, leather ₹8,000–₹25,000/seat. Complete guide by FurniRevive.",
   h1: "Sofa Upholstery Price List Delhi 2026 — Complete Cost Guide for All Fabrics",
   heroSubtitle:
     "Thinking of reupholstering your sofa in Delhi? This complete price list covers every fabric type, sofa size, and style — with honest costs and no hidden charges.",

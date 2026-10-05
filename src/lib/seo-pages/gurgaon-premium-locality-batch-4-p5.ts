@@ -4,17 +4,17 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 export const recliinerRepairUdyogViharGurgaon: SeoPageData = {
   slug: "recliner-repair-udyog-vihar-gurgaon",
   title:
-    "Recliner Repair in Udyog Vihar Gurgaon | Office & Commercial ₹999 | FurniRevive",
+    "Recliner Repair in Udyog Vihar Gurgaon | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Udyog Vihar Gurgaon — corporate offices, hotel lobbies & executive suites across Phases I–VI. Motor, mechanism & leather repair from ₹999. B2B contracts available.",
+    "Expert recliner repair in Udyog Vihar Gurgaon — corporate offices, hotel lobbies & executive suites across Phases I–VI.",
   h1: "Recliner Repair in Udyog Vihar, Gurgaon",
   heroSubtitle:
     "Udyog Vihar's sprawling corporate campus — spanning Phases I through VI and sitting minutes from DLF Cyber City — is home to hundreds of executive offices, business hotels, and premium boardrooms packed with high-end recliners, massage chairs, and ergonomic executive seating. When a director's motorised recliner stalls mid-meeting, a hotel-suite massage chair stops responding, or a lobby's accent recliners show worn leather, FurniRevive's commercial recliner repair team responds fast, restores full function, and minimises disruption to your operations.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
-    altText: "Professional sofa repair technician working on a beige premium fabric sofa in a luxury Gurgaon (Udyog Vihar) home — FurniRevive",
-    caption: "Sofa Repair in Gurgaon (Udyog Vihar) | Premium upholstery & foam service | Home visit | FurniRevive",
+    altText: "Professional recliner repair technician working on a beige premium fabric sofa in a luxury Gurgaon (Udyog Vihar) home — FurniRevive",
+    caption: "Recliner Repair in Gurgaon (Udyog Vihar) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
 
   quickAnswer:

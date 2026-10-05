@@ -5,9 +5,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const luxuryFurnitureRestorationDelhi: SeoPageData = {
   slug: "luxury-furniture-restoration-delhi",
-  title: "Luxury Furniture Restoration in Delhi | Premium Restoration Specialists",
+  title: "Luxury Furniture Restoration in Delhi",
   metaDescription:
-    "Expert luxury furniture restoration in Delhi. Designer, imported & heritage furniture restored at your doorstep. South Delhi specialists. Free inspection. Call FurniRevive.",
+    "Expert luxury furniture restoration in Delhi. Designer, imported & heritage furniture restored at your doorstep. South Delhi specialists. Free inspection.",
   h1: "Luxury Furniture Restoration Delhi — Preserve Your Most Valuable Furniture",
   heroSubtitle:
     "Delhi's foremost luxury furniture restoration specialists. From Italian leather sofas in Friends Colony to hand-carved heritage pieces in Vasant Vihar, FurniRevive restores designer, imported, and premium furniture to showroom condition — entirely at your doorstep. Free inspection. Transparent pricing. 6-month warranty.",
@@ -212,9 +212,9 @@ const luxuryFurnitureRestorationDelhi: SeoPageData = {
 
 const importedFurnitureRepairDelhi: SeoPageData = {
   slug: "imported-furniture-repair-delhi",
-  title: "Imported Furniture Repair in Delhi | Experts in Luxury Furniture Restoration",
+  title: "Imported Furniture Repair in Delhi",
   metaDescription:
-    "Specialist imported furniture repair in Delhi. Italian, European & luxury imported sofas repaired at doorstep. Parts sourcing. South Delhi experts. FurniRevive.",
+    "Specialist imported furniture repair in Delhi. Italian, European & luxury imported sofas repaired at doorstep. Parts sourcing. South Delhi experts.",
   h1: "Imported Furniture Repair Delhi — Specialist Restoration for International Pieces",
   heroSubtitle:
     "Delhi's specialist repair service for imported furniture. Italian sofas, European dining sets, luxury recliners, and international designer pieces — restored with the right materials, the right techniques, and genuine expertise. Doorstep service across all South Delhi neighbourhoods. Free inspection. Parts sourcing included.",
@@ -416,7 +416,7 @@ const italianSofaRepairDelhi: SeoPageData = {
   slug: "italian-sofa-repair-delhi",
   title: "Italian Sofa Repair in Delhi | Imported Leather Sofa Specialists",
   metaDescription:
-    "Expert Italian sofa repair in Delhi. Natuzzi, Poltrona Frau & premium Italian leather sofas restored. South Delhi doorstep service. Repair vs replace guidance. FurniRevive.",
+    "Expert Italian sofa repair in Delhi. Natuzzi, Poltrona Frau & premium Italian leather sofas restored. South Delhi doorstep service.",
   h1: "Italian Sofa Repair Delhi — Restore Your Premium Italian Leather Sofa",
   heroSubtitle:
     "Delhi's specialist Italian sofa repair service. Natuzzi, Poltrona Frau, B&B Italia, and all premium Italian leather sofas restored with European-grade materials and authentic craftsmanship — entirely at your doorstep across South Delhi. Free inspection. Repair vs replace guidance included.",
@@ -610,9 +610,9 @@ const italianSofaRepairDelhi: SeoPageData = {
 
 const designerFurnitureRepairDelhi: SeoPageData = {
   slug: "designer-furniture-repair-delhi",
-  title: "Designer Furniture Repair in Delhi | Signature Piece Restoration Experts",
+  title: "Designer Furniture Repair in Delhi",
   metaDescription:
-    "Premium designer furniture repair in Delhi. Protecting aesthetics of signature & bespoke pieces. South Delhi doorstep specialists. Free inspection. FurniRevive.",
+    "Premium designer furniture repair in Delhi. Protecting aesthetics of signature & bespoke pieces. South Delhi doorstep specialists. Free inspection.",
   h1: "Designer Furniture Repair Delhi — Preserve Your Signature Furniture Pieces",
   heroSubtitle:
     "Delhi's specialist repair service for designer and signature furniture. From iconic designer chairs to bespoke commissioned pieces, FurniRevive restores designer furniture with precision that preserves original aesthetics and structural integrity. Doorstep service across South Delhi. Free inspection.",
@@ -813,9 +813,9 @@ const designerFurnitureRepairDelhi: SeoPageData = {
 
 const customFurnitureRepairDelhi: SeoPageData = {
   slug: "custom-furniture-repair-delhi",
-  title: "Custom Furniture Repair in Delhi | Bespoke & Made-to-Order Specialists",
+  title: "Custom Furniture Repair in Delhi",
   metaDescription:
-    "Expert custom & bespoke furniture repair in Delhi. Handcrafted, made-to-order sofas & structural modifications at doorstep. South Delhi specialists. FurniRevive.",
+    "Expert custom & bespoke furniture repair in Delhi. Handcrafted, made-to-order sofas & structural modifications at doorstep. South Delhi specialists.",
   h1: "Custom Furniture Repair Delhi — Expert Restoration for Bespoke Furniture",
   heroSubtitle:
     "Delhi's specialist repair service for custom and bespoke furniture. Made-to-order sofas, handcrafted pieces, bespoke upholstery, and customised configurations — restored with craftsmen who understand the original design intent. Doorstep service across South Delhi. Free inspection.",

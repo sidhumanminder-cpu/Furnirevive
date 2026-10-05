@@ -14,9 +14,9 @@ export type FaqEntry = {
 
 export const UPHOLSTERY_FAQS: FaqEntry[] = [
   {
-    question: "How much does sofa reupholstery cost in Gurgaon?",
+    question: "How much does sofa reupholstery cost?",
     answer:
-      "Sofa reupholstery in Gurgaon typically starts from ₹3,500 for a 2-seater and ₹5,500 for a 3-seater, depending on fabric choice and foam density. L-shaped sofas start from ₹8,000. Premium fabrics like velvet or chenille cost more than leatherette or polyester. WhatsApp us photos for an exact quote.",
+      "Sofa reupholstery starts from ₹2,000 per seat, so your total depends on the number of seats, fabric choice and foam density. L-shaped sofas and sectionals are priced the same way, per seat. Premium fabrics like velvet or chenille cost more than leatherette or polyester. WhatsApp us photos for an exact quote.",
     category: "cost",
   },
   {
@@ -26,13 +26,13 @@ export const UPHOLSTERY_FAQS: FaqEntry[] = [
     category: "timeline",
   },
   {
-    question: "Can you come to my home in Gurgaon for an inspection?",
+    question: "Can you come to my home for an inspection?",
     answer:
-      "Yes, we offer free doorstep inspections across Gurgaon. Our technician visits your home, assesses the sofa's frame, foam, and current fabric, and gives you a transparent quote. No obligation to proceed.",
+      "Yes, we offer free doorstep inspections across our service areas. Our technician visits your home, assesses the sofa's frame, foam, and current fabric, and gives you a transparent quote. No obligation to proceed.",
     category: "process",
   },
   {
-    question: "Which fabric is best for homes with pets in Gurgaon?",
+    question: "Which fabric is best for homes with pets?",
     answer:
       "Microfiber and leatherette are the best choices for pet owners. Microfiber resists pet hair and scratches, while leatherette is easy to wipe clean. Avoid velvet and suede — they snag with pet claws and absorb odours. We carry a range of pet-friendly fabrics in our catalogue.",
     category: "fabric",
@@ -40,7 +40,7 @@ export const UPHOLSTERY_FAQS: FaqEntry[] = [
   {
     question: "What foam density should I choose for my sofa?",
     answer:
-      "For daily family use, we recommend 36D foam — it balances comfort and durability for 6+ years. For luxury sofas in DLF Phases or Golf Course Road properties, we recommend 40D for maximum shape retention. 32D is suitable for guest sofas or occasional use. Our technician advises based on your sofa and usage.",
+      "For daily family use, we recommend 36D foam — it balances comfort and durability for 6+ years. For luxury sofas in premium societies and villas, we recommend 40D for maximum shape retention. 32D is suitable for guest sofas or occasional use. Our technician advises based on your sofa and usage.",
     category: "foam",
   },
   {
@@ -64,7 +64,7 @@ export const UPHOLSTERY_FAQS: FaqEntry[] = [
   {
     question: "Can you reupholster an L-shaped or sectional sofa?",
     answer:
-      "Yes, we specialise in L-shaped and sectional sofas. Our technician works at your home — no pickup needed. L-shaped sofas typically take 1–2 days and start from ₹8,000 depending on fabric and size.",
+      "Yes, we specialise in L-shaped and sectional sofas. Our technician works at your home — no pickup needed. L-shaped sofas typically take 1–2 days and start from ₹2,000 per seat, depending on fabric and size.",
     category: "process",
   },
   {
@@ -80,9 +80,9 @@ export const UPHOLSTERY_FAQS: FaqEntry[] = [
     category: "fabric",
   },
   {
-    question: "Do you offer stain-resistant fabric for Gurgaon's dusty climate?",
+    question: "Do you offer stain-resistant fabric for dusty, high-traffic homes?",
     answer:
-      "Yes. Leatherette, microfiber, and certain jacquard weaves are inherently stain-resistant. We also apply optional Teflon fabric protector treatment that repels liquids and dust — ideal for Gurgaon's dust-heavy environment. Ask our technician about this add-on during the inspection.",
+      "Yes. Leatherette, microfiber, and certain jacquard weaves are inherently stain-resistant. We also apply optional Teflon fabric protector treatment that repels liquids and dust — ideal for homes facing dust and heat in our region. Ask our technician about this add-on during the inspection.",
     category: "fabric",
   },
 ];

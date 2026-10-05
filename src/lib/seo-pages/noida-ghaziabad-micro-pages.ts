@@ -23,15 +23,15 @@ const GHAZIABAD_RELATED = [
 export const sofaRepairGreaterNoida: SeoPageData = {
   slug: "sofa-repair-greater-noida",
 
-  title: "Sofa Repair Greater Noida | ₹999 Doorstep | Warranty",
+  title: "Sofa Repair Greater Noida | ₹500 Doorstep | Warranty",
 
   metaDescription:
-    "Expert sofa repair in Greater Noida & Noida Extension from ₹999. Gaur City, ATS, Ace City, Supertech covered. Leather, fabric, recliner repair. 6-month warranty.",
+    "Expert sofa repair in Greater Noida & Noida Extension from ₹500. Gaur City, ATS, Ace City, Supertech covered. Leather, fabric, recliner repair.",
 
   h1: "Sofa Repair in Greater Noida & Noida Extension — Doorstep Service",
 
   heroSubtitle:
-    "Doorstep sofa repair across Greater Noida West (Noida Extension), Greater Noida proper, Knowledge Park, Pari Chowk and all major societies. Fabric, leather, recliner — 6-month warranty from ₹999.",
+    "Doorstep sofa repair across Greater Noida West (Noida Extension), Greater Noida proper, Knowledge Park, Pari Chowk and all major societies. Fabric, leather, recliner — 6-month warranty from ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -47,7 +47,7 @@ export const sofaRepairGreaterNoida: SeoPageData = {
 
     "FurniRevive's doorstep sofa repair service is designed for Greater Noida's high-rise apartment lifestyle. Our craftsmen travel directly to your tower — whether it is in Gaur City's 40-storey buildings in Sector 4 Greater Noida West or a mid-rise apartment near Knowledge Park — with all tools, fabrics, leather treatments and foam supplies needed to complete the repair inside your apartment. No hauling sofas to workshops, no waiting weeks for a return delivery. Most repairs are completed in a single visit of two to four hours.",
 
-    "Pricing starts at ₹999 for basic fabric patching and foam replacement, our <a href='/leather-sofa-repair-greater-noida'>leather sofa repair services</a> range from ₹2,999 to ₹8,000, full reupholstery from ₹3,500 per seat, and <a href='/recliner-repair-greater-noida'>expert recliner repair</a> from ₹1,500 to ₹4,000. Every customer receives a transparent written quote after inspection and a 6-month warranty on all completed work.",
+    "Pricing starts at ₹500 for basic fabric patching and foam replacement, our <a href='/leather-sofa-repair-greater-noida'>leather sofa repair services</a> range from ₹2,999 to ₹8,000, full reupholstery from ₹2,000 per seat, and <a href='/recliner-repair-greater-noida'>expert recliner repair</a> from ₹1,500 to ₹4,000. Every customer receives a transparent written quote after inspection and a 6-month warranty on all completed work.",
   ],
 
   whyChoose: [
@@ -110,9 +110,9 @@ export const sofaRepairGreaterNoida: SeoPageData = {
     "Doorstep sofa repair across all Greater Noida and Noida Extension societies",
     "Serving Gaur City, ATS Destinaire, Ace City, Supertech, Ajnara and more",
     "Coverage across Knowledge Park, Pari Chowk, Alpha, Beta and Chi-Phi sectors",
-    "Starting price ₹999 for basic fabric sofa repairs",
+    "Starting price ₹500 for basic fabric sofa repairs",
     "Leather restoration from ₹2,999 with colour-matched treatments",
-    "Full reupholstery from ₹3,500 per seat with 400+ fabric options",
+    "Full reupholstery from ₹2,000 per seat with 400+ fabric options",
     "Recliner mechanism repair from ₹1,500 including motor replacement",
     "Spring and foam replacement for sagging cushion restoration",
     "Expert with Pepperfry, Urban Ladder, Wakefit and all online sofa brands",
@@ -146,7 +146,7 @@ export const sofaRepairGreaterNoida: SeoPageData = {
     {
       heading: "Pricing and Warranty for Greater Noida Residents",
       body: [
-        "Greater Noida residents — many of them first-time homeowners — are naturally cost-conscious. We publish our price ranges openly: basic fabric tear repair starts at ₹999, single-seat foam replacement costs ₹800 to ₹2,500, rexine replacement starts at ₹1,500 per seat, leather restoration ranges from ₹2,999 to ₹8,000, full fabric reupholstery from ₹3,500 per seat, and recliner mechanism repair from ₹1,500 to ₹4,000. These are ranges — the exact quote depends on your sofa's size, material, damage extent and number of components needing attention.",
+        "Greater Noida residents — many of them first-time homeowners — are naturally cost-conscious. We publish our price ranges openly: basic fabric tear repair starts at ₹999, single-seat foam replacement costs ₹800 to ₹2,500, rexine replacement starts at ₹1,500 per seat, leather restoration ranges from ₹2,999 to ₹8,000, full fabric reupholstery from ₹2,000 per seat, and recliner mechanism repair from ₹1,500 to ₹4,000. These are ranges — the exact quote depends on your sofa's size, material, damage extent and number of components needing attention.",
         "Our 6-month warranty is a written commitment signed by the craftsman at the end of each job. If any repair fails within six months, we return to your Greater Noida apartment at no charge. This warranty has been the foundation of our reputation across NCR's residential communities. To explore related services, visit our <a href=\"/blog\">Blog</a> or check the <a href=\"/sofa-repair-noida-sector-62\">Sofa Repair Sector 62</a> and <a href=\"/sofa-repair-noida-expressway\">Sofa Repair Noida Expressway</a> pages.",
       ],
     },
@@ -156,7 +156,7 @@ export const sofaRepairGreaterNoida: SeoPageData = {
     {
       question: "How much does sofa repair cost in Greater Noida?",
       answer:
-        "Sofa repair in Greater Noida starts at ₹999 for basic fabric fixes. Leather restoration costs ₹2,999 to ₹8,000, recliner mechanism repair ₹1,500 to ₹4,000, and full reupholstery from ₹3,500 per seat. A transparent written quote is provided after doorstep inspection.",
+        "Sofa repair in Greater Noida starts at ₹500 for basic fabric fixes. Leather restoration costs ₹2,999 to ₹8,000, recliner mechanism repair ₹1,500 to ₹4,000, and full reupholstery from ₹2,000 per seat. A transparent written quote is provided after doorstep inspection.",
     },
     {
       question: "Which societies in Greater Noida West do you serve?",
@@ -194,15 +194,15 @@ export const sofaRepairIndirapuramGhaziabad: SeoPageData = {
   slug: "sofa-repair-indirapuram-ghaziabad",
   category: "Sofa Repair",
 
-  title: "Sofa Repair Near Me in Indirapuram Ghaziabad | ₹999 Home Service",
+  title: "Sofa Repair Near Me in Indirapuram Ghaziabad | ₹500 Home Service",
 
   metaDescription:
-    "Sofa repair near me in Indirapuram Ghaziabad from ₹999. All khands: Niti, Ahinsa, Shakti, Nyay, Abhay, Gyan. Fabric, leather, recliner, sofa cover change near me. 6-month warranty.",
+    "Sofa repair near me in Indirapuram Ghaziabad from ₹500. All khands: Niti, Ahinsa, Shakti, Nyay, Abhay, Gyan.",
 
   h1: "Sofa Repair Near Me in Indirapuram Ghaziabad — All Khands Covered",
 
   heroSubtitle:
-    "Doorstep sofa repair across Indirapuram — Niti Khand, Ahinsa Khand, Shakti Khand, Nyay Khand, Abhay Khand and Gyan Khand. Serving Mahagun, ATS, Shipra and all societies. 6-month warranty from ₹999.",
+    "Doorstep sofa repair across Indirapuram — Niti Khand, Ahinsa Khand, Shakti Khand, Nyay Khand, Abhay Khand and Gyan Khand. Serving Mahagun, ATS, Shipra and all societies. 6-month warranty from ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Ghaziabad Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -218,7 +218,7 @@ export const sofaRepairIndirapuramGhaziabad: SeoPageData = {
 
     "FurniRevive provides a fully doorstep sofa repair service designed for Indirapuram's apartment lifestyle. Our craftsmen travel directly to your society — whether it is Mahagun Moderne in Niti Khand, ATS Greens near the Swarn Jayanti Park boundary, or Shipra Suncity in Ahinsa Khand — with all tools, fabrics, leather treatments and foam supplies needed to complete the repair in a single visit. We handle every sofa type: fabric, rexine, <a href='/leather-sofa-repair-indirapuram'>leather sofa restoration in Indirapuram</a>, velvet, L-shaped sectionals, sofa-cum-beds and recliners — with full <a href='/recliner-repair-indirapuram'>premium seating repair</a> capability — from all brands.",
 
-    "Indirapuram's excellent metro connectivity — with Vaishali Metro and Kaushambi Metro stations flanking the township — means our service teams reach your society gate quickly. Pricing starts at ₹999 for basic fabric repairs, leather restoration from ₹2,999, full reupholstery from ₹3,500 per seat, and recliner repair from ₹1,500. Every job comes with a transparent quote and a 6-month written warranty.",
+    "Indirapuram's excellent metro connectivity — with Vaishali Metro and Kaushambi Metro stations flanking the township — means our service teams reach your society gate quickly. Pricing starts at ₹500 for basic fabric repairs, leather restoration from ₹2,999, full reupholstery from ₹2,000 per seat, and recliner repair from ₹1,500. Every job comes with a transparent quote and a 6-month written warranty.",
   ],
 
   whyChoose: [
@@ -280,9 +280,9 @@ export const sofaRepairIndirapuramGhaziabad: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across all six Indirapuram khands",
     "Serving Mahagun Moderne, ATS Greens, Shipra Suncity and all major societies",
-    "Starting price ₹999 for basic fabric sofa repairs",
+    "Starting price ₹500 for basic fabric sofa repairs",
     "Leather restoration from ₹2,999 with colour-matched treatments",
-    "Full reupholstery from ₹3,500 per seat with 400+ options",
+    "Full reupholstery from ₹2,000 per seat with 400+ options",
     "Recliner mechanism repair from ₹1,500 including motor replacement",
     "L-shape sofa and sofa-cum-bed repair specialists",
     "Rexine and faux leather replacement for budget-friendly restoration",
@@ -317,7 +317,7 @@ export const sofaRepairIndirapuramGhaziabad: SeoPageData = {
     {
       heading: "Transparent Pricing and Warranty",
       body: [
-        "Indirapuram residents consistently ask about pricing before booking, and we believe in full transparency. Fabric tear repair starts at ₹999, single-seat foam replacement costs ₹800 to ₹2,500, rexine replacement from ₹1,500 per seat, leather restoration from ₹2,999 to ₹8,000, full fabric reupholstery from ₹3,500 per seat, and recliner mechanism repair from ₹1,500 to ₹4,000. Exact pricing depends on sofa size, material, damage extent and number of components requiring attention.",
+        "Indirapuram residents consistently ask about pricing before booking, and we believe in full transparency. Fabric tear repair starts at ₹999, single-seat foam replacement costs ₹800 to ₹2,500, rexine replacement from ₹1,500 per seat, leather restoration from ₹2,999 to ₹8,000, full fabric reupholstery from ₹2,000 per seat, and recliner mechanism repair from ₹1,500 to ₹4,000. Exact pricing depends on sofa size, material, damage extent and number of components requiring attention.",
         "Our 6-month warranty covers workmanship and materials — a written commitment signed by the craftsman. If anything fails within six months, we return to your Indirapuram apartment and resolve it free. This policy is why residents regularly recommend us to neighbours within the same society, creating a community trust that no advertising can replicate. To learn more about sofa care, visit our <a href=\"/blog\">Blog</a>.",
       ],
     },
@@ -334,7 +334,7 @@ export const sofaRepairIndirapuramGhaziabad: SeoPageData = {
     {
       question: "How much does sofa repair cost in Indirapuram?",
       answer:
-        "Sofa repair in Indirapuram starts at ₹999 for basic fabric fixes. Leather restoration costs ₹2,999 to ₹8,000, recliner repair ₹1,500 to ₹4,000, and full reupholstery from ₹3,500 per seat. A written quote is provided after doorstep inspection before any work begins.",
+        "Sofa repair in Indirapuram starts at ₹500 for basic fabric fixes. Leather restoration costs ₹2,999 to ₹8,000, recliner repair ₹1,500 to ₹4,000, and full reupholstery from ₹2,000 per seat. A written quote is provided after doorstep inspection before any work begins.",
     },
     {
       question: "Which societies in Indirapuram do you serve?",
@@ -348,7 +348,7 @@ export const sofaRepairIndirapuramGhaziabad: SeoPageData = {
     },
     { question: "Is sofa repair near me available same day in Indirapuram Ghaziabad?", answer: "Yes. FurniRevive provides sofa repair near me home service across all Indirapuram khands — Niti Khand, Ahinsa Khand, Shakti Khand, Nyay Khand, Abhay Khand and Gyan Khand. Book before noon for same-day service. Sofa cover change near me from ₹500/seat. Call +91 92179 99355." },
     { question: "Do you provide sofa repair near me home service in Vaishali and Kaushambi?", answer: "Yes. Vaishali and Kaushambi are within our standard Indirapuram service zone. We charge the same prices and provide the same 6-month warranty. Our technicians reach Vaishali and Kaushambi within 45-60 minutes of booking." },
-    { question: "What is the sofa repair cost in Indirapuram for a 3-seater?", answer: "Sofa repair cost in Indirapuram for a 3-seater ranges from ₹999 for basic fabric fixes to ₹6,000+ for full reupholstery. Cushion foam replacement costs ₹800–₹2,500 per seat. Leather restoration starts at ₹2,999. All prices include doorstep visit and 6-month warranty." },
+    { question: "What is the sofa repair cost in Indirapuram for a 3-seater?", answer: "Sofa repair cost in Indirapuram for a 3-seater ranges from ₹500 for basic fabric fixes to ₹6,000+ for full reupholstery. Cushion foam replacement costs ₹800–₹2,500 per seat. Leather restoration starts at ₹2,999. All prices include doorstep visit and 6-month warranty." },
     { question: "How long does sofa repair take in Indirapuram?", answer: "Most sofa repairs in Indirapuram are completed in 2-4 hours in a single visit. Simple cushion work takes 1-2 hours. Full reupholstery on large L-shaped sectionals may require a second visit, scheduled at no extra charge." },
     { question: "Which Indirapuram societies have you already served?", answer: "FurniRevive has served hundreds of homes in Mahagun Moderne, Mahagun Mascot, ATS Greens, ATS Advantage, Shipra Suncity, Shipra Riviera, Ajnara Integrity, Arihant Arden, Saya Zenith, and Homes 121 across all six Indirapuram khands." },
     { question: "What is included in the sofa repair price in Indirapuram?", answer: "The price includes: doorstep visit to your society, all labour, standard materials (fabric from stock, foam, springs), and 6-month warranty. Specialty fabrics or leather chosen outside our swatch book are quoted separately and ordered before work begins." },
@@ -404,7 +404,7 @@ export const furnitureRepairCrossingRepublik: SeoPageData = {
   title: "Furniture Repair Near Me in Crossing Republik Ghaziabad | ₹599",
 
   metaDescription:
-    "Furniture repair near me in Crossing Republik Ghaziabad from ₹599. Sofa, bed, wardrobe & table repair at doorstep. GH-02 to GH-07, Raj Nagar Extension. 6-month warranty.",
+    "Furniture repair near me in Crossing Republik Ghaziabad from ₹599. Sofa, bed, wardrobe & table repair at doorstep. GH-02 to GH-07, Raj Nagar Extension.",
 
   h1: "Furniture Repair Near Me in Crossing Republik Ghaziabad — All GH Sectors",
 
@@ -425,7 +425,7 @@ export const furnitureRepairCrossingRepublik: SeoPageData = {
 
     "FurniRevive provides a fully doorstep furniture repair service built for Crossing Republik's dense apartment ecosystem. Our craftsmen travel directly to your tower with woodworking tools, polish kits, upholstery supplies, replacement hardware and foam — repairing sofas, beds, wardrobes, dining tables, chairs, bookshelves and TV units at your home without needing to move any furniture. Whether the issue is a broken wardrobe hinge, a sagging sofa cushion, a cracked bed frame or a scratched dining table, we diagnose and fix it on-site.",
 
-    "Crossing Republik's location on NH-24 gives our service teams direct access to the township, with arrival times typically under forty-five minutes. Pricing starts at ₹599 for minor fixes, sofa repair from ₹999, wardrobe repair from ₹1,000, bed frame repair from ₹1,500, and dining table refinishing from ₹3,000. Written quotes and a 6-month warranty are standard for every job.",
+    "Crossing Republik's location on NH-24 gives our service teams direct access to the township, with arrival times typically under forty-five minutes. Pricing starts at ₹599 for minor fixes, sofa repair from ₹500, wardrobe repair from ₹1,000, bed frame repair from ₹1,500, and dining table refinishing from ₹3,000. Written quotes and a 6-month warranty are standard for every job.",
   ],
 
   whyChoose: [
@@ -442,7 +442,7 @@ export const furnitureRepairCrossingRepublik: SeoPageData = {
     {
       title: "Budget-Friendly Repairs",
       description:
-        "Young families in Crossing Republik are value-conscious. Starting at ₹599 for minor fixes and ₹999 for sofa repairs, our pricing is designed to be accessible while maintaining professional quality. Multi-piece discounts keep costs lower for whole-home repair needs.",
+        "Young families in Crossing Republik are value-conscious. Starting at ₹599 for minor fixes and ₹500 for sofa repairs, our pricing is designed to be accessible while maintaining professional quality. Multi-piece discounts keep costs lower for whole-home repair needs.",
     },
     {
       title: "Online Furniture Expertise",
@@ -488,7 +488,7 @@ export const furnitureRepairCrossingRepublik: SeoPageData = {
     "Doorstep furniture repair across all Crossing Republik GH sectors",
     "Serving Panchsheel Greens, Ajnara Le Garden, Nimbus Hyde Park and all societies",
     "Starting price ₹599 for minor hardware fixes",
-    "Sofa repair from ₹999 including fabric, rexine and foam work",
+    "Sofa repair from ₹500 including fabric, rexine and foam work",
     "Wardrobe repair from ₹1,000 including hinge and track replacement",
     "Bed frame repair from ₹1,500 with slat and rail replacement",
     "Dining table refinishing from ₹3,000 with polish restoration",
@@ -518,7 +518,7 @@ export const furnitureRepairCrossingRepublik: SeoPageData = {
       heading: "Sofa and Bed Repair Across GH Sectors",
       body: [
         "Every GH sector in Crossing Republik has its own set of prominent societies, and each presents the same furniture repair patterns. GH-02 societies like Panchsheel Greens and Panchsheel Hynish have some of the township's oldest delivered apartments — meaning sofas and beds here are at the seven to ten year mark where professional repair is not optional but essential. GH-05 and GH-06 societies like Nimbus Hyde Park and Saviour Park are slightly newer but already showing the effects of five years of daily furniture use.",
-        "Sofa repair across these societies starts at ₹999 for fabric patching and foam replacement, scales to ₹3,500 for full rexine or fabric change per seat, and reaches ₹8,000 for complete L-shaped sectional restoration. Bed frame repairs start at ₹1,500 for slat and joint work and go up to ₹6,000 for comprehensive frame overhauls with headboard reattachment. Every repair is performed at your apartment — our craftsmen understand the logistics of high-rise tower work and complete jobs efficiently within your living space.",
+        "Sofa repair across these societies starts at ₹500 for fabric patching and foam replacement, scales to ₹3,500 for full rexine or fabric change per seat, and reaches ₹8,000 for complete L-shaped sectional restoration. Bed frame repairs start at ₹1,500 for slat and joint work and go up to ₹6,000 for comprehensive frame overhauls with headboard reattachment. Every repair is performed at your apartment — our craftsmen understand the logistics of high-rise tower work and complete jobs efficiently within your living space.",
       ],
     },
     {
@@ -546,7 +546,7 @@ export const furnitureRepairCrossingRepublik: SeoPageData = {
       answer:
         "Yes — we actively encourage multi-item appointments. A single craftsman visit can cover sofa repair, wardrobe hardware, bed frame tightening, dining table polish and chair fixes across different rooms. A combined quote is provided before work begins.",
     },
-    { question: "Do you offer furniture repair near me in Crossing Republik Ghaziabad?", answer: "Yes. Furniture repair near me covers all GH sectors (GH-02 to GH-07) and Raj Nagar Extension. Starting ₹599. Sofa repair from ₹999, wardrobe repair from ₹1,000. Same-day service available. Call +91 92179 99355." },
+    { question: "Do you offer furniture repair near me in Crossing Republik Ghaziabad?", answer: "Yes. Furniture repair near me covers all GH sectors (GH-02 to GH-07) and Raj Nagar Extension. Starting ₹599. Sofa repair from ₹500, wardrobe repair from ₹1,000. Same-day service available. Call +91 92179 99355." },
   ],
 
   relatedPages: buildRelatedPages("furniture-repair-crossing-republik-ghaziabad", [

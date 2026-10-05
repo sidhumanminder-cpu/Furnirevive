@@ -3,17 +3,17 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const recliinerRepairDlfPhase5Gurgaon: SeoPageData = {
   slug: "recliner-repair-dlf-phase-5-gurgaon",
-  title: "Recliner Repair in DLF Phase 5 Gurgaon | Luxury Doorstep ₹999 | FurniRevive",
+  title: "Recliner Repair in DLF Phase 5 Gurgaon | FurniRevive",
   metaDescription:
-    "Expert recliner repair in DLF Phase 5 Gurgaon — The Crest, Aralias, Magnolias, The Skycourt. Motor, mechanism & leather repair at your doorstep from ₹999. 6-month warranty.",
+    "Expert recliner repair in DLF Phase 5 Gurgaon — The Crest, Aralias, Magnolias, The Skycourt. Motor, mechanism & leather repair at your doorstep from ₹999.",
   h1: "Recliner Repair in DLF Phase 5, Gurgaon",
   heroSubtitle:
     "DLF Phase 5 is Gurgaon's most exclusive residential enclave — The Crest, Aralias, Magnolias, The Skycourt tower over Golf Course Road with Europe's finest recliner suites inside. When your Stressless, La-Z-Boy, or Natuzzi recliner develops a motor fault, mechanism stiffness, or leather damage, FurniRevive's DLF Phase 5 specialist team arrives at your apartment, diagnoses the exact issue, and restores full function — starting at ₹999, with a 6-month warranty.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
-    altText: "Professional sofa repair technician working on a beige premium fabric sofa in a luxury Gurgaon (DLF Phase 5) home — FurniRevive",
-    caption: "Sofa Repair in Gurgaon (DLF Phase 5) | Premium upholstery & foam service | Home visit | FurniRevive",
+    altText: "Professional recliner repair technician working on a beige premium fabric sofa in a luxury Gurgaon (DLF Phase 5) home — FurniRevive",
+    caption: "Recliner Repair in Gurgaon (DLF Phase 5) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
     "FurniRevive repairs all recliner types in DLF Phase 5 — The Crest, Aralias, Magnolias, The Skycourt, and every Golf Course Road premium tower. We fix electric motors, faulty actuators, stiff manual mechanisms, Italian leather damage, and structural frame issues, all at your doorstep. Free on-site inspection, fixed written quote, and a 6-month workmanship warranty on every recliner repair in DLF Phase 5, Gurgaon.",

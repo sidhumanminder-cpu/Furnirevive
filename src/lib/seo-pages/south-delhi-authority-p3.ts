@@ -6,9 +6,9 @@ const WHATSAPP_NUMBER = "919217999355";
 export const SOUTH_DELHI_AUTHORITY_P3: SeoPageData[] = [
   {
     slug: "furniture-repair-safdarjung-enclave",
-    title: "Furniture Repair Safdarjung Enclave – Doorstep Service | FurniRevive Delhi",
+    title: "Furniture Repair Safdarjung Enclave – Doorstep Service",
     metaDescription:
-      "Furniture repair in Safdarjung Enclave Delhi. Recliners, dining chairs, wardrobes, sofas & wooden furniture. Home visit from ₹599. 6-month warranty. Call FurniRevive!",
+      "Furniture repair in Safdarjung Enclave Delhi. Recliners, dining chairs, wardrobes, sofas & wooden furniture. Home visit from ₹599. 6-month warranty.",
     h1: "Furniture Repair in Safdarjung Enclave – Expert Home Service for Every Furniture Type",
     heroSubtitle:
       "Recliner repair, dining chair restoration, wardrobe servicing, and complete furniture repair in Safdarjung Enclave. Free home visit. Same-day slots. 6-month warranty.",

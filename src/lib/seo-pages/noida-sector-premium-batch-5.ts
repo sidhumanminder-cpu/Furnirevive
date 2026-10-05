@@ -3,12 +3,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const sofaRepairSector168Noida: SeoPageData = {
   slug: "sofa-repair-sector-168-noida",
-  title: "Sofa Repair in Sector 168 Noida | Luxury Furniture Restoration | FurniRevive",
+  title: "Sofa Repair in Sector 168 Noida | FurniRevive",
   metaDescription:
-    "Premium sofa repair & luxury restoration in Sector 168 Noida. Doorstep service for imported sofas, recliners & leather repair from ₹999. Gaur The Islands, ATS Pristine & more. Book now!",
+    "Premium sofa repair & luxury restoration in Sector 168 Noida. Doorstep service for imported sofas, recliners & leather repair from ₹500.",
   h1: "Sofa Repair in Sector 168 Noida | Premium Doorstep Sofa Repair",
   heroSubtitle:
-    "Sector 168's specialist luxury furniture restoration and doorstep sofa repair service — trusted by residents of Gaur The Islands, Mahagun Moderne, and ATS Pristine Golf. From targeted repairs to complete imported sofa restoration, starting at ₹999.",
+    "Sector 168's specialist luxury furniture restoration and doorstep sofa repair service — trusted by residents of Gaur The Islands, Mahagun Moderne, and ATS Pristine Golf. From targeted repairs to complete imported sofa restoration, starting at ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -106,7 +106,7 @@ const sofaRepairSector168Noida: SeoPageData = {
     {
       heading: "Luxury Sofa Repair Pricing in Sector 168 — Full Transparency",
       body: [
-        `FurniRevive publishes clear pricing benchmarks for all services in Sector 168. Standard sofa repair starts at ₹999 per seat for foam replacement with HR-grade PU foam (32–36 kg/m³). Premium foam composites incorporating memory foam toppers are priced at ₹1,800–₹2,500 per seat. Upholstery reupholstering starts at ₹3,000 per seat for standard polyester and microfibre, rising to ₹8,000–₹15,000 per seat for premium materials including Italian performance velvet, genuine leather, and import-grade Belgian linen. Recliner mechanism repair starts at ₹1,499, with motorised recliner motor replacement priced at ₹3,000–₹6,000 depending on the motor type and brand.`,
+        `FurniRevive publishes clear pricing benchmarks for all services in Sector 168. Standard sofa repair starts at ₹999 per seat for foam replacement with HR-grade PU foam (32–36 kg/m³). Premium foam composites incorporating memory foam toppers are priced at ₹1,800–₹2,500 per seat. Upholstery reupholstering starts at ₹2,000 per seat for standard polyester and microfibre, rising to ₹8,000–₹15,000 per seat for premium materials including Italian performance velvet, genuine leather, and import-grade Belgian linen. Recliner mechanism repair starts at ₹1,499, with motorised recliner motor replacement priced at ₹3,000–₹6,000 depending on the motor type and brand.`,
         `Luxury restoration projects — covering structural reconditioning, spring overhaul, premium foam replacement, and full upholstery replacement with import-grade materials — are priced at ₹15,000–₹40,000 for a standard three-seater sofa depending on size, material choices, and the extent of structural work required. For context, a Natuzzi or similar Italian leather sectional retailing at ₹3,00,000–₹8,00,000 can be fully restored for ₹20,000–₹40,000, making restoration the overwhelmingly superior financial choice. <a href="/designer-furniture-repair-noida">Designer furniture repair</a> for single statement pieces is also available as a standalone service. All pricing is confirmed in a written, fixed quote after the free inspection — there are no surcharges for the Sector 168 premium service tier.`,
       ],
     },
@@ -163,7 +163,7 @@ const sofaRepairSector168Noida: SeoPageData = {
     {
       question: "How much does luxury sofa restoration cost in Sector 168 Noida?",
       answer:
-        "Luxury restoration projects — covering structural reconditioning, spring overhaul, premium foam replacement, and full upholstery reupholstering with import-grade materials — are priced at ₹15,000–₹40,000 for a standard three-seater sofa. For comparison, replacement cost for similar quality is typically ₹2,00,000–₹8,00,000. Standard repairs start at ₹999 for foam replacement and ₹3,000 per seat for upholstery. All prices are confirmed in a fixed, written quote after the free inspection.",
+        "Luxury restoration projects — covering structural reconditioning, spring overhaul, premium foam replacement, and full upholstery reupholstering with import-grade materials — are priced at ₹15,000–₹40,000 for a standard three-seater sofa. For comparison, replacement cost for similar quality is typically ₹2,00,000–₹8,00,000. Standard repairs start at ₹500 for foam replacement and ₹2,000 per seat for upholstery. All prices are confirmed in a fixed, written quote after the free inspection.",
     },
     {
       question: "Can you match the colour of my Italian leather sofa exactly?",

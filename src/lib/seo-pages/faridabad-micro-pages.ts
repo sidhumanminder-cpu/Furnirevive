@@ -15,15 +15,15 @@ const FARIDABAD_RELATED = [
 export const sofaRepairNeharparFaridabad: SeoPageData = {
   slug: "sofa-repair-neharpar-faridabad",
 
-  title: "Sofa Repair Neharpar Faridabad | ₹999 Near Me Home Service",
+  title: "Sofa Repair Neharpar Faridabad | ₹500 Near Me Home Service",
 
   metaDescription:
-    "Sofa repair near me in Neharpar Greater Faridabad from ₹999. BPTP, Omaxe, SRS Residency, Sector 75–89. Foam filling, fabric change, recliner & leather sofa repair near me. 6-month warranty.",
+    "Sofa repair near me in Neharpar Greater Faridabad from ₹500. BPTP, Omaxe, SRS Residency, Sector 75–89.",
 
   h1: "Sofa Repair in Neharpar Greater Faridabad — Sector 75 to 89",
 
   heroSubtitle:
-    "Doorstep sofa repair across Neharpar (Greater Faridabad) — BPTP Parklands, Omaxe Heights, SRS Residency, Sector 75 to 89 and all major societies. Fabric, leather, recliner repair with 6-month warranty from ₹999.",
+    "Doorstep sofa repair across Neharpar (Greater Faridabad) — BPTP Parklands, Omaxe Heights, SRS Residency, Sector 75 to 89 and all major societies. Fabric, leather, recliner repair with 6-month warranty from ₹500.",
 
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Neharpar Greater Faridabad Home",
@@ -40,7 +40,7 @@ export const sofaRepairNeharparFaridabad: SeoPageData = {
 
     "FurniRevive provides a fully doorstep sofa repair service designed for Neharpar's dense apartment ecosystem. Our craftsmen travel directly to your tower in BPTP Parklands (Sector 85), Omaxe Heights (Sector 86), SRS Residency (Sector 88) or any Neharpar society with all tools, fabrics, leather treatment supplies and foam needed to complete repairs inside your apartment. No hauling sofas to workshops, no week-long waits. Most repairs are completed in a single visit of two to four hours.",
 
-    "The Neharpar area benefits from excellent road connectivity via the Faridabad–Noida–Ghaziabad (FNG) Expressway and the Agra Canal Road, and our service teams use these corridors to reach your society gate swiftly. Pricing starts at ₹999 for basic fabric repairs, leather restoration from ₹2,999, full reupholstery from ₹3,500 per seat, and recliner mechanism repair from ₹1,500. Every job includes a transparent quote and 6-month written warranty.",
+    "The Neharpar area benefits from excellent road connectivity via the Faridabad–Noida–Ghaziabad (FNG) Expressway and the Agra Canal Road, and our service teams use these corridors to reach your society gate swiftly. Pricing starts at ₹500 for basic fabric repairs, leather restoration from ₹2,999, full reupholstery from ₹2,000 per seat, and recliner mechanism repair from ₹1,500. Every job includes a transparent quote and 6-month written warranty.",
   ],
 
   whyChoose: [
@@ -102,9 +102,9 @@ export const sofaRepairNeharparFaridabad: SeoPageData = {
   benefits: [
     "Doorstep sofa repair across all Neharpar sectors (75 to 89)",
     "Serving BPTP Parklands, Omaxe Heights, SRS Residency and all societies",
-    "Starting price ₹999 for basic fabric sofa repairs",
+    "Starting price ₹500 for basic fabric sofa repairs",
     "Leather restoration from ₹2,999 with colour-matched treatments",
-    "Full reupholstery from ₹3,500 per seat with 400+ fabric options",
+    "Full reupholstery from ₹2,000 per seat with 400+ fabric options",
     "Recliner mechanism repair from ₹1,500 including motor replacement",
     "Rexine and faux leather replacement for budget-friendly restoration",
     "Spring and foam replacement for sagging cushion restoration",
@@ -139,7 +139,7 @@ export const sofaRepairNeharparFaridabad: SeoPageData = {
     {
       heading: "Pricing and Warranty for Neharpar Residents",
       body: [
-        "Neharpar residents — many of them first-time homeowners — naturally compare costs before booking. We publish our ranges openly: basic fabric tear repair starts at ₹999, rexine replacement from ₹1,500 per seat, single-seat foam replacement ₹800 to ₹2,500, leather restoration ₹2,999 to ₹8,000, full fabric reupholstery from ₹3,500 per seat, and recliner mechanism repair ₹1,500 to ₹4,000. Exact quotes depend on sofa size, material, damage extent and number of components.",
+        "Neharpar residents — many of them first-time homeowners — naturally compare costs before booking. We publish our ranges openly: basic fabric tear repair starts at ₹999, rexine replacement from ₹1,500 per seat, single-seat foam replacement ₹800 to ₹2,500, leather restoration ₹2,999 to ₹8,000, full fabric reupholstery from ₹2,000 per seat, and recliner mechanism repair ₹1,500 to ₹4,000. Exact quotes depend on sofa size, material, damage extent and number of components.",
         "Our 6-month warranty is a written commitment signed by the craftsman at job completion. If any repair fails within six months, we return to your Neharpar apartment and fix it at no charge. This warranty policy is the foundation of our reputation across NCR. For sofa care tips and guides, visit our <a href=\"/blog\">Blog</a>.",
       ],
     },
@@ -149,7 +149,7 @@ export const sofaRepairNeharparFaridabad: SeoPageData = {
     {
       question: "How much does sofa repair cost in Neharpar Faridabad?",
       answer:
-        "Sofa repair in Neharpar starts at ₹999 for basic fabric fixes. Rexine replacement costs ₹1,500 per seat, leather restoration ₹2,999 to ₹8,000, recliner repair ₹1,500 to ₹4,000, and full reupholstery from ₹3,500 per seat. A transparent quote is provided after inspection.",
+        "Sofa repair in Neharpar starts at ₹500 for basic fabric fixes. Rexine replacement costs ₹1,500 per seat, leather restoration ₹2,999 to ₹8,000, recliner repair ₹1,500 to ₹4,000, and full reupholstery from ₹2,000 per seat. A transparent quote is provided after inspection.",
     },
     {
       question: "Which societies in Greater Faridabad do you serve?",
@@ -205,7 +205,7 @@ export const furnitureRepairNitFaridabad: SeoPageData = {
   title: "Furniture Repair NIT Faridabad | ₹599 Near Me Doorstep Service",
 
   metaDescription:
-    "Furniture repair near me in NIT Faridabad from ₹599. Sector 1–31, Greenfield Colony covered. Sofa, wardrobe, bed, wooden furniture & dining table repair. 6-month warranty.",
+    "Furniture repair near me in NIT Faridabad from ₹599. Sector 1–31, Greenfield Colony covered. Sofa, wardrobe, bed, wooden furniture & dining table repair.",
 
   h1: "Furniture Repair in NIT Faridabad — Sector 1 to 31",
 
@@ -227,7 +227,7 @@ export const furnitureRepairNitFaridabad: SeoPageData = {
 
     "FurniRevive provides a fully doorstep furniture repair service designed for NIT Faridabad's diverse housing stock. Our craftsmen are equally experienced with heritage wooden furniture in Sector 14 bungalows, modern flatpack units in Sector 21 apartments and mid-century steel almirahs in Sector 7 DDA flats. They travel with woodworking tools, polish kits, upholstery supplies, replacement hardware and foam — repairing sofas, beds, wardrobes, dining tables, chairs, dressing tables and bookshelves right at your home.",
 
-    "NIT Faridabad's central location — with excellent connectivity via the Faridabad–Delhi metro line (Violet Line) and Mathura Road — makes our service teams highly accessible. Pricing starts at ₹599 for minor fixes, sofa repair from ₹999, wardrobe repair from ₹1,000, bed frame repair from ₹1,500, and dining table refinishing from ₹3,000. Written quotes and a 6-month warranty come standard with every job.",
+    "NIT Faridabad's central location — with excellent connectivity via the Faridabad–Delhi metro line (Violet Line) and Mathura Road — makes our service teams highly accessible. Pricing starts at ₹599 for minor fixes, sofa repair from ₹500, wardrobe repair from ₹1,000, bed frame repair from ₹1,500, and dining table refinishing from ₹3,000. Written quotes and a 6-month warranty come standard with every job.",
   ],
 
   whyChoose: [
@@ -291,7 +291,7 @@ export const furnitureRepairNitFaridabad: SeoPageData = {
     "Covering Greenfield Colony, Ashoka Enclave and Crown Interiorz area",
     "Heritage wooden furniture restoration — teak, sheesham, rosewood",
     "Starting price ₹599 for minor hardware fixes",
-    "Sofa repair from ₹999 including fabric, rexine and foam work",
+    "Sofa repair from ₹500 including fabric, rexine and foam work",
     "Wardrobe repair from ₹1,000 including hinge and track replacement",
     "Bed frame repair from ₹1,500 with slat and rail replacement",
     "Dining table refinishing from ₹3,000 with French polish restoration",
@@ -390,7 +390,7 @@ export const chairRepairFaridabad: SeoPageData = {
   title: "Chair Repair Faridabad | Office & Dining Near Me | From ₹499",
 
   metaDescription:
-    "Chair repair near me in Faridabad from ₹499. Office chair, revolving chair & dining chair repair at home. Recliner chair repair near me. NIT, Greater Faridabad covered. 6-month warranty.",
+    "Chair repair near me in Faridabad from ₹499. Office chair, revolving chair & dining chair repair at home. Recliner chair repair near me.",
 
   h1: "Chair Repair in Faridabad — Office, Dining & All Chair Types",
 

@@ -30,14 +30,14 @@ function panchkulaRelatedExcluding(slug: string) {
 export const sofaRepairPanchkula: SeoPageData = {
   slug: "sofa-repair-panchkula",
   cityKey: "panchkula" as const,
-  title: "Sofa Repair in Panchkula from ₹800 | Same-Day Doorstep Service | FurniRevive",
+  title: "Sofa Repair in Panchkula from ₹500 | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Panchkula from ₹800. Same-day doorstep service in Sector 1–21, MDC Sector 4 & 5, Kalka, Pinjore & Dhakoli. Foam, spring, upholstery, recliner repair. Free inspection. 6-month warranty. Call +91 92179 99355.",
+    "Professional sofa repair in Panchkula from ₹500. Same-day doorstep service in Sector 1–21, MDC Sector 4 & 5, Kalka, Pinjore & Dhakoli.",
   quickAnswer:
     "Sofa repair in Panchkula costs ₹800–₹4,500 for most repairs — foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery ₹2,000–₹4,500 per seat. FurniRevive provides same-day home service across all Panchkula sectors, MDC Sector 4 & 5, Kalka, Pinjore, and Dhakoli with free inspection and a 6-month written warranty. Call +91 92179 99355.",
-  h1: "Sofa Repair in Panchkula — Doorstep Service from ₹800",
+  h1: "Sofa Repair in Panchkula — Doorstep Service from ₹500",
   heroSubtitle:
-    "Panchkula's trusted sofa repair — at your doorstep across all sectors, MDC colonies, Kalka, Pinjore & Dhakoli. Starting ₹800. Free inspection. 6-month warranty.",
+    "Panchkula's trusted sofa repair — at your doorstep across all sectors, MDC colonies, Kalka, Pinjore & Dhakoli. Starting ₹500. Free inspection. 6-month warranty.",
   showcaseImage: {
     heading: "Sofa Repair Before & After — Real Results in Panchkula",
     imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
@@ -53,7 +53,7 @@ export const sofaRepairPanchkula: SeoPageData = {
   whyChoose: [
     { title: "All Panchkula Localities Covered", description: "We serve every sector (1–21), MDC Sector 4 & 5, HUDA colonies, Kalka, Pinjore, and Dhakoli — complete Panchkula coverage." },
     { title: "Same Day Doorstep Service", description: "Book before noon for same-day sofa repair. Our technicians arrive with all materials — no second visits needed." },
-    { title: "Affordable from ₹800", description: "Panchkula's most competitive sofa repair rates. Save 50–70% compared to buying new. Transparent quotes with no hidden charges." },
+    { title: "Affordable from ₹500", description: "Panchkula's most competitive sofa repair rates. Save 50–70% compared to buying new. Transparent quotes with no hidden charges." },
     { title: "Experienced Specialists", description: "10+ years experience handling fabric, leather, rexine, and all sofa materials common in Panchkula's spacious bungalows with expert precision." },
     { title: "Bungalow & Independent House Friendly", description: "Experienced with Panchkula's large independent houses — Sector 4–9 bungalows, MDC villas, government quarters. Large sofa sets handled with care." },
     { title: "6 Month Warranty", description: "Every sofa repair backed by a written 6-month warranty. Any issue within warranty period fixed free at your Panchkula home." },
@@ -74,7 +74,7 @@ export const sofaRepairPanchkula: SeoPageData = {
     "Frame reinforcement and spring replacement",
     "Recliner mechanism repair — manual and motorised",
     "Bungalow and independent house friendly service",
-    "Starting at just ₹800",
+    "Starting at just ₹500",
     "6-month warranty on all repairs",
     "Free inspection and transparent pricing",
   ],
@@ -96,7 +96,7 @@ export const sofaRepairPanchkula: SeoPageData = {
     {
       heading: "Sofa Repair Cost in Panchkula — Transparent Pricing",
       body: [
-        "Sofa repair in Panchkula starts at ₹800 for basic spring fixes. Foam replacement costs ₹1,200–₹3,500 per seat depending on density. Fabric re-upholstery ranges from ₹2,000–₹4,500 per seat. Complete 3-seater sofa restoration: ₹3,000–₹12,000 depending on damage extent and materials chosen.",
+        "Sofa repair in Panchkula starts at ₹500 for basic spring fixes. Foam replacement costs ₹1,200–₹3,500 per seat depending on density. Fabric re-upholstery ranges from ₹2,000–₹4,500 per seat. Complete 3-seater sofa restoration: ₹3,000–₹12,000 depending on damage extent and materials chosen.",
         "Professional sofa repair saves Panchkula families 50–70% compared to buying new. A sofa costing ₹40,000 new can be fully restored for ₹4,000–₹10,000. We provide a free doorstep inspection and written quote before starting — no hidden charges. For full pricing details see our <a href=\"/sofa-repair-cost-panchkula\">Panchkula sofa repair cost guide</a>.",
       ],
     },
@@ -114,7 +114,7 @@ export const sofaRepairPanchkula: SeoPageData = {
     ],
   },
   faqs: [
-    { question: "How much does sofa repair cost in Panchkula?", answer: "Sofa repair in Panchkula starts at ₹800. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner repair ₹1,499–₹5,500. Free inspection and written quote at your doorstep. Call +91 92179 99355." },
+    { question: "How much does sofa repair cost in Panchkula?", answer: "Sofa repair in Panchkula starts at ₹500. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner repair ₹1,499–₹5,500. Free inspection and written quote at your doorstep. Call +91 92179 99355." },
     { question: "Do you provide sofa repair in all Panchkula sectors?", answer: "Yes — FurniRevive covers all Panchkula sectors (1–21), MDC Sector 4 & 5, Kalka, Pinjore, and Dhakoli. Same-day service available across all areas." },
     { question: "Is same-day sofa repair available in Panchkula?", answer: "Yes. Book before noon for same-day sofa repair at your Panchkula address. Most repairs — foam replacement, spring fixing, upholstery patching — completed in 2–4 hours in a single visit." },
     { question: "Do you serve Chandigarh and Mohali from Panchkula?", answer: "Yes. Our Panchkula team extends coverage to all Chandigarh UT sectors and Mohali. Same pricing and warranty apply across the entire Tricity region." },
@@ -139,9 +139,9 @@ export const sofaRepairPanchkula: SeoPageData = {
 export const reclinerRepairPanchkula: SeoPageData = {
   slug: "recliner-repair-panchkula",
   cityKey: "panchkula" as const,
-  title: "Recliner Repair in Panchkula from ₹1,499 | Manual & Motorised | FurniRevive",
+  title: "Recliner Repair in Panchkula from ₹1,499 | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Panchkula from ₹1,499. Manual & motorised recliner mechanism fix, motor replacement, upholstery repair. Same-day doorstep service across all sectors, MDC colonies & Kalka. 6-month warranty. Call +91 92179 99355.",
+    "Expert recliner repair in Panchkula from ₹1,499. Manual & motorised recliner mechanism fix, motor replacement, upholstery repair.",
   quickAnswer:
     "Recliner repair in Panchkula costs ₹1,499–₹5,500. Manual mechanism repair ₹1,499–₹3,000, motorised motor replacement ₹2,999–₹5,500, upholstery repair ₹1,500–₹4,000. FurniRevive provides same-day doorstep service across all Panchkula sectors, MDC colonies, and Kalka with free inspection and 6-month warranty. Call +91 92179 99355.",
   h1: "Recliner Repair in Panchkula — Manual & Motorised from ₹1,499",
@@ -149,7 +149,7 @@ export const reclinerRepairPanchkula: SeoPageData = {
     "Panchkula's specialist recliner repair service — mechanism fixes, motor replacements, and upholstery restoration at your doorstep. All major brands covered. Same-day service. 6-month warranty.",
   showcaseImage: {
     heading: "Recliner Repair Before & After — Panchkula",
-    imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
+    imageUrl: "https://hercules-cdn.com/file_Wf0mo2ViSrP0cT3iw8kwww0J",
     altText: "Recliner mechanism repair in Panchkula showing motor and upholstery restoration by FurniRevive",
     caption: "Recliner Repair Panchkula — Mechanism & upholstery fix | From ₹1,499 | FurniRevive",
   },
@@ -246,11 +246,11 @@ export const reclinerRepairPanchkula: SeoPageData = {
 export const furnitureRepairPanchkula: SeoPageData = {
   slug: "furniture-repair-panchkula",
   cityKey: "panchkula" as const,
-  title: "Furniture Repair in Panchkula from ₹599 | Doorstep Service All Sectors | FurniRevive",
+  title: "Furniture Repair in Panchkula from ₹599 | FurniRevive",
   metaDescription:
-    "Expert furniture repair in Panchkula from ₹599. Sofa, bed, chair, wardrobe, table repair at your doorstep across all sectors, MDC colonies, Kalka, Pinjore & Dhakoli. Same-day service. 6-month warranty. Call +91 92179 99355.",
+    "Expert furniture repair in Panchkula from ₹599. Sofa, bed, chair, wardrobe, table repair at your doorstep across all sectors, MDC colonies, Kalka, Pinjore.",
   quickAnswer:
-    "Furniture repair in Panchkula starts at ₹599. Sofa repair from ₹800, bed repair ₹599–₹3,000, chair repair ₹500–₹2,500, wardrobe repair ₹800–₹4,000. FurniRevive provides same-day doorstep service across all Panchkula sectors, MDC colonies, Kalka, and Pinjore with free inspection and 6-month warranty. Call +91 92179 99355.",
+    "Furniture repair in Panchkula starts at ₹599. Sofa repair from ₹500, bed repair ₹599–₹3,000, chair repair ₹500–₹2,500, wardrobe repair ₹800–₹4,000. FurniRevive provides same-day doorstep service across all Panchkula sectors, MDC colonies, Kalka, and Pinjore with free inspection and 6-month warranty. Call +91 92179 99355.",
   h1: "Furniture Repair in Panchkula — All Types from ₹599",
   heroSubtitle:
     "Complete furniture repair across Panchkula — sofas, beds, chairs, tables, wardrobes, and cabinets repaired at your doorstep. Starting ₹599. Free inspection. 6-month warranty.",
@@ -325,7 +325,7 @@ export const furnitureRepairPanchkula: SeoPageData = {
       { service: "Wardrobe / Cabinet Repair", price: "₹800–₹4,000" },
       { service: "Table Repair (dining/study)", price: "₹500–₹3,000" },
       { service: "Polish & Refinishing", price: "₹1,500–₹8,000" },
-      { service: "Sofa Repair", price: "₹800–₹12,000" },
+      { service: "Sofa Repair", price: "₹500–₹12,000" },
       { service: "Doorstep Visit Charge", price: "₹99–₹199 (adjusted)" },
     ],
   },
@@ -355,9 +355,9 @@ export const furnitureRepairPanchkula: SeoPageData = {
 export const sofaUpholsteryPanchkula: SeoPageData = {
   slug: "sofa-upholstery-panchkula",
   cityKey: "panchkula" as const,
-  title: "Sofa Upholstery in Panchkula from ₹2,000/seat | 500+ Fabrics | FurniRevive",
+  title: "Sofa Upholstery in Panchkula from ₹2,000/seat | FurniRevive",
   metaDescription:
-    "Professional sofa upholstery in Panchkula from ₹2,000 per seat. 500+ fabric options — cotton, velvet, linen, microfibre, leatherette. Doorstep fabric selection and on-site re-upholstery across all sectors. 6-month warranty. Call +91 92179 99355.",
+    "Professional sofa upholstery in Panchkula from ₹2,000 per seat. 500+ fabric options — cotton, velvet, linen, microfibre, leatherette.",
   quickAnswer:
     "Sofa upholstery in Panchkula costs ₹2,000–₹4,500 per seat. Full 3-seater re-upholstery ₹6,000–₹15,000 depending on fabric. 500+ materials available — cotton, velvet, linen, microfibre, rexine, leatherette. FurniRevive provides doorstep fabric selection and on-site upholstery across all Panchkula sectors. Call +91 92179 99355.",
   h1: "Sofa Upholstery in Panchkula — 500+ Fabrics from ₹2,000/seat",
@@ -463,9 +463,9 @@ export const sofaUpholsteryPanchkula: SeoPageData = {
 export const officeChairRepairPanchkula: SeoPageData = {
   slug: "office-chair-repair-panchkula",
   cityKey: "panchkula" as const,
-  title: "Office Chair Repair in Panchkula from ₹500 | Gas Lift, Wheels, Armrest | FurniRevive",
+  title: "Office Chair Repair in Panchkula from ₹500 | FurniRevive",
   metaDescription:
-    "Office chair repair in Panchkula from ₹500. Gas lift replacement, wheel repair, armrest fix, seat foam change. Doorstep service across all sectors, government offices & commercial areas. Bulk corporate rates. Call +91 92179 99355.",
+    "Office chair repair in Panchkula from ₹500. Gas lift replacement, wheel repair, armrest fix, seat foam change.",
   h1: "Office Chair Repair in Panchkula — Gas Lift, Wheels & More from ₹500",
   heroSubtitle:
     "Professional office chair repair across Panchkula's government offices, commercial sectors, and home offices. Gas lift, wheels, armrests, tilt mechanism, and seat foam — repaired at your office or home. Bulk rates available.",
@@ -566,9 +566,9 @@ export const officeChairRepairPanchkula: SeoPageData = {
 export const sameDaySofaRepairPanchkula: SeoPageData = {
   slug: "same-day-sofa-repair-panchkula",
   cityKey: "panchkula" as const,
-  title: "Same Day Sofa Repair in Panchkula | Book Before Noon | FurniRevive",
+  title: "Same Day Sofa Repair in Panchkula | FurniRevive",
   metaDescription:
-    "Same-day sofa repair in Panchkula — book before noon, repaired by evening. Foam, spring, upholstery, leather, recliner repair. All sectors, MDC colonies, Kalka & Dhakoli. Starting ₹800. Call +91 92179 99355.",
+    "Same-day sofa repair in Panchkula — book before noon, repaired by evening. Foam, spring, upholstery, leather, recliner repair.",
   h1: "Same Day Sofa Repair in Panchkula — Book Before Noon",
   heroSubtitle:
     "Urgent sofa repair in Panchkula with same-day completion. Book before noon — our technician arrives within 4 hours with all materials. Foam, spring, upholstery, and recliner repairs completed in a single visit.",
@@ -576,12 +576,12 @@ export const sameDaySofaRepairPanchkula: SeoPageData = {
     heading: "Same Day Sofa Repair Panchkula — Fast Turnaround",
     imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
     altText: "Same-day sofa repair service in Panchkula with rapid doorstep turnaround by FurniRevive",
-    caption: "Same Day Sofa Repair Panchkula — Book before noon | Starting ₹800 | FurniRevive",
+    caption: "Same Day Sofa Repair Panchkula — Book before noon | Starting ₹500 | FurniRevive",
   },
   intro: [
     "Expecting guests at your Sector 7 bungalow tonight? Festival preparation at your MDC colony home? Can't sit comfortably on a sagging sofa? FurniRevive's same-day sofa repair in Panchkula guarantees your sofa is fixed before the day ends — book before noon and our technician arrives within 4 hours with all materials needed for a single-visit repair.",
     "Same-day availability covers all Panchkula sectors (1–21), MDC Sector 4 & 5, Kalka, Pinjore, and Dhakoli. We carry pre-cut foam, spring hardware, common fabrics, and recliner parts so there's no waiting for materials. Most repairs — foam replacement, spring fixing, upholstery patching — are completed in 2–4 hours.",
-    "Starting at ₹800 with the same quality, materials, and 6-month warranty as our scheduled service. Same-day is simply about speed — not cutting corners. For more complex repairs that take longer, see our standard <a href=\"/sofa-repair-panchkula\">sofa repair service</a>. For pricing details, check the <a href=\"/sofa-repair-cost-panchkula\">Panchkula cost guide</a>. Also available in <a href=\"/sofa-repair-chandigarh\">Chandigarh</a> and <a href=\"/sofa-repair-mohali\">Mohali</a>.",
+    "Starting at ₹500 with the same quality, materials, and 6-month warranty as our scheduled service. Same-day is simply about speed — not cutting corners. For more complex repairs that take longer, see our standard <a href=\"/sofa-repair-panchkula\">sofa repair service</a>. For pricing details, check the <a href=\"/sofa-repair-cost-panchkula\">Panchkula cost guide</a>. Also available in <a href=\"/sofa-repair-chandigarh\">Chandigarh</a> and <a href=\"/sofa-repair-mohali\">Mohali</a>.",
     "Panchkula's wide roads and well-planned sectors mean our technicians navigate quickly between locations. Combined with pre-stocked materials, this ensures reliable same-day delivery across the entire city — from Sector 1 near Chandigarh to Kalka on the eastern edge.",
   ],
   whyChoose: [
@@ -590,7 +590,7 @@ export const sameDaySofaRepairPanchkula: SeoPageData = {
     { title: "Full Panchkula Coverage", description: "Same-day available across all sectors (1–21), MDC Sector 4 & 5, Kalka, Pinjore, and Dhakoli." },
     { title: "No Compromise on Quality", description: "Same branded materials, same skilled craftsmen, same 6-month warranty as our scheduled service. Speed ≠ shortcuts." },
     { title: "Ideal for Panchkula Families", description: "Festival prep, unexpected guests, sudden sofa failures, government employee transfers with quick move-ins — same-day handles it all." },
-    { title: "Transparent Same-Day Pricing", description: "Starting ₹800. No rush surcharge. Same rates as our regular service. Free inspection included." },
+    { title: "Transparent Same-Day Pricing", description: "Starting ₹500. No rush surcharge. Same rates as our regular service. Free inspection included." },
   ],
   process: [
     { step: "Call Before Noon", description: "Call +91 92179 99355 before noon. Share photos of the damage. We confirm same-day slot and provide an estimate." },
@@ -608,7 +608,7 @@ export const sameDaySofaRepairPanchkula: SeoPageData = {
     "Full Panchkula coverage — all sectors, MDC, Kalka",
     "Same branded materials and 6-month warranty",
     "Perfect for festivals and unexpected guests",
-    "Starting at ₹800",
+    "Starting at ₹500",
     "Wide roads enable fast technician navigation",
     "Free inspection included",
   ],
@@ -668,9 +668,9 @@ export const sameDaySofaRepairPanchkula: SeoPageData = {
 export const doorstepSofaRepairPanchkula: SeoPageData = {
   slug: "doorstep-sofa-repair-panchkula",
   cityKey: "panchkula" as const,
-  title: "Doorstep Sofa Repair in Panchkula | Home Service All Sectors | FurniRevive",
+  title: "Doorstep Sofa Repair in Panchkula | FurniRevive",
   metaDescription:
-    "Doorstep sofa repair in Panchkula — we come to your home. No transport, no workshop. Foam, spring, upholstery, leather repair at your doorstep across all sectors, MDC colonies, Kalka & Dhakoli. From ₹800. Call +91 92179 99355.",
+    "Doorstep sofa repair in Panchkula — we come to your home. No transport, no workshop. Foam, spring, upholstery, leather repair at your doorstep.",
   h1: "Doorstep Sofa Repair in Panchkula — We Come to You",
   heroSubtitle:
     "No transport, no workshop, no waiting. FurniRevive's doorstep sofa repair brings expert craftsmen, tools, and materials directly to your Panchkula home. Complete repair in a single visit.",
@@ -678,12 +678,12 @@ export const doorstepSofaRepairPanchkula: SeoPageData = {
     heading: "Doorstep Sofa Repair Panchkula — At Your Home",
     imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
     altText: "Doorstep sofa repair service in Panchkula with technician working at customer home by FurniRevive",
-    caption: "Doorstep Sofa Repair Panchkula — No transport needed | From ₹800 | FurniRevive",
+    caption: "Doorstep Sofa Repair Panchkula — No transport needed | From ₹500 | FurniRevive",
   },
   intro: [
     "Why struggle to transport a heavy sofa set out of your spacious Sector 6 bungalow or try to fit it through a narrow gate when expert repair can happen right in your drawing room? FurniRevive's doorstep sofa repair in Panchkula brings everything needed — skilled craftsmen, professional tools, premium materials — directly to your home. Your sofa never leaves your living room.",
     "We serve all Panchkula sectors (1–21), MDC Sector 4 & 5, Kalka, Pinjore, and Dhakoli. Whether you live in a ground-floor independent house in Sector 8 or a duplex villa in MDC Sector 5, our team works neatly and efficiently in your space.",
-    "Doorstep repair eliminates transportation damage risk, workshop waiting time, and the hassle of moving heavy furniture through gates and corridors. Starting at ₹800. For full pricing, see our <a href=\"/sofa-repair-cost-panchkula\">cost guide</a>. For same-day urgency, see <a href=\"/same-day-sofa-repair-panchkula\">same-day service</a>. Also available in <a href=\"/sofa-repair-chandigarh\">Chandigarh</a> and <a href=\"/sofa-repair-mohali\">Mohali</a>.",
+    "Doorstep repair eliminates transportation damage risk, workshop waiting time, and the hassle of moving heavy furniture through gates and corridors. Starting at ₹500. For full pricing, see our <a href=\"/sofa-repair-cost-panchkula\">cost guide</a>. For same-day urgency, see <a href=\"/same-day-sofa-repair-panchkula\">same-day service</a>. Also available in <a href=\"/sofa-repair-chandigarh\">Chandigarh</a> and <a href=\"/sofa-repair-mohali\">Mohali</a>.",
     "Panchkula's large independent houses typically have spacious drawing rooms that accommodate our repair work comfortably. Unlike cramped apartment settings, bungalow living rooms give our craftsmen ample space to work efficiently on large sofa sets, L-shapes, and recliner combinations.",
   ],
   whyChoose: [
@@ -692,7 +692,7 @@ export const doorstepSofaRepairPanchkula: SeoPageData = {
     { title: "Independent House Friendly", description: "Experienced with Panchkula's spacious bungalows and villas — Sector 4–9 independent houses, MDC colony homes, government quarters." },
     { title: "Complete Material Kit", description: "Technicians carry foam, fabric swatches, springs, hardware, and recliner parts. No second visits for common repairs." },
     { title: "Safe for Premium Sofas", description: "Imported leather sofas, oversized L-shapes, and heavy recliners are risky to move. Doorstep repair eliminates all handling damage risk." },
-    { title: "Same Price as Workshop", description: "Doorstep service costs the same as our workshop rate. From ₹800. No convenience surcharge." },
+    { title: "Same Price as Workshop", description: "Doorstep service costs the same as our workshop rate. From ₹500. No convenience surcharge." },
   ],
   process: [
     { step: "Book a Home Visit", description: "Call +91 92179 99355 or WhatsApp photos of your sofa damage. We schedule a visit at your convenience." },
@@ -753,7 +753,7 @@ export const doorstepSofaRepairPanchkula: SeoPageData = {
     { question: "What about the mess during repair?", answer: "We lay protective dust sheets before starting, contain all debris, and do complete cleanup after the repair. Your floor and surrounding furniture stay clean throughout." },
     { question: "Can you repair sofas in Panchkula bungalows with large sets?", answer: "Yes. We regularly repair large sofa sets in Panchkula's spacious bungalows — Sector 4–9 independent houses, MDC villas. The spacious rooms actually make our work easier and faster." },
     { question: "Do you cover army area and government quarters?", answer: "Yes. We serve army area residences, government quarters, and all HUDA colonies in Panchkula with the same doorstep service and pricing." },
-    { question: "Is there an extra charge for doorstep service?", answer: "No. Doorstep service is priced the same as workshop repair. From ₹800. No convenience or transportation surcharge." },
+    { question: "Is there an extra charge for doorstep service?", answer: "No. Doorstep service is priced the same as workshop repair. From ₹500. No convenience or transportation surcharge." },
     { question: "Do you cover Kalka and Pinjore for doorstep repair?", answer: "Yes. Kalka, Pinjore, and the entire Kalka road corridor are covered with doorstep sofa repair. Same pricing and warranty apply." },
   ],
   relatedPages: panchkulaRelatedExcluding("doorstep-sofa-repair-panchkula"),
@@ -770,9 +770,9 @@ export const doorstepSofaRepairPanchkula: SeoPageData = {
 export const leatherSofaRepairPanchkula: SeoPageData = {
   slug: "leather-sofa-repair-panchkula",
   cityKey: "panchkula" as const,
-  title: "Leather Sofa Repair in Panchkula from ₹1,500 | Crack, Colour, Conditioning | FurniRevive",
+  title: "Leather Sofa Repair in Panchkula from ₹1,500 | FurniRevive",
   metaDescription:
-    "Leather sofa repair in Panchkula from ₹1,500. Crack filling, colour restoration, tear mending, conditioning. Genuine & faux leather. Doorstep service all sectors, MDC colonies & Kalka. 6-month warranty. Call +91 92179 99355.",
+    "Leather sofa repair in Panchkula from ₹1,500. Crack filling, colour restoration, tear mending, conditioning. Genuine & faux leather.",
   h1: "Leather Sofa Repair in Panchkula — Crack, Colour & Conditioning from ₹1,500",
   heroSubtitle:
     "Panchkula's dry Haryana climate dries leather fast. Our specialists restore genuine and faux leather sofas — crack filling, colour matching, tear mending, and deep conditioning — all at your doorstep. From ₹1,500.",
@@ -874,9 +874,9 @@ export const leatherSofaRepairPanchkula: SeoPageData = {
 export const carpenterHomeServicePanchkula: SeoPageData = {
   slug: "carpenter-home-service-panchkula",
   cityKey: "panchkula" as const,
-  title: "Carpenter Home Service in Panchkula from ₹499 | Doorstep Carpentry | FurniRevive",
+  title: "Carpenter Home Service in Panchkula from ₹499 | FurniRevive",
   metaDescription:
-    "Professional carpenter home service in Panchkula from ₹499. Furniture repair, assembly, fitting, installation. Doorstep service across all sectors, MDC colonies, Kalka & Pinjore. Experienced craftsmen. Call +91 92179 99355.",
+    "Professional carpenter home service in Panchkula from ₹499. Furniture repair, assembly, fitting, installation. Doorstep service across all sectors, MDC.",
   h1: "Carpenter Home Service in Panchkula — Doorstep Carpentry from ₹499",
   heroSubtitle:
     "Need a carpenter at home? FurniRevive's skilled carpenters come to your Panchkula doorstep for furniture repair, assembly, fitting, and installation. From ₹499. All sectors, MDC, Kalka & Pinjore covered.",
@@ -980,9 +980,9 @@ export const carpenterHomeServicePanchkula: SeoPageData = {
 export const sofaRepairCostPanchkula: SeoPageData = {
   slug: "sofa-repair-cost-panchkula",
   cityKey: "panchkula" as const,
-  title: "Sofa Repair Cost in Panchkula 2026 | Complete Price Guide | FurniRevive",
+  title: "Sofa Repair Cost in Panchkula 2026 | FurniRevive",
   metaDescription:
-    "Sofa repair cost in Panchkula 2026: foam ₹1,200–₹3,500, spring ₹800–₹2,000, upholstery ₹2,000–₹4,500/seat, leather ₹1,500–₹5,000, recliner ₹1,499–₹5,500. Transparent pricing. Free inspection. Call +91 92179 99355.",
+    "Sofa repair cost in Panchkula 2026: foam ₹1,200–₹3,500, spring ₹800–₹2,000, upholstery ₹2,000–₹4,500/seat, leather ₹1,500–₹5,000, recliner ₹1,499–₹5,500.",
   quickAnswer:
     "Sofa repair in Panchkula costs ₹800–₹12,000 depending on repair type. Foam replacement ₹1,200–₹3,500 per seat, spring repair ₹800–₹2,000, upholstery ₹2,000–₹4,500 per seat, leather repair ₹1,500–₹5,000, recliner mechanism ₹1,499–₹5,500. Free doorstep inspection with written quote. Call +91 92179 99355.",
   h1: "Sofa Repair Cost in Panchkula — 2026 Complete Price Guide",
@@ -1102,9 +1102,9 @@ export const sofaRepairCostPanchkula: SeoPageData = {
 export const reclinerRepairCostPanchkula: SeoPageData = {
   slug: "recliner-repair-cost-panchkula",
   cityKey: "panchkula" as const,
-  title: "Recliner Repair Cost in Panchkula 2026 | Manual & Motorised Pricing | FurniRevive",
+  title: "Recliner Repair Cost in Panchkula 2026 | FurniRevive",
   metaDescription:
-    "Recliner repair cost in Panchkula 2026: manual mechanism ₹1,499–₹3,000, motorised motor ₹2,999–₹5,500, actuator ₹2,000–₹3,500. All brands. Free inspection. Transparent pricing. Call +91 92179 99355.",
+    "Recliner repair cost in Panchkula 2026: manual mechanism ₹1,499–₹3,000, motorised motor ₹2,999–₹5,500, actuator ₹2,000–₹3,500. All brands. Free inspection.",
   quickAnswer:
     "Recliner repair in Panchkula costs ₹1,499–₹5,500. Manual mechanism repair ₹1,499–₹3,000, motorised motor replacement ₹2,999–₹5,500, actuator ₹2,000–₹3,500, remote/transformer ₹800–₹2,000. Free doorstep diagnosis. All brands covered. Call +91 92179 99355.",
   h1: "Recliner Repair Cost in Panchkula — 2026 Complete Price Guide",
@@ -1215,9 +1215,9 @@ export const reclinerRepairCostPanchkula: SeoPageData = {
 export const furnitureRepairCostPanchkula: SeoPageData = {
   slug: "furniture-repair-cost-panchkula",
   cityKey: "panchkula" as const,
-  title: "Furniture Repair Cost in Panchkula 2026 | All Furniture Types | FurniRevive",
+  title: "Furniture Repair Cost in Panchkula 2026 | FurniRevive",
   metaDescription:
-    "Furniture repair cost in Panchkula 2026: chair ₹500–₹2,500, bed ₹599–₹3,000, wardrobe ₹800–₹4,000, table ₹500–₹3,000, polish ₹1,500–₹8,000. Transparent doorstep pricing. Free inspection. Call +91 92179 99355.",
+    "Furniture repair cost in Panchkula 2026: chair ₹500–₹2,500, bed ₹599–₹3,000, wardrobe ₹800–₹4,000, table ₹500–₹3,000, polish ₹1,500–₹8,000.",
   quickAnswer:
     "Furniture repair in Panchkula costs ₹499–₹15,000 depending on furniture type and damage. Chair repair ₹500–₹2,500, bed repair ₹599–₹3,000, wardrobe ₹800–₹4,000, table ₹500–₹3,000, sofa ₹800–₹12,000, polish ₹1,500–₹8,000. Free doorstep inspection. Call +91 92179 99355.",
   h1: "Furniture Repair Cost in Panchkula — 2026 Complete Price Guide",
@@ -1254,7 +1254,7 @@ export const furnitureRepairCostPanchkula: SeoPageData = {
     "Bed repair from ₹599",
     "Wardrobe repair from ₹800",
     "Table repair from ₹500",
-    "Sofa repair from ₹800",
+    "Sofa repair from ₹500",
     "Polish and refinishing from ₹1,500",
     "Hydraulic bed mechanism from ₹1,000",
     "Free inspection — no obligation",
@@ -1302,7 +1302,7 @@ export const furnitureRepairCostPanchkula: SeoPageData = {
       { service: "Table Leg Reinforcement", price: "₹500–₹1,500" },
       { service: "Single Piece Polish Touch-up", price: "₹1,500–₹3,000" },
       { service: "Dining Set Polish (table + 6 chairs)", price: "₹4,000–₹8,000" },
-      { service: "Sofa Repair", price: "₹800–₹12,000" },
+      { service: "Sofa Repair", price: "₹500–₹12,000" },
       { service: "Complete Furniture Restoration", price: "₹2,000–₹15,000" },
       { service: "Doorstep Visit Charge", price: "₹99–₹199 (adjusted)" },
     ],

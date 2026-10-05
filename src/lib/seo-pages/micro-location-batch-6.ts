@@ -6,10 +6,10 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 // ---------------------------------------------------------------------------
 export const sofaRepairNoidaSector44: SeoPageData = {
   slug: "sofa-repair-noida-sector-44",
-  title: "Sofa Repair Noida Sector 44 | Same-Day ₹999 Expert Service",
+  title: "Sofa Repair in Noida Sector 44 | Same-Day ₹500 Expert Service",
   metaDescription:
-    "4.8-star rated sofa repair in Noida Sector 44. Same-day doorstep service from ₹999. Near City Centre metro, serving Sector 18, 45, 62. Leather, fabric & recliner repair. Free inspection. Book now.",
-  h1: "Sofa Repair in Noida Sector 44 — Same-Day Doorstep Service from ₹999",
+    "8-star rated sofa repair in Noida Sector 44. Same-day doorstep service from ₹500. Near City Centre metro, serving Sector 18, 45, 62.",
+  h1: "Sofa Repair in Noida Sector 44 — Same-Day Doorstep Service from ₹500",
   heroSubtitle:
     "Sector 44 is the geographic and cultural centre of Noida — close to City Centre metro, steps from Sector 18's dining and retail, surrounded by homes that are genuinely cared for. When Noida's summer heat and relentless AC cycles start cracking your leather or flattening your cushions, our 4.8-star rated craftsmen arrive the same day, restore your sofa at your doorstep, and leave with a 6-month warranty in your hands.",
   showcaseImage: {
@@ -19,11 +19,11 @@ export const sofaRepairNoidaSector44: SeoPageData = {
     caption: "Sofa Repair in Noida Sector 44 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers same-day doorstep sofa repair in Noida Sector 44 from ₹999. We serve all of Sector 44 and neighbouring Sectors 18, 45, and 62. Services include fabric reupholstery (₹2,500–₹8,000), foam replacement (₹800–₹2,500), recliner repair (₹1,500–₹4,000), spring repair, frame repair, and full restoration (₹5,000–₹15,000). Free in-home inspection, zero hidden charges, 6-month warranty on every repair.",
+    "FurniRevive offers same-day doorstep sofa repair in Noida Sector 44 from ₹500. We serve all of Sector 44 and neighbouring Sectors 18, 45, and 62. Services include fabric reupholstery (₹2,500–₹8,000), foam replacement (₹800–₹2,500), recliner repair (₹1,500–₹4,000), spring repair, frame repair, and full restoration (₹5,000–₹15,000). Free in-home inspection, zero hidden charges, 6-month warranty on every repair.",
   intro: [
     "There's an understated confidence to living in Sector 44. You're minutes from City Centre metro, close to Sector 18's best restaurants, and part of a neighbourhood where people genuinely invest in their homes. The sofa in your drawing room is usually a considered choice — sized right for the room, chosen to last. But Noida's climate is unforgiving. Forty-five-degree summers followed by aggressive air conditioning create exactly the conditions that crack leather, compress foam, and cause wooden frames to contract and creak. After four or five years, even a quality sofa starts to show what the NCR weather does to furniture.",
     "FurniRevive brings expert <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> directly to Sector 44 doorsteps. Our verified technicians — 4.8-star rated across thousands of NCR repairs — arrive in a fully stocked service van carrying foam grades, 500+ fabric swatches, genuine leather conditioners, recliner spare parts, and structural adhesives. There's no workshop trip, no waiting weeks for a collection slot, no carrying your sofa down two flights of stairs. One visit, all work completed in your home, one transparent bill. We also serve <a href=\"/sofa-repair-delhi\">Delhi</a> for residents near the border.",
-    "Every booking in Sector 44 begins with a free in-home inspection — our specialist examines the frame, foam, springs, and fabric before quoting a single rupee. You hear the full cost before any work begins. Repairs start at ₹999, and every job is backed by a 6-month warranty that actually holds. If anything isn't right within that period, we return to your Sector 44 address and fix it at no charge.",
+    "Every booking in Sector 44 begins with a free in-home inspection — our specialist examines the frame, foam, springs, and fabric before quoting a single rupee. You hear the full cost before any work begins. Repairs start at ₹500, and every job is backed by a 6-month warranty that actually holds. If anything isn't right within that period, we return to your Sector 44 address and fix it at no charge.",
   ],
   whyChoose: [
     {
@@ -47,7 +47,7 @@ export const sofaRepairNoidaSector44: SeoPageData = {
         "Noida's extreme summer heat and heavy AC use are the two biggest enemies of upholstered furniture. We use foam grades and fabric treatments specifically chosen for NCR's climate — materials that resist the thermal cycling that causes inferior repairs to fail within months.",
     },
     {
-      title: "Transparent ₹999 Pricing — No Hidden Charges",
+      title: "Transparent ₹500 Pricing — No Hidden Charges",
       description:
         "Free inspection, honest assessment, and a fixed quote before work begins. Cushion re-stuffing from ₹400. Fabric reupholstery ₹2,500–₹8,000. Full restoration ₹5,000–₹15,000. You pay exactly what was agreed — nothing added after the fact.",
     },
@@ -90,7 +90,7 @@ export const sofaRepairNoidaSector44: SeoPageData = {
     "Recliner and sofa-bed mechanism repair",
     "L-shape and modular sectional sofa repair",
     "Climate-appropriate materials for NCR conditions",
-    "Starts at ₹999 with free inspection",
+    "Starts at ₹500 with free inspection",
     "6-month warranty — zero conditions",
   ],
   signs: [
@@ -257,7 +257,7 @@ export const sofaRepairNoidaSector44: SeoPageData = {
     {
       question: "Do you serve Sectors 18, 45, and 62?",
       answer:
-        "Yes. Sectors 18, 45, and 62 are all within our standard service zone — same pricing from ₹999, same same-day availability, same 6-month warranty as Sector 44.",
+        "Yes. Sectors 18, 45, and 62 are all within our standard service zone — same pricing from ₹500, same same-day availability, same 6-month warranty as Sector 44.",
     },
     {
       question: "Is there a warranty on sofa repairs in Sector 44?",
@@ -317,7 +317,7 @@ export const sofaRepairNoidaSector44: SeoPageData = {
   ctaVariants: [
     "Book Same-Day Repair in Sector 44",
     "Get Your Free In-Home Inspection Today",
-    "Restore Your Sofa From ₹999 — Doorstep Service",
+    "Restore Your Sofa From ₹500 — Doorstep Service",
     "WhatsApp Us — Premium Home Service, No Hassle",
   ],
   keywords: [
@@ -335,12 +335,12 @@ export const sofaRepairNoidaSector44: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairNoidaSector52: SeoPageData = {
   slug: "sofa-repair-noida-sector-52",
-  title: "Sofa Repair Noida Sector 52 | Same-Day Expert ₹999 Service",
+  title: "Sofa Repair in Noida Sector 52 | Same-Day Expert ₹500 Service",
   metaDescription:
-    "4.8-star rated sofa repair in Noida Sector 52. Same-day doorstep service from ₹999, 6-month warranty. Near Sector 51 metro. High-rise society specialists. Sectors 51, 53, 61, 62 covered. Book today.",
-  h1: "Sofa Repair in Noida Sector 52 — Same-Day Doorstep Service from ₹999",
+    "8-star rated sofa repair in Noida Sector 52. Same-day doorstep service from ₹500, 6-month warranty. Near Sector 51 metro. High-rise society specialists.",
+  h1: "Sofa Repair in Noida Sector 52 — Same-Day Doorstep Service from ₹500",
   heroSubtitle:
-    "Sector 52 is where Noida's high-rise living is at its most established — large gated societies, well-maintained towers, and homes furnished with genuine care. But Noida's punishing summers and AC-heavy interiors quietly work against your sofa every season. Our 4.8-star craftsmen come to your apartment, restore your sofa in a single visit, and leave a 6-month warranty behind — starting at ₹999.",
+    "Sector 52 is where Noida's high-rise living is at its most established — large gated societies, well-maintained towers, and homes furnished with genuine care. But Noida's punishing summers and AC-heavy interiors quietly work against your sofa every season. Our 4.8-star craftsmen come to your apartment, restore your sofa in a single visit, and leave a 6-month warranty behind — starting at ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Sector 52 Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -348,11 +348,11 @@ export const sofaRepairNoidaSector52: SeoPageData = {
     caption: "Sofa Repair in Noida Sector 52 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides same-day doorstep sofa repair in Noida Sector 52 from ₹999. We specialise in high-rise society service near Sector 51 metro, covering Sectors 51, 53, 61, and 62. Services: fabric reupholstery (₹2,500–₹8,000), foam replacement (₹800–₹2,500), recliner repair (₹1,500–₹4,000), spring and frame repair, full restoration (₹5,000–₹15,000). Free inspection, zero hidden charges, 6-month warranty included.",
+    "FurniRevive provides same-day doorstep sofa repair in Noida Sector 52 from ₹500. We specialise in high-rise society service near Sector 51 metro, covering Sectors 51, 53, 61, and 62. Services: fabric reupholstery (₹2,500–₹8,000), foam replacement (₹800–₹2,500), recliner repair (₹1,500–₹4,000), spring and frame repair, full restoration (₹5,000–₹15,000). Free inspection, zero hidden charges, 6-month warranty included.",
   intro: [
     "Sector 52 quietly became one of Noida's most desirable residential addresses — large societies, well-planned infrastructure, and the Sector 51 metro making everything accessible. The families who put down roots here are invested in their homes, and it shows. The sofas in Sector 52's high-rise living rooms are often premium purchases — from national brands, chosen carefully, sized for the room. But NCR's climate is relentless. The 44–46°C heat of a Noida May, followed by rooms kept at 20°C by the AC, causes a thermal cycling effect that dries out leather, compresses foam unevenly, and stresses every joint in a wooden sofa frame. After a few years, the damage is visible.",
     "FurniRevive brings expert <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> directly to Sector 52 apartments. Our technicians know the high-rise landscape here — the gated entry protocols at Mahagun Moderne, the lift access at Amrapali Silicon City, the compact but beautifully finished flats where a deteriorating sofa disrupts the entire room's aesthetic. We arrive with everything needed: foam grades, 500+ fabric swatches, leather conditioners, recliner parts, structural adhesives. One visit. Everything done. No workshop detour, no mess, no vague billing.",
-    "We cover all of Sector 52 and extend to Sectors 51, 53, 61, and 62 — the full residential corridor between the Sector 51 metro and Noida's IT hub. Our team coordinates with the <a href=\"/sofa-repair-noida-sector-44\">Sector 44</a> unit for jobs near central Noida's boundary, and with our Expressway team for addresses near <a href=\"/sofa-repair-noida-sector-121\">Sector 121</a>. Repairs start at ₹999. Free inspection on every booking. 6-month warranty as standard.",
+    "We cover all of Sector 52 and extend to Sectors 51, 53, 61, and 62 — the full residential corridor between the Sector 51 metro and Noida's IT hub. Our team coordinates with the <a href=\"/sofa-repair-noida-sector-44\">Sector 44</a> unit for jobs near central Noida's boundary, and with our Expressway team for addresses near <a href=\"/sofa-repair-noida-sector-121\">Sector 121</a>. Repairs start at ₹500. Free inspection on every booking. 6-month warranty as standard.",
   ],
   whyChoose: [
     {
@@ -419,7 +419,7 @@ export const sofaRepairNoidaSector52: SeoPageData = {
     "Spring and suspension repair",
     "Recliner and modular connector repair",
     "Climate-appropriate materials for NCR conditions",
-    "Starts at ₹999 with free inspection",
+    "Starts at ₹500 with free inspection",
     "6-month warranty — no exceptions",
   ],
   signs: [
@@ -636,7 +636,7 @@ export const sofaRepairNoidaSector52: SeoPageData = {
   ctaVariants: [
     "Book Same-Day Repair at Your Sector 52 Society",
     "Get a Free In-Apartment Inspection Today",
-    "Restore Your Sofa — Doorstep Service from ₹999",
+    "Restore Your Sofa — Doorstep Service from ₹500",
     "WhatsApp for Premium Home Service in Sector 52",
   ],
   keywords: [
@@ -654,12 +654,12 @@ export const sofaRepairNoidaSector52: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairNoidaSector121: SeoPageData = {
   slug: "sofa-repair-noida-sector-121",
-  title: "Sofa Repair Noida Sector 121 | Expert Doorstep ₹999 Service",
+  title: "Sofa Repair in Noida Sector 121 | Expert Doorstep ₹500 Service",
   metaDescription:
-    "4.8-star sofa repair in Noida Sector 121, Expressway corridor. Doorstep service from ₹999. Premium township specialist near Amity University. Sectors 137, 168 & Greater Noida covered. Book today.",
-  h1: "Sofa Repair in Noida Sector 121 — Expert Doorstep Service from ₹999",
+    "8-star sofa repair in Noida Sector 121, Expressway corridor. Doorstep service from ₹500. Premium township specialist near Amity University.",
+  h1: "Sofa Repair in Noida Sector 121 — Expert Doorstep Service from ₹500",
   heroSubtitle:
-    "Sector 121 is the Noida Expressway corridor at its most aspirational — premium townships, landscaped campuses, and apartments where the interior finishing standard genuinely matches the building's promise. When the NCR's extreme heat and relentless AC cycles start working against your premium sofa, our 4.8-star craftsmen bring the repair to your doorstep — same-day, fully equipped, starting at ₹999 with a 6-month warranty.",
+    "Sector 121 is the Noida Expressway corridor at its most aspirational — premium townships, landscaped campuses, and apartments where the interior finishing standard genuinely matches the building's promise. When the NCR's extreme heat and relentless AC cycles start working against your premium sofa, our 4.8-star craftsmen bring the repair to your doorstep — same-day, fully equipped, starting at ₹500 with a 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Noida Sector 121 Township Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -667,11 +667,11 @@ export const sofaRepairNoidaSector121: SeoPageData = {
     caption: "Sofa Repair in Noida Sector 121 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers doorstep sofa repair in Noida Sector 121 from ₹999. We specialise in premium township apartments on the Expressway corridor near Amity University, serving Sectors 137, 168, and Greater Noida. Services: fabric reupholstery (₹2,500–₹8,000), premium foam replacement (₹800–₹2,500), recliner repair (₹1,500–₹4,000), frame and spring repair, full restoration (₹5,000–₹15,000). Free inspection, no hidden charges, 6-month warranty included.",
+    "FurniRevive offers doorstep sofa repair in Noida Sector 121 from ₹500. We specialise in premium township apartments on the Expressway corridor near Amity University, serving Sectors 137, 168, and Greater Noida. Services: fabric reupholstery (₹2,500–₹8,000), premium foam replacement (₹800–₹2,500), recliner repair (₹1,500–₹4,000), frame and spring repair, full restoration (₹5,000–₹15,000). Free inspection, no hidden charges, 6-month warranty included.",
   intro: [
     "Sector 121 is the Expressway corridor at its best — premium township projects with landscaped clubhouses, rooftop pools, and concierge services attract residents who have genuinely high expectations of every service they invite into their homes. The sofas here are rarely afterthoughts. They were chosen to fit rooms designed with intention — often from premium national brands or curated interior studio selections. But the Noida Expressway corridor is no gentler on furniture than the rest of NCR. Forty-five-degree summer heat, rooms kept at 20°C by the AC, and the fine dust of a construction-heavy corridor combine to age even expensive sofas faster than their quality would suggest.",
     "FurniRevive brings expert <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> directly to Sector 121 doorsteps. Our Expressway team is specifically equipped for premium township work — we carry imported fabric weaves, premium <a href=\"/leather-sofa-repair-noida-expressway\">leather grades</a>, memory foam options, and specialist tools for the designer and high-specification sofas common in this corridor. Township security protocols, multi-tower check-in systems, penthouse access — our technicians handle all of it. One visit, complete job, one transparent bill.",
-    "We serve the full Sector 121 township zone and extend naturally to Sectors 137 and 168 along the Expressway. For residents near the Greater Noida boundary, our <a href=\"/sofa-repair-greater-noida\">Greater Noida</a> team coordinates seamlessly. For the central Noida corridor, our <a href=\"/sofa-repair-noida-sector-52\">Sector 52</a> team ensures no address falls between zones. Repairs start at ₹999, every booking includes a free inspection, and every repair is backed by a 6-month warranty.",
+    "We serve the full Sector 121 township zone and extend naturally to Sectors 137 and 168 along the Expressway. For residents near the Greater Noida boundary, our <a href=\"/sofa-repair-greater-noida\">Greater Noida</a> team coordinates seamlessly. For the central Noida corridor, our <a href=\"/sofa-repair-noida-sector-52\">Sector 52</a> team ensures no address falls between zones. Repairs start at ₹500, every booking includes a free inspection, and every repair is backed by a 6-month warranty.",
   ],
   whyChoose: [
     {
@@ -738,7 +738,7 @@ export const sofaRepairNoidaSector121: SeoPageData = {
     "L-shape, sectional, and designer sofa repair",
     "Township security protocol — fully compliant team",
     "Climate-matched materials for the Expressway corridor",
-    "Free inspection, starts at ₹999",
+    "Free inspection, starts at ₹500",
     "6-month warranty — zero conditions",
   ],
   signs: [
@@ -960,7 +960,7 @@ export const sofaRepairNoidaSector121: SeoPageData = {
   ctaVariants: [
     "Book Expert Repair at Your Sector 121 Township",
     "Get a Free Inspection at Your Premium Apartment",
-    "Restore Your Premium Sofa — Doorstep from ₹999",
+    "Restore Your Premium Sofa — Doorstep from ₹500",
     "WhatsApp for Same-Day Expressway Service",
   ],
   keywords: [
@@ -978,12 +978,12 @@ export const sofaRepairNoidaSector121: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairDlfPhase3: SeoPageData = {
   slug: "sofa-repair-dlf-phase-3",
-  title: "Sofa Repair DLF Phase 3 Gurgaon | Expert Doorstep ₹999",
+  title: "Sofa Repair DLF Phase 3 Gurgaon | Expert Doorstep ₹500",
   metaDescription:
-    "4.8-star rated sofa repair in DLF Phase 3, Gurgaon. Same-day doorstep from ₹999. Cyber City adjacent, Golf Course Road. Premium leather & fabric repair. DLF Phase 1, 2, Cyber Hub covered. Book now.",
-  h1: "Sofa Repair in DLF Phase 3, Gurgaon — Same-Day Doorstep Service from ₹999",
+    "8-star rated sofa repair in DLF Phase 3, Gurgaon. Same-day doorstep from ₹500. Cyber City adjacent, Golf Course Road. Premium leather & fabric repair.",
+  h1: "Sofa Repair in DLF Phase 3, Gurgaon — Same-Day Doorstep Service from ₹500",
   heroSubtitle:
-    "DLF Phase 3 sits at the intersection of Gurgaon's corporate core and its most established residential character — Cyber City minutes away, Golf Course Road close at hand, homes that are genuinely looked after. When Gurgaon's relentless summer heat and AC-heavy interiors start taking their toll on your premium sofa, our 4.8-star craftsmen arrive the same day, restore it at your doorstep, and leave a 6-month warranty behind — starting at ₹999.",
+    "DLF Phase 3 sits at the intersection of Gurgaon's corporate core and its most established residential character — Cyber City minutes away, Golf Course Road close at hand, homes that are genuinely looked after. When Gurgaon's relentless summer heat and AC-heavy interiors start taking their toll on your premium sofa, our 4.8-star craftsmen arrive the same day, restore it at your doorstep, and leave a 6-month warranty behind — starting at ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your DLF Phase 3 Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -991,11 +991,11 @@ export const sofaRepairDlfPhase3: SeoPageData = {
     caption: "Sofa Repair in DLF Phase 3 Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers same-day doorstep sofa repair in DLF Phase 3, Gurgaon, from ₹999. Cyber City-adjacent specialists serving DLF Phase 1, 2, Cyber Hub, and Sector 24. Services: fabric reupholstery (₹2,500–₹8,000), premium leather restoration (₹3,000–₹12,000), foam replacement (₹800–₹2,500), recliner repair (₹1,500–₹4,000), full restoration (₹5,000–₹15,000). Free inspection, no hidden charges, 6-month warranty on every repair.",
+    "FurniRevive offers same-day doorstep sofa repair in DLF Phase 3, Gurgaon, from ₹500. Cyber City-adjacent specialists serving DLF Phase 1, 2, Cyber Hub, and Sector 24. Services: fabric reupholstery (₹2,500–₹8,000), premium leather restoration (₹3,000–₹12,000), foam replacement (₹800–₹2,500), recliner repair (₹1,500–₹4,000), full restoration (₹5,000–₹15,000). Free inspection, no hidden charges, 6-month warranty on every repair.",
   intro: [
     "DLF Phase 3 has a dual identity that most residents understand intimately. By day it's defined by Cyber City's corporate energy — the towers, the campuses, the constant hum of Gurgaon's professional economy. By evening, it settles into one of Gurgaon's most established residential characters: well-maintained properties, long-term families, and a community that takes its home environment seriously. The sofas in Phase 3 drawing rooms reflect that — carefully chosen, well-maintained, often expensive enough to warrant professional <a href=\"/furniture-repair-dlf-gurgaon\">furniture repair in DLF Gurgaon</a> rather than replacement. When they start to deteriorate, Gurgaon's summer heat and AC-heavy rooms are usually the silent culprits. The cycle of 45°C outdoor temperatures and 18°C air conditioning dries out leather, compresses foam, and stresses frame joints faster than most residents realise.",
     "FurniRevive brings expert <a href=\"/sofa-repair-gurgaon\">sofa repair in Gurgaon</a> directly to DLF Phase 3 doorsteps. Our Gurgaon team knows this neighbourhood well — the security protocols at gated enclaves, the corporate guest houses needing weekday availability, the older independent properties where a decade-old sofa with a solid frame is absolutely worth restoring. We arrive with everything needed: high-density foam, 500+ fabric swatches, genuine leather conditioners for <a href=\"/leather-sofa-repair-dlf-gurgaon\">leather sofa repair in DLF Gurgaon</a>, recliner spare parts for <a href=\"/recliner-repair-dlf-gurgaon\">recliner repair in DLF Gurgaon</a>, and structural adhesives. One visit, complete job, one transparent bill. We also coordinate with our <a href=\"/sofa-repair-delhi\">Delhi sofa repair</a> team for addresses near the Delhi–Gurgaon boundary.",
-    "We serve all of DLF Phase 3 and extend naturally to DLF Phase 1, Phase 2, Cyber Hub, and Sector 24 — the full heart of established residential Gurgaon. Repairs start at ₹999, every booking begins with a free in-home inspection, and all work is covered by a 6-month warranty. Sofas worth ₹50,000 or more are always worth repairing — and at 5–20% of replacement cost, the decision is straightforward.",
+    "We serve all of DLF Phase 3 and extend naturally to DLF Phase 1, Phase 2, Cyber Hub, and Sector 24 — the full heart of established residential Gurgaon. Repairs start at ₹500, every booking begins with a free in-home inspection, and all work is covered by a 6-month warranty. Sofas worth ₹50,000 or more are always worth repairing — and at 5–20% of replacement cost, the decision is straightforward.",
   ],
   whyChoose: [
     {
@@ -1062,7 +1062,7 @@ export const sofaRepairDlfPhase3: SeoPageData = {
     "Recliner and motorised mechanism repair",
     "Corporate and residential booking available",
     "Gurgaon climate-appropriate materials",
-    "Free inspection, starts at ₹999",
+    "Free inspection, starts at ₹500",
     "6-month warranty — zero conditions",
   ],
   signs: [
@@ -1284,7 +1284,7 @@ export const sofaRepairDlfPhase3: SeoPageData = {
   ctaVariants: [
     "Book Same-Day Repair in DLF Phase 3",
     "Get a Free Inspection at Your Phase 3 Home",
-    "Restore Your Sofa — Expert Service from ₹999",
+    "Restore Your Sofa — Expert Service from ₹500",
     "WhatsApp for Premium Doorstep Service in Gurgaon",
   ],
   keywords: [
@@ -1302,12 +1302,12 @@ export const sofaRepairDlfPhase3: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairDlfPhase4: SeoPageData = {
   slug: "sofa-repair-dlf-phase-4",
-  title: "Sofa Repair DLF Phase 4 Gurgaon | 4.8-Star Doorstep ₹999",
+  title: "Sofa Repair DLF Phase 4 Gurgaon | 4.8-Star Doorstep ₹500",
   metaDescription:
-    "4.8-star sofa repair in DLF Phase 4, Gurgaon. Same-day doorstep from ₹999. Luxury villa & independent floor specialist. Near Sector 43, Nirvana Country. DLF Phase 3, 5 covered. Book today.",
-  h1: "Sofa Repair in DLF Phase 4, Gurgaon — Specialist Doorstep Service from ₹999",
+    "8-star sofa repair in DLF Phase 4, Gurgaon. Same-day doorstep from ₹500. Luxury villa & independent floor specialist. Near Sector 43, Nirvana Country.",
+  h1: "Sofa Repair in DLF Phase 4, Gurgaon — Specialist Doorstep Service from ₹500",
   heroSubtitle:
-    "DLF Phase 4 is where Gurgaon's residential standard peaks — independent floors with private terraces, villas with landscaped gardens, drawing rooms furnished with pieces that were never chosen casually. The sofas in Phase 4 homes are often design statements: bespoke upholstery, premium frames, leather that was expensive when it was new. When they need attention, they need someone who understands what they're handling. Our 4.8-star craftsmen do — and they bring that expertise to your doorstep, starting at ₹999 with a 6-month warranty.",
+    "DLF Phase 4 is where Gurgaon's residential standard peaks — independent floors with private terraces, villas with landscaped gardens, drawing rooms furnished with pieces that were never chosen casually. The sofas in Phase 4 homes are often design statements: bespoke upholstery, premium frames, leather that was expensive when it was new. When they need attention, they need someone who understands what they're handling. Our 4.8-star craftsmen do — and they bring that expertise to your doorstep, starting at ₹500 with a 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your DLF Phase 4 Villa",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -1315,7 +1315,7 @@ export const sofaRepairDlfPhase4: SeoPageData = {
     caption: "Sofa Repair in DLF Phase 4 Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides specialist doorstep sofa repair in DLF Phase 4, Gurgaon, from ₹999. We specialise in luxury villa and independent floor properties near Sector 43 and Nirvana Country. Services include premium fabric reupholstery (₹2,500–₹8,000), leather restoration (₹3,000–₹12,000), foam replacement (₹800–₹2,500), recliner repair (₹1,500–₹4,000), antique sofa restoration, and full restoration (₹5,000–₹15,000). Free inspection, no hidden charges, 6-month warranty.",
+    "FurniRevive provides specialist doorstep sofa repair in DLF Phase 4, Gurgaon, from ₹500. We specialise in luxury villa and independent floor properties near Sector 43 and Nirvana Country. Services include premium fabric reupholstery (₹2,500–₹8,000), leather restoration (₹3,000–₹12,000), foam replacement (₹800–₹2,500), recliner repair (₹1,500–₹4,000), antique sofa restoration, and full restoration (₹5,000–₹15,000). Free inspection, no hidden charges, 6-month warranty.",
   intro: [
     "DLF Phase 4 occupies a special position in Gurgaon's residential landscape. Unlike the apartment-tower model of Phase 1 and Phase 2, Phase 4 is defined by independent floors and villas — a more private, more spacious, more curated way of living. The homeowners here have been in Gurgaon long enough to make considered choices at every stage, and the furniture in their drawing rooms reflects that. A sofa in a Phase 4 villa isn't just furniture — it may be a bespoke piece from a curated interior studio, a premium import, or a solid-framed heirloom that has been in the family for fifteen years. These pieces don't get replaced on a whim. They get restored properly by <a href=\"/furniture-repair-dlf-gurgaon\">furniture restoration specialists in DLF</a>.",
     "FurniRevive brings specialist <a href=\"/sofa-repair-gurgaon\">sofa repair in Gurgaon</a> directly to DLF Phase 4 doorsteps. Our Gurgaon craftsmen — 4.8-star rated across thousands of repairs — are specifically selected and trained for high-end upholstery work: imported fabric handling, genuine <a href=\"/leather-sofa-repair-dlf-gurgaon\">leather sofa restoration</a>, period-appropriate stitching, and frame repair that leaves the outer finish untouched. We arrive with our best materials — 500+ fabric swatches including imported weaves, premium leather grades, specialist adhesives, and precision tools. One visit, complete job, no workshop round-trips. We also coordinate with our <a href=\"/sofa-repair-delhi\">Delhi sofa repair</a> team for Phase 4 properties near the Gurgaon–Delhi boundary.",
@@ -1386,7 +1386,7 @@ export const sofaRepairDlfPhase4: SeoPageData = {
     "Motorised and manual recliner mechanism repair",
     "Antique and heirloom sofa restoration",
     "Gurgaon climate-appropriate treatments",
-    "Free inspection, starts at ₹999",
+    "Free inspection, starts at ₹500",
     "6-month warranty — zero exceptions",
   ],
   signs: [
@@ -1613,7 +1613,7 @@ export const sofaRepairDlfPhase4: SeoPageData = {
   ctaVariants: [
     "Book Specialist Repair at Your DLF Phase 4 Villa",
     "Get a Free In-Home Assessment Today",
-    "Restore Your Luxury Sofa — Expert Service from ₹999",
+    "Restore Your Luxury Sofa — Expert Service from ₹500",
     "WhatsApp for Premium Doorstep Service in Phase 4",
   ],
   keywords: [

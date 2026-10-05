@@ -6,12 +6,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 export const sofaRepairGolfCourseExtensionRoad: SeoPageData = {
   slug: "sofa-repair-golf-course-extension-road",
   title:
-    "Sofa Repair on Golf Course Extension Road Gurgaon | Designer Upholstery ₹999 | FurniRevive",
+    "Sofa Repair on Golf Course Extension Road Gurgaon",
   metaDescription:
-    "Expert sofa and upholstery repair on Golf Course Extension Road, Gurgaon from ₹999. Designer furniture restoration, leather care, recliner repair. Doorstep service, 6-month warranty.",
+    "Expert sofa and upholstery repair on Golf Course Extension Road, Gurgaon from ₹500. Designer furniture restoration, leather care, recliner repair.",
   h1: "Sofa Repair on Golf Course Extension Road, Gurgaon",
   heroSubtitle:
-    "Golf Course Extension Road's premium residential corridors — M3M Golf Estate, Ireo Grand Arch, Sector 58, 59 & 61 — demand a restoration specialist who understands designer furniture. FurniRevive delivers from ₹999 with a 6-month warranty.",
+    "Golf Course Extension Road's premium residential corridors — M3M Golf Estate, Ireo Grand Arch, Sector 58, 59 & 61 — demand a restoration specialist who understands designer furniture. FurniRevive delivers from ₹500 with a 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -19,11 +19,11 @@ export const sofaRepairGolfCourseExtensionRoad: SeoPageData = {
     caption: "Sofa Repair in Golf Course Extension Road, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair across Golf Course Extension Road — covering M3M Golf Estate, Ireo Grand Arch, Sector 58, Sector 59, Sector 61, and the Rapid Metro corridor — starting at ₹999. Our craftsmen are trained in Italian leather restoration, motorised luxury recliner repair, designer sectional upholstery, and premium foam replacement. A free on-site assessment, a fixed transparent quote, and a 6-month workmanship warranty come standard on every job. Morning bookings across Golf Course Extension Road regularly secure same-day afternoon service.",
+    "FurniRevive delivers 4.8-star rated doorstep sofa repair across Golf Course Extension Road — covering M3M Golf Estate, Ireo Grand Arch, Sector 58, Sector 59, Sector 61, and the Rapid Metro corridor — starting at ₹500. Our craftsmen are trained in Italian leather restoration, motorised luxury recliner repair, designer sectional upholstery, and premium foam replacement. A free on-site assessment, a fixed transparent quote, and a 6-month workmanship warranty come standard on every job. Morning bookings across Golf Course Extension Road regularly secure same-day afternoon service.",
   intro: [
     "Golf Course Extension Road is not simply an address in Gurgaon — it is a statement of intent. The high-rise towers and premium villa clusters that define this corridor — M3M Golf Estate's glass-facade residences, Ireo Grand Arch's architect-designed interiors, the curated developments of Sector 58, 59, and 61 — were built for residents who do not compromise on quality. The furniture inside these homes reflects that standard exactly. The Italian leather sectional in the living room was configured over multiple visits to a Golf Course Road premium showroom. The motorised recliner pair in the media room — which our <a href=\"/recliner-repair-dlf-gurgaon\">recliner repair in DLF Gurgaon</a> team regularly services — arrived from a designer store in DLF Cybercity. The custom-built sofa in the study was crafted to millimetre precision for a specific architectural alcove. These are not generic pieces — they are investments in daily living, and they deserve <a href=\"/furniture-repair-dlf-gurgaon\">furniture restoration specialists in DLF</a> who understand precisely what they are.",
     "FurniRevive's Gurgaon team works regularly in the towers and villas of Golf Course Extension Road, and we understand the specific furniture profile and maintenance challenges that define this corridor. We are part of the wider <a href=\"/sofa-repair-gurgaon\">sofa repair Gurgaon</a> network, but with a specialist capability for the designer sofas, imported <a href=\"/leather-sofa-repair-dlf-gurgaon\">specialist leather restoration</a>, and luxury recliner mechanisms that define homes in this part of the city. Our craftsmen carry professional-grade tools and premium materials — including 40+ fabric swatches and three foam density grades — and complete virtually every repair within your apartment, without a workshop, without transport, and without any disruption to your daily routine.",
-    "The starting rate of ₹999 is genuine — verified across thousands of completed jobs in Gurgaon and Delhi. The free, no-obligation on-site assessment produces a fixed, itemised quote before a single stitch is touched. And the 6-month workmanship warranty means there is no risk in the decision. Residents of Golf Course Extension Road who have used FurniRevive consistently tell us they wish they had called sooner. If your sofa is showing strain, this is where restoration begins.",
+    "The starting rate of ₹500 is genuine — verified across thousands of completed jobs in Gurgaon and Delhi. The free, no-obligation on-site assessment produces a fixed, itemised quote before a single stitch is touched. And the 6-month workmanship warranty means there is no risk in the decision. Residents of Golf Course Extension Road who have used FurniRevive consistently tell us they wish they had called sooner. If your sofa is showing strain, this is where restoration begins.",
   ],
   whyChoose: [
     {
@@ -42,7 +42,7 @@ export const sofaRepairGolfCourseExtensionRoad: SeoPageData = {
         "Book before noon and we confirm a same-day afternoon slot for most Golf Course Extension Road addresses. We keep dedicated Gurgaon craftsmen available specifically to minimise wait times — because a cracked leather surface or a jammed motorised recliner left unattended for a week causes compounding damage. Afternoon bookings receive a confirmed morning slot the following day.",
     },
     {
-      title: "Transparent Fixed Pricing from ₹999 — No Mid-Job Surprises",
+      title: "Transparent Fixed Pricing from ₹500 — No Mid-Job Surprises",
       description:
         "After the free on-site assessment, you receive a single, itemised, fixed quote. That figure does not change because a material cost appeared mid-job. It does not grow because the craftsman determines extra labour was involved. What you approve is precisely what you pay — always. For Golf Course Extension Road's high-value furniture, this pricing transparency removes every hesitation.",
     },
@@ -256,9 +256,9 @@ export const sofaRepairGolfCourseExtensionRoad: SeoPageData = {
         "Full re-upholstery costs vary significantly by sectional size, module count, and fabric choice. As a guide: a 3-seater standard sofa ₹5,000–₹12,000; a 4-seater or large 2-piece L-sectional ₹10,000–₹22,000; a 5–6 module U-shaped or extended L-sectional ₹18,000–₹40,000. Premium leather and imported fabric choices place costs toward the upper end. The free on-site assessment gives you a precise, itemised number before any commitment. Foam replacement only (without re-upholstery) for a large sectional: ₹5,000–₹10,000.",
     },
     {
-      question: "Is FurniRevive's ₹999 starting price genuinely applicable to Golf Course Extension Road?",
+      question: "Is FurniRevive's ₹500 starting price genuinely applicable to Golf Course Extension Road?",
       answer:
-        "Yes — ₹999 is our genuine starting rate for minor repairs such as small re-stitching jobs, simple structural tightening, or localised patch work on limited fabric damage. It applies equally to Golf Course Extension Road as to any other area in our Gurgaon service zone. Most premium sofa restoration work in M3M Golf Estate and Ireo Grand Arch — involving leather conditioning, foam replacement, recliner mechanisms, or re-upholstery — falls in the ₹5,000–₹30,000 range depending on the scope of the work. The free on-site assessment always gives you a precise, fixed number before a decision is made.",
+        "Yes — ₹500 is our genuine starting rate for minor repairs such as small re-stitching jobs, simple structural tightening, or localised patch work on limited fabric damage. It applies equally to Golf Course Extension Road as to any other area in our Gurgaon service zone. Most premium sofa restoration work in M3M Golf Estate and Ireo Grand Arch — involving leather conditioning, foam replacement, recliner mechanisms, or re-upholstery — falls in the ₹5,000–₹30,000 range depending on the scope of the work. The free on-site assessment always gives you a precise, fixed number before a decision is made.",
     },
   ],
   keywords: [

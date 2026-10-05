@@ -5,6 +5,7 @@ import ProcessSection from "@/components/registry/ProcessSection.tsx";
 import PricingSection from "@/components/registry/PricingSection.tsx";
 import RepairTypesSection from "@/components/registry/RepairTypesSection.tsx";
 import BrandsSection from "@/components/registry/BrandsSection.tsx";
+import BeforeAfterSection from "@/components/registry/BeforeAfterSection.tsx";
 import FaqSection from "@/components/registry/FaqSection.tsx";
 import NearbySection from "@/components/registry/NearbySection.tsx";
 import PyramidLinksSection from "@/components/registry/PyramidLinksSection.tsx";
@@ -78,6 +79,8 @@ export default function SectionRenderer({
       return <ComparisonSection section={section} />;
     case "testimonials":
       return <TestimonialsSection section={section} />;
+    case "before-after":
+      return <BeforeAfterSection section={section} />;
     case "topical-authority":
       return <TopicalAuthorityRegistrySection section={section} />;
     case "blog-links":

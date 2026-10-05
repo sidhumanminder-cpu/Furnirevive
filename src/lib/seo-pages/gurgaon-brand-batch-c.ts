@@ -3,8 +3,8 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const wakefitFurnitureRepairGurgaon: SeoPageData = {
   slug: "wakefit-furniture-repair-gurgaon",
-  title: "Wakefit Furniture Repair in Gurgaon | Sofa & Sofa Bed Restoration | FurniRevive",
-  metaDescription: "Expert Wakefit furniture repair in Gurgaon. Sofa repair, sofa bed mechanism fix, foam replacement at your doorstep across DLF, Golf Course Road & all sectors. 6-month warranty.",
+  title: "Wakefit Furniture Repair in Gurgaon | FurniRevive",
+  metaDescription: "Expert Wakefit furniture repair in Gurgaon. Sofa repair, sofa bed mechanism fix, foam replacement at your doorstep across DLF.",
   h1: "Wakefit Furniture Repair in Gurgaon | Sofa and Sofa Bed Specialists",
   heroSubtitle: "Skilled technicians restoring Wakefit sofas, sofa beds, and home furniture -- back to full comfort and function at your doorstep across Gurgaon.",
   showcaseImage: {
@@ -229,8 +229,8 @@ const wakefitFurnitureRepairGurgaon: SeoPageData = {
 
 const woodenStreetFurnitureRepairGurgaon: SeoPageData = {
   slug: "wooden-street-furniture-repair-gurgaon",
-  title: "Wooden Street Furniture Repair in Gurgaon | Sheesham & Solid Wood Restoration | FurniRevive",
-  metaDescription: "Expert Wooden Street furniture repair in Gurgaon. Sheesham and solid wood restoration, upholstery repair, joint reinforcement at your doorstep. DLF, Golf Course Road & all sectors. 6-month warranty.",
+  title: "Wooden Street Furniture Repair in Gurgaon | FurniRevive",
+  metaDescription: "Expert Wooden Street furniture repair in Gurgaon. Sheesham and solid wood restoration, upholstery repair, joint reinforcement at your doorstep.",
   h1: "Wooden Street Furniture Repair in Gurgaon | Sheesham and Solid Wood Specialists",
   heroSubtitle: "Skilled craftsmen restoring Wooden Street sheesham sofas, dining sets, and solid wood furniture -- structural reinforcement, refinishing, and upholstery at your Gurgaon doorstep.",
   showcaseImage: {

@@ -2,9 +2,9 @@ import type { SeoPageData } from "@/lib/seo-constants.ts";
 
 const designerFurnitureRepairFaridabad: SeoPageData = {
   slug: "designer-furniture-repair-faridabad",
-  title: "Designer Furniture Repair Faridabad | Bespoke Piece Restoration | FurniRevive",
+  title: "Designer Furniture Repair Faridabad | FurniRevive",
   metaDescription:
-    "Expert designer furniture repair in Faridabad. We restore bespoke pieces, preserve original design intent, and service luxury upholstery for villa and premium apartment owners in Sectors 15, 21C, 46, 85 and BPTP Parklands.",
+    "Expert designer furniture repair in Faridabad. We restore bespoke pieces, preserve original design intent.",
   h1: "Designer Furniture Repair Faridabad",
   heroSubtitle:
     "Precision restoration for bespoke, architect-specified, and designer-commissioned furniture. Serving Faridabad's most discerning villa and premium apartment owners.",
@@ -420,9 +420,9 @@ const designerFurnitureRepairFaridabad: SeoPageData = {
 
 const customFurnitureRepairFaridabad: SeoPageData = {
   slug: "custom-furniture-repair-faridabad",
-  title: "Custom Furniture Repair Faridabad | Handmade & Bespoke Piece Restoration | FurniRevive",
+  title: "Custom Furniture Repair Faridabad | FurniRevive",
   metaDescription:
-    "Expert custom furniture repair in Faridabad. We restore handmade, custom-built, and one-of-a-kind pieces for villa and premium apartment owners across Sectors 15–88, BPTP Parklands, Greater Faridabad and all premium communities.",
+    "Expert custom furniture repair in Faridabad. We restore handmade, custom-built.",
   h1: "Custom Furniture Repair Faridabad",
   heroSubtitle:
     "Specialist restoration for custom-built, handmade, and modified furniture. Faridabad's premium residential communities rely on FurniRevive for repairs that respect original craftsmanship and personal design choices.",

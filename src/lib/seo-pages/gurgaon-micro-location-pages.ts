@@ -19,10 +19,10 @@ const GURGAON_RELATED = [
 export const sofaRepairSohnaRoadGurgaon: SeoPageData = {
   slug: "sofa-repair-sohna-road-gurgaon",
 
-  title: "Sofa Repair Sohna Road Gurgaon | Near Me ₹999 | Same-Day Home Service",
+  title: "Sofa Repair Sohna Road Gurgaon | Near Me ₹500",
 
   metaDescription:
-    "Sofa repair near me on Sohna Road Gurgaon from ₹999. Cover change, foam, leather & recliner repair at home — Central Park, Unitech, Vatika, Bestech, Sector 33–70. Same-day. 6-month warranty.",
+    "Sofa repair near me on Sohna Road Gurgaon from ₹500. Cover change, foam, leather & recliner repair at home — Central Park, Unitech, Vatika, Bestech.",
 
   h1: "Sofa Repair Near Me on Sohna Road Gurgaon — Central Park to Vatika",
 
@@ -44,7 +44,7 @@ export const sofaRepairSohnaRoadGurgaon: SeoPageData = {
 
     "FurniRevive's doorstep sofa repair service covers every major society along the Sohna Road corridor. Whether you live in Central Park Resorts (Sector 48), Unitech South City 2 (Sector 50), Vatika Sovereign Park (Sector 99, Sohna Road exit), Bestech Park View Grand Spa (Sector 81), Emaar Emerald Hills, or any of the dozens of mid-rise and high-rise complexes in Sectors 33 through 70, our trained craftsmen travel directly to your apartment with all tools, fabrics and leather treatment supplies needed to complete the repair in a single visit.",
 
-    "Sohna Road residents enjoy easy connectivity through the Rapid Metro and the Southern Peripheral Road, and our service teams use the same routes to reach you efficiently. Pricing starts at ₹999 for basic fabric repairs, leather restoration ranges from ₹2,999 to ₹8,000, and full reupholstery from ₹3,500 per seat. Transparent written quotes are always provided before any work begins.",
+    "Sohna Road residents enjoy easy connectivity through the Rapid Metro and the Southern Peripheral Road, and our service teams use the same routes to reach you efficiently. Pricing starts at ₹500 for basic fabric repairs, leather restoration ranges from ₹2,999 to ₹8,000, and full reupholstery from ₹2,000 per seat. Transparent written quotes are always provided before any work begins.",
   ],
 
   whyChoose: [
@@ -107,9 +107,9 @@ export const sofaRepairSohnaRoadGurgaon: SeoPageData = {
     "Doorstep sofa repair across the entire Sohna Road corridor",
     "Serving Central Park, Unitech, Vatika, Bestech and all Sohna Road societies",
     "Covering Sector 33, 47, 48, 49, 50, 56, 68, 70 and Badshahpur",
-    "Starting price ₹999 for basic fabric sofa repairs",
+    "Starting price ₹500 for basic fabric sofa repairs",
     "Leather restoration from ₹2,999 with colour-matched treatments",
-    "Full reupholstery from ₹3,500 per seat with 400+ fabric options",
+    "Full reupholstery from ₹2,000 per seat with 400+ fabric options",
     "Broken recliner mechanism repair and replacement on-site",
     "Spring and foam replacement for sagging cushion restoration",
     "Wooden frame repair and joint re-gluing for structural integrity",
@@ -143,7 +143,7 @@ export const sofaRepairSohnaRoadGurgaon: SeoPageData = {
     {
       heading: "Pricing and Warranty for Sohna Road Residents",
       body: [
-        "Sohna Road residents frequently compare repair costs before booking, and we believe in full transparency. Basic fabric tear repair starts at ₹999, single-seat foam replacement costs ₹800 to ₹2,500, leather restoration ranges from ₹2,999 to ₹8,000, and complete fabric reupholstery starts at ₹3,500 per seat. The exact quote depends on sofa size, material, extent of damage and number of components needing attention. Every customer receives a detailed written quote before work begins.",
+        "Sohna Road residents frequently compare repair costs before booking, and we believe in full transparency. Basic fabric tear repair starts at ₹999, single-seat foam replacement costs ₹800 to ₹2,500, leather restoration ranges from ₹2,999 to ₹8,000, and complete fabric reupholstery starts at ₹2,000 per seat. The exact quote depends on sofa size, material, extent of damage and number of components needing attention. Every customer receives a detailed written quote before work begins.",
         "Our 6-month warranty is a signed written commitment — not a marketing phrase. If any repair fails or any restored component deteriorates within six months, we return to your Sohna Road apartment and fix the issue at no charge. This warranty has built our reputation across Gurgaon's residential communities and is the primary reason residents recommend us to neighbours. For more details on our services, visit our <a href=\"/blog\">Blog</a> or the <a href=\"/furniture-repair-gurgaon\">Furniture Repair Gurgaon</a> page.",
       ],
     },
@@ -151,7 +151,7 @@ export const sofaRepairSohnaRoadGurgaon: SeoPageData = {
       heading: "Sofa Repair Near Me on Sohna Road — Same-Day Home Service",
       body: [
         "Searching for sofa repair near me on Sohna Road Gurgaon? FurniRevive sends a skilled technician directly to your apartment — whether you live near Central Park Resorts, Unitech South City, Bestech Grand Spa, or in any of the sectors 33–70 along the corridor. Our sofa repair near me at home service is available same-day for bookings made before noon.",
-        "Sofa repair near me cost on Sohna Road starts at ₹999. You receive a free doorstep inspection and a written quote before any work begins. Trusted, fast, and backed by a 6-month warranty. Book online or WhatsApp +91 92179 99355.",
+        "Sofa repair near me cost on Sohna Road starts at ₹500. You receive a free doorstep inspection and a written quote before any work begins. Trusted, fast, and backed by a 6-month warranty. Book online or WhatsApp +91 92179 99355.",
       ],
     },
   ],
@@ -160,7 +160,7 @@ export const sofaRepairSohnaRoadGurgaon: SeoPageData = {
     {
       question: "How much does sofa repair cost on Sohna Road Gurgaon?",
       answer:
-        "Sofa repair on Sohna Road starts at ₹999 for basic fabric fixes. Leather restoration costs ₹2,999 to ₹8,000 depending on sofa size and damage severity. Full reupholstery with new fabric begins from ₹3,500 per seat. A transparent quote is provided after inspection.",
+        "Sofa repair on Sohna Road starts at ₹500 for basic fabric fixes. Leather restoration costs ₹2,999 to ₹8,000 depending on sofa size and damage severity. Full reupholstery with new fabric begins from ₹2,000 per seat. A transparent quote is provided after inspection.",
     },
     {
       question: "Which societies on Sohna Road do you serve?",
@@ -222,10 +222,10 @@ export const sofaRepairSohnaRoadGurgaon: SeoPageData = {
 export const furnitureRepairDwarkaExpresswayGurgaon: SeoPageData = {
   slug: "furniture-repair-dwarka-expressway-gurgaon",
 
-  title: "Furniture Repair Dwarka Expressway Gurgaon | Near Me ₹599 | Same-Day Doorstep",
+  title: "Furniture Repair Dwarka Expressway Gurgaon | Near Me ₹599",
 
   metaDescription:
-    "Furniture repair near me on Dwarka Expressway Gurgaon from ₹599. Sofa, bed, wardrobe repair in Sector 76–113. IKEA & online furniture specialists. Same-day. 6-month warranty.",
+    "Furniture repair near me on Dwarka Expressway Gurgaon from ₹599. Sofa, bed, wardrobe repair in Sector 76–113. IKEA & online furniture specialists.",
 
   h1: "Furniture Repair on Dwarka Expressway Gurgaon — New Gurgaon",
 
@@ -311,7 +311,7 @@ export const furnitureRepairDwarkaExpresswayGurgaon: SeoPageData = {
     "Covering Sector 76 to 113 and Pataudi Road societies",
     "Serving Conscient, Shapoorji, Sobha, Adani, Elan and all major developers",
     "Starting price just ₹599 for minor hardware fixes",
-    "Sofa repair from ₹999 including cushion and upholstery work",
+    "Sofa repair from ₹500 including cushion and upholstery work",
     "Wardrobe repair from ₹1,000 including hinge and track replacement",
     "Bed frame repair from ₹1,500 with slat and rail replacement",
     "Expert with IKEA, Pepperfry, Urban Ladder and all online furniture brands",
@@ -340,7 +340,7 @@ export const furnitureRepairDwarkaExpresswayGurgaon: SeoPageData = {
       heading: "Sofa and Bed Repair Across New Gurgaon Sectors",
       body: [
         "Sofas and beds are the two largest furniture investments in any Dwarka Expressway home, and they are also the two pieces that take the most daily punishment. Young families with children use sofas as play areas, eating spots and occasional trampolines — leading to compressed cushions, stained fabric, torn armrests and weakened frames faster than manufacturers anticipate. Beds endure nightly stress on frames, slats and headboard joints, with MDF-based platform beds from online brands being particularly prone to cracking at stress points.",
-        "FurniRevive's sofa repairs on the Dwarka Expressway start at ₹999 for fabric patching and foam replacement, scaling to ₹8,000 for full reupholstery of large L-shaped sectionals. Bed frame repairs range from ₹1,500 for slat replacement and joint re-gluing to ₹6,000 for comprehensive frame overhauls including headboard reattachment and side rail reinforcement. Our craftsmen repair sofas and beds from all brands — whether it is an IKEA sofa-bed, a Wakefit wooden bed frame, or a Pepperfry upholstered headboard — right at your doorstep in any Dwarka Expressway society.",
+        "FurniRevive's sofa repairs on the Dwarka Expressway start at ₹500 for fabric patching and foam replacement, scaling to ₹8,000 for full reupholstery of large L-shaped sectionals. Bed frame repairs range from ₹1,500 for slat replacement and joint re-gluing to ₹6,000 for comprehensive frame overhauls including headboard reattachment and side rail reinforcement. Our craftsmen repair sofas and beds from all brands — whether it is an IKEA sofa-bed, a Wakefit wooden bed frame, or a Pepperfry upholstered headboard — right at your doorstep in any Dwarka Expressway society.",
       ],
     },
     {
@@ -378,7 +378,7 @@ export const furnitureRepairDwarkaExpresswayGurgaon: SeoPageData = {
     {
       question: "How much does sofa repair cost on Dwarka Expressway?",
       answer:
-        "Sofa repair on Dwarka Expressway starts at ₹999 for basic cushion and fabric fixes. Foam replacement costs ₹1,200–₹3,500 per seat, full upholstery ₹2,000–₹4,500 per seat, and recliner repair ₹1,499–₹6,000. Transparent written quote provided after free inspection.",
+        "Sofa repair on Dwarka Expressway starts at ₹500 for basic cushion and fabric fixes. Foam replacement costs ₹1,200–₹3,500 per seat, full upholstery ₹2,000–₹4,500 per seat, and recliner repair ₹1,499–₹6,000. Transparent written quote provided after free inspection.",
     },
     {
       question: "Do you serve Sobha City and Adani Samsara in Sector 63A?",
@@ -428,10 +428,10 @@ export const furnitureRepairDwarkaExpresswayGurgaon: SeoPageData = {
 export const chairRepairGurgaon: SeoPageData = {
   slug: "chair-repair-gurgaon",
 
-  title: "Chair Repair Gurgaon | Hydraulic, Wheel & Gaming Chair Fix Near Me | ₹400",
+  title: "Chair Repair Gurgaon | ₹400",
 
   metaDescription:
-    "Chair repair near me in Gurgaon from ₹400. Same-day doorstep fix for office chair hydraulic failure, broken wheels, gaming chair & base repair — DLF, Sohna Road, MG Road. 6-month warranty.",
+    "Chair repair near me in Gurgaon from ₹400. Same-day doorstep fix for office chair hydraulic failure, broken wheels, gaming chair & base repair — DLF.",
 
   h1: "Chair Repair in Gurgaon (Same Day Doorstep Service)",
 

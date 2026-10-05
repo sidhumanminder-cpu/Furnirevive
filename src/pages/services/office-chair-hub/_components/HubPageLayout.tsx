@@ -30,7 +30,7 @@ import {
   computeCommercialScore,
 } from "@/lib/registry/commercial-locality-registry.ts";
 import { INDUSTRY_REGISTRY, type IndustryKey } from "@/lib/registry/industry-registry.ts";
-import { BUSINESS } from "@/lib/business-config.ts";
+import { BUSINESS, BUSINESS_ADDRESS, BUSINESS_AREA_SERVED, BUSINESS_GEO } from "@/lib/business-config.ts";
 import type { CityKey } from "@/lib/registry/types.ts";
 
 export type HubPageProps = {
@@ -180,11 +180,8 @@ export default function HubPageLayout({ city, cityDisplay, intro }: HubPageProps
       name: BUSINESS.name,
       telephone: BUSINESS.phone,
       priceRange: "₹₹",
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "4.8",
-        reviewCount: "312",
-      },
+      address: BUSINESS_ADDRESS,
+      geo: BUSINESS_GEO,
       areaServed: { "@type": "City", name: cityDisplay },
       serviceType: "Office Chair Repair",
     };

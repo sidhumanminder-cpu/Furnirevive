@@ -5,9 +5,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const luxurySofaRestorationDelhi: SeoPageData = {
   slug: "luxury-sofa-restoration-delhi",
-  title: "Luxury Sofa Restoration in Delhi | Premium Sofa Transformation Specialists",
+  title: "Luxury Sofa Restoration in Delhi",
   metaDescription:
-    "Expert luxury sofa restoration in Delhi. Designer, leather & imported sofas completely transformed at your doorstep. South Delhi specialists. Free inspection. FurniRevive.",
+    "Expert luxury sofa restoration in Delhi. Designer, leather & imported sofas completely transformed at your doorstep. South Delhi specialists.",
   h1: "Luxury Sofa Restoration Delhi — Complete Premium Sofa Transformation",
   heroSubtitle:
     "Delhi's premium sofa restoration specialists. Designer leather sofas, imported Italian pieces, luxury sectionals, and heritage upholstered furniture — completely restored at your doorstep across South Delhi. Free inspection. Transparent pricing. 6-month warranty.",
@@ -207,9 +207,9 @@ const luxurySofaRestorationDelhi: SeoPageData = {
 
 const woodenFurnitureRestorationDelhi: SeoPageData = {
   slug: "wooden-furniture-restoration-delhi",
-  title: "Wooden Furniture Restoration in Delhi | Teak, Sheesham & Solid Wood Experts",
+  title: "Wooden Furniture Restoration in Delhi",
   metaDescription:
-    "Specialist wooden furniture restoration in Delhi. Teak, sheesham, solid wood — veneer repair, water damage, polishing at doorstep. South Delhi experts. FurniRevive.",
+    "Specialist wooden furniture restoration in Delhi. Teak, sheesham, solid wood — veneer repair, water damage, polishing at doorstep. South Delhi experts.",
   h1: "Wooden Furniture Restoration Delhi — Revive Your Solid Wood Furniture",
   heroSubtitle:
     "Delhi's specialist wooden furniture restoration service. Teak, sheesham, rosewood, solid wood, and veneer — water damage, scratch repair, veneer re-adhesion, French polishing, and complete surface restoration at your doorstep across South Delhi. Free inspection.",
@@ -405,9 +405,9 @@ const woodenFurnitureRestorationDelhi: SeoPageData = {
 
 const antiqueFurnitureRestorationDelhi: SeoPageData = {
   slug: "antique-furniture-restoration-delhi",
-  title: "Antique Furniture Restoration in Delhi | Heritage & Vintage Furniture Specialists",
+  title: "Antique Furniture Restoration in Delhi",
   metaDescription:
-    "Expert antique furniture restoration in Delhi. Heritage, vintage & hand-carved pieces preserved with authentic techniques. South Delhi doorstep service. FurniRevive.",
+    "Expert antique furniture restoration in Delhi. Heritage, vintage & hand-carved pieces preserved with authentic techniques. South Delhi doorstep service.",
   h1: "Antique Furniture Restoration Delhi — Preserve Your Heritage Furniture",
   heroSubtitle:
     "Delhi's specialist antique furniture restoration service. Heritage, vintage, and hand-carved furniture preserved using traditional techniques — French polish, period-appropriate joinery, and authentic finish restoration. Doorstep service across South Delhi. Free inspection.",
@@ -598,9 +598,9 @@ const antiqueFurnitureRestorationDelhi: SeoPageData = {
 
 const furnitureRefinishingDelhi: SeoPageData = {
   slug: "furniture-refinishing-delhi",
-  title: "Furniture Refinishing in Delhi | Surface Restoration & Polish Specialists",
+  title: "Furniture Refinishing in Delhi",
   metaDescription:
-    "Professional furniture refinishing in Delhi. Scratch repair, polish restoration, finish matching & surface restoration at doorstep. South Delhi specialists. FurniRevive.",
+    "Professional furniture refinishing in Delhi. Scratch repair, polish restoration, finish matching & surface restoration at doorstep.",
   h1: "Furniture Refinishing Delhi — Restore Surfaces to Factory-Fresh Condition",
   heroSubtitle:
     "Delhi's specialist furniture refinishing service. Scratch repair, polish restoration, finish matching, dull surface renewal, water damage, and complete surface refinishing — for all furniture types at your doorstep across South Delhi. Free inspection.",
@@ -796,9 +796,9 @@ const furnitureRefinishingDelhi: SeoPageData = {
 
 const importedLeatherSofaRepairDelhi: SeoPageData = {
   slug: "imported-leather-sofa-repair-delhi",
-  title: "Imported Leather Sofa Repair in Delhi | Premium Leather Restoration Specialists",
+  title: "Imported Leather Sofa Repair in Delhi",
   metaDescription:
-    "Expert imported leather sofa repair in Delhi. Leather restoration, recolouring & repair for premium imported sofas. South Delhi doorstep service. FurniRevive.",
+    "Expert imported leather sofa repair in Delhi. Leather restoration, recolouring & repair for premium imported sofas. South Delhi doorstep service.",
   h1: "Imported Leather Sofa Repair Delhi — Expert Care for Premium Leather",
   heroSubtitle:
     "Delhi's specialist repair service for imported leather sofas. Italian full-grain leather, European semi-aniline, and all premium imported leather types — crack repair, recolouring, panel replacement, and complete re-upholstery at your doorstep across South Delhi. Free inspection.",

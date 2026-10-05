@@ -3,15 +3,15 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const reclinerRepairDlfPhase2Gurgaon: SeoPageData = {
   slug: "recliner-repair-dlf-phase-2-gurgaon",
-  title: "Recliner Repair in DLF Phase 2 Gurgaon | Doorstep Expert Service | FurniRevive",
-  metaDescription: "Specialist recliner repair in DLF Phase 2 Gurgaon — DLF Qutab Enclave, independent homes. Manual & electric recliner repair, motor replacement from ₹1,499. 6-month warranty.",
+  title: "Recliner Repair in DLF Phase 2 Gurgaon | FurniRevive",
+  metaDescription: "Specialist recliner repair in DLF Phase 2 Gurgaon — DLF Qutab Enclave, independent homes. Manual & electric recliner repair, motor replacement from ₹1,499.",
   h1: "Recliner Repair in DLF Phase 2, Gurgaon",
   heroSubtitle: "DLF Phase 2 — DLF Qutab Enclave's premium independent homes and builder floors. Your luxury recliners repaired by certified specialists at your door. From ₹1,499. 6-month warranty.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
-    altText: "Professional sofa repair technician working on a beige premium fabric sofa in a luxury Gurgaon (DLF Phase 2) home — FurniRevive",
-    caption: "Sofa Repair in Gurgaon (DLF Phase 2) | Premium upholstery & foam service | Home visit | FurniRevive",
+    altText: "Professional recliner repair technician working on a beige premium fabric sofa in a luxury Gurgaon (DLF Phase 2) home — FurniRevive",
+    caption: "Recliner Repair in Gurgaon (DLF Phase 2) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer: "FurniRevive provides specialist doorstep recliner repair across the whole of DLF Phase 2, Gurgaon — covering DLF Qutab Enclave, independent homes, builder floors, and every lane within the phase boundaries — starting at ₹1,499. We repair all recliner types: manual pull-tab, push-back, wall-hugger, and electric recliners with single or dual motors. Motor replacement, mechanism swap, foam and cushion restoration, leather repair, and frame reinforcement all handled at your address. Free on-site assessment, transparent fixed quote, and a 6-month workmanship warranty.",
   intro: [

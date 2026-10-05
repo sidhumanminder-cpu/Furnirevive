@@ -4,6 +4,8 @@ import NotFound from "@/pages/NotFound.tsx";
 import { getPageBySlug } from "@/lib/seo-pages/registry.ts";
 import { getRegistryPage } from "@/lib/registry/index.ts";
 import RegistryPage from "@/pages/services/registry-page.tsx";
+import ServiceHubPage from "@/pages/services/service-hub/page.tsx";
+import { getHubTarget } from "@/pages/services/service-hub/_lib/hub-config.ts";
 
 /**
  * Dynamic SEO page component.
@@ -68,6 +70,11 @@ export default function DynamicSeoPage() {
   const redirectTarget = RETIRED_SLUG_REDIRECTS[lowerSlug];
   if (redirectTarget) {
     return <Navigate to={`/${redirectTarget}`} replace />;
+  }
+
+  // 0. Service hub pages (city / cluster level) take precedence at their existing URLs
+  if (getHubTarget(slug)) {
+    return <ServiceHubPage slug={slug} />;
   }
 
   // 1. Check registry-first pages (new programmatic SEO architecture)

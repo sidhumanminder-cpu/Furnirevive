@@ -9,6 +9,7 @@
  */
 
 import { useEffect, useMemo } from "react";
+import AreaPills from "@/components/area-pills.tsx";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "motion/react";
 import {
@@ -61,6 +62,7 @@ import {
 } from "@/lib/seo-pages/content-uniqueness.ts";
 import { getPyramidLinks } from "@/lib/seo-pages/pyramid-links.ts";
 import NearMeSection, { type CityKey } from "@/components/seo/NearMeSection.tsx";
+import { getCtaNoun, getInlineCtaLabel } from "@/lib/seoConfigs/cta-copy.ts";
 import LocalityNearMeSection from "@/components/seo/LocalityNearMeSection.tsx";
 import NearbyAreasSection from "@/components/seo/NearbyAreasSection.tsx";
 import ServiceAvailabilitySection from "@/components/seo/ServiceAvailabilitySection.tsx";
@@ -80,6 +82,8 @@ import { getAuthorityLinks } from "@/lib/seoConfigs/authority-engine.ts";
 // New programmatic-only sections
 import ServicesGridSection from "@/components/seo/ServicesGridSection.tsx";
 import PricingSection from "@/components/seo/PricingSection.tsx";
+import SofaSizePricing from "@/components/seo/SofaSizePricing.tsx";
+import { sofaSizePricingDecision } from "@/lib/seoConfigs/sofa-size-gating.ts";
 import CommonProblemsSection from "@/components/seo/CommonProblemsSection.tsx";
 import BrandsSection from "@/components/seo/BrandsSection.tsx";
 import MaterialOptionsSection from "@/components/seo/MaterialOptionsSection.tsx";
@@ -87,6 +91,7 @@ import ServiceCoverageSection from "@/components/seo/ServiceCoverageSection.tsx"
 import ServiceHubSection from "@/components/seo/ServiceHubSection.tsx";
 import { REPAIR_TIMES } from "@/lib/seoConfigs/pricing-data.ts";
 import KitchenCrossLinkBanner from "@/components/kitchen-cross-link-banner.tsx";
+import { BUSINESS_ADDRESS, BUSINESS_AREA_SERVED, BUSINESS_GEO } from "@/lib/business-config.ts";
 
 const ICON_MAP: Record<string, LucideIcon> = {
   star: Star,
@@ -528,7 +533,9 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
       name: BRAND_NAME,
       telephone: PHONE_NUMBER,
       url: "https://furnirevive.com",
-      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.8", reviewCount: "127", bestRating: "5", worstRating: "1" },
+      address: BUSINESS_ADDRESS,
+      geo: BUSINESS_GEO,
+      areaServed: BUSINESS_AREA_SERVED,
     };
 
     const serviceSchema = {
@@ -679,9 +686,11 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
         <ServiceHubSection slug={data.slug} currentService={resolvedServiceKey} />
       )}
 
-      {/* Near-me section — city/hub pages only */}
-      {data.cityKey && (
-        <NearMeSection city={data.cityKey as CityKey} />
+      {/* Near-me section */}
+      {data.cityKey ? (
+        <NearMeSection city={data.cityKey as CityKey} emitFaqSchema={false} />
+      ) : (
+        <LocalityNearMeSection slug={data.slug} emitFaqSchema={false} />
       )}
 
       {/* Location Graph sections */}
@@ -697,6 +706,7 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
 
       {/* 4. Pricing Section */}
       <PricingSection locality={localityDisplay} />
+      {sofaSizePricingDecision(data) === "show" && <SofaSizePricing locality={localityDisplay} />}
 
       {/* Cross-link: Modular Kitchen — placed after pricing so it's seen early */}
       {!isKitchenPage && <KitchenCrossLinkBanner />}
@@ -762,14 +772,7 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
         <section className="py-14 lg:py-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-6">{data.localAreasSection.heading}</h2>
-            <div className="flex flex-wrap gap-2">
-              {data.localAreasSection.areas.map((area) => (
-                <span key={area} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-secondary/50 border border-border rounded-full text-sm text-foreground">
-                  <MapPin className="size-3.5 text-primary" />
-                  {area}
-                </span>
-              ))}
-            </div>
+            <AreaPills areas={data.localAreasSection.areas} pageSlug={data.slug} links={data.localAreasSection.links} />
           </div>
         </section>
       )}
@@ -782,14 +785,7 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-6">Service Areas in Delhi NCR</h2>
           <p className="text-muted-foreground mb-6">We provide doorstep furniture repair services across Delhi NCR including:</p>
-          <div className="flex flex-wrap gap-2">
-            {SERVICE_AREAS.map((area) => (
-              <span key={area} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-background border border-border rounded-full text-sm text-foreground">
-                <MapPin className="size-3.5 text-primary" />
-                {area}
-              </span>
-            ))}
-          </div>
+          <AreaPills areas={[...SERVICE_AREAS]} pageSlug={data.slug} tone="background" />
         </div>
       </section>
 
@@ -837,12 +833,12 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
         </div>
       </section>
 
-      <InlineCta label="Ready to restore your sofa? Book a free inspection today — same-day slots available." />
+      <InlineCta label={getInlineCtaLabel(data.slug)} />
 
       {/* Final CTA */}
       <section className="py-16 lg:py-20 bg-primary text-primary-foreground">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-4">Ready to Restore Your Furniture?</h2>
+          <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-4">Ready to Restore Your {getCtaNoun(data.slug)}?</h2>
           <p className="text-primary-foreground/80 mb-8 max-w-lg mx-auto">
             Get a free quotation today. Our expert craftsmen serve {localityDisplay} and all of Delhi NCR with same-day service available.
           </p>

@@ -19,6 +19,7 @@ import type { HeroImageRecord } from "./hero-image-registry.ts";
 import { getGalleryImages } from "./gallery-engine.ts";
 import type { GalleryMatch } from "./gallery-engine.ts";
 import { selectFaqs } from "./faq-engine.ts";
+import { faqCategoryForService } from "./faq-service-pools.ts";
 import type { SelectedFaq } from "./faq-engine.ts";
 import { getAuthorityLinks } from "./authority-engine.ts";
 import type { AuthorityMatch } from "./authority-engine.ts";
@@ -120,7 +121,7 @@ export function composePage(data: SeoPageData): ResolvedSeoPage {
 
   const faqs = resolveOrDefault<SelectedFaq[]>(() => {
     const info = getLocalityInfo(slug);
-    return selectFaqs(info);
+    return selectFaqs(info, { category: faqCategoryForService(serviceKey) });
   }, []);
 
   const authorityLinks = resolveOrDefault<AuthorityMatch[]>(() => {

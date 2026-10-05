@@ -6,7 +6,7 @@ export const leatherSofaRepairNoida: SeoPageData = {
   slug: "leather-sofa-repair-noida",
   title: "Leather Sofa Repair in Noida | Doorstep Service – FurniRevive",
   metaDescription:
-    "Expert leather sofa repair in Noida from ₹1,500. Crack, peel & colour fade fixed at your doorstep. All sectors including 18, 62, 137. 6-month warranty. Call +91 92179 99355.",
+    "Expert leather sofa repair in Noida from ₹1,500. Crack, peel & colour fade fixed at your doorstep. All sectors including 18, 62, 137. 6-month warranty.",
   h1: "Leather Sofa Repair in Noida — Doorstep Restoration Service",
   heroSubtitle:
     "Premium leather sofa restoration across Noida sectors — crack filling, colour matching, pet scratch repair & full reupholstery at your apartment doorstep. Starting ₹1,500 · 6-month warranty.",
@@ -296,9 +296,9 @@ export const leatherSofaRepairNoida: SeoPageData = {
 
 export const leatherSofaRepairGurgaon: SeoPageData = {
   slug: "leather-sofa-repair-gurgaon",
-  title: "Leather Sofa Repair in Gurgaon | Premium Doorstep Service – FurniRevive",
+  title: "Leather Sofa Repair in Gurgaon",
   metaDescription:
-    "Professional leather sofa repair in Gurgaon from ₹1,500. Golf Course Road, DLF, Sohna Road. Crack repair, recoloring & reupholstery at your doorstep. Call +91 92179 99355.",
+    "Professional leather sofa repair in Gurgaon from ₹1,500. Golf Course Road, DLF, Sohna Road. Crack repair, recoloring & reupholstery at your doorstep.",
   h1: "Leather Sofa Repair in Gurgaon — Premium Doorstep Service",
   heroSubtitle:
     "Expert leather restoration for Gurgaon homes — serving Golf Course Road, DLF phases, Sohna Road, and Cyber City with same-day doorstep service. Starting ₹1,500 · 6-month warranty.",
@@ -581,7 +581,7 @@ export const leatherSofaRepairGhaziabad: SeoPageData = {
   slug: "leather-sofa-repair-ghaziabad",
   title: "Leather Sofa Repair in Ghaziabad | Doorstep Service – FurniRevive",
   metaDescription:
-    "Leather sofa repair in Ghaziabad from ₹1,500. Indirapuram, Vaishali, Vasundhara, Raj Nagar. Crack filling, recolouring & reupholstery at home. Call +91 92179 99355.",
+    "Leather sofa repair in Ghaziabad from ₹1,500. Indirapuram, Vaishali, Vasundhara, Raj Nagar. Crack filling, recolouring & reupholstery at home.",
   h1: "Leather Sofa Repair in Ghaziabad — Doorstep Leather Restoration",
   heroSubtitle:
     "Professional leather sofa repair across Ghaziabad — covering Indirapuram, Vaishali, Vasundhara & Raj Nagar Extension with same-day doorstep service. Starting ₹1,500 · 6-month warranty.",
@@ -863,7 +863,7 @@ export const leatherSofaRepairFaridabad: SeoPageData = {
   slug: "leather-sofa-repair-faridabad",
   title: "Leather Sofa Repair in Faridabad | Doorstep Service – FurniRevive",
   metaDescription:
-    "Expert leather sofa repair in Faridabad from ₹1,500. NIT, Neharpar, sector communities. Crack repair, colour restoration & reupholstery at home. Call +91 92179 99355.",
+    "Expert leather sofa repair in Faridabad from ₹1,500. NIT, Neharpar, sector communities. Crack repair, colour restoration & reupholstery at home.",
   h1: "Leather Sofa Repair in Faridabad — Doorstep Leather Restoration",
   heroSubtitle:
     "Professional leather sofa repair for Faridabad homes — NIT, Neharpar, and residential sectors covered with same-day doorstep service. Starting ₹1,500 · 6-month warranty.",
@@ -1143,9 +1143,9 @@ export const leatherSofaRepairFaridabad: SeoPageData = {
 
 export const leatherCouchRepairDelhi: SeoPageData = {
   slug: "leather-couch-repair-delhi",
-  title: "Leather Couch Repair in Delhi | Doorstep Service from ₹1,500 – FurniRevive",
+  title: "Leather Couch Repair in Delhi",
   metaDescription:
-    "Professional leather couch repair in Delhi from ₹1,500. Cracked, peeling or faded leather fixed at your home. South Delhi, Dwarka, Rohini, Vasant Kunj. Call +91 92179 99355.",
+    "Professional leather couch repair in Delhi from ₹1,500. Cracked, peeling or faded leather fixed at your home. South Delhi, Dwarka, Rohini, Vasant Kunj.",
   h1: "Leather Couch Repair in Delhi — Professional Doorstep Service",
   heroSubtitle:
     "Expert leather couch restoration across Delhi — crack filling, colour matching, stitching repair & full reupholstery at your doorstep from ₹1,500. 6-month warranty.",

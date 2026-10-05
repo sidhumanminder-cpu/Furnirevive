@@ -7,9 +7,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 export const officeFurnitureRepairDelhi: SeoPageData = {
   slug: "office-furniture-repair-delhi",
   title:
-    "Office Furniture Repair Delhi | Chairs, Desks, Cabinets | FurniRevive",
+    "Office Furniture Repair Delhi | FurniRevive",
   metaDescription:
-    "Professional office furniture repair in Delhi — chairs, desks, conference tables, cabinets fixed at your workplace. Bulk pricing for corporates. Starting ₹499. 6-month warranty.",
+    "Professional office furniture repair in Delhi — chairs, desks, conference tables, cabinets fixed at your workplace. Bulk pricing for corporates.",
   h1: "Office Furniture Repair in Delhi — Chairs, Desks & More at Your Workplace",
   heroSubtitle:
     "Keep your Delhi office running smoothly with professional furniture repair at your workplace. Office chairs, desks, conference tables, reception furniture, and storage cabinets — all repaired on-site. Bulk pricing available for corporates and co-working spaces.",
@@ -170,9 +170,9 @@ export const officeFurnitureRepairDelhi: SeoPageData = {
 export const homeFurnitureRepairDelhi: SeoPageData = {
   slug: "home-furniture-repair-delhi",
   title:
-    "Home Furniture Repair Delhi | All Rooms Covered | ₹599 | FurniRevive",
+    "Home Furniture Repair Delhi | ₹599 | FurniRevive",
   metaDescription:
-    "Complete home furniture repair in Delhi — living room, bedroom, dining, kitchen furniture all fixed at your doorstep. Starting ₹599. Free inspection. 6-month warranty. Call FurniRevive!",
+    "Complete home furniture repair in Delhi — living room, bedroom, dining, kitchen furniture all fixed at your doorstep. Starting ₹599. Free inspection.",
   h1: "Home Furniture Repair in Delhi — Every Room, Every Piece",
   heroSubtitle:
     "From living room sofas to bedroom wardrobes, dining tables to kitchen cabinets — FurniRevive repairs all home furniture at your Delhi doorstep. One call fixes furniture across every room. Starting ₹599.",
@@ -208,7 +208,7 @@ export const homeFurnitureRepairDelhi: SeoPageData = {
     {
       title: "Starting at ₹599",
       description:
-        "Chair from ₹599, sofa from ₹999, bed from ₹1,199, wardrobe from ₹799, table from ₹699. Multi-item visits quoted together for better value.",
+        "Chair from ₹599, sofa from ₹500, bed from ₹1,199, wardrobe from ₹799, table from ₹699. Multi-item visits quoted together for better value.",
     },
     {
       title: "Family-Friendly Service",
@@ -336,12 +336,12 @@ export const doorstepSofaRepairDelhi: SeoPageData = {
   slug: "doorstep-sofa-repair-delhi",
   category: "Sofa Repair",
   title:
-    "Doorstep Sofa Repair Delhi | Sofa Repair At Home Near Me | ₹999 | FurniRevive",
+    "Doorstep Sofa Repair Delhi | ₹500 | FurniRevive",
   metaDescription:
-    "Doorstep sofa repair in Delhi — repaired right in your living room from ₹999. Sofa repair at home service near me for cushions, upholstery, frame & recliner. 6-month warranty. Call FurniRevive!",
+    "Doorstep sofa repair in Delhi — repaired right in your living room from ₹500.",
   h1: "Doorstep Sofa Repair in Delhi — Sofa Repair At Home Near Me",
   heroSubtitle:
-    "Why carry a heavy sofa anywhere? FurniRevive's doorstep sofa repair service fixes your sofa right in your living room. Cushion re-stuffing, re-upholstery, frame repair — all at your Delhi home. Starting ₹999.",
+    "Why carry a heavy sofa anywhere? FurniRevive's doorstep sofa repair service fixes your sofa right in your living room. Cushion re-stuffing, re-upholstery, frame repair — all at your Delhi home. Starting ₹500.",
   showcaseImage: {
     heading: "Doorstep Sofa Repair — Expert Sofa Repair At Home Across Delhi",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -349,11 +349,11 @@ export const doorstepSofaRepairDelhi: SeoPageData = {
     caption: "Doorstep Sofa Repair Delhi | Sofa repair at home near me | No transport needed | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive repairs sofas at your Delhi doorstep — no transport needed. Cushion work from ₹999, re-upholstery from ₹3,000, frame repair from ₹1,500. Technicians arrive with all tools and materials for same-day completion. 6-month warranty across all Delhi localities.",
+    "FurniRevive repairs sofas at your Delhi doorstep — no transport needed. Cushion work from ₹500, re-upholstery from ₹3,000, frame repair from ₹1,500. Technicians arrive with all tools and materials for same-day completion. 6-month warranty across all Delhi localities.",
   intro: [
     "The thought of dismantling, lifting, and transporting a heavy sofa to a repair workshop is enough to make most Delhi homeowners put off repair indefinitely — or worse, buy a cheap replacement. FurniRevive's doorstep sofa repair eliminates this barrier entirely. Our technicians come to your Delhi home with all necessary tools, foam, fabric, springs, and hardware, and repair your sofa right where it sits in your living room. No lifting, no transport, no workshop wait.",
     "Doorstep repair isn't just more convenient — it delivers better results. Our technicians see your sofa in its actual environment, match colours to your room's lighting, and test the repair against your room's layout and usage patterns. The repair is done under your supervision so you can ask questions, request adjustments, and see the transformation happen in real-time.",
-    "Starting at ₹999, our doorstep sofa repair covers every type of sofa issue — sagging cushions, torn upholstery, broken frames, snapped springs, and jammed recliner mechanisms. We serve all Delhi localities with same-day availability and every doorstep repair includes a 6-month warranty. It's the easiest way to get your sofa fixed without any disruption to your daily life.",
+    "Starting at ₹500, our doorstep sofa repair covers every type of sofa issue — sagging cushions, torn upholstery, broken frames, snapped springs, and jammed recliner mechanisms. We serve all Delhi localities with same-day availability and every doorstep repair includes a 6-month warranty. It's the easiest way to get your sofa fixed without any disruption to your daily life.",
   ],
   whyChoose: [
     {
@@ -377,9 +377,9 @@ export const doorstepSofaRepairDelhi: SeoPageData = {
         "See the repair happen in real-time. Ask questions, request changes, and be part of the process. Total transparency from start to finish.",
     },
     {
-      title: "Starting at ₹999",
+      title: "Starting at ₹500",
       description:
-        "Cushion work from ₹999. Re-upholstery from ₹3,000. Frame repair from ₹1,500. Doorstep service included — no extra charge for home visits.",
+        "Cushion work from ₹500. Re-upholstery from ₹3,000. Frame repair from ₹1,500. Doorstep service included — no extra charge for home visits.",
     },
     {
       title: "Same-Day & Warranty",
@@ -497,10 +497,10 @@ export const doorstepSofaRepairDelhi: SeoPageData = {
         "Cushion work: 1-2 hours. Re-upholstery: 3-5 hours. Frame repair: 2-4 hours. Complete overhaul: 4-6 hours. Most repairs done in a single visit.",
     },
     { question: "Is doorstep sofa repair available near me in Delhi today?", answer: "Yes. FurniRevive provides same-day doorstep sofa repair near me across all Delhi areas. Book before noon and our technician arrives at your home the same day with all tools and materials. Call +91 92179 99355." },
-    { question: "What is the cost of sofa repair at home near me in Delhi?", answer: "Sofa repair at home near me in Delhi starts at ₹999. Cushion foam replacement ₹1,200–₹2,500 per seat, upholstery ₹2,000–₹4,500 per seat, frame repair ₹1,500–₹4,000, recliner repair ₹1,500–₹6,000. Free inspection before work begins." },
+    { question: "What is the cost of sofa repair at home near me in Delhi?", answer: "Sofa repair at home near me in Delhi starts at ₹500. Cushion foam replacement ₹1,200–₹2,500 per seat, upholstery ₹2,000–₹4,500 per seat, frame repair ₹1,500–₹4,000, recliner repair ₹1,500–₹6,000. Free inspection before work begins." },
     { question: "Which areas in Delhi get same-day doorstep sofa repair near me?", answer: "FurniRevive covers all Delhi areas for same-day doorstep sofa repair: South Delhi (GK, Saket, Vasant Kunj, Lajpat Nagar, Hauz Khas), West Delhi (Dwarka all sectors, Janakpuri, Rajouri Garden), North Delhi (Rohini, Pitampura, Shalimar Bagh), East Delhi (Preet Vihar, Mayur Vihar, Laxmi Nagar), and Central Delhi (CP, Karol Bagh). Book before noon for same-day arrival." },
     { question: "What is included in the doorstep sofa repair price?", answer: "The price includes the technician's visit, all labour, floor protection during work, and standard materials (foam, springs, basic fabric from stock). No hidden charges. If you choose a specialty fabric not in stock, it's sourced in 1-2 days and quoted separately before ordering." },
-    { question: "What is the sofa repair near me home service price in Delhi?", answer: "Sofa repair near me home service in Delhi starts at ₹999 for cushion re-stuffing. Fabric upholstery from ₹3,000, leather upholstery from ₹8,000, frame repair from ₹1,500, and complete overhaul from ₹5,000. Doorstep service is included — no extra visit charge. Call +91 92179 99355." },
+    { question: "What is the sofa repair near me home service price in Delhi?", answer: "Sofa repair near me home service in Delhi starts at ₹500 for cushion re-stuffing. Fabric upholstery from ₹3,000, leather upholstery from ₹8,000, frame repair from ₹1,500, and complete overhaul from ₹5,000. Doorstep service is included — no extra visit charge. Call +91 92179 99355." },
     { question: "How long does it take to repair a sofa at home in Delhi?", answer: "Cushion work: 1-2 hours. Upholstery repair or patch: 2-3 hours. Frame repair: 2-4 hours. Complete overhaul: 4-6 hours. Most jobs are completed in a single visit. We lay floor protection and clean up after finishing." },
   ],
   relatedPages: buildRelatedPages("doorstep-sofa-repair-delhi", [

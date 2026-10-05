@@ -22,9 +22,9 @@ function relatedExcluding(slug: string) {
 export const sofaFoamReplacementDelhi: SeoPageData = {
   slug: "sofa-foam-replacement-delhi",
   title:
-    "Sofa Foam Replacement in Delhi | High-Density Foam ₹999 | FurniRevive",
+    "Sofa Foam Replacement in Delhi | FurniRevive",
   metaDescription:
-    "Professional sofa foam replacement in Delhi NCR. High-density 32D & 40D foam for all sofa types. Doorstep service across Delhi, Noida, Gurgaon from ₹999. 6-month warranty!",
+    "Professional sofa foam replacement in Delhi NCR. High-density 32D & 40D foam for all sofa types. Doorstep service across Delhi, Noida, Gurgaon from ₹999.",
   h1: "Sofa Foam Replacement in Delhi — High-Density Foam from ₹999",
   heroSubtitle:
     "Replace worn-out sofa foam with premium high-density foam at your doorstep. FurniRevive uses 32D and 40D foam that holds shape for 5–8 years — serving Delhi, Noida, Gurgaon, Ghaziabad & Faridabad from ₹999.",
@@ -243,7 +243,7 @@ export const furnitureRepairPriceListDelhi: SeoPageData = {
   title:
     "Furniture Repair Price List Delhi 2025 | Cost Guide | FurniRevive",
   metaDescription:
-    "Complete furniture repair price list for Delhi NCR 2025. Sofa, bed, chair, wardrobe, table repair costs. Transparent pricing from ₹499. Compare & save. Book now!",
+    "Complete furniture repair price list for Delhi NCR 2025. Sofa, bed, chair, wardrobe, table repair costs. Transparent pricing from ₹499. Compare & save.",
   h1: "Furniture Repair Price List Delhi NCR — Complete 2025 Cost Guide",
   heroSubtitle:
     "Looking for transparent furniture repair pricing in Delhi NCR? Here's FurniRevive's complete price list for sofa, bed, chair, wardrobe, table, and all furniture repairs — from ₹499 with no hidden charges.",
@@ -313,7 +313,7 @@ export const furnitureRepairPriceListDelhi: SeoPageData = {
     },
   ],
   benefits: [
-    "Sofa repair from ₹999 — cushion, frame, fabric, and leather",
+    "Sofa repair from ₹500 — cushion, frame, fabric, and leather",
     "Chair repair from ₹499 — dining, office, accent, and rocking chairs",
     "Bed repair from ₹799 — frame, headboard, slats, and hydraulic storage",
     "Wardrobe repair from ₹499 — hinges, tracks, shelves, and doors",
@@ -476,9 +476,9 @@ export const furnitureRepairPriceListDelhi: SeoPageData = {
 export const sofaSpringRepairDelhi: SeoPageData = {
   slug: "sofa-spring-repair-delhi",
   title:
-    "Sofa Spring Repair in Delhi | Spring Replacement ₹1,200 | FurniRevive",
+    "Sofa Spring Repair in Delhi | FurniRevive",
   metaDescription:
-    "Expert sofa spring repair in Delhi NCR. Broken spring replacement, sagging fix, sinuous & coil spring service for all sofas. Doorstep service from ₹1,200. 6-month warranty!",
+    "Expert sofa spring repair in Delhi NCR. Broken spring replacement, sagging fix, sinuous & coil spring service for all sofas. Doorstep service from ₹1,200.",
   h1: "Sofa Spring Repair in Delhi — Spring Replacement & Sagging Fix from ₹1,200",
   heroSubtitle:
     "Sofa sagging in the middle, springs poking through, or creaking when you sit? FurniRevive replaces broken and worn sofa springs at your doorstep across Delhi NCR — sinuous, coil, and pocket springs from ₹1,200 with a 6-month warranty.",

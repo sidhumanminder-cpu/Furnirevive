@@ -5,12 +5,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const sofaRepairSubhashNagar: SeoPageData = {
   slug: "sofa-repair-subhash-nagar",
-  title: "Sofa Repair in Subhash Nagar | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Subhash Nagar | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Subhash Nagar starting ₹999. Doorstep service near Rajouri Garden & Tilak Nagar metro. Fabric reupholstery, foam, recliner repair. 6-month warranty. Book FurniRevive today.",
+    "Professional sofa repair in Subhash Nagar starting ₹500. Doorstep service near Rajouri Garden & Tilak Nagar metro.",
   h1: "Sofa Repair in Subhash Nagar, West Delhi",
   heroSubtitle:
-    "Your sofa carries the weight of every evening in your Subhash Nagar home — every family dinner that spilled into the living room, every late-night conversation that stretched until midnight. When it starts to show the wear, FurniRevive brings expert doorstep repair from ₹999, with a 6-month warranty and craftsmen who know this neighbourhood well.",
+    "Your sofa carries the weight of every evening in your Subhash Nagar home — every family dinner that spilled into the living room, every late-night conversation that stretched until midnight. When it starts to show the wear, FurniRevive brings expert doorstep repair from ₹500, with a 6-month warranty and craftsmen who know this neighbourhood well.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Subhash Nagar Home",
     imageUrl: "https://hercules-cdn.com/file_lHpADdDn3Ar2jgqkN712H6hM",
@@ -18,7 +18,7 @@ const sofaRepairSubhashNagar: SeoPageData = {
     caption: "Sofa Repair in Subhash Nagar | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers 4.8-star rated doorstep sofa repair in Subhash Nagar, West Delhi — starting at ₹999. Our verified craftsmen cover every street in Subhash Nagar, from the lanes near the metro station to the residential blocks backing onto Tilak Nagar and Rajouri Garden. We fix sagging cushions, torn fabric, broken recliners, wobbly frames, and more — in your home, in a single visit. Fixed pricing confirmed before work starts, 6-month warranty, and same-day slots for morning bookings.",
+    "FurniRevive offers 4.8-star rated doorstep sofa repair in Subhash Nagar, West Delhi — starting at ₹500. Our verified craftsmen cover every street in Subhash Nagar, from the lanes near the metro station to the residential blocks backing onto Tilak Nagar and Rajouri Garden. We fix sagging cushions, torn fabric, broken recliners, wobbly frames, and more — in your home, in a single visit. Fixed pricing confirmed before work starts, 6-month warranty, and same-day slots for morning bookings.",
   intro: [
     "There's a particular comfort that settles over a Subhash Nagar living room on a winter evening — the kind that only a well-broken-in sofa can provide. But comfort and quality are two different things, and when the foam in your seat cushion has given up or the armrest fabric has worn through from years of everyday contact, even the most beloved sofa starts to feel like a problem instead of a refuge. The instinct is to replace it. The smarter move — almost always — is to restore it.",
     "FurniRevive's West Delhi team has been working the stretch from Rajouri Garden through Subhash Nagar and into Tilak Nagar for years. We're part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network, but our team knows the access lanes off Subhash Nagar Road, the apartment towers near the metro station, and the older kothi-style houses just as well as you know your neighbourhood. Our neighbours in <a href=\"/sofa-repair-paschim-vihar\">Paschim Vihar</a> and <a href=\"/sofa-repair-rajouri-garden\">Rajouri Garden</a> have been trusting us with their furniture for years — and Subhash Nagar residents deserve the same quality without travelling further to find it.",
@@ -31,7 +31,7 @@ const sofaRepairSubhashNagar: SeoPageData = {
         "Our craftsmen are stationed in West Delhi specifically so Subhash Nagar, Tilak Nagar, and the lanes around the metro corridor are never more than 45 minutes from booking confirmation. Same-day service isn't aspirational here — it's what we deliver every day.",
     },
     {
-      title: "Fixed Transparent Pricing from ₹999 — No Surprises at Invoice",
+      title: "Fixed Transparent Pricing from ₹500 — No Surprises at Invoice",
       description:
         "After a free on-site assessment, you receive one number. That number covers labour, materials, and the 6-month warranty — nothing added mid-job, nothing discovered after you've already approved the work. What we quote is exactly what you pay.",
     },
@@ -246,9 +246,9 @@ const sofaRepairSubhashNagar: SeoPageData = {
         "Any recurrence of the repaired fault: stitching unravelling, replaced foam compressing prematurely, re-tensioned spring losing tension again, rebuilt frame joint re-cracking. It does not cover new damage from external causes. When in doubt, send a WhatsApp photo and we'll advise.",
     },
     {
-      question: "Is the ₹999 starting price realistic, or will it always be higher?",
+      question: "Is the ₹500 starting price realistic, or will it always be higher?",
       answer:
-        "₹999 is our genuine minimum for simple repairs — basic re-stitching, a tightened leg, a small patch. Most jobs are more involved and quoted accordingly. The key is that your exact price is always given after the free assessment, before any work begins.",
+        "₹500 is our genuine minimum for simple repairs — basic re-stitching, a tightened leg, a small patch. Most jobs are more involved and quoted accordingly. The key is that your exact price is always given after the free assessment, before any work begins.",
     },
     {
       question: "Do you service Tilak Nagar and Rajouri Garden as part of the same booking?",
@@ -299,7 +299,7 @@ const sofaRepairSubhashNagar: SeoPageData = {
     "Book Doorstep Repair in Subhash Nagar",
     "Get a Free Quote Today",
     "Call Now — Same-Day Slots Available",
-    "Restore Your Sofa from ₹999",
+    "Restore Your Sofa from ₹500",
   ],
   keywords: [
     "sofa repair Subhash Nagar",
@@ -315,12 +315,12 @@ const sofaRepairSubhashNagar: SeoPageData = {
 
 const sofaRepairPatelNagar: SeoPageData = {
   slug: "sofa-repair-patel-nagar",
-  title: "Sofa Repair in Patel Nagar | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Patel Nagar | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Patel Nagar, Delhi starting ₹999. Doorstep service near Rajendra Place & Shadipur. Foam replacement, fabric reupholstery, recliner repair. 6-month warranty. Book FurniRevive now.",
+    "Expert sofa repair in Patel Nagar, Delhi starting ₹500. Doorstep service near Rajendra Place & Shadipur.",
   h1: "Sofa Repair in Patel Nagar, Delhi",
   heroSubtitle:
-    "Patel Nagar is a neighbourhood of working families who invest carefully and expect things to last. When your sofa starts to give out, don't write it off — FurniRevive brings professional doorstep repair from ₹999, with the honesty and craftsmanship this neighbourhood deserves.",
+    "Patel Nagar is a neighbourhood of working families who invest carefully and expect things to last. When your sofa starts to give out, don't write it off — FurniRevive brings professional doorstep repair from ₹500, with the honesty and craftsmanship this neighbourhood deserves.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Patel Nagar Home",
     imageUrl: "https://hercules-cdn.com/file_lHpADdDn3Ar2jgqkN712H6hM",
@@ -328,7 +328,7 @@ const sofaRepairPatelNagar: SeoPageData = {
     caption: "Sofa Repair in Patel Nagar | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Patel Nagar, Central-West Delhi — from ₹999. Our craftsmen cover East Patel Nagar, West Patel Nagar, and the surrounding areas near Rajendra Place and Shadipur metro. We fix sunken cushions, torn upholstery, creaking frames, and broken recliners — in your home, in a single visit, backed by a 6-month warranty. Fixed pricing confirmed before work starts, no hidden charges.",
+    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Patel Nagar, Central-West Delhi — from ₹500. Our craftsmen cover East Patel Nagar, West Patel Nagar, and the surrounding areas near Rajendra Place and Shadipur metro. We fix sunken cushions, torn upholstery, creaking frames, and broken recliners — in your home, in a single visit, backed by a 6-month warranty. Fixed pricing confirmed before work starts, no hidden charges.",
   intro: [
     "Patel Nagar has always been a neighbourhood of practical wisdom. Families here have built comfortable lives through careful decisions — buying quality when it counts, and making things last when it's worth it. The sofas in Patel Nagar homes tend to reflect that: mid-range to good quality pieces, purchased at real cost, and fully worth the investment of a professional repair when the time comes.",
     "FurniRevive is part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network, and our West Delhi team covers the full Patel Nagar stretch — East, West, and the adjoining residential lanes near Rajendra Place and Shadipur — as part of our broader <a href=\"/sofa-repair-west-delhi\">West Delhi sofa repair</a> territory. We've worked with neighbours in Subhash Nagar, Rajendra Nagar, and Karol Bagh, and we bring the same quality and the same honest pricing to every street in Patel Nagar.",
@@ -391,7 +391,7 @@ const sofaRepairPatelNagar: SeoPageData = {
   benefits: [
     "Covers all of Patel Nagar — East, West, and the Rajendra Place corridor",
     "Doorstep service — no dismantling, transport, or workshop involvement",
-    "Fixed transparent pricing from ₹999 — confirmed before any work begins",
+    "Fixed transparent pricing from ₹500 — confirmed before any work begins",
     "Same-day availability for bookings made before noon, weekdays and weekends",
     "6-month warranty on all repaired elements — foam, fabric, springs, and mechanisms",
     "Saves 60–80% compared to replacing your sofa at today's Delhi market prices",
@@ -608,7 +608,7 @@ const sofaRepairPatelNagar: SeoPageData = {
     "Book Sofa Repair in Patel Nagar",
     "Get Your Free Quote Today",
     "Same-Day Service — Call Now",
-    "Repair From ₹999 — Book Online",
+    "Repair From ₹500 — Book Online",
   ],
   keywords: [
     "sofa repair Patel Nagar Delhi",
@@ -624,12 +624,12 @@ const sofaRepairPatelNagar: SeoPageData = {
 
 const sofaRepairShalimarBagh: SeoPageData = {
   slug: "sofa-repair-shalimar-bagh",
-  title: "Sofa Repair in Shalimar Bagh | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Shalimar Bagh | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Shalimar Bagh, North Delhi from ₹999. Doorstep service near Ashok Vihar & Pitampura. Fabric reupholstery, foam, recliner repair, 6-month warranty. Book FurniRevive today.",
+    "Professional sofa repair in Shalimar Bagh, North Delhi from ₹500. Doorstep service near Ashok Vihar & Pitampura.",
   h1: "Sofa Repair in Shalimar Bagh, North Delhi",
   heroSubtitle:
-    "Shalimar Bagh was built with intention — wide lanes, planned blocks, homes designed for comfortable family living. Your sofa deserves the same thoughtful care. FurniRevive's North Delhi craftsmen restore it at your doorstep from ₹999, with precision and a 6-month warranty behind every stitch.",
+    "Shalimar Bagh was built with intention — wide lanes, planned blocks, homes designed for comfortable family living. Your sofa deserves the same thoughtful care. FurniRevive's North Delhi craftsmen restore it at your doorstep from ₹500, with precision and a 6-month warranty behind every stitch.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Shalimar Bagh Home",
     imageUrl: "https://hercules-cdn.com/file_lHpADdDn3Ar2jgqkN712H6hM",
@@ -637,11 +637,11 @@ const sofaRepairShalimarBagh: SeoPageData = {
     caption: "Sofa Repair in Shalimar Bagh | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Shalimar Bagh, North Delhi — starting at ₹999. We cover all residential blocks of Shalimar Bagh, extending into Ashok Vihar and Pitampura within the same service zone. Whether your sofa needs foam replacement, fabric reupholstery, a new recliner mechanism, or complete restoration — our craftsmen come to you, fix it in a single visit, and back it with a 6-month warranty. Fixed pricing confirmed before work starts.",
+    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Shalimar Bagh, North Delhi — starting at ₹500. We cover all residential blocks of Shalimar Bagh, extending into Ashok Vihar and Pitampura within the same service zone. Whether your sofa needs foam replacement, fabric reupholstery, a new recliner mechanism, or complete restoration — our craftsmen come to you, fix it in a single visit, and back it with a 6-month warranty. Fixed pricing confirmed before work starts.",
   intro: [
     "Shalimar Bagh has always stood slightly apart from the rest of North Delhi — a planned colony with wide streets and tree-lined blocks that give it a quieter, more considered feel than the denser neighbourhoods on either side. The homes here reflect that: well-maintained, furnished with care, and belonging to families who take their living spaces seriously. When a sofa in a Shalimar Bagh home begins to show wear, the instinct is to find a service that matches those standards.",
     "FurniRevive's North Delhi team serves Shalimar Bagh as part of its primary coverage zone, alongside <a href=\"/sofa-repair-rohini\">Rohini</a> and the wider <a href=\"/sofa-repair-north-delhi\">North Delhi sofa repair</a> network. Our craftsmen know the layout of this colony — the block structure, the building types, the access logistics — and we're familiar with the furniture styles common in a neighbourhood of this character. Whether you need a single cushion re-stuffed or a full sectional reupholstered, we arrive prepared for it.",
-    "Every repair we do in Shalimar Bagh starts with a free on-site assessment and a fixed quote you approve before we touch anything. We cover Ashok Vihar and Pitampura under the same pricing and the same same-day promise, and we're part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network that has handled thousands of jobs across North and North-West Delhi. Starting at ₹999, with a 6-month warranty on everything we repair.",
+    "Every repair we do in Shalimar Bagh starts with a free on-site assessment and a fixed quote you approve before we touch anything. We cover Ashok Vihar and Pitampura under the same pricing and the same same-day promise, and we're part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network that has handled thousands of jobs across North and North-West Delhi. Starting at ₹500, with a 6-month warranty on everything we repair.",
   ],
   whyChoose: [
     {
@@ -700,7 +700,7 @@ const sofaRepairShalimarBagh: SeoPageData = {
   benefits: [
     "All Shalimar Bagh residential blocks covered as primary zone — no extras",
     "Ashok Vihar and Pitampura included in the same zone with identical pricing",
-    "Fixed transparent quotes from ₹999 — confirmed before work begins",
+    "Fixed transparent quotes from ₹500 — confirmed before work begins",
     "6-month warranty on every repaired element with zero-cost return visits",
     "Same-day service for weekday morning bookings across the zone",
     "Saves 60–80% compared to buying a replacement sofa of equivalent quality",
@@ -916,7 +916,7 @@ const sofaRepairShalimarBagh: SeoPageData = {
     "Book Doorstep Repair in Shalimar Bagh",
     "Get a Free On-Site Quote",
     "Same-Day Service — Call Before Noon",
-    "Restore Your Sofa from ₹999",
+    "Restore Your Sofa from ₹500",
   ],
   keywords: [
     "sofa repair Shalimar Bagh",
@@ -932,12 +932,12 @@ const sofaRepairShalimarBagh: SeoPageData = {
 
 const sofaRepairRohiniSector9: SeoPageData = {
   slug: "sofa-repair-rohini-sector-9",
-  title: "Sofa Repair in Rohini Sector 9 | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Rohini Sector 9 | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Rohini Sector 9 starting ₹999. Doorstep service across Rohini Sectors 8–11, Prashant Vihar & Pitampura. Foam, fabric, recliner repair. 6-month warranty. Book FurniRevive now.",
+    "Expert sofa repair in Rohini Sector 9 starting ₹500. Doorstep service across Rohini Sectors 8–11, Prashant Vihar & Pitampura.",
   h1: "Sofa Repair in Rohini Sector 9, Delhi",
   heroSubtitle:
-    "Rohini Sector 9 families live big, comfortable lives — and their sofas carry the evidence. When the centre seat finally sinks for good or the recliner jams mid-evening, FurniRevive is the call to make. Doorstep repair from ₹999, same-day response, 6-month warranty on everything we touch.",
+    "Rohini Sector 9 families live big, comfortable lives — and their sofas carry the evidence. When the centre seat finally sinks for good or the recliner jams mid-evening, FurniRevive is the call to make. Doorstep repair from ₹500, same-day response, 6-month warranty on everything we touch.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Rohini Sector 9 Home",
     imageUrl: "https://hercules-cdn.com/file_lHpADdDn3Ar2jgqkN712H6hM",
@@ -945,7 +945,7 @@ const sofaRepairRohiniSector9: SeoPageData = {
     caption: "Sofa Repair in Rohini Sector 9 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep sofa repair in Rohini Sector 9 — and across Sectors 8, 10, 11, Prashant Vihar, and Pitampura — starting at ₹999. Our Rohini-based craftsmen specialise in the high-density residential repair environment of this part of North-West Delhi, with same-day availability, fixed transparent pricing, and a 6-month warranty on every repair. The sofa stays in your flat throughout — no lifting, no transport, no workshop.",
+    "FurniRevive provides 4.8-star rated doorstep sofa repair in Rohini Sector 9 — and across Sectors 8, 10, 11, Prashant Vihar, and Pitampura — starting at ₹500. Our Rohini-based craftsmen specialise in the high-density residential repair environment of this part of North-West Delhi, with same-day availability, fixed transparent pricing, and a 6-month warranty on every repair. The sofa stays in your flat throughout — no lifting, no transport, no workshop.",
   intro: [
     "Rohini Sector 9 sits in the heart of one of Delhi's largest planned residential townships — a neighbourhood built to house families at scale and furnished accordingly. The sofas here see real use: the living room is genuinely central to daily life, homework is done on the sofa, the television is watched from the sofa, and Sunday afternoons invariably end up horizontal on the sofa. That kind of dedicated use tells on furniture, and no sofa is immune to it indefinitely.",
     "What surprises most Sector 9 residents is how much of what goes wrong with their sofa is genuinely, affordably fixable. FurniRevive's Rohini team — part of the wider <a href=\"/sofa-repair-rohini\">sofa repair in Rohini</a> network and the city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> operation — has worked extensively through Sectors 8, 9, 10, and 11, as well as Prashant Vihar and Pitampura. We understand the building types, the furniture profiles common in this part of the township, and the specific wear patterns that develop in high-density residential blocks.",
@@ -973,7 +973,7 @@ const sofaRepairRohiniSector9: SeoPageData = {
         "Sector 9 residents who live near the border with Sectors 8, 10, or 11 don't need to worry about coverage. These sectors, plus Prashant Vihar and Pitampura, are all within our standard zone — identical pricing, identical availability, no zonal distinction.",
     },
     {
-      title: "Fixed Transparent Quotes — ₹999 Minimum, Zero Hidden Charges",
+      title: "Fixed Transparent Quotes — ₹500 Minimum, Zero Hidden Charges",
       description:
         "After the free assessment, you receive one fixed number covering all labour and materials. That number doesn't change whether the job takes two hours or five, and no 'additional material found during work' charges appear at the end.",
     },
@@ -1010,7 +1010,7 @@ const sofaRepairRohiniSector9: SeoPageData = {
     "Recliner mechanism specialists — most faults resolved on the first visit",
     "Prashant Vihar and Pitampura covered under identical pricing",
     "All work done in your flat — sofa stays exactly where it is throughout",
-    "Fixed transparent pricing from ₹999 — zero mid-job additions",
+    "Fixed transparent pricing from ₹500 — zero mid-job additions",
     "6-month warranty on foam, fabric, springs, frame, and mechanism repairs",
     "Saves 60–80% compared to replacement sofa at today's Delhi market prices",
     "High-resilience foam (32–40 kg/m³) rated for 8–12 years of daily use",
@@ -1219,7 +1219,7 @@ const sofaRepairRohiniSector9: SeoPageData = {
     "Book Doorstep Repair in Rohini Sector 9",
     "Get a Free Quote — Same Day Available",
     "Recliner Repair Specialist — Call Now",
-    "Restore Your Sofa from ₹999",
+    "Restore Your Sofa from ₹500",
   ],
   keywords: [
     "sofa repair Rohini Sector 9",
@@ -1235,9 +1235,9 @@ const sofaRepairRohiniSector9: SeoPageData = {
 
 const sofaRepairAnandVihar: SeoPageData = {
   slug: "sofa-repair-anand-vihar",
-  title: "Sofa Repair in Anand Vihar | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Anand Vihar | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Anand Vihar, East Delhi from ₹999. Doorstep service near ISBT, Kaushambi border, Patparganj & IP Extension. Foam, fabric, recliner repair. 6-month warranty. Book FurniRevive today.",
+    "Expert sofa repair in Anand Vihar, East Delhi from ₹500. Doorstep service near ISBT, Kaushambi border, Patparganj & IP Extension.",
   h1: "Sofa Repair in Anand Vihar, East Delhi",
   heroSubtitle:
     "Anand Vihar is where Delhi never quite stops moving — but your home is where it does. When your sofa finally needs attention after years of real family use, FurniRevive brings skilled doorstep repair from ₹999 to your East Delhi address, backed by a 6-month warranty and a team that knows this neighbourhood inside out.",
@@ -1248,7 +1248,7 @@ const sofaRepairAnandVihar: SeoPageData = {
     caption: "Sofa Repair in Anand Vihar | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep sofa repair in Anand Vihar, East Delhi — starting at ₹999. We cover the full Anand Vihar residential belt, extending into Patparganj, IP Extension, and Mayur Vihar within the same service zone. Our East Delhi craftsmen fix sagging cushions, torn fabric, broken recliners, and damaged frames at your home — in a single visit with a fixed price and a 6-month warranty. Close to the Noida border? We've got you covered too.",
+    "FurniRevive provides 4.8-star rated doorstep sofa repair in Anand Vihar, East Delhi — starting at ₹500. We cover the full Anand Vihar residential belt, extending into Patparganj, IP Extension, and Mayur Vihar within the same service zone. Our East Delhi craftsmen fix sagging cushions, torn fabric, broken recliners, and damaged frames at your home — in a single visit with a fixed price and a 6-month warranty. Close to the Noida border? We've got you covered too.",
   intro: [
     "Anand Vihar sits at one of East Delhi's great junctions — the ISBT just down the road, Kaushambi visible across the border, and the residential colonies that sit behind the transport infrastructure living a completely different kind of life from the arterial roads that frame them. These are busy households, often multi-generational, where the living room sees constant use and the sofa holds the whole thing together — literally and figuratively.",
     "When that sofa starts to give, Anand Vihar residents need a service that works as efficiently as their neighbourhood. FurniRevive's East Delhi team is part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network, with specific coverage across <a href=\"/sofa-repair-east-delhi\">East Delhi</a> and extending to the Noida border through our <a href=\"/sofa-repair-noida\">Noida sofa repair</a> service for residents near Kaushambi. We know the residential blocks around Anand Vihar, the apartment towers near the ISBT, and the housing colonies in Patparganj and IP Extension — and we bring the same quality of craft to every address.",
@@ -1276,7 +1276,7 @@ const sofaRepairAnandVihar: SeoPageData = {
         "Anand Vihar households are often multi-generational, with sofas that have served two or three family cycles. Our craftsmen understand how to restore pieces that have real sentimental and structural value — and how to advise honestly when replacement is the better call.",
     },
     {
-      title: "Fixed Pricing from ₹999 — One Number, No Additions",
+      title: "Fixed Pricing from ₹500 — One Number, No Additions",
       description:
         "After the free on-site assessment, you receive one fixed quote covering all labour and materials. That number is what you pay — no mid-job discoveries, no separate invoices, no last-minute additions.",
     },
@@ -1312,7 +1312,7 @@ const sofaRepairAnandVihar: SeoPageData = {
     "East Delhi-stationed team — same-day response across Anand Vihar and surrounding areas",
     "Patparganj, IP Extension, and Mayur Vihar covered in the same zone",
     "Kaushambi and nearby Noida border areas within extended service reach",
-    "Fixed transparent pricing from ₹999 — confirmed before work starts",
+    "Fixed transparent pricing from ₹500 — confirmed before work starts",
     "6-month warranty on foam, fabric, springs, frame, and mechanisms",
     "Saves 60–80% compared to replacement sofa at current market prices",
     "All work done in your home — no transport, no dismantling",
@@ -1531,7 +1531,7 @@ const sofaRepairAnandVihar: SeoPageData = {
     "Book Doorstep Repair in Anand Vihar",
     "Get Your Free Quote Today",
     "Same-Day Slots Available — Call Now",
-    "Restore Your Sofa from ₹999",
+    "Restore Your Sofa from ₹500",
   ],
   keywords: [
     "sofa repair Anand Vihar",

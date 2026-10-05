@@ -6,12 +6,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 // ---------------------------------------------------------------------------
 export const sofaRepairChittaranjanPark: SeoPageData = {
   slug: "sofa-repair-chittaranjan-park",
-  title: "Sofa Repair in Chittaranjan Park | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Chittaranjan Park | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Chittaranjan Park (CR Park), Delhi. Doorstep service, starts ₹999, 6-month warranty. Serving CR Park, Kalkaji, Lajpat Nagar & Nehru Place. Book today.",
-  h1: "Sofa Repair in Chittaranjan Park, Delhi — Doorstep Service from ₹999",
+    "Expert sofa repair in Chittaranjan Park (CR Park), Delhi. Doorstep service, starts ₹500, 6-month warranty.",
+  h1: "Sofa Repair in Chittaranjan Park, Delhi — Doorstep Service from ₹500",
   heroSubtitle:
-    "CR Park homes deserve better than a saggy, fraying sofa. Our 4.8-star rated craftsmen restore your sofa at your doorstep — 500+ fabric choices, honest pricing from ₹999, and a 6-month warranty that actually means something.",
+    "CR Park homes deserve better than a saggy, fraying sofa. Our 4.8-star rated craftsmen restore your sofa at your doorstep — 500+ fabric choices, honest pricing from ₹500, and a 6-month warranty that actually means something.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
@@ -19,11 +19,11 @@ export const sofaRepairChittaranjanPark: SeoPageData = {
     caption: "Sofa Repair in Chittaranjan Park (CR Park) | Doorstep service across all blocks | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides doorstep sofa repair in Chittaranjan Park (CR Park), Delhi starting at ₹999. Here's what CR Park residents often tell us: they waited months before calling, assuming repair would be complicated or expensive — and were surprised by how fast and affordable it was. We cover all CR Park blocks, Kalkaji, Lajpat Nagar, and Nehru Place. Services include cushion repair (₹999–₹1,800), fabric replacement (₹2,500–₹6,000), full re-upholstery (₹4,000–₹9,000), recliner fixing (₹1,800–₹4,500), and leather restoration (₹1,500–₹5,000) — with a 6-month warranty and same-day availability.",
+    "FurniRevive provides doorstep sofa repair in Chittaranjan Park (CR Park), Delhi starting at ₹500. Here's what CR Park residents often tell us: they waited months before calling, assuming repair would be complicated or expensive — and were surprised by how fast and affordable it was. We cover all CR Park blocks, Kalkaji, Lajpat Nagar, and Nehru Place. Services include cushion repair (₹999–₹1,800), fabric replacement (₹2,500–₹6,000), full re-upholstery (₹4,000–₹9,000), recliner fixing (₹1,800–₹4,500), and leather restoration (₹1,500–₹5,000) — with a 6-month warranty and same-day availability.",
   intro: [
     "There's a particular kind of quiet pride in a CR Park drawing room. The carefully chosen curtains, the Bengal Potteries curios on the shelf, the sofa that's been the centre of countless adda sessions and Durga Puja gatherings. When that sofa starts to sag, fray, or creak, it doesn't just look bad — it feels like something important is slipping. Most CR Park homeowners don't rush to replace it. They look for someone who actually knows what they're doing.",
     "FurniRevive brings professional <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> directly to your CR Park doorstep. Our verified craftsmen — 4.8-star rated across thousands of repairs — arrive fully equipped: foam grades, 500+ fabric swatches, leather conditioners, frame adhesives, all of it in one service van. No workshop trip. No waiting. No strangers carrying your sofa down four flights of stairs.",
-    "We serve every block of CR Park and extend naturally into Kalkaji, Lajpat Nagar, and Nehru Place. Repairs start at ₹999, every job comes with a free in-home inspection, and all work is backed by a 6-month warranty. For homes that hold their standards, this is the sofa repair service that holds its own.",
+    "We serve every block of CR Park and extend naturally into Kalkaji, Lajpat Nagar, and Nehru Place. Repairs start at ₹500, every job comes with a free in-home inspection, and all work is backed by a 6-month warranty. For homes that hold their standards, this is the sofa repair service that holds its own.",
   ],
   whyChoose: [
     {
@@ -47,9 +47,9 @@ export const sofaRepairChittaranjanPark: SeoPageData = {
         "Book before noon and our technician arrives the same day at your CR Park address. We carry all tools, materials, and foam grades in our service van so work can begin immediately.",
     },
     {
-      title: "Honest Pricing — ₹999 Onwards, No Surprises",
+      title: "Honest Pricing — ₹500 Onwards, No Surprises",
       description:
-        "Free inspection, honest assessment, upfront pricing — before a single stitch is placed. Cushion repair from ₹999, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000. You pay exactly what was agreed.",
+        "Free inspection, honest assessment, upfront pricing — before a single stitch is placed. Cushion repair from ₹500, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000. You pay exactly what was agreed.",
     },
     {
       title: "6-Month Warranty on Every Repair",
@@ -89,7 +89,7 @@ export const sofaRepairChittaranjanPark: SeoPageData = {
     "L-shape and sectional sofa repair",
     "Colour matching and patch repair",
     "Same-day service available in CR Park",
-    "Starting at ₹999 with free inspection",
+    "Starting at ₹500 with free inspection",
     "6-month service warranty included",
     "Clean, professional, respectful service",
   ],
@@ -128,7 +128,7 @@ export const sofaRepairChittaranjanPark: SeoPageData = {
     {
       question: "How much does sofa repair cost in Chittaranjan Park?",
       answer:
-        "Sofa repair in CR Park starts at ₹999. Cushion re-stuffing runs ₹999–₹1,800, full fabric re-upholstery ₹2,500–₹6,000, complete re-upholstery ₹4,000–₹9,000, recliner mechanism repair ₹1,800–₹4,500, and leather restoration ₹1,500–₹5,000. You receive a free inspection and an exact quote before any work begins — no hidden charges.",
+        "Sofa repair in CR Park starts at ₹500. Cushion re-stuffing runs ₹999–₹1,800, full fabric re-upholstery ₹2,500–₹6,000, complete re-upholstery ₹4,000–₹9,000, recliner mechanism repair ₹1,800–₹4,500, and leather restoration ₹1,500–₹5,000. You receive a free inspection and an exact quote before any work begins — no hidden charges.",
     },
     {
       question: "Do you offer same-day sofa repair in CR Park?",
@@ -148,7 +148,7 @@ export const sofaRepairChittaranjanPark: SeoPageData = {
     {
       question: "Do you also serve Kalkaji and Lajpat Nagar?",
       answer:
-        "Yes. Our service zone covers CR Park, Kalkaji, Nehru Place, Lajpat Nagar II–IV, Amar Colony, and Jangpura Extension — all with the same pricing starting at ₹999 and same-day availability.",
+        "Yes. Our service zone covers CR Park, Kalkaji, Nehru Place, Lajpat Nagar II–IV, Amar Colony, and Jangpura Extension — all with the same pricing starting at ₹500 and same-day availability.",
     },
     {
       question: "Is there a warranty on sofa repairs in CR Park?",
@@ -184,12 +184,12 @@ export const sofaRepairChittaranjanPark: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairDwarkaSector12: SeoPageData = {
   slug: "sofa-repair-dwarka-sector-12",
-  title: "Sofa Repair in Dwarka Sector 12 | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Dwarka Sector 12 | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Dwarka Sector 12, Delhi. Doorstep service from ₹999, 6-month warranty. Also serving Sectors 10, 11, 13 & Dwarka Expressway. Book today.",
-  h1: "Sofa Repair in Dwarka Sector 12, Delhi — Doorstep Service from ₹999",
+    "Professional sofa repair in Dwarka Sector 12, Delhi. Doorstep service from ₹500, 6-month warranty. Also serving Sectors 10, 11, 13 & Dwarka Expressway.",
+  h1: "Sofa Repair in Dwarka Sector 12, Delhi — Doorstep Service from ₹500",
   heroSubtitle:
-    "That sinking, creaking sofa in your Sector 12 flat deserves better than being ignored. Our 4.8-star rated craftsmen come to you — quality foam, 500+ fabrics, honest pricing from ₹999, and a 6-month warranty you can count on.",
+    "That sinking, creaking sofa in your Sector 12 flat deserves better than being ignored. Our 4.8-star rated craftsmen come to you — quality foam, 500+ fabrics, honest pricing from ₹500, and a 6-month warranty you can count on.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
@@ -197,11 +197,11 @@ export const sofaRepairDwarkaSector12: SeoPageData = {
     caption: "Sofa Repair in Dwarka Sector 12 | DDA flat doorstep service across Sectors 10–13 | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers doorstep sofa repair in Dwarka Sector 12, Delhi, starting at ₹999. Here's what Sector 12 residents often tell us: 'I kept putting it off thinking it would be too much trouble.' It isn't. We serve Sector 12 and neighbouring Sectors 10, 11, and 13 along the Dwarka Expressway corridor. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000 — free inspection and 6-month warranty included.",
+    "FurniRevive offers doorstep sofa repair in Dwarka Sector 12, Delhi, starting at ₹500. Here's what Sector 12 residents often tell us: 'I kept putting it off thinking it would be too much trouble.' It isn't. We serve Sector 12 and neighbouring Sectors 10, 11, and 13 along the Dwarka Expressway corridor. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000 — free inspection and 6-month warranty included.",
   intro: [
     "You bought the sofa when you first moved into your Sector 12 flat — maybe from Pepperfry, maybe from a Dwarka furniture market, maybe it came with the house and you grew attached to it over time. Now the seat has sunk, the armrest fabric is pilling, or the recliner mechanism stutters every time someone tries to lean back. You keep meaning to do something about it, but replacing a sofa feels like a big decision and repairing it feels like a mystery. The good news is — it's neither as expensive nor as disruptive as you think.",
     "FurniRevive brings expert <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> directly to Dwarka Sector 12. Our technicians know this area — the DDA housing blocks, the cooperative societies with their strict visitor protocols, the newer builder complexes near the Expressway. We arrive with everything: foam, fabric swatches, leather conditioners, structural adhesives, recliner parts. One visit. One bill. No surprises.",
-    "Repairs start at ₹999, every booking includes a free inspection, and all work is covered by a 6-month warranty. Same-day service is available for morning bookings. FurniRevive is the sofa repair partner Sector 12 families recommend to neighbours in Sectors 10, 11, and 13 — because the experience is genuinely that smooth.",
+    "Repairs start at ₹500, every booking includes a free inspection, and all work is covered by a 6-month warranty. Same-day service is available for morning bookings. FurniRevive is the sofa repair partner Sector 12 families recommend to neighbours in Sectors 10, 11, and 13 — because the experience is genuinely that smooth.",
   ],
   whyChoose: [
     {
@@ -267,7 +267,7 @@ export const sofaRepairDwarkaSector12: SeoPageData = {
     "L-shape and sectional sofa repair",
     "Colour matching and patch repairs",
     "Covers Sectors 10, 11, 12, 13 and Dwarka Expressway",
-    "Starts at ₹999 with free inspection",
+    "Starts at ₹500 with free inspection",
     "Same-day service for morning bookings",
     "6-month warranty on all repairs",
   ],
@@ -298,7 +298,7 @@ export const sofaRepairDwarkaSector12: SeoPageData = {
     {
       question: "What does sofa repair cost in Dwarka Sector 12?",
       answer:
-        "Sofa repair in Dwarka Sector 12 starts at ₹999. Cushion re-stuffing ₹999–₹1,800, full fabric re-upholstery ₹2,500–₹6,000, complete re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection and exact quote before any work begins.",
+        "Sofa repair in Dwarka Sector 12 starts at ₹500. Cushion re-stuffing ₹999–₹1,800, full fabric re-upholstery ₹2,500–₹6,000, complete re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection and exact quote before any work begins.",
     },
     {
       question: "Do you offer same-day sofa repair in Dwarka Sector 12?",
@@ -349,12 +349,12 @@ export const sofaRepairDwarkaSector12: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairDwarkaSector6: SeoPageData = {
   slug: "sofa-repair-dwarka-sector-6",
-  title: "Sofa Repair in Dwarka Sector 6 | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Dwarka Sector 6 | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Doorstep sofa repair in Dwarka Sector 6, Delhi. Starts ₹999, 6-month warranty. Serving Sectors 5, 7, 8, Dwarka Metro area, DDA flats & gated societies. Book now.",
-  h1: "Sofa Repair in Dwarka Sector 6, Delhi — Doorstep Service from ₹999",
+    "Doorstep sofa repair in Dwarka Sector 6, Delhi. Starts ₹500, 6-month warranty. Serving Sectors 5, 7, 8, Dwarka Metro area, DDA flats & gated societies.",
+  h1: "Sofa Repair in Dwarka Sector 6, Delhi — Doorstep Service from ₹500",
   heroSubtitle:
-    "Saggy seats, peeling leather, a recliner that won't recline — your Sector 6 sofa has a story left to tell. Our verified craftsmen restore it at your doorstep, starting ₹999, with a 6-month warranty and no surprises on the bill.",
+    "Saggy seats, peeling leather, a recliner that won't recline — your Sector 6 sofa has a story left to tell. Our verified craftsmen restore it at your doorstep, starting ₹500, with a 6-month warranty and no surprises on the bill.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
@@ -362,11 +362,11 @@ export const sofaRepairDwarkaSector6: SeoPageData = {
     caption: "Sofa Repair in Dwarka Sector 6 | Doorstep service near Dwarka Metro & gated societies | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides doorstep sofa repair in Dwarka Sector 6, Delhi, from ₹999. We cover Sector 6 and adjacent Sectors 5, 7, and 8 — DDA flats, gated societies, and apartments near Dwarka Metro — with the same team and pricing. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection and 6-month warranty included.",
+    "FurniRevive provides doorstep sofa repair in Dwarka Sector 6, Delhi, from ₹500. We cover Sector 6 and adjacent Sectors 5, 7, and 8 — DDA flats, gated societies, and apartments near Dwarka Metro — with the same team and pricing. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection and 6-month warranty included.",
   intro: [
     "In a DDA flat in Sector 6, every square foot counts — and the sofa often does the most work of any piece of furniture in the house. It's where the family watches cricket, where kids do homework, where guests sleep when they visit. So when it starts to sag and creak, it's not just an aesthetic problem. It's a daily inconvenience that everyone quietly puts up with until someone finally decides to do something about it.",
     "FurniRevive provides premium <a href=\"/furniture-repair-delhi\">furniture repair in Delhi</a> with a dedicated presence across the Dwarka sub-city. For Sector 6 residents — whether in a ground-floor DDA flat, a cooperative housing society, or a newer gated complex — this means a qualified technician at your door, often the same day you call. We arrive with every tool, foam grade, and fabric swatch we might need. One visit, one bill, no return trips needed in most cases.",
-    "Sectors 5, 7, and 8 are equally covered, and residents near Dwarka Metro find our turnaround time particularly fast. Repairs start at ₹999, every job includes a free inspection, and all work comes with a 6-month warranty. Here's what Sector 6 residents often tell us after their first repair: they wish they hadn't waited so long.",
+    "Sectors 5, 7, and 8 are equally covered, and residents near Dwarka Metro find our turnaround time particularly fast. Repairs start at ₹500, every job includes a free inspection, and all work comes with a 6-month warranty. Here's what Sector 6 residents often tell us after their first repair: they wish they hadn't waited so long.",
   ],
   whyChoose: [
     {
@@ -390,9 +390,9 @@ export const sofaRepairDwarkaSector6: SeoPageData = {
         "Classic fabric three-seater, leather recliner, L-shape modular, sofa-cum-bed — our technicians are trained on every sofa type and construction found in Sector 6 homes.",
     },
     {
-      title: "Transparent Pricing from ₹999",
+      title: "Transparent Pricing from ₹500",
       description:
-        "Free inspection, honest quote, no hidden charges. Cushion repair from ₹999, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000. We quote before we start and we stick to it.",
+        "Free inspection, honest quote, no hidden charges. Cushion repair from ₹500, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000. We quote before we start and we stick to it.",
     },
     {
       title: "6-Month Warranty as Standard",
@@ -432,7 +432,7 @@ export const sofaRepairDwarkaSector6: SeoPageData = {
     "Recliner and sofa-bed mechanism servicing",
     "L-shape and modular sofa repair",
     "Dwarka Metro area — fast 2–3 hour response",
-    "Free inspection, starts at ₹999",
+    "Free inspection, starts at ₹500",
     "Same-day service for morning bookings",
     "6-month warranty on every repair",
   ],
@@ -471,7 +471,7 @@ export const sofaRepairDwarkaSector6: SeoPageData = {
     {
       question: "How much does sofa repair cost in Dwarka Sector 6?",
       answer:
-        "Starting at ₹999. Cushion re-stuffing ₹999–₹1,800, full fabric re-upholstery ₹2,500–₹6,000, complete re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection and upfront quote before any work begins.",
+        "Starting at ₹500. Cushion re-stuffing ₹999–₹1,800, full fabric re-upholstery ₹2,500–₹6,000, complete re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection and upfront quote before any work begins.",
     },
     {
       question: "Do you repair sofas in DDA flats in Sector 6?",
@@ -527,10 +527,10 @@ export const sofaRepairDwarkaSector6: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairLaxmiNagar: SeoPageData = {
   slug: "sofa-repair-laxmi-nagar",
-  title: "Sofa Repair in Laxmi Nagar | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Laxmi Nagar | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Affordable sofa repair in Laxmi Nagar, Delhi. Doorstep service from ₹999, 6-month warranty. Also serving Nirman Vihar, Preet Vihar & Vishwakarma area. Book today.",
-  h1: "Sofa Repair in Laxmi Nagar, Delhi — Doorstep Service from ₹999",
+    "Affordable sofa repair in Laxmi Nagar, Delhi. Doorstep service from ₹500, 6-month warranty. Also serving Nirman Vihar, Preet Vihar & Vishwakarma area.",
+  h1: "Sofa Repair in Laxmi Nagar, Delhi — Doorstep Service from ₹500",
   heroSubtitle:
     "Laxmi Nagar families know a good deal when they see one. Instead of spending ₹20,000 on a new sofa, spend ₹999–₹6,000 restoring the one you have — doorstep service, verified craftsmen, 6-month warranty.",
   showcaseImage: {
@@ -540,11 +540,11 @@ export const sofaRepairLaxmiNagar: SeoPageData = {
     caption: "Sofa Repair in Laxmi Nagar | Affordable doorstep service near Nirman Vihar & Preet Vihar | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides doorstep sofa repair in Laxmi Nagar, Delhi, starting at ₹999. We serve Laxmi Nagar and adjacent Nirman Vihar, Preet Vihar, and the Vishwakarma area with the same team and pricing. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection and 6-month warranty included.",
+    "FurniRevive provides doorstep sofa repair in Laxmi Nagar, Delhi, starting at ₹500. We serve Laxmi Nagar and adjacent Nirman Vihar, Preet Vihar, and the Vishwakarma area with the same team and pricing. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection and 6-month warranty included.",
   intro: [
     "Laxmi Nagar is many things at once — one of East Delhi's busiest commercial hubs, a neighbourhood packed with furniture shops along the main road, and behind all that commercial noise, thousands of families living in builder floors and housing colonies who take genuine pride in their homes. The sofa in a Laxmi Nagar drawing room often cost real money and carries real memories. When it starts to sag or fray, the local instinct is to fix it — not throw it away.",
     "FurniRevive brings professional <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> directly to Laxmi Nagar doorsteps. Our technicians know this locality well — the congested inner lanes, the builder-floor stairways where a three-seater can't possibly be carried out, the compact living rooms where the sofa takes up half the space. We arrive with everything: foam, 500+ fabric swatches, leather conditioners, structural adhesives, recliner parts. Work begins right in your home. Most repairs are done in 2–3 hours.",
-    "We cover all of Laxmi Nagar's residential pockets and extend to Nirman Vihar, Preet Vihar, and the Vishwakarma area — all at the same starting price of ₹999. Free inspection, transparent pricing, and a 6-month warranty on every repair. Laxmi Nagar families recommend us to each other because the service is honest, fast, and genuinely worth it.",
+    "We cover all of Laxmi Nagar's residential pockets and extend to Nirman Vihar, Preet Vihar, and the Vishwakarma area — all at the same starting price of ₹500. Free inspection, transparent pricing, and a 6-month warranty on every repair. Laxmi Nagar families recommend us to each other because the service is honest, fast, and genuinely worth it.",
   ],
   whyChoose: [
     {
@@ -563,9 +563,9 @@ export const sofaRepairLaxmiNagar: SeoPageData = {
         "We're experienced with the compact living rooms and narrow stairways common in Laxmi Nagar's builder floors and older housing colonies. Our technicians work neatly within tight spaces without disrupting the household.",
     },
     {
-      title: "Fair Pricing from ₹999",
+      title: "Fair Pricing from ₹500",
       description:
-        "Laxmi Nagar families understand value. Starting at ₹999 with a free inspection, we offer professional craftsmanship at genuinely fair prices — backed by a 6-month warranty.",
+        "Laxmi Nagar families understand value. Starting at ₹500 with a free inspection, we offer professional craftsmanship at genuinely fair prices — backed by a 6-month warranty.",
     },
     {
       title: "Quick 2–3 Hour Turnaround",
@@ -575,7 +575,7 @@ export const sofaRepairLaxmiNagar: SeoPageData = {
     {
       title: "6-Month Warranty",
       description:
-        "Every repair comes with a 6-month warranty — whether it's a ₹999 cushion repair or a ₹9,000 full re-upholstery. We stand fully behind all our work.",
+        "Every repair comes with a 6-month warranty — whether it's a ₹500 cushion repair or a ₹9,000 full re-upholstery. We stand fully behind all our work.",
     },
   ],
   process: [
@@ -610,7 +610,7 @@ export const sofaRepairLaxmiNagar: SeoPageData = {
     "Recliner mechanism servicing",
     "L-shape and sectional sofa repair",
     "Compact home and builder-floor friendly",
-    "Free inspection, starts at ₹999",
+    "Free inspection, starts at ₹500",
     "Same-day service available",
     "6-month warranty on all work",
   ],
@@ -641,7 +641,7 @@ export const sofaRepairLaxmiNagar: SeoPageData = {
     {
       question: "How much does sofa repair cost in Laxmi Nagar?",
       answer:
-        "Starting at ₹999. Cushion re-stuffing ₹999–₹1,800, full fabric re-upholstery ₹2,500–₹6,000, complete re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection before any charges — you see the full cost before deciding.",
+        "Starting at ₹500. Cushion re-stuffing ₹999–₹1,800, full fabric re-upholstery ₹2,500–₹6,000, complete re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection before any charges — you see the full cost before deciding.",
     },
     {
       question: "Do you also serve Nirman Vihar and Preet Vihar?",
@@ -699,12 +699,12 @@ export const sofaRepairLaxmiNagar: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairUttamNagar: SeoPageData = {
   slug: "sofa-repair-uttam-nagar",
-  title: "Sofa Repair in Uttam Nagar | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Uttam Nagar | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Uttam Nagar, Delhi. Doorstep service from ₹999, 6-month warranty. Also serving Nawada, Janakpuri, Dwarka nearby. Book your repair today.",
-  h1: "Sofa Repair in Uttam Nagar, Delhi — Doorstep Service from ₹999",
+    "Expert sofa repair in Uttam Nagar, Delhi. Doorstep service from ₹500, 6-month warranty. Also serving Nawada, Janakpuri, Dwarka nearby.",
+  h1: "Sofa Repair in Uttam Nagar, Delhi — Doorstep Service from ₹500",
   heroSubtitle:
-    "Uttam Nagar families know a good sofa is worth keeping. Our 4.8-star rated craftsmen repair yours at your doorstep — quality foam, 500+ fabrics, honest pricing from ₹999, and a 6-month warranty that holds.",
+    "Uttam Nagar families know a good sofa is worth keeping. Our 4.8-star rated craftsmen repair yours at your doorstep — quality foam, 500+ fabrics, honest pricing from ₹500, and a 6-month warranty that holds.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
@@ -712,11 +712,11 @@ export const sofaRepairUttamNagar: SeoPageData = {
     caption: "Sofa Repair in Uttam Nagar | Doorstep service near Nawada, Janakpuri & Dwarka | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides doorstep sofa repair in Uttam Nagar, Delhi, starting at ₹999. We serve all of Uttam Nagar and nearby Nawada, Janakpuri, and Dwarka — same team, same pricing, same warranty. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection included. Here's what Uttam Nagar residents often tell us: 'I had no idea it would be this affordable.'",
+    "FurniRevive provides doorstep sofa repair in Uttam Nagar, Delhi, starting at ₹500. We serve all of Uttam Nagar and nearby Nawada, Janakpuri, and Dwarka — same team, same pricing, same warranty. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection included. Here's what Uttam Nagar residents often tell us: 'I had no idea it would be this affordable.'",
   intro: [
     "Uttam Nagar has grown fast — a decade ago it was mostly known as the stretch between Nawada and Janakpuri, and today it's one of West Delhi's most densely residential localities, packed with builder floors, housing colonies, and new apartment complexes that house thousands of working families. Those families have invested in their homes, and the sofa sitting in the living room is often the piece of furniture they're most proud of — and most inconvenienced by when it starts to give way.",
     "FurniRevive brings reliable <a href=\"/furniture-repair-delhi\">furniture repair in Delhi</a> to Uttam Nagar doorsteps. Our West Delhi team covers every pocket of Uttam Nagar — from the colonies near Uttam Nagar East Metro to the residential stretches near Nawada and Bindapur. We carry all tools and materials in our service van and complete repairs at your home. No workshop visits. No carrying the sofa down cramped stairs. No waiting weeks for a callback.",
-    "Starting at ₹999, every repair includes a free inspection, upfront pricing, and a 6-month warranty. Same-day service is available for morning bookings. For Uttam Nagar families who want professional, trustworthy sofa repair close to home, FurniRevive is the service that delivers — and then keeps delivering through a warranty that actually means something.",
+    "Starting at ₹500, every repair includes a free inspection, upfront pricing, and a 6-month warranty. Same-day service is available for morning bookings. For Uttam Nagar families who want professional, trustworthy sofa repair close to home, FurniRevive is the service that delivers — and then keeps delivering through a warranty that actually means something.",
   ],
   whyChoose: [
     {
@@ -735,9 +735,9 @@ export const sofaRepairUttamNagar: SeoPageData = {
         "Builder floors, housing colonies, DDA flats, and newer apartment complexes in Uttam Nagar all receive the same quality doorstep repair. Our technicians adapt to any home layout and work without disruption.",
     },
     {
-      title: "Genuinely Affordable — from ₹999",
+      title: "Genuinely Affordable — from ₹500",
       description:
-        "Transparent pricing starts at ₹999 with free inspection. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000. Professional craftsmanship at fair prices.",
+        "Transparent pricing starts at ₹500 with free inspection. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, full re-upholstery ₹4,000–₹9,000. Professional craftsmanship at fair prices.",
     },
     {
       title: "Same-Day Service",
@@ -782,7 +782,7 @@ export const sofaRepairUttamNagar: SeoPageData = {
     "Recliner and sofa-bed mechanism repair",
     "L-shape and sectional sofa repair",
     "Builder floor and colony home friendly",
-    "Free inspection, starts at ₹999",
+    "Free inspection, starts at ₹500",
     "Same-day service available",
     "6-month warranty on all repairs",
   ],
@@ -814,7 +814,7 @@ export const sofaRepairUttamNagar: SeoPageData = {
     {
       question: "How much does sofa repair cost in Uttam Nagar?",
       answer:
-        "Starting at ₹999. Cushion re-stuffing ₹999–₹1,800, full fabric re-upholstery ₹2,500–₹6,000, complete re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection included — you see the full cost before any work begins.",
+        "Starting at ₹500. Cushion re-stuffing ₹999–₹1,800, full fabric re-upholstery ₹2,500–₹6,000, complete re-upholstery ₹4,000–₹9,000, recliner repair ₹1,800–₹4,500, leather restoration ₹1,500–₹5,000. Free inspection included — you see the full cost before any work begins.",
     },
     {
       question: "Do you offer same-day sofa repair in Uttam Nagar?",

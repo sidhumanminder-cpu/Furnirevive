@@ -7,7 +7,7 @@ const leatherSofaRepairSouthDelhi: SeoPageData = {
   slug: "leather-sofa-repair-south-delhi",
   title: "Leather Sofa Repair South Delhi | Premium Leather Restoration",
   metaDescription:
-    "Expert leather sofa restoration in South Delhi from ₹999. Serving Greater Kailash, Defence Colony, Hauz Khas, Green Park & Panchsheel Park. 6-month warranty. Call FurniRevive.",
+    "Expert leather sofa restoration in South Delhi from ₹999. Serving Greater Kailash, Defence Colony, Hauz Khas, Green Park & Panchsheel Park.",
   h1: "Premium Leather Sofa Repair in South Delhi",
   heroSubtitle:
     "South Delhi's finest homes — Greater Kailash, Defence Colony, Hauz Khas, Green Park, Panchsheel Park, New Friends Colony — deserve leather restoration at the standard the furniture was built to. FurniRevive brings specialist-grade leather sofa repair, colour restoration, and premium upholstery services to your doorstep from ₹999. 6-month warranty on every job.",
@@ -278,7 +278,7 @@ const leatherSofaRepairDlfGurgaon: SeoPageData = {
   slug: "leather-sofa-repair-dlf-gurgaon",
   title: "Leather Sofa Repair DLF Gurgaon | Premium Leather Restoration",
   metaDescription:
-    "Expert leather sofa restoration in DLF Gurgaon from ₹999. DLF Phase 1–5 & Golf Course Road. Colour restoration, crack repair, imported sofa specialists. 6-month warranty.",
+    "Expert leather sofa restoration in DLF Gurgaon from ₹999. DLF Phase 1–5 & Golf Course Road. Colour restoration, crack repair, imported sofa specialists.",
   h1: "Premium Leather Sofa Repair in DLF Gurgaon",
   heroSubtitle:
     "DLF Gurgaon's premium residences — from Phase 1's heritage bungalows to Phase 5's luxury towers — deserve leather restoration that matches the investment the furniture represents. FurniRevive delivers specialist leather sofa repair, professional colour restoration, and premium upholstery services across all DLF Phases from ₹999. 6-month warranty guaranteed.",

@@ -30,14 +30,14 @@ function chandigarhRelatedExcluding(slug: string) {
 export const sofaRepairChandigarh: SeoPageData = {
   slug: "sofa-repair-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Sofa Repair in Chandigarh from ₹800 | Same-Day Doorstep Service | FurniRevive",
+  title: "Sofa Repair in Chandigarh from ₹500 | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Chandigarh from ₹800. Same-day doorstep service in Sector 17, Sector 22, Sector 35, Sector 43, Manimajra & all sectors. Foam, spring, upholstery, recliner repair. Free inspection. 6-month warranty. Call +91 92179 99355.",
+    "Professional sofa repair in Chandigarh from ₹500. Same-day doorstep service in Sector 17, Sector 22, Sector 35, Sector 43, Manimajra & all sectors.",
   quickAnswer:
     "Sofa repair in Chandigarh costs ₹800–₹4,500 for most repairs — foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery ₹2,000–₹4,500 per seat. FurniRevive provides same-day home service across all Chandigarh sectors, Mohali, and Panchkula with free inspection and a 6-month written warranty. Call +91 92179 99355.",
-  h1: "Sofa Repair in Chandigarh — Doorstep Service from ₹800",
+  h1: "Sofa Repair in Chandigarh — Doorstep Service from ₹500",
   heroSubtitle:
-    "Chandigarh Tricity's trusted sofa repair — at your doorstep across all sectors, Manimajra, Industrial Area, Mohali & Panchkula. Starting ₹800. Free inspection. 6-month warranty.",
+    "Chandigarh Tricity's trusted sofa repair — at your doorstep across all sectors, Manimajra, Industrial Area, Mohali & Panchkula. Starting ₹500. Free inspection. 6-month warranty.",
   showcaseImage: {
     heading: "Sofa Repair Before & After — Real Results in Chandigarh",
     imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
@@ -53,7 +53,7 @@ export const sofaRepairChandigarh: SeoPageData = {
   whyChoose: [
     { title: "All Chandigarh Sectors Covered", description: "We serve every sector in the UT plus Manimajra, Industrial Area, and extend to Mohali and Panchkula — true Tricity coverage." },
     { title: "Same Day Doorstep Service", description: "Book before noon for same-day sofa repair. Our technicians arrive with all materials — no second visits needed." },
-    { title: "Affordable from ₹800", description: "Chandigarh's most competitive sofa repair rates. Save 50–70% compared to buying new. Transparent quotes with no hidden charges." },
+    { title: "Affordable from ₹500", description: "Chandigarh's most competitive sofa repair rates. Save 50–70% compared to buying new. Transparent quotes with no hidden charges." },
     { title: "Experienced Specialists", description: "10+ years experience handling fabric, leather, rexine, and all sofa materials with expert precision and premium-grade tools." },
     { title: "Climate-Rated Materials", description: "We use foam and fabrics rated for Chandigarh's dry winters and hot summers — ensuring repairs last through seasonal extremes." },
     { title: "6 Month Warranty", description: "Every sofa repair backed by a written 6-month warranty. Any issue within warranty period fixed free at your Chandigarh home." },
@@ -74,7 +74,7 @@ export const sofaRepairChandigarh: SeoPageData = {
     "Frame reinforcement and spring replacement",
     "Recliner mechanism repair — manual and motorised",
     "Extended coverage to Mohali and Panchkula",
-    "Starting at just ₹800",
+    "Starting at just ₹500",
     "6-month warranty on all repairs",
     "Free inspection and transparent pricing",
   ],
@@ -96,7 +96,7 @@ export const sofaRepairChandigarh: SeoPageData = {
     {
       heading: "Sofa Repair Cost in Chandigarh — Transparent Pricing",
       body: [
-        "Sofa repair in Chandigarh starts at ₹800 for basic spring fixes. Foam replacement costs ₹1,200–₹3,500 per seat depending on density. Fabric re-upholstery ranges from ₹2,000–₹4,500 per seat. Complete 3-seater sofa restoration: ₹3,000–₹12,000 depending on damage extent and materials chosen.",
+        "Sofa repair in Chandigarh starts at ₹500 for basic spring fixes. Foam replacement costs ₹1,200–₹3,500 per seat depending on density. Fabric re-upholstery ranges from ₹2,000–₹4,500 per seat. Complete 3-seater sofa restoration: ₹3,000–₹12,000 depending on damage extent and materials chosen.",
         "Professional sofa repair saves Chandigarh families 50–70% compared to buying new. A sofa costing ₹40,000 new can be fully restored for ₹4,000–₹10,000. We provide a free doorstep inspection and written quote before starting — no hidden charges. For full pricing details see our <a href=\"/sofa-repair-cost-chandigarh\">Chandigarh sofa repair cost guide</a>.",
       ],
     },
@@ -114,7 +114,7 @@ export const sofaRepairChandigarh: SeoPageData = {
     ],
   },
   faqs: [
-    { question: "How much does sofa repair cost in Chandigarh?", answer: "Sofa repair in Chandigarh starts at ₹800. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner repair ₹1,499–₹5,500. Free inspection and written quote at your doorstep. Call +91 92179 99355." },
+    { question: "How much does sofa repair cost in Chandigarh?", answer: "Sofa repair in Chandigarh starts at ₹500. Foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery per seat ₹2,000–₹4,500, recliner repair ₹1,499–₹5,500. Free inspection and written quote at your doorstep. Call +91 92179 99355." },
     { question: "Do you provide sofa repair in all Chandigarh sectors?", answer: "Yes — FurniRevive covers all Chandigarh UT sectors (1–56), Manimajra, Industrial Area, plus Mohali and Panchkula. Same-day service available across the full Tricity." },
     { question: "Is same-day sofa repair available in Chandigarh?", answer: "Yes. Book before noon for same-day sofa repair at your Chandigarh address. Most repairs — foam replacement, spring fixing, upholstery patching — completed in 2–4 hours in a single visit." },
     { question: "Do you serve Mohali and Panchkula for sofa repair?", answer: "Yes. Our Chandigarh Tricity coverage includes Mohali (Phase 1–10, Aerocity, Kharar) and Panchkula (Sector 1–27, Pinjore, Kalka). Same pricing and warranty as Chandigarh UT." },
@@ -139,9 +139,9 @@ export const sofaRepairChandigarh: SeoPageData = {
 export const reclinerRepairChandigarh: SeoPageData = {
   slug: "recliner-repair-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Recliner Repair in Chandigarh from ₹1,499 | Manual & Motorised | FurniRevive",
+  title: "Recliner Repair in Chandigarh from ₹1,499 | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Chandigarh from ₹1,499. Manual & motorised recliner mechanism fix, motor replacement, upholstery repair. Same-day doorstep service across all sectors, Mohali & Panchkula. 6-month warranty. Call +91 92179 99355.",
+    "Expert recliner repair in Chandigarh from ₹1,499. Manual & motorised recliner mechanism fix, motor replacement, upholstery repair.",
   quickAnswer:
     "Recliner repair in Chandigarh costs ₹1,499–₹5,500. Manual mechanism repair ₹1,499–₹3,000, motorised motor replacement ₹2,999–₹5,500, upholstery repair ₹1,500–₹4,000. FurniRevive provides same-day doorstep service across Chandigarh Tricity with free inspection and 6-month warranty. Call +91 92179 99355.",
   h1: "Recliner Repair in Chandigarh — Manual & Motorised from ₹1,499",
@@ -149,7 +149,7 @@ export const reclinerRepairChandigarh: SeoPageData = {
     "Chandigarh's specialist recliner repair service — mechanism fixes, motor replacements, and upholstery restoration at your doorstep. All major brands covered. Same-day service. 6-month warranty.",
   showcaseImage: {
     heading: "Recliner Repair Before & After — Chandigarh",
-    imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
+    imageUrl: "https://hercules-cdn.com/file_Wf0mo2ViSrP0cT3iw8kwww0J",
     altText: "Recliner mechanism repair in Chandigarh showing motor and upholstery restoration by FurniRevive",
     caption: "Recliner Repair Chandigarh — Mechanism & upholstery fix | From ₹1,499 | FurniRevive",
   },
@@ -241,11 +241,11 @@ export const reclinerRepairChandigarh: SeoPageData = {
 export const furnitureRepairChandigarh: SeoPageData = {
   slug: "furniture-repair-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Furniture Repair in Chandigarh from ₹599 | Doorstep Service All Sectors | FurniRevive",
+  title: "Furniture Repair in Chandigarh from ₹599 | FurniRevive",
   metaDescription:
-    "Expert furniture repair in Chandigarh from ₹599. Sofa, bed, chair, wardrobe, table repair at your doorstep across all sectors, Manimajra, Mohali & Panchkula. Same-day service. 6-month warranty. Call +91 92179 99355.",
+    "Expert furniture repair in Chandigarh from ₹599. Sofa, bed, chair, wardrobe, table repair at your doorstep across all sectors, Manimajra.",
   quickAnswer:
-    "Furniture repair in Chandigarh starts at ₹599. Sofa repair from ₹800, bed repair ₹599–₹3,000, chair repair ₹500–₹2,500, wardrobe repair ₹800–₹4,000. FurniRevive provides same-day doorstep service across all Chandigarh sectors, Mohali, and Panchkula with free inspection and 6-month warranty. Call +91 92179 99355.",
+    "Furniture repair in Chandigarh starts at ₹599. Sofa repair from ₹500, bed repair ₹599–₹3,000, chair repair ₹500–₹2,500, wardrobe repair ₹800–₹4,000. FurniRevive provides same-day doorstep service across all Chandigarh sectors, Mohali, and Panchkula with free inspection and 6-month warranty. Call +91 92179 99355.",
   h1: "Furniture Repair in Chandigarh — All Types from ₹599",
   heroSubtitle:
     "Complete furniture repair across Chandigarh Tricity — sofas, beds, chairs, tables, wardrobes, and cabinets repaired at your doorstep. Starting ₹599. Free inspection. 6-month warranty.",
@@ -320,7 +320,7 @@ export const furnitureRepairChandigarh: SeoPageData = {
       { service: "Wardrobe / Cabinet Repair", price: "₹800–₹4,000" },
       { service: "Table Repair (dining/study)", price: "₹500–₹3,000" },
       { service: "Polish & Refinishing", price: "₹1,500–₹8,000" },
-      { service: "Sofa Repair", price: "₹800–₹12,000" },
+      { service: "Sofa Repair", price: "₹500–₹12,000" },
       { service: "Doorstep Visit Charge", price: "₹99–₹199 (adjusted)" },
     ],
   },
@@ -349,9 +349,9 @@ export const furnitureRepairChandigarh: SeoPageData = {
 export const sofaUpholsteryChandigarh: SeoPageData = {
   slug: "sofa-upholstery-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Sofa Upholstery in Chandigarh from ₹2,000/seat | 500+ Fabrics | FurniRevive",
+  title: "Sofa Upholstery in Chandigarh from ₹2,000/seat | FurniRevive",
   metaDescription:
-    "Professional sofa upholstery in Chandigarh from ₹2,000 per seat. 500+ fabric options — cotton, velvet, linen, microfibre, leatherette. Doorstep fabric selection and on-site re-upholstery across all sectors. 6-month warranty. Call +91 92179 99355.",
+    "Professional sofa upholstery in Chandigarh from ₹2,000 per seat. 500+ fabric options — cotton, velvet, linen, microfibre, leatherette.",
   quickAnswer:
     "Sofa upholstery in Chandigarh costs ₹2,000–₹4,500 per seat. Full 3-seater re-upholstery ₹6,000–₹15,000 depending on fabric. 500+ materials available — cotton, velvet, linen, microfibre, rexine, leatherette. FurniRevive provides doorstep fabric selection and on-site upholstery across all Chandigarh sectors. Call +91 92179 99355.",
   h1: "Sofa Upholstery in Chandigarh — 500+ Fabrics from ₹2,000/seat",
@@ -454,9 +454,9 @@ export const sofaUpholsteryChandigarh: SeoPageData = {
 export const officeChairRepairChandigarh: SeoPageData = {
   slug: "office-chair-repair-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Office Chair Repair in Chandigarh from ₹500 | Gas Lift, Wheels, Armrest | FurniRevive",
+  title: "Office Chair Repair in Chandigarh from ₹500 | FurniRevive",
   metaDescription:
-    "Office chair repair in Chandigarh from ₹500. Gas lift replacement, wheel repair, armrest fix, seat foam change. Doorstep service across IT Park, Industrial Area, all sectors. Bulk corporate rates. Call +91 92179 99355.",
+    "Office chair repair in Chandigarh from ₹500. Gas lift replacement, wheel repair, armrest fix, seat foam change.",
   h1: "Office Chair Repair in Chandigarh — Gas Lift, Wheels & More from ₹500",
   heroSubtitle:
     "Professional office chair repair across Chandigarh's IT Park, Industrial Area, and all sectors. Gas lift, wheels, armrests, tilt mechanism, and seat foam — repaired at your office or home. Bulk rates available.",
@@ -551,9 +551,9 @@ export const officeChairRepairChandigarh: SeoPageData = {
 export const sameDaySofaRepairChandigarh: SeoPageData = {
   slug: "same-day-sofa-repair-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Same Day Sofa Repair in Chandigarh | Book Before Noon | FurniRevive",
+  title: "Same Day Sofa Repair in Chandigarh | FurniRevive",
   metaDescription:
-    "Same-day sofa repair in Chandigarh — book before noon, repaired by evening. Foam, spring, upholstery, leather, recliner repair. All sectors, Mohali & Panchkula. Starting ₹800. Call +91 92179 99355.",
+    "Same-day sofa repair in Chandigarh — book before noon, repaired by evening. Foam, spring, upholstery, leather, recliner repair.",
   h1: "Same Day Sofa Repair in Chandigarh — Book Before Noon",
   heroSubtitle:
     "Urgent sofa repair in Chandigarh with same-day completion. Book before noon — our technician arrives within 4 hours with all materials. Foam, spring, upholstery, and recliner repairs completed in a single visit.",
@@ -561,12 +561,12 @@ export const sameDaySofaRepairChandigarh: SeoPageData = {
     heading: "Same Day Sofa Repair Chandigarh — Fast Turnaround",
     imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
     altText: "Same-day sofa repair service in Chandigarh with rapid doorstep turnaround by FurniRevive",
-    caption: "Same Day Sofa Repair Chandigarh — Book before noon | Starting ₹800 | FurniRevive",
+    caption: "Same Day Sofa Repair Chandigarh — Book before noon | Starting ₹500 | FurniRevive",
   },
   intro: [
     "Guests arriving tonight? Festival season starting? Can't sit comfortably on a sagging sofa? FurniRevive's same-day sofa repair in Chandigarh guarantees your sofa is fixed before the day ends — book before noon and our technician arrives within 4 hours with all materials needed for a single-visit repair.",
     "Same-day availability covers all Chandigarh UT sectors, Manimajra, and extends to Mohali (Phase 1–10) and Panchkula (Sector 5–15). We carry pre-cut foam, spring hardware, common fabrics, and recliner parts so there's no waiting for materials. Most repairs — foam replacement, spring fixing, upholstery patching — are completed in 2–4 hours.",
-    "Starting at ₹800 with the same quality, materials, and 6-month warranty as our scheduled service. Same-day is simply about speed — not cutting corners. For more complex repairs that take longer, see our standard <a href=\"/sofa-repair-chandigarh\">sofa repair service</a>. For pricing details, check the <a href=\"/sofa-repair-cost-chandigarh\">Chandigarh cost guide</a>.",
+    "Starting at ₹500 with the same quality, materials, and 6-month warranty as our scheduled service. Same-day is simply about speed — not cutting corners. For more complex repairs that take longer, see our standard <a href=\"/sofa-repair-chandigarh\">sofa repair service</a>. For pricing details, check the <a href=\"/sofa-repair-cost-chandigarh\">Chandigarh cost guide</a>.",
   ],
   whyChoose: [
     { title: "Guaranteed Same-Day Arrival", description: "Book before noon — our technician arrives within 4 hours. No next-day waiting. Your sofa is fixed today." },
@@ -574,7 +574,7 @@ export const sameDaySofaRepairChandigarh: SeoPageData = {
     { title: "Full Chandigarh Tricity", description: "Same-day available across all UT sectors, Manimajra, Mohali (Phase 1–10), and Panchkula (Sector 5–15)." },
     { title: "No Compromise on Quality", description: "Same branded materials, same skilled craftsmen, same 6-month warranty as our scheduled service. Speed ≠ shortcuts." },
     { title: "Ideal for Urgent Situations", description: "Festival guests arriving, sofa broke suddenly, landlord inspection, party preparation — same-day service handles it all." },
-    { title: "Transparent Same-Day Pricing", description: "Starting ₹800. No rush surcharge. Same rates as our regular service. Free inspection included." },
+    { title: "Transparent Same-Day Pricing", description: "Starting ₹500. No rush surcharge. Same rates as our regular service. Free inspection included." },
   ],
   process: [
     { step: "Call Before Noon", description: "Call +91 92179 99355 before noon. Share photos of the damage. We confirm same-day slot and provide an estimate." },
@@ -592,7 +592,7 @@ export const sameDaySofaRepairChandigarh: SeoPageData = {
     "Full Tricity coverage — Chandigarh, Mohali, Panchkula",
     "Same branded materials and 6-month warranty",
     "Perfect for festival season and urgent needs",
-    "Starting at ₹800",
+    "Starting at ₹500",
   ],
   contentSections: [
     {
@@ -647,9 +647,9 @@ export const sameDaySofaRepairChandigarh: SeoPageData = {
 export const doorstepSofaRepairChandigarh: SeoPageData = {
   slug: "doorstep-sofa-repair-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Doorstep Sofa Repair in Chandigarh | Home Service All Sectors | FurniRevive",
+  title: "Doorstep Sofa Repair in Chandigarh | FurniRevive",
   metaDescription:
-    "Doorstep sofa repair in Chandigarh — we come to your home. No transport, no workshop. Foam, spring, upholstery, leather repair at your doorstep across all sectors, Mohali & Panchkula. From ₹800. Call +91 92179 99355.",
+    "Doorstep sofa repair in Chandigarh — we come to your home. No transport, no workshop. Foam, spring, upholstery, leather repair at your doorstep.",
   h1: "Doorstep Sofa Repair in Chandigarh — We Come to You",
   heroSubtitle:
     "No transport, no workshop, no waiting. FurniRevive's doorstep sofa repair brings expert craftsmen, tools, and materials directly to your Chandigarh home. Complete repair in a single visit.",
@@ -657,12 +657,12 @@ export const doorstepSofaRepairChandigarh: SeoPageData = {
     heading: "Doorstep Sofa Repair Chandigarh — At Your Home",
     imageUrl: "https://hercules-cdn.com/file_TPYaw9exg1JyUIbKSL4hxGwx",
     altText: "Doorstep sofa repair service in Chandigarh with technician working at customer home by FurniRevive",
-    caption: "Doorstep Sofa Repair Chandigarh — No transport needed | From ₹800 | FurniRevive",
+    caption: "Doorstep Sofa Repair Chandigarh — No transport needed | From ₹500 | FurniRevive",
   },
   intro: [
     "Why struggle to transport a heavy sofa to a workshop when expert repair can happen right in your drawing room? FurniRevive's doorstep sofa repair in Chandigarh brings everything needed — skilled craftsmen, professional tools, premium materials — directly to your home. Your sofa never leaves your living room.",
     "We serve every Chandigarh sector (1–56), Manimajra, Ram Darbar, Industrial Area, and extend doorstep coverage to Mohali (Phase 1–11, Aerocity) and Panchkula (Sector 1–27). Whether you live in a ground-floor kothi or a 15th-floor apartment, our team works neatly and efficiently in your space.",
-    "Doorstep repair eliminates transportation damage risk, workshop waiting time, and the hassle of moving heavy furniture through narrow doorways. Starting at ₹800. For full pricing, see our <a href=\"/sofa-repair-cost-chandigarh\">cost guide</a>. For same-day urgency, see <a href=\"/same-day-sofa-repair-chandigarh\">same-day service</a>.",
+    "Doorstep repair eliminates transportation damage risk, workshop waiting time, and the hassle of moving heavy furniture through narrow doorways. Starting at ₹500. For full pricing, see our <a href=\"/sofa-repair-cost-chandigarh\">cost guide</a>. For same-day urgency, see <a href=\"/same-day-sofa-repair-chandigarh\">same-day service</a>.",
   ],
   whyChoose: [
     { title: "Zero Transportation Hassle", description: "Your sofa stays in your home. No awkward manoeuvring through doors, no risk of transportation damage, no waiting at workshops." },
@@ -670,7 +670,7 @@ export const doorstepSofaRepairChandigarh: SeoPageData = {
     { title: "Apartment-Friendly", description: "Our team works neatly in apartments — minimal space needed, dust sheets laid, complete cleanup after. High-rise buildings no problem." },
     { title: "Complete Material Kit", description: "Technicians carry foam, fabric swatches, springs, hardware, and recliner parts. No second visits for common repairs." },
     { title: "Safe for Premium Sofas", description: "Leather sofas, imported pieces, and heavy sectionals are risky to move. Doorstep repair eliminates all handling damage risk." },
-    { title: "Same Price as Workshop", description: "Doorstep service costs the same as our workshop rate. From ₹800. No convenience surcharge." },
+    { title: "Same Price as Workshop", description: "Doorstep service costs the same as our workshop rate. From ₹500. No convenience surcharge." },
   ],
   process: [
     { step: "Book a Home Visit", description: "Call +91 92179 99355 or WhatsApp photos of your sofa damage. We schedule a visit at your convenience." },
@@ -743,9 +743,9 @@ export const doorstepSofaRepairChandigarh: SeoPageData = {
 export const leatherSofaRepairChandigarh: SeoPageData = {
   slug: "leather-sofa-repair-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Leather Sofa Repair in Chandigarh from ₹1,500 | Crack, Colour, Conditioning | FurniRevive",
+  title: "Leather Sofa Repair in Chandigarh from ₹1,500 | FurniRevive",
   metaDescription:
-    "Leather sofa repair in Chandigarh from ₹1,500. Crack filling, colour restoration, tear mending, conditioning. Genuine & faux leather. Doorstep service all sectors, Mohali & Panchkula. 6-month warranty. Call +91 92179 99355.",
+    "Leather sofa repair in Chandigarh from ₹1,500. Crack filling, colour restoration, tear mending, conditioning. Genuine & faux leather.",
   h1: "Leather Sofa Repair in Chandigarh — Crack, Colour & Conditioning from ₹1,500",
   heroSubtitle:
     "Chandigarh's dry winters crack leather fast. Our specialists restore genuine and faux leather sofas — crack filling, colour matching, tear mending, and deep conditioning — all at your doorstep. From ₹1,500.",
@@ -841,9 +841,9 @@ export const leatherSofaRepairChandigarh: SeoPageData = {
 export const carpenterHomeServiceChandigarh: SeoPageData = {
   slug: "carpenter-home-service-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Carpenter Home Service in Chandigarh from ₹499 | Doorstep Carpentry | FurniRevive",
+  title: "Carpenter Home Service in Chandigarh from ₹499 | FurniRevive",
   metaDescription:
-    "Professional carpenter home service in Chandigarh from ₹499. Furniture repair, assembly, fitting, installation. Doorstep service across all sectors, Mohali & Panchkula. Experienced craftsmen. Call +91 92179 99355.",
+    "Professional carpenter home service in Chandigarh from ₹499. Furniture repair, assembly, fitting, installation.",
   h1: "Carpenter Home Service in Chandigarh — Doorstep Carpentry from ₹499",
   heroSubtitle:
     "Need a carpenter at home? FurniRevive's skilled carpenters come to your Chandigarh doorstep for furniture repair, assembly, fitting, and installation. From ₹499. All sectors, Mohali & Panchkula covered.",
@@ -941,9 +941,9 @@ export const carpenterHomeServiceChandigarh: SeoPageData = {
 export const sofaRepairCostChandigarh: SeoPageData = {
   slug: "sofa-repair-cost-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Sofa Repair Cost in Chandigarh 2026 | Complete Price Guide | FurniRevive",
+  title: "Sofa Repair Cost in Chandigarh 2026 | FurniRevive",
   metaDescription:
-    "Sofa repair cost in Chandigarh 2026: foam ₹1,200–₹3,500, spring ₹800–₹2,000, upholstery ₹2,000–₹4,500/seat, leather ₹1,500–₹5,000, recliner ₹1,499–₹5,500. Transparent pricing. Free inspection. Call +91 92179 99355.",
+    "Sofa repair cost in Chandigarh 2026: foam ₹1,200–₹3,500, spring ₹800–₹2,000, upholstery ₹2,000–₹4,500/seat, leather ₹1,500–₹5,000, recliner ₹1,499–₹5,500.",
   quickAnswer:
     "Sofa repair in Chandigarh costs ₹800–₹12,000 depending on repair type. Foam replacement ₹1,200–₹3,500 per seat, spring repair ₹800–₹2,000, upholstery ₹2,000–₹4,500 per seat, leather repair ₹1,500–₹5,000, recliner mechanism ₹1,499–₹5,500. Free doorstep inspection with written quote. Call +91 92179 99355.",
   h1: "Sofa Repair Cost in Chandigarh — 2026 Complete Price Guide",
@@ -1061,9 +1061,9 @@ export const sofaRepairCostChandigarh: SeoPageData = {
 export const reclinerRepairCostChandigarh: SeoPageData = {
   slug: "recliner-repair-cost-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Recliner Repair Cost in Chandigarh 2026 | Manual & Motorised Pricing | FurniRevive",
+  title: "Recliner Repair Cost in Chandigarh 2026 | FurniRevive",
   metaDescription:
-    "Recliner repair cost in Chandigarh 2026: manual mechanism ₹1,499–₹3,000, motorised motor ₹2,999–₹5,500, actuator ₹2,000–₹3,500. All brands. Free inspection. Transparent pricing. Call +91 92179 99355.",
+    "Recliner repair cost in Chandigarh 2026: manual mechanism ₹1,499–₹3,000, motorised motor ₹2,999–₹5,500, actuator ₹2,000–₹3,500. All brands.",
   quickAnswer:
     "Recliner repair in Chandigarh costs ₹1,499–₹5,500. Manual mechanism repair ₹1,499–₹3,000, motorised motor replacement ₹2,999–₹5,500, actuator ₹2,000–₹3,500, remote/transformer ₹800–₹2,000. Free doorstep diagnosis. All brands covered. Call +91 92179 99355.",
   h1: "Recliner Repair Cost in Chandigarh — 2026 Complete Price Guide",
@@ -1170,9 +1170,9 @@ export const reclinerRepairCostChandigarh: SeoPageData = {
 export const furnitureRepairCostChandigarh: SeoPageData = {
   slug: "furniture-repair-cost-chandigarh",
   cityKey: "chandigarh" as const,
-  title: "Furniture Repair Cost in Chandigarh 2026 | All Furniture Types | FurniRevive",
+  title: "Furniture Repair Cost in Chandigarh 2026 | FurniRevive",
   metaDescription:
-    "Furniture repair cost in Chandigarh 2026: chair ₹500–₹2,500, bed ₹599–₹3,000, wardrobe ₹800–₹4,000, table ₹500–₹3,000, polish ₹1,500–₹8,000. Transparent doorstep pricing. Free inspection. Call +91 92179 99355.",
+    "Furniture repair cost in Chandigarh 2026: chair ₹500–₹2,500, bed ₹599–₹3,000, wardrobe ₹800–₹4,000, table ₹500–₹3,000, polish ₹1,500–₹8,000.",
   quickAnswer:
     "Furniture repair in Chandigarh costs ₹499–₹15,000 depending on furniture type and damage. Chair repair ₹500–₹2,500, bed repair ₹599–₹3,000, wardrobe ₹800–₹4,000, table ₹500–₹3,000, sofa ₹800–₹12,000, polish ₹1,500–₹8,000. Free doorstep inspection. Call +91 92179 99355.",
   h1: "Furniture Repair Cost in Chandigarh — 2026 Complete Price Guide",
@@ -1208,7 +1208,7 @@ export const furnitureRepairCostChandigarh: SeoPageData = {
     "Bed repair from ₹599",
     "Wardrobe repair from ₹800",
     "Table repair from ₹500",
-    "Sofa repair from ₹800",
+    "Sofa repair from ₹500",
     "Polish and refinishing from ₹1,500",
     "Hydraulic bed mechanism from ₹1,000",
     "Free inspection — no obligation",
@@ -1256,7 +1256,7 @@ export const furnitureRepairCostChandigarh: SeoPageData = {
       { service: "Table Leg Reinforcement", price: "₹500–₹1,500" },
       { service: "Single Piece Polish Touch-up", price: "₹1,500–₹3,000" },
       { service: "Dining Set Polish (table + 6 chairs)", price: "₹4,000–₹8,000" },
-      { service: "Sofa Repair", price: "₹800–₹12,000" },
+      { service: "Sofa Repair", price: "₹500–₹12,000" },
       { service: "Complete Furniture Restoration", price: "₹2,000–₹15,000" },
       { service: "Doorstep Visit Charge", price: "₹99–₹199 (adjusted)" },
     ],

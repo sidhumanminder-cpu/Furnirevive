@@ -3,12 +3,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const sofaRepairPalamViharGurgaon: SeoPageData = {
   slug: "sofa-repair-palam-vihar-gurgaon",
-  title: "Sofa Repair in Palam Vihar Gurgaon | Doorstep ₹999 | FurniRevive",
+  title: "Sofa Repair in Palam Vihar Gurgaon | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Expert sofa repair in Palam Vihar Gurgaon — Sectors A, B, C, D, E & Extension. Fabric, leather, recliner, L-shape repair at your doorstep from ₹999. 6-month warranty.",
+    "Expert sofa repair in Palam Vihar Gurgaon — Sectors A, B, C, D, E & Extension. Fabric, leather, recliner, L-shape repair at your doorstep from ₹500.",
   h1: "Sofa Repair in Palam Vihar, Gurgaon",
   heroSubtitle:
-    "Palam Vihar is one of Gurgaon's largest and most self-contained residential townships — sprawling across Sectors A through E and the Extension, right beside the Dwarka Expressway corridor. When your sofa needs attention, FurniRevive's specialist craftsmen are at your doorstep within hours, repairing fabric, leather, recliner, and L-shape sofas from ₹999 with a 6-month workmanship warranty.",
+    "Palam Vihar is one of Gurgaon's largest and most self-contained residential townships — sprawling across Sectors A through E and the Extension, right beside the Dwarka Expressway corridor. When your sofa needs attention, FurniRevive's specialist craftsmen are at your doorstep within hours, repairing fabric, leather, recliner, and L-shape sofas from ₹500 with a 6-month workmanship warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -16,7 +16,7 @@ export const sofaRepairPalamViharGurgaon: SeoPageData = {
     caption: "Sofa Repair in Gurgaon (Palam Vihar) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers professional sofa repair across all of Palam Vihar — Sectors A, B, C, D, E, and Palam Vihar Extension. Services include fabric sofa repair, leather restoration, recliner mechanism and motor repair, foam replacement, frame repair, full re-upholstery, and sofa polishing. Technicians arrive at your home, work is done on-site, pricing starts from ₹999 with a free assessment, a fixed written quote, and a 6-month warranty on every repair.",
+    "FurniRevive offers professional sofa repair across all of Palam Vihar — Sectors A, B, C, D, E, and Palam Vihar Extension. Services include fabric sofa repair, leather restoration, recliner mechanism and motor repair, foam replacement, frame repair, full re-upholstery, and sofa polishing. Technicians arrive at your home, work is done on-site, pricing starts from ₹500 with a free assessment, a fixed written quote, and a 6-month warranty on every repair.",
   intro: [
     "Palam Vihar is Gurgaon's sprawling self-contained township — covering Sectors A, B, C, D, E and the newer Extension — home to thousands of independent houses, builder floors, group-housing societies, and residential plots. Its residents have invested heavily in quality sofas: plush fabric sectionals, leather three-seaters, motorised recliners for home theatres, and oversized L-shape sofas in open-plan living rooms. Over time, these pieces develop faults that don't need replacement — they need a skilled craftsman. That is where <a href=\"/sofa-repair-gurgaon\">FurniRevive's Gurgaon sofa repair team</a> comes in.",
     "Our work in Palam Vihar covers every category: sagging cushions, broken frames, torn upholstery, stiff or stuck recliner mechanisms, faded leather, and structural joint failures. We also service the full spectrum of sofa types found here — from compact two-seaters in builder floors to large L-shape sofas in independent kothi drawing rooms. For residents who also need other furniture attended to, our <a href=\"/furniture-repair-palam-vihar-gurgaon\">furniture repair Palam Vihar Gurgaon</a> service covers wardrobes, beds, dining sets, and more. For sofas specifically along the corridor extending to NH-48, our <a href=\"/sofa-repair-dwarka-expressway-gurgaon\">sofa repair Dwarka Expressway Gurgaon</a> page has full coverage details.",
@@ -41,7 +41,7 @@ export const sofaRepairPalamViharGurgaon: SeoPageData = {
     {
       title: "Transparent Fixed-Quote Pricing",
       description:
-        "Free on-site inspection followed by a single itemised written quote. The number you approve is the number you pay — no mid-job add-ons, no material charges revealed at the end. Starting from ₹999 for straightforward repairs.",
+        "Free on-site inspection followed by a single itemised written quote. The number you approve is the number you pay — no mid-job add-ons, no material charges revealed at the end. Starting from ₹500 for straightforward repairs.",
     },
     {
       title: "Genuine Materials, Right First Time",
@@ -135,7 +135,7 @@ export const sofaRepairPalamViharGurgaon: SeoPageData = {
     {
       question: "How much does sofa repair cost in Palam Vihar?",
       answer:
-        "Pricing starts from ₹999 for straightforward repairs. Foam replacement on a three-seater: ₹3,500–₹7,000. Leather sofa repair: ₹2,000–₹8,000 depending on extent. Recliner mechanism repair: ₹2,500–₹8,000. Full re-upholstery from ₹9,000. All pricing is confirmed as a fixed written quote after a free on-site assessment — no surprises. Visit our <a href=\"/sofa-repair-gurgaon\">sofa repair Gurgaon</a> page for a full price overview.",
+        "Pricing starts from ₹500 for straightforward repairs. Foam replacement on a three-seater: ₹3,500–₹7,000. Leather sofa repair: ₹2,000–₹8,000 depending on extent. Recliner mechanism repair: ₹2,500–₹8,000. Full re-upholstery from ₹9,000. All pricing is confirmed as a fixed written quote after a free on-site assessment — no surprises. Visit our <a href=\"/sofa-repair-gurgaon\">sofa repair Gurgaon</a> page for a full price overview.",
     },
     {
       question: "Can you repair a large L-shape sofa in my Palam Vihar drawing room?",
@@ -188,7 +188,7 @@ export const sofaRepairPalamViharGurgaon: SeoPageData = {
     {
       heading: "Sofa Repair Pricing for Palam Vihar Residents",
       body: [
-        "Pricing is always confirmed after a free on-site assessment — there is no obligation to proceed. Indicative ranges based on common Palam Vihar repair jobs: Foam replacement for a 3-seater sofa: ₹3,500–₹7,000. Fabric sofa re-upholstery (3-seater): ₹7,000–₹14,000. Leather sofa repair and colour restoration: ₹2,000–₹8,000. Full leather re-upholstery (3-seater): ₹15,000–₹25,000. Recliner mechanism repair: ₹2,500–₹6,000. Recliner motor repair: ₹3,000–₹8,000. L-shape sofa frame and foam repair: ₹5,000–₹12,000. Sofa polishing (wooden frame): ₹1,800–₹4,500. Starting price for minor repairs: ₹999.",
+        "Pricing is always confirmed after a free on-site assessment — there is no obligation to proceed. Indicative ranges based on common Palam Vihar repair jobs: Foam replacement for a 3-seater sofa: ₹3,500–₹7,000. Fabric sofa re-upholstery (3-seater): ₹7,000–₹14,000. Leather sofa repair and colour restoration: ₹2,000–₹8,000. Full leather re-upholstery (3-seater): ₹15,000–₹25,000. Recliner mechanism repair: ₹2,500–₹6,000. Recliner motor repair: ₹3,000–₹8,000. L-shape sofa frame and foam repair: ₹5,000–₹12,000. Sofa polishing (wooden frame): ₹1,800–₹4,500. Starting price for minor repairs: ₹500.",
         "Every quote is a fixed written commitment — the number we agree before work starts is the number you pay. No material costs revealed at the end, no add-ons mid-job. We believe that transparent pricing builds trust, especially in a township as established as Palam Vihar where word-of-mouth referrals drive most of our repeat bookings. For a broader pricing overview across Gurgaon, see our <a href=\"/sofa-repair-gurgaon\">sofa repair Gurgaon</a> page.",
         "Value perspective: a mid-range 3-seater sofa in Palam Vihar costs ₹25,000–₹60,000 new. A comprehensive repair — foam replacement, re-upholstery, and frame reinforcement — typically costs ₹8,000–₹18,000 and extends the sofa's life by 5–8 years. Repair is almost always the more rational choice. For premium leather sofas and imported recliners, the case for repair over replacement is even stronger — see our <a href=\"/leather-sofa-repair-gurgaon\">leather sofa repair Gurgaon</a> page for details.",
       ],
@@ -209,7 +209,7 @@ export const sofaRepairPalamViharGurgaon: SeoPageData = {
     microLocationContent:
       "Coverage across Palam Vihar Sector A (near the main gate on Palam Vihar Road), Sector B (central residential blocks), Sector C (inner residential lanes), Sector D (south extension), Sector E (near the Bajghera border), and Palam Vihar Extension (newer societies on Sector 22 fringe). All independent kothis, builder floors, and group-housing societies in the township boundary are within our service area.",
     trustSignals: [
-      "Starting ₹999",
+      "Starting ₹500",
       "6-Month Warranty",
       "Free Home Assessment",
       "Same-Day Slots Available",

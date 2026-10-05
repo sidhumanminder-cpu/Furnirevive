@@ -7,7 +7,7 @@ const leatherSofaRepairGreaterNoida: SeoPageData = {
   slug: "leather-sofa-repair-greater-noida",
   title: "Leather Sofa Repair Greater Noida | Premium Leather Restoration",
   metaDescription:
-    "Expert leather sofa restoration in Greater Noida from ₹999. Pari Chowk, Alpha, Beta, Gamma, Knowledge Park. Crack repair, colour restoration. 6-month warranty. FurniRevive.",
+    "Expert leather sofa restoration in Greater Noida from ₹999. Pari Chowk, Alpha, Beta, Gamma, Knowledge Park. Crack repair, colour restoration.",
   h1: "Premium Leather Sofa Repair in Greater Noida",
   heroSubtitle:
     "Greater Noida's planned residential sectors — Pari Chowk, Alpha, Beta, Gamma, and Knowledge Park — deserve leather furniture restoration at the standard the city was designed around. FurniRevive delivers specialist leather sofa repair, professional colour restoration, and premium upholstery services to your doorstep across Greater Noida from ₹999. 6-month warranty on every project.",

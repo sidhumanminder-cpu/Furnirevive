@@ -8,9 +8,9 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 const sofaRepairWestDelhi: SeoPageData = {
   slug: "sofa-repair-west-delhi",
   title:
-    "Sofa Repair in West Delhi – FurniRevive | Foam, Upholstery & Spring Repair Across All Localities",
+    "Sofa Repair in West Delhi – FurniRevive",
   metaDescription:
-    "Expert sofa repair across West Delhi — Vikaspuri, Janakpuri, Rajouri Garden, Punjabi Bagh, Paschim Vihar & more. Foam from ₹999, reupholstery from ₹3,000/seat. Home visit. 6-month warranty. Call FurniRevive.",
+    "Expert sofa repair across West Delhi — Vikaspuri, Janakpuri, Rajouri Garden, Punjabi Bagh, Paschim Vihar & more.",
   h1: "Sofa Repair in West Delhi – Professional Restoration Across Every Locality",
   heroSubtitle:
     "From Vikaspuri DDA blocks to Punjabi Bagh independent floors — FurniRevive repairs sofas across all of West Delhi. Foam replacement, upholstery, spring repair, and full restoration at your door. Same-week appointments. 6-month warranty.",
@@ -21,7 +21,7 @@ const sofaRepairWestDelhi: SeoPageData = {
     caption: "Sofa Repair in West Delhi | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides professional sofa repair across West Delhi covering Vikaspuri, Janakpuri, Rajouri Garden, Paschim Vihar, Punjabi Bagh, Tilak Nagar, Subhash Nagar, Uttam Nagar, Kirti Nagar, Tagore Garden, and Delhi Cantt. Sofa foam replacement starts at ₹999 per cushion, full reupholstery from ₹3,000 per seat, and spring repair from ₹800. All work is done at your home with a 6-month workmanship warranty.",
+    "FurniRevive provides professional sofa repair across West Delhi covering Vikaspuri, Janakpuri, Rajouri Garden, Paschim Vihar, Punjabi Bagh, Tilak Nagar, Subhash Nagar, Uttam Nagar, Kirti Nagar, Tagore Garden, and Delhi Cantt. Sofa foam replacement starts at ₹999 per cushion, full reupholstery from ₹2,000 per seat, and spring repair from ₹800. All work is done at your home with a 6-month workmanship warranty.",
 
   intro: [
     "West Delhi is one of the most densely populated and residentially diverse parts of the capital — a region that stretches from the bustling furniture markets of Kirti Nagar to the manicured boulevards of Punjabi Bagh, from the DDA colonies of Vikaspuri to the independent floors of Paschim Vihar. The sofas in these homes are just as varied: decades-old joint-family five-seaters in Uttam Nagar, high-end imported sectionals in Rajouri Garden builder floors, cotton-upholstered sets in Tilak Nagar flats, leather-finish recliners in Subhash Nagar drawing rooms. What unites them all is a common question families eventually ask — is it time to repair, or time to replace?",
@@ -38,7 +38,7 @@ const sofaRepairWestDelhi: SeoPageData = {
     {
       title: "Transparent Pricing — Quote Confirmed Before Work Starts",
       description:
-        "We inspect your sofa and provide a full written quote before a single stitch is cut or a spring is touched. Foam replacement starts at ₹999 per cushion, spring repair from ₹800, and full reupholstery from ₹3,000 per seat. What we quote is what you pay — no material surcharges, no mid-job escalations. West Delhi families have trusted our pricing consistency for years.",
+        "We inspect your sofa and provide a full written quote before a single stitch is cut or a spring is touched. Foam replacement starts at ₹999 per cushion, spring repair from ₹800, and full reupholstery from ₹2,000 per seat. What we quote is what you pay — no material surcharges, no mid-job escalations. West Delhi families have trusted our pricing consistency for years.",
     },
     {
       title: "All Sofa Types — Fabric, Leather, Rexine, and More",
@@ -128,7 +128,7 @@ const sofaRepairWestDelhi: SeoPageData = {
     {
       heading: "Sofa Reupholstery Services Across West Delhi",
       body: [
-        "Reupholstery is the most transformative sofa repair we offer. It replaces all the visible fabric — seat panels, back panels, armrest covers, base skirt — with new material of your choice, turning a visually tired sofa into a piece that looks new while retaining the frame and spring system you already have. Full sofa reupholstery across West Delhi starts from ₹3,000 per seating position and covers our entire fabric range, from budget polyester weaves to premium velvet, linen blends, and faux leather. Our sofa upholstery service includes a detailed price list so you can plan your budget before the visit.",
+        "Reupholstery is the most transformative sofa repair we offer. It replaces all the visible fabric — seat panels, back panels, armrest covers, base skirt — with new material of your choice, turning a visually tired sofa into a piece that looks new while retaining the frame and spring system you already have. Full sofa reupholstery across West Delhi starts from ₹2,000 per seating position and covers our entire fabric range, from budget polyester weaves to premium velvet, linen blends, and faux leather. Our sofa upholstery service includes a detailed price list so you can plan your budget before the visit.",
         "West Delhi families frequently choose reupholstery when they have moved into a new home and the sofa no longer matches the new interior, when the original fabric has become stained beyond cleaning, or when the sofa has been in the family for so long it holds sentimental value but is visually exhausting. We handle all three scenarios. We carry 40+ fabric swatches in every major upholstery category: polyester weaves in solid colours and textured patterns, velvet in jewel tones and neutrals, cotton-linen blends, faux leather in multiple grain patterns, premium suede-effect microfibre, and heritage-canvas weaves that complement classic Indian interior styles.",
         "In Punjabi Bagh and Rajouri Garden, where drawing rooms tend to be larger and the interior aesthetic is more considered, we regularly carry out full reupholstery on sectional sofas and imported pieces — work that involves removing and recreating tailored panels across five, six, or seven seating positions. In Vikaspuri and Uttam Nagar, the more common request is partial reupholstery: replacing just the seat cushion covers or armrest panels that have worn first, while retaining back panels that still look acceptable. Both approaches are available, and both use the same material quality standards.",
       ],
@@ -187,7 +187,7 @@ const sofaRepairWestDelhi: SeoPageData = {
     {
       question: "How much does sofa repair cost in West Delhi?",
       answer:
-        "Sofa foam replacement starts at ₹999 per cushion, spring repair from ₹800, and full reupholstery from ₹3,000 per seating position. The exact cost depends on your sofa size, the repair needed, and the fabric or foam grade you choose. We provide a full written quote after the free home inspection — before any work starts.",
+        "Sofa foam replacement starts at ₹999 per cushion, spring repair from ₹800, and full reupholstery from ₹2,000 per seating position. The exact cost depends on your sofa size, the repair needed, and the fabric or foam grade you choose. We provide a full written quote after the free home inspection — before any work starts.",
     },
     {
       question: "Do you offer sofa repair at home in West Delhi?",
@@ -276,9 +276,9 @@ const sofaRepairWestDelhi: SeoPageData = {
 const furnitureRepairWestDelhi: SeoPageData = {
   slug: "furniture-repair-west-delhi",
   title:
-    "Furniture Repair in West Delhi – FurniRevive | Wooden, Sofa, Wardrobe & All Home Furniture",
+    "Furniture Repair in West Delhi – FurniRevive",
   metaDescription:
-    "Expert furniture repair across West Delhi — Vikaspuri, Janakpuri, Kirti Nagar & all localities. Wooden furniture, sofas, wardrobes, dining sets & recliners. Home visit from ₹599. 6-month warranty. Call FurniRevive.",
+    "Expert furniture repair across West Delhi — Vikaspuri, Janakpuri, Kirti Nagar & all localities.",
   h1: "Furniture Repair in West Delhi – Complete Home Furniture Restoration at Your Door",
   heroSubtitle:
     "From solid sheesham dining tables in Vikaspuri to imported wardrobes in Punjabi Bagh — FurniRevive repairs all home furniture across West Delhi. Polishing, reupholstery, frame repair, and full restoration. Starting ₹599. 6-month warranty.",
@@ -311,7 +311,7 @@ const furnitureRepairWestDelhi: SeoPageData = {
     {
       title: "Transparent Pricing With No Hidden Additions",
       description:
-        "We quote the full repair cost after a thorough on-site inspection — before any work starts. Furniture repair starts at ₹599, sofa foam replacement from ₹999 per cushion, full reupholstery from ₹3,000 per seat, polishing from ₹800, recliner repair from ₹1,500. What we quote is what you pay. West Delhi families who have used our service consistently report that our bills match our quotes exactly.",
+        "We quote the full repair cost after a thorough on-site inspection — before any work starts. Furniture repair starts at ₹599, sofa foam replacement from ₹999 per cushion, full reupholstery from ₹2,000 per seat, polishing from ₹800, recliner repair from ₹1,500. What we quote is what you pay. West Delhi families who have used our service consistently report that our bills match our quotes exactly.",
     },
     {
       title: "Experience With Long-Owned and Inherited Furniture",
@@ -396,7 +396,7 @@ const furnitureRepairWestDelhi: SeoPageData = {
     {
       heading: "Sofa and Upholstered Furniture Repair in West Delhi",
       body: [
-        "Sofas are covered in detail on our dedicated <a href='/sofa-repair-west-delhi'>West Delhi sofa repair page</a>, but they are also a core component of our complete furniture repair service. When a West Delhi family books FurniRevive for furniture repair, sofas are almost always part of the scope — typically alongside a wardrobe, a dining set, or a bed frame. We handle all categories of sofa repair: foam replacement starting at ₹999 per cushion, spring repair from ₹800, full reupholstery from ₹3,000 per seat using 40+ fabric options. Our sofa upholstery service and complete upholstery price list are available for reference before your visit.",
+        "Sofas are covered in detail on our dedicated <a href='/sofa-repair-west-delhi'>West Delhi sofa repair page</a>, but they are also a core component of our complete furniture repair service. When a West Delhi family books FurniRevive for furniture repair, sofas are almost always part of the scope — typically alongside a wardrobe, a dining set, or a bed frame. We handle all categories of sofa repair: foam replacement starting at ₹999 per cushion, spring repair from ₹800, full reupholstery from ₹2,000 per seat using 40+ fabric options. Our sofa upholstery service and complete upholstery price list are available for reference before your visit.",
         "Beyond sofas, we also repair other upholstered furniture common in West Delhi homes: dining chairs with upholstered seat pads, accent chairs and wingback chairs, ottomans and footstools, upholstered beds with padded headboards, and reading chairs. Our chair repair service covers both wooden-frame dining chair joint work and upholstered seat and back restoration. For premium accent chairs and imported pieces, we follow the same approach as our designer furniture repair service — material assessment first, correct repair chemistry second, finish restoration third.",
         "The combination of wooden repair and upholstery repair in a single booking is one of the most efficient services we offer. A West Delhi family with a warped dining table, four chairs with loose joints, and a sofa with sunken cushions can have all three addressed in a single 3–4 hour visit. We quote each item separately so you have full visibility of where the costs sit — and you can choose to defer any items that are lower priority.",
       ],
@@ -460,7 +460,7 @@ const furnitureRepairWestDelhi: SeoPageData = {
     {
       question: "How much does furniture repair cost in West Delhi?",
       answer:
-        "Furniture repair starts at ₹599, sofa foam replacement from ₹999 per cushion, full reupholstery from ₹3,000 per seat, polishing from ₹800, recliner repair from ₹1,500. The exact cost depends on the piece, the damage, and the materials required. We provide a full written quote after the free on-site assessment.",
+        "Furniture repair starts at ₹599, sofa foam replacement from ₹999 per cushion, full reupholstery from ₹2,000 per seat, polishing from ₹800, recliner repair from ₹1,500. The exact cost depends on the piece, the damage, and the materials required. We provide a full written quote after the free on-site assessment.",
     },
     {
       question: "Do you repair furniture in all West Delhi localities?",
@@ -543,9 +543,9 @@ const furnitureRepairWestDelhi: SeoPageData = {
 const reclineRepairWestDelhi: SeoPageData = {
   slug: "recliner-repair-west-delhi",
   title:
-    "Recliner Repair in West Delhi – FurniRevive | Manual & Electric Recliner Mechanism Repair",
+    "Recliner Repair in West Delhi – FurniRevive",
   metaDescription:
-    "Expert recliner repair across West Delhi — Vikaspuri, Janakpuri, Rajouri Garden, Punjabi Bagh & more. Manual and electric recliner mechanisms, motors, footrests & upholstery. Repair from ₹1,500. Home visit. 6-month warranty. Call FurniRevive.",
+    "Expert recliner repair across West Delhi — Vikaspuri, Janakpuri, Rajouri Garden, Punjabi Bagh & more.",
   h1: "Recliner Repair in West Delhi – Professional Mechanism, Motor & Upholstery Restoration",
   heroSubtitle:
     "From manual recliner mechanism failure in Vikaspuri to electric recliner motor faults in Punjabi Bagh — FurniRevive repairs all recliner types across West Delhi. Starting ₹1,500. Home visit. 6-month warranty.",
@@ -556,7 +556,7 @@ const reclineRepairWestDelhi: SeoPageData = {
     caption: "Recliner Repair in West Delhi | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides expert recliner repair across West Delhi — covering Vikaspuri, Janakpuri, Rajouri Garden, Paschim Vihar, Punjabi Bagh, Subhash Nagar, Uttam Nagar, Tagore Garden, and Delhi Cantt. Manual recliner mechanism repair from ₹1,500, electric recliner motor and control unit repair from ₹2,500, and complete upholstery restoration from ₹3,000 per seat. All repairs at your home with a 6-month workmanship warranty.",
+    "FurniRevive provides expert recliner repair across West Delhi — covering Vikaspuri, Janakpuri, Rajouri Garden, Paschim Vihar, Punjabi Bagh, Subhash Nagar, Uttam Nagar, Tagore Garden, and Delhi Cantt. Manual recliner mechanism repair from ₹1,500, electric recliner motor and control unit repair from ₹2,500, and complete upholstery restoration from ₹2,000 per seat. All repairs at your home with a 6-month workmanship warranty.",
 
   intro: [
     "Recliners have become one of the most popular furniture investments in West Delhi homes over the past decade. From single-seater manual recliners in Vikaspuri DDA flats to imported La-Z-Boy electric pairs in Punjabi Bagh drawing rooms, from mass-market recliner sofas in Uttam Nagar apartments to premium leather motorised units in Rajouri Garden independent floors — West Delhi is home to a significant and growing recliner population. And as these chairs age and accumulate use, repair requirements follow. The most common faults are mechanism failure on manual recliners, motor and control unit failure on electric models, upholstery wear on the high-contact seat and armrest panels, and footrest hinge degradation across both types.",
@@ -578,7 +578,7 @@ const reclineRepairWestDelhi: SeoPageData = {
     {
       title: "Transparent Pricing — Written Quote Before Work Starts",
       description:
-        "Manual recliner mechanism repair starts at ₹1,500. Electric recliner motor and control repair starts at ₹2,500. Upholstery repair from ₹3,000 per seat. We inspect the fault, identify the required parts, and confirm the complete repair cost in writing before a single component is touched. No surprise charges after the work is done.",
+        "Manual recliner mechanism repair starts at ₹1,500. Electric recliner motor and control repair starts at ₹2,500. Upholstery repair from ₹2,000 per seat. We inspect the fault, identify the required parts, and confirm the complete repair cost in writing before a single component is touched. No surprise charges after the work is done.",
     },
     {
       title: "Home Visit — Recliner Never Needs to Leave Your Home",
@@ -722,7 +722,7 @@ const reclineRepairWestDelhi: SeoPageData = {
     {
       question: "How much does recliner repair cost in West Delhi?",
       answer:
-        "Manual recliner mechanism repair starts at ₹1,500. Electric recliner motor and control unit repair starts at ₹2,500. Motor replacement is typically ₹3,500–₹5,500 depending on the model. Upholstery repair starts at ₹3,000 per seat. We provide a full written quote after the free on-site assessment.",
+        "Manual recliner mechanism repair starts at ₹1,500. Electric recliner motor and control unit repair starts at ₹2,500. Motor replacement is typically ₹3,500–₹5,500 depending on the model. Upholstery repair starts at ₹2,000 per seat. We provide a full written quote after the free on-site assessment.",
     },
     {
       question: "Do you repair both manual and electric recliners?",

@@ -3,17 +3,17 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 export const recliinerRepairSohnaRoadGurgaon: SeoPageData = {
   slug: "recliner-repair-sohna-road-gurgaon",
-  title: "Recliner Repair in Sohna Road Gurgaon | Doorstep ₹999 | FurniRevive",
+  title: "Recliner Repair in Sohna Road Gurgaon | FurniRevive",
   metaDescription:
-    "Expert recliner repair in Sohna Road Gurgaon — Vatika City, Ardee City, South City 2, Parsvnath Exotica, Omaxe Hills. Motor, mechanism & leather repair from ₹999. 6-month warranty.",
+    "Expert recliner repair in Sohna Road Gurgaon — Vatika City, Ardee City, South City 2, Parsvnath Exotica, Omaxe Hills.",
   h1: "Recliner Repair in Sohna Road, Gurgaon",
   heroSubtitle:
     "Sohna Road is one of Gurgaon's fastest-growing residential corridors — Vatika City, Ardee City, Parsvnath Exotica, South City 2, and Omaxe Hills have attracted a high density of premium apartment residents who routinely invest in imported motorised recliners and leather recliner suites. When your recliner develops a fault, FurniRevive's specialist technicians reach your Sohna Road doorstep within hours, restoring full function from ₹999 with a 6-month warranty.",
   showcaseImage: {
-    heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
+    heading: "Premium Recliner Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
-    altText: "Professional sofa repair technician working on a beige premium fabric sofa in a luxury Gurgaon (Sohna Road) home — FurniRevive",
-    caption: "Sofa Repair in Gurgaon (Sohna Road) | Premium upholstery & foam service | Home visit | FurniRevive",
+    altText: "Professional recliner repair technician working on a beige premium fabric sofa in a luxury Gurgaon (Sohna Road) home — FurniRevive",
+    caption: "Recliner Repair in Gurgaon (Sohna Road) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
     "FurniRevive repairs all recliner types in Sohna Road Gurgaon — including electric motor faults, mechanism failures, actuator replacement, leather restoration, and foam rebuilds — at your apartment in Vatika City, Ardee City, South City 2, Parsvnath Exotica, or Omaxe Hills. Doorstep service starts at ₹999, with a free on-site inspection, a fixed written quote before work begins, and a 6-month workmanship warranty. Call or WhatsApp +91 92179 99355 to book your Sohna Road slot today.",

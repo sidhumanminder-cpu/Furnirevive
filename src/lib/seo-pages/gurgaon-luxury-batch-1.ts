@@ -5,12 +5,12 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const sofaRepairGolfCourseRoad: SeoPageData = {
   slug: "sofa-repair-golf-course-road",
-  title: "Sofa Repair in Golf Course Road Gurgaon | Same-Day Doorstep Service",
+  title: "Sofa Repair in Golf Course Road Gurgaon",
   metaDescription:
-    "Expert sofa repair on Golf Course Road Gurgaon from ₹999. Leather sofas, recliners & imported furniture restored at your doorstep. Same-day slots. 6-month warranty. FurniRevive.",
+    "Expert sofa repair on Golf Course Road Gurgaon from ₹500. Leather sofas, recliners & imported furniture restored at your doorstep. Same-day slots.",
   h1: "Sofa Repair on Golf Course Road Gurgaon",
   heroSubtitle:
-    "Golf Course Road's premium residences deserve a furniture restoration service that matches their standard. FurniRevive restores imported leather sofas, luxury recliners, sectional sofas, and designer upholstery across DLF Phase 1, 2, 3, 4, Sector 42, 43, 53, 54, and the Golf Course Extension Road corridor — entirely at your doorstep from ₹999. Same-day inspection for morning bookings. 6-month warranty on every project.",
+    "Golf Course Road's premium residences deserve a furniture restoration service that matches their standard. FurniRevive restores imported leather sofas, luxury recliners, sectional sofas, and designer upholstery across DLF Phase 1, 2, 3, 4, Sector 42, 43, 53, 54, and the Golf Course Extension Road corridor — entirely at your doorstep from ₹500. Same-day inspection for morning bookings. 6-month warranty on every project.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -18,11 +18,11 @@ const sofaRepairGolfCourseRoad: SeoPageData = {
     caption: "Sofa Repair in Golf Course Road, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers expert doorstep sofa repair on Golf Course Road Gurgaon — covering DLF Phase 1 through 4, Sector 42, 43, 53, 54, 56, and One Horizon Center — from ₹999. We restore imported leather sofas, recliners, sectional sofas, and premium upholstery with specialist-grade techniques. Free on-site assessment, transparent fixed pricing, and a 6-month workmanship warranty on every project.",
+    "FurniRevive delivers expert doorstep sofa repair on Golf Course Road Gurgaon — covering DLF Phase 1 through 4, Sector 42, 43, 53, 54, 56, and One Horizon Center — from ₹500. We restore imported leather sofas, recliners, sectional sofas, and premium upholstery with specialist-grade techniques. Free on-site assessment, transparent fixed pricing, and a 6-month workmanship warranty on every project.",
   intro: [
     "Golf Course Road is the spine of Gurgaon's most established premium residential corridor — a stretch of DLF phases, gated villas, and luxury high-rises that have defined the city's aspirational benchmark for two decades. Many homes along Golf Course Road feature imported leather sofas and premium sectional seating: Italian Natuzzi sectionals, American Ashley recliners, and European modular systems chosen with care and purchased at significant investment. When these pieces show wear — cracking leather, collapsed foam, a recliner mechanism that won't engage — they deserve a <a href='/sofa-repair-gurgaon'>specialist sofa repair service in Gurgaon</a> that understands the materials, construction, and finishing standards these pieces represent.",
     "FurniRevive's craftsmen work regularly across Golf Course Road's full extent — DLF Phase 1's mature bungalows, DLF Phase 2 and Phase 3's villa clusters, DLF Phase 4's tower residences, and the Sector 42, 43, 53, 54, and 56 addresses that define this corridor's premium residential character. We extend naturally into <a href='/sofa-repair-dlf-phase-3'>DLF Phase 3</a>, <a href='/sofa-repair-dlf-phase-4'>DLF Phase 4</a>, and the <a href='/sofa-repair-nirvana-country'>Nirvana Country</a> and <a href='/sofa-repair-ardee-city'>Ardee City</a> zones nearby — all under identical pricing and the same 6-month warranty. Our <a href='/leather-sofa-repair-gurgaon'>leather sofa repair specialists in Gurgaon</a> carry professional-grade conditioning oils, crack-fill compounds, colour-matched pigments, and recliner mechanism components so that most projects complete in a single doorstep visit.",
-    "The ₹999 starting rate applies across the entire Golf Course Road service zone with no luxury postcode surcharges. After a free, no-obligation on-site assessment, you receive a single itemised fixed quote before any work begins. Your sofa holds years of family memories — and our job is to restore it to a condition that honours that history, at a fraction of the cost of replacement.",
+    "The ₹500 starting rate applies across the entire Golf Course Road service zone with no luxury postcode surcharges. After a free, no-obligation on-site assessment, you receive a single itemised fixed quote before any work begins. Your sofa holds years of family memories — and our job is to restore it to a condition that honours that history, at a fraction of the cost of replacement.",
   ],
   whyChoose: [
     {
@@ -144,7 +144,7 @@ const sofaRepairGolfCourseRoad: SeoPageData = {
     {
       heading: "Pricing for Sofa Repair on Golf Course Road",
       body: [
-        "Sofa repair on Golf Course Road starts at ₹999 and is priced transparently based on the work required — not the postcode. Leather conditioning and surface treatment for early-stage cracking: ₹2,500–₹6,000 for a standard 3-seater sofa. Comprehensive leather restoration including colour matching: ₹8,000–₹20,000. High-resilience foam replacement for a full sofa set: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Recliner mechanism repair (manual cable): ₹1,500–₹3,500. Motorised recliner actuator repair: ₹3,500–₹8,000. Full re-upholstery with fabric selection: ₹12,000–₹35,000.",
+        "Sofa repair on Golf Course Road starts at ₹500 and is priced transparently based on the work required — not the postcode. Leather conditioning and surface treatment for early-stage cracking: ₹2,500–₹6,000 for a standard 3-seater sofa. Comprehensive leather restoration including colour matching: ₹8,000–₹20,000. High-resilience foam replacement for a full sofa set: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Recliner mechanism repair (manual cable): ₹1,500–₹3,500. Motorised recliner actuator repair: ₹3,500–₹8,000. Full re-upholstery with fabric selection: ₹12,000–₹35,000.",
         "These ranges reflect the range of work scope — a 2-seater and a 4-seater require different material quantities, and light surface conditioning requires different time than comprehensive colour restoration. The exact cost for your specific sofa is determined during the free on-site assessment and provided as a single fixed quote before any work begins. There are no revisions to the quote after work starts, no material cost additions discovered mid-project, and no travel charges for Golf Course Road addresses.",
         "The 6-month workmanship warranty is included at no additional charge on every project. Return visits for warranty corrections — any workmanship issue that emerges within six months of the completed restoration — are at no cost. The warranty covers all restored elements: leather, foam, springs, mechanisms, and fabric. A digital warranty certificate is delivered via WhatsApp before the craftsman leaves your home.",
       ],
@@ -164,7 +164,7 @@ const sofaRepairGolfCourseRoad: SeoPageData = {
     {
       question: "What does sofa repair cost on Golf Course Road Gurgaon?",
       answer:
-        "Starts at ₹999. Leather conditioning: ₹2,500–₹6,000. Full leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner mechanism repair: ₹1,500–₹8,000. Fixed quote after free on-site assessment — no hidden charges.",
+        "Starts at ₹500. Leather conditioning: ₹2,500–₹6,000. Full leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner mechanism repair: ₹1,500–₹8,000. Fixed quote after free on-site assessment — no hidden charges.",
     },
     {
       question: "Can I get same-day sofa repair on Golf Course Road?",
@@ -241,12 +241,12 @@ const sofaRepairGolfCourseRoad: SeoPageData = {
 
 const sofaRepairNirvanaCountry: SeoPageData = {
   slug: "sofa-repair-nirvana-country",
-  title: "Sofa Repair in Nirvana Country Gurgaon | Expert Upholstery & Restoration",
+  title: "Sofa Repair in Nirvana Country Gurgaon",
   metaDescription:
-    "Premium sofa repair in Nirvana Country Gurgaon from ₹999. Leather sofa, recliner & upholstery experts at your doorstep. 6-month warranty. Same-day available. FurniRevive.",
+    "Premium sofa repair in Nirvana Country Gurgaon from ₹500. Leather sofa, recliner & upholstery experts at your doorstep. 6-month warranty.",
   h1: "Sofa Repair Services in Nirvana Country Gurgaon",
   heroSubtitle:
-    "Nirvana Country's luxury residences across Sector 50, Sector 51, and the South City 2 corridor deserve a sofa restoration service that matches their premium standard. FurniRevive restores leather sofas, recliners, sectionals, and upholstery entirely at your doorstep from ₹999. Same-day inspection for morning bookings. 6-month warranty on every project.",
+    "Nirvana Country's luxury residences across Sector 50, Sector 51, and the South City 2 corridor deserve a sofa restoration service that matches their premium standard. FurniRevive restores leather sofas, recliners, sectionals, and upholstery entirely at your doorstep from ₹500. Same-day inspection for morning bookings. 6-month warranty on every project.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -254,11 +254,11 @@ const sofaRepairNirvanaCountry: SeoPageData = {
     caption: "Sofa Repair in Nirvana Country, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers expert doorstep sofa repair in Nirvana Country Gurgaon — covering Sector 50, Sector 51, South City 2, Mayfield Garden, and the Golf Course Extension Road corridor — from ₹999. Specialist craftsmen for leather sofas, recliners, sectionals, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty on every project.",
+    "FurniRevive delivers expert doorstep sofa repair in Nirvana Country Gurgaon — covering Sector 50, Sector 51, South City 2, Mayfield Garden, and the Golf Course Extension Road corridor — from ₹500. Specialist craftsmen for leather sofas, recliners, sectionals, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty on every project.",
   intro: [
     "Nirvana Country represents one of Gurgaon's most considered residential addresses — a community of premium villas, independent floors, and luxury apartments where residents have invested meaningfully in both their homes and the furniture within them. Residents of Nirvana Country often invest heavily in custom furniture that deserves restoration rather than replacement: imported leather sectionals, premium power recliners, and designer upholstery that was chosen with care and represents a significant household investment. When wear, damage, or mechanical failure affects these pieces, a specialist <a href='/sofa-repair-gurgaon'>sofa repair service in Gurgaon</a> is the correct response — not a generic handyman.",
     "FurniRevive's craftsmen serve Nirvana Country and its neighbouring Sector 50 and Sector 51 addresses regularly, with natural extension into <a href='/sofa-repair-mayfield-garden'>Mayfield Garden</a>, <a href='/sofa-repair-rosewood-city'>Rosewood City</a>, and the <a href='/sofa-repair-golf-course-road'>Golf Course Road</a> corridor. Our <a href='/leather-sofa-repair-gurgaon'>leather sofa repair specialists in Gurgaon</a> carry professional-grade materials for the full spectrum of restoration work — leather conditioning, crack treatment, colour restoration, foam replacement, spring repair, and recliner mechanism work — so that most Nirvana Country projects complete in a single doorstep visit without furniture transportation.",
-    "The service begins at ₹999 with a free, no-obligation on-site assessment that generates a single fixed quote before any work begins. Your sofa holds years of family memories — and our mission is to restore it to the condition that investment deserves, at a fraction of the cost of replacement.",
+    "The service begins at ₹500 with a free, no-obligation on-site assessment that generates a single fixed quote before any work begins. Your sofa holds years of family memories — and our mission is to restore it to the condition that investment deserves, at a fraction of the cost of replacement.",
   ],
   whyChoose: [
     {
@@ -372,7 +372,7 @@ const sofaRepairNirvanaCountry: SeoPageData = {
     {
       heading: "Pricing for Sofa Repair in Nirvana Country",
       body: [
-        "Sofa repair in Nirvana Country starts at ₹999 and is priced based on the work required. Leather surface conditioning for early-stage cracking: ₹2,500–₹6,000 for a standard sofa. Comprehensive leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable replacement: ₹1,500–₹3,500. Motorised recliner actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000.",
+        "Sofa repair in Nirvana Country starts at ₹500 and is priced based on the work required. Leather surface conditioning for early-stage cracking: ₹2,500–₹6,000 for a standard sofa. Comprehensive leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable replacement: ₹1,500–₹3,500. Motorised recliner actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000.",
         "The exact cost for your sofa is determined during the free on-site assessment and provided as a single fixed quote before work begins. There are no revisions, no surprise additions, and no travel charges for Nirvana Country addresses. The 6-month warranty is included on every project at no additional charge.",
         "For multi-piece restoration projects — a sofa set, a dining chair set, or a combination of upholstered and wooden pieces — we provide a consolidated quote and schedule two craftsmen where the project scope warrants it. Pre-sale and pre-renovation full-home furniture restoration is a service we offer regularly in Nirvana Country.",
       ],
@@ -400,7 +400,7 @@ const sofaRepairNirvanaCountry: SeoPageData = {
     {
       question: "What does sofa repair cost in Nirvana Country?",
       answer:
-        "Starts at ₹999. Leather conditioning: ₹2,500–₹6,000. Full leather restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free on-site assessment.",
+        "Starts at ₹500. Leather conditioning: ₹2,500–₹6,000. Full leather restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free on-site assessment.",
     },
     {
       question: "Can I get same-day sofa repair in Nirvana Country?",
@@ -477,12 +477,12 @@ const sofaRepairNirvanaCountry: SeoPageData = {
 
 const sofaRepairMalibuTown: SeoPageData = {
   slug: "sofa-repair-malibu-town",
-  title: "Sofa Repair in Malibu Town Gurgaon | Leather & Recliner Specialists",
+  title: "Sofa Repair in Malibu Town Gurgaon",
   metaDescription:
-    "Expert sofa repair in Malibu Town Gurgaon from ₹999. Leather sofa restoration, recliner repair & upholstery at your doorstep. Same-day service. FurniRevive.",
+    "Expert sofa repair in Malibu Town Gurgaon from ₹500. Leather sofa restoration, recliner repair & upholstery at your doorstep. Same-day service.",
   h1: "Sofa Repair in Malibu Town Gurgaon",
   heroSubtitle:
-    "Malibu Town's premium residences across Sector 47, Sector 48, and the Sohna Road corridor deserve specialist sofa restoration at their level. FurniRevive restores leather sofas, recliners, sectionals, and designer upholstery entirely at your doorstep from ₹999. Same-day inspection for morning bookings. 6-month warranty on every project.",
+    "Malibu Town's premium residences across Sector 47, Sector 48, and the Sohna Road corridor deserve specialist sofa restoration at their level. FurniRevive restores leather sofas, recliners, sectionals, and designer upholstery entirely at your doorstep from ₹500. Same-day inspection for morning bookings. 6-month warranty on every project.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -490,11 +490,11 @@ const sofaRepairMalibuTown: SeoPageData = {
     caption: "Sofa Repair in Malibu Town, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers expert doorstep sofa repair in Malibu Town Gurgaon — covering Sector 47, Sector 48, South City 2, and the Sohna Road corridor — from ₹999. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
+    "FurniRevive delivers expert doorstep sofa repair in Malibu Town Gurgaon — covering Sector 47, Sector 48, South City 2, and the Sohna Road corridor — from ₹500. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
   intro: [
     "Malibu Town is among Gurgaon's most recognisable premium residential addresses on Sohna Road — a community of villas, independent floors, and high-rise apartments in Sector 47 and Sector 48 where the quality of construction reflects the commitment of its residents to genuine premium living. The furniture in these homes reflects the same standard: premium leather sofas, imported sectionals, luxury recliners, and designer upholstery that represent significant household investment. When these pieces develop leather cracking, foam collapse, or mechanism faults, a specialist <a href='/sofa-repair-gurgaon'>sofa repair service in Gurgaon</a> is the appropriate response — one that understands premium materials and delivers results at the level these homes represent.",
     "FurniRevive's craftsmen serve Malibu Town and its adjacent Sector 47, Sector 48, and Sohna Road addresses regularly. We extend naturally into <a href='/sofa-repair-nirvana-country'>Nirvana Country</a>, <a href='/sofa-repair-rosewood-city'>Rosewood City</a>, and <a href='/sofa-repair-mayfield-garden'>Mayfield Garden</a> nearby — all under the same pricing and 6-month warranty. Our <a href='/leather-sofa-repair-gurgaon'>leather sofa repair experts in Gurgaon</a> arrive with a complete material kit: professional conditioning oils, crack-fill compounds, colour-matched pigments, three foam density grades, and recliner mechanism components — so most Malibu Town projects complete in a single doorstep visit.",
-    "Starting at ₹999 with a free on-site assessment and a fixed quote before any work begins, FurniRevive's Malibu Town service gives you the full picture before any commitment. Most homeowners don't realise their sofa can often be restored instead of replaced — and in most cases, the restoration delivers results that genuinely surprise and delight.",
+    "Starting at ₹500 with a free on-site assessment and a fixed quote before any work begins, FurniRevive's Malibu Town service gives you the full picture before any commitment. Most homeowners don't realise their sofa can often be restored instead of replaced — and in most cases, the restoration delivers results that genuinely surprise and delight.",
   ],
   whyChoose: [
     {
@@ -608,7 +608,7 @@ const sofaRepairMalibuTown: SeoPageData = {
     {
       heading: "Pricing Transparency for Malibu Town Sofa Repair",
       body: [
-        "Sofa repair in Malibu Town starts at ₹999. Leather conditioning and early-stage crack treatment: ₹2,500–₹6,000 for a standard sofa. Comprehensive leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement for a sofa set: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000.",
+        "Sofa repair in Malibu Town starts at ₹500. Leather conditioning and early-stage crack treatment: ₹2,500–₹6,000 for a standard sofa. Comprehensive leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement for a sofa set: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000.",
         "These are ranges that reflect different sofa sizes and damage extents. The exact cost for your specific piece is determined during the free on-site assessment, which generates a single itemised fixed quote. No revisions after assessment approval. No surprise material charges discovered mid-project. No Sohna Road travel surcharges.",
         "The 6-month warranty covers all workmanship and is delivered as a digital certificate via WhatsApp before the craftsman leaves. Return visits for warranty concerns are at no charge. For multi-piece projects, we provide consolidated quotes and allocate two craftsmen where the project scope warrants it.",
       ],
@@ -636,7 +636,7 @@ const sofaRepairMalibuTown: SeoPageData = {
     {
       question: "What does sofa repair cost in Malibu Town?",
       answer:
-        "Starts at ₹999. Leather conditioning: ₹2,500–₹6,000. Full leather restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free assessment.",
+        "Starts at ₹500. Leather conditioning: ₹2,500–₹6,000. Full leather restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free assessment.",
     },
     {
       question: "Can I get same-day sofa repair in Malibu Town Gurgaon?",
@@ -712,10 +712,10 @@ const sofaRepairRosewoodCity: SeoPageData = {
   slug: "sofa-repair-rosewood-city",
   title: "Sofa Repair in Rosewood City Gurgaon | Premium Doorstep Service",
   metaDescription:
-    "Sofa repair in Rosewood City Gurgaon from ₹999. Leather, recliner & upholstery specialists at your doorstep. 6-month warranty. Same-day slots available. FurniRevive.",
+    "Sofa repair in Rosewood City Gurgaon from ₹500. Leather, recliner & upholstery specialists at your doorstep. 6-month warranty. Same-day slots available.",
   h1: "Sofa Repair Services in Rosewood City Gurgaon",
   heroSubtitle:
-    "Rosewood City's premium villa and apartment residences across Sector 49 and Sector 50 deserve specialist furniture restoration at their level. FurniRevive restores leather sofas, recliners, sectionals, and designer upholstery entirely at your doorstep from ₹999. Same-day inspection for morning bookings. 6-month warranty on every project.",
+    "Rosewood City's premium villa and apartment residences across Sector 49 and Sector 50 deserve specialist furniture restoration at their level. FurniRevive restores leather sofas, recliners, sectionals, and designer upholstery entirely at your doorstep from ₹500. Same-day inspection for morning bookings. 6-month warranty on every project.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -723,11 +723,11 @@ const sofaRepairRosewoodCity: SeoPageData = {
     caption: "Sofa Repair in Rosewood City, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers expert doorstep sofa repair in Rosewood City Gurgaon — covering Sector 49, Sector 50, Malibu Town, and South City 2 — from ₹999. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, transparent fixed pricing, and a 6-month warranty on every project.",
+    "FurniRevive delivers expert doorstep sofa repair in Rosewood City Gurgaon — covering Sector 49, Sector 50, Malibu Town, and South City 2 — from ₹500. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, transparent fixed pricing, and a 6-month warranty on every project.",
   intro: [
     "Rosewood City is one of Gurgaon's most sought-after residential addresses on Sohna Road — a premium community of villas and apartments in Sector 49 and Sector 50 where the quality of construction and lifestyle reflects a deliberate commitment to premium living. Villa owners in Rosewood City often choose restoration to preserve furniture that has become part of their home's identity: the leather sectional in the drawing room that anchors the family's social life, the pair of recliners that define the television room, the wooden dining set that has hosted a decade of family dinners. These pieces deserve specialist care from a <a href='/sofa-repair-gurgaon'>professional sofa repair service in Gurgaon</a> that understands their value.",
     "FurniRevive's craftsmen serve Rosewood City and its adjacent Sector 49, Sector 50, Malibu Town, and South City 2 addresses regularly. We extend naturally into <a href='/sofa-repair-malibu-town'>Malibu Town</a>, <a href='/sofa-repair-nirvana-country'>Nirvana Country</a>, and <a href='/sofa-repair-mayfield-garden'>Mayfield Garden</a> under the same pricing and 6-month warranty. Our <a href='/leather-sofa-repair-gurgaon'>leather sofa restoration specialists in Gurgaon</a> bring professional-grade materials for the full spectrum of restoration — conditioning, colour restoration, foam replacement, spring repair, and recliner mechanism work — so that most Rosewood City projects complete in a single doorstep visit.",
-    "The service starts at ₹999 with a free on-site assessment and a single fixed quote before any work begins. Your sofa holds years of family memories — and our mission is to restore it to the condition that investment deserves, at a fraction of the cost of replacement.",
+    "The service starts at ₹500 with a free on-site assessment and a single fixed quote before any work begins. Your sofa holds years of family memories — and our mission is to restore it to the condition that investment deserves, at a fraction of the cost of replacement.",
   ],
   whyChoose: [
     {
@@ -841,7 +841,7 @@ const sofaRepairRosewoodCity: SeoPageData = {
     {
       heading: "Pricing for Sofa Repair in Rosewood City",
       body: [
-        "Sofa repair in Rosewood City starts at ₹999. Leather conditioning and early crack treatment: ₹2,500–₹6,000. Full leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000. Wooden frame joint reinforcement: ₹800–₹2,500 per joint. Wood polish restoration: ₹3,000–₹8,000 per piece.",
+        "Sofa repair in Rosewood City starts at ₹500. Leather conditioning and early crack treatment: ₹2,500–₹6,000. Full leather restoration with colour matching: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Spring repair: ₹3,000–₹8,000. Manual recliner cable repair: ₹1,500–₹3,500. Motorised actuator repair: ₹3,500–₹8,000. Full fabric re-upholstery: ₹12,000–₹35,000. Wooden frame joint reinforcement: ₹800–₹2,500 per joint. Wood polish restoration: ₹3,000–₹8,000 per piece.",
         "The exact cost for your furniture is determined during the free on-site assessment and provided as a single fixed itemised quote. There are no mid-project revisions, no surprise material charges, and no Sohna Road travel surcharges. For multi-piece villa restoration projects, we provide a consolidated quote and schedule appropriately.",
         "The 6-month workmanship warranty is included on every project. Return visits for warranty concerns are at no charge. Digital warranty certificate is delivered via WhatsApp before the craftsman leaves your home.",
       ],
@@ -943,12 +943,12 @@ const sofaRepairRosewoodCity: SeoPageData = {
 
 const sofaRepairMayfieldGarden: SeoPageData = {
   slug: "sofa-repair-mayfield-garden",
-  title: "Sofa Repair in Mayfield Garden Gurgaon | Same-Day Doorstep Experts",
+  title: "Sofa Repair in Mayfield Garden Gurgaon",
   metaDescription:
-    "Sofa repair in Mayfield Garden Gurgaon from ₹999. Leather sofa & recliner repair at your doorstep. 6-month warranty. Morning bookings get same-day slots. FurniRevive.",
+    "Sofa repair in Mayfield Garden Gurgaon from ₹500. Leather sofa & recliner repair at your doorstep. 6-month warranty. Morning bookings get same-day slots.",
   h1: "Sofa Repair in Mayfield Garden Gurgaon",
   heroSubtitle:
-    "Mayfield Garden's premium residences in Sector 50, adjacent to Nirvana Country and the Golf Course Extension Road corridor, deserve specialist sofa restoration at their level. FurniRevive restores leather sofas, recliners, sectionals, and upholstery entirely at your doorstep from ₹999. Same-day inspection for morning bookings. 6-month warranty on every project.",
+    "Mayfield Garden's premium residences in Sector 50, adjacent to Nirvana Country and the Golf Course Extension Road corridor, deserve specialist sofa restoration at their level. FurniRevive restores leather sofas, recliners, sectionals, and upholstery entirely at your doorstep from ₹500. Same-day inspection for morning bookings. 6-month warranty on every project.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -956,11 +956,11 @@ const sofaRepairMayfieldGarden: SeoPageData = {
     caption: "Sofa Repair in Mayfield Garden, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers expert doorstep sofa repair in Mayfield Garden Gurgaon — covering Sector 50, Nirvana Country, Rosewood City, and the Golf Course Extension Road corridor — from ₹999. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
+    "FurniRevive delivers expert doorstep sofa repair in Mayfield Garden Gurgaon — covering Sector 50, Nirvana Country, Rosewood City, and the Golf Course Extension Road corridor — from ₹500. Specialist craftsmen for leather sofas, recliners, and premium upholstery. Free on-site assessment, fixed transparent pricing, and a 6-month warranty.",
   intro: [
     "Mayfield Garden in Sector 50 sits within one of Gurgaon's most premium residential clusters — adjacent to Nirvana Country, near Rosewood City, and connected to the Golf Course Extension Road corridor that defines the city's most considered luxury residential zone. The residents of Mayfield Garden have invested in their homes and in the furniture within them: premium leather sectionals, imported recliners, and designer upholstery that reflects the quality standard of the community. When these pieces show wear or mechanical failure, a specialist <a href='/sofa-repair-gurgaon'>sofa repair service in Gurgaon</a> is the right response.",
     "FurniRevive's craftsmen serve Mayfield Garden and its adjacent Sector 50 addresses regularly, with natural extension into <a href='/sofa-repair-nirvana-country'>Nirvana Country</a>, <a href='/sofa-repair-rosewood-city'>Rosewood City</a>, <a href='/sofa-repair-malibu-town'>Malibu Town</a>, and the <a href='/sofa-repair-golf-course-road'>Golf Course Road</a> corridor nearby. Our <a href='/leather-sofa-repair-gurgaon'>leather sofa repair experts in Gurgaon</a> carry a complete material kit — professional conditioning oils, crack-fill compounds, colour-matched pigments, three foam grades, and recliner mechanism components — so that most Mayfield Garden projects complete in a single doorstep visit. The <a href='/sofa-upholstery-gurgaon'>sofa upholstery service in Gurgaon</a> covers 40+ fabric options for complete re-upholstery projects.",
-    "Starting at ₹999 with a free on-site assessment and a fixed quote before any work begins — no postcode surcharges, no hidden additions. Your sofa holds years of family memories, and the good news is that most furniture problems can be repaired at a fraction of replacement cost.",
+    "Starting at ₹500 with a free on-site assessment and a fixed quote before any work begins — no postcode surcharges, no hidden additions. Your sofa holds years of family memories, and the good news is that most furniture problems can be repaired at a fraction of replacement cost.",
   ],
   whyChoose: [
     {
@@ -1074,7 +1074,7 @@ const sofaRepairMayfieldGarden: SeoPageData = {
     {
       heading: "Pricing and Warranty for Mayfield Garden Sofa Repair",
       body: [
-        "Sofa repair in Mayfield Garden starts at ₹999. The pricing structure: leather conditioning and early crack treatment ₹2,500–₹6,000; full leather restoration with colour matching ₹8,000–₹20,000; foam replacement ₹6,000–₹15,000; spring repair ₹3,000–₹8,000; manual recliner cable repair ₹1,500–₹3,500; motorised actuator repair ₹3,500–₹8,000; full fabric re-upholstery ₹12,000–₹35,000. These ranges reflect different sofa sizes and damage extents — the exact cost is determined during the free on-site assessment.",
+        "Sofa repair in Mayfield Garden starts at ₹500. The pricing structure: leather conditioning and early crack treatment ₹2,500–₹6,000; full leather restoration with colour matching ₹8,000–₹20,000; foam replacement ₹6,000–₹15,000; spring repair ₹3,000–₹8,000; manual recliner cable repair ₹1,500–₹3,500; motorised actuator repair ₹3,500–₹8,000; full fabric re-upholstery ₹12,000–₹35,000. These ranges reflect different sofa sizes and damage extents — the exact cost is determined during the free on-site assessment.",
         "The free assessment generates a single itemised fixed quote. There are no revisions after approval, no material charges discovered mid-project, and no Mayfield Garden or Golf Course Extension Road travel surcharges. For multi-piece projects, we provide consolidated quotes and schedule appropriately.",
         "The 6-month workmanship warranty is included on every project at no additional charge. Digital certificate via WhatsApp before the craftsman leaves. Return visits for warranty concerns at no charge. For Mayfield Garden residents planning a pre-sale or pre-renovation full-home furniture restoration, we schedule two craftsmen for efficiency on larger multi-piece projects.",
       ],
@@ -1102,7 +1102,7 @@ const sofaRepairMayfieldGarden: SeoPageData = {
     {
       question: "What does sofa repair cost in Mayfield Garden Gurgaon?",
       answer:
-        "Starts at ₹999. Leather conditioning: ₹2,500–₹6,000. Full restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free assessment.",
+        "Starts at ₹500. Leather conditioning: ₹2,500–₹6,000. Full restoration: ₹8,000–₹20,000. Foam replacement: ₹6,000–₹15,000. Recliner repair: ₹1,500–₹8,000. Fixed quote after free assessment.",
     },
     {
       question: "Can I get same-day sofa repair in Mayfield Garden?",
