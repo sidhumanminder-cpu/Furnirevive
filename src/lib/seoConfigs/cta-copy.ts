@@ -1,12 +1,21 @@
 /** Service-aware wording for the inline CTA shown after the FAQ list. */
 const CTA_SUFFIX = "Book a free inspection today — same-day slots available.";
 
+const FURNITURE_KEYWORDS = ["furniture", "carpenter", "godrej", "almirah", "wardrobe", "bed-repair", "dining-table"] as const;
+
+/** Furniture wording applies to non-sofa furniture slugs; any slug with "sofa" keeps the sofa wording unless it starts with "furniture-". */
+function isFurnitureSlug(s: string): boolean {
+  if (s.startsWith("furniture-")) return true;
+  if (s.includes("sofa")) return false;
+  return FURNITURE_KEYWORDS.some((k) => s.includes(k));
+}
+
 export function getInlineCtaLabel(slug: string): string {
   const s = slug.toLowerCase();
   if (s.includes("recliner")) return `Ready to restore your recliner? ${CTA_SUFFIX}`;
   if (s.includes("upholster")) return `Ready to refresh your upholstery? ${CTA_SUFFIX}`;
   if (s.includes("chair")) return `Ready to repair your chair? ${CTA_SUFFIX}`;
-  if (s.startsWith("furniture-")) return `Ready to restore your furniture? ${CTA_SUFFIX}`;
+  if (isFurnitureSlug(s)) return `Ready to restore your furniture? ${CTA_SUFFIX}`;
   return `Ready to restore your sofa? ${CTA_SUFFIX}`;
 }
 
@@ -16,7 +25,7 @@ export function getCtaNoun(slug: string): string {
   if (s.includes("recliner")) return "Recliner";
   if (s.includes("upholster")) return "Upholstery";
   if (s.includes("chair")) return "Chair";
-  if (s.startsWith("furniture-") || s.includes("carpenter")) return "Furniture";
+  if (isFurnitureSlug(s)) return "Furniture";
   return "Sofa";
 }
 

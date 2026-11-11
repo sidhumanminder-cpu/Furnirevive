@@ -1,5 +1,6 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import {
   Phone,
@@ -222,7 +223,7 @@ function TrustSection() {
       <div className="grid grid-cols-3 gap-3 text-center">
         {[
           { value: "500+", label: "Homes served" },
-          { value: "4.8★", label: "Average rating" },
+          { value: "Trusted", label: "By hundreds of customers" },
           { value: "6-mo", label: "Warranty" },
         ].map((s) => (
           <div key={s.label} className="bg-secondary/50 rounded-xl py-3 px-2">
@@ -336,7 +337,7 @@ export default function BlogPostTemplate({ post }: { post: BlogPost }) {
 
     document
       .querySelectorAll('script[data-schema="blog-post"]')
-      .forEach((s) => s.remove());
+      .forEach((s) => removeUnowned(s));
 
     const articleSchema = {
       "@context": "https://schema.org",
@@ -389,10 +390,25 @@ export default function BlogPostTemplate({ post }: { post: BlogPost }) {
       document.head.appendChild(faqScript);
     }
 
+    const breadcrumbSchema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://furnirevive.com/" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://furnirevive.com/blog" },
+        { "@type": "ListItem", position: 3, name: post.h1, item: `https://furnirevive.com/blog/${post.slug}` },
+      ],
+    };
+    const breadcrumbScript = document.createElement("script");
+    breadcrumbScript.type = "application/ld+json";
+    breadcrumbScript.dataset.schema = "blog-post";
+    breadcrumbScript.textContent = JSON.stringify(breadcrumbSchema);
+    document.head.appendChild(breadcrumbScript);
+
     return () => {
       document
         .querySelectorAll('script[data-schema="blog-post"]')
-        .forEach((s) => s.remove());
+        .forEach((s) => removeUnowned(s));
     };
   }, [post]);
 

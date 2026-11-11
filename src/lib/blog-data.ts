@@ -693,7 +693,7 @@ const sofaUpholsteryCostDelhi: BlogPost = {
     {
       heading: "Where to Get the Best Sofa Upholstery Service in Delhi NCR",
       body: [
-        `${BRAND_NAME} is rated 4.8 stars for sofa upholstery across Delhi NCR. What sets us apart:`,
+        `${BRAND_NAME} is trusted by hundreds of customers for sofa upholstery across Delhi NCR. What sets us apart:`,
         `• 500+ fabric options including imported velvet, Italian leatherette, and genuine hide leather.`,
         `• Free doorstep consultation — our technician brings fabric samples to your home.`,
         `• 6-month warranty on all upholstery work including fabric and stitching.`,

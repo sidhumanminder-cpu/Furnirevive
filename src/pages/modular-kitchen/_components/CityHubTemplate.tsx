@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { CheckCircle2, PhoneCall, MessageCircle, ArrowRight, MapPin, Star, BookOpen, Ruler, IndianRupee, Calculator, Sparkles } from "lucide-react";
 import { setPageMetadata } from "@/lib/metadata.ts";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";
@@ -29,11 +29,6 @@ function buildLocalBusinessSchema(content: CityContent, phone: string) {
     url: "https://furnirevive.com",
     priceRange: "₹₹",
     openingHours: "Mo-Su 08:00-20:00",
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: content.coordinates.lat,
-      longitude: content.coordinates.lng,
-    },
     areaServed: content.serviceArea,
   };
 }

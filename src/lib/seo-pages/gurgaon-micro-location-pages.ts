@@ -19,12 +19,12 @@ const GURGAON_RELATED = [
 export const sofaRepairSohnaRoadGurgaon: SeoPageData = {
   slug: "sofa-repair-sohna-road-gurgaon",
 
-  title: "Sofa Repair Sohna Road Gurgaon | Near Me ₹500",
+  title: "Sofa Repair on Sohna Road Gurgaon | ₹500 Home Service",
 
   metaDescription:
     "Sofa repair near me on Sohna Road Gurgaon from ₹500. Cover change, foam, leather & recliner repair at home — Central Park, Unitech, Vatika, Bestech.",
 
-  h1: "Sofa Repair Near Me on Sohna Road Gurgaon — Central Park to Vatika",
+  h1: "Sofa Repair on Sohna Road Gurgaon — Central Park to Vatika",
 
   heroSubtitle:
     "Doorstep sofa repair across the entire Sohna Road corridor — Central Park Resorts, Unitech South City, Vatika Sovereign Park, Bestech Park View Grand Spa and dozens more societies from Sector 33 to Sector 70. 6-month warranty.",
@@ -222,7 +222,7 @@ export const sofaRepairSohnaRoadGurgaon: SeoPageData = {
 export const furnitureRepairDwarkaExpresswayGurgaon: SeoPageData = {
   slug: "furniture-repair-dwarka-expressway-gurgaon",
 
-  title: "Furniture Repair Dwarka Expressway Gurgaon | Near Me ₹599",
+  title: "Furniture Repair on Dwarka Expressway Gurgaon | ₹599",
 
   metaDescription:
     "Furniture repair near me on Dwarka Expressway Gurgaon from ₹599. Sofa, bed, wardrobe repair in Sector 76–113. IKEA & online furniture specialists.",
@@ -428,7 +428,7 @@ export const furnitureRepairDwarkaExpresswayGurgaon: SeoPageData = {
 export const chairRepairGurgaon: SeoPageData = {
   slug: "chair-repair-gurgaon",
 
-  title: "Chair Repair Gurgaon | ₹400",
+  title: "Chair Repair in Gurgaon | ₹400",
 
   metaDescription:
     "Chair repair near me in Gurgaon from ₹400. Same-day doorstep fix for office chair hydraulic failure, broken wheels, gaming chair & base repair — DLF.",
@@ -644,7 +644,7 @@ export const chairRepairGurgaon: SeoPageData = {
     {
       question: "How long does chair repair take in Gurgaon?",
       answer:
-        "Most repairs — hydraulic replacement, wheel swap, base fix — take 30–60 minutes at your location. More complex jobs like full upholstery or mechanism overhaul may take 60–90 minutes. Same-day service is available when booked before noon.",
+        "Most repairs — hydraulic replacement, wheel swap, base fix — take 30–60 minutes at your location. More complex jobs like full upholstery or mechanism overhaul may take 2–4 hours. Same-day service is available when booked before noon.",
     },
     {
       question: "Do you repair gaming chairs in Gurgaon?",

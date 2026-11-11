@@ -1,0 +1,22 @@
+import { createFileRoute } from "@tanstack/react-router";
+import CorporateFurnitureMaintenancePost from "@/pages/blog/corporate-furniture-maintenance.tsx";
+
+export const Route = createFileRoute("/blog/corporate-furniture-maintenance/")({
+  head: () => ({
+    meta: [
+      { title: "Corporate Furniture Maintenance: ROI & Cost Savings Guide | FurniRevive" },
+      { name: "description", content: "Corporate furniture maintenance saves 30–50% on replacement costs. ROI analysis, AMC options, and best practices for offices with 50–5,000+ workstations in Delhi NCR." },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://furnirevive.com#business", "name": "FurniRevive", "telephone": "+919217999355", "url": "https://furnirevive.com", "priceRange": "₹500–₹25,000", "areaServed": [{ "@type": "City", "name": "Delhi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Delhi" } }, { "@type": "City", "name": "Gurgaon", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Faridabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Ghaziabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Greater Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Kaushambi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Vasundhara", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Chandigarh", "containedInPlace": { "@type": "AdministrativeArea", "name": "Chandigarh" } }, { "@type": "City", "name": "Mohali", "containedInPlace": { "@type": "AdministrativeArea", "name": "Punjab" } }, { "@type": "City", "name": "Panchkula", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "Article", "headline": "Corporate Furniture Maintenance: ROI & Cost Savings Guide", "description": "Corporate furniture maintenance saves 30–50% on replacement costs. ROI analysis, AMC options, and best practices for offices with 50–5,000+ workstations in Delhi NCR.", "image": "", "datePublished": "2026-05-25", "dateModified": "2026-07-21", "author": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "publisher": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://furnirevive.com/blog/corporate-furniture-maintenance" } } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "What is the ROI of corporate furniture maintenance?", "acceptedAnswer": { "@type": "Answer", "text": "Our corporate clients see 3x–5x ROI within the first year through reduced repair costs, extended furniture life, and productivity improvements." } }, { "@type": "Question", "name": "How do you handle multi-location corporates?", "acceptedAnswer": { "@type": "Answer", "text": "We manage furniture maintenance across all Delhi NCR locations under a single contract with centralized reporting and billing." } }, { "@type": "Question", "name": "Can this be included in our ESG reporting?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we provide sustainability metrics including waste diverted, carbon saved, and furniture life extension data suitable for ESG/sustainability reports." } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://furnirevive.com/" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://furnirevive.com/blog" }, { "@type": "ListItem", "position": 3, "name": "Corporate Furniture Maintenance: ROI & Cost Savings Guide", "item": "https://furnirevive.com/blog/corporate-furniture-maintenance" }] } },
+    ] as Array<Record<string, unknown>>,
+  }),
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  return (
+    <CorporateFurnitureMaintenancePost />
+  );
+}

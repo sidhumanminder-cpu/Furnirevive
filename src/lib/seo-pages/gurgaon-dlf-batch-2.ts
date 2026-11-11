@@ -18,7 +18,7 @@ export const sofaRepairDlfPhase5: SeoPageData = {
     caption: "Sofa Repair in DLF Phase 5, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive brings 4.8-star rated doorstep sofa repair to DLF Phase 5 — serving DLF Camellias, Magnolias, Aralias, Golf Course Road, Horizon Center area, and South Point Mall — starting at ₹500. Our craftsmen are trained in ultra-premium furniture restoration: Italian full-grain leather treatment, luxury motorised recliner mechanisms, custom sectional re-upholstery, and high-resilience foam replacement. Free assessment, single fixed quote, 6-month warranty. Same-day slots for morning bookings.",
+    "FurniRevive brings trusted doorstep sofa repair to DLF Phase 5 — serving DLF Camellias, Magnolias, Aralias, Golf Course Road, Horizon Center area, and South Point Mall — starting at ₹500. Our craftsmen are trained in ultra-premium furniture restoration: Italian full-grain leather treatment, luxury motorised recliner mechanisms, custom sectional re-upholstery, and high-resilience foam replacement. Free assessment, single fixed quote, 6-month warranty. Same-day slots for morning bookings.",
   intro: [
     "DLF Phase 5 stands in a category of its own among Gurgaon's residential addresses. DLF Camellias — the landmark ultra-luxury development where apartments and penthouses set a benchmark for premium urban living in northern India — anchors a sector that includes DLF Magnolias and DLF Aralias: names that have become synonymous with Gurgaon's most discerning residential community. The furniture in these homes is not merely premium. It is, in many cases, among the finest residential furniture in India: Italian marble-and-leather Molteni sofas, bespoke sectionals commissioned from European ateliers, motorised luxury recliners with massage systems, hand-knotted upholstery panels made in craftsman workshops. These are not items to be replaced when they show wear. They are items to be restored by <a href=\"/furniture-repair-dlf-gurgaon\">furniture restoration specialists in DLF</a> who understand the materials and the context.",
     "FurniRevive's Gurgaon team brings that specialist standard to DLF Phase 5 as part of our city-wide <a href=\"/sofa-repair-gurgaon\">Gurgaon sofa repair operation</a>. We cover the full DLF Phase 5 sector — Camellias, Magnolias, Aralias, and the residential blocks along Golf Course Road and near Horizon Center — with craftsmen specifically trained in ultra-premium <a href=\"/leather-sofa-repair-dlf-gurgaon\">leather sofa restoration</a>, <a href=\"/recliner-repair-dlf-gurgaon\">recliner repair in DLF Gurgaon</a>, and the precise colour-matching that bespoke furniture requires. We also bring the same standard to the South Point Mall residential catchment and the wider Golf Course Road corridor.",
@@ -84,7 +84,7 @@ export const sofaRepairDlfPhase5: SeoPageData = {
     "Craftsmen trained in aniline leather, luxury recliners, and bespoke sectionals",
     "Same-day service for DLF Camellias, Magnolias, and Aralias",
     "Transparent pricing — single fixed quote before any work begins",
-    "4.8-star rated service across Gurgaon and Delhi",
+    "Trusted service across Gurgaon and Delhi",
     "Premium fabric swatches including silk-blend velvet and performance linen",
     "High-resilience foam restoring original seating quality for 8–12 years",
     "Motorised recliner components carried in service vehicle for same-visit repair",
@@ -252,7 +252,7 @@ export const sofaRepairSouthCity1: SeoPageData = {
     caption: "Sofa Repair in South City 1, Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive brings 4.8-star rated doorstep sofa repair to South City 1 — covering Sector 40, Sector 41, HUDA City Centre area, NH-48 corridor, and Unitech Business Park vicinity — starting at ₹500. Our craftsmen handle everything family sofas face: foam replacement from years of daily use, fabric re-upholstery, leather care, pet and child damage repair, and recliner mechanism fixes. Free assessment, fixed quote, 6-month warranty. Same-day slots available for morning bookings.",
+    "FurniRevive brings trusted doorstep sofa repair to South City 1 — covering Sector 40, Sector 41, HUDA City Centre area, NH-48 corridor, and Unitech Business Park vicinity — starting at ₹500. Our craftsmen handle everything family sofas face: foam replacement from years of daily use, fabric re-upholstery, leather care, pet and child damage repair, and recliner mechanism fixes. Free assessment, fixed quote, 6-month warranty. Same-day slots available for morning bookings.",
   intro: [
     "South City 1 is one of Gurgaon's most established residential communities — a mature township that has been home to families for over two decades, and which carries the lived-in character that newer, shinier developments take years to develop. The families here know their homes well. The sofa in the drawing room has been through school exams, birthdays, festival gatherings, and a decade of evening television. It carries the weight of a household's daily life — and eventually, that weight shows. Cushions that no longer spring back. Fabric worn thin at the armrests. A recliner mechanism that hesitates at the halfway mark — the kind of fault our <a href=\"/recliner-repair-dlf-gurgaon\">recliner repair in DLF Gurgaon</a> team resolves daily. These are not signs that the sofa has failed. They are signs that it has been well-used, and that it is ready for expert attention.",
     "FurniRevive's Gurgaon team brings expert doorstep repair to South City 1 and the surrounding Sector 40, Sector 41, and HUDA City Centre residential blocks as part of our city-wide <a href=\"/sofa-repair-gurgaon\">Gurgaon sofa repair service</a>. We also serve the Unitech Business Park residential area and the NH-48 corridor. Our craftsmen understand the furniture profile of South City 1: practical, family-grade fabric sofas that see intense daily use; leather-effect sectionals needing <a href=\"/leather-sofa-repair-dlf-gurgaon\">leather sofa restoration</a>; and occasional premium pieces that deserve <a href=\"/furniture-repair-dlf-gurgaon\">premium furniture repair</a> from a specialist. We bring the right skill to each type, at honest prices, with a 6-month warranty.",
@@ -318,7 +318,7 @@ export const sofaRepairSouthCity1: SeoPageData = {
     "Child and pet-safe materials as standard on every job",
     "Same-day slots for morning bookings in Sector 40, 41, and South City 1",
     "Transparent flat-rate pricing — no surprises after the sofa is examined",
-    "4.8-star rated across thousands of Gurgaon and Delhi repairs",
+    "Trusted across thousands of Gurgaon and Delhi repairs",
     "High-resilience foam for heavy family use — specified to last 8–12 years",
     "40+ fabric swatches chosen in your home — durable performance options for family use",
     "6-month workmanship warranty — if the repair fails, we return for free",

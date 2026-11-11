@@ -47,11 +47,11 @@ function buildSubheadline(locality: LocalityEntry, service: ServiceEntry): strin
     case "ultra-high":
       return `Premium ${svc} for discerning homes in ${locality.name}. Expert craftsmanship, genuine materials, and a written 6-month warranty — all at your doorstep.`;
     case "budget":
-      return `Affordable, reliable ${svc} in ${locality.name}. Save up to 70% versus buying new, with transparent pricing from ₹599 and same-day service.`;
+      return `Affordable, reliable ${svc} in ${locality.name}. Save up to 70% versus buying new, with transparent pricing from ₹500 and same-day service.`;
     case "mid":
     case "mid-high":
     default:
-      return `Trusted ${svc} in ${locality.name}. Doorstep service, pricing from ₹599, and a 6-month warranty on every repair.`;
+      return `Trusted ${svc} in ${locality.name}. Doorstep service, pricing from ₹500, and a 6-month warranty on every repair.`;
   }
 }
 

@@ -1,9 +1,24 @@
 import { useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "@/lib/router-compat.tsx";
 import { Button } from "@/components/ui/button.tsx";
 
 export default function NotFound() {
   const location = useLocation();
+
+  // Tell crawlers (and the prerender service) this is a real 404, not an indexable page.
+  useEffect(() => {
+    const tags = [
+      { name: "robots", content: "noindex" },
+      { name: "prerender-status-code", content: "404" },
+    ].map(({ name, content }) => {
+      const meta = document.createElement("meta");
+      meta.name = name;
+      meta.content = content;
+      document.head.appendChild(meta);
+      return meta;
+    });
+    return () => tags.forEach((m) => m.remove());
+  }, []);
 
   useEffect(() => {
     console.error(

@@ -1,5 +1,6 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "@/lib/router-compat.tsx";
 import { buildLocalBusinessSchema } from "@/lib/seo-schema.ts";
 import { SITE_URL } from "@/lib/seo-constants.ts";
 
@@ -55,7 +56,7 @@ export default function BusinessSchemaFallback() {
     const sync = () => {
       const owned = pageOwnsBusinessSchema();
       if (owned && fallback) {
-        fallback.remove();
+        removeUnowned(fallback);
         fallback = null;
       } else if (!owned && !fallback) {
         fallback = createFallbackScript();
@@ -69,7 +70,7 @@ export default function BusinessSchemaFallback() {
     observer.observe(document.documentElement, { childList: true, subtree: true, characterData: true });
     return () => {
       observer.disconnect();
-      fallback?.remove();
+      removeUnowned(fallback);
     };
   }, [pathname]);
 

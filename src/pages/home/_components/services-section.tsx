@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import { Sofa, Armchair, TreePine, BedDouble, RockingChair, Hammer, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card.tsx";
@@ -8,7 +8,7 @@ const SERVICES = [
     icon: Sofa,
     title: "Sofa Repair",
     description: "Cushion re-stuffing, fabric replacement, frame repair, spring fixing and complete sofa restoration in Delhi NCR.",
-    image: "https://cdn.hercules.app/file_kaB46VZlssX46f7kKs65EQPh",
+    image: "https://hercules-cdn.com/cdn-cgi/image/w=640,q=75,format=auto/file_kaB46VZlssX46f7kKs65EQPh",
     price: "Starting at \u20B9999",
     href: "/sofa-repair-delhi",
   },
@@ -16,7 +16,7 @@ const SERVICES = [
     icon: Armchair,
     title: "Recliner Repair",
     description: "Mechanism repair, leather restoration, motor fixing, and complete recliner overhaul services across Delhi NCR.",
-    image: "https://cdn.hercules.app/file_IXcUspEexEHYaGjoJTQpNZhX",
+    image: "https://hercules-cdn.com/cdn-cgi/image/w=640,q=75,format=auto/file_IXcUspEexEHYaGjoJTQpNZhX",
     price: "Starting at \u20B91,499",
     href: "/furniture-repair-delhi",
   },
@@ -24,7 +24,7 @@ const SERVICES = [
     icon: TreePine,
     title: "Wood Polish",
     description: "French polish, melamine finish, PU coating, scratch removal and wood surface restoration at your doorstep.",
-    image: "https://cdn.hercules.app/file_Aqfpjvfs8zk3EI2wsJdhoZ3y",
+    image: "https://hercules-cdn.com/cdn-cgi/image/w=640,q=75,format=auto/file_Aqfpjvfs8zk3EI2wsJdhoZ3y",
     price: "Starting at \u20B9799",
     href: "/furniture-polish-delhi",
   },
@@ -32,7 +32,7 @@ const SERVICES = [
     icon: BedDouble,
     title: "Bed Repair",
     description: "Headboard repair, slat replacement, frame reinforcement and complete bed frame restoration in Delhi NCR.",
-    image: "https://cdn.hercules.app/file_DV22bpL9oFTgHwWl8Ys7RDWE",
+    image: "https://hercules-cdn.com/cdn-cgi/image/w=640,q=75,format=auto/file_DV22bpL9oFTgHwWl8Ys7RDWE",
     price: "Starting at \u20B91,199",
     href: "/furniture-repair-delhi",
   },
@@ -40,7 +40,7 @@ const SERVICES = [
     icon: RockingChair,
     title: "Chair Repair",
     description: "Dining chairs, office chairs, wooden chairs — leg fixing, re-upholstery and full restoration in Delhi NCR.",
-    image: "https://cdn.hercules.app/file_1WCXexGNlS7CZPv3EFXf2CBL",
+    image: "https://hercules-cdn.com/cdn-cgi/image/w=640,q=75,format=auto/file_1WCXexGNlS7CZPv3EFXf2CBL",
     price: "Starting at \u20B9599",
     href: "/chair-repair-delhi",
   },
@@ -48,7 +48,7 @@ const SERVICES = [
     icon: Hammer,
     title: "Carpenter Home Service",
     description: "Verified carpenters at your doorstep for furniture repair, assembly, and custom carpentry work across Delhi NCR.",
-    image: "https://cdn.hercules.app/file_Aqfpjvfs8zk3EI2wsJdhoZ3y",
+    image: "https://hercules-cdn.com/cdn-cgi/image/w=640,q=75,format=auto/file_Aqfpjvfs8zk3EI2wsJdhoZ3y",
     price: "Starting at \u20B9499",
     href: "/carpenter-home-service-delhi",
   },
@@ -94,6 +94,10 @@ export default function ServicesSection() {
                     <img
                       src={service.image}
                       alt={service.title}
+                      loading="lazy"
+                      decoding="async"
+                      width={640}
+                      height={384}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 to-transparent" />

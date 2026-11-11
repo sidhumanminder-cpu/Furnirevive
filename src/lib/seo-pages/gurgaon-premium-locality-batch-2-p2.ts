@@ -13,7 +13,7 @@ export const reclinerRepairGolfCourseRoadGurgaon: SeoPageData = {
     altText: "Professional recliner repair technician working on a beige premium fabric sofa in a luxury Gurgaon (Golf Course Road) home — FurniRevive",
     caption: "Recliner Repair in Gurgaon (Golf Course Road) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
-  quickAnswer: "FurniRevive provides 4.8-star rated doorstep recliner repair across Golf Course Road, Gurgaon — covering Central Park Resorts, Nirvana Country, M3M Golfestate, and all premium towers — starting at ₹1,499. We repair manual recliners (mechanism, spring, cable), electric recliners (motor replacement, actuator, wiring), and luxury imported recliners including Durian, La-Z-Boy, and HTL. Free on-site assessment, fixed transparent quote, and a 6-month workmanship warranty.",
+  quickAnswer: "FurniRevive provides trusted doorstep recliner repair across Golf Course Road, Gurgaon — covering Central Park Resorts, Nirvana Country, M3M Golfestate, and all premium towers — starting at ₹1,499. We repair manual recliners (mechanism, spring, cable), electric recliners (motor replacement, actuator, wiring), and luxury imported recliners including Durian, La-Z-Boy, and HTL. Free on-site assessment, fixed transparent quote, and a 6-month workmanship warranty.",
   intro: [
     "Golf Course Road is the address Gurgaon's most discerning residents call home — Central Park Resorts, Nirvana Country, M3M Golfestate. Luxury recliners are a fixture: Durian power recliners in home cinemas, La-Z-Boy wall-hugger recliners, imported Italian leather recliners. When one develops a fault — a mechanism that sticks, a motor that hums but won't extend — it deserves a specialist. FurniRevive is the <a href=\"/recliner-repair-gurgaon\">recliner repair specialist in Gurgaon</a> that Golf Course Road residents trust.",
     "Unlike a generic furniture service, FurniRevive is built around recliner mechanics. Our craftsmen are trained on both manual and electric recliner systems and carry genuine replacement motors, actuators, cables, and springs to every visit. For premium brands — Durian Heritage, La-Z-Boy Mission, HTL leather power recliners — we follow brand-specific protocols. For the DLF side of Golf Course Road see our <a href=\"/recliner-repair-dlf-gurgaon\">recliner repair DLF Gurgaon</a> service. Also see our <a href=\"/recliner-motor-repair-gurgaon\">recliner motor repair Gurgaon</a> page.",
@@ -40,7 +40,7 @@ export const reclinerRepairGolfCourseRoadGurgaon: SeoPageData = {
     "Technicians trained on Durian, La-Z-Boy, HTL, and imported recliner brands",
     "Same-day confirmation with technician profile and ETA via WhatsApp",
     "Fixed transparent pricing confirmed before any work begins",
-    "4.8-star rated across thousands of recliner repairs in Gurgaon",
+    "Trusted across thousands of recliner repairs in Gurgaon",
     "6-month workmanship warranty on every repaired mechanism and component",
   ],
   contentSections: [

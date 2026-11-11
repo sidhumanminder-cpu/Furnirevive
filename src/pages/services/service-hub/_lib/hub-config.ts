@@ -1,8 +1,8 @@
 import type { CityKey, ClusterKey, LocalityEntry } from "@/lib/registry/types.ts";
 import { LOCALITY_REGISTRY } from "@/lib/registry/locality-registry.ts";
-import { getRegistryPage } from "@/lib/registry/index.ts";
-import { buildRegistryUrl } from "@/lib/registry/generate-pages.ts";
-import { getPageBySlug } from "@/lib/seo-pages/registry.ts";
+import { getRepairRegistryPage } from "@/lib/registry/repair-pages.ts";
+import { buildRegistryUrl } from "@/lib/registry/repair-pages.ts";
+import { hasSeoPage } from "@/lib/seo-pages/slug-index.ts";
 import { CITY_DISPLAY_NAMES, RESPONSE_TIMES } from "@/lib/content-engine/content-pools.ts";
 import type { FaqServiceCategory } from "@/lib/seoConfigs/faq-service-pools.ts";
 import { getHeroImage } from "@/lib/seoConfigs/hero-image-engine.ts";
@@ -185,7 +185,7 @@ export const getProtectTarget = (slug: string): HubTarget | undefined => PROTECT
 
 /** True if a hub-style page exists at this slug (new hub, protected page or legacy page). */
 export function hubPageExists(slug: string): boolean {
-  return HUB_TARGETS.has(slug) || PROTECT_TARGETS.has(slug) || getPageBySlug(slug) !== undefined;
+  return HUB_TARGETS.has(slug) || PROTECT_TARGETS.has(slug) || hasSeoPage(slug);
 }
 
 // ─── Localities ──────────────────────────────────────────────────────────────
@@ -193,7 +193,7 @@ export function hubPageExists(slug: string): boolean {
 export type HubLocality = { entry: LocalityEntry; href: string };
 
 function localityPageExists(href: string): boolean {
-  return getRegistryPage(href) !== undefined || getPageBySlug(href.slice(1)) !== undefined;
+  return getRepairRegistryPage(href) !== undefined || hasSeoPage(href.slice(1));
 }
 
 /** Published localities for the area that have a live page for this service, best first. */

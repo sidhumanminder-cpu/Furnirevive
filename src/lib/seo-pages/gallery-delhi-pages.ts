@@ -20,7 +20,7 @@ export const sofaRepairBeforeAfterDelhi: SeoPageData = {
     caption: "Sofa Repair Before & After Delhi | Real transformations starting ₹500 | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive has transformed 5,000+ sofas across Delhi. Common before-and-after results: sagging cushions restored to firm comfort (₹999–₹4,500), torn upholstery replaced with new fabric/leather (₹3,000–₹15,000), and broken frames rebuilt to original strength (₹1,500–₹3,000). See real Delhi transformations and book yours.",
+    "FurniRevive has transformed 10,000+ sofas across Delhi. Common before-and-after results: sagging cushions restored to firm comfort (₹999–₹4,500), torn upholstery replaced with new fabric/leather (₹3,000–₹15,000), and broken frames rebuilt to original strength (₹1,500–₹3,000). See real Delhi transformations and book yours.",
   intro: [
     "When your sofa starts looking tired — cushions sagging, fabric tearing, foam going flat, frame creaking — it's natural to think replacement is the only option. But replacement means spending ₹25,000–₹1,50,000 on a new sofa that may not even match the quality of your original piece. Professional repair achieves dramatic transformations at a fraction of the cost, and seeing real before-and-after results proves exactly what's possible.",
     "FurniRevive has repaired over 5,000 sofas across Delhi — from luxury Italian leather sofas in Defence Colony penthouses to everyday fabric 3-seaters in Dwarka apartments. Each repair produces a transformation that surprises even our customers. Sofas that looked ready for the scrapyard come back to life with fresh foam, new fabric, reinforced frames, and restored mechanisms.",
@@ -28,7 +28,7 @@ export const sofaRepairBeforeAfterDelhi: SeoPageData = {
   ],
   whyChoose: [
     {
-      title: "5,000+ Delhi Sofas Transformed",
+      title: "10,000+ Delhi Sofas Transformed",
       description:
         "We've repaired sofas in every Delhi neighbourhood — from South Delhi villas to Rohini apartments. Our track record speaks through thousands of real transformations.",
     },
@@ -81,7 +81,7 @@ export const sofaRepairBeforeAfterDelhi: SeoPageData = {
     },
   ],
   benefits: [
-    "5,000+ Delhi sofas successfully transformed",
+    "10,000+ Delhi sofas successfully transformed",
     "Real before and after documentation",
     "Sagging cushions → firm, comfortable seating",
     "Torn upholstery → fresh fabric or leather",
@@ -177,23 +177,23 @@ export const furnitureRepairGalleryDelhi: SeoPageData = {
     "Browse FurniRevive's furniture repair gallery — real before-and-after photos from Delhi homes. Sofas, beds, tables, chairs, wardrobes transformed.",
   h1: "Furniture Repair Gallery Delhi — Real Work From Real Delhi Homes",
   heroSubtitle:
-    "See what professional furniture repair looks like — not stock photos, but real transformations from Delhi homes. Sofas, beds, dining tables, wardrobes, chairs — browse our gallery of 5,000+ repairs and imagine what's possible for your furniture.",
+    "See what professional furniture repair looks like — not stock photos, but real transformations from Delhi homes. Sofas, beds, dining tables, wardrobes, chairs — browse our gallery of 10,000+ repairs and imagine what's possible for your furniture.",
   showcaseImage: {
     heading: "Premium Furniture Repair — Real Work Photos From Delhi Homes",
     imageUrl: "https://hercules-cdn.com/file_85r5mejd9KcESRrIX7iFrVh8",
     altText: "Professional furniture repair technician working on a premium sofa in a Delhi home — FurniRevive gallery",
-    caption: "Furniture Repair Gallery Delhi | Real before & after photos | 5,000+ repairs | FurniRevive",
+    caption: "Furniture Repair Gallery Delhi | Real before & after photos | 10,000+ repairs | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive's furniture repair gallery showcases real before-and-after photos from 5,000+ Delhi repairs. Browse sofa transformations, bed restorations, table refinishing, wardrobe fixes, and chair re-gluing. See our work quality and book the same professional results for your furniture.",
+    "FurniRevive's furniture repair gallery showcases real before-and-after photos from 10,000+ Delhi repairs. Browse sofa transformations, bed restorations, table refinishing, wardrobe fixes, and chair re-gluing. See our work quality and book the same professional results for your furniture.",
   intro: [
     "Choosing a furniture repair service is a trust decision — you're handing over furniture that's part of your daily life, often with sentimental value. The best way to evaluate a repair service isn't through marketing claims but through their actual work. FurniRevive's furniture repair gallery shows real before-and-after photos from Delhi homes — unfiltered, unedited, and representative of the quality you'll receive.",
     "Our gallery covers every type of furniture repair we perform: sofa re-upholstery and cushion restoration, dining table refinishing and leg repair, bed frame reinforcement and headboard restoration, wardrobe hinge and door repair, chair joint re-gluing, and complete furniture overhauls. Each gallery entry shows the furniture's condition before repair and the final result after our technicians completed their work.",
-    "With 5,000+ documented repairs across Delhi, our gallery represents work done in homes just like yours — from apartments in Dwarka and Rohini to homes in South Delhi, Greater Kailash, Vasant Kunj, and beyond. Browse the gallery, find repairs similar to what your furniture needs, and book with confidence knowing exactly what to expect.",
+    "With 10,000+ documented repairs across Delhi, our gallery represents work done in homes just like yours — from apartments in Dwarka and Rohini to homes in South Delhi, Greater Kailash, Vasant Kunj, and beyond. Browse the gallery, find repairs similar to what your furniture needs, and book with confidence knowing exactly what to expect.",
   ],
   whyChoose: [
     {
-      title: "5,000+ Documented Repairs",
+      title: "10,000+ Documented Repairs",
       description:
         "Our gallery represents thousands of real Delhi repairs — not a handful of cherry-picked examples. Browse extensive before-and-after documentation.",
     },
@@ -246,7 +246,7 @@ export const furnitureRepairGalleryDelhi: SeoPageData = {
     },
   ],
   benefits: [
-    "5,000+ real before-and-after repair photos",
+    "10,000+ real before-and-after repair photos",
     "Every furniture type represented in gallery",
     "Sofa, bed, table, chair, wardrobe examples",
     "Real Delhi homes — no studio photos",

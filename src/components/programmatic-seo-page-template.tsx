@@ -1,3 +1,4 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 /**
  * ProgrammaticSeoPageTemplate
  *
@@ -8,9 +9,11 @@
  * SeoPageTemplate is NOT modified — existing service pages are unaffected.
  */
 
-import { useEffect, useMemo } from "react";
+import { canonicalSlug } from "@/lib/seoConfigs/canonical-overrides.ts";
+import { lazy, Suspense, useEffect, useMemo } from "react";
+import { cdnImage } from "@/lib/image-cdn.ts";
 import AreaPills from "@/components/area-pills.tsx";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import {
   Phone,
@@ -51,7 +54,8 @@ import {
   BRAND_NAME,
   SERVICE_AREAS,
 } from "@/lib/seo-constants.ts";
-import { selectRelatedPosts } from "@/lib/blog-recommendation-engine.ts";
+import { getSameCityAreaNames } from "@/lib/area-links.ts";
+const RelatedBlogPosts = lazy(() => import("@/components/seo/RelatedBlogPosts.tsx"));
 import {
   getIntroOpener,
   getMicroLocalContext,
@@ -81,6 +85,7 @@ import TopicalAuthoritySection from "@/components/seo/TopicalAuthoritySection.ts
 import { getAuthorityLinks } from "@/lib/seoConfigs/authority-engine.ts";
 // New programmatic-only sections
 import ServicesGridSection from "@/components/seo/ServicesGridSection.tsx";
+import SofaRepairTopics from "@/components/seo/SofaRepairTopics.tsx";
 import PricingSection from "@/components/seo/PricingSection.tsx";
 import SofaSizePricing from "@/components/seo/SofaSizePricing.tsx";
 import { sofaSizePricingDecision } from "@/lib/seoConfigs/sofa-size-gating.ts";
@@ -90,8 +95,8 @@ import MaterialOptionsSection from "@/components/seo/MaterialOptionsSection.tsx"
 import ServiceCoverageSection from "@/components/seo/ServiceCoverageSection.tsx";
 import ServiceHubSection from "@/components/seo/ServiceHubSection.tsx";
 import { REPAIR_TIMES } from "@/lib/seoConfigs/pricing-data.ts";
-import KitchenCrossLinkBanner from "@/components/kitchen-cross-link-banner.tsx";
-import { BUSINESS_ADDRESS, BUSINESS_AREA_SERVED, BUSINESS_GEO } from "@/lib/business-config.ts";
+import { BUSINESS } from "@/lib/business-config.ts";
+import { buildPageAreaServed } from "@/lib/seo-schema.ts";
 
 const ICON_MAP: Record<string, LucideIcon> = {
   star: Star,
@@ -464,10 +469,18 @@ function RepairTimesSection() {
 
 // ── Main template ─────────────────────────────────────────────────────────
 
+const CITY_HUB_PILLS = SERVICE_AREAS.slice(0, 5);
+const MIN_SAME_CITY_PILLS = 4;
+
+/** Five city hubs, then nearby pages in the same city; hubs only when the city has too few pages. */
+function buildFallbackAreas(slug: string, relatedPages: readonly { href: string }[]): string[] {
+  const sameCity = getSameCityAreaNames(slug, 14, relatedPages);
+  return sameCity.length < MIN_SAME_CITY_PILLS ? [...CITY_HUB_PILLS] : [...CITY_HUB_PILLS, ...sameCity];
+}
+
 export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageData }) {
   const { pathname } = useLocation();
-  const isKitchenPage = pathname.includes("kitchen") || pathname.includes("modular");
-  const relatedBlogPosts = selectRelatedPosts(data.slug);
+  const fallbackAreas = buildFallbackAreas(data.slug, data.relatedPages);
 
   const pageType = useMemo(() => resolvePageType(data), [data]);
   const resolvedServiceKey = useMemo(() => resolveServiceKey(data), [data]);
@@ -525,17 +538,17 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
     if (metaDesc) metaDesc.setAttribute("content", data.metaDescription);
 
     const existingScripts = document.querySelectorAll('script[data-schema="seo-page"]');
-    existingScripts.forEach((s) => s.remove());
+    existingScripts.forEach((s) => removeUnowned(s));
 
+    const pageAreaServed = buildPageAreaServed(data);
     const localBusinessSchema = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       name: BRAND_NAME,
       telephone: PHONE_NUMBER,
       url: "https://furnirevive.com",
-      address: BUSINESS_ADDRESS,
-      geo: BUSINESS_GEO,
-      areaServed: BUSINESS_AREA_SERVED,
+      priceRange: BUSINESS.priceRange,
+      areaServed: pageAreaServed,
     };
 
     const serviceSchema = {
@@ -544,21 +557,14 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
       name: data.h1,
       description: data.metaDescription,
       provider: { "@type": "LocalBusiness", name: BRAND_NAME, telephone: PHONE_NUMBER, url: "https://furnirevive.com" },
-      areaServed: [
-        { "@type": "City", name: "Delhi" },
-        { "@type": "City", name: "Noida" },
-        { "@type": "City", name: "Gurgaon" },
-        { "@type": "City", name: "Ghaziabad" },
-        { "@type": "City", name: "Faridabad" },
-        { "@type": "City", name: "Greater Noida" },
-      ],
+      areaServed: pageAreaServed,
       offers: {
         "@type": "Offer",
         priceCurrency: "INR",
-        price: "599",
-        priceSpecification: { "@type": "UnitPriceSpecification", price: "599", priceCurrency: "INR", minPrice: "599", maxPrice: "15000" },
+        price: BUSINESS.startingPrice,
+        priceSpecification: { "@type": "UnitPriceSpecification", price: BUSINESS.startingPrice, priceCurrency: "INR", minPrice: BUSINESS.startingPrice, maxPrice: "15000" },
         availability: "https://schema.org/InStock",
-        areaServed: { "@type": "City", name: "Delhi" },
+        areaServed: pageAreaServed,
       },
       url: `https://furnirevive.com/${data.slug}`,
     };
@@ -591,15 +597,15 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
     }
 
     const existingCanonical = document.querySelector('link[rel="canonical"]');
-    if (existingCanonical) existingCanonical.remove();
+    if (existingCanonical) removeUnowned(existingCanonical);
     const canonical = document.createElement("link");
     canonical.rel = "canonical";
-    canonical.href = `https://furnirevive.com/${data.slug}`;
+    canonical.href = `https://furnirevive.com/${canonicalSlug(data.slug)}`;
     document.head.appendChild(canonical);
 
     return () => {
-      document.querySelectorAll('script[data-schema="seo-page"]').forEach((s) => s.remove());
-      document.querySelector('link[rel="canonical"]')?.remove();
+      document.querySelectorAll('script[data-schema="seo-page"]').forEach((s) => removeUnowned(s));
+      removeUnowned(document.querySelector('link[rel="canonical"]'));
     };
   }, [data.title, data.metaDescription, data.h1, data.slug, allFaqs]);
 
@@ -614,7 +620,7 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className={`flex flex-col ${(data.showcaseImage || data.hero) ? "lg:flex-row lg:items-center lg:gap-12" : ""}`}>
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               className={data.showcaseImage || data.hero ? "lg:flex-1" : ""}
@@ -632,16 +638,24 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
             </motion.div>
 
             {data.showcaseImage && (
-              <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7, delay: 0.15 }} className="mt-10 lg:mt-0 lg:flex-1 lg:max-w-[520px]">
+              <motion.div initial={false} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7, delay: 0.15 }} className="mt-10 lg:mt-0 lg:flex-1 lg:max-w-[520px]">
                 <div className="rounded-2xl overflow-hidden shadow-lg border border-border">
-                  <img src={data.showcaseImage.imageUrl} alt={data.showcaseImage.altText} className="w-full object-cover" loading="eager" />
+                  <img
+                    src={cdnImage(data.showcaseImage.imageUrl, { w: 1200 })}
+                    srcSet={`${cdnImage(data.showcaseImage.imageUrl, { w: 640 })} 640w, ${cdnImage(data.showcaseImage.imageUrl, { w: 1200 })} 1200w`}
+                    sizes="(min-width: 1024px) 520px, 100vw"
+                    alt={data.showcaseImage.altText}
+                    className="w-full object-cover"
+                    loading="eager"
+                    fetchPriority="high"
+                  />
                 </div>
                 {data.showcaseImage.caption && <p className="mt-2 text-xs text-muted-foreground text-center leading-relaxed px-2">{data.showcaseImage.caption}</p>}
               </motion.div>
             )}
 
             {!data.showcaseImage && data.hero && (
-              <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7, delay: 0.15 }} className="mt-10 lg:mt-0 lg:flex-1 lg:max-w-[520px]">
+              <motion.div initial={false} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7, delay: 0.15 }} className="mt-10 lg:mt-0 lg:flex-1 lg:max-w-[520px]">
                 <div className="rounded-2xl overflow-hidden shadow-lg border border-border">
                   <img
                     src={data.hero.url}
@@ -688,9 +702,9 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
 
       {/* Near-me section */}
       {data.cityKey ? (
-        <NearMeSection city={data.cityKey as CityKey} emitFaqSchema={false} />
+        <NearMeSection city={data.cityKey as CityKey} emitFaqSchema={false} nearMePage={data.slug.includes("near-me")} />
       ) : (
-        <LocalityNearMeSection slug={data.slug} emitFaqSchema={false} />
+        <LocalityNearMeSection slug={data.slug} emitFaqSchema={false} localContext localGuide />
       )}
 
       {/* Location Graph sections */}
@@ -705,11 +719,12 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
       <ServicesGridSection locality={localityDisplay} />
 
       {/* 4. Pricing Section */}
+      {data.slug.startsWith("sofa-repair-") && (
+        <SofaRepairTopics locality={localityDisplay} cityKey={getLocalityInfo(data.slug).cityKey} />
+      )}
       <PricingSection locality={localityDisplay} />
       {sofaSizePricingDecision(data) === "show" && <SofaSizePricing locality={localityDisplay} />}
 
-      {/* Cross-link: Modular Kitchen — placed after pricing so it's seen early */}
-      {!isKitchenPage && <KitchenCrossLinkBanner />}
 
       {/* 5. Before/After Gallery */}
       {galleryMatches && galleryMatches.length > 0 && (
@@ -785,7 +800,7 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-6">Service Areas in Delhi NCR</h2>
           <p className="text-muted-foreground mb-6">We provide doorstep furniture repair services across Delhi NCR including:</p>
-          <AreaPills areas={[...SERVICE_AREAS]} pageSlug={data.slug} tone="background" />
+          <AreaPills areas={fallbackAreas} pageSlug={data.slug} tone="background" linkedOnly />
         </div>
       </section>
 
@@ -940,31 +955,10 @@ export default function ProgrammaticSeoPageTemplate({ data }: { data: SeoPageDat
       {/* Topical Authority Section */}
       <TopicalAuthoritySection matches={authorityMatches} slug={data.slug} />
 
-      {/* Related Blog Posts */}
-      {relatedBlogPosts.length > 0 && (
-        <section className="py-12 lg:py-16 bg-secondary/30">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center gap-2.5 mb-8">
-              <BookOpen className="size-5 text-primary" />
-              <h3 className="text-xl font-serif font-bold">Helpful Guides &amp; Tips</h3>
-            </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {relatedBlogPosts.map((post) => (
-                <Link key={post.slug} to={`/blog/${post.slug}`}>
-                  <Card className="pt-0 h-full hover:shadow-lg transition-shadow group">
-                    <img src={post.featuredImage} alt={post.imageAlt ?? post.h1} className="w-full h-36 object-cover rounded-t-xl" />
-                    <CardContent className="pt-4">
-                      <span className="text-xs text-primary font-semibold">{post.category}</span>
-                      <h4 className="text-sm font-semibold mt-1 line-clamp-2 group-hover:text-primary transition-colors">{post.h1}</h4>
-                      <p className="text-xs text-muted-foreground mt-1.5 line-clamp-2">{post.excerpt}</p>
-                    </CardContent>
-                  </Card>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+      {/* Related Blog Posts (loaded on demand: the blog library is large) */}
+      <Suspense fallback={null}>
+        <RelatedBlogPosts slug={data.slug} />
+      </Suspense>
 
       <Footer />
     </div>

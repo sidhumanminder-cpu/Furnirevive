@@ -1,0 +1,22 @@
+import { createFileRoute } from "@tanstack/react-router";
+import ExecutiveChairMaintenancePost from "@/pages/blog/executive-chair-maintenance.tsx";
+
+export const Route = createFileRoute("/blog/executive-chair-maintenance/")({
+  head: () => ({
+    meta: [
+      { title: "Executive Office Chair Maintenance: 12-Point Care Guide | FurniRevive" },
+      { name: "description", content: "Keep your executive office chair in top condition with this 12-point maintenance guide. Extend chair life by 5+ years with regular professional care in Delhi NCR." },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://furnirevive.com#business", "name": "FurniRevive", "telephone": "+919217999355", "url": "https://furnirevive.com", "priceRange": "₹500–₹25,000", "areaServed": [{ "@type": "City", "name": "Delhi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Delhi" } }, { "@type": "City", "name": "Gurgaon", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Faridabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Ghaziabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Greater Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Kaushambi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Vasundhara", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Chandigarh", "containedInPlace": { "@type": "AdministrativeArea", "name": "Chandigarh" } }, { "@type": "City", "name": "Mohali", "containedInPlace": { "@type": "AdministrativeArea", "name": "Punjab" } }, { "@type": "City", "name": "Panchkula", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "Article", "headline": "Executive Office Chair Maintenance: 12-Point Care Guide", "description": "Keep your executive office chair in top condition with this 12-point maintenance guide. Extend chair life by 5+ years with regular professional care in Delhi NCR.", "image": "", "datePublished": "2026-03-01", "dateModified": "2026-07-21", "author": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "publisher": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://furnirevive.com/blog/executive-chair-maintenance" } } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "How often should executive chairs be serviced?", "acceptedAnswer": { "@type": "Answer", "text": "We recommend quarterly professional inspections and annual deep service. Monthly visual checks can be done in-house." } }, { "@type": "Question", "name": "Does maintenance really extend chair life?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, regularly maintained executive chairs last 10–15 years compared to 5–7 years for unmaintained ones. Maintenance pays for itself many times over." } }, { "@type": "Question", "name": "What is included in your AMC for executive chairs?", "acceptedAnswer": { "@type": "Answer", "text": "Our AMC includes 4 quarterly inspections, full lubrication, tightening, cleaning, leather conditioning (for leather chairs), and priority repair service with 15% discount on parts." } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://furnirevive.com/" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://furnirevive.com/blog" }, { "@type": "ListItem", "position": 3, "name": "Executive Office Chair Maintenance: 12-Point Care Guide", "item": "https://furnirevive.com/blog/executive-chair-maintenance" }] } },
+    ] as Array<Record<string, unknown>>,
+  }),
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  return (
+    <ExecutiveChairMaintenancePost />
+  );
+}

@@ -1,7 +1,8 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/navbar.tsx";
 import Footer from "@/components/footer.tsx";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import {
   CheckCircle2,
   PhoneCall,
@@ -355,10 +356,10 @@ export default function ModularKitchenPage() {
     document.head.appendChild(serviceLd);
 
     return () => {
-      ogMetas.forEach((m) => m.remove());
-      serviceLd.remove();
-      breadcrumbLd.remove();
-      faqLd.remove();
+      ogMetas.forEach((m) => removeUnowned(m));
+      removeUnowned(serviceLd);
+      removeUnowned(breadcrumbLd);
+      removeUnowned(faqLd);
     };
   }, []);
 

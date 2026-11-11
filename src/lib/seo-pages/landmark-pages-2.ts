@@ -385,10 +385,10 @@ export const sofaRepairNoidaExpressway: SeoPageData = {
 export const furnitureRepairGolfCourseRoad: SeoPageData = {
   slug: "furniture-repair-golf-course-road-gurgaon",
   title:
-    "Furniture Repair Golf Course Road Gurgaon | Near Me ₹599",
+    "Furniture Repair on Golf Course Road Gurgaon | ₹599",
   metaDescription:
     "Premium furniture repair near me on Golf Course Road Gurgaon — Sohna Road, Golf Course Extension, South City, Nirvana Country, Sector 56–57.",
-  h1: "Furniture Repair Near Me on Golf Course Road & South Gurgaon — Premium Doorstep Service",
+  h1: "Furniture Repair on Golf Course Road & South Gurgaon — Premium Doorstep Service",
   heroSubtitle:
     "Expert furniture repair at your doorstep along Golf Course Road, Golf Course Extension Road, Sohna Road, South City, Nirvana Country, Sectors 42–57, and all premium South Gurgaon residences. Leather sofa restoration, imported furniture repair, wardrobe servicing, and complete home furniture repair — with a 6-month warranty.",
   showcaseImage: {

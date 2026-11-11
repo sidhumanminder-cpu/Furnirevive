@@ -17,7 +17,7 @@ const reclinerRepairNoidaExpressway: SeoPageData = {
     caption: "Recliner Repair on Noida Expressway | Electric motor & actuator service across Sectors 104–150 | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep recliner repair across Noida Expressway starting at ₹999. We cover Sectors 104, 107, 137, 143, and 150 — repairing electric motors, actuators, control boards, leather panels, and mechanisms. Same-day slots for morning bookings. 6-month warranty on all repairs.",
+    "FurniRevive provides trusted doorstep recliner repair across Noida Expressway starting at ₹999. We cover Sectors 104, 107, 137, 143, and 150 — repairing electric motors, actuators, control boards, leather panels, and mechanisms. Same-day slots for morning bookings. 6-month warranty on all repairs.",
   intro: [
     "The Noida Expressway corridor — stretching from Sector 18's commercial hub down through the gleaming residential towers of Sectors 104, 107, 137, 143, and 150 — represents one of the NCR's most concentrated pockets of premium high-rise living. In these apartments, luxury recliner furniture is as standard as the floor-to-ceiling glazing that frames the expressway view. Imported electric recliners configured for media rooms in Mahagun Moderne and Gaur Cascades. Three-seat motorised recliner suites with USB charging and ambient lighting in Supertech Supernova. Premium leather manual recliners positioned in the open-plan living areas of Ace Golfshire and Jaypee Greens. When these pieces develop mechanical or electrical faults, they require specialist repair — not a handyman with a socket set.",
     "FurniRevive's Noida Expressway team brings certified recliner repair specialists to your door — carrying the diagnostic tools, recliner components, and leather restoration materials to resolve the full spectrum of electric and manual recliner faults. We are part of the region-wide <a href=\"/recliner-repair-noida\">recliner repair Noida</a> network, with a dedicated Expressway presence covering Sectors 104, 107, 137, 143, and 150. We also connect to the broader NCR service network through <a href=\"/recliner-repair-delhi\">recliner repair Delhi</a>. Every diagnosis is free. Every quote is fixed before work begins. Every completed repair carries a 6-month warranty.",
@@ -82,7 +82,7 @@ const reclinerRepairNoidaExpressway: SeoPageData = {
     "Electric motor, actuator, and control board repair in a single visit",
     "Same-day service for morning bookings across sectors 104–150",
     "Fixed quotes from ₹999 — confirmed before work starts",
-    "4.8-star rated across hundreds of Noida recliner repairs",
+    "Trusted across hundreds of Noida recliner repairs",
     "Imported and premium brand component knowledge",
     "Colour-matched leather restoration in every service kit",
     "High-resilience foam rated for 8–12 years",
@@ -229,7 +229,7 @@ const reclinerRepairNoidaExpressway: SeoPageData = {
     {
       question: "How long does electric recliner repair typically take in a Noida Expressway apartment?",
       answer:
-        "Control board: 45–75 minutes. Wiring harness repair: 60–90 minutes. Actuator replacement: 60–120 minutes per unit. Full home theatre suite (3–4 seats, two technicians): 3–4 hours. Almost all repairs are completed in a single visit.",
+        "Control board: 45–75 minutes. Wiring harness repair: 2–4 hours. Actuator replacement: 60–120 minutes per unit. Full home theatre suite (3–4 seats, two technicians): 3–4 hours. Almost all repairs are completed in a single visit.",
     },
     {
       question: "What causes the leather on my expressway apartment recliner to crack faster than expected?",
@@ -320,7 +320,7 @@ const reclinerRepairIndirapuram: SeoPageData = {
     caption: "Recliner Repair in Indirapuram | Electric motor & leather restoration in Shakti Khand & Ahinsa Khand | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers 4.8-star rated doorstep recliner repair in Indirapuram from ₹999. We cover Shakti Khand, Ahinsa Khand, Vaishali, Vasundhara, and the Shipra Mall corridor — repairing electric motors, actuators, control boards, cables, leather panels, and mechanisms. Same-day slots. 6-month warranty.",
+    "FurniRevive offers trusted doorstep recliner repair in Indirapuram from ₹999. We cover Shakti Khand, Ahinsa Khand, Vaishali, Vasundhara, and the Shipra Mall corridor — repairing electric motors, actuators, control boards, cables, leather panels, and mechanisms. Same-day slots. 6-month warranty.",
   intro: [
     "Indirapuram's dense, vibrant residential character — the tower blocks of Shakti Khand, the low-rise societies of Ahinsa Khand, the Vaishali-Vasundhara corridor, the commercial-residential mix around Shipra Mall — contains some of Ghaziabad district's most comfortable and well-furnished homes. In these homes, particularly the larger apartments and independent floors in Shakti Khand and Vaishali, premium recliners have become central to the family living experience. Motorised recliners for the media room. Manual recliners for the puja room or study. Joint-family setups where multiple recliners serve multiple generations in the same home. When these pieces develop faults — and over time, they all do — Indirapuram families need a repair service that matches the quality of the furniture.",
     "FurniRevive brings certified recliner repair to your door across all of Indirapuram — Shakti Khand 1 through 4, Ahinsa Khand 1 and 2, Vaishali, Vasundhara, and the Shipra Mall vicinity. We are part of the broader <a href=\"/recliner-repair-noida\">recliner repair Noida</a> network, connect to the full NCR service infrastructure through <a href=\"/recliner-repair-delhi\">recliner repair Delhi</a>, and work alongside our <a href=\"/leather-sofa-repair-indirapuram\">leather sofa repair Indirapuram</a> specialists for combined leather-and-mechanism appointments. Every diagnosis is free. Every quote is fixed before work begins. Every repair carries a 6-month warranty.",
@@ -386,7 +386,7 @@ const reclinerRepairIndirapuram: SeoPageData = {
     "Electric motor, actuator, and control board repair in a single visit",
     "Same-day service for morning bookings across Indirapuram",
     "Fixed quotes from ₹999 — confirmed before work starts",
-    "4.8-star rated across hundreds of Indirapuram and Ghaziabad repairs",
+    "Trusted across hundreds of Indirapuram and Ghaziabad repairs",
     "Colour-matched leather restoration in every service kit",
     "High-resilience foam rated for 8–12 years",
     "Manual recliner cable and mechanism repair from ₹999",

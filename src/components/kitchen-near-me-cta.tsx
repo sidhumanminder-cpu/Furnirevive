@@ -11,7 +11,7 @@
  *   <NearMeCTA variant="featured" />
  */
 
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { CheckCircle2, MapPin, PhoneCall, ArrowRight } from "lucide-react";
 import { PHONE_NUMBER } from "@/lib/seo-constants.ts";
 

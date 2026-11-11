@@ -1,6 +1,9 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "@/lib/router-compat.tsx";
 import { Phone, Mail, MapPin } from "lucide-react";
+import { cdnImage } from "@/lib/image-cdn.ts";
 import { FOOTER_CONFIGS, resolveFooterService, resolveKitchenFooterConfig } from "@/config/footer-config.ts";
+
+const LOGO_URL = "https://hercules-cdn.com/file_dtr8PtooAsmRwfNTJKNRTESW";
 
 export default function Footer() {
   const { pathname } = useLocation();
@@ -18,7 +21,10 @@ export default function Footer() {
           <div className="space-y-4 lg:col-span-2">
             <div className="flex items-center gap-2">
               <img
-                src="https://cdn.hercules.app/file_dtr8PtooAsmRwfNTJKNRTESW"
+                src={cdnImage(LOGO_URL, { w: 160 })}
+                srcSet={`${cdnImage(LOGO_URL, { w: 160 })} 1x, ${cdnImage(LOGO_URL, { w: 320 })} 2x`}
+                width={162}
+                height={108}
                 alt="FurniRevive"
                 className="h-[6.75rem] w-auto mix-blend-screen"
               />

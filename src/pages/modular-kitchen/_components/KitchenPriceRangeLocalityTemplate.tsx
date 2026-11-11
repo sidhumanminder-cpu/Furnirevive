@@ -4,7 +4,7 @@
  * Caps: 1-lakh, 1-5-lakh, 2-lakh, 3-lakh
  */
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { PhoneCall, MessageCircle, CheckCircle2, ChevronRight, IndianRupee, MapPin, Info } from "lucide-react";
 import { setPageMetadata } from "@/lib/metadata.ts";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";

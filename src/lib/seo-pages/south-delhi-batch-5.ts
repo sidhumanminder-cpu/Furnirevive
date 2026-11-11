@@ -18,7 +18,7 @@ export const sofaRepairGreaterKailash1: SeoPageData = {
     caption: "Sofa Repair in Greater Kailash 1 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep sofa repair in Greater Kailash 1 — covering M Block, N Block, the residential lanes near GK 1 Market, Kailash Colony, and the GK 2 border — starting at ₹500. Our craftsmen are trained in Italian leather restoration, premium sectional repair, imported recliner mechanisms, and high-resilience foam replacement. Same-day afternoon slots for morning bookings. 6-month workmanship warranty on every repair.",
+    "FurniRevive delivers trusted doorstep sofa repair in Greater Kailash 1 — covering M Block, N Block, the residential lanes near GK 1 Market, Kailash Colony, and the GK 2 border — starting at ₹500. Our craftsmen are trained in Italian leather restoration, premium sectional repair, imported recliner mechanisms, and high-resilience foam replacement. Same-day afternoon slots for morning bookings. 6-month workmanship warranty on every repair.",
   intro: [
     "Greater Kailash 1 has long held a position at the apex of South Delhi's residential character. The homes here — spanning everything from the grand bungalows of M Block to the elegantly arranged apartments near N Block Market — are furnished with a deliberateness that is recognisable at first sight. The leather sofa in the drawing room was not purchased on impulse; it was chosen over weeks of visits to the showrooms that line Greater Kailash's commercial streets, the same showrooms that supply the area's own residents with Italian leather, European-specification fabrics, and imported recliner models. When that sofa needs attention — whether targeted <a href=\"/leather-sofa-repair-south-delhi\">leather sofa restoration in South Delhi</a> or a structural renewal after a decade of devoted family use — the standard of care expected is proportional to the standard of the original purchase.",
     "FurniRevive's South Delhi team works regularly in GK 1 and understands the furniture profile of this area better than any generalist repair service could. We are part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair network in Delhi</a>, with a focused South Delhi presence covering Greater Kailash 1 and extending naturally into <a href=\"/sofa-repair-greater-kailash-2\">GK 2</a>, Kailash Colony, Nehru Place residential areas, and the lanes between GK 1 and GK 3. Our craftsmen are not upholstery generalists — they are trained specifically in the materials and construction techniques that define premium South Delhi furniture: full-grain and semi-aniline leather treatment, precision colour-matching for imported fabrics, European-specification spring replacement, and the mechanism repair required by the luxury recliners sourced from GK's own showrooms. Our South Delhi <a href=\"/sofa-repair-south-delhi\">sofa repair service</a> spans the entire Greater Kailash pocket.",
@@ -83,7 +83,7 @@ export const sofaRepairGreaterKailash1: SeoPageData = {
     "All work completed at your GK 1 address — no transport or workshop pickup",
     "Craftsmen trained in Italian leather, European fabrics, and imported recliner mechanisms",
     "Same-day afternoon slots for morning bookings",
-    "4.8-star rated service built on thousands of South Delhi repairs",
+    "Trusted service built on thousands of South Delhi repairs",
     "Transparent, itemised pricing fixed before work starts",
     "6-month workmanship warranty on every repaired element",
     "40+ premium swatches chosen in your living room under actual room lighting",
@@ -252,7 +252,7 @@ export const sofaRepairGreaterKailash2: SeoPageData = {
     caption: "Sofa Repair in Greater Kailash 2 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep sofa repair in Greater Kailash 2 — covering the full GK 2 residential area, M Block, Nehru Place residential zones, GK 1, and GK 3 — starting at ₹500. Our craftsmen are trained in Italian leather restoration, premium upholstery, recliner mechanism repair, and high-resilience foam replacement. Same-day afternoon slots for morning bookings. 6-month workmanship warranty on every job.",
+    "FurniRevive provides trusted doorstep sofa repair in Greater Kailash 2 — covering the full GK 2 residential area, M Block, Nehru Place residential zones, GK 1, and GK 3 — starting at ₹500. Our craftsmen are trained in Italian leather restoration, premium upholstery, recliner mechanism repair, and high-resilience foam replacement. Same-day afternoon slots for morning bookings. 6-month workmanship warranty on every job.",
   intro: [
     "Greater Kailash 2 occupies a distinctive position in South Delhi — a neighbourhood where the commercial energy of its markets sits comfortably alongside the quiet residential streets where South Delhi families have built their homes for decades. The homes in GK 2 are typically furnished with the discernment that comes from living surrounded by premium furniture showrooms: Italian leather sofas sourced from the commercial corridors nearby, custom sectionals built by GK designers to specific room dimensions, imported recliners that arrived in GK 2 drawing rooms from showrooms on this very neighbourhood's commercial streets. When this furniture needs professional care — <a href=\"/leather-sofa-repair-south-delhi\">specialist leather sofa restoration</a> or comprehensive structural renewal — the expectations are informed by the same premium standard.",
     "FurniRevive's South Delhi team serves GK 2 and understands this area's furniture character well. We are part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair network across Delhi</a>, with a dedicated South Delhi presence covering <a href=\"/sofa-repair-greater-kailash-1\">GK 1</a>, GK 2, <a href=\"/sofa-repair-greater-kailash-3\">GK 3</a>, and the wider Kailash Colony and Nehru Place residential corridor. Our craftsmen bring specialist-grade skill to every GK 2 job: penetrating leather treatment, precision fabric colour-matching, European-style upholstery joinery, and mechanism repair for the luxury recliners that define premium South Delhi living. The <a href=\"/recliner-repair-south-delhi\">recliner repair expertise we bring to South Delhi</a> homes extends fully to GK 2.",
@@ -319,7 +319,7 @@ export const sofaRepairGreaterKailash2: SeoPageData = {
     "Same-day afternoon slots for morning bookings",
     "Transparent, fixed pricing before work starts",
     "6-month workmanship warranty on every repaired element",
-    "4.8-star rated service built on thousands of Delhi repairs",
+    "Trusted service built on thousands of Delhi repairs",
     "40+ premium swatches selected in your living room",
     "High-resilience foam replacement lasting 8–12 years",
     "Colour-matched panels blended invisibly with existing upholstery",
@@ -472,7 +472,7 @@ export const sofaRepairGreaterKailash3: SeoPageData = {
     caption: "Sofa Repair in Greater Kailash 3 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep sofa repair in Greater Kailash 3 — covering the residential blocks of GK 3, Savitri Nagar, Kailash Colony, Nehru Place residential areas, GK 1, and GK 2 — starting at ₹500. Specialist craftsmen for Italian leather restoration, premium fabric upholstery, recliner mechanisms, and high-resilience foam replacement. Same-day slots available for morning bookings. 6-month workmanship warranty.",
+    "FurniRevive provides trusted doorstep sofa repair in Greater Kailash 3 — covering the residential blocks of GK 3, Savitri Nagar, Kailash Colony, Nehru Place residential areas, GK 1, and GK 2 — starting at ₹500. Specialist craftsmen for Italian leather restoration, premium fabric upholstery, recliner mechanisms, and high-resilience foam replacement. Same-day slots available for morning bookings. 6-month workmanship warranty.",
   intro: [
     "Greater Kailash 3 has the quietest character of the Greater Kailash cluster — a residential area where the pace of life is more measured, the streets more tree-lined, and the homes more consistently focused on considered living rather than commercial activity. GK 3 draws on the same premium furniture culture that defines the entire Greater Kailash area, with the Italian leather suites, custom sectionals, and luxury recliners that have come to characterise South Delhi's finest residential interiors. When these pieces need professional care — <a href=\"/leather-sofa-repair-south-delhi\">leather sofa restoration</a> for a cracking Italian hide or structural renewal for a sagging sectional — the expectation for quality is set by the original purchase.",
     "FurniRevive's South Delhi craftsmen serve GK 3 regularly and carry the specific skills required by the furniture found in these homes. We are part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair network across Delhi</a>, with a South Delhi presence that covers GK 3 and extends naturally into <a href=\"/sofa-repair-greater-kailash-1\">GK 1</a>, <a href=\"/sofa-repair-greater-kailash-2\">GK 2</a>, Kailash Colony, Savitri Nagar, and the Nehru Place residential corridor. Our service is grounded in <a href=\"/sofa-repair-south-delhi\">South Delhi sofa repair</a> expertise that encompasses the full Greater Kailash area. For recliners requiring mechanism attention, we bring the same <a href=\"/recliner-repair-south-delhi\">expert recliner repair service available across South Delhi</a>.",
@@ -539,7 +539,7 @@ export const sofaRepairGreaterKailash3: SeoPageData = {
     "Same-day afternoon slots for morning bookings",
     "Transparent, itemised pricing fixed before work starts",
     "6-month workmanship warranty on every repaired element",
-    "4.8-star rated service across thousands of Delhi repairs",
+    "Trusted service across thousands of Delhi repairs",
     "40+ premium swatches chosen in your living room",
     "High-resilience foam replacement lasting 8–12 years",
     "Colour-matched panels blended invisibly with existing upholstery",

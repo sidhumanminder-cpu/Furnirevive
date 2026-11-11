@@ -41,7 +41,7 @@ export const sofaRepairNearMeDelhi: SeoPageData = {
   intro: [
     "When your sofa cushions start sinking, the upholstery tears, or the wooden frame begins creaking, the first thing you search for is 'sofa repair near me in Delhi'. FurniRevive is the trusted answer for thousands of Delhi families who want fast, affordable, and reliable <a href=\"/sofa-repair-delhi\">sofa repair</a> without leaving home. Our doorstep service means a trained technician comes to you — whether you're in Greater Kailash, Dwarka Sector 12, Rohini Sector 7, or any other Delhi locality — with all tools, foam, fabric, and hardware needed to fix your sofa in a single visit.",
     "We handle every type of sofa problem: sagging cushions from worn-out foam, torn fabric or cracked leather upholstery, broken wooden frames, snapped springs, and damaged recliner mechanisms. Our repair specialists carry a wide inventory of materials — high-density foam in various firmness levels, over 200 fabric options, genuine and faux leather, springs, and professional-grade adhesives — so most repairs are completed on the spot without requiring a second appointment.",
-    "Starting at just ₹500, our sofa repair near me service in Delhi is designed to save you up to 70% compared to buying a new sofa from Kirti Nagar or online retailers. Every repair is backed by a 6-month service warranty, and our 4.8-star rating across 10,000+ repairs speaks to the quality and reliability Delhi families have come to expect from FurniRevive. We also serve <a href=\"/sofa-repair-gurgaon\">Gurgaon</a> and <a href=\"/sofa-repair-noida\">Noida</a> with the same quality. See our <a href=\"/sofa-repair-cost-delhi\">sofa repair cost guide</a> for transparent pricing.",
+    "Starting at just ₹500, our sofa repair near me service in Delhi is designed to save you up to 70% compared to buying a new sofa from Kirti Nagar or online retailers. Every repair is backed by a 6-month service warranty, and our track record across 10,000+ repairs speaks to the quality and reliability Delhi families have come to expect from FurniRevive. We also serve <a href=\"/sofa-repair-gurgaon\">Gurgaon</a> and <a href=\"/sofa-repair-noida\">Noida</a> with the same quality. See our <a href=\"/sofa-repair-cost-delhi\">sofa repair cost guide</a> for transparent pricing.",
   ],
   whyChoose: [
     { title: "Genuinely Near You in Delhi", description: "Our craftsmen are stationed across all Delhi zones — South, North, West, East, and Central Delhi. When you search sofa repair near me, we are truly nearby and arrive fast." },
@@ -90,7 +90,7 @@ export const sofaRepairNearMeDelhi: SeoPageData = {
       heading: "Pricing — Sofa Repair Near Me Cost in Delhi",
       body: [
         "Single cushion re-stuffing starts at ₹500. Full 3-seater sofa overhaul including re-upholstery, foam replacement, and frame repair ranges from ₹3,000 to ₹12,000 depending on size and damage. Leather sofa repair starts at ₹1,500. Compare these to a new sofa costing ₹25,000–₹1,50,000 — professional repair delivers equivalent results at a fraction of the price.",
-        "Every quote is provided in writing before work begins, with a breakdown of material and labour costs. We never change the price mid-job. If during inspection we find the sofa isn't worth repairing, we'll tell you honestly. That's the transparency that has earned us 4.8 stars from Delhi families.",
+        "Every quote is provided in writing before work begins, with a breakdown of material and labour costs. We never change the price mid-job. If during inspection we find the sofa isn't worth repairing, we'll tell you honestly. That's the transparency that has earned us 4.9 stars from Delhi families.",
       ],
     },
   ],
@@ -186,7 +186,7 @@ export const furnitureRepairNearMeDelhi: SeoPageData = {
     "Fabric, leather, rexine, velvet, and leatherette upholstery handled",
     "Written per-job quotes — no daily rates or surprise charges",
     "6-month warranty with free return visit if repair fails",
-    "10,000+ repairs completed across Delhi NCR with 4.8-star average",
+    "10,000+ repairs completed across Delhi NCR and trusted by hundreds of customers",
   ],
   contentSections: [
     {
@@ -255,7 +255,7 @@ export const carpenterNearMeDelhi: SeoPageData = {
   slug: "carpenter-near-me-delhi",
   title: "Carpenter Near Me in Delhi | ₹499 Doorstep Service | FurniRevive",
   metaDescription:
-    "Verified carpenter near me in Delhi — same-day doorstep service from ₹499. Furniture repair, IKEA assembly, wardrobe & door fixing. 8★ rated.",
+    "Verified carpenter near me in Delhi — same-day doorstep service from ₹499. Furniture repair, IKEA assembly, wardrobe & door fixing. ",
   h1: "Carpenter Near Me in Delhi",
   heroSubtitle:
     "Need a skilled carpenter near you in Delhi? FurniRevive provides verified, experienced carpenters at your doorstep for furniture repair, assembly, installation, and custom work — starting ₹499 with same-day availability.",
@@ -288,7 +288,7 @@ export const carpenterNearMeDelhi: SeoPageData = {
   intro: [
     "Finding a trustworthy carpenter near me in Delhi has long been a gamble — unreliable local contacts, unpredictable pricing, and inconsistent quality make the experience stressful. FurniRevive changes this entirely by providing verified, skilled carpenters who arrive at your Delhi doorstep on time, quote transparently, work professionally, and back every job with a 6-month warranty. Whether you need a broken dining chair fixed in Lajpat Nagar, IKEA furniture assembled in your Dwarka flat, or kitchen cabinets repaired in your Rohini home, our carpenters handle it all.",
     "Every carpenter on our Delhi team has a minimum of 5 years of hands-on experience and has been background-verified for your peace of mind. They arrive fully equipped with professional tools and commonly needed materials — screws, hinges, adhesives, brackets, and more. You don't need to arrange anything or make multiple trips to a hardware store. Our carpenter near me service in Delhi starts at just ₹499 for basic tasks and includes same-day availability for urgent needs.",
-    "We cover every part of Delhi — from South Delhi's residential colonies and Dwarka's planned sectors to Rohini's family neighbourhoods and East Delhi's vibrant localities. With over 10,000 carpentry jobs completed across Delhi NCR and a 4.8-star rating, FurniRevive is Delhi's most reliable on-demand carpenter near me service. We also handle <a href=\"/sofa-repair-delhi\">sofa repair</a> and complete <a href=\"/furniture-repair-delhi\">furniture repair</a>. Serving <a href=\"/sofa-repair-gurgaon\">Gurgaon</a> and <a href=\"/sofa-repair-noida\">Noida</a> too. View our <a href=\"/sofa-repair-cost-delhi\">cost guide</a> for pricing.",
+    "We cover every part of Delhi — from South Delhi's residential colonies and Dwarka's planned sectors to Rohini's family neighbourhoods and East Delhi's vibrant localities. With over 10,000 carpentry jobs completed across Delhi NCR and trusted by hundreds of customers, FurniRevive is Delhi's most reliable on-demand carpenter near me service. We also handle <a href=\"/sofa-repair-delhi\">sofa repair</a> and complete <a href=\"/furniture-repair-delhi\">furniture repair</a>. Serving <a href=\"/sofa-repair-gurgaon\">Gurgaon</a> and <a href=\"/sofa-repair-noida\">Noida</a> too. View our <a href=\"/sofa-repair-cost-delhi\">cost guide</a> for pricing.",
   ],
   whyChoose: [
     { title: "Verified Delhi Carpenters", description: "All carpenters are background-checked with 5+ years of professional experience. No untrained workers — only skilled craftsmen who take pride in quality work." },

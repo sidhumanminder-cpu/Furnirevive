@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import type { PyramidLinksSectionData } from "@/lib/content-engine/index.ts";
 
 export default function PyramidLinksSection({ section }: { section: PyramidLinksSectionData }) {

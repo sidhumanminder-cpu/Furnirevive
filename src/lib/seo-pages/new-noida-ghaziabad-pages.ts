@@ -2,7 +2,7 @@ import type { SeoPageData } from "@/lib/seo-constants.ts";
 
 export const sofaRepairSector76Noida: SeoPageData = {
   slug: "sofa-repair-noida-sector-76",
-  title: "Sofa Repair Sector 76 Noida | Doorstep Service – FurniRevive",
+  title: "Sofa Repair in Sector 76 Noida | Doorstep Service – FurniRevive",
   metaDescription: "Professional sofa repair in Sector 76 Noida. FurniRevive offers doorstep foam replacement, reupholstery & spring repair at Mahagun Moderne.",
   h1: "Sofa Repair in Sector 76 Noida — Doorstep Service at Your Apartment",
   heroSubtitle: "Trusted by residents of Mahagun Moderne, Amrapali Silicon City & Spectrum Metro Mall area. Same-week appointments. No shifting required.",
@@ -113,7 +113,7 @@ export const sofaRepairSector76Noida: SeoPageData = {
     heading: "Sofa Repair Near Me — Sector 76 & Surrounding Areas",
     content: "When you search 'sofa repair near me' from Sector 76 Noida, FurniRevive is the local specialist with a dedicated team covering this zone. We're not a call centre that relays your job to an unknown worker — we have trained craftsmen based in Noida who service Sector 76 and the surrounding sectors regularly.",
     microLocationContent: "We cover all towers in Mahagun Moderne, every block of Amrapali Silicon City and Amrapali Sapphire, and buildings in the Spectrum Metro Mall corridor. If you're in Sector 74, 77, or 78, we cover those too — typically with the same technician who handles Sector 76.",
-    trustSignals: ["500+ sofas repaired in the Sector 76–78 belt", "4.8★ average rating from apartment residents", "Same-week appointments available", "6-month warranty on every repair", "WhatsApp-first booking: +91 92179 99355"],
+    trustSignals: ["10,000+ sofas repaired across Delhi NCR, including the Sector 76–78 belt", "Trusted by apartment residents", "Same-week appointments available", "6-month warranty on every repair", "WhatsApp-first booking: +91 92179 99355"],
   },
   priceTable: {
     heading: "Sofa Repair Price List — Sector 76 Noida",
@@ -253,7 +253,7 @@ export const sofaRepairSector78Noida: SeoPageData = {
     heading: "Sofa Repair Near Me — Sector 78 Noida",
     content: "Searching 'sofa repair near me' from Sector 78 Noida? FurniRevive is the dedicated local service for this area. Our technicians are Noida-based and specifically cover the Sector 76–79 residential corridor, which means fast response times and a team that knows your locality.",
     microLocationContent: "We cover all towers and phases of Mahagun Moderne, the Amrapali group complexes in adjacent sectors, and all standalone apartment societies in Sector 78. If you're unsure whether your building is in our service area, WhatsApp us your address and we'll confirm instantly.",
-    trustSignals: ["400+ repairs completed in the Sector 76–79 corridor", "Mahagun Moderne — one of our most frequently serviced complexes", "Same-week slots available for Sector 78", "4.8★ customer satisfaction rating", "6-month warranty on all work"],
+    trustSignals: ["400+ repairs completed in the Sector 76–79 corridor", "Mahagun Moderne — one of our most frequently serviced complexes", "Same-week slots available for Sector 78", "Trusted customer satisfaction rating", "6-month warranty on all work"],
   },
   priceTable: {
     heading: "Sofa Repair Price List — Sector 78 Noida",
@@ -391,7 +391,7 @@ export const sofaRepairSector93Noida: SeoPageData = {
     heading: "Sofa Repair Near Me — Sector 93 Noida & Expressway",
     content: "Searching for sofa repair near Sector 93 Noida or ATS Village? FurniRevive is the specialist local service for the Noida Expressway residential corridor. Our dedicated team covers this zone specifically, offering the same quality and speed as our central Noida operations.",
     microLocationContent: "We cover ATS Village, the premium towers in Sector 93, and all residential complexes across Sectors 100–110 along the Expressway belt.",
-    trustSignals: ["Regular service partner for ATS Village residents", "Coverage across Sectors 93–110 Expressway corridor", "Premium material options available", "4.9★ rating from Expressway corridor clients", "6-month warranty included on all work"],
+    trustSignals: ["Regular service partner for ATS Village residents", "Coverage across Sectors 93–110 Expressway corridor", "Premium material options available", "Trusted by Expressway corridor clients", "6-month warranty included on all work"],
   },
   priceTable: {
     heading: "Sofa Repair Price List — Sector 93 Noida",
@@ -440,7 +440,7 @@ export const sofaRepairSector93Noida: SeoPageData = {
 
 export const sofaRepairVaishaliGhaziabad: SeoPageData = {
   slug: "sofa-repair-vaishali-ghaziabad",
-  title: "Sofa Repair Vaishali Ghaziabad | Doorstep Service – FurniRevive",
+  title: "Sofa Repair in Vaishali Ghaziabad | Doorstep Service – FurniRevive",
   metaDescription: "Expert sofa repair in Vaishali Ghaziabad at your doorstep. FurniRevive covers Vaishali Sectors 1–6, Kaushambi, Indirapuram & Vasundhara.",
   h1: "Sofa Repair in Vaishali Ghaziabad — Doorstep Service Across All Sectors",
   heroSubtitle: "Serving families across Vaishali Sectors 1–6, near Vaishali Metro station and apartment societies in Kaushambi & Indirapuram. Same-week appointments available.",
@@ -529,7 +529,7 @@ export const sofaRepairVaishaliGhaziabad: SeoPageData = {
     heading: "Sofa Repair Near Me — Vaishali, Kaushambi & Indirapuram",
     content: "When you search 'sofa repair near me' from Vaishali Ghaziabad, FurniRevive is the dedicated local specialist. Our Ghaziabad team covers the entire Vaishali–Kaushambi–Indirapuram–Vasundhara corridor, offering consistent quality and fast scheduling without the uncertainty of generic marketplace bookings.",
     microLocationContent: "We cover all six sectors of Vaishali, the apartment societies near Vaishali Metro, and residential areas across Kaushambi and Indirapuram. If you're in the Vasundhara residential sectors too, our team covers those as part of the same service zone.",
-    trustSignals: ["600+ sofas repaired in Vaishali and surrounding areas", "All 6 Vaishali sectors covered", "Same-week appointments available", "4.8★ customer rating from Ghaziabad clients", "6-month workmanship warranty on every repair"],
+    trustSignals: ["600+ sofas repaired in Vaishali and surrounding areas", "All 6 Vaishali sectors covered", "Same-week appointments available", "Trusted by Ghaziabad clients", "6-month workmanship warranty on every repair"],
   },
   priceTable: {
     heading: "Sofa Repair Price List — Vaishali Ghaziabad",
@@ -668,7 +668,7 @@ export const sofaRepairVasundharaGhaziabad: SeoPageData = {
     heading: "Sofa Repair Near Me — Vasundhara & NCR Ghaziabad",
     content: "Searching 'sofa repair near me' from Vasundhara Ghaziabad? FurniRevive is the dedicated local service for this zone. Unlike generic marketplaces, our Ghaziabad team is permanently based here and covers Vasundhara as a priority area.",
     microLocationContent: "We cover all sectors of Vasundhara — Sectors 1 through 10 and beyond — plus the adjacent areas of Vaishali, Kaushambi, and Indirapuram. Whether you're in an older Sector 2 independent house or a newer Sector 9 apartment tower, we serve you with the same team and the same quality standard.",
-    trustSignals: ["700+ sofas repaired across Vasundhara and Vaishali", "All Vasundhara sectors covered — no exclusions", "Same-week appointments standard", "4.8★ customer satisfaction rating", "6-month warranty on every repair"],
+    trustSignals: ["700+ sofas repaired across Vasundhara and Vaishali", "All Vasundhara sectors covered — no exclusions", "Same-week appointments standard", "Trusted customer satisfaction rating", "6-month warranty on every repair"],
   },
   priceTable: {
     heading: "Sofa Repair Price List — Vasundhara Ghaziabad",

@@ -32,6 +32,7 @@ import { buildServicesGrid } from "./modules/services-grid.ts";
 import { buildMaterialOptions } from "./modules/material-options.ts";
 import { buildRepairTimes } from "./modules/repair-times.ts";
 import { buildServiceCoverage } from "./modules/service-coverage.ts";
+import { buildLocalContextSection } from "./modules/local-context.ts";
 import { buildIndustries } from "./modules/industries.ts";
 import { buildQuickAnswers } from "./modules/quick-answers.ts";
 import {
@@ -75,6 +76,7 @@ const MODULE_REGISTRY: Record<string, ModuleBuilder> = {
   "material-options": buildMaterialOptions,
   "repair-times": buildRepairTimes,
   "service-coverage": buildServiceCoverage,
+  "local-context": buildLocalContextSection,
   industries: buildIndustries,
   "quick-answers": buildQuickAnswers,
   cta: buildCta,

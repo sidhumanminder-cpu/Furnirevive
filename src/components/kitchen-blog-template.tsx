@@ -1,5 +1,6 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import {
   Phone,
@@ -251,7 +252,7 @@ export default function KitchenBlogTemplate({ entry }: { entry: KitchenBlogEntry
     // Cleanup previous schema
     document
       .querySelectorAll('script[data-schema="kitchen-blog"]')
-      .forEach((s) => s.remove());
+      .forEach((s) => removeUnowned(s));
 
     const blogPostingSchema = {
       "@context": "https://schema.org",
@@ -312,10 +313,10 @@ export default function KitchenBlogTemplate({ entry }: { entry: KitchenBlogEntry
     });
 
     return () => {
-      ogMetas.forEach((m) => m.remove());
+      ogMetas.forEach((m) => removeUnowned(m));
       document
         .querySelectorAll('script[data-schema="kitchen-blog"]')
-        .forEach((s) => s.remove());
+        .forEach((s) => removeUnowned(s));
     };
   }, [entry, blogContent]);
 

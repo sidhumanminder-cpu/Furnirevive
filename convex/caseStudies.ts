@@ -50,6 +50,20 @@ export const getAll = query({
   },
 });
 
+/** File sizes (bytes) for stored case-study photos, so the admin UI can flag oversized ones */
+export const getImageSizes = query({
+  args: { ids: v.array(v.id("_storage")) },
+  handler: async (ctx, args) => {
+    await requireAdmin(ctx);
+    const sizes: { id: Id<"_storage">; size: number | null }[] = [];
+    for (const id of args.ids.slice(0, 10)) {
+      const meta = await ctx.db.system.get(id);
+      sizes.push({ id, size: meta ? meta.size : null });
+    }
+    return sizes;
+  },
+});
+
 /** Generate upload URL for case study images */
 export const generateUploadUrl = mutation({
   args: {},
@@ -215,6 +229,16 @@ export const getForPage = query({
     }
 
     return await resolveUrls(ctx, results);
+  },
+});
+
+/** Public: every case study that has at least one photo, newest first, for the homepage */
+export const getForHome = query({
+  args: {},
+  handler: async (ctx) => {
+    const studies = await ctx.db.query("repairCaseStudies").order("desc").take(200);
+    const resolved = await resolveUrls(ctx, studies);
+    return resolved.filter((s) => s.beforeUrl || s.afterUrl);
   },
 });
 

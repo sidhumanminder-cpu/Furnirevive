@@ -12,9 +12,6 @@ export const SITE_URL = "https://furnirevive.com";
  */
 export const POPULAR_CITIES = [
   { key: "delhi", label: "Delhi", href: "/sofa-repair-delhi" },
-  { key: "chandigarh", label: "Chandigarh", href: "/sofa-repair-chandigarh" },
-  { key: "mohali", label: "Mohali", href: "/sofa-repair-mohali" },
-  { key: "panchkula", label: "Panchkula", href: "/sofa-repair-panchkula" },
   { key: "gurgaon", label: "Gurgaon", href: "/sofa-repair-gurgaon" },
   { key: "noida", label: "Noida", href: "/sofa-repair-noida" },
   { key: "ghaziabad", label: "Ghaziabad", href: "/sofa-repair-ghaziabad" },
@@ -211,6 +208,8 @@ export type SeoPageData = {
   freshness?: string;
   /** Breadcrumb middle tier — e.g. "Sofa Repair", "Chair Repair", "Leather Sofa Repair" */
   category?: string;
+  /** Hub page (not a locality): skip auto-generated "in {locality}" blocks, FAQ and duplicate area chips */
+  isHubPage?: boolean;
   /** Optional city key for the smart NearMeSection component */
   cityKey?: "noida" | "delhi" | "gurgaon" | "ghaziabad" | "faridabad" | "chandigarh" | "mohali" | "panchkula";
   /**

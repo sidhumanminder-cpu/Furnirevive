@@ -19,11 +19,11 @@ export { COMMON_PROBLEMS, BRANDS, SERVICES_GRID } from "@/lib/seoConfigs/repair-
 
 /** Technician response promise by city */
 export const RESPONSE_TIMES: Record<CityKey, string> = {
-  delhi: "1–2 hours",
-  gurgaon: "1–3 hours",
-  noida: "1–2 hours",
-  ghaziabad: "2–3 hours",
-  faridabad: "2–3 hours",
+  delhi: "2–4 hours",
+  gurgaon: "2–4 hours",
+  noida: "2–4 hours",
+  ghaziabad: "2–4 hours",
+  faridabad: "2–4 hours",
   chandigarh: "2–4 hours",
   mohali: "2–4 hours",
   panchkula: "2–4 hours",

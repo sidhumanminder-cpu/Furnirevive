@@ -293,7 +293,7 @@ const importedFurnitureRepairNorthDelhi: SeoPageData = {
 
 const reclimerMotorRepairNorthDelhi: SeoPageData = {
   slug: "recliner-motor-repair-north-delhi",
-  title: "Recliner Motor Repair North Delhi | Power Recliner Specialists",
+  title: "Recliner Motor Repair in North Delhi | Power Recliner Specialists",
   metaDescription:
     "Expert recliner motor repair in North Delhi. Actuator replacement, control box repair, wiring faults. Rohini, Pitampura, Model Town, Shalimar Bagh.",
   h1: "Recliner Motor Repair North Delhi | Power Recliner Specialists",

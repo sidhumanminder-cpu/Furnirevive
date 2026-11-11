@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import {
   PhoneCall, MessageCircle, CheckCircle2, ChevronRight, MapPin,
   LayoutPanelLeft, Star, Home, Pencil, Factory, ShieldCheck,

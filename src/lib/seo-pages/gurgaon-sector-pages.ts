@@ -1082,7 +1082,7 @@ export const sofaRepairGurgaonSector14: SeoPageData = {
 export const sofaRepairDlfCyberCity: SeoPageData = {
   slug: "sofa-repair-gurgaon-dlf-cyber-city",
 
-  title: "Sofa Repair DLF Cyber City Gurgaon | FurniRevive",
+  title: "Sofa Repair in DLF Cyber City Gurgaon | FurniRevive",
 
   metaDescription:
     "Doorstep sofa repair near DLF Cyber City Gurgaon from ₹500. Sofa cover change, leather repair, foam & recliner repair in DLF Phase 2, Phase 3.",

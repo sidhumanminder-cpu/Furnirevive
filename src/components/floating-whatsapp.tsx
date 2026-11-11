@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { useLocation } from "react-router-dom";
-import { motion, AnimatePresence } from "motion/react";
+import { useEffect, useState } from "react";
+import { useLocation } from "@/lib/router-compat.tsx";
+import { motion } from "motion/react";
+import { AnimatePresence } from "@/components/visible-before-hydration.tsx";
 import { X } from "lucide-react";
 import { getWhatsAppConfig, type WhatsAppService } from "@/config/whatsapp-messages.ts";
-import { MODULAR_KITCHEN_LOCALITY_REGISTRY } from "@/lib/registry/kitchen-locality-registry.ts";
 
 const WHATSAPP_NUMBER = "919217999355";
 
@@ -13,7 +13,9 @@ const WHATSAPP_NUMBER = "919217999355";
  * Kitchen city hubs:      /modular-kitchen-delhi    /modular-kitchen-gurgaon
  * Kitchen root:           /modular-kitchen
  */
-function resolveContext(pathname: string): {
+type KitchenEntry = { readonly slug: string; readonly name: string };
+
+function resolveContext(pathname: string, kitchenEntries: readonly KitchenEntry[]): {
   service: WhatsAppService;
   locality?: string;
   city?: string;
@@ -34,7 +36,7 @@ function resolveContext(pathname: string): {
   // Kitchen locality page — /modular-kitchen-{slug}
   if (pathname.startsWith("/modular-kitchen-")) {
     const slug = pathname.replace("/modular-kitchen-", "");
-    const entry = MODULAR_KITCHEN_LOCALITY_REGISTRY.find((e) => e.slug === slug);
+    const entry = kitchenEntries.find((e) => e.slug === slug);
     if (entry) {
       return { service: "modular-kitchen", locality: entry.name };
     }
@@ -51,7 +53,21 @@ export default function FloatingWhatsApp() {
   const [tooltipVisible, setTooltipVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
 
-  const { service, locality, city } = resolveContext(pathname);
+  // The kitchen registry is large, so it is fetched only on kitchen pages
+  const [kitchenEntries, setKitchenEntries] = useState<readonly KitchenEntry[]>([]);
+  const isKitchenPath = pathname.startsWith("/modular-kitchen-");
+  useEffect(() => {
+    if (!isKitchenPath) return;
+    let cancelled = false;
+    void import("@/lib/registry/kitchen-locality-registry.ts").then((m) => {
+      if (!cancelled) setKitchenEntries(m.MODULAR_KITCHEN_LOCALITY_REGISTRY);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [isKitchenPath]);
+
+  const { service, locality, city } = resolveContext(pathname, kitchenEntries);
   const config = getWhatsAppConfig(service);
   const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
     config.getInitialText({ locality, city })

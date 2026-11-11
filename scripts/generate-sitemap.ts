@@ -1,9 +1,12 @@
-import { CORE_PAGES, type SitemapEntry } from "../src/lib/sitemap-registry.ts";
+import { CORE_PAGES, EXPLICIT_LASTMOD_DATE, EXPLICIT_LASTMOD_PATHS, type SitemapEntry } from "../src/lib/sitemap-registry.ts";
 import { ALL_BLOG_POSTS } from "../src/lib/blog-data.ts";
 import { getAllSlugsForSitemap, getPageBySlug } from "../src/lib/seo-pages/registry.ts";
 import { generatePages } from "../src/lib/registry/generate-pages.ts";
+import { CANONICAL_OVERRIDES } from "../src/lib/seoConfigs/canonical-overrides.ts";
+import { KITCHEN_BLOG_REGISTRY } from "../src/lib/registry/kitchen-blog-registry.ts";
 import { writeFileSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { createHash } from "node:crypto";
 
 // Step 1 — Build all entries
 
@@ -78,21 +81,32 @@ const kitchenPhase1Entries: SitemapEntry[] = [
   { slug: "home-interiors-delhi",              priority: "0.7", changefreq: "monthly", category: "seo" },
 ];
 
-const allEntriesRaw: SitemapEntry[] = [...CORE_PAGES, ...blogEntries, ...seoEntries, ...registryEntries, ...kitchenPhase1Entries];
+// New service hubs (CREATE list in service-hub/_lib/hub-config.ts). They render via the hub
+// template but are not in any registry, so they must be listed here.
+const NEW_HUB_SLUGS = ["sofa-repair-north-delhi","sofa-repair-central-delhi","sofa-upholstery-ghaziabad","sofa-upholstery-south-delhi","sofa-upholstery-west-delhi","sofa-upholstery-east-delhi","sofa-upholstery-central-delhi","sofa-upholstery-dwarka","recliner-repair-north-delhi","recliner-repair-east-delhi","recliner-repair-central-delhi","furniture-repair-north-delhi","furniture-repair-central-delhi"];
+const newHubEntries: SitemapEntry[] = NEW_HUB_SLUGS.map((slug) => ({ slug, priority: "0.8", changefreq: "weekly", category: "seo" }));
+
+const allEntriesRaw: SitemapEntry[] = [...CORE_PAGES, ...blogEntries, ...seoEntries, ...registryEntries, ...kitchenPhase1Entries, ...newHubEntries];
 
 // Sitemap-only exclusion: FurniRevive has no service partners in Chandigarh, Mohali,
 // or Panchkula markets. Pages, routes, and content are NOT deleted — only omitted
 // from the generated sitemap until these markets are activated.
 // "tricity" covers the two hardcoded Phase 1 hub/partner entries that target this region.
 // Do NOT change the existing Path-A modular-kitchen exclusion or dedup logic below.
-const TRICITY_EXCLUDED = ["chandigarh", "mohali", "panchkula", "tricity"];
+const TRICITY_EXCLUDED = ["chandigarh", "mohali", "panchkula", "tricity", "zirakpur"];
 
 // Deduplicate by canonical URL — keep first occurrence, discard later duplicates.
 // This handles cross-registry overlaps within the kitchen cluster (Path B ∩ Path C)
 // without modifying any registry or generation logic.
+// Kitchen pages and kitchen blog guides are excluded from the sitemap (noindexed separately).
+const KITCHEN_BLOG_SLUGS = new Set(KITCHEN_BLOG_REGISTRY.map((b) => `blog/${b.slug}`));
+const isKitchenSlug = (slug: string) => slug.includes("kitchen") || KITCHEN_BLOG_SLUGS.has(slug.trim().toLowerCase().replace(/^\/+|\/+$/g, ""));
 const _seenUrls = new Set<string>();
 const allEntries: SitemapEntry[] = allEntriesRaw.filter((e) => {
   if (TRICITY_EXCLUDED.some((term) => e.slug.includes(term))) return false;
+  if (isKitchenSlug(e.slug)) return false;
+  // Duplicate locality URLs canonicalise to their twin, so they stay out of the sitemap
+  if (e.slug.trim().toLowerCase().replace(/^\/+|\/+$/g, "") in CANONICAL_OVERRIDES) return false;
   const url = `https://furnirevive.com/${e.slug.trim().toLowerCase().replace(/^\/+|\/+$/g, "")}`;
   if (_seenUrls.has(url)) return false;
   _seenUrls.add(url);
@@ -193,26 +207,69 @@ function loadExistingLastmods(sitemapPath: string): Map<string, string> {
   return map;
 }
 
-function buildXml(entries: SitemapEntry[]): string {
+// ── Content-hash based lastmod ──────────────────────────────────────────────
+// lastmod only moves when a page's registry data really changes. State is committed in
+// src/lib/sitemap-lastmod.json as { [url]: { hash, lastmod } }.
+type LastmodState = Record<string, { hash: string; lastmod: string }>;
+const LASTMOD_PATH = resolve(import.meta.dirname ?? ".", "../src/lib/sitemap-lastmod.json");
+
+function loadLastmodState(): LastmodState {
+  try {
+    return JSON.parse(readFileSync(LASTMOD_PATH, "utf-8")) as LastmodState;
+  } catch {
+    return {};
+  }
+}
+
+const blogBySlug = new Map(ALL_BLOG_POSTS.map((p) => [`blog/${p.slug}`, p]));
+const registryBySlug = new Map(registryPages.map((p) => [p.urlPath.replace(/^\//, ""), p]));
+
+// Page data that drives visible content: title, meta, H1, body blocks, FAQs, links, image alt.
+function contentFor(slug: string): unknown {
+  return blogBySlug.get(slug) ?? getPageBySlug(slug) ?? registryBySlug.get(slug) ?? { slug };
+}
+
+function hashContent(slug: string): string {
+  return createHash("sha1").update(JSON.stringify(contentFor(slug))).digest("hex").slice(0, 16);
+}
+
+function buildXml(entries: SitemapEntry[]): { xml: string; state: LastmodState; kept: number; updated: number } {
   const today = new Date().toISOString().split("T")[0];
   const sitemapPath = resolve(import.meta.dirname ?? ".", "../public/sitemap.xml");
   const existingLastmods = loadExistingLastmods(sitemapPath);
+  const prev = loadLastmodState();
+  const state: LastmodState = {};
+  let kept = 0;
+  let updated = 0;
 
   const urls = entries
     .map((e) => {
       const url = toCanonicalUrl(e.slug);
-      // Priority order:
-      // 1. explicit lastmod on the entry
-      // 2. lastmod from the existing sitemap for this URL
-      // 3. today (fallback for new URLs)
-      const lastmod = e.lastmod ?? existingLastmods.get(url) ?? today;
+      const slug = e.slug.trim().toLowerCase().replace(/^\/+|\/+$/g, "");
+      const hash = hashContent(slug);
+      const before = prev[url];
+      // Priority: 1. explicit entry lastmod, 2. unchanged hash keeps stored date,
+      // 3. first run seeds from the existing sitemap, 4. changed or new page gets today.
+      let lastmod: string;
+      const path = url.slice(BASE_URL.length) || "/";
+      if (e.lastmod) lastmod = e.lastmod;
+      else if (EXPLICIT_LASTMOD_PATHS.has(path)) lastmod = EXPLICIT_LASTMOD_DATE;
+      else if (before && before.hash === hash) lastmod = before.lastmod;
+      else if (!before && existingLastmods.has(url)) lastmod = existingLastmods.get(url) as string;
+      else lastmod = today;
+      if (before || existingLastmods.has(url)) {
+        if (lastmod === today && existingLastmods.get(url) !== today) updated++; else kept++;
+      } else updated++;
+      state[url] = { hash, lastmod };
       return `  <url><loc>${url}</loc><changefreq>${e.changefreq}</changefreq><priority>${e.priority}</priority><lastmod>${lastmod}</lastmod></url>`;
     })
     .join("\n");
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n\n${urls}\n\n</urlset>\n`;
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n\n${urls}\n\n</urlset>\n`;
+  return { xml, state, kept, updated };
 }
 
-const xml = buildXml(sorted);
+const built = buildXml(sorted);
+const xml = built.xml;
 
 // Step 6 — Write XML or output to stdout
 
@@ -241,6 +298,8 @@ if (process.argv.includes("--check")) {
 // Step 6 — Write XML
 
 writeFileSync(outputPath, xml, "utf-8");
+writeFileSync(LASTMOD_PATH, JSON.stringify(built.state, null, 1) + "\n", "utf-8");
+console.log(`  lastmod kept: ${built.kept}, updated to today: ${built.updated}`);
 
 // Step 7 — Print summary
 

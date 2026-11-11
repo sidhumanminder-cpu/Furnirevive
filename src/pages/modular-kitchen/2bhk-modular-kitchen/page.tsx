@@ -1,5 +1,6 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { PhoneCall, MessageCircle, CheckCircle2, ChevronRight, ArrowUpRight, LayoutGrid, IndianRupee, Layers, Home, Grid2x2 } from "lucide-react";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";
 import { MODULAR_KITCHEN_LAYOUT_REGISTRY } from "@/lib/registry/kitchen-layout-registry.ts";
@@ -110,7 +111,7 @@ export default function TwoBHKModularKitchenPage() {
     }
     link.href = CANONICAL;
     // JSON-LD structured data
-    document.querySelectorAll('script[data-kitchen-jsonld]').forEach((el) => el.remove());
+    document.querySelectorAll('script[data-kitchen-jsonld]').forEach((el) => removeUnowned(el));
     SCHEMAS.forEach((schema) => {
       const script = document.createElement("script") as HTMLScriptElement;
       script.type = "application/ld+json";
@@ -119,7 +120,7 @@ export default function TwoBHKModularKitchenPage() {
       document.head.appendChild(script);
     });
     return () => {
-      document.querySelectorAll('script[data-kitchen-jsonld]').forEach((el) => el.remove());
+      document.querySelectorAll('script[data-kitchen-jsonld]').forEach((el) => removeUnowned(el));
     };
   }, []);
 

@@ -105,7 +105,7 @@ export const SOUTH_DELHI_AUTHORITY_P5: SeoPageData[] = [
     ],
 
     trustSignals: [
-      `Rated 4.9/5 across 600+ verified reviews from South Delhi residents including New Friends Colony, Greater Kailash, Defence Colony, and Hauz Khas`,
+      `Trusted by hundreds of South Delhi residents including New Friends Colony, Greater Kailash, Defence Colony, and Hauz Khas`,
       `6-month workmanship warranty on every repair — documented in writing on your service receipt`,
       `Trusted by diplomatic community members, senior IAS and IFS officers, and CEOs with residences in New Friends Colony`,
       `Specialist experience with 25+ imported furniture brands including Natuzzi, Poltrona Frau, Cassina, B&B Italia, Fritz Hansen, and Carl Hansen & Son`,
@@ -194,7 +194,7 @@ export const SOUTH_DELHI_AUTHORITY_P5: SeoPageData[] = [
       "40+ fabric swatches and three foam grades selected in your living room",
       "Antique and heirloom furniture treated with conservation-first methodology",
       "Imported recliner mechanisms and premium sofa frames repaired, not jury-rigged",
-      "4.9-star rated service across South Delhi built on hundreds of completed premium repairs",
+      "Trusted service across South Delhi built on hundreds of completed premium repairs",
       "Full wooden furniture polishing and French polish restoration available",
       "Post-repair care guide personalised to your furniture material",
     ],

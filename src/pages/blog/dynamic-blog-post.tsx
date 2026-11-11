@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams } from "@/lib/router-compat.tsx";
 import BlogPostTemplate from "@/components/blog-post-template.tsx";
 import { getBlogPostBySlug } from "@/lib/blog-data.ts";
 import NotFound from "@/pages/NotFound.tsx";

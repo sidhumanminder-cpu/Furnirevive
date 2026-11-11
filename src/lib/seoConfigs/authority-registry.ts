@@ -13,7 +13,7 @@
  */
 
 import type { SeoServiceKey } from "./service-config.ts";
-import { ALL_SEO_PAGES } from "../seo-pages/registry.ts";
+import { allSeoSlugs } from "../seo-pages/slug-index.ts";
 
 export type AuthorityTier = 1 | 2 | 3 | 4 | 5;
 
@@ -1149,7 +1149,7 @@ const VALID_LINK_ROLES = new Set<string>(["hub", "commercial", "supporting", "lo
 /** DEV-only registry health check. Throws on hard errors; warns on soft issues. */
 export function validateRegistry(): void {
   const records = Object.values(AUTHORITY_REGISTRY);
-  const allPageSlugs = new Set(ALL_SEO_PAGES.map((p: { slug: string }) => p.slug));
+  const allPageSlugs = new Set(allSeoSlugs());
 
   // ── Hard error checks ────────────────────────────────────────────────────
   const duplicateSlugs: string[] = [];

@@ -86,6 +86,17 @@ describe("formatH1", () => {
       "Recliner Repair in Sector 56",
     );
   });
+
+  it("appends the city for bare sector names", () => {
+    expect(formatH1("Sofa Repair", "Sector 49", "Gurgaon")).toBe(
+      "Sofa Repair in Sector 49, Gurgaon",
+    );
+  });
+
+  it("keeps named localities and city-containing names unchanged", () => {
+    expect(formatH1("Sofa Repair", "DLF Phase 1", "Gurgaon")).toBe("Sofa Repair in DLF Phase 1");
+    expect(formatH1("Sofa Repair", "Sector 5 Gurgaon", "Gurgaon")).toBe("Sofa Repair in Sector 5 Gurgaon");
+  });
 });
 
 // ─── formatHeroSubtitle ──────────────────────────────────────────────────────

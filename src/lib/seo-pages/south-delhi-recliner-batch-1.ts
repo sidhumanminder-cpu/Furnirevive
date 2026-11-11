@@ -245,7 +245,7 @@ const reclineRepairGreaterKailash: SeoPageData = {
       { service: "Full Recliner Reupholstery", price: "₹8,000–₹20,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Talk to a Recliner Specialist Today", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service"],
   testimonials: [
     {
@@ -511,7 +511,7 @@ const reclineRepairDefenceColony: SeoPageData = {
       { service: "Full Recliner Reupholstery", price: "₹8,000–₹20,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Talk to a Recliner Specialist Today", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service"],
   testimonials: [
     {
@@ -777,7 +777,7 @@ const reclineRepairGreenPark: SeoPageData = {
       { service: "Full Recliner Reupholstery", price: "₹8,000–₹20,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Talk to a Recliner Specialist Today", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service"],
   testimonials: [
     {
@@ -1043,7 +1043,7 @@ const reclineRepairHauzKhas: SeoPageData = {
       { service: "Full Recliner Reupholstery", price: "₹8,000–₹20,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Talk to a Recliner Specialist Today", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service"],
   testimonials: [
     {
@@ -1309,7 +1309,7 @@ const reclineRepairSouthExtension: SeoPageData = {
       { service: "Full Recliner Reupholstery", price: "₹8,000–₹20,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Talk to a Recliner Specialist Today", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service"],
   testimonials: [
     {

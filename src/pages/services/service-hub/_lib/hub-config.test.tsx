@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { renderToString } from "react-dom/server";
-import { MemoryRouter } from "react-router-dom";
+import { MemoryRouter } from "@/lib/router-compat.tsx";
 import { buildFaqs, buildHubSchema } from "../_components/HubSections.tsx";
 import ProtectedHubGrid from "../_components/ProtectedHubGrid.tsx";
 import {
@@ -74,7 +74,9 @@ describe("hub locality grouping", () => {
     expect(target).toBeDefined();
     if (!target) return;
     const clusters = groupByCluster(getHubLocalities(target.service, target.area)).map((g) => g.cluster);
-    expect(clusters).toEqual(expect.arrayContaining(["noidaSectors", "greaterNoida", "indirapuram", "greaterNoidaWest"]));
+    expect(clusters).toEqual(expect.arrayContaining(["noidaSectors", "greaterNoida", "greaterNoidaWest"]));
+    // Indirapuram and the Ghaziabad townships are Ghaziabad localities, not Noida
+    expect(clusters).not.toContain("indirapuram");
   });
 });
 
@@ -86,7 +88,8 @@ describe("hub schema", () => {
     const business = buildHubSchema(target, buildFaqs(target))["@graph"][0];
     expect(JSON.stringify(business)).toContain("from ₹1,499");
     expect(JSON.stringify(business)).not.toContain("₹599");
-    expect(JSON.stringify(business)).toContain("Gurugram");
+    expect(business).not.toHaveProperty("address");
+    expect(business).not.toHaveProperty("geo");
   });
 });
 

@@ -1,7 +1,8 @@
 import { useState, useEffect, useCallback } from "react";
 import { X, Star } from "lucide-react";
-import { motion, AnimatePresence } from "motion/react";
-import { useLocation } from "react-router-dom";
+import { motion } from "motion/react";
+import { AnimatePresence } from "@/components/visible-before-hydration.tsx";
+import { useLocation } from "@/lib/router-compat.tsx";
 import { useServiceContext } from "@/hooks/use-service-context.ts";
 import { getMarketFromPathname } from "@/lib/registry/market-registry.ts";
 

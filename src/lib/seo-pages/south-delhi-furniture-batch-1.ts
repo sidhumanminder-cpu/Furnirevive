@@ -81,7 +81,7 @@ const furnitureRepairGreaterKailash: SeoPageData = {
     "Craftsmen trained in Italian leather, teak, rosewood, and premium upholstery",
     "Same-day confirmation with technician profile and ETA via WhatsApp",
     "Transparent flat-rate pricing confirmed before a single stitch is touched",
-    "4.8-star rated service built on thousands of completed repairs across Delhi",
+    "Trusted service built on thousands of completed repairs across Delhi",
     "40+ fabric swatches selected in your living room — no waiting for material delivery",
     "High-resilience foam replacement eliminates permanent sagging for 8–12 years",
     "Spring and frame repairs restore structural integrity, not just surface appearance",
@@ -241,7 +241,7 @@ const furnitureRepairGreaterKailash: SeoPageData = {
       { service: "Full Sofa Reupholstery", price: "₹8,000–₹25,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Background-Verified Craftsmen", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Background-Verified Craftsmen", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Home Visit", "Request a Free Estimate", "Talk to a Repair Specialist Today", "Restore Your Furniture Without Replacing It", "Schedule Fast Doorstep Service"],
   testimonials: [
     {
@@ -270,7 +270,7 @@ const furnitureRepairGreaterKailash: SeoPageData = {
 
 const furnitureRepairDefenceColony: SeoPageData = {
   slug: "furniture-repair-defence-colony",
-  title: "Furniture Repair Defence Colony – Doorstep Service Near Me",
+  title: "Furniture Repair in Defence Colony | Doorstep Service",
   metaDescription: "Furniture repair in Defence Colony from ₹599. Sofa, chair, wooden furniture & antique restoration for independent homes. Free visit, same day. Call now!",
   h1: "Furniture Repair in Defence Colony – Expert Restoration for South Delhi Homes",
   heroSubtitle: "Sofa repair, wooden furniture restoration, chair upholstery, antique care, and complete furniture maintenance for Defence Colony's independent homes. Free home visit. 6-month warranty.",
@@ -503,7 +503,7 @@ const furnitureRepairDefenceColony: SeoPageData = {
       { service: "Full Sofa Reupholstery", price: "₹8,000–₹25,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Background-Verified Craftsmen", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Background-Verified Craftsmen", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Home Visit", "Request a Free Estimate", "Talk to a Repair Specialist Today", "Restore Your Furniture Without Replacing It", "Schedule Fast Doorstep Service"],
   testimonials: [
     {
@@ -532,7 +532,7 @@ const furnitureRepairDefenceColony: SeoPageData = {
 
 const furnitureRepairGreenPark: SeoPageData = {
   slug: "furniture-repair-green-park",
-  title: "Furniture Repair Green Park – Doorstep Service | FurniRevive",
+  title: "Furniture Repair in Green Park – Doorstep Service | FurniRevive",
   metaDescription: "Furniture repair in Green Park from ₹599. Sofa, chair, upholstery & wooden furniture at home in Green Park & Green Park Extension. Free visit. Call now!",
   h1: "Furniture Repair in Green Park – Expert Doorstep Service for Modern Apartments",
   heroSubtitle: "Sofa repair, chair upholstery, recliner servicing, wooden furniture repair, and complete furniture maintenance for Green Park and Green Park Extension apartments. Free home visit. Same-day available.",
@@ -763,7 +763,7 @@ const furnitureRepairGreenPark: SeoPageData = {
       { service: "Full Sofa Reupholstery", price: "₹8,000–₹25,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Background-Verified Craftsmen", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Background-Verified Craftsmen", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Home Visit", "Request a Free Estimate", "Talk to a Repair Specialist Today", "Restore Your Furniture Without Replacing It", "Schedule Fast Doorstep Service"],
   testimonials: [
     {
@@ -1025,7 +1025,7 @@ const furnitureRepairHauzKhas: SeoPageData = {
       { service: "Full Sofa Reupholstery", price: "₹8,000–₹25,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Background-Verified Craftsmen", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Background-Verified Craftsmen", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Home Visit", "Request a Free Estimate", "Talk to a Repair Specialist Today", "Restore Your Furniture Without Replacing It", "Schedule Fast Doorstep Service"],
   testimonials: [
     {
@@ -1286,7 +1286,7 @@ const furnitureRepairSouthExtension: SeoPageData = {
       { service: "Full Sofa Reupholstery", price: "₹8,000–₹25,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Background-Verified Craftsmen", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Background-Verified Craftsmen", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Home Visit", "Request a Free Estimate", "Talk to a Repair Specialist Today", "Restore Your Furniture Without Replacing It", "Schedule Fast Doorstep Service"],
   testimonials: [
     {

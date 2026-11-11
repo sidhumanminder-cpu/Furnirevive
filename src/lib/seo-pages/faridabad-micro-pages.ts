@@ -15,7 +15,7 @@ const FARIDABAD_RELATED = [
 export const sofaRepairNeharparFaridabad: SeoPageData = {
   slug: "sofa-repair-neharpar-faridabad",
 
-  title: "Sofa Repair Neharpar Faridabad | ₹500 Near Me Home Service",
+  title: "Sofa Repair in Neharpar Faridabad | ₹500 Home Service",
 
   metaDescription:
     "Sofa repair near me in Neharpar Greater Faridabad from ₹500. BPTP, Omaxe, SRS Residency, Sector 75–89.",
@@ -202,7 +202,7 @@ export const sofaRepairNeharparFaridabad: SeoPageData = {
 export const furnitureRepairNitFaridabad: SeoPageData = {
   slug: "furniture-repair-nit-faridabad",
 
-  title: "Furniture Repair NIT Faridabad | ₹599 Near Me Doorstep Service",
+  title: "Furniture Repair in NIT Faridabad | ₹599 Doorstep Service",
 
   metaDescription:
     "Furniture repair near me in NIT Faridabad from ₹599. Sector 1–31, Greenfield Colony covered. Sofa, wardrobe, bed, wooden furniture & dining table repair.",
@@ -387,7 +387,7 @@ export const furnitureRepairNitFaridabad: SeoPageData = {
 export const chairRepairFaridabad: SeoPageData = {
   slug: "chair-repair-faridabad",
 
-  title: "Chair Repair Faridabad | Office & Dining Near Me | From ₹499",
+  title: "Chair Repair in Faridabad | Office & Dining | From ₹499",
 
   metaDescription:
     "Chair repair near me in Faridabad from ₹499. Office chair, revolving chair & dining chair repair at home. Recliner chair repair near me.",

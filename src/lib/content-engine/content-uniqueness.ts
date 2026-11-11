@@ -149,14 +149,14 @@ type BadgeSet = readonly { label: string; icon: "star" | "clock" | "shield" | "a
 
 const BADGE_SETS: BadgeSet[] = [
   [
-    { label: "4.8 Star Rated", icon: "star" },
+    { label: "Trusted by Customers", icon: "star" },
     { label: "Same-Day Service", icon: "clock" },
     { label: "6-Month Warranty", icon: "shield" },
     { label: "10,000+ Repairs Done", icon: "award" },
   ],
   [
     { label: "Doorstep Repair", icon: "wrench" },
-    { label: "Starting ₹599", icon: "tag" },
+    { label: "Starting ₹500", icon: "tag" },
     { label: "6-Month Warranty", icon: "shield" },
     { label: "Expert Craftsmen", icon: "award" },
   ],
@@ -167,9 +167,9 @@ const BADGE_SETS: BadgeSet[] = [
     { label: "10,000+ Repairs Done", icon: "award" },
   ],
   [
-    { label: "4.8 Star Rated", icon: "star" },
+    { label: "Trusted by Customers", icon: "star" },
     { label: "Doorstep Repair", icon: "wrench" },
-    { label: "Starting ₹599", icon: "tag" },
+    { label: "Starting ₹500", icon: "tag" },
     { label: "6-Month Warranty", icon: "shield" },
   ],
   [
@@ -182,7 +182,7 @@ const BADGE_SETS: BadgeSet[] = [
     { label: "10,000+ Repairs Done", icon: "award" },
     { label: "Transparent Pricing", icon: "tag" },
     { label: "Doorstep Repair", icon: "wrench" },
-    { label: "4.8 Star Rated", icon: "star" },
+    { label: "Trusted by Customers", icon: "star" },
   ],
 ];
 
@@ -208,7 +208,7 @@ const UNIQUE_SENTENCES: ((svc: string, loc: string) => string)[] = [
   (_svc, loc) =>
     `Over 70% of our ${loc} customers tell us they wish they had called for repair sooner instead of living with the damage.`,
   (svc, loc) =>
-    `${loc} residents consistently rate our ${svc} 4.8 out of 5 stars for quality and professionalism.`,
+    `${loc} residents consistently trust our ${svc} for quality and professionalism.`,
   (_svc, loc) =>
     `Our craftsmen arrive with 200+ hardware items, 400+ fabric swatches, and professional tools — fully equipped for any ${loc} repair.`,
   (svc, loc) =>

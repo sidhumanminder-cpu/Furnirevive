@@ -1,0 +1,30 @@
+import { createFileRoute } from "@tanstack/react-router";
+import ModularKitchenCostGurgaonPage from "@/pages/modular-kitchen/cost-gurgaon/page.tsx";
+
+export const Route = createFileRoute("/modular-kitchen-cost-gurgaon/")({
+  head: () => ({
+    meta: [
+      { title: "Modular Kitchen Cost in Gurgaon 2025 — Complete Pricing Guide | FurniRevive" },
+      { name: "description", content: "Modular kitchen cost in Gurgaon: ₹1.2L–₹8L+ depending on size, material and layout. Get accurate quotes for DLF, Golf Course Road, Sohna Road homes. Free design consultation." },
+      { name: "keywords", content: "modular kitchen, modular kitchen cost gurgaon, modular kitchen price gurgaon" },
+      { name: "twitter:description", content: "Modular kitchen cost in Gurgaon: ₹1.2L–₹8L+ depending on size, material and layout. Get accurate quotes for DLF, Golf Course Road, Sohna Road homes. Free design consultation." },
+      { name: "twitter:image", content: "https://hercules-cdn.com/file_KMOy57N0vDd7uAhUDb78XKmT" },
+      { name: "twitter:title", content: "Modular Kitchen Cost in Gurgaon 2025 — Complete Pricing Guide | FurniRevive" },
+      { property: "og:title", content: "Modular Kitchen Cost in Gurgaon 2025 — Complete Pricing Guide | FurniRevive" },
+      { property: "og:description", content: "Modular kitchen cost in Gurgaon: ₹1.2L–₹8L+ depending on size, material and layout. Get accurate quotes for DLF, Golf Course Road, Sohna Road homes. Free design consultation." },
+      { property: "og:image", content: "https://hercules-cdn.com/file_KMOy57N0vDd7uAhUDb78XKmT" },
+      { property: "og:url", content: "https://furnirevive.com/modular-kitchen-cost-gurgaon" },
+      { property: "og:site_name", content: "FurniRevive" },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://furnirevive.com#business", "name": "FurniRevive", "telephone": "+919217999355", "url": "https://furnirevive.com", "priceRange": "₹500–₹25,000", "areaServed": [{ "@type": "City", "name": "Delhi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Delhi" } }, { "@type": "City", "name": "Gurgaon", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Faridabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Ghaziabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Greater Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Kaushambi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Vasundhara", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Chandigarh", "containedInPlace": { "@type": "AdministrativeArea", "name": "Chandigarh" } }, { "@type": "City", "name": "Mohali", "containedInPlace": { "@type": "AdministrativeArea", "name": "Punjab" } }, { "@type": "City", "name": "Panchkula", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://furnirevive.com/" }, { "@type": "ListItem", "position": 2, "name": "Modular Kitchen", "item": "https://furnirevive.com/modular-kitchen" }, { "@type": "ListItem", "position": 3, "name": "Gurgaon Kitchen Cost", "item": "https://furnirevive.com/modular-kitchen-cost-gurgaon" }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "How much does a modular kitchen cost in Gurgaon?", "acceptedAnswer": { "@type": "Answer", "text": "A modular kitchen in Gurgaon typically costs between ₹1.2 lakh and ₹8 lakh depending on the size, material, layout, and hardware brand. Budget laminate kitchens start at ₹1.2L, mid-range acrylic kitchens range from ₹2.5L–₹5L, and premium PU or glass kitchens with imported hardware can go up to ₹12L+." } }, { "@type": "Question", "name": "Is Gurgaon more expensive than Delhi for modular kitchens?", "acceptedAnswer": { "@type": "Answer", "text": "Labour costs in Gurgaon are marginally higher than Delhi (typically 8–12% more) due to higher living costs. However, material costs are similar. The difference on a complete kitchen project is usually ₹15,000–₹30,000." } }, { "@type": "Question", "name": "Which areas of Gurgaon does FurniRevive serve?", "acceptedAnswer": { "@type": "Answer", "text": "FurniRevive serves all of Gurgaon including DLF Phases 1–5, Golf Course Road, Golf Course Extension, Sushant Lok, Sohna Road, Palam Vihar, Nirvana Country, Vatika City, and all Dwarka Expressway sectors." } }, { "@type": "Question", "name": "How long does modular kitchen installation take in Gurgaon?", "acceptedAnswer": { "@type": "Answer", "text": "A standard modular kitchen installation in Gurgaon takes 10–15 working days including site measurement, manufacturing, delivery, and installation. Complex layouts with islands may take 18–20 days." } }, { "@type": "Question", "name": "What hardware brands are used in Gurgaon installations?", "acceptedAnswer": { "@type": "Answer", "text": "FurniRevive uses Hettich, Hafele, or Blum hardware depending on your budget. Hettich is standard for mid-range kitchens, Hafele for premium, and Blum for luxury installs." } }, { "@type": "Question", "name": "Do you offer a warranty on modular kitchens in Gurgaon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. All FurniRevive modular kitchen installations in Gurgaon come with a 10-year warranty on the carcass and shutters, and a 1-year warranty on hardware and fittings." } }] } },
+    ] as Array<Record<string, unknown>>,
+  }),
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  return (
+    <ModularKitchenCostGurgaonPage />
+  );
+}

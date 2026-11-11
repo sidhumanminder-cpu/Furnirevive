@@ -1,5 +1,6 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import {
   Calendar,
@@ -42,6 +43,22 @@ export default function BlogListingPage() {
         "content",
         "Expert furniture repair tips, cost guides, and DIY advice for Delhi NCR homeowners. Learn about sofa repair, chair fixing, upholstery costs, and more from FurniRevive."
       );
+
+    const breadcrumbScript = document.createElement("script");
+    breadcrumbScript.type = "application/ld+json";
+    breadcrumbScript.dataset.schema = "blog-index-breadcrumb";
+    breadcrumbScript.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://furnirevive.com/" },
+        { "@type": "ListItem", position: 2, name: "Blog", item: "https://furnirevive.com/blog" },
+      ],
+    });
+    document.head.appendChild(breadcrumbScript);
+    return () => {
+      removeUnowned(breadcrumbScript);
+    };
   }, []);
 
   return (

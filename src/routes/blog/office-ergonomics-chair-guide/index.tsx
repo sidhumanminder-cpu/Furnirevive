@@ -1,0 +1,22 @@
+import { createFileRoute } from "@tanstack/react-router";
+import OfficeErgonomicsChairGuidePost from "@/pages/blog/office-ergonomics-chair-guide.tsx";
+
+export const Route = createFileRoute("/blog/office-ergonomics-chair-guide/")({
+  head: () => ({
+    meta: [
+      { title: "Office Ergonomics: How Chair Repair Improves Employee Health | FurniRevive" },
+      { name: "description", content: "Learn how proper office chair maintenance and repair reduces back pain, improves productivity, and lowers healthcare costs for corporates in Delhi NCR." },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://furnirevive.com#business", "name": "FurniRevive", "telephone": "+919217999355", "url": "https://furnirevive.com", "priceRange": "₹500–₹25,000", "areaServed": [{ "@type": "City", "name": "Delhi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Delhi" } }, { "@type": "City", "name": "Gurgaon", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Faridabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Ghaziabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Greater Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Kaushambi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Vasundhara", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Chandigarh", "containedInPlace": { "@type": "AdministrativeArea", "name": "Chandigarh" } }, { "@type": "City", "name": "Mohali", "containedInPlace": { "@type": "AdministrativeArea", "name": "Punjab" } }, { "@type": "City", "name": "Panchkula", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "Article", "headline": "Office Ergonomics: How Chair Repair Improves Employee Health", "description": "Learn how proper office chair maintenance and repair reduces back pain, improves productivity, and lowers healthcare costs for corporates in Delhi NCR.", "image": "", "datePublished": "2026-05-18", "dateModified": "2026-07-21", "author": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "publisher": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://furnirevive.com/blog/office-ergonomics-chair-guide" } } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "How does chair repair reduce back pain?", "acceptedAnswer": { "@type": "Answer", "text": "Restoring proper lumbar support, seat height adjustment, and recline function ensures the spine maintains its natural curve, reducing disc pressure and muscle strain by up to 40%." } }, { "@type": "Question", "name": "Can you provide ergonomic assessment reports?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we provide detailed ergonomic audit reports covering each workstation's chair condition, employee-reported issues, and prioritized repair recommendations." } }, { "@type": "Question", "name": "Do you work with corporate HR teams?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we regularly partner with HR and EHS teams to implement ergonomics programs, provide health & safety documentation, and support wellness initiatives." } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://furnirevive.com/" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://furnirevive.com/blog" }, { "@type": "ListItem", "position": 3, "name": "Office Ergonomics: How Chair Repair Improves Employee Health", "item": "https://furnirevive.com/blog/office-ergonomics-chair-guide" }] } },
+    ] as Array<Record<string, unknown>>,
+  }),
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  return (
+    <OfficeErgonomicsChairGuidePost />
+  );
+}

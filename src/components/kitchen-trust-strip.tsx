@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation } from "@/lib/router-compat.tsx";
 
 const TRUST_ITEMS = [
   "Free Design Consultation",

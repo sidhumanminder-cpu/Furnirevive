@@ -39,7 +39,7 @@ const reclinerRepairNewFriendsColony: SeoPageData = {
     {
       title: "At-Home Service, Zero Hassle",
       description:
-        "We come to your residence in New Friends Colony — no dismantling, no transport risk, no workshop waiting times. Most repairs are completed in 60–90 minutes at your home, so your recliner is back in use the same day.",
+        "We come to your residence in New Friends Colony — no dismantling, no transport risk, no workshop waiting times. Most repairs are completed in 2–4 hours at your home, so your recliner is back in use the same day.",
     },
     {
       title: "Genuine & OEM-Compatible Parts",
@@ -346,7 +346,7 @@ const reclinerRepairNewFriendsColony: SeoPageData = {
     "Same-day service available in New Friends Colony",
     "Genuine & OEM-compatible parts — no cheap substitutes",
     "Transparent written estimates before any work begins",
-    "4.9★ average rating from South Delhi clients",
+    "Trusted by South Delhi clients",
   ],
 
   freshness: "Last verified: June 2026",
@@ -376,7 +376,7 @@ const reclinerRepairNewFriendsColony: SeoPageData = {
     {
       question: "My recliner is stuck in the reclined position — how quickly can you fix it?",
       answer:
-        "We offer same-day service in New Friends Colony for calls placed before 2 PM. An actuator motor failure — the most common cause of a recliner stuck in the reclined position — is typically repaired within 60–90 minutes at your home. If parts need to be sourced, we can temporarily reset the chair to an upright position on the first visit. See [recliner motor repair Delhi](/recliner-motor-repair-delhi) for details.",
+        "We offer same-day service in New Friends Colony for calls placed before 2 PM. An actuator motor failure — the most common cause of a recliner stuck in the reclined position — is typically repaired within 2–4 hours at your home. If parts need to be sourced, we can temporarily reset the chair to an upright position on the first visit. See [recliner motor repair Delhi](/recliner-motor-repair-delhi) for details.",
     },
     {
       question: "Can you repair cracked and peeling Italian leather on my recliner?",

@@ -1,0 +1,22 @@
+import { createFileRoute } from "@tanstack/react-router";
+import HydraulicCylinderRepairOfficeChairPost from "@/pages/blog/hydraulic-cylinder-repair-office-chair.tsx";
+
+export const Route = createFileRoute("/blog/hydraulic-cylinder-repair-office-chair/")({
+  head: () => ({
+    meta: [
+      { title: "Office Chair Hydraulic Cylinder Repair vs Replacement Guide | FurniRevive" },
+      { name: "description", content: "Should you repair or replace your office chair hydraulic cylinder? Complete guide covering symptoms, costs, and when replacement is the only option. Delhi NCR." },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://furnirevive.com#business", "name": "FurniRevive", "telephone": "+919217999355", "url": "https://furnirevive.com", "priceRange": "₹500–₹25,000", "areaServed": [{ "@type": "City", "name": "Delhi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Delhi" } }, { "@type": "City", "name": "Gurgaon", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Faridabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Ghaziabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Greater Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Kaushambi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Vasundhara", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Chandigarh", "containedInPlace": { "@type": "AdministrativeArea", "name": "Chandigarh" } }, { "@type": "City", "name": "Mohali", "containedInPlace": { "@type": "AdministrativeArea", "name": "Punjab" } }, { "@type": "City", "name": "Panchkula", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "Article", "headline": "Office Chair Hydraulic Cylinder Repair vs Replacement Guide", "description": "Should you repair or replace your office chair hydraulic cylinder? Complete guide covering symptoms, costs, and when replacement is the only option. Delhi NCR.", "image": "", "datePublished": "2026-02-05", "dateModified": "2026-07-21", "author": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "publisher": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://furnirevive.com/blog/hydraulic-cylinder-repair-office-chair" } } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Is it worth repairing a hydraulic cylinder?", "acceptedAnswer": { "@type": "Answer", "text": "No. Repairs are temporary (3–6 months) and cost ₹600–₹1,000. A new cylinder costs ₹1,200–₹1,800 and lasts 3–5 years. Replacement is always better value." } }, { "@type": "Question", "name": "How do I know if my cylinder is hydraulic or pneumatic?", "acceptedAnswer": { "@type": "Answer", "text": "Most modern office chairs use gas (pneumatic) cylinders, not true hydraulic ones. The terms are used interchangeably in India. The repair approach is the same regardless." } }, { "@type": "Question", "name": "Can you replace cylinders for imported chairs?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we stock compatible cylinders for all major imported brands. For rare models, we can source OEM parts within 3–5 working days." } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://furnirevive.com/" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://furnirevive.com/blog" }, { "@type": "ListItem", "position": 3, "name": "Office Chair Hydraulic Cylinder Repair vs Replacement Guide", "item": "https://furnirevive.com/blog/hydraulic-cylinder-repair-office-chair" }] } },
+    ] as Array<Record<string, unknown>>,
+  }),
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  return (
+    <HydraulicCylinderRepairOfficeChairPost />
+  );
+}

@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import { useQuery } from "convex/react";
+import { Link } from "@/lib/router-compat.tsx";
+import { useQuery } from "@/lib/convex-query.ts";
 import { api } from "@/convex/_generated/api.js";
 import { motion } from "motion/react";
 import { Phone, MessageCircle, ArrowRight, Sparkles, IndianRupee, Clock } from "lucide-react";
@@ -11,6 +11,7 @@ import {
 } from "@/lib/seo-constants.ts";
 import { SERVICE_HUB_CONFIG } from "@/pages/services/service-hub/_lib/hub-config.ts";
 import { getRelatedLinks } from "@/lib/seoConfigs/cta-copy.ts";
+import { getLocalityInfo } from "@/lib/seoConfigs/localities.ts";
 
 type CaseStudyResult = {
   _id: string;
@@ -24,6 +25,7 @@ type CaseStudyResult = {
   solution: string;
   materialsUsed?: string;
   repairType?: string;
+  location: string;
   costMin: number;
   costMax: number;
   timeTaken: string;
@@ -34,7 +36,44 @@ const REPAIR_TYPE_LABELS: Record<string, string> = {
   recliner: "Recliner Repair",
 };
 
-function CaseBlock({ study, index, showTypeLabel }: { study: CaseStudyResult; index: number; showTypeLabel: boolean }) {
+const REPAIR_TYPE_ALT_NOUN: Record<string, string> = {
+  sofa: "Sofa repair",
+  recliner: "Recliner repair",
+  leather: "Leather sofa repair",
+  furniture: "Furniture repair",
+  upholstery: "Sofa upholstery",
+};
+
+/**
+ * Alt text that always names the area. Saved alt text is kept only when it already
+ * mentions the study's location; otherwise it is rebuilt at render time (saved data is untouched).
+ */
+/** Gallery alt for hub pages: names the card and the zone instead of the saved "after in Delhi NCR" text. */
+export function buildHubCaseAlt(heading: string, repairType: string | undefined, zone: string): string {
+  const noun = REPAIR_TYPE_ALT_NOUN[repairType ?? "sofa"] ?? "Sofa repair";
+  return `${heading} – ${noun.toLowerCase()} in ${zone}`;
+}
+
+export function buildCaseAlt(
+  study: Pick<CaseStudyResult, "location" | "repairType">,
+  saved: string,
+  stage: "before" | "after",
+  pageLabel: string,
+): string {
+  const location = study.location.trim();
+  if (location && saved.toLowerCase().includes(location.toLowerCase())) {
+    // Older saved text ends with a stray " Delhi"; drop it unless the study is actually in Delhi
+    return location.toLowerCase().includes("delhi") ? saved : saved.replace(/\s+Delhi$/i, "");
+  }
+  const place = location || pageLabel;
+  const noun = REPAIR_TYPE_ALT_NOUN[study.repairType ?? "sofa"] ?? "Sofa repair";
+  return `${noun} ${stage} in ${place}`;
+}
+
+export function CaseBlock({ study, index, showTypeLabel, pageLabel, altContext }: { study: CaseStudyResult; index: number; showTypeLabel: boolean; pageLabel: string; altContext?: string }) {
+  const hubAlt = altContext ? buildHubCaseAlt(study.heading, study.repairType, altContext) : null;
+  const altBefore = hubAlt ? `${hubAlt} (before)` : buildCaseAlt(study, study.altTextBefore, "before", pageLabel);
+  const altAfter = hubAlt ? `${hubAlt} (after)` : buildCaseAlt(study, study.altTextAfter, "after", pageLabel);
   const typeLabel = showTypeLabel && study.repairType ? REPAIR_TYPE_LABELS[study.repairType] : undefined;
   return (
     <motion.div
@@ -48,8 +87,11 @@ function CaseBlock({ study, index, showTypeLabel }: { study: CaseStudyResult; in
       {study.combinedImageUrl ? (
         <img
           src={study.combinedImageUrl}
-          alt={study.altTextAfter}
+          alt={altAfter}
           loading="lazy"
+          decoding="async"
+          width={1200}
+          height={800}
           className="w-full object-contain bg-muted"
         />
       ) : (
@@ -58,8 +100,11 @@ function CaseBlock({ study, index, showTypeLabel }: { study: CaseStudyResult; in
           {study.beforeUrl ? (
             <img
               src={study.beforeUrl}
-              alt={study.altTextBefore}
+              alt={altBefore}
               loading="lazy"
+              decoding="async"
+              width={800}
+              height={600}
               className="w-full aspect-[4/3] object-contain bg-muted"
             />
           ) : (
@@ -75,8 +120,11 @@ function CaseBlock({ study, index, showTypeLabel }: { study: CaseStudyResult; in
           {study.afterUrl ? (
             <img
               src={study.afterUrl}
-              alt={study.altTextAfter}
+              alt={altAfter}
               loading="lazy"
+              decoding="async"
+              width={800}
+              height={600}
               className="w-full aspect-[4/3] object-contain bg-muted"
             />
           ) : (
@@ -132,7 +180,7 @@ function CaseBlock({ study, index, showTypeLabel }: { study: CaseStudyResult; in
   );
 }
 
-function LoadingSkeleton() {
+export function LoadingSkeleton() {
   return (
     <div className="grid md:grid-cols-2 gap-6">
       {Array.from({ length: 2 }).map((_, i) => (
@@ -172,9 +220,11 @@ type RealRepairResultsProps = {
   cityName?: string;
   /** When set, only this service's case studies are shown (registry pages). */
   service?: "sofa-repair" | "recliner-repair" | "furniture-repair" | "sofa-upholstery";
+  /** Zone name; when set, image alt text is "<card title> – <service> in <zone>" (hub pages). */
+  altContext?: string;
 };
 
-export default function RealRepairResults({ pageSlug, cityName, service }: RealRepairResultsProps) {
+export default function RealRepairResults({ pageSlug, cityName, service, altContext }: RealRepairResultsProps) {
   const byPage = useQuery(api.caseStudies.getForPage, service ? "skip" : { pageSlug });
   const byService = useQuery(api.caseStudies.getByService, service ? { service } : "skip");
   const caseStudies = service ? byService : byPage;
@@ -183,10 +233,15 @@ export default function RealRepairResults({ pageSlug, cityName, service }: RealR
   if (caseStudies !== undefined && caseStudies.length === 0) {
     return null;
   }
-
   // Furniture/upholstery borrow sofa and recliner work, so the heading stays general
-  const isGeneral = service === "furniture-repair" || service === "sofa-upholstery";
   const cityLabel = cityName ? cityName.charAt(0).toUpperCase() + cityName.slice(1) : "Delhi/NCR";
+  // A city-named heading is only honest if every shown study is from that city
+  const hasOutOfCityStudy = !!caseStudies?.some(
+    (study) => !study.location.toLowerCase().includes(cityLabel.toLowerCase()),
+  );
+  // Page's own place name, used only when a study has no location of its own
+  const pageLabel = cityName ? cityLabel : getLocalityInfo(pageSlug).name;
+  const isGeneral = service === "furniture-repair" || service === "sofa-upholstery";
   const price = headlinePriceFor(pageSlug, service);
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
     "Hi! I saw your repair results and would like to get a quotation."
@@ -207,10 +262,10 @@ export default function RealRepairResults({ pageSlug, cityName, service }: RealR
             Verified Results
           </div>
           <h2 className="text-2xl sm:text-3xl font-serif font-bold">
-            {isGeneral ? "See the Quality of Our Work" : `Real Repair Results in ${cityLabel}`}
+            {isGeneral ? "See the Quality of Our Work" : hasOutOfCityStudy ? "Real Repair Results Across Delhi NCR" : `Real Repair Results in ${cityLabel}`}
           </h2>
           <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
-            {isGeneral ? "Recent sofa and recliner restorations by our craftsmen, shown as examples of our finishing standard." : `See actual before and after transformations by our skilled craftsmen across ${cityLabel}.`}
+            {isGeneral ? "Recent sofa and recliner restorations by our craftsmen, shown as examples of our finishing standard." : hasOutOfCityStudy ? "See actual before and after transformations by our skilled craftsmen across Delhi NCR." : `See actual before and after transformations by our skilled craftsmen across ${cityLabel}.`}
           </p>
         </motion.div>
 
@@ -226,7 +281,7 @@ export default function RealRepairResults({ pageSlug, cityName, service }: RealR
             }`}
           >
             {caseStudies.map((study, i) => (
-              <CaseBlock key={study._id} study={study} index={i} showTypeLabel={isGeneral} />
+              <CaseBlock key={study._id} study={study} index={i} showTypeLabel={isGeneral} pageLabel={pageLabel} altContext={altContext} />
             ))}
           </div>
         )}

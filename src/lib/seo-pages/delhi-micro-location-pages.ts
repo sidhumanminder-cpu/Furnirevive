@@ -378,7 +378,7 @@ export const sofaRepairGreaterKailash: SeoPageData = {
       heading: "Why GK Residents Trust FurniRevive",
       body: [
         "We have repaired hundreds of sofas across Greater Kailash's premium homes. From the heritage bungalows of GK-1 with their colonial-era furniture to the modern penthouses of GK-2 with imported Italian pieces, our craftsmen treat every sofa with the care and expertise it deserves.",
-        "Our 4.8-star rating, transparent pricing, and 6-month warranty have earned us the trust of GK families who demand quality. We never recommend unnecessary work, always use premium materials, and stand behind every repair we complete.",
+        "Our track record, transparent pricing, and 6-month warranty have earned us the trust of GK families who demand quality. We never recommend unnecessary work, always use premium materials, and stand behind every repair we complete.",
       ],
     },
   ],

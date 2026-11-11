@@ -18,7 +18,7 @@ const furnitureRepairDlfGurgaon: SeoPageData = {
     caption: "Furniture Repair in DLF Gurgaon | Premium leather & recliner restoration across all phases | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated premium furniture restoration in DLF Gurgaon — covering DLF Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, and Golf Course Road — from ₹999. We restore imported leather sofas, luxury recliners, sectional sofas, designer upholstery, and solid wood furniture with specialist-grade techniques. Free on-site assessment, fixed transparent pricing, and a 6-month workmanship warranty on every project.",
+    "FurniRevive delivers trusted premium furniture restoration in DLF Gurgaon — covering DLF Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, and Golf Course Road — from ₹999. We restore imported leather sofas, luxury recliners, sectional sofas, designer upholstery, and solid wood furniture with specialist-grade techniques. Free on-site assessment, fixed transparent pricing, and a 6-month workmanship warranty on every project.",
   intro: [
     "DLF Gurgaon is not a single neighbourhood — it is a collection of Haryana's most considered residential addresses, each with its own character and its own relationship with premium domestic living. DLF Phase 1's mature bungalows and independent houses carry furniture that has been chosen over decades. Phase 2 and Phase 3's villa clusters house families who have invested in European and American import-grade sofas and sectionals. Phase 4 and Phase 5's high-rise towers accommodate the NCR's corporate leadership, with drawing rooms that function as both family spaces and professional statements. And Golf Course Road's luxury residences represent the top tier of Gurgaon furniture ownership — where a single sofa set represents a six-figure purchase and its restoration is a specialist undertaking.",
     "FurniRevive's Gurgaon team has worked in DLF homes long enough to understand what premium furniture restoration in this postcode actually requires. We are not generalists who occasionally work on sofas — we are <a href='/furniture-repair-gurgaon'>specialist furniture restoration craftsmen in Gurgaon</a> with dedicated DLF Phase coverage and a clear understanding of the materials, construction techniques, and finishing standards of the furniture found in these homes. Our craftsmen are trained in full-grain and aniline leather restoration, European-style upholstery joinery, sinuous and coil spring rebuilding, high-resilience foam specification, and precision colour-matched panel replacement. We extend naturally into <a href='/sofa-repair-dlf-phase-1'>DLF Phase 1</a>, <a href='/sofa-repair-dlf-phase-5'>DLF Phase 5</a>, and the <a href='/sofa-repair-golf-course-extension-road'>Golf Course Extension Road</a> corridor — all at identical pricing.",
@@ -169,7 +169,7 @@ const furnitureRepairDlfGurgaon: SeoPageData = {
     {
       question: "Can you repair recliner mechanisms in DLF Gurgaon homes?",
       answer:
-        "Yes. Recliner mechanism repair — cable replacement, locking bar, motorised actuator, handle hardware — is standard scope. We stock parts for common imported and domestic brands. Most mechanism repairs complete in 60–90 minutes.",
+        "Yes. Recliner mechanism repair — cable replacement, locking bar, motorised actuator, handle hardware — is standard scope. We stock parts for common imported and domestic brands. Most mechanism repairs complete in 2–4 hours.",
     },
     {
       question: "Do you work on wooden frame furniture in DLF Phase 1 bungalows?",
@@ -268,7 +268,7 @@ const furnitureRepairDlfGurgaon: SeoPageData = {
 
 const furnitureRepairGolfCourseExtension: SeoPageData = {
   slug: "furniture-repair-golf-course-extension-road",
-  title: "Furniture Repair Golf Course Extension Road | FurniRevive",
+  title: "Furniture Repair in Golf Course Extension Road | FurniRevive",
   metaDescription:
     "Expert furniture restoration on Golf Course Extension Road, Gurgaon from ₹999. Leather sofas, recliners & imported furniture repaired at your doorstep.",
   h1: "Premium Furniture Restoration on Golf Course Extension Road",

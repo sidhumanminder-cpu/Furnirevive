@@ -670,6 +670,13 @@ export const godrejFurnitureRepairDelhi: SeoPageData = {
         "In practical Delhi NCR terms, this translates to a dramatically different repair ROI. A 20-year-old Godrej almirah in need of repair still has 20+ years of useful life in its steel. The same-aged almirah from a generic Indian brand is typically beyond economic repair by year 15. When we calculate repair ROI for our customers — comparing the repair cost against the replacement cost and the remaining useful life — Godrej steel furniture consistently delivers the highest return on repair investment of any furniture category we service. The analysis is straightforward: a ₹3,000 full service on a Godrej almirah that will last another 20 years costs ₹150 per year. A ₹12,000 replacement that lasts 10 years costs ₹1,200 per year. The repair ROI is 8x. Read the broader repair-vs-replace economics at /blog/sofa-repair-vs-buy-new-sofa and /blog/furniture-repair-vs-replace. For Godrej Interio upholstered furniture, /sofa-repair-delhi, /sofa-cushion-repair-delhi, and /sofa-foam-replacement-cost-delhi cover the specific repair services available. See /sofa-repair-noida and /sofa-repair-gurgaon for NCR coverage, and compare with repair ROI for /ikea-furniture-repair-delhi and /pepperfry-furniture-repair-delhi.",
       ],
     },
+    {
+      heading: "Godrej Almirah Shifting, Dismantling and Reassembly",
+      body: [
+        "If you are moving house, a Godrej steel almirah often has to be dismantled, moved and reassembled. We can take it apart where the model allows, protect the panels and shelves, and refit and level it at the new place, then check the lock and doors.",
+        "Tell us the model (or send a photo), the floor and whether there is a lift, and we will confirm what is possible and the cost before the visit.",
+      ],
+    },
   ],
   faqs: [
     {

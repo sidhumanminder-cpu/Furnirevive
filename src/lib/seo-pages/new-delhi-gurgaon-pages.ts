@@ -141,7 +141,7 @@ export const sofaRepairDefenceColony: SeoPageData = {
     heading: "Sofa Repair Near Defence Colony — Covering the Full South Delhi Belt",
     content: "When you search for sofa repair near Defence Colony, you want a team that knows the area — not a generic aggregator that subcontracts to whoever is available. FurniRevive operates dedicated teams for the South Delhi corridor, covering Defence Colony, Lajpat Nagar, South Extension, GK-1, Lodhi Road, and the surrounding residential pockets.",
     microLocationContent: "We service every part of Defence Colony — all residential blocks (A through F), the apartments behind Defence Colony Market, properties along Andrewsganj Road, and independent bungalows near the Lodhi Road boundary.",
-    trustSignals: ["500+ sofas repaired in the Defence Colony–South Extension corridor", "4.8/5 average rating from South Delhi customers", "Same-day service available on most weekdays", "Fully equipped service van — no workshop trips required"],
+    trustSignals: ["10,000+ sofas repaired across Delhi NCR, including the Defence Colony–South Extension corridor", "Trusted by South Delhi customers", "Same-day service available on most weekdays", "Fully equipped service van — no workshop trips required"],
   },
   localAreasSection: {
     heading: "Areas We Cover Near Defence Colony",
@@ -195,7 +195,7 @@ export const sofaRepairDefenceColony: SeoPageData = {
 
 export const sofaRepairGreenPark: SeoPageData = {
   slug: "sofa-repair-green-park",
-  title: "Sofa Repair Green Park Delhi | FurniRevive – Doorstep Service",
+  title: "Sofa Repair in Green Park Delhi | FurniRevive – Doorstep Service",
   metaDescription: "Professional sofa repair in Green Park, Delhi. FurniRevive fixes sagging cushions, broken springs, torn fabric & leather at your doorstep.",
   h1: "Sofa Repair in Green Park, Delhi",
   heroSubtitle: "Trusted doorstep sofa repair for Green Park families — foam replacement, upholstery, spring repair & leather restoration by expert craftsmen.",
@@ -313,7 +313,7 @@ export const sofaRepairGreenPark: SeoPageData = {
     heading: "Sofa Repair Near Green Park — Serving the Entire Hauz Khas Zone",
     content: "Searching for sofa repair near Green Park typically brings up a mix of aggregators and distant workshops. FurniRevive operates locally across Green Park, Hauz Khas, Safdarjung, Yusuf Sarai, and the AIIMS area — which means the craftsman who comes to your home is already nearby, not travelling from the other side of the city.",
     microLocationContent: "We cover Green Park's full residential spread — Green Park Main, Green Park Extension, the apartment buildings near Green Park Metro Station, and properties along the Outer Ring Road boundary near IIT Delhi.",
-    trustSignals: ["400+ repairs completed in the Green Park–Hauz Khas zone", "4.7/5 average customer rating", "Weekday same-day slots regularly available", "No visit fee — free on-site quote"],
+    trustSignals: ["400+ repairs completed in the Green Park–Hauz Khas zone", "Trusted by hundreds of customers", "Weekday same-day slots regularly available", "No visit fee — free on-site quote"],
   },
   localAreasSection: {
     heading: "Areas We Serve Near Green Park",
@@ -469,7 +469,7 @@ export const sofaRepairHauzKhas: SeoPageData = {
     heading: "Sofa Repair Near Hauz Khas — Covering South Delhi's Premium Residential Zones",
     content: "FurniRevive operates a dedicated team for the Hauz Khas corridor, covering SDA, Malviya Nagar, Green Park, and the IIT Delhi boundary. When you search for sofa repair near Hauz Khas, you're likely looking for someone who can handle premium furniture properly — not a general handyman.",
     microLocationContent: "We serve all Hauz Khas sub-localities: SDA Colony, Masjid Moth, Hauz Khas Village periphery, apartments on the outer ring road, and properties within walking distance of the Hauz Khas Metro Station.",
-    trustSignals: ["Leather restoration specialists on every relevant booking", "Recliner mechanism parts stocked for 30+ brands", "4.8/5 average rating from South Delhi premium clients", "Evening appointments available until 8 PM"],
+    trustSignals: ["Leather restoration specialists on every relevant booking", "Recliner mechanism parts stocked for 30+ brands", "Trusted by South Delhi premium clients", "Evening appointments available until 8 PM"],
   },
   localAreasSection: {
     heading: "Areas We Cover Near Hauz Khas",
@@ -508,7 +508,7 @@ export const sofaRepairHauzKhas: SeoPageData = {
 
 export const sofaRepairSushantLok: SeoPageData = {
   slug: "sofa-repair-sushant-lok-gurgaon",
-  title: "Sofa Repair Sushant Lok Gurgaon | FurniRevive – Doorstep Service",
+  title: "Sofa Repair in Sushant Lok Gurgaon | FurniRevive – Doorstep Service",
   metaDescription: "Professional sofa repair in Sushant Lok, Gurgaon. FurniRevive offers foam replacement, recliner repair.",
   h1: "Sofa Repair in Sushant Lok, Gurgaon",
   heroSubtitle: "Premium doorstep sofa repair for Sushant Lok homeowners — recliner fixing, foam replacement, leather restoration & reupholstery by expert craftsmen.",
@@ -626,7 +626,7 @@ export const sofaRepairSushantLok: SeoPageData = {
     heading: "Sofa Repair Near Sushant Lok — Serving Gurgaon's Premium Belt",
     content: "FurniRevive covers Sushant Lok and the wider Gurgaon premium residential corridor — DLF Phase 1, Sector 43, Golf Course Road, and Galleria Market area. When you search for sofa repair near Sushant Lok, our teams are already operating in your zone with fast response times.",
     microLocationContent: "We serve all Sushant Lok blocks (A, B, C), the apartment complexes along Sohna Road, Sector 43 residential towers, and properties on the Golf Course Road corridor. Same-day bookings are regularly available for Gurgaon clients.",
-    trustSignals: ["600+ repairs completed in the Sushant Lok–Golf Course Road belt", "Recliner specialists with NCR-wide parts network", "4.8/5 average rating from Gurgaon clients", "No visit fee — written quote before any work"],
+    trustSignals: ["600+ repairs completed in the Sushant Lok–Golf Course Road belt", "Recliner specialists with NCR-wide parts network", "Trusted by Gurgaon clients", "No visit fee — written quote before any work"],
   },
   localAreasSection: {
     heading: "Areas We Cover Near Sushant Lok",
@@ -783,7 +783,7 @@ export const sofaRepairNirvanaCountry: SeoPageData = {
     heading: "Sofa Repair Near Nirvana Country — Sohna Road and Sector 50 Coverage",
     content: "FurniRevive's Gurgaon south team covers the full Sohna Road residential belt — Nirvana Country, Malibu Town, Sector 49, Sector 50, and Nirvana Courtyard. When you search for sofa repair near Nirvana Country, our teams are operating in your zone and can typically be with you the same day or next morning.",
     microLocationContent: "We serve all residential clusters within Nirvana Country — the independent villa plots, builder floor properties, society apartments, and gated community towers across Sectors 49 and 50 on the Sohna Road side of Gurgaon.",
-    trustSignals: ["Villa-specialist team with large-sofa experience", "Gated society entry handled with zero hassle", "4.8/5 average rating from Nirvana Country clients", "Full-day appointments available for large sectional repairs"],
+    trustSignals: ["Villa-specialist team with large-sofa experience", "Gated society entry handled with zero hassle", "Trusted by Nirvana Country clients", "Full-day appointments available for large sectional repairs"],
   },
   localAreasSection: {
     heading: "Areas We Cover Near Nirvana Country",

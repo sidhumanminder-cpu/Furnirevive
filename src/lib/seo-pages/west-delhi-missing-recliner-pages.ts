@@ -236,7 +236,7 @@ const reclineRepairTilakNagar: SeoPageData = {
     "Free Home Visit",
     "Transparent Pricing",
     "Motor Repair Specialists",
-    "4.8★ Rated Service",
+    "Trusted Service",
     "Same-Day Available",
   ],
 

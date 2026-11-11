@@ -102,7 +102,7 @@ export const SOUTH_DELHI_AUTHORITY_P4: SeoPageData[] = [
 
     trustSignals: [
       `Serving East of Kailash and all of South Delhi since 2017 — over 11,000 repairs completed`,
-      `4.9/5 average rating from verified East of Kailash customers on Google`,
+      `Trusted by East of Kailash customers`,
       `6-month written warranty on every repair — workmanship and materials covered`,
       `All technicians background-verified and identity-documented before entering homes`,
       `Fully insured operations — any accidental damage during the repair is covered by us`,

@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { CheckCircle, Calendar, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button.tsx";
 import { Card, CardContent } from "@/components/ui/card.tsx";

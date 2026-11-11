@@ -11,7 +11,7 @@ export const sofaRepairChittaranjanPark: SeoPageData = {
     "Expert sofa repair in Chittaranjan Park (CR Park), Delhi. Doorstep service, starts ₹500, 6-month warranty.",
   h1: "Sofa Repair in Chittaranjan Park, Delhi — Doorstep Service from ₹500",
   heroSubtitle:
-    "CR Park homes deserve better than a saggy, fraying sofa. Our 4.8-star rated craftsmen restore your sofa at your doorstep — 500+ fabric choices, honest pricing from ₹500, and a 6-month warranty that actually means something.",
+    "CR Park homes deserve better than a saggy, fraying sofa. Our trusted craftsmen restore your sofa at your doorstep — 500+ fabric choices, honest pricing from ₹500, and a 6-month warranty that actually means something.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
@@ -22,7 +22,7 @@ export const sofaRepairChittaranjanPark: SeoPageData = {
     "FurniRevive provides doorstep sofa repair in Chittaranjan Park (CR Park), Delhi starting at ₹500. Here's what CR Park residents often tell us: they waited months before calling, assuming repair would be complicated or expensive — and were surprised by how fast and affordable it was. We cover all CR Park blocks, Kalkaji, Lajpat Nagar, and Nehru Place. Services include cushion repair (₹999–₹1,800), fabric replacement (₹2,500–₹6,000), full re-upholstery (₹4,000–₹9,000), recliner fixing (₹1,800–₹4,500), and leather restoration (₹1,500–₹5,000) — with a 6-month warranty and same-day availability.",
   intro: [
     "There's a particular kind of quiet pride in a CR Park drawing room. The carefully chosen curtains, the Bengal Potteries curios on the shelf, the sofa that's been the centre of countless adda sessions and Durga Puja gatherings. When that sofa starts to sag, fray, or creak, it doesn't just look bad — it feels like something important is slipping. Most CR Park homeowners don't rush to replace it. They look for someone who actually knows what they're doing.",
-    "FurniRevive brings professional <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> directly to your CR Park doorstep. Our verified craftsmen — 4.8-star rated across thousands of repairs — arrive fully equipped: foam grades, 500+ fabric swatches, leather conditioners, frame adhesives, all of it in one service van. No workshop trip. No waiting. No strangers carrying your sofa down four flights of stairs.",
+    "FurniRevive brings professional <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> directly to your CR Park doorstep. Our verified craftsmen — trusted across thousands of repairs — arrive fully equipped: foam grades, 500+ fabric swatches, leather conditioners, frame adhesives, all of it in one service van. No workshop trip. No waiting. No strangers carrying your sofa down four flights of stairs.",
     "We serve every block of CR Park and extend naturally into Kalkaji, Lajpat Nagar, and Nehru Place. Repairs start at ₹500, every job comes with a free in-home inspection, and all work is backed by a 6-month warranty. For homes that hold their standards, this is the sofa repair service that holds its own.",
   ],
   whyChoose: [
@@ -37,7 +37,7 @@ export const sofaRepairChittaranjanPark: SeoPageData = {
         "Cotton, velvet, microfibre, linen blends, imported weaves, premium leather, and rexine — our technician brings a full physical swatch book so you choose in person, in your own light, against your own walls.",
     },
     {
-      title: "Verified, 4.8-Star Rated Craftsmen",
+      title: "Verified, Trusted Craftsmen",
       description:
         "Our craftsmen are background-verified and rated across thousands of repairs in South Delhi. Hand-stitched seams, colour-matched panels, precise foam cuts — every detail handled with the precision CR Park homeowners expect.",
     },
@@ -120,7 +120,7 @@ export const sofaRepairChittaranjanPark: SeoPageData = {
       heading: "Why CR Park Families Trust FurniRevive",
       body: [
         "CR Park has always been a community where word of mouth matters more than advertising. Our CR Park customers book us after a neighbour's recommendation — and that trust is something we work hard to earn on every single visit. Our technicians arrive on time, in uniform, with all tools and materials ready. They work quietly and efficiently, respecting your home, your schedule, and your belongings.",
-        "We also understand that CR Park residents are discerning. That's why we never oversell or inflate repair estimates. Our free inspection is genuinely free, and our technicians are trained to give you an honest opinion — even if that means recommending a targeted ₹1,200 patch repair over a ₹6,000 full re-upholstery. That integrity, backed by a 4.8-star rating across thousands of South Delhi repairs, is what makes FurniRevive the go-to sofa repair service in this neighbourhood.",
+        "We also understand that CR Park residents are discerning. That's why we never oversell or inflate repair estimates. Our free inspection is genuinely free, and our technicians are trained to give you an honest opinion — even if that means recommending a targeted ₹1,200 patch repair over a ₹6,000 full re-upholstery. That integrity, backed by a strong track record across thousands of South Delhi repairs, is what makes FurniRevive the go-to sofa repair service in this neighbourhood.",
       ],
     },
   ],
@@ -189,7 +189,7 @@ export const sofaRepairDwarkaSector12: SeoPageData = {
     "Professional sofa repair in Dwarka Sector 12, Delhi. Doorstep service from ₹500, 6-month warranty. Also serving Sectors 10, 11, 13 & Dwarka Expressway.",
   h1: "Sofa Repair in Dwarka Sector 12, Delhi — Doorstep Service from ₹500",
   heroSubtitle:
-    "That sinking, creaking sofa in your Sector 12 flat deserves better than being ignored. Our 4.8-star rated craftsmen come to you — quality foam, 500+ fabrics, honest pricing from ₹500, and a 6-month warranty you can count on.",
+    "That sinking, creaking sofa in your Sector 12 flat deserves better than being ignored. Our trusted craftsmen come to you — quality foam, 500+ fabrics, honest pricing from ₹500, and a 6-month warranty you can count on.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",
@@ -633,7 +633,7 @@ export const sofaRepairLaxmiNagar: SeoPageData = {
       heading: "Laxmi Nagar, Nirman Vihar & Preet Vihar — Complete East Delhi Coverage",
       body: [
         "Our East Delhi service zone covers Laxmi Nagar and its adjacent residential localities in one unified area. Nirman Vihar — with its DDA housing and private builder floors — is covered with the same team and same-day availability. Preet Vihar's colony residents and housing society flats are equally within our service radius. The Vishwakarma industrial area's residential fringe, including Karkardooma and Shakarpur, also falls within our reach.",
-        "This comprehensive East Delhi coverage means you don't need to search for a local repair person or settle for untrained labour from a nearby market. One call to FurniRevive connects you to a background-verified, 4.8-star rated repair service across this entire neighbourhood cluster — with consistent pricing, consistent quality, and a warranty that means something.",
+        "This comprehensive East Delhi coverage means you don't need to search for a local repair person or settle for untrained labour from a nearby market. One call to FurniRevive connects you to a background-verified, trusted repair service across this entire neighbourhood cluster — with consistent pricing, consistent quality, and a warranty that means something.",
       ],
     },
   ],
@@ -704,7 +704,7 @@ export const sofaRepairUttamNagar: SeoPageData = {
     "Expert sofa repair in Uttam Nagar, Delhi. Doorstep service from ₹500, 6-month warranty. Also serving Nawada, Janakpuri, Dwarka nearby.",
   h1: "Sofa Repair in Uttam Nagar, Delhi — Doorstep Service from ₹500",
   heroSubtitle:
-    "Uttam Nagar families know a good sofa is worth keeping. Our 4.8-star rated craftsmen repair yours at your doorstep — quality foam, 500+ fabrics, honest pricing from ₹500, and a 6-month warranty that holds.",
+    "Uttam Nagar families know a good sofa is worth keeping. Our trusted craftsmen repair yours at your doorstep — quality foam, 500+ fabrics, honest pricing from ₹500, and a 6-month warranty that holds.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_E4RyzbNs65laSB9mK3GXEsnp",

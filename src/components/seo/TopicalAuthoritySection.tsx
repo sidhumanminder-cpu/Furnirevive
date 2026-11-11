@@ -11,7 +11,7 @@
  */
 
 import { motion } from "motion/react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { Network } from "lucide-react";
 import type { AuthorityMatch } from "@/lib/seoConfigs/authority-engine.ts";
 

@@ -1,6 +1,7 @@
 import { IndianRupee, MessageCircle, ArrowRight } from "lucide-react";
 import { SOFA_SIZE_PRICES } from "@/lib/seoConfigs/pricing-data.ts";
 import { WHATSAPP_NUMBER, BRAND_NAME } from "@/lib/seo-constants.ts";
+import { SOFA_MIN_PRICE_NOTE } from "@/lib/seoConfigs/sofa-size-gating.ts";
 
 type SofaSizePricingProps = { locality: string };
 
@@ -20,6 +21,7 @@ export default function SofaSizePricing({ locality }: SofaSizePricingProps) {
           </h2>
         </div>
 
+        <p className="mb-3 text-xs text-muted-foreground">{SOFA_MIN_PRICE_NOTE}</p>
         <div className="mb-4 overflow-hidden rounded-xl border">
           <table className="w-full text-sm">
             <thead>

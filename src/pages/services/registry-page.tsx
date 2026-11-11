@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "@/lib/router-compat.tsx";
 import { generatePages } from "@/lib/registry/generate-pages.ts";
 import { LOCALITY_REGISTRY } from "@/lib/registry/locality-registry.ts";
 import { SERVICE_REGISTRY } from "@/lib/registry/service-registry.ts";

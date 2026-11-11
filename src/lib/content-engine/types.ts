@@ -39,6 +39,7 @@ export type SectionId =
   | "material-options"
   | "repair-times"
   | "service-coverage"
+  | "local-context"
   | "industries"
   | "quick-answers"
   | "kitchen-hero"
@@ -172,6 +173,12 @@ export type NearMeProps = {
   serviceLabel: string;
   /** When true, renderer uses B2B / corporate copy variants */
   isCorporate?: boolean;
+  /** Registry service slug, used to verify the links in the section */
+  serviceSlug?: string;
+  /** Locality's own city from the registry (not inferred from the slug) */
+  city?: string;
+  /** Registry neighbours, shown when the generic locality data points at a different city */
+  nearby?: string[];
 };
 
 export type NearMeSectionData = SectionData<"near-me", NearMeProps>;
@@ -348,6 +355,13 @@ export type ServiceCoverageProps = {
 };
 
 export type ServiceCoverageSectionData = SectionData<"service-coverage", ServiceCoverageProps>;
+
+export type LocalContextProps = {
+  heading: string;
+  paragraphs: string[];
+  faqs: { question: string; answer: string }[];
+};
+export type LocalContextSectionData = SectionData<"local-context", LocalContextProps>;
 
 // ─── Industries ─────────────────────────────────────────────────────────────
 
@@ -645,6 +659,7 @@ export type PageSectionData =
   | MaterialOptionsSectionData
   | RepairTimesSectionData
   | ServiceCoverageSectionData
+  | LocalContextSectionData
   | IndustriesSectionData
   | QuickAnswersSectionData
   | KitchenHeroSectionData

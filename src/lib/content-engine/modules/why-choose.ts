@@ -18,7 +18,7 @@ function getBaseItems(cityKey: CityKey): WhyChooseItem[] {
   return [
     {
       title: "Same-Day Doorstep Service",
-      description: `Technicians reach your door within 1–2 hours. No workshop drop-off, no waiting — repairs happen at your home.`,
+      description: `Technicians reach your door within 2–4 hours. No workshop drop-off, no waiting — repairs happen at your home.`,
     },
     {
       title: "Experienced Technicians",
@@ -26,7 +26,7 @@ function getBaseItems(cityKey: CityKey): WhyChooseItem[] {
     },
     {
       title: "Transparent Pricing",
-      description: `Free doorstep inspection before any work begins. Pricing from ₹599 — no hidden charges, no surprises.`,
+      description: `Free doorstep inspection before any work begins. Pricing from ₹500 — no hidden charges, no surprises.`,
     },
     {
       title: "6-Month Warranty",

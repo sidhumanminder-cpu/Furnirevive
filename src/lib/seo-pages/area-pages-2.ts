@@ -21,7 +21,7 @@ function relatedExcluding(slug: string) {
 // ---------------------------------------------------------------------------
 export const furnitureRepairIndirapuram: SeoPageData = {
   slug: "furniture-repair-indirapuram",
-  title: "Furniture Repair Indirapuram | ₹599 Doorstep | FurniRevive",
+  title: "Furniture Repair in Indirapuram | ₹599 Doorstep | FurniRevive",
   metaDescription:
     "Expert furniture repair in Indirapuram, Ghaziabad from ₹599. Sofa, bed & wardrobe repaired at doorstep. Vaishali, Vasundhara, Crossings Republik covered.",
   quickAnswer:
@@ -219,7 +219,7 @@ export const furnitureRepairIndirapuram: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairDlfGurgaon: SeoPageData = {
   slug: "sofa-repair-dlf-gurgaon",
-  title: "Sofa Repair DLF Gurgaon | Near Me ₹500",
+  title: "Sofa Repair in DLF Gurgaon | ₹500 Home Service",
   metaDescription:
     "Premium sofa repair near me in DLF Gurgaon — Phase 1–5, Golf Course Road, Sohna Road. Leather repair, reupholstery & foam replacement from ₹500.",
   quickAnswer:
@@ -426,7 +426,7 @@ export const sofaRepairDlfGurgaon: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const furnitureRepairGreaterNoida: SeoPageData = {
   slug: "furniture-repair-greater-noida",
-  title: "Furniture Repair Greater Noida | ₹599 Doorstep | FurniRevive",
+  title: "Furniture Repair in Greater Noida | ₹599 Doorstep | FurniRevive",
   metaDescription:
     "Expert furniture repair in Greater Noida & Noida Extension from ₹599. Sofa, bed & wardrobe repaired at doorstep. Gaur City, ATS, Ace City covered.",
   quickAnswer:

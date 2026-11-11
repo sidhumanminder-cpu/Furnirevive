@@ -1,0 +1,22 @@
+import { createFileRoute } from "@tanstack/react-router";
+import BulkOfficeChairRepairPost from "@/pages/blog/bulk-office-chair-repair.tsx";
+
+export const Route = createFileRoute("/blog/bulk-office-chair-repair/")({
+  head: () => ({
+    meta: [
+      { title: "Bulk Office Chair Repair for Corporates: Process & Cost Guide | FurniRevive" },
+      { name: "description", content: "Bulk office chair repair for 50–5,000+ chairs. On-site corporate service with 20–25% volume discounts, GST invoice, and project management in Delhi NCR." },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://furnirevive.com#business", "name": "FurniRevive", "telephone": "+919217999355", "url": "https://furnirevive.com", "priceRange": "₹500–₹25,000", "areaServed": [{ "@type": "City", "name": "Delhi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Delhi" } }, { "@type": "City", "name": "Gurgaon", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Faridabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Ghaziabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Greater Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Kaushambi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Vasundhara", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Chandigarh", "containedInPlace": { "@type": "AdministrativeArea", "name": "Chandigarh" } }, { "@type": "City", "name": "Mohali", "containedInPlace": { "@type": "AdministrativeArea", "name": "Punjab" } }, { "@type": "City", "name": "Panchkula", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "Article", "headline": "Bulk Office Chair Repair for Corporates: Process & Cost Guide", "description": "Bulk office chair repair for 50–5,000+ chairs. On-site corporate service with 20–25% volume discounts, GST invoice, and project management in Delhi NCR.", "image": "", "datePublished": "2026-04-10", "dateModified": "2026-07-21", "author": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "publisher": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://furnirevive.com/blog/bulk-office-chair-repair" } } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "What is the minimum order for bulk pricing?", "acceptedAnswer": { "@type": "Answer", "text": "Bulk discounts start at 20 chairs. The more chairs, the higher the discount — up to 25% for 100+ chairs." } }, { "@type": "Question", "name": "Can you work after office hours?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we offer after-hours and weekend service for minimal disruption. Many IT companies prefer night-shift scheduling." } }, { "@type": "Question", "name": "Do you handle chairs at multiple locations?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we manage multi-site projects across Delhi NCR. We can service your Delhi, Gurgaon, and Noida offices under a single contract." } }, { "@type": "Question", "name": "What warranty do you provide on bulk repairs?", "acceptedAnswer": { "@type": "Answer", "text": "All bulk repairs carry a 6-month warranty covering parts and labour. AMC clients get extended 12-month warranty." } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://furnirevive.com/" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://furnirevive.com/blog" }, { "@type": "ListItem", "position": 3, "name": "Bulk Office Chair Repair for Corporates: Process & Cost Guide", "item": "https://furnirevive.com/blog/bulk-office-chair-repair" }] } },
+    ] as Array<Record<string, unknown>>,
+  }),
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  return (
+    <BulkOfficeChairRepairPost />
+  );
+}

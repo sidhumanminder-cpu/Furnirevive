@@ -205,7 +205,7 @@ const SHALIMAR_BAGH_RELATED_PAGES = [
 
 const furnitureRepairRohini: SeoPageData = {
   slug: "furniture-repair-rohini",
-  title: "Furniture Repair Rohini – Doorstep Service | Same Day | From ₹599",
+  title: "Furniture Repair in Rohini – Doorstep Service | Same Day | From ₹599",
   metaDescription:
     "Furniture repair in Rohini from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home across all sectors. 6-month warranty. Free home visit.",
   h1: "Furniture Repair in Rohini – Expert Doorstep Restoration for Every Sector",
@@ -274,7 +274,7 @@ const furnitureRepairRohini: SeoPageData = {
       { service: "Bed Frame Repair", price: "From ₹799" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Rohini"],
   testimonials: [
     {
@@ -298,7 +298,7 @@ const furnitureRepairRohini: SeoPageData = {
 
 const furnitureRepairAshokVihar: SeoPageData = {
   slug: "furniture-repair-ashok-vihar",
-  title: "Furniture Repair Ashok Vihar – Doorstep Service | Same Day",
+  title: "Furniture Repair in Ashok Vihar – Doorstep Service | Same Day",
   metaDescription:
     "Furniture repair in Ashok Vihar from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. All phases covered. 6-month warranty.",
   h1: "Furniture Repair in Ashok Vihar – Trusted Doorstep Service for Every Home",
@@ -367,7 +367,7 @@ const furnitureRepairAshokVihar: SeoPageData = {
       { service: "Bed Frame Repair", price: "From ₹799" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Ashok Vihar"],
   testimonials: [
     {
@@ -391,7 +391,7 @@ const furnitureRepairAshokVihar: SeoPageData = {
 
 const furnitureRepairModelTown: SeoPageData = {
   slug: "furniture-repair-model-town",
-  title: "Furniture Repair Model Town – Doorstep Service | Same Day",
+  title: "Furniture Repair in Model Town – Doorstep Service | Same Day",
   metaDescription:
     "Furniture repair in Model Town from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. Serving Model Town I, II & III. 6-month warranty.",
   h1: "Furniture Repair in Model Town – Premium Doorstep Restoration for North Delhi Homes",
@@ -460,7 +460,7 @@ const furnitureRepairModelTown: SeoPageData = {
       { service: "Bed Frame Repair", price: "From ₹799" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Model Town"],
   testimonials: [
     {
@@ -553,7 +553,7 @@ const reclineRepairShalimarBagh: SeoPageData = {
       { service: "Full Recliner Reupholstery", price: "₹8,000–₹20,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in Shalimar Bagh"],
   testimonials: [
     {
@@ -577,7 +577,7 @@ const reclineRepairShalimarBagh: SeoPageData = {
 
 const furnitureRepairShalimarBagh: SeoPageData = {
   slug: "furniture-repair-shalimar-bagh",
-  title: "Furniture Repair Shalimar Bagh – Doorstep Service | Same Day",
+  title: "Furniture Repair in Shalimar Bagh – Doorstep Service | Same Day",
   metaDescription:
     "Furniture repair in Shalimar Bagh from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. All blocks covered. 6-month warranty.",
   h1: "Furniture Repair in Shalimar Bagh – Trusted Doorstep Restoration for North Delhi",
@@ -646,7 +646,7 @@ const furnitureRepairShalimarBagh: SeoPageData = {
       { service: "Bed Frame Repair", price: "From ₹799" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Shalimar Bagh"],
   testimonials: [
     {

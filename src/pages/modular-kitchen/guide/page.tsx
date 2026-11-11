@@ -1,5 +1,6 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import {
   Home,
   IndianRupee,
@@ -507,7 +508,7 @@ export default function ModularKitchenGuidePage() {
 
     return () => {
       const canon = document.querySelector('link[rel="canonical"][href="https://furnirevive.com/modular-kitchen-guide"]');
-      if (canon) canon.remove();
+      if (canon) removeUnowned(canon);
     };
   }, []);
 

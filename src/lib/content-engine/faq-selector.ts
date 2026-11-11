@@ -246,7 +246,7 @@ function buildOfficeTemplates(locality: LocalityEntry): OfficeFaqTemplate[] {
       answers: [
         `For offices in ${name}, FurniRevive technicians typically arrive within 1–2 hours of booking during business hours. Emergency same-day slots are available. We service ${name} Monday to Saturday, 9 AM to 7 PM.`,
         `Most corporate clients in ${name} get a technician on-site within 1–2 hours. Pre-scheduled visits (next morning) are also available. For large bulk orders, we coordinate a dedicated time window to minimise disruption.`,
-        `Response time in ${name} is typically 1–2 hours for urgent same-day repairs. For planned maintenance, book a slot and we confirm a 1-hour arrival window. Weekend service is available by prior appointment.`,
+        `Response time in ${name} is typically 2–4 hours for urgent same-day repairs. For planned maintenance, book a slot and we confirm an arrival window. Weekend service is available by prior appointment.`,
       ],
     },
     {

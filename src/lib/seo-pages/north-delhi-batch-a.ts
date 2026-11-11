@@ -5,7 +5,7 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const sofaUpholsteryNorthDelhi: SeoPageData = {
   slug: "sofa-upholstery-north-delhi",
-  title: "Sofa Upholstery North Delhi | Premium Reupholstery Specialists",
+  title: "Sofa Upholstery in North Delhi | Premium Reupholstery Specialists",
   metaDescription:
     "Expert sofa upholstery in North Delhi -- fabric, leather, velvet & performance fabrics.",
   h1: "Sofa Upholstery North Delhi | Premium Reupholstery Specialists",

@@ -1,0 +1,22 @@
+import { createFileRoute } from "@tanstack/react-router";
+import OfficeChairWheelsReplacementGuidePost from "@/pages/blog/office-chair-wheels-replacement-guide.tsx";
+
+export const Route = createFileRoute("/blog/office-chair-wheels-replacement-guide/")({
+  head: () => ({
+    meta: [
+      { title: "When to Replace Office Chair Wheels: Complete Guide | FurniRevive" },
+      { name: "description", content: "Office chair wheels replacement guide — signs of wear, types of castors, costs (₹400–₹1,200 per set), and how to choose the right wheels for your office flooring." },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://furnirevive.com#business", "name": "FurniRevive", "telephone": "+919217999355", "url": "https://furnirevive.com", "priceRange": "₹500–₹25,000", "areaServed": [{ "@type": "City", "name": "Delhi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Delhi" } }, { "@type": "City", "name": "Gurgaon", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Faridabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Ghaziabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Greater Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Kaushambi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Vasundhara", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Chandigarh", "containedInPlace": { "@type": "AdministrativeArea", "name": "Chandigarh" } }, { "@type": "City", "name": "Mohali", "containedInPlace": { "@type": "AdministrativeArea", "name": "Punjab" } }, { "@type": "City", "name": "Panchkula", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "Article", "headline": "When to Replace Office Chair Wheels: Complete Guide", "description": "Office chair wheels replacement guide — signs of wear, types of castors, costs (₹400–₹1,200 per set), and how to choose the right wheels for your office flooring.", "image": "", "datePublished": "2026-02-14", "dateModified": "2026-07-21", "author": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "publisher": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://furnirevive.com/blog/office-chair-wheels-replacement-guide" } } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "How much does it cost to replace office chair wheels?", "acceptedAnswer": { "@type": "Answer", "text": "A set of 5 replacement wheels costs ₹400–₹1,200 depending on the type. Soft PU wheels (best for hard floors) cost ₹600–₹900 per set." } }, { "@type": "Question", "name": "Which wheels are best for tile floors?", "acceptedAnswer": { "@type": "Answer", "text": "Soft polyurethane (PU) castors are ideal for tile floors. They roll smoothly without scratching and are quieter than hard nylon wheels." } }, { "@type": "Question", "name": "Can you replace wheels on any office chair?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, most office chairs use a standard 11mm stem size. We carry compatible castors for all major brands and can source special sizes if needed." } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://furnirevive.com/" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://furnirevive.com/blog" }, { "@type": "ListItem", "position": 3, "name": "When to Replace Office Chair Wheels: Complete Guide", "item": "https://furnirevive.com/blog/office-chair-wheels-replacement-guide" }] } },
+    ] as Array<Record<string, unknown>>,
+  }),
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  return (
+    <OfficeChairWheelsReplacementGuidePost />
+  );
+}

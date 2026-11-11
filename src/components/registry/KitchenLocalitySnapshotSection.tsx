@@ -1,5 +1,5 @@
 import type { KitchenLocalitySnapshotSectionData } from "@/lib/content-engine/index.ts";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { CheckCircle, MapPin, Navigation, Home, Layers, Palette, DollarSign, Clock } from "lucide-react";
 
 export default function KitchenLocalitySnapshotSection({

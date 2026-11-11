@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import {
   Phone,
@@ -30,7 +30,7 @@ import {
   computeCommercialScore,
 } from "@/lib/registry/commercial-locality-registry.ts";
 import { INDUSTRY_REGISTRY, type IndustryKey } from "@/lib/registry/industry-registry.ts";
-import { BUSINESS, BUSINESS_ADDRESS, BUSINESS_AREA_SERVED, BUSINESS_GEO } from "@/lib/business-config.ts";
+import { BUSINESS, BUSINESS_AREA_SERVED } from "@/lib/business-config.ts";
 import type { CityKey } from "@/lib/registry/types.ts";
 
 export type HubPageProps = {
@@ -179,9 +179,7 @@ export default function HubPageLayout({ city, cityDisplay, intro }: HubPageProps
       "@type": "LocalBusiness",
       name: BUSINESS.name,
       telephone: BUSINESS.phone,
-      priceRange: "₹₹",
-      address: BUSINESS_ADDRESS,
-      geo: BUSINESS_GEO,
+      priceRange: BUSINESS.priceRange,
       areaServed: { "@type": "City", name: cityDisplay },
       serviceType: "Office Chair Repair",
     };
@@ -190,8 +188,29 @@ export default function HubPageLayout({ city, cityDisplay, intro }: HubPageProps
     script.text = JSON.stringify(jsonLd);
     script.setAttribute("data-hub-city", city);
     document.head.appendChild(script);
+
+    const breadcrumbLd = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://furnirevive.com/" },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: `Office Chair Repair ${cityDisplay}`,
+          item: `https://furnirevive.com/office-chair-repair-${city}`,
+        },
+      ],
+    };
+    const breadcrumbScript = document.createElement("script");
+    breadcrumbScript.type = "application/ld+json";
+    breadcrumbScript.text = JSON.stringify(breadcrumbLd);
+    breadcrumbScript.setAttribute("data-hub-city", city);
+    document.head.appendChild(breadcrumbScript);
+
     return () => {
       document.head.removeChild(script);
+      document.head.removeChild(breadcrumbScript);
     };
   }, [city, cityDisplay]);
 
@@ -266,7 +285,7 @@ export default function HubPageLayout({ city, cityDisplay, intro }: HubPageProps
       <section className="py-14 lg:py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
-            Business Districts We Serve in {cityDisplay}
+            Office Chair Repair Near Me in {cityDisplay} — Business Districts We Serve
           </h2>
           <p className="mt-3 max-w-2xl text-muted-foreground">
             On-site office chair repair across {cityDisplay}&apos;s leading commercial hubs.

@@ -1,5 +1,6 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { PhoneCall, MessageCircle, CheckCircle2, XCircle, ChevronRight, AlertCircle, Factory, Shield, Zap, Wrench, LayoutGrid, IndianRupee, Home, Layers } from "lucide-react";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";
 import { COMPARISON_OPTIONS, COMPARISON_ROWS } from "@/pages/modular-kitchen/_data/kitchen-comparison.ts";
@@ -104,7 +105,7 @@ export default function ModularVsSemiModularPage() {
     }
     link.href = CANONICAL;
     // JSON-LD structured data
-    document.querySelectorAll('script[data-kitchen-jsonld]').forEach((el) => el.remove());
+    document.querySelectorAll('script[data-kitchen-jsonld]').forEach((el) => removeUnowned(el));
     SCHEMAS.forEach((schema) => {
       const script = document.createElement("script") as HTMLScriptElement;
       script.type = "application/ld+json";
@@ -113,7 +114,7 @@ export default function ModularVsSemiModularPage() {
       document.head.appendChild(script);
     });
     return () => {
-      document.querySelectorAll('script[data-kitchen-jsonld]').forEach((el) => el.remove());
+      document.querySelectorAll('script[data-kitchen-jsonld]').forEach((el) => removeUnowned(el));
     };
   }, []);
 

@@ -8,7 +8,7 @@
  * Usage: <KitchenRelatedBlogs slug={entry.slug} />
  */
 
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { BookOpen } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card.tsx";
 import { selectRelatedKitchenBlogs } from "@/lib/kitchen-blog-recommendation-engine.ts";

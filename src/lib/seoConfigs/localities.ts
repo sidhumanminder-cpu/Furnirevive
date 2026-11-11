@@ -276,28 +276,45 @@ function toTitleCase(str: string): string {
     .map((w) => {
       if (["in", "of", "at", "the", "a", "an", "and"].includes(w)) return w;
       // Keep well-known acronyms upper-case ("Dlf" -> "DLF")
-      if (["dlf", "bptp", "nit", "huda", "sez", "mdc", "rwa"].includes(w)) return w.toUpperCase();
+      if (["dlf", "bptp", "nit", "huda", "sez", "mdc", "rwa", "nsez", "ito", "gt", "imt", "sda", "nhpc"].includes(w)) return w.toUpperCase();
       return w.charAt(0).toUpperCase() + w.slice(1);
     })
     .join(" ");
 }
 
+/** Service, intent, price and brand words. They describe the page, never a place, so they are dropped from locality names. */
+const NON_PLACE_TOKENS: ReadonlySet<string> = new Set([
+  "sofa", "furniture", "recliner", "chair", "bed", "table", "dining", "office", "wooden", "leather", "fabric",
+  "upholstery", "repair", "foam", "replacement", "motor", "cum", "restoration", "polish", "carpenter", "home",
+  "service", "doorstep", "same", "day", "urgent", "near", "me", "cost", "price", "list", "guide", "custom",
+  "designer", "imported", "luxury", "italian", "electric", "gaming", "hydraulic", "cushion", "frame", "spring",
+  "tear", "couch", "wardrobe", "termite", "treatment", "street",
+  "affordable", "antique", "refinishing", "interiors", "latest", "services", "shape", "l",
+  "godrej", "ikea", "nilkamal", "wakefit", "royaloak", "evok", "durian", "pepperfry", "urban", "ladder", "centre",
+]);
+
+const CITY_TOKENS: ReadonlySet<string> = new Set(["noida", "delhi", "gurgaon", "gurugram", "ghaziabad", "faridabad"]);
+/** A city word after one of these is part of a place name ("north-delhi", "greater-noida"), so it stays. */
+const PLACE_PREFIX_TOKENS: ReadonlySet<string> = new Set(["north", "south", "east", "west", "central", "new", "greater"]);
+
 function extractLocalityName(slug: string, cityName: string): string {
-  // Strip service prefix (sofa-repair-, furniture-repair-, recliner-repair-, etc.)
-  let locality = slug
-    .replace(/^(sofa|furniture|recliner|chair|bed|table|dining|office|wooden|leather|fabric|upholstery)-repair-/, "")
-    .replace(/^(sofa-upholstery|foam-replacement|recliner-motor|sofa-cum-bed)-/, "");
-  // Strip city suffix
-  locality = locality
-    .replace(/-noida$/, "")
-    .replace(/-delhi$/, "")
-    .replace(/-gurgaon$/, "")
-    .replace(/-gurugram$/, "")
-    .replace(/-ghaziabad$/, "")
-    .replace(/-faridabad$/, "");
-  // Clean trailing city name if embedded
-  locality = locality.replace(new RegExp(`-?${cityName.toLowerCase()}-?`, "g"), " ").trim();
-  return toTitleCase(locality) || cityName;
+  const raw = slug.split("-").filter(Boolean);
+  const tokens = raw.filter((t, i) => {
+    if (NON_PLACE_TOKENS.has(t)) return false;
+    if (CITY_TOKENS.has(t)) return PLACE_PREFIX_TOKENS.has(raw[i - 1] ?? "");
+    return true;
+  });
+  // Nothing left means the slug is a service/price/brand page for the whole city
+  if (tokens.length === 0) return cityName;
+  return toTitleCase(tokens.join("-"));
+}
+
+const BARE_LOCALITY_NAME = /^(sector|sec\.?|phase|block|pocket)\s*[-\d]/i;
+
+/** "Sector 49" is ambiguous across cities, so bare sector/phase names get ", City" appended for headings. */
+export function withCityForBareLocality(name: string, city: string): string {
+  if (!BARE_LOCALITY_NAME.test(name)) return name;
+  return name.toLowerCase().includes(city.toLowerCase()) ? name : `${name}, ${city}`;
 }
 
 // ─── Main export ──────────────────────────────────────────────────────────

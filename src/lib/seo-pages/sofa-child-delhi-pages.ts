@@ -13,7 +13,7 @@ const DELHI_SOFA_RELATED = [
 // ---------------------------------------------------------------------------
 export const sofaRepairEastDelhi: SeoPageData = {
   slug: "sofa-repair-east-delhi",
-  title: "Sofa Repair East Delhi | Same Day | FurniRevive",
+  title: "Sofa Repair in East Delhi | Same Day | FurniRevive",
   metaDescription:
     "Expert sofa repair in East Delhi — Preet Vihar, Mayur Vihar, Laxmi Nagar. Foam, spring & upholstery fixed at your doorstep. Starting ₹500.",
   h1: "Sofa Repair in East Delhi — Preet Vihar, Mayur Vihar & All Areas",
@@ -137,7 +137,7 @@ export const sofaRepairEastDelhi: SeoPageData = {
     {
       question: "How soon can you reach Preet Vihar or Laxmi Nagar for sofa repair?",
       answer:
-        "Book before noon for same-day service. For homes near Preet Vihar metro, Laxmi Nagar metro, or Patparganj, we typically arrive within 60–90 minutes during standard hours.",
+        "Book before noon for same-day service. For homes near Preet Vihar metro, Laxmi Nagar metro, or Patparganj, we typically arrive within 2–4 hours during standard hours.",
     },
   ],
   priceTable: {
@@ -194,7 +194,7 @@ export const sofaRepairEastDelhi: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairLajpatNagar: SeoPageData = {
   slug: "sofa-repair-lajpat-nagar",
-  title: "Sofa Repair Lajpat Nagar | Fix Sofa ₹500 | FurniRevive",
+  title: "Sofa Repair in Lajpat Nagar | Fix Sofa ₹500 | FurniRevive",
   metaDescription:
     "Sofa repair in Lajpat Nagar, Defence Colony & South Extension. Foam, spring & re-upholstery starting ₹500. Same-day doorstep service. Free inspection.",
   h1: "Sofa Repair in Lajpat Nagar — Defence Colony, Jangpura & Nearby",
@@ -232,7 +232,7 @@ export const sofaRepairLajpatNagar: SeoPageData = {
     {
       title: "Rapid South Delhi Response",
       description:
-        "Our South Delhi team is stationed centrally, ensuring arrivals within 60–90 minutes for Lajpat Nagar and Defence Colony addresses. Book before noon for same-day service.",
+        "Our South Delhi team is stationed centrally, ensuring arrivals within 2–4 hours for Lajpat Nagar and Defence Colony addresses. Book before noon for same-day service.",
     },
     {
       title: "No Hidden Costs",
@@ -318,7 +318,7 @@ export const sofaRepairLajpatNagar: SeoPageData = {
     {
       question: "How quickly can you come to Lajpat Nagar for sofa repair?",
       answer:
-        "Book before noon for same-day service. For Lajpat Nagar, Defence Colony, Jangpura, and South Extension addresses, our South Delhi team typically arrives within 60–90 minutes.",
+        "Book before noon for same-day service. For Lajpat Nagar, Defence Colony, Jangpura, and South Extension addresses, our South Delhi team typically arrives within 2–4 hours.",
     },
   ],
   priceTable: {
@@ -369,7 +369,7 @@ export const sofaRepairLajpatNagar: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairKirtiNagar: SeoPageData = {
   slug: "sofa-repair-kirti-nagar",
-  title: "Sofa Repair Kirti Nagar Delhi | FurniRevive",
+  title: "Sofa Repair in Kirti Nagar Delhi | FurniRevive",
   metaDescription:
     "Sofa repair near Kirti Nagar — Rajouri Garden, Tilak Nagar, Hari Nagar. Foam, spring & upholstery at doorstep ₹500. Cheaper than buying new. Book today!",
   h1: "Sofa Repair Near Kirti Nagar — West Delhi's Sofa Restoration Experts",
@@ -407,7 +407,7 @@ export const sofaRepairKirtiNagar: SeoPageData = {
     {
       title: "West Delhi's Fastest Response",
       description:
-        "Our West Delhi base ensures arrivals within 60–90 minutes for Kirti Nagar, Rajouri Garden, and Tilak Nagar. Book before noon for same-day service.",
+        "Our West Delhi base ensures arrivals within 2–4 hours for Kirti Nagar, Rajouri Garden, and Tilak Nagar. Book before noon for same-day service.",
     },
     {
       title: "Fixed-Price Written Quotes",
@@ -543,12 +543,12 @@ export const sofaRepairKirtiNagar: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairVasantKunj: SeoPageData = {
   slug: "sofa-repair-vasant-kunj",
-  title: "Sofa Repair Vasant Kunj Delhi | ₹500 Doorstep | FurniRevive",
+  title: "Sofa Repair in Vasant Kunj Delhi | ₹500 Doorstep | FurniRevive",
   metaDescription:
     "K. Puram. Foam replacement, re-upholstery, spring & recliner repair. Starting ₹500. Same-day service. Book now!",
   h1: "Sofa Repair in Vasant Kunj — Munirka, R.K. Puram & Nearby Areas",
   heroSubtitle:
-    "Professional sofa repair across Vasant Kunj Sectors A–D, Munirka, R.K. Puram, Kishangarh, and neighbouring Saket. Foam replacement, fabric reupholstery, spring repair, leather sofa conditioning, and recliner mechanism fixing. 6-month warranty. Starting ₹500.",
+    "Professional sofa repair across Vasant Kunj Sectors A–E, Munirka, R.K. Puram, Kishangarh, and neighbouring Saket. Foam replacement, fabric reupholstery, spring repair, leather sofa conditioning, and recliner mechanism fixing. 6-month warranty. Starting ₹500.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Vasant Kunj Home",
     imageUrl: "https://hercules-cdn.com/file_LtgHsihVJugMPHKrxVispUjM",
@@ -558,7 +558,7 @@ export const sofaRepairVasantKunj: SeoPageData = {
   quickAnswer:
     "Sofa repair in Vasant Kunj costs ₹999–₹4,500 depending on the repair type. Cushion foam replacement starts at ₹999 per seat, spring repair at ₹1,500, and full reupholstery from ₹2,000 per seat. FurniRevive provides same-day doorstep service in Vasant Kunj, Munirka, R.K. Puram, and Kishangarh.",
   intro: [
-    "Vasant Kunj is one of South-West Delhi's most established residential hubs — a mix of DDA flats across Sectors A through D, premium group-housing societies, and independent floors in pockets near Nelson Mandela Marg. Families here invest in quality sofas that form the centrepiece of their living rooms. After years of regular use, even premium sofas develop sagging cushions, worn upholstery, weakened springs, and creaking frame joints. Replacing a sofa set means spending ₹40,000–₹1,00,000 or more — professional doorstep repair with FurniRevive restores the same comfort at a fraction of the cost.",
+    "Vasant Kunj is one of South-West Delhi's most established residential hubs — a mix of DDA flats across Sectors A through E, premium group-housing societies, and independent floors in pockets near Nelson Mandela Marg. Families here invest in quality sofas that form the centrepiece of their living rooms. After years of regular use, even premium sofas develop sagging cushions, worn upholstery, weakened springs, and creaking frame joints. Replacing a sofa set means spending ₹40,000–₹1,00,000 or more — professional doorstep repair with FurniRevive restores the same comfort at a fraction of the cost.",
     "Our sofa repair technicians serve every sector and pocket of Vasant Kunj, plus neighbouring Munirka, R.K. Puram Sectors 1–13, Kishangarh village, and the Saket-Vasant Kunj connector corridor. We specialise exclusively in sofa and upholstered seating — leather sofas, fabric sectionals, L-shaped sets, recliners, and sofa-cum-beds. Every technician arrives with 32D and 40D foam, 500+ fabric swatches, spring kits, and leather conditioning materials.",
     "Sofa repair in Vasant Kunj starts at ₹500 with every job backed by a 6-month written warranty. Book before noon for same-day service. Call +91 92179 99355 or send WhatsApp photos for a quick estimate.",
   ],
@@ -566,7 +566,7 @@ export const sofaRepairVasantKunj: SeoPageData = {
     {
       title: "Full Vasant Kunj Coverage",
       description:
-        "Sectors A, B, C, D, Pocket 1–6, DDA Flats, group-housing societies, plus Munirka, R.K. Puram, Kishangarh, and nearby Saket — all covered at standard pricing.",
+        "Sectors A, B, C, D, E, Pocket 1–6, DDA Flats, group-housing societies, plus Munirka, R.K. Puram, Kishangarh, and nearby Saket — all covered at standard pricing.",
     },
     {
       title: "Premium Sofa Expertise",
@@ -581,7 +581,7 @@ export const sofaRepairVasantKunj: SeoPageData = {
     {
       title: "Same-Day South-West Delhi Service",
       description:
-        "Our South Delhi team reaches Vasant Kunj addresses within 60–90 minutes. Book before noon for same-day service to any sector or pocket.",
+        "Our South Delhi team reaches Vasant Kunj addresses within 2–4 hours. Book before noon for same-day service to any sector or pocket.",
     },
     {
       title: "Transparent Pricing",
@@ -666,7 +666,7 @@ export const sofaRepairVasantKunj: SeoPageData = {
     {
       question: "Can you reach Munirka and R.K. Puram for sofa repair?",
       answer:
-        "Yes. We serve Munirka, R.K. Puram Sectors 1–13, Kishangarh, and the Saket-Vasant Kunj corridor at standard pricing. Book before noon for same-day arrival — typically within 60–90 minutes.",
+        "Yes. We serve Munirka, R.K. Puram Sectors 1–13, Kishangarh, and the Saket-Vasant Kunj corridor at standard pricing. Book before noon for same-day arrival — typically within 2–4 hours.",
     },
   ],
   priceTable: {

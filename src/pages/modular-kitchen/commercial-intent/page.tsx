@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation } from "@/lib/router-compat.tsx";
 import { getCommercialIntentEntry } from "@/lib/registry/kitchen-commercial-intent-registry.ts";
 import KitchenCommercialIntentTemplate from "../_components/KitchenCommercialIntentTemplate.tsx";
 import NotFound from "@/pages/NotFound.tsx";

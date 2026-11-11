@@ -4,7 +4,7 @@
  * Returns null when fewer than 2 services exist for the locality.
  */
 
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { Sofa, Armchair, Wrench, CheckCircle2 } from "lucide-react";
 import { getLocalityInfo } from "@/lib/seoConfigs/localities.ts";
 import { buildLocalityServiceUrl, pageExists } from "@/lib/seoConfigs/location-graph.ts";

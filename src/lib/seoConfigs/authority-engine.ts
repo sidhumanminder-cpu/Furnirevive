@@ -206,6 +206,9 @@ export function getAuthorityLinks(
     // Exclude self
     if (record.slug === slug) continue;
 
+    // Repair pages never promote the kitchen vertical; only kitchen pages link within it
+    if ((record.cluster === "kitchen" || record.businessVertical === "home-interiors") && serviceKey !== "modular-kitchen") continue;
+
     // Exclude already-linked hrefs
     if (excludeHrefs.has("/" + record.slug)) continue;
 

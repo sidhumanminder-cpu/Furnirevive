@@ -21,6 +21,7 @@ import ServicesGridRegistrySection from "@/components/registry/ServicesGridRegis
 import MaterialOptionsRegistrySection from "@/components/registry/MaterialOptionsRegistrySection.tsx";
 import RepairTimesRegistrySection from "@/components/registry/RepairTimesRegistrySection.tsx";
 import ServiceCoverageRegistrySection from "@/components/registry/ServiceCoverageRegistrySection.tsx";
+import LocalContextBlock from "@/components/seo/LocalContextBlock.tsx";
 import KitchenHeroSection from "@/components/registry/KitchenHeroSection.tsx";
 import KitchenIntroSection from "@/components/registry/KitchenIntroSection.tsx";
 import KitchenLayoutsGridSection from "@/components/registry/KitchenLayoutsGridSection.tsx";
@@ -91,6 +92,8 @@ export default function SectionRenderer({
       return <MaterialOptionsRegistrySection section={section} />;
     case "repair-times":
       return <RepairTimesRegistrySection section={section} />;
+    case "local-context":
+      return <LocalContextBlock {...section.props} />;
     case "service-coverage":
       return <ServiceCoverageRegistrySection section={section} />;
     case "kitchen-hero":

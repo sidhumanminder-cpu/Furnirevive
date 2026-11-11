@@ -4,7 +4,7 @@
  * pageKind "hub"     → grouped directory of all repair pages
  */
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { setPageMetadata } from "@/lib/metadata.ts";
 import {
   Wrench,

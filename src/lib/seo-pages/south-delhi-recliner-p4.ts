@@ -437,7 +437,7 @@ const reclinerRepairEastOfKailash: SeoPageData = {
     "No call-out charge",
     "Transparent itemised quotation",
     "Apartment-safe in-home working",
-    "5-star rated by East of Kailash customers",
+    "Trusted by East of Kailash customers",
     "Genuine-grade replacement parts only",
   ],
 

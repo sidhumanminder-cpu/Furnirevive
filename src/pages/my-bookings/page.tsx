@@ -1,7 +1,7 @@
-import { useQuery } from "convex/react";
+import { useQuery } from "@/lib/convex-query.ts";
 import { api } from "@/convex/_generated/api.js";
 import { Authenticated, Unauthenticated, AuthLoading } from "convex/react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { Calendar, LogIn, ArrowRight, ImageIcon } from "lucide-react";
 import { motion } from "motion/react";
 import Navbar from "@/components/navbar.tsx";

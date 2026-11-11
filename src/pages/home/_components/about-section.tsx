@@ -21,11 +21,28 @@ export default function AboutSection() {
             FurniRevive is a trusted furniture repair service in Delhi NCR
             specializing in sofa repair, chair repair, polishing, and carpenter
             services at home. FurniRevive focuses on quality workmanship, fast
-            service, and customer satisfaction. Since 2018, we have completed
+            service, and customer satisfaction. Since 2016, we have completed
             over 10,000 repairs across Delhi, Noida, Gurgaon, Ghaziabad, and
             Faridabad — helping families breathe new life into their beloved
             furniture instead of replacing it.
           </p>
+          <div className="text-left max-w-3xl mx-auto space-y-4 text-muted-foreground leading-relaxed">
+            <h3 className="text-xl sm:text-2xl font-serif font-bold text-foreground">
+              Furniture repair at your doorstep across Delhi NCR
+            </h3>
+            <p>
+              FurniRevive repairs sofas, recliners, beds, chairs, dining tables, wardrobes and other furniture at your home across Delhi, Noida, Gurgaon, Ghaziabad and Faridabad. A technician visits for a free inspection, tells you what has failed and why, and gives a fixed quote before any work starts. Most jobs are done on site, so nothing has to be loaded onto a truck, and every repair carries a 6-month warranty.
+            </p>
+            <p>
+              Sofa repair covers sagging seats, broken frames, springs, foam replacement and torn fabric or leather. Recliner repair covers stuck footrests, worn cables and links, and motor or handset faults. Wood polish, bed repair, chair repair and table repair cover loose joints, broken slats, hinges, scratches and faded finishes. Carpenter home service covers assembly, fitting and small custom jobs. Re-upholstery in new fabric or leather is available for sofas whose frames are still sound.
+            </p>
+            <p>
+              Repair or replace? If the frame is solid wood and the joints hold, repair is usually the better choice, because foam, springs and covers are the parts that wear out. We tell you plainly when a piece is beyond saving.
+            </p>
+            <p>
+              Our local pages cover hundreds of localities, from Rohini, Dwarka and South Delhi to sectors in Noida and Gurgaon, Indirapuram and Faridabad. Pick your area below to see local details, or call 92179 99355.
+            </p>
+          </div>
         </motion.div>
       </div>
     </section>

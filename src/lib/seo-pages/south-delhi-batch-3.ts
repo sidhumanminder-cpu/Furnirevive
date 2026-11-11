@@ -18,7 +18,7 @@ export const sofaRepairNewFriendsColony: SeoPageData = {
     caption: "Sofa Repair in New Friends Colony | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive brings 4.8-star rated, premium doorstep sofa repair to New Friends Colony — covering Maharani Bagh, Friends Colony East and West, Ashram, Okhla, and Jamia Nagar — starting at ₹500. Our specialist craftsmen are experienced in Italian leather restoration, imported furniture care, custom-made sectionals, designer upholstery, and luxury recliners. A free on-site assessment, a single fixed quote, and a 6-month workmanship warranty come standard on every job. Most NFC bookings before noon secure a same-day afternoon slot.",
+    "FurniRevive brings trusted, premium doorstep sofa repair to New Friends Colony — covering Maharani Bagh, Friends Colony East and West, Ashram, Okhla, and Jamia Nagar — starting at ₹500. Our specialist craftsmen are experienced in Italian leather restoration, imported furniture care, custom-made sectionals, designer upholstery, and luxury recliners. A free on-site assessment, a single fixed quote, and a 6-month workmanship warranty come standard on every job. Most NFC bookings before noon secure a same-day afternoon slot.",
   intro: [
     "There is a quality of furniture in New Friends Colony that is genuinely unlike most of Delhi. The drawing rooms here hold Italian leather chesterfields sourced from showrooms in Greater Kailash, custom sectionals commissioned from master craftsmen in Kirti Nagar, hand-knotted dhurries laid beneath sheesham frames that have aged beautifully over three decades. These are not simply sofas — they are expressions of a considered, refined way of living. When they begin to show wear — whether a leather surface calls for <a href=\"/leather-sofa-repair-south-delhi\">professional leather sofa restoration</a> or a recliner mechanism needs expert attention — the response has to be equally considered.",
     "Most homeowners in New Friends Colony are surprised to learn just how comprehensively — and how affordably — their premium sofas can be restored to their original condition. FurniRevive's senior craftsmen, part of our city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network, are specifically trained in the materials and construction techniques that define South Delhi's finest furniture: full-grain and semi-aniline leather treatment, European upholstery joinery, custom fabric matching for bespoke pieces, the delicate work of restoring handcrafted wooden frames without disturbing their original patina, and <a href=\"/recliner-repair-south-delhi\">expert recliner repair in South Delhi</a> for motorised and manual mechanisms. We also serve the wider <a href=\"/sofa-repair-south-delhi\">South Delhi sofa repair</a> community with the same standard of excellence.",
@@ -89,7 +89,7 @@ export const sofaRepairNewFriendsColony: SeoPageData = {
     "High-resilience foam replacement (34–40 kg/m³) rated for 10–12 years of use",
     "Full-grain and semi-aniline leather treatment and panel replacement handled on-site",
     "Maharani Bagh, Friends Colony East/West, Ashram, and Okhla all primary zones",
-    "4.8-star rated service — verified across thousands of South Delhi premium repairs",
+    "Trusted service — verified across thousands of South Delhi premium repairs",
     "Background-verified craftsmen with WhatsApp ID confirmation before arrival",
   ],
   contentSections: [

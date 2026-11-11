@@ -22,6 +22,9 @@ export function buildNearMe(
       localitySlug: locality.slug,
       serviceLabel: service.name,
       isCorporate: service.capabilities?.audience?.corporate ?? false,
+      serviceSlug: service.slug,
+      city: locality.city,
+      nearby: [...locality.nearby],
     },
   };
 }

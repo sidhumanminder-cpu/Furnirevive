@@ -1,0 +1,22 @@
+import { createFileRoute } from "@tanstack/react-router";
+import WorkstationChairSetupGuidePost from "@/pages/blog/workstation-chair-setup-guide.tsx";
+
+export const Route = createFileRoute("/blog/workstation-chair-setup-guide/")({
+  head: () => ({
+    meta: [
+      { title: "Workstation Chair Setup Guide: Height, Lumbar & Armrest Settings | FurniRevive" },
+      { name: "description", content: "Proper workstation chair setup prevents back pain and improves productivity. Step-by-step guide for height, lumbar, armrest, and tilt settings for office workers." },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://furnirevive.com#business", "name": "FurniRevive", "telephone": "+919217999355", "url": "https://furnirevive.com", "priceRange": "₹500–₹25,000", "areaServed": [{ "@type": "City", "name": "Delhi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Delhi" } }, { "@type": "City", "name": "Gurgaon", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Faridabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Ghaziabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Greater Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Kaushambi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Vasundhara", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Chandigarh", "containedInPlace": { "@type": "AdministrativeArea", "name": "Chandigarh" } }, { "@type": "City", "name": "Mohali", "containedInPlace": { "@type": "AdministrativeArea", "name": "Punjab" } }, { "@type": "City", "name": "Panchkula", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "Article", "headline": "Workstation Chair Setup Guide: Height, Lumbar & Armrest Settings", "description": "Proper workstation chair setup prevents back pain and improves productivity. Step-by-step guide for height, lumbar, armrest, and tilt settings for office workers.", "image": "", "datePublished": "2026-05-10", "dateModified": "2026-07-21", "author": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "publisher": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://furnirevive.com/blog/workstation-chair-setup-guide" } } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Should I lock my chair in one position?", "acceptedAnswer": { "@type": "Answer", "text": "No, allow some recline movement. Dynamic sitting (gentle rocking) is healthier than static posture. Only lock if the mechanism cannot maintain appropriate resistance." } }, { "@type": "Question", "name": "My chair adjustments do not work — can they be fixed?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, broken adjustment mechanisms (height, tilt, lumbar, armrest) are all repairable. FurniRevive fixes these on-site for ₹800–₹3,500 depending on the component." } }, { "@type": "Question", "name": "Can you provide ergonomic setup training for our office?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we offer 30-minute group sessions where our technicians help each employee adjust their chair correctly. Available as part of our AMC or as a standalone service." } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://furnirevive.com/" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://furnirevive.com/blog" }, { "@type": "ListItem", "position": 3, "name": "Workstation Chair Setup Guide: Height, Lumbar & Armrest Settings", "item": "https://furnirevive.com/blog/workstation-chair-setup-guide" }] } },
+    ] as Array<Record<string, unknown>>,
+  }),
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  return (
+    <WorkstationChairSetupGuidePost />
+  );
+}

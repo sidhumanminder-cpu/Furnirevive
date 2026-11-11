@@ -2,7 +2,8 @@ import { useState, useRef, useCallback } from "react";
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api.js";
 import { toast } from "sonner";
-import { motion, AnimatePresence } from "motion/react";
+import { motion } from "motion/react";
+import { AnimatePresence } from "@/components/visible-before-hydration.tsx";
 import {
   ArrowLeft,
   ArrowRight,

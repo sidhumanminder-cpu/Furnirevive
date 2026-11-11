@@ -252,7 +252,7 @@ const leatherSofaRepairNoidaExpressway: SeoPageData = {
 
 const leatherSofaRepairIndirapuram: SeoPageData = {
   slug: "leather-sofa-repair-indirapuram",
-  title: "Leather Sofa Repair Indirapuram | Expert Leather Restoration",
+  title: "Leather Sofa Repair in Indirapuram | Expert Leather Restoration",
   metaDescription:
     "Expert leather sofa restoration in Indirapuram from ₹999. Vaishali, Vasundhara, Shakti Khand & Ahinsa Khand. Crack repair, colour restoration.",
   h1: "Expert Leather Sofa Restoration in Indirapuram",

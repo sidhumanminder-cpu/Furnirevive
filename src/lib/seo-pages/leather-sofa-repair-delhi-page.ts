@@ -8,9 +8,9 @@ export const leatherSofaRepairDelhi: SeoPageData = {
     "Leather Sofa Repair in Delhi | FurniRevive",
 
   metaDescription:
-    "Leather sofa repair in Delhi from ₹1,500. Genuine, bonded & PU leather — cracks filled, peeling fixed, colour restored at your doorstep. 8★ rated.",
+    "Leather sofa repair in Delhi from ₹1,500. Genuine, bonded & PU leather — cracks filled, peeling fixed, colour restored at your doorstep. ",
 
-  h1: "Leather Sofa Repair Near Me in Delhi — Same Day Home Service",
+  h1: "Leather Sofa Repair in Delhi — Same Day Home Service",
 
   heroSubtitle:
     "Starting ₹1,500 onwards · 500+ leather sofas restored across South Delhi, Dwarka & Rohini · Free doorstep inspection · 6-month repair warranty · Book now on +91 92179 99355",

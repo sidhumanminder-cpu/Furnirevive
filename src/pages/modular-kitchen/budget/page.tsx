@@ -3,7 +3,7 @@
  * Sub-directory hub: budget tier groups → locality pages.
  */
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { ChevronRight, IndianRupee } from "lucide-react";
 import Navbar from "@/components/navbar.tsx";
 import Footer from "@/components/footer.tsx";

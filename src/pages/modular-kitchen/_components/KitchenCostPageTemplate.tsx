@@ -1,5 +1,5 @@
 import { useEffect, useMemo } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { PhoneCall, MessageCircle, CheckCircle2, ArrowRight, ChevronRight } from "lucide-react";
 import { setPageMetadata } from "@/lib/metadata.ts";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";

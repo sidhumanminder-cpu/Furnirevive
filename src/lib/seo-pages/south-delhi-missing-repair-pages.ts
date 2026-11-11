@@ -237,7 +237,7 @@ const reclineRepairGreaterKailash1: SeoPageData = {
       { service: "Full Recliner Reupholstery", price: "₹8,000–₹20,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in GK-I"],
   testimonials: [
     {
@@ -330,7 +330,7 @@ const furnitureRepairGreaterKailash1: SeoPageData = {
       { service: "Bed Frame Repair", price: "From ₹799" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in GK-I"],
   testimonials: [
     {
@@ -414,7 +414,7 @@ const furnitureRepairGreaterKailash2: SeoPageData = {
       { service: "Bed Frame Repair", price: "From ₹799" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in GK-II"],
   testimonials: [
     {
@@ -498,7 +498,7 @@ const reclineRepairGreaterKailash3: SeoPageData = {
       { service: "Full Recliner Reupholstery", price: "₹8,000–₹20,000" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It"],
   testimonials: [
     {
@@ -582,7 +582,7 @@ const furnitureRepairGreaterKailash3: SeoPageData = {
       { service: "Bed Frame Repair", price: "From ₹799" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today"],
   testimonials: [
     {
@@ -599,7 +599,7 @@ const furnitureRepairGreaterKailash3: SeoPageData = {
 
 const furnitureRepairMaharaniBagh: SeoPageData = {
   slug: "furniture-repair-maharani-bagh",
-  title: "Furniture Repair Maharani Bagh – Doorstep Service | Same Day",
+  title: "Furniture Repair in Maharani Bagh – Doorstep Service | Same Day",
   metaDescription:
     "Furniture repair in Maharani Bagh from ₹599. Sofa, chair, wooden furniture, beds and wardrobes repaired at your Maharani Bagh or Friends Colony home.",
   h1: "Furniture Repair in Maharani Bagh – Premium Doorstep Restoration",
@@ -678,7 +678,7 @@ const furnitureRepairMaharaniBagh: SeoPageData = {
       { service: "Bed Frame Repair", price: "From ₹799" },
     ],
   },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Maharani Bagh"],
   testimonials: [
     {

@@ -23,7 +23,7 @@ const GHAZIABAD_RELATED = [
 export const sofaRepairGreaterNoida: SeoPageData = {
   slug: "sofa-repair-greater-noida",
 
-  title: "Sofa Repair Greater Noida | ₹500 Doorstep | Warranty",
+  title: "Sofa Repair in Greater Noida | ₹500 Doorstep | Warranty",
 
   metaDescription:
     "Expert sofa repair in Greater Noida & Noida Extension from ₹500. Gaur City, ATS, Ace City, Supertech covered. Leather, fabric, recliner repair.",
@@ -194,12 +194,12 @@ export const sofaRepairIndirapuramGhaziabad: SeoPageData = {
   slug: "sofa-repair-indirapuram-ghaziabad",
   category: "Sofa Repair",
 
-  title: "Sofa Repair Near Me in Indirapuram Ghaziabad | ₹500 Home Service",
+  title: "Sofa Repair in Indirapuram Ghaziabad | ₹500 Home Service",
 
   metaDescription:
     "Sofa repair near me in Indirapuram Ghaziabad from ₹500. All khands: Niti, Ahinsa, Shakti, Nyay, Abhay, Gyan.",
 
-  h1: "Sofa Repair Near Me in Indirapuram Ghaziabad — All Khands Covered",
+  h1: "Sofa Repair in Indirapuram Ghaziabad — All Khands Covered",
 
   heroSubtitle:
     "Doorstep sofa repair across Indirapuram — Niti Khand, Ahinsa Khand, Shakti Khand, Nyay Khand, Abhay Khand and Gyan Khand. Serving Mahagun, ATS, Shipra and all societies. 6-month warranty from ₹500.",
@@ -401,12 +401,12 @@ export const sofaRepairIndirapuramGhaziabad: SeoPageData = {
 export const furnitureRepairCrossingRepublik: SeoPageData = {
   slug: "furniture-repair-crossing-republik-ghaziabad",
 
-  title: "Furniture Repair Near Me in Crossing Republik Ghaziabad | ₹599",
+  title: "Furniture Repair in Crossing Republik Ghaziabad | ₹599",
 
   metaDescription:
     "Furniture repair near me in Crossing Republik Ghaziabad from ₹599. Sofa, bed, wardrobe & table repair at doorstep. GH-02 to GH-07, Raj Nagar Extension.",
 
-  h1: "Furniture Repair Near Me in Crossing Republik Ghaziabad — All GH Sectors",
+  h1: "Furniture Repair in Crossing Republik Ghaziabad — All GH Sectors",
 
   heroSubtitle:
     "Professional doorstep furniture repair across Crossing Republik township — GH-02 to GH-07, Panchsheel Greens, Ajnara Le Garden, Nimbus Hyde Park and all major societies. 6-month warranty from ₹599.",

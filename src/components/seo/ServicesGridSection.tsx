@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { Wrench, ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
 import { Card, CardContent } from "@/components/ui/card.tsx";

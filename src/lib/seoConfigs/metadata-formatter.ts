@@ -109,9 +109,26 @@ export function formatTitle(
 
 /**
  * Formats the H1.
- * Pattern: "{Service} in {Location}" — never includes city.
+ * Pattern: "{Service} in {Location}". The city is appended only when the
+ * locality is a bare sector/phase/block name (e.g. "Sector 49") that is
+ * ambiguous without it and does not already contain the city.
+ * Named localities ("DLF Phase 1", "Rohini") stay city-free.
  */
-export function formatH1(serviceName: string, localityName: string): string {
+// Names that start with Sector/Phase/Block (e.g. "Sector 72", "Block C", "Phase 2") are ambiguous across cities.
+const BARE_LOCALITY_RE = /^(sector|sec\.?|phase|block|pocket|ph)(?![a-z])/i;
+
+export function formatH1(
+  serviceName: string,
+  localityName: string,
+  cityName?: string,
+): string {
+  if (
+    cityName &&
+    BARE_LOCALITY_RE.test(localityName) &&
+    !isCityRedundant(localityName, cityName)
+  ) {
+    return `${serviceName} in ${localityName}, ${cityName}`;
+  }
   return `${serviceName} in ${localityName}`;
 }
 
@@ -147,7 +164,7 @@ const META_DESCRIPTION_SEGMENT_GROUPS = [
   [
     "Looking for {service} in {locality}?",
     "FurniRevive offers doorstep repair, free inspection & 6-month warranty.",
-    "5,000+ happy customers.",
+    "10,000+ happy customers.",
     "Call 92179 99355.",
   ],
   [

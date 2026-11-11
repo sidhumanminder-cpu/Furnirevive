@@ -18,7 +18,7 @@ export default function ClusterHubLayout({ target }: { target: HubTarget }) {
   return (
     <HubFrame
       target={target}
-      eyebrow={`${config.name} in ${area}, Delhi`}
+      eyebrow={`Doorstep service across ${area}`}
       intro={`Doorstep ${config.noun} in ${area}, ${config.headlinePrice}. Choose your colony below, or call for a free inspection.`}
       siblingLinks={[cityHub, ...getSiblingLinks(target)]}
     >

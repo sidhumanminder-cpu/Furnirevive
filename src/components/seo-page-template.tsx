@@ -1,5 +1,8 @@
-import { useEffect, useMemo } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { removeUnowned } from "@/lib/remove-unowned.ts";
+import { canonicalSlug } from "@/lib/seoConfigs/canonical-overrides.ts";
+import { lazy, Suspense, useEffect, useMemo } from "react";
+import { Link, useLocation } from "@/lib/router-compat.tsx";
+import { cdnImage } from "@/lib/image-cdn.ts";
 import { motion } from "motion/react";
 import HomeServicesSection from "@/components/HomeServicesSection.tsx";
 import {
@@ -23,9 +26,11 @@ import {
   Quote,
   type LucideIcon,
 } from "lucide-react";
+import { cityFromSlugSuffix, resolveServiceAreaHref } from "@/lib/area-links.ts";
 import AreaPills from "@/components/area-pills.tsx";
+import SofaRepairTopics from "@/components/seo/SofaRepairTopics.tsx";
 import SofaSizePricing from "@/components/seo/SofaSizePricing.tsx";
-import { sofaSizePricingDecision, sofaSizeLocality } from "@/lib/seoConfigs/sofa-size-gating.ts";
+import { sofaSizePricingDecision, sofaSizeLocality, SOFA_MIN_PRICE_NOTE } from "@/lib/seoConfigs/sofa-size-gating.ts";
 import Navbar from "@/components/navbar.tsx";
 import Footer from "@/components/footer.tsx";
 import RealRepairResults from "@/components/real-repair-results.tsx";
@@ -53,7 +58,7 @@ import {
 import { buildSchemas } from "@/lib/seo-schema.ts";
 import { AUTHORITY_REGISTRY, type AuthorityPageRecord } from "@/lib/seoConfigs/authority-registry.ts";
 import { buildRelatedLinks } from "@/lib/seoConfigs/linking-engine.ts";
-import { selectRelatedPosts } from "@/lib/blog-recommendation-engine.ts";
+const RelatedBlogPosts = lazy(() => import("@/components/seo/RelatedBlogPosts.tsx"));
 import {
   getIntroOpener,
   getMicroLocalContext,
@@ -67,6 +72,9 @@ import NearMeSection, { type CityKey } from "@/components/seo/NearMeSection.tsx"
 import { getCtaNoun, getInlineCtaLabel } from "@/lib/seoConfigs/cta-copy.ts";
 import { getLocalityInfo } from "@/lib/seoConfigs/localities.ts";
 import LocalityNearMeSection from "@/components/seo/LocalityNearMeSection.tsx";
+import { LOCAL_NOTES } from "@/lib/seoConfigs/local-notes.ts";
+import LocalNotesBlock from "@/components/seo/LocalNotesBlock.tsx";
+import { LOCAL_GUIDE_SLUGS } from "@/lib/seoConfigs/local-guide-slugs.ts";
 import NearbyAreasSection from "@/components/seo/NearbyAreasSection.tsx";
 import ServiceAvailabilitySection from "@/components/seo/ServiceAvailabilitySection.tsx";
 import ServiceHubSection from "@/components/seo/ServiceHubSection.tsx";
@@ -77,7 +85,6 @@ import { getGalleryImages } from "@/lib/seoConfigs/gallery-engine.ts";
 import { resolvePageType, resolveServiceKey } from "@/lib/seoConfigs/location-graph.ts";
 import TopicalAuthoritySection from "@/components/seo/TopicalAuthoritySection.tsx";
 import { getAuthorityLinks } from "@/lib/seoConfigs/authority-engine.ts";
-import KitchenCrossLinkBanner from "@/components/kitchen-cross-link-banner.tsx";
 import ProtectedHubGrid from "@/pages/services/service-hub/_components/ProtectedHubGrid.tsx";
 
 // Map icon name strings from the utility to actual Lucide components
@@ -119,8 +126,10 @@ function CtaBar() {
 }
 
 /** STEP 3 — Rotated trust badges based on page slug */
-function TrustBadges({ slug }: { slug: string }) {
-  const badges = getRotatedBadges(slug);
+function TrustBadges({ slug, hub = false }: { slug: string; hub?: boolean }) {
+  const rotated = getRotatedBadges(slug);
+  // Hub pages quote the site-wide "from ₹500" price
+  const badges = hub ? rotated.map((b) => (/₹599/.test(b.label) ? { ...b, label: "From ₹500" } : b)) : rotated;
   return (
     <div className="flex flex-wrap gap-4">
       {badges.map((b) => {
@@ -508,13 +517,20 @@ function getServiceLabel(slug: string): string {
   if (slug.startsWith("chair-repair")) return "Chair Repair";
   if (slug.startsWith("furniture-polishing")) return "Furniture Polishing";
   if (slug.startsWith("furniture-repair")) return "Furniture Repair";
-  return "Sofa Repair";
+  if (slug.startsWith("gaming-chair")) return "Gaming Chair Repair";
+  if (slug.startsWith("office-chair") || slug.startsWith("revolving-chair")) return "Office Chair Repair";
+  if (slug.startsWith("carpenter")) return "Carpenter Service";
+  if (slug.startsWith("godrej") || slug.includes("almirah") || slug.startsWith("wardrobe")) return "Almirah & Wardrobe Repair";
+  if (slug.startsWith("recliner")) return "Recliner Repair";
+  if (slug.includes("upholstery")) return "Sofa Upholstery";
+  if (slug.includes("sofa")) return "Sofa Repair";
+  if (slug.includes("chair")) return "Chair Repair";
+  return "Furniture Repair";
 }
 
 export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
   const { pathname } = useLocation();
   const isKitchenPage = pathname.includes("kitchen") || pathname.includes("modular");
-  const relatedBlogPosts = selectRelatedPosts(data.slug);
 
   // Resolve authority registry entry for this page (null = not in registry → fallback)
   const authorityRecord: AuthorityPageRecord | null =
@@ -563,9 +579,10 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
   const uniqueFaq = useMemo(() => getUniqueFaq(data.slug), [data.slug]);
 
   // Combine existing FAQs with the unique one for JSON-LD
+  const isHub = data.isHubPage === true;
   const allFaqs = useMemo(
-    () => [...data.faqs, uniqueFaq],
-    [data.faqs, uniqueFaq],
+    () => (isHub ? data.faqs : [...data.faqs, uniqueFaq]),
+    [data.faqs, uniqueFaq, isHub],
   );
 
   useEffect(() => {
@@ -602,7 +619,7 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
 
     // Inject JSON-LD structured data — single @graph block via seo-schema.ts
     const existingScripts = document.querySelectorAll('script[data-schema="seo-page"]');
-    existingScripts.forEach((s) => s.remove());
+    existingScripts.forEach((s) => removeUnowned(s));
 
     // Build page-specific FAQs merged with any template FAQs
     const pageDataWithFaqs = { ...data, faqs: allFaqs };
@@ -617,15 +634,15 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
 
     // Inject self-referencing canonical tag
     const existingCanonical = document.querySelector('link[rel="canonical"]');
-    if (existingCanonical) existingCanonical.remove();
+    if (existingCanonical) removeUnowned(existingCanonical);
     const canonical = document.createElement("link");
     canonical.rel = "canonical";
-    canonical.href = `https://furnirevive.com/${data.slug}`;
+    canonical.href = `https://furnirevive.com/${canonicalSlug(data.slug)}`;
     document.head.appendChild(canonical);
 
     return () => {
-      document.querySelectorAll('script[data-schema="seo-page"]').forEach((s) => s.remove());
-      document.querySelector('link[rel="canonical"]')?.remove();
+      document.querySelectorAll('script[data-schema="seo-page"]').forEach((s) => removeUnowned(s));
+      removeUnowned(document.querySelector('link[rel="canonical"]'));
     };
   }, [data.title, data.metaDescription, data.h1, data.slug, allFaqs]);
 
@@ -641,7 +658,7 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
           <div className={`flex flex-col ${(data.showcaseImage || data.hero) ? "lg:flex-row lg:items-center lg:gap-12" : ""}`}>
             {/* Left: text */}
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               className={data.showcaseImage || data.hero ? "lg:flex-1" : ""}
@@ -660,25 +677,28 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
               </div>
               {/* STEP 3 — Rotated trust badges */}
               <div className="mt-6">
-                <TrustBadges slug={data.slug} />
+                <TrustBadges slug={data.slug} hub={isHub} />
               </div>
             </motion.div>
 
             {/* Right: before/after image (only when showcaseImage exists) */}
             {data.showcaseImage && (
               <motion.div
-                initial={{ opacity: 0, x: 30 }}
+                initial={false}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7, delay: 0.15 }}
                 className="mt-10 lg:mt-0 lg:flex-1 lg:max-w-[520px]"
               >
                 <div className="rounded-2xl overflow-hidden shadow-lg border border-border">
                   <img
-                    src={data.showcaseImage.imageUrl}
-                    alt={data.showcaseImage.altText}
-                    className="w-full object-cover"
-                    loading="eager"
-                  />
+  src={cdnImage(data.showcaseImage.imageUrl, { w: 1200 })}
+  srcSet={`${cdnImage(data.showcaseImage.imageUrl, { w: 640 })} 640w, ${cdnImage(data.showcaseImage.imageUrl, { w: 1200 })} 1200w`}
+  sizes="(min-width: 1024px) 520px, 100vw"
+  alt={data.showcaseImage.altText}
+  className="w-full object-cover"
+  loading="eager"
+  fetchPriority="high"
+/>
                 </div>
                 {data.showcaseImage.caption && (
                   <p className="mt-2 text-xs text-muted-foreground text-center leading-relaxed px-2">
@@ -691,7 +711,7 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
             {/* Right: pipeline hero image (only when data.hero is set — programmatic pages only) */}
             {!data.showcaseImage && data.hero && (
               <motion.div
-                initial={{ opacity: 0, x: 30 }}
+                initial={false}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7, delay: 0.15 }}
                 className="mt-10 lg:mt-0 lg:flex-1 lg:max-w-[520px]"
@@ -712,6 +732,11 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
         </div>
       </section>
 
+      {/* Sofa repairs we do — sofa-repair-* pages only */}
+      {data.slug.startsWith("sofa-repair-") && (
+        <SofaRepairTopics locality={sofaSizeLocality(data)} cityKey={data.cityKey ?? getLocalityInfo(data.slug).cityKey} />
+      )}
+
       {/* Price Table — High-impact pricing section */}
       {data.priceTable && (
         <section className="py-10 lg:py-12 bg-primary/5">
@@ -722,6 +747,9 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
                 {data.priceTable.heading ?? "Repair Cost Guide — Delhi NCR"}
               </h2>
             </div>
+            {sofaSizePricingDecision(data) === "has-size-rows" && (
+              <p className="mb-3 text-xs text-muted-foreground">{SOFA_MIN_PRICE_NOTE}</p>
+            )}
             <div className="rounded-xl border border-border overflow-hidden shadow-sm">
               <table className="w-full text-left">
                 <thead>
@@ -776,9 +804,11 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
       <section className="py-14 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* STEP 1 — Unique intro opener sentence */}
-          <p className="text-foreground/90 leading-relaxed mb-4 text-base lg:text-lg font-medium">
-            {introOpener}
-          </p>
+          {!isHub && (
+            <p className="text-foreground/90 leading-relaxed mb-4 text-base lg:text-lg font-medium">
+              {introOpener}
+            </p>
+          )}
 
           {/* Original intro paragraphs — completely untouched */}
           {data.intro.map((para, i) => (
@@ -790,9 +820,11 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
           ))}
 
           {/* STEP 2 — Micro-local context paragraph */}
-          <p className="text-foreground/80 leading-relaxed mb-4 text-base italic">
-            {microContext}
-          </p>
+          {!isHub && (
+            <p className="text-foreground/80 leading-relaxed mb-4 text-base italic">
+              {microContext}
+            </p>
+          )}
         </div>
       </section>
 
@@ -802,11 +834,12 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
       )}
 
       {/* Near-me section — city pages use NearMeSection, all other pages use LocalityNearMeSection */}
-      {data.cityKey ? (
-        <NearMeSection city={data.cityKey as CityKey} serviceLabel={getServiceLabel(data.slug)} emitFaqSchema={false} />
+      {isHub ? null : data.cityKey ? (
+        <NearMeSection city={data.cityKey as CityKey} serviceLabel={getServiceLabel(data.slug)} emitFaqSchema={false} nearMePage={data.slug.includes("near-me")} />
       ) : (
-        <LocalityNearMeSection slug={data.slug} emitFaqSchema={false} />
+        <LocalityNearMeSection slug={data.slug} emitFaqSchema={false} localContext={LOCAL_GUIDE_SLUGS.has(data.slug)} localGuide={LOCAL_GUIDE_SLUGS.has(data.slug)} />
       )}
+      {LOCAL_NOTES[data.slug] && <LocalNotesBlock {...LOCAL_NOTES[data.slug]} />}
 
       {/* Location Graph sections — driven by resolved pageType */}
       {pageType === "locality" && resolvedServiceKey && (
@@ -825,8 +858,6 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
       )}
 
       {/* STEP 5 — Section order variation */}
-      {/* Cross-link: Modular Kitchen — placed before process so it's seen early */}
-      {!isKitchenPage && <KitchenCrossLinkBanner />}
 
       {sectionOrder === "process-first" ? (
         <>
@@ -851,16 +882,18 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
           <ContentSectionsBlock data={data} />
 
           {/* STEP 4 — Unique highlight sentence between content & benefits */}
-          <section className="py-8 lg:py-10">
-            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="rounded-lg border border-primary/20 bg-primary/5 px-5 py-4 flex items-start gap-3">
-                <CheckCircle2 className="size-5 text-primary shrink-0 mt-0.5" />
-                <p className="text-foreground/90 text-sm lg:text-base leading-relaxed">
-                  {uniqueSentence}
-                </p>
+          {!isHub && (
+            <section className="py-8 lg:py-10">
+              <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="rounded-lg border border-primary/20 bg-primary/5 px-5 py-4 flex items-start gap-3">
+                  <CheckCircle2 className="size-5 text-primary shrink-0 mt-0.5" />
+                  <p className="text-foreground/90 text-sm lg:text-base leading-relaxed">
+                    {uniqueSentence}
+                  </p>
+                </div>
               </div>
-            </div>
-          </section>
+            </section>
+          )}
 
           <BenefitsSection data={data} />
         </>
@@ -897,21 +930,23 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
       {/* Real Repair Results — dynamic before/after case studies */}
       <RealRepairResults pageSlug={data.slug} cityName={data.cityKey} />
 
-      {/* Service Areas */}
+      {/* Service Areas (hub pages already list every locality above) */}
+      {!isHub && (
       <section className="py-14 lg:py-20 bg-secondary/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {(() => {
-            const { heading, subtitle, areas } = getServiceAreasForCity(data.cityKey);
+            const { heading, subtitle, areas } = getServiceAreasForCity(data.cityKey ?? cityFromSlugSuffix(data.slug));
             return (
               <>
                 <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-6">{heading}</h2>
                 <p className="text-muted-foreground mb-6">{subtitle}</p>
-                <AreaPills areas={[...areas]} pageSlug={data.slug} tone="background" />
+                <AreaPills areas={[...areas]} pageSlug={data.slug} tone="background" resolve={(area) => resolveServiceAreaHref(area, data.slug)} />
               </>
             );
           })()}
         </div>
       </section>
+      )}
 
       {/* Signs You Need Repair — conversion signal section */}
       {data.repairSigns && data.repairSigns.length > 0 && (
@@ -952,14 +987,16 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
               </AccordionItem>
             ))}
             {/* STEP 6 — One unique FAQ per page */}
-            <AccordionItem value="faq-unique" className="border rounded-lg px-4">
-              <AccordionTrigger className="text-left text-sm font-semibold hover:no-underline">
-                {uniqueFaq.question}
-              </AccordionTrigger>
-              <AccordionContent className="text-sm text-muted-foreground leading-relaxed">
-                {uniqueFaq.answer}
-              </AccordionContent>
-            </AccordionItem>
+            {!isHub && (
+              <AccordionItem value="faq-unique" className="border rounded-lg px-4">
+                <AccordionTrigger className="text-left text-sm font-semibold hover:no-underline">
+                  {uniqueFaq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-sm text-muted-foreground leading-relaxed">
+                  {uniqueFaq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            )}
           </Accordion>
         </div>
       </section>
@@ -1039,7 +1076,8 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
                     "/sofa-repair-rohini", "/blog", "/contact", "/book", "/",
                   ]);
                   const pyramidHrefSet = new Set(pyramidLinks.map((l) => l.href));
-                  const excluded = new Set([...FOOTER_NAVBAR_HREFS, ...pyramidHrefSet, `/${data.slug}`]);
+                  // Hub pages keep city links even when they are also in footer/navbar
+                  const excluded = new Set([...(isHub ? [] : FOOTER_NAVBAR_HREFS), ...pyramidHrefSet, `/${data.slug}`]);
 
                   // ── Secondary layer: engine (registry pages) or static fallback ──
                   let secondaryLinks: { label: string; href: string }[];
@@ -1082,39 +1120,10 @@ export default function SeoPageTemplate({ data }: { data: SeoPageData }) {
       {/* Topical Authority Section — semantic cross-links, distinct from pyramid hierarchy */}
       <TopicalAuthoritySection matches={authorityMatches} slug={data.slug} />
 
-      {/* Related Blog Posts */}
-      {relatedBlogPosts.length > 0 && (
-        <section className="py-12 lg:py-16 bg-secondary/30">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center gap-2.5 mb-8">
-              <BookOpen className="size-5 text-primary" />
-              <h3 className="text-xl font-serif font-bold">Helpful Guides & Tips</h3>
-            </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {relatedBlogPosts.map((post) => (
-                <Link key={post.slug} to={`/blog/${post.slug}`}>
-                  <Card className="pt-0 h-full hover:shadow-lg transition-shadow group">
-                    <img
-                      src={post.featuredImage}
-                      alt={post.imageAlt ?? post.h1}
-                      className="w-full h-36 object-cover rounded-t-xl"
-                    />
-                    <CardContent className="pt-4">
-                      <span className="text-xs text-primary font-semibold">{post.category}</span>
-                      <h4 className="text-sm font-semibold mt-1 line-clamp-2 group-hover:text-primary transition-colors">
-                        {post.h1}
-                      </h4>
-                      <p className="text-xs text-muted-foreground mt-1.5 line-clamp-2">
-                        {post.excerpt}
-                      </p>
-                    </CardContent>
-                  </Card>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+      {/* Related Blog Posts (loaded on demand: the blog library is large) */}
+      <Suspense fallback={null}>
+        <RelatedBlogPosts slug={data.slug} />
+      </Suspense>
 
       <Footer />
     </div>

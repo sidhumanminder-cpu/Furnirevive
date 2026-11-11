@@ -1,5 +1,7 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
+import { canonicalSlug } from "@/lib/seoConfigs/canonical-overrides.ts";
 import { useEffect, Fragment, lazy, Suspense } from "react";
-import { useLocation, Link } from "react-router-dom";
+import { useLocation, Link } from "@/lib/router-compat.tsx";
 import KitchenGalleryPreview from "@/pages/modular-kitchen/_components/KitchenGalleryPreview.tsx";
 import { PREVIEW_GALLERY, getRootGallery } from "@/pages/modular-kitchen/_components/kitchen-gallery-images.ts";
 import { ChevronRight, Home } from "lucide-react";
@@ -7,9 +9,10 @@ import HomeServicesSection from "@/components/HomeServicesSection.tsx";
 import Navbar from "@/components/navbar.tsx";
 import Footer from "@/components/footer.tsx";
 import KitchenTrustStrip from "@/components/kitchen-trust-strip.tsx";
+import SofaRepairTopics from "@/components/seo/SofaRepairTopics.tsx";
 import SectionRenderer from "@/components/registry/SectionRenderer.tsx";
 import StickyContactBar from "@/components/registry/StickyContactBar.tsx";
-import { BUSINESS, BUSINESS_ADDRESS, BUSINESS_AREA_SERVED, BUSINESS_GEO } from "@/lib/business-config.ts";
+import { BUSINESS, buildAreaServed } from "@/lib/business-config.ts";
 import { CITY_DISPLAY_NAMES } from "@/lib/content-engine/content-pools.ts";
 import { isCityRedundant } from "@/lib/seoConfigs/metadata-formatter.ts";
 import { MODULAR_KITCHEN_LOCALITY_REGISTRY } from "@/lib/registry/kitchen-locality-registry.ts";
@@ -446,7 +449,9 @@ export default function RegistryPageTemplate({
   const showCrossLinkSection = isKitchen;
 
   const cityDisplayName = CITY_DISPLAY_NAMES[locality.city];
-  const canonicalHref = `${CANONICAL_ORIGIN}${location.pathname}`;
+  const pathSlug = location.pathname.replace(/^\/+|\/+$/g, "");
+  const isSofaRepairPage = pathSlug.startsWith("sofa-repair-");
+  const canonicalHref = pathSlug ? `${CANONICAL_ORIGIN}/${canonicalSlug(pathSlug)}` : `${CANONICAL_ORIGIN}${location.pathname}`;
 
   // ─── SEO metadata ─────────────────────────────────────────────────────────────
   let pageTitle: string;
@@ -483,12 +488,7 @@ export default function RegistryPageTemplate({
     openingHours: BUSINESS.openingHours,
     sameAs: [BUSINESS.whatsappUrl],
     serviceType: service.name,
-    address: BUSINESS_ADDRESS,
-    geo: BUSINESS_GEO,
-    areaServed: [
-      { "@type": "Place", name: `${locality.name}, ${cityDisplayName}` },
-      ...BUSINESS_AREA_SERVED,
-    ],
+    areaServed: buildAreaServed(locality.name, cityDisplayName),
   };
 
   // ─── JSON-LD: FAQPage (repair faq OR kitchen-faq) ─────────────────────────
@@ -623,7 +623,7 @@ export default function RegistryPageTemplate({
     if (createdCanonical) document.head.appendChild(canonicalEl);
 
     return () => {
-      if (createdCanonical) canonicalEl.remove();
+      if (createdCanonical) removeUnowned(canonicalEl);
       else if (previousCanonical !== null) canonicalEl.setAttribute("href", previousCanonical);
     };
   }, [pageTitle, description, canonicalHref, ogImage]);
@@ -648,6 +648,9 @@ export default function RegistryPageTemplate({
       <main className="flex-1 pb-16 md:pb-14">
         {sections.map((s) => (
           <Fragment key={s.id}>
+            {isSofaRepairPage && (s.type === "pricing" || (!pricing && s.type === "faq")) && (
+              <SofaRepairTopics locality={locality.name} cityKey={locality.city} />
+            )}
             <SectionRenderer section={s} hideBookOnline={isKitchen} />
             {/* Visible breadcrumb rendered immediately after the kitchen-hero section */}
             {isKitchen && s.type === "kitchen-hero" && kitchenBreadcrumbItems && (

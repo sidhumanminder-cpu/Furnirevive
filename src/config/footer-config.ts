@@ -22,7 +22,7 @@ export type FooterConfig = {
 export const FOOTER_CONFIGS: Record<FooterService, FooterConfig> = {
   repair: {
     brandTagline:
-      "Delhi NCR's most trusted furniture repair service. Expert sofa repair, recliner repair, chair repair, wood polish & carpenter home service at your doorstep since 2018.",
+      "Delhi NCR's most trusted furniture repair service. Expert sofa repair, recliner repair, chair repair, wood polish & carpenter home service at your doorstep since 2016.",
     copyrightSuffix: "Furniture Repair Services in Delhi NCR",
     linkGroups: [
       {

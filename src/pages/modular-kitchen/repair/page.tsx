@@ -2,7 +2,7 @@
  * /modular-kitchen-repair-guide
  * Sub-directory hub: 9 domain sections listing all 45 repair problem pages.
  */
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { ChevronRight, Wrench, CheckCircle, AlertTriangle, Zap } from "lucide-react";
 import Navbar from "@/components/navbar.tsx";
 import Footer from "@/components/footer.tsx";

@@ -12,8 +12,7 @@ import { RELATIONSHIP_GRAPH } from "@/lib/registry/relationship-graph.ts";
 import { COMMERCIAL_LOCALITY_REGISTRY } from "@/lib/registry/commercial-locality-registry.ts";
 import { MODULAR_KITCHEN_LOCALITY_REGISTRY } from "@/lib/registry/kitchen-locality-registry.ts";
 import { LOCALITY_REGISTRY } from "@/lib/registry/locality-registry.ts";
-import { generatePages } from "@/lib/registry/generate-pages.ts";
-import { ALL_SEO_PAGES } from "@/lib/seo-pages/registry.ts";
+import { pageExistsAt } from "@/lib/registry/link-verify.ts";
 
 /** Slug→canonical display name lookup built from the commercial registry */
 const COMMERCIAL_SLUG_TO_NAME: Record<string, string> = Object.fromEntries(
@@ -55,7 +54,7 @@ function resolveAreaSlug(name: string, city: CityKey): string {
   return (matches.find((m) => m.city === city) ?? matches[0]).slug;
 }
 
-function nearbyHref(serviceSlug: ServiceSlug, city: CityKey, name: string): string {
+export function nearbyHref(serviceSlug: ServiceSlug, city: CityKey, name: string): string {
   const areaSlug = resolveAreaSlug(name, city);
   // Sofa upholstery in Delhi uses the "-delhi" suffixed pattern.
   if (serviceSlug === "sofa-upholstery" && city === "delhi") {
@@ -65,16 +64,7 @@ function nearbyHref(serviceSlug: ServiceSlug, city: CityKey, name: string): stri
   return `/${serviceSlug}-${areaSlug}`;
 }
 
-/** Every real page path (registry + hand-authored). Built lazily to avoid import cycles. */
-let validPaths: Set<string> | null = null;
-function pageExists(href: string): boolean {
-  if (!validPaths) {
-    validPaths = new Set<string>();
-    for (const p of generatePages()) validPaths.add(p.urlPath);
-    for (const p of ALL_SEO_PAGES) validPaths.add(p.slug.startsWith("/") ? p.slug : `/${p.slug}`);
-  }
-  return validPaths.has(href);
-}
+const pageExists = pageExistsAt;
 
 type NearbyArea = { name: string; href: string };
 

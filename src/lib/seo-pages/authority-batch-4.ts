@@ -5,7 +5,7 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const leatherSofaRepairGreaterNoida: SeoPageData = {
   slug: "leather-sofa-repair-greater-noida",
-  title: "Leather Sofa Repair Greater Noida | Premium Leather Restoration",
+  title: "Leather Sofa Repair in Greater Noida | Premium Leather Restoration",
   metaDescription:
     "Expert leather sofa restoration in Greater Noida from ₹999. Pari Chowk, Alpha, Beta, Gamma, Knowledge Park. Crack repair, colour restoration.",
   h1: "Premium Leather Sofa Repair in Greater Noida",

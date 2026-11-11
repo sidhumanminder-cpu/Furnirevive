@@ -8,16 +8,21 @@
  */
 
 import { CheckCircle2, MapPin, Clock, Phone, MessageCircle } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";
-import { getLocalityInfo, type LocalityInfo } from "@/lib/seoConfigs/localities.ts";
+import { getLocalityInfo, withCityForBareLocality, type LocalityInfo } from "@/lib/seoConfigs/localities.ts";
+import AreaPills from "@/components/area-pills.tsx";
 import { selectFaqs, type SelectedFaq } from "@/lib/seoConfigs/faq-engine.ts";
+import LocalContextBlock from "@/components/seo/LocalContextBlock.tsx";
+import { buildLocalContext } from "@/lib/seoConfigs/local-context.ts";
+import LocalGuideBlock from "@/components/seo/LocalGuideBlock.tsx";
+import { buildLocalGuide } from "@/lib/seoConfigs/local-guide.ts";
 
 // ─── Trust signals ───────────────────────────────────────────────────────────
 
 const TRUST_SIGNALS = [
-  "5,000+ Sofas Repaired",
+  "10,000+ Sofas Repaired",
   "10+ Years Experience",
   "Same-Day Home Visits",
   "6-Month Warranty",
@@ -36,7 +41,7 @@ const CORPORATE_TRUST_SIGNALS = [
 
 // ─── Service category ──────────────────────────────────────────────────────
 
-export type ServiceCategory = "sofa" | "furniture" | "recliner" | "upholstery" | "chair" | "corporate";
+export type ServiceCategory = "sofa" | "furniture" | "recliner" | "upholstery" | "chair" | "corporate" | "generic";
 
 /** Derive the page's service from its slug so pages never show another service's copy. */
 export function inferServiceLabel(slug: string): string {
@@ -47,6 +52,12 @@ export function inferServiceLabel(slug: string): string {
   if (slug.startsWith("chair-repair")) return "Chair Repair";
   if (slug.startsWith("furniture-polishing")) return "Furniture Polishing";
   if (slug.startsWith("furniture-repair")) return "Furniture Repair";
+  if (!slug.includes("sofa")) {
+    if (slug.includes("carpenter")) return "Carpenter Service";
+    if (/godrej|almirah|wardrobe/.test(slug)) return "Almirah & Wardrobe Repair";
+    if (slug.includes("chair")) return "Chair Repair";
+    if (/furniture|bed-repair|dining-table/.test(slug)) return "Furniture Repair";
+  }
   return "Sofa Repair";
 }
 
@@ -57,12 +68,13 @@ function resolveCategory(serviceLabel: string, isCorporate: boolean): ServiceCat
   if (l.includes("upholster")) return "upholstery";
   if (l.includes("chair")) return "chair";
   if (l.includes("furniture")) return "furniture";
-  return "sofa";
+  // Labels that are not a sofa service (carpenter, almirah, wardrobe...) get neutral copy
+  return /sofa/.test(l) ? "sofa" : "generic";
 }
 
 type CategoryCopy = {
   noun: string;
-  para1: (name: string, city: string, propertyType: string, responseTime: string) => string;
+  para1: (name: string, city: string, propertyType: string, responseTime: string, serviceLabel: string) => string;
   para2: (name: string) => string;
   landmarkText: (city: string) => string;
   landmarkHref: (city: string, fallback: string) => string;
@@ -84,6 +96,17 @@ function cityHref(prefix: string, city: string, fallback: string): string {
 }
 
 const CATEGORY_COPY: Record<Exclude<ServiceCategory, "sofa" | "corporate">, CategoryCopy> = {
+  generic: {
+    noun: "furniture service",
+    para1: (name, city, propertyType, rt, label) =>
+      `Looking for ${label.toLowerCase()} near you in ${name}? FurniRevive sends trained technicians to your ${propertyType} in ${city} with a ${rt} response. We bring the tools, hardware and materials needed, so most jobs are finished at your home in one visit.`,
+    para2: () =>
+      "Tell us what needs fixing and send a photo on WhatsApp, and we confirm the work and a quote before the visit. The inspection is free, you approve the quote before work starts, and every job carries a 6-month warranty.",
+    landmarkText: (city) => `furniture repair in ${city}`,
+    landmarkHref: (city, fb) => cityHref("furniture-repair", city, fb),
+    pricing: "Transparent pricing with a free doorstep inspection before any work begins.",
+    trust: "10,000+ Repairs Done",
+  },
   furniture: {
     noun: "furniture repair",
     para1: (name, city, propertyType, rt) =>
@@ -139,10 +162,10 @@ function slugVariant(slug: string): 0 | 1 | 2 | 3 {
   return (h % 4) as 0 | 1 | 2 | 3;
 }
 
-function buildPara1(info: LocalityInfo, variant: 0 | 1 | 2 | 3, category: ServiceCategory): string {
+function buildPara1(info: LocalityInfo, variant: 0 | 1 | 2 | 3, category: ServiceCategory, serviceLabel: string): string {
   const { name, city, propertyType, responseTime } = info;
   const isCorporate = category === "corporate";
-  if (category !== "sofa" && !isCorporate) return CATEGORY_COPY[category].para1(name, city, propertyType, responseTime);
+  if (category !== "sofa" && !isCorporate) return CATEGORY_COPY[category].para1(name, city, propertyType, responseTime, serviceLabel);
 
   if (isCorporate) {
     return `Searching for reliable office chair repair near me in ${name}? FurniRevive provides on-site corporate chair repair for offices, startups and co-working spaces in ${city}. Our technician reaches your premises in ${responseTime} with all parts — gas lifts, casters, armrests, mesh panels, and executive chair components. Same-day repair for hydraulic cylinders, wheels, armrests, and fabric/leather seating.`;
@@ -151,7 +174,7 @@ function buildPara1(info: LocalityInfo, variant: 0 | 1 | 2 | 3, category: Servic
   const options = [
     `When ${name} residents search for sofa repair near me, fast response is what separates a good service from a great one. FurniRevive's local sofa technicians are stationed across ${city} and reach your ${propertyType} within ${responseTime}. We arrive with foam, fabric, springs, and tools for complete doorstep sofa repair — no pickup, no workshop, no wait. Our team handles fabric sofas, leather sofas, wooden sofas, recliners, sofa cum beds, and full upholstery as home sofa repair in a single visit.`,
     `Searching for reliable sofa repair near me in ${name}? FurniRevive provides doorstep sofa repair at your ${propertyType} with a ${responseTime} technician response across ${city}. We bring everything needed — high-density foam, matching fabric, recliner parts, webbing springs — to complete home sofa repair right in your living room. From torn fabric and sagging cushions to cracked leather and broken frames, we repair all sofa types: fabric, leather, wooden, recliner, and sofa cum bed.`,
-    `For ${name} residents who need a trusted sofa repair service, FurniRevive offers doorstep sofa repair with a local sofa technician stationed near you in ${city}. Our team reaches your ${propertyType} within ${responseTime} fully equipped for same-day sofa repair — foam replacement, re-upholstery, spring repair, and frame tightening all done as home sofa repair on-site. We service fabric sofas, leather sofas, recliners, wooden sofas, and sofa cum beds without moving your furniture anywhere.`,
+    `For ${name} residents who need a trusted sofa repair service, FurniRevive offers doorstep sofa repair with a local sofa technician stationed near you in ${city}. Our team reaches your ${propertyType.replace(" with ", ", ")} within ${responseTime}, fully equipped for same-day sofa repair — foam replacement, re-upholstery, spring repair, and frame tightening all done as home sofa repair on-site. We service fabric sofas, leather sofas, recliners, wooden sofas, and sofa cum beds without moving your furniture anywhere.`,
     `FurniRevive is the local sofa repair service ${name} households trust — with technicians across ${city} who reach your ${propertyType} within ${responseTime}. Every job is completed as doorstep sofa repair: our craftsmen arrive at your door with foam, fabric swatches, recliner spares, and tools, delivering home sofa repair without the hassle of transportation. We repair fabric sofas, leather sofas, wooden sofas, sofa cum beds, recliners, and full upholstery sets in a single same-day visit.`,
   ];
   return options[variant];
@@ -167,10 +190,10 @@ function buildPara2(info: LocalityInfo, variant: 0 | 1 | 2 | 3, category: Servic
   }
 
   const options = [
-    `Common issues we fix in ${name} include sofa sagging from worn foam, torn fabric upholstery, sofa frame repair for wobbly joints, sofa spring repair for collapsed seating, and leather sofa repair for peeling or cracked surfaces. Sofa repair cost in ${name} starts at ₹500 with a free inspection — no obligation, no hidden charges. Call or WhatsApp to book the best sofa repair in ${name} and get a 6-month warranty on every job.`,
-    `Whether your sofa has a sagging seat from flat foam, needs sofa spring repair, sofa frame repair, recliner mechanism work, or torn sofa repair for fabric or leather, our same-day sofa repair service in ${name} handles it all. Sofa repair price in ${name} starts at ₹500 with a free doorstep inspection included. Book a sofa technician near you today — all repairs come with a 6-month warranty.`,
-    `We handle all common sofa problems in ${name}: sofa sagging repair, sofa spring repair, sofa frame repair, torn sofa repair, leather sofa repair, recliner repair near me, and wooden sofa repair. Sofa repair cost in ${name} starts at ₹500 and includes a free inspection. FurniRevive is rated the best sofa repair service by hundreds of ${name} customers — every repair is backed by a 6-month warranty.`,
-    `From sofa sagging and sofa spring repair to sofa frame repair and leather sofa repair, our same-day sofa repair covers every issue in ${name} starting at ₹500. Free doorstep inspection before any work begins — no surprise bills. WhatsApp us or call now to book a local sofa technician near you in ${name}; we provide a 6-month warranty on every repair.`,
+    `Common issues we fix in ${name} include sofa sagging from worn foam, torn fabric upholstery, sofa frame repair for wobbly joints, sofa spring repair for collapsed seating, and leather sofa repair for peeling or cracked surfaces. Sofa repair cost in ${name} starts at ₹500 per seat with a free inspection — no obligation, no hidden charges. Call or WhatsApp to book the best sofa repair in ${name} and get a 6-month warranty on every job.`,
+    `Whether your sofa has a sagging seat from flat foam, needs sofa spring repair, sofa frame repair, recliner mechanism work, or torn sofa repair for fabric or leather, our same-day sofa repair service in ${name} handles it all. Sofa repair price in ${name} starts at ₹500 per seat with a free doorstep inspection included. Book a sofa technician near you today — all repairs come with a 6-month warranty.`,
+    `We handle all common sofa problems in ${name}: sofa sagging repair, sofa spring repair, sofa frame repair, torn sofa repair, leather sofa repair, recliner repair near me, and wooden sofa repair. Sofa repair cost in ${name} starts at ₹500 per seat and includes a free inspection. FurniRevive is rated the best sofa repair service by hundreds of ${name} customers — every repair is backed by a 6-month warranty.`,
+    `From sofa sagging and sofa spring repair to sofa frame repair and leather sofa repair, our same-day sofa repair covers every issue in ${name} starting at ₹500 per seat. Free doorstep inspection before any work begins — no surprise bills. WhatsApp us or call now to book a local sofa technician near you in ${name}; we provide a 6-month warranty on every repair.`,
   ];
   return options[variant];
 }
@@ -194,6 +217,15 @@ export interface LocalityNearMeSectionProps {
   showFaqs?: boolean;
   /** Set false when the host page already emits its own FAQPage schema (avoids duplicates) */
   emitFaqSchema?: boolean;
+  /**
+   * Registry pages pass verified links: the city hub (null = no link), the city name for the
+   * hub sentence, and a resolver that links an area chip only when its page exists.
+   */
+  verified?: { areas?: string[]; hubHref: string | null; cityLabel: string; pageSlug: string; resolveArea: (area: string) => string | null };
+  /** Adds a locality-specific "what we see locally" block after the section (programmatic pages) */
+  localContext?: boolean;
+  /** Adds the repair-guide block (for thin locality pages) */
+  localGuide?: boolean;
 }
 
 export default function LocalityNearMeSection({
@@ -201,14 +233,18 @@ export default function LocalityNearMeSection({
   serviceLabel: serviceLabelProp,
   isCorporate = false,
   gscBoosts,
-  showFaqs = true,
+  showFaqs: showFaqsProp = true,
   emitFaqSchema = true,
+  verified,
+  localContext = false,
+  localGuide = false,
 }: LocalityNearMeSectionProps) {
   const serviceLabel = serviceLabelProp ?? inferServiceLabel(slug);
   const category = resolveCategory(serviceLabel, isCorporate);
+  const showFaqs = showFaqsProp && category !== "generic";
   const info: LocalityInfo = getLocalityInfo(slug);
   const variant = slugVariant(slug);
-  const faqs: SelectedFaq[] = selectFaqs(info, { count: 7, gscBoosts, category });
+  const faqs: SelectedFaq[] = selectFaqs(info, { count: 7, gscBoosts, category: category === "generic" ? "furniture" : category });
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
     `Hi! I need ${serviceLabel.toLowerCase()} near me in ${info.name}. Please share a quote.`,
   )}`;
@@ -231,7 +267,7 @@ export default function LocalityNearMeSection({
   const landmarkLinkHref = copy
     ? copy.landmarkHref(info.city, info.parentServiceSlug)
     : isCorporate
-      ? `/office-chair-repair-${info.city.toLowerCase()}`
+      ? `/office-chair-repair-${info.city.toLowerCase().replace(/\s+/g, "-")}`
       : info.parentServiceSlug;
   const landmarkPricing = copy
     ? copy.pricing
@@ -239,7 +275,11 @@ export default function LocalityNearMeSection({
       ? "Transparent pricing starting ₹599 per chair with GST invoice and AMC plans available."
       : "Transparent pricing starting ₹500 with a free doorstep inspection before any work begins.";
 
+  const hubHref = verified ? verified.hubHref : landmarkLinkHref;
+  const hubText = verified ? landmarkLinkText.replace(info.city, verified.cityLabel) : landmarkLinkText;
+
   return (
+    <>
     <section
       className="py-12 lg:py-18 bg-primary/5"
       aria-labelledby={sectionId}
@@ -253,7 +293,7 @@ export default function LocalityNearMeSection({
             id={sectionId}
             className="text-2xl sm:text-3xl font-serif font-bold"
           >
-            {serviceLabel} Near Me in {info.name}
+            {serviceLabel.replace(/\s+Services?$/i, "")} Near Me in {withCityForBareLocality(info.name, info.city)}
           </h2>
         </div>
 
@@ -265,7 +305,7 @@ export default function LocalityNearMeSection({
 
         {/* Para 1 — near me, doorstep, home, local, sofa/chair types */}
         <p className="text-foreground/90 leading-relaxed text-base lg:text-lg ml-9 mb-4">
-          {buildPara1(info, variant, category)}
+          {buildPara1(info, variant, category, serviceLabel)}
         </p>
 
         {/* Para 2 — problem keywords, cost, warranty, CTA nudge */}
@@ -294,36 +334,44 @@ export default function LocalityNearMeSection({
         {/* Areas We Serve */}
         <div className="ml-9 mb-8">
           <h3 className="text-base font-semibold text-foreground mb-3">
-            {serviceLabel} Service in {info.name} and Nearby Areas
+            {serviceLabel.replace(/\s+Service$/i, "")} Service in {info.name} and Nearby Areas
           </h3>
-          <div
-            className="flex flex-wrap gap-2"
-            role="list"
-            aria-label={`Areas near ${info.name} we cover`}
-          >
-            {info.adjacentAreas.map((area) => (
-              <span
-                key={area}
-                role="listitem"
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-secondary/60 border border-border rounded-full text-sm text-foreground"
-              >
-                <MapPin className="size-3 text-primary" aria-hidden="true" />
-                {area}
-              </span>
-            ))}
-          </div>
+          {verified ? (
+            <AreaPills areas={verified.areas ?? info.adjacentAreas} pageSlug={verified.pageSlug} resolve={verified.resolveArea} />
+          ) : (
+            <div
+              className="flex flex-wrap gap-2"
+              role="list"
+              aria-label={`Areas near ${info.name} we cover`}
+            >
+              {info.adjacentAreas.map((area) => (
+                <span
+                  key={area}
+                  role="listitem"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-secondary/60 border border-border rounded-full text-sm text-foreground"
+                >
+                  <MapPin className="size-3 text-primary" aria-hidden="true" />
+                  {area}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Landmark italic para with internal links */}
         <p className="text-foreground/80 leading-relaxed text-base italic ml-9 mb-8">
           Fastest response near {info.landmarks.join(", ")}. Our locally stationed technicians
           complete{" "}
-          <Link
-            to={landmarkLinkHref}
-            className="text-primary underline underline-offset-2 not-italic hover:text-primary/80"
-          >
-            {landmarkLinkText}
-          </Link>{" "}
+          {hubHref ? (
+            <Link
+              to={hubHref}
+              className="text-primary underline underline-offset-2 not-italic hover:text-primary/80"
+            >
+              {hubText}
+            </Link>
+          ) : (
+            <span className="not-italic">{hubText}</span>
+          )}{" "}
           every day — at apartments, independent houses, offices, and restaurants alike.
           {" "}{landmarkPricing}
         </p>
@@ -399,5 +447,33 @@ export default function LocalityNearMeSection({
       />
       )}
     </section>
+    {localContext && (
+      <LocalContextBlock
+        {...buildLocalContext({
+          slug,
+          name: info.name,
+          city: info.city,
+          cityKey: info.cityKey,
+          serviceKey: slug.split("-").slice(0, 2).join("-"),
+          propertyType: info.propertyType,
+          landmarks: info.landmarks,
+          landmarksReliable: !/sector-\d/.test(slug),
+          adjacent: info.adjacentAreas,
+        })}
+      />
+    )}
+    {localGuide && (
+      <LocalGuideBlock
+        {...buildLocalGuide({
+          slug,
+          name: info.name,
+          city: info.city,
+          cityKey: info.cityKey,
+          serviceKey: slug.split("-").slice(0, 2).join("-"),
+          propertyType: info.propertyType,
+        })}
+      />
+    )}
+    </>
   );
 }

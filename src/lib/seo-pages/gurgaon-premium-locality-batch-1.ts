@@ -18,7 +18,7 @@ export const furnitureRepairSushantLok: SeoPageData = {
     caption: "Sofa Repair in Gurgaon (Sushant Lok) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep furniture repair across Sushant Lok Gurgaon — covering Phase 1, Phase 2, Phase 3, and the Sushant Lok market area — starting at ₹999. We restore sofas, wooden furniture, dining sets, wardrobes, beds and recliners, with polishing and refinishing done at home. Free on-site assessment, fixed transparent quote, and a 6-month workmanship warranty. Same-day slots are routinely available for morning bookings in Sushant Lok.",
+    "FurniRevive provides trusted doorstep furniture repair across Sushant Lok Gurgaon — covering Phase 1, Phase 2, Phase 3, and the Sushant Lok market area — starting at ₹999. We restore sofas, wooden furniture, dining sets, wardrobes, beds and recliners, with polishing and refinishing done at home. Free on-site assessment, fixed transparent quote, and a 6-month workmanship warranty. Same-day slots are routinely available for morning bookings in Sushant Lok.",
   intro: [
     "Sushant Lok is one of Gurgaon's most settled and family-oriented addresses — a sprawling, well-treed residential township of independent villas, builder floors, and long-term resident families who have lived here for a decade or more. Unlike the transient corporate apartments closer to Cyber City, Sushant Lok homes are owned, lived in, and furnished for the long haul. The furniture here tells that story: solid sheesham and teak dining sets bought for growing families, wooden wardrobes built to last, sofas that have hosted three generations of family gatherings. These pieces are not disposable — they are part of the household, and they deserve proper <a href=\"/furniture-repair-gurgaon\">furniture repair in Gurgaon</a> rather than premature replacement.",
     "FurniRevive serves Sushant Lok Phase 1, Phase 2, and Phase 3 as part of our wider Gurgaon network, with the same craftsmen who handle our <a href=\"/sofa-repair-gurgaon\">sofa repair across Gurgaon</a>. Our team specialises in exactly the kind of long-term family furniture that defines Sushant Lok homes: wooden furniture restoration and polishing, dining table and chair repair, wardrobe hinge and shutter alignment, bed frame and storage repair, and complete sofa restoration. For families who have owned their furniture for years, we also offer <a href=\"/wooden-furniture-restoration-delhi\">wooden furniture restoration</a> that brings tired surfaces back to their original warmth.",
@@ -85,7 +85,7 @@ export const furnitureRepairSushantLok: SeoPageData = {
     "Craftsmen trained in solid-wood joinery, polishing and upholstery",
     "Same-day confirmation with technician profile and ETA via WhatsApp",
     "Transparent flat-rate pricing confirmed before work starts",
-    "4.8-star rated across thousands of Gurgaon and Delhi repairs",
+    "Trusted across thousands of Gurgaon and Delhi repairs",
     "Traditional polishing and refinishing that restores original warmth",
     "Bundle pricing for multiple pieces repaired in one appointment",
     "6-month workmanship warranty on every repaired element",
@@ -316,7 +316,7 @@ export const furnitureRepairDlfPhase1: SeoPageData = {
     caption: "Sofa Repair in Gurgaon (DLF Phase 1) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated luxury furniture repair across DLF Phase 1 Gurgaon — covering the bungalow sectors, builder floors, and the MG Road and Golf Course Road vicinity — starting at ₹999. We specialise in luxury sofa restoration, imported and designer furniture repair, traditional refinishing, and antique restoration, all at your doorstep. Free assessment, fixed quote, 6-month workmanship warranty. Same-day slots are common for morning bookings.",
+    "FurniRevive delivers trusted luxury furniture repair across DLF Phase 1 Gurgaon — covering the bungalow sectors, builder floors, and the MG Road and Golf Course Road vicinity — starting at ₹999. We specialise in luxury sofa restoration, imported and designer furniture repair, traditional refinishing, and antique restoration, all at your doorstep. Free assessment, fixed quote, 6-month workmanship warranty. Same-day slots are common for morning bookings.",
   intro: [
     "DLF Phase 1 is one of Gurgaon's oldest and most prestigious addresses — a low-rise enclave of established bungalows and premium builder floors set among mature gardens, home to a settled community of corporate leaders, entrepreneurs, and long-term Gurgaon families. The furniture in these homes is correspondingly premium: imported leather sofas, designer occasional pieces, custom-built solid-wood cabinetry, and frequently a treasured antique or two. These are considered, high-value interiors, and when a piece needs attention it deserves restoration-grade <a href=\"/furniture-repair-gurgaon\">furniture repair in Gurgaon</a>, not a generic patch-up.",
     "FurniRevive brings specialist restoration to DLF Phase 1 as part of our wider Gurgaon network, with craftsmen trained specifically in the materials these homes contain: full-grain and aniline leather, European upholstery joinery, hardwood cabinetry, and the delicate finishes of antique and imported pieces. Our service spans luxury <a href=\"/sofa-repair-gurgaon\">sofa restoration in Gurgaon</a>, <a href=\"/imported-furniture-repair-delhi\">imported furniture repair</a>, complete refinishing, and <a href=\"/antique-furniture-restoration-delhi\">antique furniture restoration</a> — all carried out at your address with the care these interiors demand.",
@@ -384,7 +384,7 @@ export const furnitureRepairDlfPhase1: SeoPageData = {
     "Period-appropriate refinishing for designer and antique pieces",
     "Same-day confirmation with technician profile and ETA via WhatsApp",
     "Transparent flat-rate pricing fixed before work starts",
-    "4.8-star rated across thousands of Gurgaon and Delhi restorations",
+    "Trusted across thousands of Gurgaon and Delhi restorations",
     "40+ premium fabric and leather swatches chosen in your home",
     "High-resilience foam replacement for lasting sofa comfort",
     "6-month workmanship warranty on every restored element",
@@ -614,7 +614,7 @@ export const furnitureRepairDlfPhase2: SeoPageData = {
     caption: "Sofa Repair in Gurgaon (DLF Phase 2) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated furniture repair across DLF Phase 2 Gurgaon — covering the Cyber City residential towers, Ambience Mall vicinity, Udyog Vihar, and MG Road — starting at ₹999. We restore imported and high-value furniture, leather sofas, hardwood cabinetry, dining sets and storage pieces at your doorstep, including both homes and corporate apartments. Free assessment, fixed quote, 6-month warranty. Same-day slots for morning bookings.",
+    "FurniRevive provides trusted furniture repair across DLF Phase 2 Gurgaon — covering the Cyber City residential towers, Ambience Mall vicinity, Udyog Vihar, and MG Road — starting at ₹999. We restore imported and high-value furniture, leather sofas, hardwood cabinetry, dining sets and storage pieces at your doorstep, including both homes and corporate apartments. Free assessment, fixed quote, 6-month warranty. Same-day slots for morning bookings.",
   intro: [
     "DLF Phase 2 sits at the exact intersection of Gurgaon's commercial heart and its premium housing, with the towers of Cyber City visible from many balconies and Ambience Mall a short drive away. The residents here are overwhelmingly in Gurgaon's corporate mainstream — senior professionals and executives whose homes are furnished to a high standard, alongside a substantial stock of corporate-leased apartments fitted out for visiting and on-assignment staff. The furniture spans imported leather sofas and high-value designer pieces in owner-occupied homes through to good-quality, high-use seating in corporate flats — and all of it benefits from proper <a href=\"/furniture-repair-gurgaon\">furniture repair in Gurgaon</a>, part of our wider <a href=\"/areas-we-serve\">areas we serve</a> across the NCR.",
     "FurniRevive serves DLF Phase 2 as part of our wider Gurgaon network, with coverage extending into the Cyber City residential blocks, Udyog Vihar, the Ambience Mall area, and the MG Road corridor. Our craftsmen handle the full spectrum these homes present: <a href=\"/imported-furniture-repair-delhi\">imported furniture repair</a>, leather and fabric <a href=\"/sofa-repair-gurgaon\">sofa restoration in Gurgaon</a>, hardwood cabinetry refinishing, <a href=\"/recliner-repair-gurgaon\">recliner repair in Gurgaon</a>, and dining and storage repair. Residential and corporate work alike receives the same standard of craftsmanship and the same 6-month workmanship warranty.",
@@ -682,7 +682,7 @@ export const furnitureRepairDlfPhase2: SeoPageData = {
     "Same-day slots for Cyber City and Udyog Vihar area bookings",
     "Transparent flat-rate pricing fixed before work starts",
     "GST invoices and per-piece warranty docs for corporate records",
-    "4.8-star rated across thousands of Gurgaon and Delhi repairs",
+    "Trusted across thousands of Gurgaon and Delhi repairs",
     "40+ premium fabric and leather swatches chosen in your home",
     "High-resilience foam replacement for lasting comfort",
     "6-month workmanship warranty on every repaired element",
@@ -906,7 +906,7 @@ export const furnitureRepairDlfPhase3: SeoPageData = {
     caption: "Sofa Repair in Gurgaon (DLF Phase 3) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers 4.8-star rated furniture repair across DLF Phase 3 Gurgaon — covering the DLF Phase 3 residential sectors, Cyber Hub vicinity, Moulsari Avenue, and Chakkarpur area — starting at ₹999. We restore family furniture: sofas, dining sets, wardrobes, beds, and recliners, with polishing and refinishing at home. Free assessment, fixed quote, 6-month workmanship warranty. Same-day slots for morning bookings.",
+    "FurniRevive offers trusted furniture repair across DLF Phase 3 Gurgaon — covering the DLF Phase 3 residential sectors, Cyber Hub vicinity, Moulsari Avenue, and Chakkarpur area — starting at ₹999. We restore family furniture: sofas, dining sets, wardrobes, beds, and recliners, with polishing and refinishing at home. Free assessment, fixed quote, 6-month workmanship warranty. Same-day slots for morning bookings.",
   intro: [
     "DLF Phase 3 has a character all its own within the DLF family of sectors — closely tied to the Cyber Hub business district yet home to a settled population of families who have made the area their long-term base. The homes here are lived in fully: children grow up in them, extended families gather in them, and the furniture absorbs years of genuine daily family life. Sofas that host weekend gatherings, dining sets that seat three generations at festivals, wardrobes and beds in constant use, and increasingly the family recliner that has become the most-fought-over seat in the house. All of it benefits from dependable <a href=\"/furniture-repair-gurgaon\">furniture repair in Gurgaon</a>, part of our wider <a href=\"/areas-we-serve\">areas we serve</a> across the NCR.",
     "FurniRevive serves DLF Phase 3 and its surrounding sectors as part of our wider Gurgaon network, with the same craftsmen who handle our <a href=\"/sofa-repair-gurgaon\">sofa repair across Gurgaon</a> and <a href=\"/recliner-repair-gurgaon\">recliner repair across Gurgaon</a>. Our focus in family homes is restoration and longevity — spanning sofa restoration, dining and chair repair, wardrobe and bed servicing, recliner repair, and complete furniture refinishing. See our full <a href=\"/areas-we-serve\">areas we serve</a> across the NCR.",
@@ -978,7 +978,7 @@ export const furnitureRepairDlfPhase3: SeoPageData = {
     "Durable, child- and pet-safe materials and finishes as standard",
     "High-resilience foam replacement for lasting sofa comfort",
     "6-month workmanship warranty on every repaired element",
-    "4.8-star rated across thousands of Gurgaon and Delhi repairs",
+    "Trusted across thousands of Gurgaon and Delhi repairs",
   ],
   contentSections: [
     {
@@ -1196,7 +1196,7 @@ export const furnitureRepairDlfPhase4: SeoPageData = {
     caption: "Sofa Repair in Gurgaon (DLF Phase 4) | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated premium furniture repair across DLF Phase 4 Gurgaon — covering the DLF Phase 4 residential blocks, Galleria Market vicinity, South Point Mall area, and Sushant Lok boundary — starting at ₹999. We restore designer furniture, leather sofas, statement cabinetry, dining sets and upholstery at your doorstep. Free assessment, fixed quote, 6-month workmanship warranty. Same-day slots for morning bookings.",
+    "FurniRevive delivers trusted premium furniture repair across DLF Phase 4 Gurgaon — covering the DLF Phase 4 residential blocks, Galleria Market vicinity, South Point Mall area, and Sushant Lok boundary — starting at ₹999. We restore designer furniture, leather sofas, statement cabinetry, dining sets and upholstery at your doorstep. Free assessment, fixed quote, 6-month workmanship warranty. Same-day slots for morning bookings.",
   intro: [
     "DLF Phase 4 is among Gurgaon's most polished residential addresses — anchored by the Galleria Market and South Point Mall, and home to premium households who treat their interiors as a considered expression of taste. The furniture here is correspondingly design-led: statement sofas in leather and performance fabric, designer occasional pieces, sculptural cabinetry, and dining sets chosen to complement carefully curated rooms. These are not utilitarian purchases but deliberate design choices, and when a piece needs attention it deserves restoration that respects the original design intent — proper <a href=\"/furniture-repair-gurgaon\">furniture repair in Gurgaon</a>, not a generic fix.",
     "FurniRevive serves DLF Phase 4 as part of our wider Gurgaon network, with craftsmen trained in the materials and finishes that define design-led interiors: full-grain leather, performance upholstery, lacquered and veneered cabinetry, and the precise colour-matching that designer pieces demand. Our service spans <a href=\"/designer-furniture-repair-delhi\">designer furniture repair</a>, leather and fabric <a href=\"/sofa-repair-gurgaon\">sofa restoration in Gurgaon</a>, statement-cabinetry refinishing, and complete upholstery work — all carried out at your address. See our full <a href=\"/areas-we-serve\">areas we serve</a> and <a href=\"/recliner-repair-gurgaon\">recliner repair in Gurgaon</a>.",
@@ -1268,7 +1268,7 @@ export const furnitureRepairDlfPhase4: SeoPageData = {
     "Restoration that respects original design intent",
     "6-month workmanship warranty on every restored element",
     "Child- and pet-safe, non-toxic materials and finishes as standard",
-    "4.8-star rated across thousands of Gurgaon and Delhi restorations",
+    "Trusted across thousands of Gurgaon and Delhi restorations",
   ],
   contentSections: [
     {

@@ -155,7 +155,7 @@ export type PageIntent =
   | "brand";
 
 /** Versioned module identifier, e.g. "hero:v1" */
-export type ModuleId = `${"hero" | "intro" | "process" | "pricing" | "repair-types" | "brands" | "faq" | "nearby" | "pyramid-links" | "servicehub" | "cta" | "near-me" | "why-choose" | "comparison" | "reviews" | "before-after" | "luxury" | "testimonials" | "topical-authority" | "blog-links" | "services-grid" | "material-options" | "repair-times" | "service-coverage" | "industries" | "quick-answers" | "kitchen-hero" | "kitchen-intro" | "kitchen-layouts-grid" | "kitchen-materials-grid" | "kitchen-pricing" | "kitchen-process" | "kitchen-faq" | "kitchen-cta" | "kitchen-why-choose" | "kitchen-reviews" | "kitchen-comparison" | "kitchen-brands" | "kitchen-locality-snapshot" | "kitchen-locality-stats"}:v${number}`;
+export type ModuleId = `${"hero" | "intro" | "process" | "pricing" | "repair-types" | "brands" | "faq" | "nearby" | "pyramid-links" | "servicehub" | "cta" | "near-me" | "why-choose" | "comparison" | "reviews" | "before-after" | "luxury" | "testimonials" | "topical-authority" | "blog-links" | "services-grid" | "material-options" | "repair-times" | "service-coverage" | "local-context" | "industries" | "quick-answers" | "kitchen-hero" | "kitchen-intro" | "kitchen-layouts-grid" | "kitchen-materials-grid" | "kitchen-pricing" | "kitchen-process" | "kitchen-faq" | "kitchen-cta" | "kitchen-why-choose" | "kitchen-reviews" | "kitchen-comparison" | "kitchen-brands" | "kitchen-locality-snapshot" | "kitchen-locality-stats"}:v${number}`;
 
 /**
  * A module entry in a service's modules array.

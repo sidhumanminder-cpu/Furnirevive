@@ -12,8 +12,9 @@
  * - templateVersion: "v1" for forward compatibility
  */
 
-import { useEffect, useMemo } from "react";
-import { Link } from "react-router-dom";
+import { canonicalSlug } from "@/lib/seoConfigs/canonical-overrides.ts";
+import { lazy, Suspense, useEffect, useMemo } from "react";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import {
   Phone,
@@ -59,12 +60,11 @@ import ProcessSteps from "@/components/upholstery/ProcessSteps.tsx";
 import BeforeAfter from "@/components/upholstery/BeforeAfter.tsx";
 import DecisionGuide from "@/components/upholstery/DecisionGuide.tsx";
 import WarrantyInfo from "@/components/upholstery/WarrantyInfo.tsx";
-import { selectRelatedPosts } from "@/lib/blog-recommendation-engine.ts";
+const RelatedBlogPosts = lazy(() => import("@/components/seo/RelatedBlogPosts.tsx"));
 import { getIntroOpener, getMicroLocalContext, getUniqueFaq } from "@/lib/seo-pages/content-uniqueness.ts";
 import ServicesGridSection from "@/components/seo/ServicesGridSection.tsx";
 import { getPyramidLinks } from "@/lib/seo-pages/pyramid-links.ts";
-import type { BlogPost } from "@/lib/blog-data.ts";
-import { BUSINESS_ADDRESS, BUSINESS_AREA_SERVED, BUSINESS_GEO } from "@/lib/business-config.ts";
+import { BUSINESS, buildAreaServed } from "@/lib/business-config.ts";
 
 // ─── Section type ──────────────────────────────────────────────────────────────
 
@@ -180,7 +180,7 @@ function InlineCta({ label }: { label: string }) {
 
 function TrustBadges() {
   const badges = [
-    { icon: Star, label: "5,000+ Sofas Upholstered" },
+    { icon: Star, label: "10,000+ Sofas Upholstered" },
     { icon: Shield, label: "6-Month Warranty" },
     { icon: Clock, label: "1–2 Day Turnaround" },
     { icon: Award, label: "10+ Years Experience" },
@@ -519,14 +519,9 @@ function UpholsterySchema({ data, localityName, cityName }: { data: SeoPageData;
     telephone: PHONE_NUMBER,
     url: `https://furnirevive.com/${data.slug}`,
     sameAs: [whatsappUrl],
-    address: BUSINESS_ADDRESS,
-    geo: BUSINESS_GEO,
-    areaServed: [
-      { "@type": "Place", name: `${localityName}, ${cityName}` },
-      ...BUSINESS_AREA_SERVED,
-    ],
+    areaServed: buildAreaServed(localityName, cityName),
     serviceType: "Sofa Upholstery",
-    priceRange: "₹₹",
+    priceRange: BUSINESS.priceRange,
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Upholstery Services",
@@ -706,34 +701,6 @@ function TestimonialsSection({ data }: { data: SeoPageData }) {
 
 // ─── Related Blog Posts ───────────────────────────────────────────────────────
 
-function RelatedBlogPostsSection({ posts }: { posts: BlogPost[] }) {
-  if (posts.length === 0) return null;
-  return (
-    <section className="py-12 lg:py-16 bg-secondary/30">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-2.5 mb-8">
-          <BookOpen className="size-5 text-primary" />
-          <h3 className="text-xl font-serif font-bold">Helpful Guides &amp; Tips</h3>
-        </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {posts.map((post) => (
-            <Link key={post.slug} to={`/blog/${post.slug}`}>
-              <Card className="pt-0 h-full hover:shadow-lg transition-shadow group cursor-pointer">
-                <img src={post.featuredImage} alt={post.imageAlt ?? post.h1} className="w-full h-36 object-cover rounded-t-xl" />
-                <CardContent className="pt-4">
-                  <span className="text-xs text-primary font-semibold">{post.category}</span>
-                  <h4 className="text-sm font-semibold mt-1 line-clamp-2 group-hover:text-primary transition-colors">{post.h1}</h4>
-                  <p className="text-xs text-muted-foreground mt-1.5 line-clamp-2">{post.excerpt}</p>
-                </CardContent>
-              </Card>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 // ─── Related Pages Section ────────────────────────────────────────────────────
 
 function RelatedPagesSection({ slug, pyramidLinks }: { slug: string; pyramidLinks: { href: string; label: string }[] }) {
@@ -778,7 +745,7 @@ export default function UpholsterySeoPageTemplateV1({
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute("content", data.metaDescription);
     const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute("href", `https://furnirevive.com/${data.slug}`);
+    if (canonical) canonical.setAttribute("href", `https://furnirevive.com/${canonicalSlug(data.slug)}`);
   }, [data.title, data.metaDescription, data.slug]);
 
   // Locality personalization
@@ -801,7 +768,6 @@ export default function UpholsterySeoPageTemplateV1({
   const microContext = useMemo(() => getMicroLocalContext(data.slug), [data.slug]);
   const uniqueFaq = useMemo(() => getUniqueFaq(data.slug), [data.slug]);
   const allDisplayFaqs = useMemo(() => [...displayFaqs, uniqueFaq], [displayFaqs, uniqueFaq]);
-  const relatedBlogPosts = useMemo(() => selectRelatedPosts(data.slug), [data.slug]);
   const localityDisplay = useMemo(() => {
     const match = data.h1.match(/\bin\s+(.+)$/i);
     return match ? match[1] : localityName;
@@ -823,7 +789,7 @@ export default function UpholsterySeoPageTemplateV1({
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className={`flex flex-col ${data.hero ? "lg:flex-row lg:items-center lg:gap-12" : ""}`}>
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 className={data.hero ? "lg:flex-1" : ""}
@@ -853,7 +819,7 @@ export default function UpholsterySeoPageTemplateV1({
               {/* Right: hero image — same layout as repair pages */}
               {data.hero && (
                 <motion.div
-                  initial={{ opacity: 0, x: 30 }}
+                  initial={false}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.7, delay: 0.15 }}
                   className="mt-10 lg:mt-0 lg:flex-1 lg:max-w-[520px]"
@@ -963,7 +929,9 @@ export default function UpholsterySeoPageTemplateV1({
       <RelatedPagesSection slug={data.slug} pyramidLinks={pyramidLinks} />
 
       {/* ── Related Blog Posts ────────────────────────────────────────────── */}
-      <RelatedBlogPostsSection posts={relatedBlogPosts} />
+      <Suspense fallback={null}>
+        <RelatedBlogPosts slug={data.slug} />
+      </Suspense>
 
       {/* ── Service Coverage ──────────────────────────────────────────────── */}
       <section className="py-10 lg:py-14 bg-secondary/30">
@@ -978,8 +946,9 @@ export default function UpholsterySeoPageTemplateV1({
             {localityInfo.adjacentAreas.map((area) => (
               <span
                 key={area}
-                className="text-xs rounded-full border border-border px-3 py-1 text-muted-foreground"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-background border border-border rounded-full text-sm text-foreground"
               >
+                <MapPin className="size-3.5 text-primary" />
                 {area}
               </span>
             ))}

@@ -10,7 +10,7 @@ import type { LocalityEntry, ServiceEntry } from "@/lib/registry/types.ts";
 import type { ComparisonSectionData, ComparisonRow } from "../types.ts";
 
 const BASE_ROWS: ComparisonRow[] = [
-  { aspect: "Cost", repair: "Starts at ₹599 — fraction of replacement", replace: "₹15,000–₹80,000+ for a new sofa" },
+  { aspect: "Cost", repair: "Starts at ₹500 — fraction of replacement", replace: "₹15,000–₹80,000+ for a new sofa" },
   { aspect: "Time", repair: "Same-day, completed at home", replace: "7–21 days delivery wait" },
   { aspect: "Your furniture", repair: "Keeps your existing piece, familiar feel", replace: "Unfamiliar new purchase" },
   { aspect: "Environment", repair: "Eco-friendly — no landfill waste", replace: "Old furniture discarded" },

@@ -5,7 +5,7 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 
 const leatherSofaRepairSouthDelhi: SeoPageData = {
   slug: "leather-sofa-repair-south-delhi",
-  title: "Leather Sofa Repair South Delhi | Premium Leather Restoration",
+  title: "Leather Sofa Repair in South Delhi | Premium Leather Restoration",
   metaDescription:
     "Expert leather sofa restoration in South Delhi from ₹999. Serving Greater Kailash, Defence Colony, Hauz Khas, Green Park & Panchsheel Park.",
   h1: "Premium Leather Sofa Repair in South Delhi",
@@ -276,7 +276,7 @@ const leatherSofaRepairSouthDelhi: SeoPageData = {
 
 const leatherSofaRepairDlfGurgaon: SeoPageData = {
   slug: "leather-sofa-repair-dlf-gurgaon",
-  title: "Leather Sofa Repair DLF Gurgaon | Premium Leather Restoration",
+  title: "Leather Sofa Repair in DLF Gurgaon | Premium Leather Restoration",
   metaDescription:
     "Expert leather sofa restoration in DLF Gurgaon from ₹999. DLF Phase 1–5 & Golf Course Road. Colour restoration, crack repair, imported sofa specialists.",
   h1: "Premium Leather Sofa Repair in DLF Gurgaon",
@@ -289,7 +289,7 @@ const leatherSofaRepairDlfGurgaon: SeoPageData = {
     caption: "Leather Sofa Repair in DLF Gurgaon | Specialist colour restoration across all phases | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated premium leather sofa restoration across DLF Gurgaon — covering DLF Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, and Golf Course Road — from ₹999. We specialise in imported Italian and European leather sofas, luxury recliner leather restoration, professional colour matching, and advanced crack treatment. Free assessment, fixed pricing, 6-month warranty on every restoration.",
+    "FurniRevive provides trusted premium leather sofa restoration across DLF Gurgaon — covering DLF Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, and Golf Course Road — from ₹999. We specialise in imported Italian and European leather sofas, luxury recliner leather restoration, professional colour matching, and advanced crack treatment. Free assessment, fixed pricing, 6-month warranty on every restoration.",
   intro: [
     "DLF Gurgaon is home to some of the most seriously considered furniture purchases in Delhi NCR — and a disproportionate share of those purchases are Italian or European import leather sofas, luxury recliners, and premium modular systems. In Phase 2 and Phase 3 villas, Italian sectionals arrived in containers from postings abroad. On Golf Course Road, showrooms representing Natuzzi, BoConcept, and premium domestic brands have supplied drawing rooms that treat furniture as statement rather than commodity. In Phase 5's towers, professionals with international incomes have invested in leather sofas that cost more than the annual salary of many Indian households. These pieces deserve specialist care — and generic repair is not what they will receive from FurniRevive.",
     "Our DLF Gurgaon leather restoration operation is staffed by craftsmen specifically trained in the demands of premium leather: full-grain hide conditioning, semi-aniline surface treatment, professional colour matching using a 40+ pigment tinting system, specialist crack-filling compound application, and panel re-upholstery for structural damage. We are also trained in the hardware of luxury imported recliners — the mechanism faults and leather wear profiles that are specific to La-Z-Boy, Natuzzi, Ashley, and BoConcept products. Links to our broader service coverage: <a href='/leather-sofa-repair-gurgaon'>leather sofa repair Gurgaon</a>, <a href='/sofa-repair-dlf-phase-1'>DLF Phase 1</a>, <a href='/sofa-repair-dlf-phase-5'>DLF Phase 5</a>, and the <a href='/furniture-repair-dlf-gurgaon'>furniture repair DLF Gurgaon</a> service area.",
@@ -397,7 +397,7 @@ const leatherSofaRepairDlfGurgaon: SeoPageData = {
       body: [
         "Professional leather colour restoration is a multi-stage process that is entirely different from the paint-over-leather products available in hardware stores. The first stage is preparation: cleaning the leather surface thoroughly with a professional degreasing leather cleaner that removes body oils, silicone residue from previous conditioning products, and airborne dust that has been ground into the surface. This preparation stage is often skipped in amateur restoration attempts, and its omission is the primary reason amateur colour restoration peels or cracks within months.",
         "The second stage is colour matching. Using the unexposed back panels of the sofa as the reference standard for the original colour, our craftsmen create a precise match using a professional tinting system with 40+ base pigments. The matching process is conducted under standardised lighting — not under the drawing room's decorative lighting — to ensure accuracy. The matched colour is tested on an inconspicuous section before full application. The Delta-E measurement (a technical colour difference metric) of a professionally matched leather colour is typically 2–3 units, which is below the threshold of visible detection under normal lighting.",
-        "The third stage is application. Leather colour is applied in multiple thin coats using a specialist leather applicator — not a brush, which leaves visible brushstrokes in the surface finish. Each coat is allowed to cure partially before the next is applied. The final coat is a UV-protective clear sealer that protects the colour layer from both UV degradation and surface abrasion. The total application process takes 60–90 minutes for a standard 3-seater sofa. The result, when dry, is a leather surface with consistent colour across all panels, appropriate surface sheen matched to the original finish, and resilience to normal domestic use.",
+        "The third stage is application. Leather colour is applied in multiple thin coats using a specialist leather applicator — not a brush, which leaves visible brushstrokes in the surface finish. Each coat is allowed to cure partially before the next is applied. The final coat is a UV-protective clear sealer that protects the colour layer from both UV degradation and surface abrasion. The total application process takes 2–4 hours for a standard 3-seater sofa. The result, when dry, is a leather surface with consistent colour across all panels, appropriate surface sheen matched to the original finish, and resilience to normal domestic use.",
       ],
     },
     {

@@ -1,0 +1,22 @@
+import { createFileRoute } from "@tanstack/react-router";
+import GamingChairRepairGuidePost from "@/pages/blog/gaming-chair-repair-guide.tsx";
+
+export const Route = createFileRoute("/blog/gaming-chair-repair-guide/")({
+  head: () => ({
+    meta: [
+      { title: "Gaming Chair Repair Guide: Gas Lift, Mesh, Foam & Armrest | FurniRevive" },
+      { name: "description", content: "Gaming chair repair guide covering gas lift, armrest, foam, reclining mechanism issues. On-site repair in Delhi NCR. Costs ₹800–₹5,000 depending on issue." },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://furnirevive.com#business", "name": "FurniRevive", "telephone": "+919217999355", "url": "https://furnirevive.com", "priceRange": "₹500–₹25,000", "areaServed": [{ "@type": "City", "name": "Delhi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Delhi" } }, { "@type": "City", "name": "Gurgaon", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Faridabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Ghaziabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Greater Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Kaushambi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Vasundhara", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Chandigarh", "containedInPlace": { "@type": "AdministrativeArea", "name": "Chandigarh" } }, { "@type": "City", "name": "Mohali", "containedInPlace": { "@type": "AdministrativeArea", "name": "Punjab" } }, { "@type": "City", "name": "Panchkula", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "Article", "headline": "Gaming Chair Repair Guide: Gas Lift, Mesh, Foam & Armrest", "description": "Gaming chair repair guide covering gas lift, armrest, foam, reclining mechanism issues. On-site repair in Delhi NCR. Costs ₹800–₹5,000 depending on issue.", "image": "", "datePublished": "2026-03-10", "dateModified": "2026-07-21", "author": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "publisher": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://furnirevive.com/blog/gaming-chair-repair-guide" } } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Can you repair Secretlab gaming chairs?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we repair all gaming chair brands including Secretlab, DXRacer, Green Soul, Cellbell, and imported models. We source compatible replacement parts." } }, { "@type": "Question", "name": "How do I stop my gaming chair PU leather from peeling?", "acceptedAnswer": { "@type": "Answer", "text": "Regular conditioning every 2 months, keeping the chair away from direct sunlight, and using a breathable chair cover can delay peeling. Once peeling starts, re-covering is the only fix." } }, { "@type": "Question", "name": "Is gaming chair repair available in Gurgaon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, FurniRevive provides on-site gaming chair repair across Delhi, Gurgaon, Noida, and all NCR cities." } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://furnirevive.com/" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://furnirevive.com/blog" }, { "@type": "ListItem", "position": 3, "name": "Gaming Chair Repair Guide: Gas Lift, Mesh, Foam & Armrest", "item": "https://furnirevive.com/blog/gaming-chair-repair-guide" }] } },
+    ] as Array<Record<string, unknown>>,
+  }),
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  return (
+    <GamingChairRepairGuidePost />
+  );
+}

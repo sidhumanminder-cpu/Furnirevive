@@ -1,36 +1,39 @@
-import { useEffect } from "react";
+import { removeUnowned } from "@/lib/remove-unowned.ts";
+import { lazy, Suspense, useEffect } from "react";
 import Navbar from "@/components/navbar.tsx";
 import Footer from "@/components/footer.tsx";
 import HeroSection from "./home/_components/hero-section.tsx";
 import WhyChooseSection from "./home/_components/why-choose-section.tsx";
 import AboutSection from "./home/_components/about-section.tsx";
 import ServicesSection from "./home/_components/services-section.tsx";
-import ModularKitchenSection from "./home/_components/modular-kitchen-section.tsx";
+import CaseStudiesSection from "./home/_components/case-studies-section.tsx";
 import PopularServicesSection from "./home/_components/popular-services-section.tsx";
 import HowItWorksSection from "./home/_components/how-it-works-section.tsx";
 import ServiceAreasSection from "./home/_components/service-areas-section.tsx";
 import PopularAreasSection from "./home/_components/popular-areas-section.tsx";
 import TestimonialsSection from "./home/_components/testimonials-section.tsx";
 import FaqSection from "./home/_components/faq-section.tsx";
-import BlogPreviewSection from "./home/_components/blog-preview-section.tsx";
+const BlogPreviewSection = lazy(() => import("./home/_components/blog-preview-section.tsx"));
 import CtaSection from "./home/_components/cta-section.tsx";
-import { BUSINESS_ADDRESS, BUSINESS_AREA_SERVED, BUSINESS_GEO } from "@/lib/business-config.ts";
+import { BUSINESS, BUSINESS_AREA_SERVED } from "@/lib/business-config.ts";
+import { HOMEPAGE_FAQS } from "./home/_lib/home-faqs.ts";
 
 /** LocalBusiness + FurnitureRepair JSON-LD structured data */
 const LOCAL_BUSINESS_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
+  "@id": "https://furnirevive.com/#business",
   name: "FurniRevive",
   description:
     "Professional furniture repair services in Delhi NCR. Sofa repair, chair repair, bed repair, wood polish, and carpenter home service at your doorstep across Delhi, Noida, Gurgaon, Ghaziabad, and Faridabad.",
   url: "https://furnirevive.com",
   telephone: "+919217999355",
-  email: "support@furnirevive.com",
-  priceRange: "₹499 - ₹20,000",
+  email: BUSINESS.email,
+  priceRange: BUSINESS.priceRange,
+  openingHours: BUSINESS.openingHours,
+  logo: BUSINESS.logo,
   image: "https://cdn.hercules.app/file_dtr8PtooAsmRwfNTJKNRTESW",
   areaServed: BUSINESS_AREA_SERVED,
-  address: BUSINESS_ADDRESS,
-  geo: BUSINESS_GEO,
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Furniture Repair Services",
@@ -48,40 +51,20 @@ const LOCAL_BUSINESS_SCHEMA = {
 const FAQ_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "Where can I find the best sofa repair near me in Delhi NCR?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "FurniRevive offers the best sofa repair near me service across Delhi NCR. We provide doorstep sofa repair in Delhi, Noida, Gurgaon, Ghaziabad, and Faridabad. Starting at just ₹500 with same-day service and a 6-month warranty.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How much does furniture repair cost in Delhi NCR?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Chair repair starts at ₹599, sofa repair at ₹500, bed repair at ₹1,199, and wood polish at ₹799. Professional furniture repair saves you 50-70% compared to buying new furniture.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How do I find a reliable carpenter near me in Delhi?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "FurniRevive provides verified, experienced carpenters at your doorstep across Delhi NCR. Every carpenter in our team has 5+ years of experience. Book online or call for same-day carpenter home service.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do you provide doorstep furniture repair in Delhi NCR?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes, all our furniture repair services are doorstep-based across Delhi, Noida, Gurgaon, Ghaziabad, and Faridabad. Same-day service available when you book before noon.",
-      },
-    },
-  ],
+  mainEntity: HOMEPAGE_FAQS.map((f) => ({
+    "@type": "Question",
+    name: f.question,
+    acceptedAnswer: { "@type": "Answer", text: f.answer },
+  })),
+};
+
+const WEBSITE_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://furnirevive.com/#website",
+  url: "https://furnirevive.com/",
+  name: BUSINESS.name,
+  publisher: { "@id": "https://furnirevive.com/#business" },
 };
 
 export default function Index() {
@@ -93,7 +76,7 @@ export default function Index() {
     if (metaDesc) {
       metaDesc.setAttribute(
         "content",
-        "Doorstep sofa, furniture, chair & bed repair, wood polish & carpenter service across Delhi NCR. 4.8★ rated, 10,000+ repairs done. Same-day service. Book today."
+        "Doorstep sofa, furniture, chair & bed repair, wood polish & carpenter service across Delhi NCR. 4.9★ rated. 10,000+ sofas repaired since 2016. Same-day."
       );
     }
 
@@ -109,7 +92,7 @@ export default function Index() {
     const existingScripts = document.querySelectorAll(
       'script[data-schema="homepage"]'
     );
-    existingScripts.forEach((s) => s.remove());
+    existingScripts.forEach((s) => removeUnowned(s));
 
     const localScript = document.createElement("script");
     localScript.type = "application/ld+json";
@@ -123,10 +106,16 @@ export default function Index() {
     faqScript.textContent = JSON.stringify(FAQ_SCHEMA);
     document.head.appendChild(faqScript);
 
+    const websiteScript = document.createElement("script");
+    websiteScript.type = "application/ld+json";
+    websiteScript.dataset.schema = "homepage";
+    websiteScript.textContent = JSON.stringify(WEBSITE_SCHEMA);
+    document.head.appendChild(websiteScript);
+
     return () => {
       document
         .querySelectorAll('script[data-schema="homepage"]')
-        .forEach((s) => s.remove());
+        .forEach((s) => removeUnowned(s));
     };
   }, []);
 
@@ -137,7 +126,7 @@ export default function Index() {
         <HeroSection />
         <WhyChooseSection />
         <ServicesSection />
-        <ModularKitchenSection />
+        <CaseStudiesSection />
         <PopularServicesSection />
         <AboutSection />
         <HowItWorksSection />
@@ -145,7 +134,9 @@ export default function Index() {
         <PopularAreasSection />
         <TestimonialsSection />
         <FaqSection />
-        <BlogPreviewSection />
+        <Suspense fallback={<div className="min-h-[400px]" />}>
+          <BlogPreviewSection />
+        </Suspense>
         <CtaSection />
       </main>
       <Footer />

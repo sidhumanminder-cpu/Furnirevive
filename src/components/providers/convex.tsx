@@ -1,13 +1,27 @@
-import { ConvexProviderWithHerculesAuth } from "@usehercules/auth/convex-react";
-import { ConvexReactClient } from "convex/react";
+import type { ConvexReactClient } from "convex/react";
+import { ConvexProviderWithHerculesAuth } from "@usehercules/auth-tanstack/convex";
+import type { ClientUserInfo, NoUserInfo } from "@usehercules/auth-tanstack";
+import AuthProvider from "./auth.tsx";
 
-const convexUrl = import.meta.env.VITE_CONVEX_URL ?? "http://localhost:3000";
-const convex = new ConvexReactClient(convexUrl);
-
-export function ConvexProvider({ children }: { children: React.ReactNode }) {
+/**
+ * Convex's `Authenticated` children only appear after hydration. For signed-in
+ * content in the server HTML, load it with `convexQuery()` in a route loader
+ * and gate UI on `useAuth().user`.
+ */
+export default function ConvexAppProvider({
+  client,
+  initialAuth,
+  children,
+}: {
+  client: ConvexReactClient;
+  initialAuth?: ClientUserInfo | NoUserInfo;
+  children: React.ReactNode;
+}) {
   return (
-    <ConvexProviderWithHerculesAuth client={convex}>
-      {children}
-    </ConvexProviderWithHerculesAuth>
+    <AuthProvider initialAuth={initialAuth}>
+      <ConvexProviderWithHerculesAuth client={client}>
+        {children}
+      </ConvexProviderWithHerculesAuth>
+    </AuthProvider>
   );
 }

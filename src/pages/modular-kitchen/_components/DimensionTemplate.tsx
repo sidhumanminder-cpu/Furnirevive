@@ -5,7 +5,7 @@
  *           best materials → why choose → FAQs → nearby → hub uplink → CTA
  */
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { PhoneCall, MessageCircle, CheckCircle2, ChevronRight, MapPin, Sparkles, Layers } from "lucide-react";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";
 import { setPageMetadata } from "@/lib/metadata.ts";

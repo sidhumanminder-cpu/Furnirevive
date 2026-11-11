@@ -16,6 +16,8 @@
 import type { LocalityEntry, ServiceEntry, CityKey, ClusterKey } from "@/lib/registry/types.ts";
 import type { PyramidLinksSectionData, PyramidLink } from "../types.ts";
 import { hashCode } from "../content-uniqueness.ts";
+import { buildNearby, nearbyHref } from "./nearby.ts";
+import { pageExistsAt, registryCityOf, resolveCityHub } from "@/lib/registry/link-verify.ts";
 import { RELATIONSHIP_GRAPH } from "@/lib/registry/relationship-graph.ts";
 import { MODULAR_KITCHEN_LOCALITY_REGISTRY } from "@/lib/registry/kitchen-locality-registry.ts";
 import { MODULAR_KITCHEN_LAYOUT_REGISTRY } from "@/lib/registry/kitchen-layout-registry.ts";
@@ -320,6 +322,14 @@ function buildKitchenPyramidLinks(locality: LocalityEntry): PyramidLinksSectionD
   };
 }
 
+/** Hard cap on links per section. */
+const MAX_PYRAMID_LINKS = 6;
+
+/**
+ * Builds the link list in priority order, then verifies it: every href must be a real page,
+ * never the page itself, and never repeated. Lost links are backfilled with verified same-city
+ * neighbours so the section keeps its original size (cap ${MAX_PYRAMID_LINKS}).
+ */
 export function buildPyramidLinks(
   locality: LocalityEntry,
   service: ServiceEntry,
@@ -328,80 +338,72 @@ export function buildPyramidLinks(
     return buildKitchenPyramidLinks(locality);
   }
 
-  const links: PyramidLink[] = [];
+  const candidates: PyramidLink[] = [];
   const key = `${locality.slug}-${service.slug}`;
   const isCorporate = service.capabilities?.audience?.corporate === true;
+  const selfHref = nearbyHref(service.slug, locality.city, locality.slug);
 
-  // 1. City apex link (Layer 0)
+  // 1. City apex link (Layer 0): the city hub that really exists for this service
   const apexSlug = `${service.slug}-${locality.city}`;
-  let apexAnchors: readonly string[];
-  if (isCorporate) {
-    apexAnchors = OFFICE_CHAIR_CITY_ANCHORS[locality.city] ?? [`${service.name} ${locality.city}`];
-  } else {
-    apexAnchors = CITY_APEX_ANCHORS[apexSlug] ?? [`${service.name} ${locality.city}`];
-  }
-  links.push({
-    label: pickAnchor(apexAnchors, key, 0),
-    href: buildServiceUrl(service.slug, locality.city, locality.city),
-  });
+  const apexAnchors: readonly string[] = isCorporate
+    ? (OFFICE_CHAIR_CITY_ANCHORS[locality.city] ?? [`${service.name} ${locality.city}`])
+    : (CITY_APEX_ANCHORS[apexSlug] ?? [`${service.name} ${locality.city}`]);
+  const apexHref = resolveCityHub(service.slug, locality.city);
+  if (apexHref) candidates.push({ label: pickAnchor(apexAnchors, key, 0), href: apexHref });
 
   // 2. Mid-tier hub link (Layer 1)
-  {
-    if (isCorporate) {
-      // Commercial localities: link to city office-chair hub page
-      const cityHub = COMMERCIAL_SLUG_TO_HUB[locality.slug] ?? locality.city;
-      links.push({
-        label: `Office Chair Repair ${titleCase(cityHub)}`,
-        href: `/office-chair-repair-${cityHub}`,
+  if (isCorporate) {
+    const cityHub = COMMERCIAL_SLUG_TO_HUB[locality.slug] ?? locality.city;
+    candidates.push({ label: `Office Chair Repair ${titleCase(cityHub)}`, href: `/office-chair-repair-${cityHub}` });
+  } else {
+    const clusterHubSlug = CLUSTER_HUB_SLUGS[locality.cluster];
+    // A city-named hub only counts for localities of that city (re-tagged Ghaziabad areas keep the Noida cluster)
+    const hubIsOtherCity = ["gurgaon", "noida", "faridabad"].includes(clusterHubSlug ?? "") && clusterHubSlug !== locality.city;
+    if (clusterHubSlug && !hubIsOtherCity) {
+      candidates.push({
+        label: `${service.name} ${titleCase(clusterHubSlug)}`,
+        href: buildServiceUrl(service.slug, clusterHubSlug, locality.city),
       });
-    } else {
-      // Residential localities: link to cluster hub
-      const clusterHubSlug = CLUSTER_HUB_SLUGS[locality.cluster];
-      if (clusterHubSlug) {
-        links.push({
-          label: `${service.name} ${titleCase(clusterHubSlug)}`,
-          href: buildServiceUrl(service.slug, clusterHubSlug, locality.city),
-        });
-      }
     }
   }
 
   // 3. Cross-service / service sibling link
   if (isCorporate) {
-    // Corporate: sibling service at city level (office furniture repair)
-    links.push({
-      label: `Office Furniture Repair ${titleCase(locality.city)}`,
-      href: `/furniture-repair-${locality.city}`,
-    });
+    candidates.push({ label: `Office Furniture Repair ${titleCase(locality.city)}`, href: `/furniture-repair-${locality.city}` });
   } else if (service.slug !== "furniture-repair") {
-    // Residential: cross-link to furniture repair
-    links.push({
-      label: `Furniture Repair ${titleCase(locality.city)}`,
-      href: `/furniture-repair-${locality.city}`,
-    });
+    candidates.push({ label: `Furniture Repair ${titleCase(locality.city)}`, href: `/furniture-repair-${locality.city}` });
   }
 
   // 4. Neighbour links (Layer 2 — base)
   if (service.capabilities?.content?.relationshipGraph) {
-    // Corporate: use RELATIONSHIP_GRAPH commercial neighbours
     const node = RELATIONSHIP_GRAPH[locality.slug];
-    const commercialNeighbours = node?.neighbours.slice(0, 3) ?? [];
-    commercialNeighbours.forEach((neighbourSlug) => {
-      links.push({
-        label: `Office Chair Repair ${neighbourSlug.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")}`,
-        href: `/office-chair-repair-${neighbourSlug}`,
+    (node?.neighbours.slice(0, 3) ?? []).forEach((neighbourSlug) => {
+      candidates.push({
+        label: `${service.name} ${titleCase(neighbourSlug)}`,
+        href: `/${service.slug}-${neighbourSlug}`,
       });
     });
   } else {
-    // Residential: first 3 nearby (geographic proximity)
-    const nearbyToLink = locality.nearby.slice(0, 3);
-    nearbyToLink.forEach((name) => {
-      const areaSlug = slugify(name);
-      links.push({
-        label: `${service.name} ${name}`,
-        href: buildServiceUrl(service.slug, areaSlug, locality.city),
-      });
+    locality.nearby.slice(0, 3).forEach((name) => {
+      candidates.push({ label: `${service.name} ${name}`, href: nearbyHref(service.slug, locality.city, name) });
     });
+  }
+
+  const target = Math.min(MAX_PYRAMID_LINKS, candidates.length);
+  const links: PyramidLink[] = [];
+  const used = new Set<string>([selfHref]);
+  const add = (link: PyramidLink): void => {
+    if (links.length >= target || used.has(link.href) || !pageExistsAt(link.href)) return;
+    used.add(link.href);
+    links.push(link);
+  };
+  candidates.forEach(add);
+
+  // Backfill with verified neighbours in the page's own city
+  if (links.length < target) {
+    buildNearby(locality, service).props.areas
+      .filter((area) => registryCityOf(area.href) === locality.city)
+      .forEach((area) => add({ label: `${service.name} ${area.name}`, href: area.href }));
   }
 
   return {

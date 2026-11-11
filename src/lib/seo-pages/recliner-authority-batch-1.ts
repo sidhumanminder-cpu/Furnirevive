@@ -7,7 +7,7 @@ const WHATSAPP_NUMBER = "919217999355";
 
 const reclinerRepairSouthDelhi: SeoPageData = {
   slug: "recliner-repair-south-delhi",
-  title: "Recliner Repair South Delhi | Electric & Manual Experts",
+  title: "Recliner Repair in South Delhi | Electric & Manual Experts",
   metaDescription:
     "Expert recliner repair in South Delhi — electric, motorised & manual. Doorstep service from ₹999. Motor, actuator & leather restoration. Same-day slots.",
   h1: "Premium Recliner Repair in South Delhi",
@@ -20,7 +20,7 @@ const reclinerRepairSouthDelhi: SeoPageData = {
     caption: "Recliner Repair in South Delhi | Electric & motorised recliner service in GK, Defence Colony, Hauz Khas | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated doorstep recliner repair across South Delhi starting at ₹999. We repair electric motors, actuators, cables, footrests, leather panels, and full recliner mechanisms — covering Greater Kailash, Defence Colony, Hauz Khas, Green Park, Panchsheel Park, and New Friends Colony. Same-day slots for morning bookings. 6-month warranty.",
+    "FurniRevive delivers trusted doorstep recliner repair across South Delhi starting at ₹999. We repair electric motors, actuators, cables, footrests, leather panels, and full recliner mechanisms — covering Greater Kailash, Defence Colony, Hauz Khas, Green Park, Panchsheel Park, and New Friends Colony. Same-day slots for morning bookings. 6-month warranty.",
   intro: [
     "South Delhi's residential streets — the bungalow corridors of Defence Colony, the wide lanes of Greater Kailash, the tree-canopied avenues of Hauz Khas — are home to some of the most discerning furniture collections in the NCR. Premium leather recliners imported from Italian and German manufacturers. Motorised home-theatre seating suites configured around dedicated cinema rooms. Manual recliners that have occupied pride of place in a drawing room for a decade and have shaped themselves, quite literally, to the contours of a family's daily life. These are not things you replace at the first sign of mechanical trouble. These are things you restore — properly.",
     "FurniRevive's South Delhi recliner repair team brings certified, specialist technicians to your door — carrying diagnostic tools, genuine recliner components, and colour-matched leather restoration materials. We are part of the city-wide <a href=\"/recliner-repair-delhi\">recliner repair Delhi</a> network, with a dedicated South Delhi presence covering Greater Kailash, Defence Colony, Hauz Khas, Green Park, Panchsheel Park, New Friends Colony, and every residential street between them. Every diagnosis is free, every quote is fixed before work begins, and every completed repair carries a 6-month workmanship warranty.",
@@ -85,7 +85,7 @@ const reclinerRepairSouthDelhi: SeoPageData = {
     "Doorstep service across all South Delhi localities — the recliner never leaves your home",
     "Same-day slots for morning bookings with WhatsApp ETA tracking",
     "Fixed pre-approved quotes from ₹999 — zero additions after approval",
-    "4.8-star rated across thousands of South Delhi repairs",
+    "Trusted across thousands of South Delhi repairs",
     "Electric motor, actuator, and control board repair in a single visit",
     "Colour-matched leather restoration carried in every service kit",
     "High-resilience foam replacement rated for 8–12 years of regular use",
@@ -240,7 +240,7 @@ const reclinerRepairSouthDelhi: SeoPageData = {
     {
       question: "How long does electric recliner repair typically take?",
       answer:
-        "Control board replacement: 45–75 minutes. Wiring harness repair: 60–90 minutes. Actuator replacement: 60–120 minutes per unit. Motor replacement: 90–150 minutes. For most common electrical faults, the recliner is fully functional by the end of the same visit.",
+        "Control board replacement: 45–75 minutes. Wiring harness repair: 2–4 hours. Actuator replacement: 60–120 minutes per unit. Motor replacement: 90–150 minutes. For most common electrical faults, the recliner is fully functional by the end of the same visit.",
     },
     {
       question: "Is leather recliner restoration different from standard leather sofa repair?",
@@ -339,7 +339,7 @@ const reclinerRepairSouthDelhi: SeoPageData = {
 
 const reclinerRepairDlfGurgaon: SeoPageData = {
   slug: "recliner-repair-dlf-gurgaon",
-  title: "Recliner Repair DLF Gurgaon | Motorized Recliner Restoration",
+  title: "Recliner Repair in DLF Gurgaon | Motorized Recliner Restoration",
   metaDescription:
     "Premium recliner repair in DLF Gurgaon — electric, motorised & leather recliners. Doorstep service from ₹999. Motor, actuator & mechanism repair.",
   h1: "Electric Recliner Repair Services in DLF Gurgaon",
@@ -418,7 +418,7 @@ const reclinerRepairDlfGurgaon: SeoPageData = {
     "Same-day service for morning bookings across DLF Gurgaon",
     "Voltage-aware electrical diagnostics for DLF's power supply environment",
     "Fixed quotes from ₹999 — confirmed before work starts, never adjusted after",
-    "4.8-star rated across hundreds of Gurgaon recliner repairs",
+    "Trusted across hundreds of Gurgaon recliner repairs",
     "Electric motor, actuator, and control board replacement in a single visit",
     "Home theatre multi-seat recliner suites serviced in one appointment",
     "Leather restoration compounds compatible with Italian and European leather grades",

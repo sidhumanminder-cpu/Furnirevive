@@ -5,10 +5,10 @@ export const sofaRepairNoidaSector50: SeoPageData = {
   slug: "sofa-repair-noida-sector-50",
   title: "Sofa Repair in Noida Sector 50 | Doorstep ₹500 | FurniRevive",
   metaDescription:
-    "Professional sofa repair in Noida Sector 50 starting ₹500. Doorstep service covering Sector 49, 51 & 46. Same-day visits, 6-month warranty. 8-star rated.",
+    "Professional sofa repair in Noida Sector 50 starting ₹500. Doorstep service covering Sector 49, 51 & 46. Same-day visits, 6-month warranty.",
   h1: "Sofa Repair in Noida Sector 50 — Doorstep Service from ₹500",
   heroSubtitle:
-    "Your Sector 50 sofa deserves better than a dusty workshop visit. Our 4.8-star rated craftsmen come to you — same-day, transparent pricing, and a 6-month warranty you can actually rely on.",
+    "Your Sector 50 sofa deserves better than a dusty workshop visit. Our trusted craftsmen come to you — same-day, transparent pricing, and a 6-month warranty you can actually rely on.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -16,10 +16,10 @@ export const sofaRepairNoidaSector50: SeoPageData = {
     caption: "Sofa Repair in Noida Sector 50 | Same-day doorstep service near Noida City Centre Metro | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers 4.8-star rated sofa repair in Noida Sector 50 starting at just ₹500. We come to your home near Noida City Centre Metro, assess the damage for free, and repair everything on the spot — saggy cushions, torn fabric, broken springs, cracked leather, wobbly frames. Service covers Sector 49, 51, and 46 with no extra travel charge. Over 5,000 repairs completed across NCR.",
+    "FurniRevive offers trusted sofa repair in Noida Sector 50 starting at just ₹500. We come to your home near Noida City Centre Metro, assess the damage for free, and repair everything on the spot — saggy cushions, torn fabric, broken springs, cracked leather, wobbly frames. Service covers Sector 49, 51, and 46 with no extra travel charge. Over 5,000 repairs completed across NCR.",
   intro: [
     "There's a moment most Sector 50 residents know well — you sink into your sofa after a long commute from Noida City Centre Metro, and something just feels off. The cushion collapses under you. There's a faint creak from somewhere in the frame. That corner of the armrest you've been meaning to fix has started fraying badly. It's not a dramatic emergency, but it quietly chips away at how your home feels every single day.",
-    "Most people assume the only fix is buying a new sofa. That's exactly what FurniRevive is here to change. Our <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> service sends verified, experienced craftsmen straight to your Sector 50 door — no hauling furniture, no workshop visits, no mystery charges. We've completed over 5,000 repairs across NCR, and our Sector 50 customers consistently rate us 4.8 stars for a reason. We also handle <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> for every other upholstered piece in your home.",
+    "Most people assume the only fix is buying a new sofa. That's exactly what FurniRevive is here to change. Our <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> service sends verified, experienced craftsmen straight to your Sector 50 door — no hauling furniture, no workshop visits, no mystery charges. We've completed over 5,000 repairs across NCR, and our Sector 50 customers consistently trust us for a reason. We also handle <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> for every other upholstered piece in your home.",
     "Whether you're in a high-rise near the Sector 50–51 border, a villa in the quieter lanes of Sector 49, or a society along the Sector 46 commercial stretch — our team reaches you fast. Our service van carries every material we need, so most repairs are done in a single visit. You go about your day; your sofa gets fixed.",
   ],
   whyChoose: [
@@ -34,9 +34,9 @@ export const sofaRepairNoidaSector50: SeoPageData = {
         "We stock leatherette, microfiber, velvet, and Belgian linen paired with high-resilience HR foam — materials that match the premium apartments defining Sector 50's housing landscape and hold up for years after repair.",
     },
     {
-      title: "4.8-Star Rated, Verified Craftsmen",
+      title: "Trusted, Verified Craftsmen",
       description:
-        "Every technician we send is background-verified and trained in professional upholstery finishing. Our 4.8-star rating across 5,000+ NCR repairs isn't an accident — it's what we build every job toward.",
+        "Every technician we send is background-verified and trained in professional upholstery finishing. Our track record across 10,000+ NCR repairs isn't an accident — it's what we build every job toward.",
     },
     {
       title: "Transparent ₹500 Starting Price",
@@ -82,7 +82,7 @@ export const sofaRepairNoidaSector50: SeoPageData = {
     "Same-day appointments available across Sector 50",
     "Covers fabric sofas, leather sofas, L-shaped sectionals, and recliners",
     "50+ premium fabric swatches shown on-site before you choose",
-    "4.8-star rated, verified craftsmen with 5+ years of experience",
+    "Trusted, verified craftsmen with 5+ years of experience",
     "Non-toxic, odour-free adhesives and child-safe materials",
     "Most repairs completed within 2–4 hours with full clean-up",
     "Extends sofa life by 5–8 years at a fraction of replacement cost",
@@ -187,7 +187,7 @@ export const sofaRepairNoidaSector75: SeoPageData = {
     "Expert sofa repair in Noida Sector 75 from ₹500. Serving ATS Green, Sector 74, 76 & 78.",
   h1: "Sofa Repair in Noida Sector 75 — Expert Doorstep Service from ₹500",
   heroSubtitle:
-    "Live in ATS Green or the Sector 75 belt? Your sofa problems have a smarter fix than buying new. Our 4.8-star rated team arrives at your door — same day, honest price, guaranteed work.",
+    "Live in ATS Green or the Sector 75 belt? Your sofa problems have a smarter fix than buying new. Our trusted team arrives at your door — same day, honest price, guaranteed work.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -195,10 +195,10 @@ export const sofaRepairNoidaSector75: SeoPageData = {
     caption: "Sofa Repair in Noida Sector 75 | Doorstep service near ATS Green & Gaur City fringe | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated sofa repair in Noida Sector 75 starting at ₹500. We cover all sofa types — fabric, leather, L-shaped, and recliner — with doorstep service extending to ATS Green, Sector 74, 76, 78, and the Gaur City fringe. Over 5,000 repairs completed across NCR. Same-day slots available.",
+    "FurniRevive provides trusted sofa repair in Noida Sector 75 starting at ₹500. We cover all sofa types — fabric, leather, L-shaped, and recliner — with doorstep service extending to ATS Green, Sector 74, 76, 78, and the Gaur City fringe. Over 5,000 repairs completed across NCR. Same-day slots available.",
   intro: [
     "Picture this: you moved into your Sector 75 apartment, carefully chose a sofa that suited the open-plan living room, and loved it for a few years. Now the seat cushions have compressed to half their original height, the armrest fabric is pilling, and there's a spring somewhere underneath making its presence known every time someone sits down. It's not ruined — it's just tired. And it deserves better than being swapped out for something new.",
-    "FurniRevive was built for exactly this moment. Our <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> service brings verified craftsmen with a 4.8-star rating straight to your ATS Green address or Sector 75 apartment — no factory visits, no furniture trucks blocking your society gate. We've completed over 5,000 repairs across NCR, and residents here increasingly choose us over buying new because the results genuinely look brand-new at a fraction of the cost. Our <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> team also handles chairs, ottomans, and all other upholstered pieces.",
+    "FurniRevive was built for exactly this moment. Our <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> service brings verified craftsmen trusted by hundreds of customers straight to your ATS Green address or Sector 75 apartment — no factory visits, no furniture trucks blocking your society gate. We've completed over 5,000 repairs across NCR, and residents here increasingly choose us over buying new because the results genuinely look brand-new at a fraction of the cost. Our <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> team also handles chairs, ottomans, and all other upholstered pieces.",
     "Our service covers the entire Sector 75 cluster — ATS Green, and adjacent Sector 74, 76, and 78. Whether your sofa needs new foam, fresh fabric, repaired springs, or a structural tune-up, our experienced craftsmen carry every material in their service van and complete most jobs in a single visit. Your afternoon stays undisrupted.",
   ],
   whyChoose: [
@@ -208,9 +208,9 @@ export const sofaRepairNoidaSector75: SeoPageData = {
         "We regularly work across ATS Green, the mid-rise societies of Sector 75, and the Gaur City fringe. Our technicians know the access routes, the society gate protocols, and the sofa styles common in this neighbourhood.",
     },
     {
-      title: "4.8-Star Rated, Verified Craftsmen",
+      title: "Trusted, Verified Craftsmen",
       description:
-        "Our Sector 75 customers rate us 4.8 stars because our technicians show up on time, communicate clearly, and deliver results that exceed expectations. Every craftsman is background-verified and trained in premium upholstery finishing.",
+        "Our Sector 75 customers trust us because our technicians show up on time, communicate clearly, and deliver results that exceed expectations. Every craftsman is background-verified and trained in premium upholstery finishing.",
     },
     {
       title: "All Sofa Types Repaired On-Site",
@@ -258,7 +258,7 @@ export const sofaRepairNoidaSector75: SeoPageData = {
   benefits: [
     "Zero transportation hassle — full doorstep service in Sector 75",
     "Starts at ₹500 — honest, transparent pricing",
-    "4.8-star rated service across 5,000+ NCR repairs",
+    "Trusted service across 10,000+ NCR repairs",
     "Same-day service slots, including weekends",
     "Covers ATS Green, Sector 74, 76, and 78",
     "50+ premium fabric and leather options on-site",
@@ -366,7 +366,7 @@ export const sofaRepairNoidaSector137: SeoPageData = {
     "Sofa repair in Noida Sector 137 starting ₹500. Expressway high-rise belt — covering Sector 134 & 138.",
   h1: "Sofa Repair in Noida Sector 137 — Expressway Doorstep Service from ₹500",
   heroSubtitle:
-    "Living on the Expressway belt means your sofa faces Noida's toughest climate conditions. Our 4.8-star rated craftsmen come to your high-rise — same day, honest pricing, 6-month guaranteed work.",
+    "Living on the Expressway belt means your sofa faces Noida's toughest climate conditions. Our trusted craftsmen come to your high-rise — same day, honest pricing, 6-month guaranteed work.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -374,10 +374,10 @@ export const sofaRepairNoidaSector137: SeoPageData = {
     caption: "Sofa Repair in Noida Sector 137 | Doorstep service on the Noida-Greater Noida Expressway belt | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers 4.8-star rated sofa repair in Noida Sector 137 starting at ₹500. We serve high-rise societies across the Noida-Greater Noida Expressway belt — Sector 134, 137, and 138 — with doorstep service for all sofa types. Over 5,000 repairs completed across NCR. Same-day availability, 6-month warranty.",
+    "FurniRevive offers trusted sofa repair in Noida Sector 137 starting at ₹500. We serve high-rise societies across the Noida-Greater Noida Expressway belt — Sector 134, 137, and 138 — with doorstep service for all sofa types. Over 5,000 repairs completed across NCR. Same-day availability, 6-month warranty.",
   intro: [
     "You're on the 18th floor of a tower in Sector 137. Your sofa — the centrepiece of a living room with a skyline view — has started sinking on one side. The <a href=\"/leather-sofa-repair-noida-expressway\">leather</a> is showing stress cracks near the armrests, almost certainly from years of the Expressway belt's harsh summer heat beating through your windows. Getting a new sofa delivered to this floor sounds like a logistical nightmare. Getting rid of the old one sounds even worse. There has to be a better option.",
-    "There is. FurniRevive's <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> service is purpose-built for high-rise apartment living along the Noida-Greater Noida Expressway. Our 4.8-star rated technicians bring compact professional tools directly to your apartment — no disassembly, no freight elevator drama, no mess left behind. With over 5,000 repairs completed across NCR, we've earned the trust of residents in Sector 134, 137, and 138's landmark towers. We also handle <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> for every other upholstered piece in your home.",
+    "There is. FurniRevive's <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> service is purpose-built for high-rise apartment living along the Noida-Greater Noida Expressway. Our trusted technicians bring compact professional tools directly to your apartment — no disassembly, no freight elevator drama, no mess left behind. With over 5,000 repairs completed across NCR, we've earned the trust of residents in Sector 134, 137, and 138's landmark towers. We also handle <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> for every other upholstered piece in your home.",
     "From ground-floor duplexes to penthouse-level apartments, from compact 2BHKs to sprawling 4BHKs — our service van carries everything needed to complete most repairs in a single visit. No second trip, no follow-up appointment, no waiting. Your sofa gets fixed today.",
   ],
   whyChoose: [
@@ -392,9 +392,9 @@ export const sofaRepairNoidaSector137: SeoPageData = {
         "Our service kits are designed specifically for indoor apartment work — portable, near-silent, and leaving zero mess. We respect your home, your neighbours, and your building's rules.",
     },
     {
-      title: "4.8-Star Rated, Verified Craftsmen",
+      title: "Trusted, Verified Craftsmen",
       description:
-        "Every technician is background-verified, trained in professional upholstery finishing, and rated 4.8 stars across 5,000+ NCR repairs. We send you the best, not just the nearest.",
+        "Every technician is background-verified, trained in professional upholstery finishing, and trusted across 10,000+ NCR repairs. We send you the best, not just the nearest.",
     },
     {
       title: "Transparent Pricing from ₹500",
@@ -437,7 +437,7 @@ export const sofaRepairNoidaSector137: SeoPageData = {
   benefits: [
     "Doorstep service designed for Expressway high-rise apartments",
     "Starts at ₹500 — transparent, no-surprise pricing",
-    "4.8-star rated across 5,000+ NCR repairs",
+    "Trusted across 10,000+ NCR repairs",
     "Covers Sector 134, 137, and 138 — no extra travel charge",
     "Same-day slots available for urgent repairs",
     "Repairs fabric, leather, sectional, recliner, and sofa-cum-beds",
@@ -545,7 +545,7 @@ export const sofaRepairNoidaExtension: SeoPageData = {
     "Sofa repair in Noida Extension (Greater Noida West) from ₹500. Serving Gaur City, Crossings Republik & Raj Nagar Extension border.",
   h1: "Sofa Repair in Noida Extension — Doorstep Service from ₹500",
   heroSubtitle:
-    "Gaur City. Crossings Republik. Hundreds of societies, thousands of sofas that deserve better than a replacement. Our 4.8-star rated team comes to you — same day, honest price, guaranteed.",
+    "Gaur City. Crossings Republik. Hundreds of societies, thousands of sofas that deserve better than a replacement. Our trusted team comes to you — same day, honest price, guaranteed.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -553,10 +553,10 @@ export const sofaRepairNoidaExtension: SeoPageData = {
     caption: "Sofa Repair in Noida Extension | Doorstep service across Gaur City & Crossings Republik | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated sofa repair in Noida Extension (Greater Noida West) starting at ₹500. Covering Gaur City, Crossings Republik, and the Raj Nagar Extension border, we offer same-day doorstep service for all sofa types. Over 5,000 repairs completed across NCR. 6-month warranty included.",
+    "FurniRevive provides trusted sofa repair in Noida Extension (Greater Noida West) starting at ₹500. Covering Gaur City, Crossings Republik, and the Raj Nagar Extension border, we offer same-day doorstep service for all sofa types. Over 5,000 repairs completed across NCR. 6-month warranty included.",
   intro: [
     "Noida Extension — Greater Noida West to those who've lived here long enough — is a place where entire families put down serious roots. You bought your first apartment in Gaur City, spent months furnishing it, and the sofa you chose to anchor that living room has been through everything: weekend movie nights, guests sleeping over, toddlers who treat it like a trampoline, and four NCR summers. Now it shows. The foam has compressed, the fabric has worn thin in the spots you use most, and there's a spring somewhere inside that has given up entirely.",
-    "Before you start browsing furniture stores, call FurniRevive. Our <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> team has become the go-to choice across Noida Extension because we understand exactly how these communities work — the scale, the apartment formats, the narrow lifts, and the families who want quality results without paying replacement prices. Our 4.8-star rated craftsmen have completed over 5,000 repairs across NCR, and they bring their workshop directly to your door in Gaur City or Crossings Republik. Our <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> service covers everything else upholstered in your home too.",
+    "Before you start browsing furniture stores, call FurniRevive. Our <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> team has become the go-to choice across Noida Extension because we understand exactly how these communities work — the scale, the apartment formats, the narrow lifts, and the families who want quality results without paying replacement prices. Our trusted craftsmen have completed over 5,000 repairs across NCR, and they bring their workshop directly to your door in Gaur City or Crossings Republik. Our <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> service covers everything else upholstered in your home too.",
     "With dedicated technicians stationed in Noida Extension, we offer response times that match the area's scale — fast, consistent, and available most days including weekends. Most repairs are completed in a single visit, with zero transportation on your side.",
   ],
   whyChoose: [
@@ -566,9 +566,9 @@ export const sofaRepairNoidaExtension: SeoPageData = {
         "We maintain technicians specifically within Noida Extension, enabling rapid response across all Gaur City phases and the Crossings Republik corridor. No waiting days for someone to travel from outside the area.",
     },
     {
-      title: "4.8-Star Rated, Verified Craftsmen",
+      title: "Trusted, Verified Craftsmen",
       description:
-        "Our Noida Extension customers rate us 4.8 stars because we show up, communicate honestly, and deliver work that genuinely looks professional. Every craftsman is background-verified and trained.",
+        "Our Noida Extension customers trust us because we show up, communicate honestly, and deliver work that genuinely looks professional. Every craftsman is background-verified and trained.",
     },
     {
       title: "₹500 Starting Price — Accessible for Every Household",
@@ -616,7 +616,7 @@ export const sofaRepairNoidaExtension: SeoPageData = {
   benefits: [
     "Full doorstep service — no leaving home, no transporting furniture",
     "Affordable starting price of ₹500",
-    "4.8-star rated across 5,000+ NCR repairs",
+    "Trusted across 10,000+ NCR repairs",
     "Same-day slots across Gaur City and Crossings Republik",
     "Covers the Raj Nagar Extension border areas",
     "Repairs fabric, leather, recliner, L-shaped, and sofa-cum-beds",
@@ -660,7 +660,7 @@ export const sofaRepairNoidaExtension: SeoPageData = {
     {
       question: "Do you repair sofas in Gaur City, Noida Extension?",
       answer:
-        "Yes — Gaur City is one of our highest-volume service zones in NCR. We have technicians based locally in Noida Extension and offer same-day appointments across all Gaur City phases and adjacent Crossings Republik. Our 4.8-star rating reflects the quality we deliver here consistently.",
+        "Yes — Gaur City is one of our highest-volume service zones in NCR. We have technicians based locally in Noida Extension and offer same-day appointments across all Gaur City phases and adjacent Crossings Republik. Our track record reflects the quality we deliver here consistently.",
     },
     {
       question: "What does sofa repair cost in Noida Extension?",
@@ -724,7 +724,7 @@ export const sofaRepairRajNagarExtension: SeoPageData = {
     "Professional sofa repair in Raj Nagar Extension, Ghaziabad from ₹500. Near Vaishali, Indirapuram & Noida Extension.",
   h1: "Sofa Repair in Raj Nagar Extension — Doorstep Service from ₹500",
   heroSubtitle:
-    "Raj Nagar Extension families put their sofas through a lot. When it shows, our 4.8-star rated craftsmen come to your door — same day, honest Ghaziabad pricing, guaranteed 6-month work.",
+    "Raj Nagar Extension families put their sofas through a lot. When it shows, our trusted craftsmen come to your door — same day, honest Ghaziabad pricing, guaranteed 6-month work.",
   showcaseImage: {
     heading: "Professional Sofa Repair — Premium Home Service in Delhi",
     imageUrl: "https://hercules-cdn.com/file_UifJps576NjMbznF228eVPn1",
@@ -732,10 +732,10 @@ export const sofaRepairRajNagarExtension: SeoPageData = {
     caption: "Sofa Repair in Raj Nagar Extension Ghaziabad | Same-day doorstep service near Vaishali & Indirapuram | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated sofa repair in Raj Nagar Extension, Ghaziabad starting at ₹500. Conveniently located near Vaishali, Indirapuram, and the Noida Extension border, we offer same-day doorstep service for all sofa types with transparent pricing and a 6-month warranty. Over 5,000 repairs completed across NCR.",
+    "FurniRevive provides trusted sofa repair in Raj Nagar Extension, Ghaziabad starting at ₹500. Conveniently located near Vaishali, Indirapuram, and the Noida Extension border, we offer same-day doorstep service for all sofa types with transparent pricing and a 6-month warranty. Over 5,000 repairs completed across NCR.",
   intro: [
     "Raj Nagar Extension families know what commitment looks like. You saved up, bought your apartment, and furnished it properly — including a sofa that became the living room's anchor for TV evenings, children doing homework on the floor in front of it, relatives staying over for Diwali. That sofa has earned its wear. But now the cushions have flattened, the fabric is showing its age, and maybe there's a spring that complains every time someone sits down. You've been putting off dealing with it because you assume it means either a big replacement expense or the hassle of taking furniture somewhere for repair.",
-    "It means neither. FurniRevive's <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> and NCR service extends fully into Raj Nagar Extension with the same quality, same-day availability, and 4.8-star rated craftsmen that Noida residents rely on. Our verified technicians come to your door, assess the damage for free, and fix it right there in your living room — no factory, no truck, no ordeal. Over 5,000 repairs completed across NCR, and growing in Raj Nagar Extension every month. Our <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> network also covers all other upholstered pieces in your home.",
+    "It means neither. FurniRevive's <a href=\"/sofa-repair-noida\">sofa repair in Noida</a> and NCR service extends fully into Raj Nagar Extension with the same quality, same-day availability, and trusted craftsmen that Noida residents rely on. Our verified technicians come to your door, assess the damage for free, and fix it right there in your living room — no factory, no truck, no ordeal. Over 5,000 repairs completed across NCR, and growing in Raj Nagar Extension every month. Our <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> network also covers all other upholstered pieces in your home.",
     "Whether your society is deep inside Raj Nagar Extension or right on the Noida Extension border near Vaishali or Indirapuram — our team reaches you fast. One booking, one technician, one visit that completes the job. That's the FurniRevive way.",
   ],
   whyChoose: [
@@ -745,9 +745,9 @@ export const sofaRepairRajNagarExtension: SeoPageData = {
         "Our service network covers Raj Nagar Extension and its entire neighbouring belt — Vaishali, Indirapuram, and Noida Extension — under one seamless umbrella. No delays, no cross-border complications, just fast service wherever you are.",
     },
     {
-      title: "4.8-Star Rated, Verified Craftsmen",
+      title: "Trusted, Verified Craftsmen",
       description:
-        "Every technician we send to Raj Nagar Extension is background-verified, trained in upholstery finishing, and rated 4.8 stars across 5,000+ NCR repairs. Quality is not optional — it's the standard.",
+        "Every technician we send to Raj Nagar Extension is background-verified, trained in upholstery finishing, and trusted across 10,000+ NCR repairs. Quality is not optional — it's the standard.",
     },
     {
       title: "Affordable ₹500 Entry Point for Ghaziabad Families",
@@ -795,7 +795,7 @@ export const sofaRepairRajNagarExtension: SeoPageData = {
   benefits: [
     "Full doorstep service — no workshop visits, no transportation",
     "Starts at just ₹500 for standard repairs",
-    "4.8-star rated across 5,000+ NCR repairs",
+    "Trusted across 10,000+ NCR repairs",
     "Same-day slots available across Raj Nagar Extension",
     "Covers Vaishali, Indirapuram, and Noida Extension border areas",
     "Repairs fabric, leather, recliner, L-shaped, and sofa-cum-beds",
@@ -839,7 +839,7 @@ export const sofaRepairRajNagarExtension: SeoPageData = {
     {
       question: "Do you provide sofa repair at home in Raj Nagar Extension?",
       answer:
-        "Yes. We provide complete doorstep sofa repair service across Raj Nagar Extension in Ghaziabad. Our 4.8-star rated technician arrives with all tools and materials and completes the repair inside your home — no furniture transportation required.",
+        "Yes. We provide complete doorstep sofa repair service across Raj Nagar Extension in Ghaziabad. Our trusted technician arrives with all tools and materials and completes the repair inside your home — no furniture transportation required.",
     },
     {
       question: "What does sofa repair cost in Raj Nagar Extension?",
@@ -854,7 +854,7 @@ export const sofaRepairRajNagarExtension: SeoPageData = {
     {
       question: "Do you also serve Vaishali and Indirapuram?",
       answer:
-        "Yes. Vaishali and Indirapuram are both active service zones for our team. The same pricing, 4.8-star rated craftsmen, and 6-month warranty apply equally across Raj Nagar Extension, Vaishali, and Indirapuram.",
+        "Yes. Vaishali and Indirapuram are both active service zones for our team. The same pricing, trusted craftsmen, and 6-month warranty apply equally across Raj Nagar Extension, Vaishali, and Indirapuram.",
     },
     {
       question: "Can you repair a recliner sofa in Raj Nagar Extension?",

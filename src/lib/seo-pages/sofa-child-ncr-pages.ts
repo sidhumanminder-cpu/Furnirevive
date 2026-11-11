@@ -7,7 +7,7 @@ import { buildRelatedPages } from "@/lib/seo-pages/core-links.ts";
 // ---------------------------------------------------------------------------
 export const sofaRepairDwarkaExpresswayGurgaon: SeoPageData = {
   slug: "sofa-repair-dwarka-expressway-gurgaon",
-  title: "Sofa Repair Dwarka Expressway Gurgaon | Near Me ₹500",
+  title: "Sofa Repair on Dwarka Expressway Gurgaon | ₹500",
   metaDescription:
     "Sofa repair near me on Dwarka Expressway Gurgaon from ₹500. Foam, spring & recliner repair doorstep — Sectors 76–113, Conscient, Sobha, Adani. Same-day.",
   h1: "Sofa Repair on Dwarka Expressway Gurgaon — Doorstep Service for All Societies",
@@ -66,7 +66,7 @@ export const sofaRepairDwarkaExpresswayGurgaon: SeoPageData = {
     {
       title: "Same-Day Gurgaon Service",
       description:
-        "Book before noon for same-day arrival. Our Gurgaon-based team reaches Dwarka Expressway societies within 60–90 minutes.",
+        "Book before noon for same-day arrival. Our Gurgaon-based team reaches Dwarka Expressway societies within 2–4 hours.",
     },
     {
       title: "Transparent Written Quotes",
@@ -189,10 +189,10 @@ export const sofaRepairDwarkaExpresswayGurgaon: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairGolfCourseRoadGurgaon: SeoPageData = {
   slug: "sofa-repair-golf-course-road-gurgaon",
-  title: "Sofa Repair Golf Course Road Gurgaon | Near Me ₹500",
+  title: "Sofa Repair on Golf Course Road Gurgaon | ₹500",
   metaDescription:
     "Sofa repair near me on Golf Course Road Gurgaon from ₹500. Leather, foam & recliner repair doorstep — DLF Phase 5, South City, Nirvana Country. Same-day.",
-  h1: "Sofa Repair Near Me on Golf Course Road Gurgaon — Premium Doorstep Service",
+  h1: "Sofa Repair on Golf Course Road Gurgaon — Premium Doorstep Service",
   heroSubtitle:
     "Expert sofa repair across Golf Course Road, Golf Course Extension, DLF Phase 5, South City 1 & 2, Nirvana Country, Sector 54–57, and Sushant Lok. Leather restoration, fabric reupholstery, foam replacement, and recliner mechanism repair. Starting ₹500 with 6-month warranty.",
   showcaseImage: {
@@ -248,7 +248,7 @@ export const sofaRepairGolfCourseRoadGurgaon: SeoPageData = {
     {
       title: "Rapid Response for South Gurgaon",
       description:
-        "Our South Gurgaon team reaches Golf Course Road addresses within 60–90 minutes. Book before noon for same-day service.",
+        "Our South Gurgaon team reaches Golf Course Road addresses within 2–4 hours. Book before noon for same-day service.",
     },
     {
       title: "Fixed Written Quotes",
@@ -371,7 +371,7 @@ export const sofaRepairGolfCourseRoadGurgaon: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairNoidaSector18: SeoPageData = {
   slug: "sofa-repair-noida-sector-18",
-  title: "Sofa Repair Near Me Noida Sector 18 | FurniRevive",
+  title: "Sofa Repair in Noida Sector 18 | ₹500 Home Service",
   metaDescription:
     "Sofa repair near me in Noida Sector 18 from ₹500. Doorstep foam, spring & recliner repair near DLF Mall & Atta Market. Same-day home service.",
   h1: "Sofa Repair in Noida Sector 18 — Near DLF Mall & Atta Market",
@@ -430,7 +430,7 @@ export const sofaRepairNoidaSector18: SeoPageData = {
     {
       title: "Same-Day Noida Service",
       description:
-        "Book before noon for same-day arrival. Our Noida team reaches Sector 18 addresses within 60–90 minutes during standard hours.",
+        "Book before noon for same-day arrival. Our Noida team reaches Sector 18 addresses within 2–4 hours during standard hours.",
     },
     {
       title: "Transparent Written Quotes",
@@ -504,7 +504,7 @@ export const sofaRepairNoidaSector18: SeoPageData = {
       heading: "Sofa Repair Near Me in Noida Sector 18 (Same-Day Home Service)",
       body: [
         "Looking for sofa repair near me in Noida Sector 18? FurniRevive brings a skilled technician directly to your door — whether you live near DLF Mall of India, Atta Market, or in the surrounding sectors 15–25. Our sofa repair near me at home service covers every residential pocket in the Sector 18 area with same-day slots available for morning bookings.",
-        "Sofa repair near me cost in Sector 18 starts at ₹500 for standard repairs. You get a free doorstep inspection and a written quote before any work begins. Looking for the best sofa repair near me near DLF Mall or Botanical Garden Metro? Our technicians reach Sector 18 addresses within 60–90 minutes. Trusted, fast, and backed by a 6-month warranty. Book online or WhatsApp +91 92179 99355. Also see: <a href='/sofa-repair-noida'>sofa repair Noida</a> | <a href='/furniture-repair-noida-sector-18'>furniture repair Noida Sector 18</a>.",
+        "Sofa repair near me cost in Sector 18 starts at ₹500 for standard repairs. You get a free doorstep inspection and a written quote before any work begins. Looking for the best sofa repair near me near DLF Mall or Botanical Garden Metro? Our technicians reach Sector 18 addresses within 2–4 hours. Trusted, fast, and backed by a 6-month warranty. Book online or WhatsApp +91 92179 99355. Also see: <a href='/sofa-repair-noida'>sofa repair Noida</a> | <a href='/furniture-repair-noida-sector-18'>furniture repair Noida Sector 18</a>.",
       ],
     },
   ],
@@ -517,7 +517,7 @@ export const sofaRepairNoidaSector18: SeoPageData = {
     {
       question: "How quickly can you reach Sector 18 Noida?",
       answer:
-        "Book before noon for same-day arrival. Our Noida team reaches Sector 18 addresses within 60–90 minutes during standard hours.",
+        "Book before noon for same-day arrival. Our Noida team reaches Sector 18 addresses within 2–4 hours during standard hours.",
     },
     {
       question: "Do you repair sofas in sectors near Sector 18?",
@@ -561,7 +561,7 @@ export const sofaRepairNoidaSector18: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairNoidaSector150: SeoPageData = {
   slug: "sofa-repair-noida-sector-150",
-  title: "Sofa Repair Near Me Noida Sector 150 | FurniRevive",
+  title: "Sofa Repair in Noida Sector 150 | ₹500 Home Service",
   metaDescription:
     "Sofa repair near me in Noida Sector 150 from ₹500. Doorstep service at Ace Divino, Mahagun Mywoods & CRC Sublimis. Same-day home repair. 6-month warranty.",
   h1: "Sofa Repair in Noida Sector 150 — Ace Divino, Mahagun Mywoods & All Societies",
@@ -620,7 +620,7 @@ export const sofaRepairNoidaSector150: SeoPageData = {
     {
       title: "Same-Day Expressway Service",
       description:
-        "Book before noon for same-day arrival. Our Noida Expressway team reaches Sector 150 within 60–90 minutes.",
+        "Book before noon for same-day arrival. Our Noida Expressway team reaches Sector 150 within 2–4 hours.",
     },
     {
       title: "Transparent Fixed Pricing",
@@ -751,10 +751,10 @@ export const sofaRepairNoidaSector150: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairCrossingRepublikGhaziabad: SeoPageData = {
   slug: "sofa-repair-crossing-republik-ghaziabad",
-  title: "Sofa Repair Near Me in Crossing Republik Ghaziabad",
+  title: "Sofa Repair in Crossing Republik Ghaziabad | ₹500",
   metaDescription:
     "Sofa repair near me in Crossing Republik Ghaziabad from ₹500. Foam, recliner & cover change near me at doorstep — all GH towers & Raj Nagar Extension.",
-  h1: "Sofa Repair Near Me in Crossing Republik & Raj Nagar Extension Ghaziabad",
+  h1: "Sofa Repair in Crossing Republik & Raj Nagar Extension Ghaziabad",
   heroSubtitle:
     "Professional sofa repair across Crossing Republik township — GH-02 to GH-07, all residential towers, and surrounding Raj Nagar Extension. Foam replacement, reupholstery, spring repair, and recliner fixing at your doorstep. Starting ₹500 with 6-month warranty.",
   showcaseImage: {
@@ -810,7 +810,7 @@ export const sofaRepairCrossingRepublikGhaziabad: SeoPageData = {
     {
       title: "Same-Day Ghaziabad Service",
       description:
-        "Book before noon for same-day arrival. Our team reaches Crossing Republik within 60–90 minutes from our Ghaziabad base.",
+        "Book before noon for same-day arrival. Our team reaches Crossing Republik within 2–4 hours from our Ghaziabad base.",
     },
     {
       title: "Transparent Pricing",
@@ -902,7 +902,7 @@ export const sofaRepairCrossingRepublikGhaziabad: SeoPageData = {
     {
       question: "How fast can you reach Crossing Republik?",
       answer:
-        "Book before noon for same-day service. We typically reach Crossing Republik within 60–90 minutes from our Ghaziabad base.",
+        "Book before noon for same-day service. We typically reach Crossing Republik within 2–4 hours from our Ghaziabad base.",
     },
     { question: "Do you offer sofa repair near me in Raj Nagar Extension Ghaziabad?", answer: "Yes. FurniRevive provides sofa repair near me home service across Raj Nagar Extension and Crossing Republik. All GH towers covered. Foam replacement from ₹999, sofa cover change from ₹500/seat, recliner repair from ₹1,500. Call +91 92179 99355." },
     { question: "Is sofa cover change near me available in Crossing Republik?", answer: "Yes. Sofa cover change near me is available same day across all Crossing Republik GH sectors and Raj Nagar Extension. Fresh fabric stitched and fitted on-site from ₹500 per seat with 500+ material options. Call +91 92179 99355." },
@@ -936,10 +936,10 @@ export const sofaRepairCrossingRepublikGhaziabad: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairNitFaridabad: SeoPageData = {
   slug: "sofa-repair-nit-faridabad",
-  title: "Sofa Repair NIT Faridabad | FurniRevive",
+  title: "Sofa Repair in NIT Faridabad | FurniRevive",
   metaDescription:
     "Sofa repair near me in NIT Faridabad from ₹500. Foam filling, fabric change, recliner & spring repair at your doorstep — Sectors 1–31.",
-  h1: "Sofa Repair Near Me in NIT Faridabad — Sectors 1–31 & Greenfield Colony",
+  h1: "Sofa Repair in NIT Faridabad — Sectors 1–31 & Greenfield Colony",
   heroSubtitle:
     "Doorstep sofa repair across NIT Faridabad — Sector 1 to 31, Crown Interiorz Mall area, Greenfield Colony, BPTP, and surrounding areas. Foam replacement, reupholstery, spring repair, and recliner fixing. Starting ₹500 with 6-month warranty.",
   showcaseImage: {
@@ -995,7 +995,7 @@ export const sofaRepairNitFaridabad: SeoPageData = {
     {
       title: "Same-Day Faridabad Service",
       description:
-        "Book before noon for same-day arrival. Our Faridabad team reaches NIT sectors within 60–90 minutes.",
+        "Book before noon for same-day arrival. Our Faridabad team reaches NIT sectors within 2–4 hours.",
     },
     {
       title: "Fixed Written Pricing",
@@ -1068,7 +1068,7 @@ export const sofaRepairNitFaridabad: SeoPageData = {
     {
       heading: "Sofa Repair Near Me in NIT Faridabad — Foam, Fabric & Recliner",
       body: [
-        "Searching 'sofa repair near me' in NIT Faridabad? FurniRevive craftsmen are based in Faridabad and reach all NIT sectors (1–31), Greenfield Colony, Ashoka Enclave, and BPTP within 60–90 minutes of booking. Our sofa repair near me home service covers: sofa foam filling near me (₹999/seat), sofa fabric change near me (₹2,500/seat), recliner repair near me (₹1,499), leather sofa repair near me (₹1,500), and spring repair (₹1,500).",
+        "Searching 'sofa repair near me' in NIT Faridabad? FurniRevive craftsmen are based in Faridabad and reach all NIT sectors (1–31), Greenfield Colony, Ashoka Enclave, and BPTP within 2–4 hours of booking. Our sofa repair near me home service covers: sofa foam filling near me (₹999/seat), sofa fabric change near me (₹2,500/seat), recliner repair near me (₹1,499), leather sofa repair near me (₹1,500), and spring repair (₹1,500).",
         "NIT Faridabad's older homes have high-quality sheesham and teak-frame sofas that are absolutely worth restoring. Our craftsmen specialise in these durable frames — re-gluing joints, replacing springs, and fitting premium upholstery that lasts another decade. Call +91 92179 99355 for sofa repair near me contact number or WhatsApp photos for a free quote.",
       ],
     },
@@ -1087,7 +1087,7 @@ export const sofaRepairNitFaridabad: SeoPageData = {
     {
       question: "How quickly can you reach NIT Faridabad?",
       answer:
-        "Book before noon for same-day service. Our Faridabad team reaches NIT sectors within 60–90 minutes.",
+        "Book before noon for same-day service. Our Faridabad team reaches NIT sectors within 2–4 hours.",
     },
     {
       question: "Is sofa repair near me available in NIT Faridabad today?",

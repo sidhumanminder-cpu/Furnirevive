@@ -1,13 +1,50 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ],
   "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.tsbuildinfo",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2023",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "types": [
+      "vite/client",
+      "node",
+      "escape-html",
+      "papaparse",
+      "react",
+      "react-dom"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": false,
     "paths": {
-      "@/convex/*": ["./convex/*"],
-      "@/*": ["./src/*"]
+      "@/convex/*": [
+        "./convex/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ]
     }
-  }
+  },
+  "include": [
+    "src",
+    "vite.config.ts",
+    "vitest.config.ts"
+  ],
+  "exclude": [
+    "convex",
+    "dist",
+    ".output",
+    ".tanstack"
+  ]
 }

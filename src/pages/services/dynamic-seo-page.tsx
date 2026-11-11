@@ -1,11 +1,18 @@
-import { useParams, Navigate } from "react-router-dom";
-import SeoPageTemplate from "@/components/seo-page-template.tsx";
+import { lazy, use } from "react";
+import { useParams, Navigate } from "@/lib/router-compat.tsx";
 import NotFound from "@/pages/NotFound.tsx";
-import { getPageBySlug } from "@/lib/seo-pages/registry.ts";
-import { getRegistryPage } from "@/lib/registry/index.ts";
-import RegistryPage from "@/pages/services/registry-page.tsx";
-import ServiceHubPage from "@/pages/services/service-hub/page.tsx";
+import { hasSeoPage } from "@/lib/seo-pages/slug-index.ts";
+import { loadSeoPage } from "@/lib/seo-pages/group-loaders.ts";
+import { getRepairRegistryPage } from "@/lib/registry/repair-pages.ts";
 import { getHubTarget } from "@/pages/services/service-hub/_lib/hub-config.ts";
+import { RETIRED_SLUG_REDIRECTS } from "@/lib/seo-pages/retired-slugs.ts";
+
+// Each page family loads on demand so a visitor only downloads the code for the page they open.
+const SeoPageTemplate = lazy(() => import("@/components/seo-page-template.tsx"));
+const ServiceHubPage = lazy(() => import("@/pages/services/service-hub/page.tsx"));
+const RepairRegistryPage = lazy(() => import("@/pages/services/repair-registry-page.tsx"));
+// Kitchen pages (6,000+ registry entries) are only reached from kitchen slugs
+const KitchenRegistryPage = lazy(() => import("@/pages/services/registry-page.tsx"));
 
 /**
  * Dynamic SEO page component.
@@ -31,42 +38,6 @@ export default function DynamicSeoPage() {
     return <Navigate to={`/${lowerSlug}`} replace />;
   }
 
-  // Explicit retired-slug → primary-slug redirects (duplicate locality consolidation).
-  // Each mapping is an exact full-URL slug — no wildcards, no pattern matching.
-  // Checked BEFORE normal registry lookup so the retired page is never rendered.
-  const RETIRED_SLUG_REDIRECTS: Record<string, string> = {
-    // Gurgaon sector sofa-repair (city-first → sector-first format)
-    "sofa-repair-gurgaon-sector-43": "sofa-repair-sector-43-gurgaon",
-    "sofa-repair-gurgaon-sector-46": "sofa-repair-sector-46-gurgaon",
-    "sofa-repair-gurgaon-sector-49": "sofa-repair-sector-49-gurgaon",
-    "sofa-repair-gurgaon-sector-50": "sofa-repair-sector-50-gurgaon",
-    "sofa-repair-gurgaon-sector-52": "sofa-repair-sector-52-gurgaon",
-    "sofa-repair-gurgaon-sector-53": "sofa-repair-sector-53-gurgaon",
-    "sofa-repair-gurgaon-sector-54": "sofa-repair-sector-54-gurgaon",
-    "sofa-repair-gurgaon-sector-55": "sofa-repair-sector-55-gurgaon",
-    "sofa-repair-gurgaon-sector-65": "sofa-repair-sector-65-gurgaon",
-    // Gurgaon sector additional services (only where primary is confirmed live)
-    "recliner-repair-gurgaon-sector-43": "recliner-repair-sector-43-gurgaon",
-    "furniture-repair-gurgaon-sector-46": "furniture-repair-sector-46-gurgaon",
-    "sofa-upholstery-gurgaon-sector-46": "sofa-upholstery-sector-46-gurgaon",
-    "sofa-upholstery-gurgaon-sector-49": "sofa-upholstery-sector-49-gurgaon",
-    "recliner-repair-gurgaon-sector-50": "recliner-repair-sector-50-gurgaon",
-    "sofa-upholstery-gurgaon-sector-50": "sofa-upholstery-sector-50-gurgaon",
-    "sofa-upholstery-gurgaon-sector-52": "sofa-upholstery-sector-52-gurgaon",
-    "sofa-upholstery-gurgaon-sector-53": "sofa-upholstery-sector-53-gurgaon",
-    "sofa-upholstery-gurgaon-sector-54": "sofa-upholstery-sector-54-gurgaon",
-    "sofa-upholstery-gurgaon-sector-55": "sofa-upholstery-sector-55-gurgaon",
-    "recliner-repair-gurgaon-sector-65": "recliner-repair-sector-65-gurgaon",
-    "sofa-upholstery-gurgaon-sector-65": "sofa-upholstery-sector-65-gurgaon",
-    // Noida sector 100 sofa-repair
-    "sofa-repair-noida-sector-100": "sofa-repair-sector-100-noida",
-    // Crossings Republik spelling variant (confirmed primary URLs live)
-    "sofa-repair-crossings-republik": "sofa-repair-crossing-republik-ghaziabad",
-    "furniture-repair-crossings-republik": "furniture-repair-crossing-republik-ghaziabad",
-    // Chhatarpur spelling variant (registry confirms sofa-repair-chattarpur is live)
-    "sofa-repair-chhatarpur": "sofa-repair-chattarpur",
-  };
-
   const redirectTarget = RETIRED_SLUG_REDIRECTS[lowerSlug];
   if (redirectTarget) {
     return <Navigate to={`/${redirectTarget}`} replace />;
@@ -79,17 +50,25 @@ export default function DynamicSeoPage() {
 
   // 1. Check registry-first pages (new programmatic SEO architecture)
   const pathname = `/${slug}`;
-  const registryPage = getRegistryPage(pathname);
-  if (registryPage) {
-    return <RegistryPage />;
+  if (getRepairRegistryPage(pathname)) {
+    return <RepairRegistryPage />;
+  }
+  // Every kitchen registry URL contains "kitchen"; no legacy page does, so they can skip the legacy lookup.
+  if (slug.includes("kitchen")) {
+    return <KitchenRegistryPage />;
   }
 
   // 2. Fall through to legacy SEO pages — unchanged behaviour
-  const pageData = getPageBySlug(slug);
-
-  if (!pageData) {
+  // Unknown slugs show the 404 without loading any page group
+  if (!hasSeoPage(slug)) {
     return <NotFound />;
   }
 
-  return <SeoPageTemplate data={pageData} />;
+  return <LegacySeoPage slug={slug} />;
+}
+
+/** Loads only this slug's page group, then renders the page. Suspends (App-level fallback) while loading. */
+function LegacySeoPage({ slug }: { slug: string }) {
+  const pageData = use(loadSeoPage(slug));
+  return pageData ? <SeoPageTemplate data={pageData} /> : <NotFound />;
 }

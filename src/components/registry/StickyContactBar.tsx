@@ -1,5 +1,5 @@
 import { Phone, MessageCircle, CalendarCheck } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import { BUSINESS } from "@/lib/business-config.ts";
 

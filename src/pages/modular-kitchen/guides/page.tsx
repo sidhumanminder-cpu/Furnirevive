@@ -2,7 +2,7 @@
  * /modular-kitchen-guides
  * Sub-directory hub: categorised grid of all published blog/guide entries.
  */
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { ChevronRight, BookOpen, Clock, ArrowRight } from "lucide-react";
 import Navbar from "@/components/navbar.tsx";
 import Footer from "@/components/footer.tsx";

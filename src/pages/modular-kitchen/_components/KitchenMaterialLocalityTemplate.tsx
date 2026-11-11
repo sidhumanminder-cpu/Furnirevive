@@ -4,7 +4,7 @@
  * Pass `entry` (any material registry entry) + `faqs` array.
  */
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { PhoneCall, MessageCircle, CheckCircle2, ChevronRight, Sparkles, MapPin } from "lucide-react";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";
 import { setPageMetadata } from "@/lib/metadata.ts";

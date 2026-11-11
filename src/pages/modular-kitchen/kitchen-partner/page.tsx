@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "@/lib/router-compat.tsx";
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api.js";
 import { toast } from "sonner";

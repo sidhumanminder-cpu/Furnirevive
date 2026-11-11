@@ -19,7 +19,9 @@
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": ["escape-html", "node", "papaparse", "react", "react-dom"],
+    "noUncheckedSideEffectImports": false
   },
   "include": ["./**/*"],
   "exclude": ["./_generated"]

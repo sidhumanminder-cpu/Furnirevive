@@ -1,5 +1,6 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import {
   Phone,
@@ -47,7 +48,7 @@ export default function ModularKitchenBlogIndex() {
     // Cleanup previous schema
     document
       .querySelectorAll('script[data-schema="kitchen-blog-index"]')
-      .forEach((s) => s.remove());
+      .forEach((s) => removeUnowned(s));
 
     const breadcrumbSchema = {
       "@context": "https://schema.org",
@@ -84,7 +85,7 @@ export default function ModularKitchenBlogIndex() {
     return () => {
       document
         .querySelectorAll('script[data-schema="kitchen-blog-index"]')
-        .forEach((s) => s.remove());
+        .forEach((s) => removeUnowned(s));
     };
   }, []);
 

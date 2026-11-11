@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { useQuery, useMutation } from "convex/react";
+import { useMutation } from "convex/react";
+import { useQuery } from "@/lib/convex-query.ts";
 import { api } from "@/convex/_generated/api.js";
 import type { Id } from "@/convex/_generated/dataModel.d.ts";
 import { Authenticated, Unauthenticated, AuthLoading } from "convex/react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "@/lib/router-compat.tsx";
 import { toast } from "sonner";
 import {
   Plus,
@@ -202,6 +203,10 @@ function CaseStudyListContent() {
                           <img
                             src={study.beforeUrl}
                             alt={study.altTextBefore}
+                            width={64}
+                            height={64}
+                            loading="lazy"
+                            decoding="async"
                             className="size-16 object-cover rounded border"
                           />
                         ) : (
@@ -213,6 +218,10 @@ function CaseStudyListContent() {
                           <img
                             src={study.afterUrl}
                             alt={study.altTextAfter}
+                            width={64}
+                            height={64}
+                            loading="lazy"
+                            decoding="async"
                             className="size-16 object-cover rounded border"
                           />
                         ) : (

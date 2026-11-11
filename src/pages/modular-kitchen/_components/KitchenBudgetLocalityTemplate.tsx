@@ -1,3 +1,4 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 /**
  * Budget-intent kitchen locality template.
  * Used for: affordable-modular-kitchen-{locality} and low-cost-modular-kitchen-{locality}
@@ -5,7 +6,7 @@
  *           recommended layouts → recommended materials → upgrade path → FAQs → nearby → CTA
  */
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { PhoneCall, MessageCircle, CheckCircle2, ChevronRight, TrendingUp, MapPin, ArrowUpCircle } from "lucide-react";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";
 import Navbar from "@/components/navbar.tsx";
@@ -118,12 +119,12 @@ const KitchenBudgetLocalityTemplate = ({ entry, faqs }: Props) => {
     });
 
     return () => {
-      metas.forEach((m) => m.remove());
+      metas.forEach((m) => removeUnowned(m));
       if (existingKeywordsEl && prevKeywords !== null) existingKeywordsEl.setAttribute("content", prevKeywords);
-      linkEl.remove();
-      breadcrumbSchema.remove();
-      faqSchema.remove();
-      serviceSchema.remove();
+      removeUnowned(linkEl);
+      removeUnowned(breadcrumbSchema);
+      removeUnowned(faqSchema);
+      removeUnowned(serviceSchema);
     };
   }, [entry, canonical, metaTitle, metaDesc, h1, faqs, cfg]);
 

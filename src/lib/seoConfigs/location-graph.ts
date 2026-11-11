@@ -14,7 +14,7 @@
 import type { SeoPageData } from "@/lib/seo-constants.ts";
 import { SEO_SERVICE_CONFIG, type SeoServiceKey } from "./service-config.ts";
 import { type CityKey, getLocalityInfo } from "./localities.ts";
-import { ALL_SEO_PAGES } from "@/lib/seo-pages/registry.ts";
+import { allSeoSlugs } from "@/lib/seo-pages/slug-index.ts";
 import { UPHOLSTERY_PAGE_HREFS } from "@/lib/seo-pages/upholstery-page-hrefs.ts";
 
 // ─── Types ──────────────────────────────────────────────────────────────────
@@ -304,7 +304,7 @@ export function buildLocalityServiceUrl(serviceKey: SeoServiceKey, localitySlug:
 let _pageHrefSet: Set<string> | null = null;
 function getPageHrefSet(): Set<string> {
   if (_pageHrefSet === null) {
-    _pageHrefSet = new Set(ALL_SEO_PAGES.map((p) => `/${p.slug}`));
+    _pageHrefSet = new Set(allSeoSlugs().map((s) => `/${s}`));
   }
   return _pageHrefSet;
 }

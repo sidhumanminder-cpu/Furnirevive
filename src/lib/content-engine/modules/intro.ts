@@ -90,7 +90,7 @@ function buildKeyFacts(
   const svc = service.name.toLowerCase();
   const affluenceFact: Record<AffluenceLevel, string> = {
     budget: "Save up to 70% versus buying new furniture",
-    mid: "Transparent pricing from ₹599 with no hidden charges",
+    mid: "Transparent pricing from ₹500 with no hidden charges",
     "mid-high": "Wide range of fabric, foam, and leather options",
     high: "Premium and genuine-leather materials available",
     "ultra-high": "Specialist handling for imported and designer pieces",

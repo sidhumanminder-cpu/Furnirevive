@@ -1,7 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { ArrowRight, MapPin } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card.tsx";
 import type { HubLocality } from "../_lib/hub-config.ts";
+
+// The target page covers the DU North Campus area (Kamla Nagar, Maurice Nagar), so the label says so.
+const DISPLAY_NAMES: Record<string, string> = { "Delhi University North Delhi": "Delhi University (North Campus)" };
+const displayName = (name: string): string => DISPLAY_NAMES[name] ?? name;
 
 type Props = {
   items: readonly HubLocality[];
@@ -24,7 +28,7 @@ export default function LocalityGrid({ items, heading, description }: Props) {
                 <CardContent className="flex items-center justify-between gap-2 px-4 py-3">
                   <span className="flex items-center gap-2 min-w-0">
                     <MapPin className="size-4 shrink-0 text-primary" />
-                    <span className="text-sm font-medium truncate">{entry.name}</span>
+                    <span className="text-sm font-medium truncate">{displayName(entry.name)}</span>
                   </span>
                   <ArrowRight className="size-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-primary" />
                 </CardContent>

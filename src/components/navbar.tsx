@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
-import { useQuery } from "convex/react";
+import { Link, useLocation } from "@/lib/router-compat.tsx";
+import { cdnImage } from "@/lib/image-cdn.ts";
+import { useQuery } from "@/lib/convex-query.ts";
 import { api } from "@/convex/_generated/api.js";
 import { Menu, X, Shield, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button.tsx";
@@ -205,6 +206,8 @@ function ServicesDropdown() {
   );
 }
 
+const LOGO_URL = "https://hercules-cdn.com/file_dtr8PtooAsmRwfNTJKNRTESW";
+
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
@@ -236,7 +239,10 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 shrink-0 mr-4 group">
             <img
-              src="https://cdn.hercules.app/file_dtr8PtooAsmRwfNTJKNRTESW"
+              src={cdnImage(LOGO_URL, { w: 160 })}
+              srcSet={`${cdnImage(LOGO_URL, { w: 160 })} 1x, ${cdnImage(LOGO_URL, { w: 320 })} 2x`}
+              width={162}
+              height={108}
               alt="FurniRevive Furniture Repair"
               className="h-[6.75rem] w-auto mix-blend-multiply"
             />

@@ -123,7 +123,7 @@ export function buildSeoPageData(service: SeoServiceKey, locality: LocalitySlug)
     : formatTitle(serviceName, info.name, info.city, localityIndex);
   const h1 = isUpholstery
     ? `Sofa Reupholstery in ${location}`
-    : formatH1(serviceName, info.name);
+    : formatH1(serviceName, info.name, info.city);
   const metaDescription = isUpholstery
     ? formatUpholsteryMetaDescription(location)
     : formatMetaDescription(serviceName, info.name, localityIndex);
@@ -152,7 +152,7 @@ export function buildSeoPageData(service: SeoServiceKey, locality: LocalitySlug)
       "Same-day home visits",
       "Free doorstep inspection",
       "6-month written warranty",
-      "5,000+ sofas repaired",
+      "10,000+ sofas repaired",
       "10+ years experience",
     ],
     contentSections: buildNearbySection(info, serviceName),

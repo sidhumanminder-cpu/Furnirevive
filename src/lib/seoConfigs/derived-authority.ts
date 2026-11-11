@@ -107,13 +107,6 @@ export type CrossClusterRule = {
  * targetCluster + targetRole, excluding self, parentHub, and apexHub.
  */
 export const CROSS_CLUSTER_RULES: CrossClusterRule[] = [
-  // Furniture locality pages → link to Kitchen apex hub (via home-interiors bridge resolved dynamically)
-  {
-    sourceCluster: "furniture",
-    targetCluster: "kitchen",
-    maxLinks: 1,
-    targetRole: "hub",
-  },
   // Kitchen locality pages → link back to Furniture hub (home-interiors-delhi bridge)
   {
     sourceCluster: "kitchen",
@@ -454,6 +447,8 @@ function pickAuthorityByRole(
     .filter(
       (r) =>
         r.linkRole === role &&
+        // Repair pages never pick kitchen records; kitchen pages keep their own
+        (record.cluster === "kitchen" || r.cluster !== "kitchen") &&
         `/${r.slug}` !== selfHref &&
         `/${r.slug}` !== selfParentHref &&
         `/${r.slug}` !== selfApexHref,

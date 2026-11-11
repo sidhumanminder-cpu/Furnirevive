@@ -5,7 +5,7 @@
  *           FAQs → Related Guides → CTA
  */
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { PhoneCall, MessageCircle, ChevronRight, BookOpen, Scale, ClipboardList, IndianRupee, Lightbulb, ArrowRight } from "lucide-react";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";
 import { setPageMetadata } from "@/lib/metadata.ts";

@@ -28,3 +28,18 @@ tsconfig.tsbuildinfo
 
 # Environment variables
 .env*
+.output
+.nitro
+.tanstack
+.vinxi
+.wrangler
+/.bash_profile
+/.bashrc
+/.gitconfig
+/.gitmodules
+/.mcp.json
+/.profile
+/.ripgreprc
+/.zprofile
+/.zshrc
+.migration/

@@ -11,7 +11,7 @@
 import { LOCALITY_REGISTRY } from "./locality-registry.ts";
 import { SERVICE_REGISTRY } from "./service-registry.ts";
 import { generatePages } from "./generate-pages.ts";
-import { ALL_SEO_PAGES } from "@/lib/seo-pages/registry.ts";
+import { allSeoSlugs } from "@/lib/seo-pages/slug-index.ts";
 import type { RegistryValidationResult } from "./types.ts";
 
 // ─── Cross-system duplicate detection ────────────────────────────────────────
@@ -51,7 +51,7 @@ export function validateCrossSystemUrls(): CrossSystemValidationResult {
 
   // --- Collect all slugs from the legacy batch system ---
   // Legacy pages use `slug` as the path segment (no leading slash)
-  const legacySlugs = ALL_SEO_PAGES.map((p) => p.slug);
+  const legacySlugs = allSeoSlugs();
   const legacyUrlSet = new Set(legacySlugs.map((s) => `/${s}`));
 
   // --- Exact cross-system duplicates ---

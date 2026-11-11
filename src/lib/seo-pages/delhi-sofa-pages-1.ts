@@ -442,7 +442,7 @@ export const sofaRepairSaket: SeoPageData = {
     {
       title: "Metro-Adjacent Response",
       description:
-        "With Saket, Malviya Nagar, Hauz Khas, and Qutub Minar metro stations nearby, our South Delhi team reaches Saket addresses within 60–90 minutes of a confirmed morning booking.",
+        "With Saket, Malviya Nagar, Hauz Khas, and Qutub Minar metro stations nearby, our South Delhi team reaches Saket addresses within 2–4 hours of a confirmed morning booking.",
     },
     {
       title: "6-Month Written Warranty",
@@ -535,7 +535,7 @@ export const sofaRepairSaket: SeoPageData = {
     {
       question: "How quickly can you come to Saket for sofa repair?",
       answer:
-        "Book before noon for same-day service in Saket, Mehrauli, Pushp Vihar, and Malviya Nagar. Standard bookings are confirmed within 24 hours. With Saket metro nearby, our team typically arrives within 60–90 minutes of a morning booking.",
+        "Book before noon for same-day service in Saket, Mehrauli, Pushp Vihar, and Malviya Nagar. Standard bookings are confirmed within 24 hours. With Saket metro nearby, our team typically arrives within 2–4 hours of a morning booking.",
     },
     {
       question: "Do you repair modular and L-shaped sofas in Saket apartments?",

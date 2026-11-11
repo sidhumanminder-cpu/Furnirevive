@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { MapPin } from "lucide-react";
 import type { NearbySectionData } from "@/lib/content-engine/index.ts";
 

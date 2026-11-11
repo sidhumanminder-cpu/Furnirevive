@@ -102,7 +102,7 @@ export const reclineRepairNoida: SeoPageData = {
     {
       heading: "Power Recliner Motor and Electrical Repair",
       body: [
-        "Motorised recliners are among the most satisfying repair jobs we do — because the fault is usually specific and the fix is complete and lasting. A power recliner that won't move is distressing but almost always repairable. The most common cause is motor failure — the linear actuator motor that drives the footrest or back mechanism has worn out its internal brushes or bearings. We carry compatible replacement motors for the most common power recliner brands sold through NCR retailers and can complete the swap in 60–90 minutes.",
+        "Motorised recliners are among the most satisfying repair jobs we do — because the fault is usually specific and the fix is complete and lasting. A power recliner that won't move is distressing but almost always repairable. The most common cause is motor failure — the linear actuator motor that drives the footrest or back mechanism has worn out its internal brushes or bearings. We carry compatible replacement motors for the most common power recliner brands sold through NCR retailers and can complete the swap in 2–4 hours.",
         "Secondary electrical faults include handset wiring breaks (common where the cable bends near the chair base), control board failures (typically caused by voltage spikes), and USB charging port damage. For recliners with heat and massage modules, the heating element or vibration motor may fail independently of the recliner mechanism itself. We diagnose these systems methodically and repair only what's actually failed — not a blanket component replacement that generates unnecessary cost.",
       ],
     },
@@ -235,7 +235,7 @@ export const reclineRepairNoida: SeoPageData = {
     {
       question: "How long does recliner mechanism repair take?",
       answer:
-        "Cable replacement: 20–40 minutes. Mechanism kit replacement: 45–90 minutes. Power recliner motor swap: 60–90 minutes. Full reupholstery: 3–5 hours.",
+        "Cable replacement: 20–40 minutes. Mechanism kit replacement: 45–90 minutes. Power recliner motor swap: 2–4 hours. Full reupholstery: 3–5 hours.",
     },
     {
       question: "My power recliner handset works but the chair doesn't move — what's the fault?",
@@ -976,7 +976,7 @@ export const electricReclineRepairDelhi: SeoPageData = {
     { question: "My recliner handset works intermittently — is this a handset or control board issue?", answer: "Intermittent control is usually a handset wiring fault — the cable has a partial break that makes or loses contact depending on position. We test the handset cable and control board signal independently to determine the exact fault." },
     { question: "Can you repair the heat and massage functions on my electric recliner?", answer: "Yes. Heating element faults, thermostat failures, and massage motor failures are within our service scope. We diagnose ancillary electrical features during the standard diagnostic visit." },
     { question: "Do voltage fluctuations in Delhi damage electric recliners?", answer: "Yes. Delhi's residential voltage fluctuations are a common cause of motor winding failure. We advise using a voltage stabiliser with power recliners to prevent future damage." },
-    { question: "How long does electric recliner motor replacement take?", answer: "Typically 60–90 minutes for a standard motor replacement. Multi-seat configurations take proportionally longer. We always test the full function before confirming completion." },
+    { question: "How long does electric recliner motor replacement take?", answer: "Typically 2–4 hours for a standard motor replacement. Multi-seat configurations take proportionally longer. We always test the full function before confirming completion." },
     { question: "Is the warranty on electric recliner repair the same as for manual repairs?", answer: "Yes. All FurniRevive repairs — including motor replacement, actuator repair, and electrical components — carry a 6-month warranty. Same fault returning within 6 months is fixed free of charge." },
     { question: "Can you repair La-Z-Boy and other imported electric recliners in Delhi?", answer: "Yes. La-Z-Boy, American and European power recliners, and premium domestic brands are all within our service scope. We source brand-specific parts for imports within 2–3 working days when standard compatible motors don't fit." },
   ],

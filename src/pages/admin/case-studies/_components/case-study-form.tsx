@@ -22,7 +22,9 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog.tsx";
 import { Spinner } from "@/components/ui/spinner.tsx";
-import { ALL_SEO_PAGES } from "@/lib/seo-pages/registry.ts";
+import CompressPhotosPanel from "./compress-photos-panel.tsx";
+import { formatBytes, resizeImageFile, type ResizeResult } from "@/lib/resize-image.ts";
+import { allSeoSlugs } from "@/lib/seo-pages/slug-index.ts";
 
 type RepairType = "sofa" | "leather" | "recliner" | "furniture" | "upholstery";
 type ProblemType = "sagging" | "tear" | "broken-frame" | "spring" | "polish" | "mechanism" | "other";
@@ -55,7 +57,7 @@ const INTENT_TYPES: { value: IntentType; label: string }[] = [
 ];
 
 // All available page slugs from the SEO registry
-const PAGE_SLUG_OPTIONS = ALL_SEO_PAGES.map((p) => p.slug).sort();
+const PAGE_SLUG_OPTIONS = allSeoSlugs().sort();
 
 type CaseStudyFormData = {
   _id?: Id<"repairCaseStudies">;
@@ -101,6 +103,17 @@ const EMPTY_FORM: CaseStudyFormData = {
   displayOrder: 0,
 };
 
+function SizeNote({ stats }: { stats: ResizeResult | null }) {
+  if (!stats) return null;
+  return (
+    <p className="text-xs text-muted-foreground">
+      {stats.changed
+        ? `Resized: ${formatBytes(stats.originalBytes)} to ${formatBytes(stats.newBytes)}`
+        : `Size: ${formatBytes(stats.originalBytes)} (already small, kept as is)`}
+    </p>
+  );
+}
+
 type Props = {
   open: boolean;
   onOpenChange: (open: boolean) => void;
@@ -121,6 +134,8 @@ export default function CaseStudyFormDialog({ open, onOpenChange, initialData }:
   const [afterPreview, setAfterPreview] = useState<string | null>(
     initialData?.afterUrl ?? null
   );
+  const [beforeStats, setBeforeStats] = useState<ResizeResult | null>(null);
+  const [afterStats, setAfterStats] = useState<ResizeResult | null>(null);
   const beforeInputRef = useRef<HTMLInputElement>(null);
   const afterInputRef = useRef<HTMLInputElement>(null);
 
@@ -134,6 +149,8 @@ export default function CaseStudyFormDialog({ open, onOpenChange, initialData }:
     setAfterPreview(initialData?.afterUrl ?? null);
     setBeforeFile(null);
     setAfterFile(null);
+    setBeforeStats(null);
+    setAfterStats(null);
     setSlugSearch("");
   }, [initialData]);
 
@@ -141,7 +158,7 @@ export default function CaseStudyFormDialog({ open, onOpenChange, initialData }:
   const createStudy = useMutation(api.caseStudies.create);
   const updateStudy = useMutation(api.caseStudies.update);
 
-  function handleFileSelect(
+  async function handleFileSelect(
     file: File,
     type: "before" | "after"
   ) {
@@ -149,12 +166,22 @@ export default function CaseStudyFormDialog({ open, onOpenChange, initialData }:
       toast.error("Please select an image file");
       return;
     }
+    // Shrink in the browser first so huge phone photos never reach storage.
+    let result: ResizeResult = { file, originalBytes: file.size, newBytes: file.size, changed: false };
+    try {
+      result = await resizeImageFile(file);
+    } catch {
+      toast.error("Could not resize this image, uploading the original");
+    }
+    const preview = URL.createObjectURL(result.file);
     if (type === "before") {
-      setBeforeFile(file);
-      setBeforePreview(URL.createObjectURL(file));
+      setBeforeFile(result.file);
+      setBeforePreview(preview);
+      setBeforeStats(result);
     } else {
-      setAfterFile(file);
-      setAfterPreview(URL.createObjectURL(file));
+      setAfterFile(result.file);
+      setAfterPreview(preview);
+      setAfterStats(result);
     }
   }
 
@@ -233,9 +260,9 @@ export default function CaseStudyFormDialog({ open, onOpenChange, initialData }:
 
       // Auto-generate alt text if empty
       const altBefore = form.altTextBefore.trim() ||
-        `${form.repairType} repair before in ${form.location} Delhi`;
+        `${form.repairType} repair before in ${form.location}`;
       const altAfter = form.altTextAfter.trim() ||
-        `${form.repairType} repair after in ${form.location} Delhi`;
+        `${form.repairType} repair after in ${form.location}`;
 
       if (isEditing && initialData?._id) {
         await updateStudy({
@@ -404,6 +431,7 @@ export default function CaseStudyFormDialog({ open, onOpenChange, initialData }:
                     onClick={() => {
                       setBeforeFile(null);
                       setBeforePreview(null);
+                      setBeforeStats(null);
                       if (beforeInputRef.current) beforeInputRef.current.value = "";
                     }}
                     className="absolute top-2 right-2 p-1 bg-background/80 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
@@ -430,6 +458,7 @@ export default function CaseStudyFormDialog({ open, onOpenChange, initialData }:
                   <span className="text-sm">Upload Before Image</span>
                 </button>
               )}
+              <SizeNote stats={beforeStats} />
               <div className="flex gap-2">
                 <Input
                   placeholder="Alt text for before image"
@@ -474,6 +503,7 @@ export default function CaseStudyFormDialog({ open, onOpenChange, initialData }:
                     onClick={() => {
                       setAfterFile(null);
                       setAfterPreview(null);
+                      setAfterStats(null);
                       if (afterInputRef.current) afterInputRef.current.value = "";
                     }}
                     className="absolute top-2 right-2 p-1 bg-background/80 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
@@ -500,6 +530,7 @@ export default function CaseStudyFormDialog({ open, onOpenChange, initialData }:
                   <span className="text-sm">Upload After Image</span>
                 </button>
               )}
+              <SizeNote stats={afterStats} />
               <div className="flex gap-2">
                 <Input
                   placeholder="Alt text for after image"
@@ -519,6 +550,14 @@ export default function CaseStudyFormDialog({ open, onOpenChange, initialData }:
               </div>
             </div>
           </div>
+
+          {isEditing && initialData?._id && (
+            <CompressPhotosPanel
+              studyId={initialData._id}
+              before={{ id: initialData.beforeImageId, url: initialData.beforeUrl }}
+              after={{ id: initialData.afterImageId, url: initialData.afterUrl }}
+            />
+          )}
 
           {/* Problem / Solution */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

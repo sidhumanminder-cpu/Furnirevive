@@ -99,7 +99,7 @@ const SHOWCASE_IMAGE = {
 
 const sofaRepairKamlaNagar: SeoPageData = {
   slug: "sofa-repair-kamla-nagar",
-  title: "Sofa Repair Kamla Nagar – Doorstep Service | Same Day | From ₹599",
+  title: "Sofa Repair in Kamla Nagar – Doorstep Service | Same Day | From ₹599",
   metaDescription: "Sofa repair in Kamla Nagar from ₹599. Foam, spring, leather & fabric repairs at home. Near DU North Campus. 6-month warranty. Call FurniRevive!",
   h1: "Sofa Repair in Kamla Nagar – Expert Doorstep Service for North Delhi",
   heroSubtitle: "Professional sofa repair for fabric, leather, and rexine sofas in Kamla Nagar. Foam replacement, spring repair, and full reupholstery at your doorstep. Near Delhi University North Campus. Free home visit. Same-day slots. 6-month warranty.",
@@ -139,7 +139,7 @@ const sofaRepairKamlaNagar: SeoPageData = {
   ],
   keywords: ["sofa repair Kamla Nagar", "sofa repair Kamla Nagar Delhi", "sofa foam replacement Kamla Nagar", "leather sofa repair Kamla Nagar", "sofa spring repair Kamla Nagar", "sofa reupholstery Kamla Nagar", "sofa repair near DU North Campus", "sofa repair near me Kamla Nagar"],
   priceTable: { rows: SOFA_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "4.8★ Rated Service", "10,000+ Repairs Done", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Trusted Service", "10,000+ Repairs Done", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Sofa Today", "Schedule Same-Day Repair in Kamla Nagar"],
   testimonials: [
     { name: "Priya Sharma", location: "Kamla Nagar, North Delhi", rating: 5, text: "Our 3-seater fabric sofa had gone completely flat. The technician replaced all cushion foam and fixed a broken spring in under two hours. Feels brand new and great value.", service: "Sofa Foam & Spring Repair" },
@@ -189,7 +189,7 @@ const reclineRepairKamlaNagar: SeoPageData = {
   ],
   keywords: ["recliner repair Kamla Nagar", "recliner repair Kamla Nagar Delhi", "power recliner repair Kamla Nagar", "recliner motor repair North Delhi", "electric recliner repair Kamla Nagar", "La-Z-Boy repair Kamla Nagar", "recliner mechanism repair Kamla Nagar", "imported recliner repair North Delhi"],
   priceTable: { rows: RECLINER_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in Kamla Nagar"],
   testimonials: [
     { name: "Suresh Anand", location: "Kamla Nagar, North Delhi", rating: 5, text: "La-Z-Boy power recliner completely stopped responding. The technician replaced the control board on the spot. Works perfectly. Six-month warranty is a great assurance.", service: "Power Recliner Control Board Repair" },
@@ -199,7 +199,7 @@ const reclineRepairKamlaNagar: SeoPageData = {
 
 const furnitureRepairKamlaNagar: SeoPageData = {
   slug: "furniture-repair-kamla-nagar",
-  title: "Furniture Repair Kamla Nagar – Doorstep Service | Same Day",
+  title: "Furniture Repair in Kamla Nagar – Doorstep Service | Same Day",
   metaDescription: "Furniture repair in Kamla Nagar from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. 6-month warranty. Call FurniRevive!",
   h1: "Furniture Repair in Kamla Nagar – Trusted Doorstep Restoration for North Delhi",
   heroSubtitle: "Complete furniture repair for sofas, chairs, wooden furniture, beds, wardrobes, and dining sets in Kamla Nagar. Free home visit near Delhi University North Campus. Same-day slots. 6-month warranty.",
@@ -239,7 +239,7 @@ const furnitureRepairKamlaNagar: SeoPageData = {
   ],
   keywords: ["furniture repair Kamla Nagar", "furniture repair Kamla Nagar Delhi", "sofa repair Kamla Nagar", "wooden furniture repair Kamla Nagar", "wardrobe repair Kamla Nagar", "chair repair Kamla Nagar", "bed repair Kamla Nagar North Delhi", "furniture repair near me Kamla Nagar"],
   priceTable: { rows: FURNITURE_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Kamla Nagar"],
   testimonials: [
     { name: "Anita Verma", location: "Kamla Nagar, North Delhi", rating: 5, text: "Three dining chairs had completely wobbly joints and our wardrobe channels were jammed. Everything fixed in one visit, around two hours total. Very efficient and professional team.", service: "Chair Joint & Wardrobe Repair" },
@@ -251,7 +251,7 @@ const furnitureRepairKamlaNagar: SeoPageData = {
 
 const sofaRepairCivilLines: SeoPageData = {
   slug: "sofa-repair-civil-lines",
-  title: "Sofa Repair Civil Lines – Doorstep Service | Same Day | From ₹599",
+  title: "Sofa Repair in Civil Lines – Doorstep Service | Same Day | From ₹599",
   metaDescription: "Sofa repair in Civil Lines Delhi from ₹599. Premium foam, spring, leather & fabric repair at home. Heritage homes & bungalows served. 6-month warranty.",
   h1: "Sofa Repair in Civil Lines – Expert Doorstep Service for North Delhi",
   heroSubtitle: "Premium sofa repair for bungalows, government residences, and heritage homes in Civil Lines. Foam replacement, spring repair, leather restoration, and full reupholstery at your doorstep. Near Roshanara Club. Same-day slots. 6-month warranty.",
@@ -291,7 +291,7 @@ const sofaRepairCivilLines: SeoPageData = {
   ],
   keywords: ["sofa repair Civil Lines", "sofa repair Civil Lines Delhi", "sofa foam replacement Civil Lines", "leather sofa repair Civil Lines Delhi", "antique sofa repair Civil Lines", "sofa reupholstery Civil Lines", "premium sofa repair North Delhi", "sofa repair near Roshanara Club"],
   priceTable: { rows: SOFA_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "4.8★ Rated Service", "10,000+ Repairs Done", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Trusted Service", "10,000+ Repairs Done", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Sofa Today", "Schedule Same-Day Repair in Civil Lines"],
   testimonials: [
     { name: "Col. (Retd.) R.K. Sharma", location: "Civil Lines, North Delhi", rating: 5, text: "Our 20-year-old Chesterfield sofa needed full reupholstery. The craftsman matched the original leather colour and style perfectly. Exceptional workmanship and attention to detail.", service: "Premium Leather Reupholstery" },
@@ -341,7 +341,7 @@ const reclineRepairCivilLines: SeoPageData = {
   ],
   keywords: ["recliner repair Civil Lines", "recliner repair Civil Lines Delhi", "power recliner repair Civil Lines", "Natuzzi repair Civil Lines", "electric recliner repair Civil Lines", "recliner motor repair North Delhi", "imported recliner repair Civil Lines", "La-Z-Boy repair Civil Lines"],
   priceTable: { rows: RECLINER_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in Civil Lines"],
   testimonials: [
     { name: "Dr. Arun Khanna", location: "Civil Lines, North Delhi", rating: 5, text: "Natuzzi power recliner stopped working entirely. Technician diagnosed a faulty actuator and replaced it on the spot. Works perfectly now. Six-month warranty is excellent.", service: "Power Recliner Actuator Repair" },
@@ -351,7 +351,7 @@ const reclineRepairCivilLines: SeoPageData = {
 
 const furnitureRepairCivilLines: SeoPageData = {
   slug: "furniture-repair-civil-lines",
-  title: "Furniture Repair Civil Lines – Doorstep Service | Same Day",
+  title: "Furniture Repair in Civil Lines – Doorstep Service | Same Day",
   metaDescription: "Furniture repair in Civil Lines Delhi from ₹599. Sofa, chair, wooden furniture, antique restoration & wardrobe repair at home. 6-month warranty.",
   h1: "Furniture Repair in Civil Lines – Trusted Doorstep Restoration for North Delhi",
   heroSubtitle: "Complete furniture repair for bungalows and heritage homes in Civil Lines — sofas, chairs, wooden antiques, beds, wardrobes, and dining sets. Free home visit near Roshanara Club. Same-day slots. 6-month warranty.",
@@ -391,7 +391,7 @@ const furnitureRepairCivilLines: SeoPageData = {
   ],
   keywords: ["furniture repair Civil Lines", "furniture repair Civil Lines Delhi", "antique furniture repair Civil Lines", "sofa repair Civil Lines", "wooden furniture repair Civil Lines", "wardrobe repair Civil Lines", "heritage furniture restoration North Delhi", "furniture repair near Roshanara Club"],
   priceTable: { rows: FURNITURE_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Civil Lines"],
   testimonials: [
     { name: "Brig. (Retd.) S.K. Nair", location: "Civil Lines, North Delhi", rating: 5, text: "30-year-old rosewood dining table with broken joints and worn polish. The craftsman repaired every joint and re-polished to match the original perfectly. Exceptional work.", service: "Wooden Furniture Repair & Polish" },
@@ -403,7 +403,7 @@ const furnitureRepairCivilLines: SeoPageData = {
 
 const sofaRepairMukherjeeNagar: SeoPageData = {
   slug: "sofa-repair-mukherjee-nagar",
-  title: "Sofa Repair Mukherjee Nagar – Doorstep Service | Same Day",
+  title: "Sofa Repair in Mukherjee Nagar – Doorstep Service | Same Day",
   metaDescription: "Sofa repair in Mukherjee Nagar from ₹599. Foam, spring, fabric & leather repair at home. Near GTB Nagar Metro. 6-month warranty. Call FurniRevive!",
   h1: "Sofa Repair in Mukherjee Nagar – Expert Doorstep Service for North Delhi",
   heroSubtitle: "Professional sofa repair for residents and families in Mukherjee Nagar. Foam replacement, spring repair, fabric and leather reupholstery at your doorstep. Near GTB Nagar Metro. Free home visit. Same-day slots. 6-month warranty.",
@@ -443,7 +443,7 @@ const sofaRepairMukherjeeNagar: SeoPageData = {
   ],
   keywords: ["sofa repair Mukherjee Nagar", "sofa repair Mukherjee Nagar Delhi", "sofa foam replacement Mukherjee Nagar", "fabric sofa repair Mukherjee Nagar", "sofa spring repair Mukherjee Nagar", "sofa reupholstery Mukherjee Nagar", "sofa repair near GTB Nagar Metro", "sofa repair near me Mukherjee Nagar"],
   priceTable: { rows: SOFA_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "4.8★ Rated Service", "10,000+ Repairs Done", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Trusted Service", "10,000+ Repairs Done", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Sofa Today", "Schedule Same-Day Repair in Mukherjee Nagar"],
   testimonials: [
     { name: "Rohit Jain", location: "Mukherjee Nagar, North Delhi", rating: 5, text: "Our 2-seater fabric sofa had gone completely flat — foam totally compressed. Replaced all cushions and back foam in under two hours. Excellent value for money.", service: "Sofa Foam Replacement" },
@@ -493,7 +493,7 @@ const reclineRepairMukherjeeNagar: SeoPageData = {
   ],
   keywords: ["recliner repair Mukherjee Nagar", "recliner repair Mukherjee Nagar Delhi", "power recliner repair Mukherjee Nagar", "recliner motor repair Mukherjee Nagar", "electric recliner repair North Delhi", "recliner mechanism repair Mukherjee Nagar", "recliner repair near GTB Nagar Metro", "recliner repair near me Mukherjee Nagar"],
   priceTable: { rows: RECLINER_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in Mukherjee Nagar"],
   testimonials: [
     { name: "Ajay Dubey", location: "Mukherjee Nagar, North Delhi", rating: 5, text: "Power recliner was completely stuck. Technician diagnosed a seized motor actuator and replaced it in about 45 minutes. Works perfectly now. Very professional.", service: "Power Recliner Motor Repair" },
@@ -543,7 +543,7 @@ const furnitureRepairMukherjeeNagar: SeoPageData = {
   ],
   keywords: ["furniture repair Mukherjee Nagar", "furniture repair Mukherjee Nagar Delhi", "sofa repair Mukherjee Nagar", "wardrobe repair Mukherjee Nagar", "chair repair Mukherjee Nagar", "wooden furniture repair Mukherjee Nagar", "bed repair Mukherjee Nagar North Delhi", "furniture repair near me Mukherjee Nagar"],
   priceTable: { rows: FURNITURE_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Mukherjee Nagar"],
   testimonials: [
     { name: "Pankaj Mehta", location: "Mukherjee Nagar, North Delhi", rating: 5, text: "Four dining chairs had wobbly joints and our wardrobe was completely jammed. Both repaired in one visit. Efficient, professional, and great pricing.", service: "Chair Joint & Wardrobe Repair" },
@@ -555,7 +555,7 @@ const furnitureRepairMukherjeeNagar: SeoPageData = {
 
 const sofaRepairGtbNagar: SeoPageData = {
   slug: "sofa-repair-gtb-nagar",
-  title: "Sofa Repair GTB Nagar – Doorstep Service | Same Day | From ₹599",
+  title: "Sofa Repair in GTB Nagar – Doorstep Service | Same Day | From ₹599",
   metaDescription: "Sofa repair in GTB Nagar from ₹599. Foam, spring, fabric & leather repair at home. Near Delhi University North Campus. 6-month warranty. Call FurniRevive!",
   h1: "Sofa Repair in GTB Nagar – Expert Doorstep Service for North Delhi",
   heroSubtitle: "Professional sofa repair for residents in GTB Nagar. Foam replacement, spring repair, fabric and leather reupholstery at your doorstep. Near Delhi University North Campus. Free home visit. Same-day slots. 6-month warranty.",
@@ -595,7 +595,7 @@ const sofaRepairGtbNagar: SeoPageData = {
   ],
   keywords: ["sofa repair GTB Nagar", "sofa repair GTB Nagar Delhi", "sofa foam replacement GTB Nagar", "fabric sofa repair GTB Nagar", "sofa spring repair GTB Nagar", "sofa reupholstery GTB Nagar Delhi", "sofa repair near DU North Campus", "sofa repair near me GTB Nagar"],
   priceTable: { rows: SOFA_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "4.8★ Rated Service", "10,000+ Repairs Done", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Trusted Service", "10,000+ Repairs Done", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Sofa Today", "Schedule Same-Day Repair in GTB Nagar"],
   testimonials: [
     { name: "Vikram Nair", location: "GTB Nagar, North Delhi", rating: 5, text: "Fabric sofa with completely flat cushions and a broken back spring. All replaced in one visit. Sofa feels brand new. Excellent service at a fair price.", service: "Sofa Foam & Spring Repair" },
@@ -645,7 +645,7 @@ const reclineRepairGtbNagar: SeoPageData = {
   ],
   keywords: ["recliner repair GTB Nagar", "recliner repair GTB Nagar Delhi", "power recliner repair GTB Nagar", "recliner motor repair GTB Nagar", "electric recliner repair GTB Nagar", "recliner mechanism repair GTB Nagar", "recliner repair near DU North Campus", "recliner repair near me GTB Nagar"],
   priceTable: { rows: RECLINER_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in GTB Nagar"],
   testimonials: [
     { name: "Harsh Gupta", location: "GTB Nagar, North Delhi", rating: 5, text: "Electric recliner motor had completely failed. Technician replaced it on the spot. Very professional and the 6-month warranty gives great peace of mind.", service: "Electric Recliner Motor Replacement" },
@@ -655,7 +655,7 @@ const reclineRepairGtbNagar: SeoPageData = {
 
 const furnitureRepairGtbNagar: SeoPageData = {
   slug: "furniture-repair-gtb-nagar",
-  title: "Furniture Repair GTB Nagar – Doorstep Service | Same Day",
+  title: "Furniture Repair in GTB Nagar – Doorstep Service | Same Day",
   metaDescription: "Furniture repair in GTB Nagar from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. Near DU North Campus. 6-month warranty.",
   h1: "Furniture Repair in GTB Nagar – Trusted Doorstep Restoration for North Delhi",
   heroSubtitle: "Complete furniture repair for sofas, chairs, wooden furniture, beds, and wardrobes in GTB Nagar. Free home visit near Delhi University North Campus. Same-day slots. 6-month warranty.",
@@ -695,7 +695,7 @@ const furnitureRepairGtbNagar: SeoPageData = {
   ],
   keywords: ["furniture repair GTB Nagar", "furniture repair GTB Nagar Delhi", "sofa repair GTB Nagar", "wardrobe repair GTB Nagar", "chair repair GTB Nagar Delhi", "wooden furniture repair GTB Nagar", "bed repair GTB Nagar North Delhi", "furniture repair near me GTB Nagar"],
   priceTable: { rows: FURNITURE_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in GTB Nagar"],
   testimonials: [
     { name: "Ashish Yadav", location: "GTB Nagar, North Delhi", rating: 5, text: "Three dining chairs with completely broken joints and a wardrobe with jammed channels. All fixed in one visit, about two hours total. Excellent service.", service: "Chair Joint & Wardrobe Repair" },
@@ -707,7 +707,7 @@ const furnitureRepairGtbNagar: SeoPageData = {
 
 const sofaRepairAdarshNagar: SeoPageData = {
   slug: "sofa-repair-adarsh-nagar",
-  title: "Sofa Repair Adarsh Nagar – Doorstep Service | Same Day",
+  title: "Sofa Repair in Adarsh Nagar – Doorstep Service | Same Day",
   metaDescription: "Sofa repair in Adarsh Nagar from ₹599. Foam, spring, fabric & leather repair at home. Near Adarsh Nagar Metro. 6-month warranty. Call FurniRevive!",
   h1: "Sofa Repair in Adarsh Nagar – Expert Doorstep Service for North Delhi",
   heroSubtitle: "Professional sofa repair for DDA flats and independent houses in Adarsh Nagar. Foam replacement, spring repair, fabric and leather reupholstery at your doorstep. Near Adarsh Nagar Metro. Free home visit. Same-day slots. 6-month warranty.",
@@ -747,7 +747,7 @@ const sofaRepairAdarshNagar: SeoPageData = {
   ],
   keywords: ["sofa repair Adarsh Nagar", "sofa repair Adarsh Nagar Delhi", "sofa foam replacement Adarsh Nagar", "fabric sofa repair Adarsh Nagar", "sofa spring repair Adarsh Nagar", "sofa reupholstery Adarsh Nagar", "sofa repair near Adarsh Nagar Metro", "sofa repair near me Adarsh Nagar"],
   priceTable: { rows: SOFA_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "4.8★ Rated Service", "10,000+ Repairs Done", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Trusted Service", "10,000+ Repairs Done", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Sofa Today", "Schedule Same-Day Repair in Adarsh Nagar"],
   testimonials: [
     { name: "Sanjay Kumar", location: "Adarsh Nagar, North Delhi", rating: 5, text: "Fabric sofa with sagging base and broken springs. Replaced foam and springs in one visit. The sofa is completely restored. Excellent value.", service: "Sofa Foam & Spring Repair" },
@@ -797,7 +797,7 @@ const reclineRepairAdarshNagar: SeoPageData = {
   ],
   keywords: ["recliner repair Adarsh Nagar", "recliner repair Adarsh Nagar Delhi", "power recliner repair Adarsh Nagar", "recliner motor repair Adarsh Nagar", "recliner mechanism repair Adarsh Nagar", "electric recliner repair North Delhi", "recliner repair near Adarsh Nagar Metro", "recliner repair near me Adarsh Nagar"],
   priceTable: { rows: RECLINER_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in Adarsh Nagar"],
   testimonials: [
     { name: "Ramesh Gupta", location: "Adarsh Nagar, North Delhi", rating: 5, text: "Electric recliner stopped working completely. Motor replaced on the spot. Works like new. Technician was very knowledgeable and professional.", service: "Electric Recliner Motor Repair" },
@@ -807,7 +807,7 @@ const reclineRepairAdarshNagar: SeoPageData = {
 
 const furnitureRepairAdarshNagar: SeoPageData = {
   slug: "furniture-repair-adarsh-nagar",
-  title: "Furniture Repair Adarsh Nagar – Doorstep Service | Same Day",
+  title: "Furniture Repair in Adarsh Nagar – Doorstep Service | Same Day",
   metaDescription: "Furniture repair in Adarsh Nagar from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. Near Adarsh Nagar Metro. 6-month warranty.",
   h1: "Furniture Repair in Adarsh Nagar – Trusted Doorstep Restoration for North Delhi",
   heroSubtitle: "Complete furniture repair for DDA flats and independent houses in Adarsh Nagar. Sofas, chairs, wooden furniture, beds, wardrobes, dining sets repaired at home. Free home visit. Same-day slots. 6-month warranty.",
@@ -847,7 +847,7 @@ const furnitureRepairAdarshNagar: SeoPageData = {
   ],
   keywords: ["furniture repair Adarsh Nagar", "furniture repair Adarsh Nagar Delhi", "sofa repair Adarsh Nagar", "wardrobe repair Adarsh Nagar", "chair repair Adarsh Nagar Delhi", "wooden furniture repair Adarsh Nagar", "bed repair Adarsh Nagar North Delhi", "furniture repair near me Adarsh Nagar"],
   priceTable: { rows: FURNITURE_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Adarsh Nagar"],
   testimonials: [
     { name: "Narendra Singh", location: "Adarsh Nagar, North Delhi", rating: 5, text: "Wardrobe channels were completely worn out and two hinges had broken. Technician replaced everything in about an hour. Doors slide perfectly now.", service: "Wardrobe Hinge & Channel Repair" },
@@ -859,7 +859,7 @@ const furnitureRepairAdarshNagar: SeoPageData = {
 
 const sofaRepairGujranwalaTown: SeoPageData = {
   slug: "sofa-repair-gujranwala-town",
-  title: "Sofa Repair Gujranwala Town – Doorstep Service | Same Day",
+  title: "Sofa Repair in Gujranwala Town – Doorstep Service | Same Day",
   metaDescription: "Sofa repair in Gujranwala Town from ₹599. Foam, spring, fabric & leather repair at home. Near Ashok Vihar. 6-month warranty. Call FurniRevive!",
   h1: "Sofa Repair in Gujranwala Town – Expert Doorstep Service for North Delhi",
   heroSubtitle: "Professional sofa repair for builder floors and independent houses in Gujranwala Town. Foam replacement, spring repair, fabric and leather reupholstery at your doorstep. Near Ashok Vihar. Free home visit. Same-day slots. 6-month warranty.",
@@ -899,7 +899,7 @@ const sofaRepairGujranwalaTown: SeoPageData = {
   ],
   keywords: ["sofa repair Gujranwala Town", "sofa repair Gujranwala Town Delhi", "sofa foam replacement Gujranwala Town", "fabric sofa repair Gujranwala Town", "sofa spring repair Gujranwala Town", "sofa reupholstery Gujranwala Town", "sofa repair near Ashok Vihar North Delhi", "sofa repair near me Gujranwala Town"],
   priceTable: { rows: SOFA_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "4.8★ Rated Service", "10,000+ Repairs Done", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Trusted Service", "10,000+ Repairs Done", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Sofa Today", "Schedule Same-Day Repair in Gujranwala Town"],
   testimonials: [
     { name: "Sunil Arora", location: "Gujranwala Town, North Delhi", rating: 5, text: "3-seater sofa with flat foam and broken springs. All replaced in one visit. The sofa feels brand new. Very professional team.", service: "Sofa Foam & Spring Repair" },
@@ -949,7 +949,7 @@ const reclineRepairGujranwalaTown: SeoPageData = {
   ],
   keywords: ["recliner repair Gujranwala Town", "recliner repair Gujranwala Town Delhi", "power recliner repair Gujranwala Town", "recliner motor repair Gujranwala Town", "recliner mechanism repair Gujranwala Town", "electric recliner repair North Delhi", "recliner repair near Ashok Vihar", "recliner repair near me Gujranwala Town"],
   priceTable: { rows: RECLINER_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in Gujranwala Town"],
   testimonials: [
     { name: "Ajay Singh", location: "Gujranwala Town, North Delhi", rating: 5, text: "Power recliner motor failed. Technician replaced the actuator on the spot in under an hour. Works perfectly now. Great service.", service: "Power Recliner Actuator Repair" },
@@ -999,7 +999,7 @@ const furnitureRepairGujranwalaTown: SeoPageData = {
   ],
   keywords: ["furniture repair Gujranwala Town", "furniture repair Gujranwala Town Delhi", "sofa repair Gujranwala Town", "wardrobe repair Gujranwala Town", "chair repair Gujranwala Town Delhi", "wooden furniture repair Gujranwala Town", "bed repair Gujranwala Town North Delhi", "furniture repair near me Gujranwala Town"],
   priceTable: { rows: FURNITURE_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Gujranwala Town"],
   testimonials: [
     { name: "Harish Yadav", location: "Gujranwala Town, North Delhi", rating: 5, text: "Wardrobe channels replaced and two dining chairs re-glued in one visit. Quick, professional, and affordable. Highly recommend FurniRevive.", service: "Wardrobe & Chair Repair" },
@@ -1011,7 +1011,7 @@ const furnitureRepairGujranwalaTown: SeoPageData = {
 
 const sofaRepairKeshavPuram: SeoPageData = {
   slug: "sofa-repair-keshav-puram",
-  title: "Sofa Repair Keshav Puram – Doorstep Service | Same Day",
+  title: "Sofa Repair in Keshav Puram – Doorstep Service | Same Day",
   metaDescription: "Sofa repair in Keshav Puram from ₹599. Foam, spring, fabric & leather repair at home. Between Pitampura & Ashok Vihar. 6-month warranty. Call FurniRevive!",
   h1: "Sofa Repair in Keshav Puram – Expert Doorstep Service for North Delhi",
   heroSubtitle: "Professional sofa repair for DDA flats and independent floors in Keshav Puram. Foam replacement, spring repair, fabric and leather reupholstery at your doorstep. Between Pitampura and Ashok Vihar. Free home visit. Same-day slots. 6-month warranty.",
@@ -1051,7 +1051,7 @@ const sofaRepairKeshavPuram: SeoPageData = {
   ],
   keywords: ["sofa repair Keshav Puram", "sofa repair Keshav Puram Delhi", "sofa foam replacement Keshav Puram", "fabric sofa repair Keshav Puram", "sofa spring repair Keshav Puram", "sofa reupholstery Keshav Puram", "sofa repair between Pitampura Ashok Vihar", "sofa repair near me Keshav Puram"],
   priceTable: { rows: SOFA_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "4.8★ Rated Service", "10,000+ Repairs Done", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Trusted Service", "10,000+ Repairs Done", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Sofa Today", "Schedule Same-Day Repair in Keshav Puram"],
   testimonials: [
     { name: "Dinesh Sharma", location: "Keshav Puram, North Delhi", rating: 5, text: "Fabric sofa foam was completely gone after 10 years. Replaced all seat and back cushions in one visit. Sofa is comfortable again. Excellent service.", service: "Sofa Foam Replacement" },
@@ -1101,7 +1101,7 @@ const reclineRepairKeshavPuram: SeoPageData = {
   ],
   keywords: ["recliner repair Keshav Puram", "recliner repair Keshav Puram Delhi", "power recliner repair Keshav Puram", "recliner motor repair Keshav Puram", "recliner mechanism repair Keshav Puram", "electric recliner repair North Delhi", "recliner repair near Pitampura Ashok Vihar", "recliner repair near me Keshav Puram"],
   priceTable: { rows: RECLINER_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in Keshav Puram"],
   testimonials: [
     { name: "Suresh Kumar", location: "Keshav Puram, North Delhi", rating: 5, text: "Electric recliner was stuck in one position. Technician diagnosed a burned control board and replaced it in one visit. Six-month warranty is excellent.", service: "Power Recliner Control Board Repair" },
@@ -1111,7 +1111,7 @@ const reclineRepairKeshavPuram: SeoPageData = {
 
 const furnitureRepairKeshavPuram: SeoPageData = {
   slug: "furniture-repair-keshav-puram",
-  title: "Furniture Repair Keshav Puram – Doorstep Service | Same Day",
+  title: "Furniture Repair in Keshav Puram – Doorstep Service | Same Day",
   metaDescription: "Furniture repair in Keshav Puram from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. Between Pitampura & Ashok Vihar.",
   h1: "Furniture Repair in Keshav Puram – Trusted Doorstep Restoration for North Delhi",
   heroSubtitle: "Complete furniture repair for DDA flats and independent floors in Keshav Puram. Sofas, chairs, wooden furniture, beds, wardrobes repaired at home. Free home visit. Same-day slots. 6-month warranty.",
@@ -1151,7 +1151,7 @@ const furnitureRepairKeshavPuram: SeoPageData = {
   ],
   keywords: ["furniture repair Keshav Puram", "furniture repair Keshav Puram Delhi", "sofa repair Keshav Puram", "wardrobe repair Keshav Puram", "chair repair Keshav Puram Delhi", "wooden furniture repair Keshav Puram", "bed repair Keshav Puram North Delhi", "furniture repair near me Keshav Puram"],
   priceTable: { rows: FURNITURE_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Keshav Puram"],
   testimonials: [
     { name: "Vinod Tiwari", location: "Keshav Puram, North Delhi", rating: 5, text: "Wardrobe channels replaced and sofa foam done in one visit. Efficient, professional, and great value. Will recommend to neighbours.", service: "Wardrobe & Sofa Repair" },
@@ -1163,7 +1163,7 @@ const furnitureRepairKeshavPuram: SeoPageData = {
 
 const sofaRepairDerawalNagar: SeoPageData = {
   slug: "sofa-repair-derawal-nagar",
-  title: "Sofa Repair Derawal Nagar – Doorstep Service | Same Day",
+  title: "Sofa Repair in Derawal Nagar – Doorstep Service | Same Day",
   metaDescription: "Sofa repair in Derawal Nagar from ₹599. Foam, spring, fabric & leather repair at home. Near Model Town. 6-month warranty. Call FurniRevive!",
   h1: "Sofa Repair in Derawal Nagar – Expert Doorstep Service for North Delhi",
   heroSubtitle: "Professional sofa repair for independent houses and flats in Derawal Nagar. Foam replacement, spring repair, fabric and leather reupholstery at your doorstep. Near Model Town Metro. Free home visit. Same-day slots. 6-month warranty.",
@@ -1203,7 +1203,7 @@ const sofaRepairDerawalNagar: SeoPageData = {
   ],
   keywords: ["sofa repair Derawal Nagar", "sofa repair Derawal Nagar Delhi", "sofa foam replacement Derawal Nagar", "fabric sofa repair Derawal Nagar", "sofa spring repair Derawal Nagar", "sofa reupholstery Derawal Nagar", "sofa repair near Model Town North Delhi", "sofa repair near me Derawal Nagar"],
   priceTable: { rows: SOFA_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "4.8★ Rated Service", "10,000+ Repairs Done", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Trusted Service", "10,000+ Repairs Done", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Sofa Today", "Schedule Same-Day Repair in Derawal Nagar"],
   testimonials: [
     { name: "Anil Saxena", location: "Derawal Nagar, North Delhi", rating: 5, text: "Fabric sofa with sagging cushions and a broken spring. Both fixed in under two hours at home. Very professional service.", service: "Sofa Foam & Spring Repair" },
@@ -1253,7 +1253,7 @@ const reclineRepairDerawalNagar: SeoPageData = {
   ],
   keywords: ["recliner repair Derawal Nagar", "recliner repair Derawal Nagar Delhi", "power recliner repair Derawal Nagar", "recliner motor repair Derawal Nagar", "recliner mechanism repair Derawal Nagar", "electric recliner repair North Delhi", "recliner repair near Model Town", "recliner repair near me Derawal Nagar"],
   priceTable: { rows: RECLINER_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in Derawal Nagar"],
   testimonials: [
     { name: "Subhash Chandra", location: "Derawal Nagar, North Delhi", rating: 5, text: "Electric recliner motor had failed. Technician replaced it on the spot in under an hour. Works perfectly now. Excellent professional service.", service: "Electric Recliner Motor Repair" },
@@ -1263,7 +1263,7 @@ const reclineRepairDerawalNagar: SeoPageData = {
 
 const furnitureRepairDerawalNagar: SeoPageData = {
   slug: "furniture-repair-derawal-nagar",
-  title: "Furniture Repair Derawal Nagar – Doorstep Service | Same Day",
+  title: "Furniture Repair in Derawal Nagar – Doorstep Service | Same Day",
   metaDescription: "Furniture repair in Derawal Nagar from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. Near Model Town. 6-month warranty.",
   h1: "Furniture Repair in Derawal Nagar – Trusted Doorstep Restoration for North Delhi",
   heroSubtitle: "Complete furniture repair for independent houses and flats in Derawal Nagar. Sofas, chairs, wooden furniture, beds, wardrobes repaired at home. Free home visit near Model Town. Same-day slots. 6-month warranty.",
@@ -1303,7 +1303,7 @@ const furnitureRepairDerawalNagar: SeoPageData = {
   ],
   keywords: ["furniture repair Derawal Nagar", "furniture repair Derawal Nagar Delhi", "sofa repair Derawal Nagar", "wardrobe repair Derawal Nagar", "chair repair Derawal Nagar Delhi", "wooden furniture repair Derawal Nagar", "bed repair Derawal Nagar North Delhi", "furniture repair near me Derawal Nagar"],
   priceTable: { rows: FURNITURE_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Derawal Nagar"],
   testimonials: [
     { name: "Mahesh Gupta", location: "Derawal Nagar, North Delhi", rating: 5, text: "Wardrobe channels were completely worn and the dining table had a wobbly joint. Both fixed in one visit. Very professional and efficient.", service: "Wardrobe & Dining Table Repair" },
@@ -1315,7 +1315,7 @@ const furnitureRepairDerawalNagar: SeoPageData = {
 
 const sofaRepairShaktiNagar: SeoPageData = {
   slug: "sofa-repair-shakti-nagar",
-  title: "Sofa Repair Shakti Nagar – Doorstep Service | Same Day",
+  title: "Sofa Repair in Shakti Nagar – Doorstep Service | Same Day",
   metaDescription: "Sofa repair in Shakti Nagar from ₹599. Foam, spring, fabric & leather repair at home. Near Kamla Nagar. 6-month warranty. Call FurniRevive!",
   h1: "Sofa Repair in Shakti Nagar – Expert Doorstep Service for North Delhi",
   heroSubtitle: "Professional sofa repair for independent houses and flats in Shakti Nagar. Foam replacement, spring repair, fabric and leather reupholstery at your doorstep. Near Kamla Nagar Market. Free home visit. Same-day slots. 6-month warranty.",
@@ -1355,7 +1355,7 @@ const sofaRepairShaktiNagar: SeoPageData = {
   ],
   keywords: ["sofa repair Shakti Nagar", "sofa repair Shakti Nagar Delhi", "sofa foam replacement Shakti Nagar", "fabric sofa repair Shakti Nagar", "sofa spring repair Shakti Nagar", "sofa reupholstery Shakti Nagar", "sofa repair near Kamla Nagar North Delhi", "sofa repair near me Shakti Nagar"],
   priceTable: { rows: SOFA_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "4.8★ Rated Service", "10,000+ Repairs Done", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Trusted Service", "10,000+ Repairs Done", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Sofa Today", "Schedule Same-Day Repair in Shakti Nagar"],
   testimonials: [
     { name: "Rajesh Verma", location: "Shakti Nagar, North Delhi", rating: 5, text: "Fabric sofa with broken springs and flat cushions. Both fixed in one visit. Sofa is comfortable again. Very professional team.", service: "Sofa Foam & Spring Repair" },
@@ -1405,7 +1405,7 @@ const reclineRepairShaktiNagar: SeoPageData = {
   ],
   keywords: ["recliner repair Shakti Nagar", "recliner repair Shakti Nagar Delhi", "power recliner repair Shakti Nagar", "recliner motor repair Shakti Nagar", "recliner mechanism repair Shakti Nagar", "electric recliner repair North Delhi", "recliner repair near Kamla Nagar", "recliner repair near me Shakti Nagar"],
   priceTable: { rows: RECLINER_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in Shakti Nagar"],
   testimonials: [
     { name: "Pradeep Sharma", location: "Shakti Nagar, North Delhi", rating: 5, text: "Electric recliner motor completely failed. Technician replaced it on the spot in under an hour. Excellent service and great warranty.", service: "Electric Recliner Motor Repair" },
@@ -1415,7 +1415,7 @@ const reclineRepairShaktiNagar: SeoPageData = {
 
 const furnitureRepairShaktiNagar: SeoPageData = {
   slug: "furniture-repair-shakti-nagar",
-  title: "Furniture Repair Shakti Nagar – Doorstep Service | Same Day",
+  title: "Furniture Repair in Shakti Nagar – Doorstep Service | Same Day",
   metaDescription: "Furniture repair in Shakti Nagar from ₹599. Sofa, chair, wooden furniture, bed & wardrobe repair at home. Near Kamla Nagar. 6-month warranty.",
   h1: "Furniture Repair in Shakti Nagar – Trusted Doorstep Restoration for North Delhi",
   heroSubtitle: "Complete furniture repair for independent houses and flats in Shakti Nagar. Sofas, chairs, wooden furniture, beds, wardrobes repaired at home. Free home visit near Kamla Nagar. Same-day slots. 6-month warranty.",
@@ -1455,7 +1455,7 @@ const furnitureRepairShaktiNagar: SeoPageData = {
   ],
   keywords: ["furniture repair Shakti Nagar", "furniture repair Shakti Nagar Delhi", "sofa repair Shakti Nagar", "wardrobe repair Shakti Nagar", "chair repair Shakti Nagar Delhi", "wooden furniture repair Shakti Nagar", "bed repair Shakti Nagar North Delhi", "furniture repair near me Shakti Nagar"],
   priceTable: { rows: FURNITURE_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Shakti Nagar"],
   testimonials: [
     { name: "Arun Malik", location: "Shakti Nagar, North Delhi", rating: 5, text: "Four dining chairs re-glued and sofa foam replaced in one visit. Efficient, professional, and affordable. Highly recommend.", service: "Chair Joint & Sofa Foam Repair" },
@@ -1467,7 +1467,7 @@ const furnitureRepairShaktiNagar: SeoPageData = {
 
 const sofaRepairHudsonLane: SeoPageData = {
   slug: "sofa-repair-hudson-lane",
-  title: "Sofa Repair Hudson Lane – Doorstep Service | Same Day | From ₹599",
+  title: "Sofa Repair in Hudson Lane – Doorstep Service | Same Day | From ₹599",
   metaDescription: "Sofa repair in Hudson Lane from ₹599. Foam, spring, fabric & leather repair at home. Near DU North Campus. 6-month warranty. Call FurniRevive!",
   h1: "Sofa Repair in Hudson Lane – Expert Doorstep Service for North Delhi",
   heroSubtitle: "Professional sofa repair for premium flats and residences in Hudson Lane. Foam replacement, spring repair, fabric and leather reupholstery at your doorstep. Near Delhi University North Campus. Free home visit. Same-day slots. 6-month warranty.",
@@ -1507,7 +1507,7 @@ const sofaRepairHudsonLane: SeoPageData = {
   ],
   keywords: ["sofa repair Hudson Lane", "sofa repair Hudson Lane Delhi", "sofa foam replacement Hudson Lane", "leather sofa repair Hudson Lane", "premium sofa repair Hudson Lane", "sofa reupholstery Hudson Lane Delhi", "sofa repair near DU North Campus", "sofa repair near me Hudson Lane"],
   priceTable: { rows: SOFA_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "4.8★ Rated Service", "10,000+ Repairs Done", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Trusted Service", "10,000+ Repairs Done", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Sofa Today", "Schedule Same-Day Repair in Hudson Lane"],
   testimonials: [
     { name: "Dr. Priya Menon", location: "Hudson Lane, North Delhi", rating: 5, text: "Our premium Italian leather sofa had badly cracked cushions. The craftsman colour-matched and restored the leather perfectly. Looks completely original. Exceptional work.", service: "Premium Leather Sofa Restoration" },
@@ -1557,7 +1557,7 @@ const reclineRepairHudsonLane: SeoPageData = {
   ],
   keywords: ["recliner repair Hudson Lane", "recliner repair Hudson Lane Delhi", "power recliner repair Hudson Lane", "Natuzzi repair Hudson Lane", "La-Z-Boy repair Hudson Lane", "electric recliner repair Hudson Lane", "premium recliner repair North Delhi", "recliner repair near DU North Campus"],
   priceTable: { rows: RECLINER_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "Motor Repair Specialists", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Same-Day Recliner Repair", "Request a Free Motor Diagnosis", "Restore Your Recliner Without Replacing It", "Schedule Fast Doorstep Service in Hudson Lane"],
   testimonials: [
     { name: "Aditi Sharma", location: "Hudson Lane, North Delhi", rating: 5, text: "La-Z-Boy power recliner completely stopped working. Technician diagnosed and replaced the actuator on the spot. Six-month warranty gives complete peace of mind. Excellent service.", service: "Power Recliner Actuator Repair" },
@@ -1567,7 +1567,7 @@ const reclineRepairHudsonLane: SeoPageData = {
 
 const furnitureRepairHudsonLane: SeoPageData = {
   slug: "furniture-repair-hudson-lane",
-  title: "Furniture Repair Hudson Lane – Doorstep Service | Same Day",
+  title: "Furniture Repair in Hudson Lane – Doorstep Service | Same Day",
   metaDescription: "Furniture repair in Hudson Lane from ₹599. Premium sofa, chair, wooden furniture & antique restoration at home. Near DU North Campus. 6-month warranty.",
   h1: "Furniture Repair in Hudson Lane – Trusted Doorstep Restoration for North Delhi",
   heroSubtitle: "Premium furniture repair for modern flats and residences in Hudson Lane. Sofas, chairs, wooden furniture, beds, wardrobes repaired at home. Free home visit near Delhi University North Campus. Same-day slots. 6-month warranty.",
@@ -1607,7 +1607,7 @@ const furnitureRepairHudsonLane: SeoPageData = {
   ],
   keywords: ["furniture repair Hudson Lane", "furniture repair Hudson Lane Delhi", "sofa repair Hudson Lane", "premium furniture repair Hudson Lane", "wooden furniture repair Hudson Lane", "wardrobe repair Hudson Lane Delhi", "antique furniture repair North Delhi", "furniture repair near DU North Campus"],
   priceTable: { rows: FURNITURE_PRICE_ROWS },
-  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "4.8★ Rated Service", "Same-Day Available"],
+  trustSignals: ["6-Month Warranty", "Free Home Visit", "Transparent Pricing", "All Furniture Types", "Trusted Service", "Same-Day Available"],
   ctaVariants: ["Book a Free Home Visit", "Request a Written Quote", "Restore Your Furniture Today", "Schedule Same-Day Repair in Hudson Lane"],
   testimonials: [
     { name: "Prof. Ananya Bose", location: "Hudson Lane, North Delhi", rating: 5, text: "We had an imported Italian dining table with a cracked veneer and two broken chair joints. The craftsman repaired everything perfectly and matched the veneer finish beautifully. True craftsmanship.", service: "Premium Furniture Repair & Veneer Restoration" },

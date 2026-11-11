@@ -1,3 +1,4 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 /**
  * Shared metadata utility for kitchen templates.
  *
@@ -131,6 +132,6 @@ export function setPageMetadata(opts: PageMetadataOpts): () => void {
     const canonEl = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
     if (canonEl && prevCanonical !== null) canonEl.href = prevCanonical;
 
-    created.forEach((el) => el.remove());
+    created.forEach((el) => removeUnowned(el));
   };
 }

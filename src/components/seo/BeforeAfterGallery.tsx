@@ -1,3 +1,4 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 import { useEffect } from "react";
 import { motion } from "motion/react";
 import {
@@ -14,7 +15,7 @@ interface BeforeAfterGalleryProps {
 
 export default function BeforeAfterGallery({ matches }: BeforeAfterGalleryProps) {
   useEffect(() => {
-    document.querySelectorAll('script[data-gallery-schema="true"]').forEach((s) => s.remove());
+    document.querySelectorAll('script[data-gallery-schema="true"]').forEach((s) => removeUnowned(s));
 
     matches.forEach(({ record }) => {
       (["before", "after"] as const).forEach((side) => {
@@ -28,7 +29,7 @@ export default function BeforeAfterGallery({ matches }: BeforeAfterGalleryProps)
     });
 
     return () => {
-      document.querySelectorAll('script[data-gallery-schema="true"]').forEach((s) => s.remove());
+      document.querySelectorAll('script[data-gallery-schema="true"]').forEach((s) => removeUnowned(s));
     };
   }, [matches]);
 
@@ -78,6 +79,9 @@ export default function BeforeAfterGallery({ matches }: BeforeAfterGalleryProps)
                     title={generateTitle(record)}
                     className="h-48 w-full object-cover sm:h-56"
                     loading="lazy"
+                    decoding="async"
+                    width={560}
+                    height={224}
                   />
                   <span className="absolute left-2 top-2 rounded bg-destructive/90 px-2 py-0.5 text-xs font-semibold text-destructive-foreground">
                     Before
@@ -92,6 +96,9 @@ export default function BeforeAfterGallery({ matches }: BeforeAfterGalleryProps)
                     title={generateTitle(record)}
                     className="h-48 w-full object-cover sm:h-56"
                     loading="lazy"
+                    decoding="async"
+                    width={560}
+                    height={224}
                   />
                   <span className="absolute left-2 top-2 rounded bg-primary/90 px-2 py-0.5 text-xs font-semibold text-primary-foreground">
                     After

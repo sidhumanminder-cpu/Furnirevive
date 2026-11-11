@@ -32,7 +32,7 @@ describe("legacy city page enrichment", () => {
     const headings = furnitureRepairNoida.contentSections.map((s) => s.heading);
     expect(headings).toContain("Furniture Repair Coverage Across Noida");
     expect(headings[0]).toBe("Furniture Repair Services We Offer in Noida");
-    expect(furnitureRepairNoida.contentSections.map((s) => s.body.join(" ")).join(" ")).toMatch(/1–2 hours/);
+    expect(furnitureRepairNoida.contentSections.map((s) => s.body.join(" ")).join(" ")).toMatch(/2–4 hours/);
   });
 
   it("different cities get different section text", () => {

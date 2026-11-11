@@ -1,0 +1,22 @@
+import { createFileRoute } from "@tanstack/react-router";
+import OfficeChairMaintenanceChecklistPost from "@/pages/blog/office-chair-maintenance-checklist.tsx";
+
+export const Route = createFileRoute("/blog/office-chair-maintenance-checklist/")({
+  head: () => ({
+    meta: [
+      { title: "Office Chair Maintenance Checklist: Monthly & Annual Checks | FurniRevive" },
+      { name: "description", content: "Downloadable office chair maintenance checklist for facility teams. Monthly and annual inspection points to prevent breakdowns and extend chair life. Delhi NCR." },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://furnirevive.com#business", "name": "FurniRevive", "telephone": "+919217999355", "url": "https://furnirevive.com", "priceRange": "₹500–₹25,000", "areaServed": [{ "@type": "City", "name": "Delhi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Delhi" } }, { "@type": "City", "name": "Gurgaon", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Faridabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }, { "@type": "City", "name": "Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Ghaziabad", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Greater Noida", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Kaushambi", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Vasundhara", "containedInPlace": { "@type": "AdministrativeArea", "name": "Uttar Pradesh" } }, { "@type": "City", "name": "Chandigarh", "containedInPlace": { "@type": "AdministrativeArea", "name": "Chandigarh" } }, { "@type": "City", "name": "Mohali", "containedInPlace": { "@type": "AdministrativeArea", "name": "Punjab" } }, { "@type": "City", "name": "Panchkula", "containedInPlace": { "@type": "AdministrativeArea", "name": "Haryana" } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "Article", "headline": "Office Chair Maintenance Checklist: Monthly & Annual Checks", "description": "Downloadable office chair maintenance checklist for facility teams. Monthly and annual inspection points to prevent breakdowns and extend chair life. Delhi NCR.", "image": "", "datePublished": "2026-05-02", "dateModified": "2026-07-21", "author": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "publisher": { "@type": "Organization", "name": "FurniRevive", "url": "https://furnirevive.com" }, "mainEntityOfPage": { "@type": "WebPage", "@id": "https://furnirevive.com/blog/office-chair-maintenance-checklist" } } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "How long does monthly inspection take for a 100-chair office?", "acceptedAnswer": { "@type": "Answer", "text": "At 5 minutes per chair, a 100-chair office takes about 8 hours — easily split across a week with one staff member checking 20 chairs per day." } }, { "@type": "Question", "name": "Can our housekeeping team do the monthly checks?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the monthly checklist requires no special tools or training. We can provide a 30-minute training session for your team if needed." } }, { "@type": "Question", "name": "How do I track maintenance history?", "acceptedAnswer": { "@type": "Answer", "text": "A simple spreadsheet with chair ID, date, and pass/fail per checkpoint works well. FurniRevive AMC clients get access to our digital tracking system." } }] } },
+      { "script:ld+json": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://furnirevive.com/" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://furnirevive.com/blog" }, { "@type": "ListItem", "position": 3, "name": "Office Chair Maintenance Checklist: Monthly & Annual Checks", "item": "https://furnirevive.com/blog/office-chair-maintenance-checklist" }] } },
+    ] as Array<Record<string, unknown>>,
+  }),
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  return (
+    <OfficeChairMaintenanceChecklistPost />
+  );
+}

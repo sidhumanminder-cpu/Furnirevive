@@ -113,7 +113,7 @@ export const SOUTH_DELHI_AUTHORITY_P2: SeoPageData[] = [
     ],
 
     trustSignals: [
-      `Serving Gulmohar Park and all of South Delhi for over 8 years — hundreds of verified 5-star reviews from residents of this colony alone.`,
+      `Serving Gulmohar Park and all of South Delhi for over 8 years — hundreds of happy customers among residents of this colony alone.`,
       `Background-verified technicians with minimum 5 years of professional furniture repair experience. Every team member carries a photo ID and company credentials.`,
       `6-month workmanship warranty on every repair — covering both materials and labour. The same warranty standard we maintain across <a href="/sofa-repair-greater-kailash">Greater Kailash</a>, <a href="/sofa-repair-defence-colony">Defence Colony</a>, and <a href="/sofa-repair-green-park">Green Park</a>.`,
       `Trusted by interior designers, home stagers, and estate managers operating in Gulmohar Park — our discretion and quality make us the professional's choice for high-value client properties.`,

@@ -10,7 +10,7 @@
  */
 
 import { MapPin } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import { getExistingNeighbourLinks } from "@/lib/seoConfigs/location-graph.ts";
 import type { SeoServiceKey } from "@/lib/seoConfigs/service-config.ts";

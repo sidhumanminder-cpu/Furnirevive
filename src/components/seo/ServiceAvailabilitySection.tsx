@@ -7,7 +7,7 @@
  */
 
 import { Building2 } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card.tsx";
 import {

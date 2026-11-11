@@ -21,7 +21,7 @@ function relatedExcluding(slug: string) {
 // ---------------------------------------------------------------------------
 export const furnitureRepairDwarka: SeoPageData = {
   slug: "furniture-repair-dwarka",
-  title: "Furniture Repair Dwarka | ₹599 Doorstep | Same-Day | FurniRevive",
+  title: "Furniture Repair in Dwarka | ₹599 Doorstep | Same-Day | FurniRevive",
   metaDescription:
     "Expert furniture repair in Dwarka, Delhi from ₹599. Sofa, bed, wardrobe & chair repaired at doorstep. All 28 sectors covered. Same-day service.",
   quickAnswer:
@@ -261,7 +261,7 @@ export const furnitureRepairDwarka: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const furnitureRepairRohini: SeoPageData = {
   slug: "furniture-repair-rohini",
-  title: "Furniture Repair Rohini | ₹599 Doorstep | Same-Day | FurniRevive",
+  title: "Furniture Repair in Rohini | ₹599 Doorstep | Same-Day | FurniRevive",
   metaDescription:
     "Expert furniture repair in Rohini, Delhi from ₹599. Sofa, bed & wardrobe repaired at doorstep. All 38 sectors covered. Same-day service. 6-month warranty.",
   quickAnswer:
@@ -459,9 +459,9 @@ export const furnitureRepairRohini: SeoPageData = {
 // ---------------------------------------------------------------------------
 export const sofaRepairSouthDelhi: SeoPageData = {
   slug: "sofa-repair-south-delhi",
-  title: "Sofa Repair South Delhi | ₹500 Doorstep | Same-Day | FurniRevive",
+  title: "Sofa Repair in South Delhi | ₹500 Doorstep | Same-Day | FurniRevive",
   metaDescription:
-    "Expert sofa repair in South Delhi — GK, Saket, Vasant Kunj, Hauz Khas, Defence Colony. Foam, leather & reupholstery from ₹500 at doorstep. Same-day.",
+    "Expert sofa repair in South Delhi — GK, Saket, Vasant Kunj, Hauz Khas, Defence Colony. Foam, leather & reupholstery from ₹500. 4.9★ rated. Same-day.",
   quickAnswer:
     "FurniRevive offers premium sofa repair in South Delhi starting at ₹500. Leather crack repair from ₹2,999, full reupholstery from ₹2,000 per seat. All localities — GK, Saket, Vasant Kunj, Hauz Khas — covered with same-day doorstep service and a 6-month written warranty.",
   h1: "Sofa Repair in South Delhi — Premium Doorstep Restoration Service",

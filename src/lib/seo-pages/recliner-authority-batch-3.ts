@@ -2,7 +2,7 @@ import type { SeoPageData } from "@/lib/seo-constants.ts";
 
 const recliinerRepairGreaterNoida: SeoPageData = {
   slug: "recliner-repair-greater-noida",
-  title: "Recliner Repair Greater Noida | Electric Specialists",
+  title: "Recliner Repair in Greater Noida | Electric Specialists",
   metaDescription:
     "Expert recliner repair in Greater Noida — electric motor, actuator & leather restoration. Doorstep service across Alpha, Beta, Gamma & Knowledge Park.",
   h1: "Expert Recliner Repair & Restoration in Greater Noida",
@@ -84,7 +84,7 @@ const recliinerRepairGreaterNoida: SeoPageData = {
     "Repairs starting at just ₹999 — transparent pricing, no hidden charges",
     "6-month parts and labour warranty on every repair",
     "Genuine OEM-grade replacement motors and actuators in stock",
-    "4.8-star average rating across 600+ Greater Noida repairs",
+    "Trusted across 600+ Greater Noida repairs",
     "Same-day and next-day appointment availability",
     "Specialist home theatre recliner repair capability",
     "Leather colour-matching for imported and premium recliners",

@@ -1,4 +1,4 @@
-import { ALL_BLOG_POSTS, type BlogPost } from "@/lib/blog-data.ts";
+import { BLOG_INDEX, type BlogPostSummary } from "@/lib/blog-index.ts";
 
 /**
  * Scoring constants for blog recommendation ranking.
@@ -43,7 +43,7 @@ type PageSignals = {
 
 /** Internal scored result — used in scorePostsForPage() and unit tests. */
 export type ScoredPost = {
-  post: BlogPost;
+  post: BlogPostSummary;
   score: number;
   reasons: string[];
 };
@@ -140,7 +140,7 @@ function deriveSignals(pageSlug: string): PageSignals {
   return { tokens, serviceKey, cityKey, topics, categoryHint };
 }
 
-function scorePost(post: BlogPost, signals: PageSignals): ScoredPost {
+function scorePost(post: BlogPostSummary, signals: PageSignals): ScoredPost {
   let score = 0;
   const reasons: string[] = [];
 
@@ -188,7 +188,7 @@ function scorePost(post: BlogPost, signals: PageSignals): ScoredPost {
  * - Always includes the universal anchor post (UNIVERSAL_ANCHOR_SLUG).
  * - Maximum one post per blog category (diversity enforcement).
  * - Minimum score threshold (MIN_SCORE) filters unrelated content. The universal anchor is exempt.
- * - Output is fully deterministic: same pageSlug + same ALL_BLOG_POSTS → identical result every run.
+ * - Output is fully deterministic: same pageSlug + same BLOG_INDEX → identical result every run.
  * - Tie-breaking: score DESC → slug ASC (insertion-order independent).
  * - Returns at most MAX_RECOMMENDATIONS posts.
  * - Runs in O(n) time with respect to the number of blog posts.
@@ -196,12 +196,12 @@ function scorePost(post: BlogPost, signals: PageSignals): ScoredPost {
  *
  * @param pageSlug - The slug of the SEO page (e.g. "sofa-repair-sector-49-gurgaon")
  */
-export function selectRelatedPosts(pageSlug: string): BlogPost[] {
+export function selectRelatedPosts(pageSlug: string): BlogPostSummary[] {
   const signals = deriveSignals(pageSlug);
-  const universalAnchor = ALL_BLOG_POSTS.find(p => p.slug === UNIVERSAL_ANCHOR_SLUG);
+  const universalAnchor = BLOG_INDEX.find(p => p.slug === UNIVERSAL_ANCHOR_SLUG);
 
   // Score all posts
-  const scored = ALL_BLOG_POSTS.map(post => scorePost(post, signals));
+  const scored = BLOG_INDEX.map(post => scorePost(post, signals));
 
   // Remove low scores — but keep universal anchor eligible regardless
   const qualified = scored.filter(sp =>
@@ -247,6 +247,6 @@ export function selectRelatedPosts(pageSlug: string): BlogPost[] {
  */
 export function scorePostsForPage(pageSlug: string): ScoredPost[] {
   const signals = deriveSignals(pageSlug);
-  return ALL_BLOG_POSTS.map(post => scorePost(post, signals))
+  return BLOG_INDEX.map(post => scorePost(post, signals))
     .sort((a, b) => b.score - a.score || a.post.slug.localeCompare(b.post.slug));
 }

@@ -344,7 +344,7 @@ const reclinerRepairSafdarjungEnclave: SeoPageData = {
   trustSignals: [
     "500+ recliner repairs completed across South Delhi",
     "Serving Safdarjung Enclave for 5+ years",
-    "4.9/5 average rating from verified customers",
+    "Trusted by verified customers",
     "6-month part warranty on all repairs",
     "90-day labour guarantee",
     "Licensed and insured technicians",
@@ -394,7 +394,7 @@ const reclinerRepairSafdarjungEnclave: SeoPageData = {
     {
       question: "How long does a typical recliner repair take?",
       answer:
-        "Most recliner repairs are completed within 1–3 hours during a single home visit. Simple repairs like cable replacement or minor upholstery stitching can take as little as 30–45 minutes. Motor or control-board replacement typically takes 60–90 minutes. Full foam and upholstery overhauls may take 2–3 hours but are still completed in one visit.",
+        "Most recliner repairs are completed within 1–3 hours during a single home visit. Simple repairs like cable replacement or minor upholstery stitching can take as little as 30–45 minutes. Motor or control-board replacement typically takes 2–4 hours. Full foam and upholstery overhauls may take 2–3 hours but are still completed in one visit.",
     },
     {
       question: "Do you repair leather recliners in Safdarjung Enclave?",

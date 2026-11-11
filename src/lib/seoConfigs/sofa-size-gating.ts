@@ -5,6 +5,9 @@ const TRICITY = new Set(["chandigarh", "mohali", "panchkula"]);
 /** Price rows that already give per-size tiers, e.g. "3 Seater Sofa Repair" or "L-Shape Sofa". */
 const SIZE_ROW = /^\s*(single|1|2|3)[\s-]*seater|^\s*l[\s-]*shape/i;
 
+/** Clarifies the ₹500 "per seat" headline against the per-size prices below it. */
+export const SOFA_MIN_PRICE_NOTE = "₹500 per seat is the minimum for basic cushion work. Full repairs by sofa size are below.";
+
 export type SofaSizeDecision = "show" | "not-sofa-repair" | "tricity" | "has-size-rows";
 
 /** Decides whether a page gets the "Sofa Repair Cost by Sofa Size" block, and why not if it doesn't. */

@@ -1,5 +1,5 @@
 import { CheckCircle2, MapPin, Clock, Phone, MessageCircle } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import { PHONE_NUMBER, WHATSAPP_NUMBER, POPULAR_CITIES } from "@/lib/seo-constants.ts";
 
@@ -572,6 +572,55 @@ const SERVICE_CONFIG: Record<string, ServiceConfig> = {
       { question: `Do you polish both old antique furniture and modern wooden furniture?`, answer: `Yes. We restore antique sheesham and teak furniture using traditional French polish techniques, and refinish modern furniture (MDF, engineered wood, painted wood) with contemporary melamine or lacquer finishes. Our craftsmen select the appropriate technique for each piece.` },
     ],
   },
+  "Office Chair Repair": {
+    para1: (cityName, cityCharacter, customerScenarios) =>
+      `Looking for office chair repair near you in ${cityName}? FurniRevive repairs office, revolving and ergonomic chairs at your home or workplace across ${cityName} — a ${cityCharacter} — for ${customerScenarios}. We bring gas lifts, castors, armrests and foam, so most repairs are finished in one visit without moving the chair.`,
+    whatsappText: "Hi! I'd like to get a quotation for office chair repair near me.",
+    crossCityLinkKey: null,
+    faqs: (cityName) => [
+      { question: `Can you repair a sinking office chair in ${cityName}?`, answer: `Yes. A chair that slowly sinks has a worn gas lift (hydraulic cylinder). We replace the cylinder at your place in ${cityName}, usually within about an hour.` },
+      { question: `Do you replace chair wheels and castors in ${cityName}?`, answer: `Yes. Broken or stiff castors are replaced on site with a matching set, and we check the base and stem at the same time.` },
+      { question: `Do you repair ergonomic and executive chairs in ${cityName}?`, answer: `Yes. Armrests, tilt and lock mechanisms, mesh backs, seat foam and leatherette covers are repaired or replaced on site.` },
+      { question: `Can you service many office chairs in one visit in ${cityName}?`, answer: `Yes. Offices can book several chairs in one visit. Send photos or a count on WhatsApp and we will confirm the visit and a written quote.` },
+      { question: `Is there a warranty on office chair repair?`, answer: `Yes, every repair carries a 6-month warranty, and the inspection is free.` },
+    ],
+  },
+  "Gaming Chair Repair": {
+    para1: (cityName, cityCharacter, customerScenarios) =>
+      `Looking for gaming chair repair near you in ${cityName}? FurniRevive fixes gaming chairs at home across ${cityName} — a ${cityCharacter} — for ${customerScenarios}: gas lift, recline mechanism, castors, armrests and torn PU or fabric covers.`,
+    whatsappText: "Hi! I'd like to get a quotation for gaming chair repair near me.",
+    crossCityLinkKey: null,
+    faqs: (cityName) => [
+      { question: `Can you fix a gaming chair that sinks or will not stay up in ${cityName}?`, answer: `Yes. We replace the gas lift at your home. Tell us the brand on WhatsApp so the right size cylinder is brought.` },
+      { question: `Do you repair the recline and tilt mechanism?`, answer: `Yes. Loose, jammed or broken recline and tilt mechanisms are repaired or replaced on site.` },
+      { question: `Can a peeling gaming chair cover be replaced in ${cityName}?`, answer: `Yes. Peeling PU leather and worn fabric can be re-covered, and flat foam can be refilled in the same visit.` },
+      { question: `Do you repair all gaming chair brands?`, answer: `We repair most brands sold in India. Send a photo of the chair and the problem and we will confirm before the visit.` },
+    ],
+  },
+  "Carpenter Service": {
+    para1: (cityName, cityCharacter, customerScenarios) =>
+      `Looking for a carpenter near you in ${cityName}? FurniRevive sends carpenters to homes and offices across ${cityName} — a ${cityCharacter} — for ${customerScenarios}. They bring their own tools and fix tables, chairs, beds, wardrobes, doors, drawers and cabinets, or assemble flat-pack furniture.`,
+    whatsappText: "Hi! I'd like to hire a carpenter near me.",
+    crossCityLinkKey: null,
+    faqs: (cityName) => [
+      { question: `Can I hire a carpenter for tables and chairs in ${cityName}?`, answer: `Yes. We repair wobbly tables, loose chair joints, broken legs and cracked tops at your home. Send a photo on WhatsApp and we will confirm the visit and a quote.` },
+      { question: `Do your carpenters bring their own tools in ${cityName}?`, answer: `Yes. They bring tools and common hardware, such as screws, hinges and channels, so most jobs finish in one visit.` },
+      { question: `Can your carpenter assemble flat-pack furniture?`, answer: `Yes. We assemble beds, wardrobes, tables and shelves from flat-pack boxes.` },
+      { question: `Is there a warranty on carpentry work?`, answer: `Yes, 6 months on the work done, and the inspection is free.` },
+    ],
+  },
+  "Almirah & Wardrobe Repair": {
+    para1: (cityName, cityCharacter, customerScenarios) =>
+      `Looking for almirah or wardrobe repair near you in ${cityName}? FurniRevive repairs steel almirahs (including Godrej), wooden and laminate wardrobes at your home across ${cityName} — a ${cityCharacter} — for ${customerScenarios}: locks, hinges, shutters, drawers, dents, rust and loose panels.`,
+    whatsappText: "Hi! I'd like to get a quotation for almirah or wardrobe repair near me.",
+    crossCityLinkKey: null,
+    faqs: (cityName) => [
+      { question: `Can you repair a Godrej or steel almirah lock in ${cityName}?`, answer: `Yes. Jammed, broken or lost-key locks are repaired or replaced at your home. Send the model and a photo on WhatsApp.` },
+      { question: `Do you repair wardrobe doors and hinges?`, answer: `Yes. Sagging doors, broken hinges, stuck shutters and drawer channels are repaired on site.` },
+      { question: `Can dents and rust on a steel almirah be fixed?`, answer: `Yes. Dents can be reduced and rust treated and repainted, depending on how deep the damage is. We tell you honestly at inspection.` },
+      { question: `Do you repair sliding wardrobes?`, answer: `Yes. Track, roller and door alignment problems on sliding wardrobes are fixed at home.` },
+    ],
+  },
   "Sofa Repair": {
     para1: (cityName, cityCharacter, customerScenarios) =>
       `FurniRevive technicians are stationed across ${cityName} — a ${cityCharacter} — so skilled help is always close at hand. We serve ${customerScenarios}, bringing all foam, fabric, springs, and tools directly to your door. Our team repairs fabric sofas, leather sofas, recliners, wooden sofas, sofa cum beds, and upholstery at your doorstep — no transport needed, no workshop wait. Same-day slots are available six days a week.`,
@@ -592,17 +641,20 @@ export interface NearMeSectionProps {
   serviceLabel?: string;
   /** Set false when the host page already emits its own FAQPage schema */
   emitFaqSchema?: boolean;
+  /** True on pages whose slug contains "near-me": keeps the "Near Me in" heading there. */
+  nearMePage?: boolean;
 }
 
 /** Headline starting price per service for the closing pricing line. */
 const NEAR_ME_START_PRICE: Record<string, string> = {
+  "Sofa Repair": "₹500 per seat",
   "Sofa Upholstery": "₹2,000 per seat",
   "Recliner Repair": "₹1,499",
   "Furniture Polishing": "₹1,500",
 };
 
 const TRUST_SIGNALS = [
-  "5,000+ Sofas Repaired",
+  "10,000+ Repairs Done",
   "10+ Years Experience",
   "Same-Day Home Visits",
   "6-Month Warranty",
@@ -610,7 +662,7 @@ const TRUST_SIGNALS = [
   "WhatsApp Booking",
 ] as const;
 
-export default function NearMeSection({ city, serviceLabel = "Sofa Repair", emitFaqSchema = true }: NearMeSectionProps) {
+export default function NearMeSection({ city, serviceLabel = "Sofa Repair", emitFaqSchema = true, nearMePage = false }: NearMeSectionProps) {
   const cfg = CITY_CONFIGS[city];
   const svcCfg = getServiceConfig(serviceLabel);
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(svcCfg.whatsappText)}`;
@@ -643,7 +695,7 @@ export default function NearMeSection({ city, serviceLabel = "Sofa Repair", emit
             id={`near-me-heading-${city}`}
             className="text-2xl sm:text-3xl font-serif font-bold"
           >
-            {serviceLabel} Near Me in {cfg.name}
+            {serviceLabel.replace(/\s+Services?$/i, "")} Near Me in {cfg.name}
           </h2>
         </div>
 

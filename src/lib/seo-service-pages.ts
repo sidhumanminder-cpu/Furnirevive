@@ -49,14 +49,14 @@ export const sofaRepairDelhi: SeoPageData = {
   slug: "sofa-repair-delhi",
   category: "Sofa Repair",
   cityKey: "delhi" as const,
-  title: "Sofa Repair Near Me in Delhi | ₹500 Home Service | FurniRevive",
+  title: "Sofa Repair in Delhi | ₹500 Doorstep Service | FurniRevive",
   metaDescription:
-    "Sofa repair in Delhi from ₹500. 4.8★ rated. Same-day doorstep service for all sofa types. Free inspection. 6-month warranty. Call +91 92179 99355 today.",
+    "Sofa repair in Delhi from ₹500. 4.9★ rated. Same-day doorstep service for all sofa types. Free inspection. 6-month warranty. Call +91 92179 99355 today.",
   quickAnswer:
     "Sofa repair in Delhi costs ₹500–₹4,500 for most repairs — foam replacement ₹1,200–₹3,500, spring repair ₹800–₹2,000, upholstery ₹2,000–₹4,500 per seat. FurniRevive provides same-day home service across all Delhi localities with free inspection and a 6-month written warranty. Call +91 92179 99355.",
-  h1: "Sofa Repair Near Me in Delhi — Same Day Home Service from ₹500",
+  h1: "Sofa Repair in Delhi — Same-Day Home Service from ₹500",
   heroSubtitle:
-    "Delhi's most trusted sofa repair service — 500+ sofas repaired in Delhi, at your doorstep in 4 hours or less. Starting ₹500. Free inspection. 6-month warranty. Limited same-day slots available — book before noon. South Delhi, Dwarka, Rohini, Vasant Kunj & 50+ areas.",
+    "Delhi's most trusted sofa repair service — 10,000+ sofas repaired across Delhi NCR, at your doorstep in 4 hours or less. Starting ₹500. Free inspection. 6-month warranty. Limited same-day slots available — book before noon. South Delhi, Dwarka, Rohini, Vasant Kunj & 50+ areas.",
   showcaseImage: {
     heading: "Sofa Repair Before & After — Real Results in Delhi",
     imageUrl: "https://hercules-cdn.com/file_fD9h3BRCw623LF1MDx4IOhWQ",
@@ -247,7 +247,7 @@ export const sofaRepairDelhi: SeoPageData = {
       body: [
         "Getting <strong>sofa repair at home in Delhi</strong> with FurniRevive is a simple 3-step process. Step 1: WhatsApp photos of your sofa damage to +91 92179 99355 and receive an instant ballpark quote in minutes. Step 2: Confirm your slot — same-day available — and our technician arrives at your Delhi home with all materials. Step 3: Repair is done at your doorstep in 2–4 hours and you pay only after full satisfaction.",
         "Every <strong>sofa repair at home service near me</strong> booking includes: free doorstep inspection, written quotation before work starts, premium materials (32–40D foam, heavy-gauge springs, 500+ fabrics), professional tools, and a 6-month written warranty card. No hidden charges. No surprises.",
-        "Trust signals: ✅ <strong>500+ sofas repaired in Delhi</strong> · ✅ <strong>Same day home service</strong> · ✅ <strong>Starting ₹500</strong> · ✅ 6-month warranty · ✅ Free inspection · ✅ Available 7 days a week",
+        "Trust signals: ✅ <strong>10,000+ sofas repaired across Delhi NCR</strong> · ✅ <strong>Same day home service</strong> · ✅ <strong>Starting ₹500</strong> · ✅ 6-month warranty · ✅ Free inspection · ✅ Available 7 days a week",
       ],
     },
     {
@@ -278,9 +278,9 @@ export const sofaRepairDelhi: SeoPageData = {
       heading: "Why FurniRevive is Delhi's #1 Sofa Repair Service",
       body: [
         "{{IMAGE: sofa before after repair Delhi home service}}",
-        "With 500+ sofas repaired across Delhi, FurniRevive is the most trusted name for <strong>sofa repair near me in Delhi</strong>. Here's why customers keep choosing us over competitors and local carpenters:",
+        "With 10,000+ sofas repaired across Delhi NCR, FurniRevive is the most trusted name for <strong>sofa repair near me in Delhi</strong>. Here's why customers keep choosing us over competitors and local carpenters:",
         "✅ <strong>Same-day doorstep service</strong> — book before noon, repaired today. Zero transportation needed.",
-        "✅ <strong>500+ sofas repaired in Delhi</strong> — more experience means faster diagnosis and fewer callbacks.",
+        "✅ <strong>10,000+ sofas repaired across Delhi NCR</strong> — more experience means faster diagnosis and fewer callbacks.",
         "✅ <strong>Transparent pricing from ₹500</strong> — written quote before we start. What we quote is what you pay.",
         "✅ <strong>6-month written warranty</strong> on every sofa repair at home service — parts and labour both covered.",
         "✅ <strong>32–40D premium foam</strong> — not cheap substitutes. The same grade as top sofa manufacturers.",
@@ -589,7 +589,7 @@ export const chairRepairDelhi: SeoPageData = {
   },
   title: "Chair Repair Delhi | From ₹599 | Same Day | FurniRevive",
   metaDescription:
-    "Chair repair in Delhi from ₹599. 8★ rated. Office, gaming & dining chair fixed at home. Same-day doorstep service. 6-month warranty. Call +91 92179 99355.",
+    "Chair repair in Delhi from ₹599. Office, gaming & dining chair fixed at home. Same-day doorstep service. 6-month warranty. Call +91 92179 99355.",
   quickAnswer:
     "Chair repair in Delhi starts at ₹599. FurniRevive fixes office chair hydraulics (gas lift), broken wheels/casters, gaming chair frames, dining chair joints, and torn seats at your doorstep with same-day service across Delhi NCR. Visit charge ₹99–₹199. Free inspection. 6-month warranty. Call +91 92179 99355.",
   h1: "Chair Repair in Delhi NCR (Same Day Doorstep Service)",
@@ -865,6 +865,27 @@ export const chairRepairDelhi: SeoPageData = {
         "Beyond structural repair, dining chairs benefit enormously from upholstery and surface renewal. A set of chairs with re-padded seats, fresh fabric, and a polished frame looks showroom-new at roughly 15–20% of replacement cost. We offer fabric and leatherette re-covering through our <a href=\"/sofa-upholstery-delhi\">upholstery service</a>, and our polishing team can match existing frames or shift the finish entirely. Full pricing is listed on our <a href=\"/furniture-repair-price-list-delhi\">furniture repair price list</a>. Customers in Gurugram can book through <a href=\"/chair-repair-gurgaon\">chair repair Gurgaon</a> and those across the Yamuna through our <a href=\"/sofa-repair-noida\">Noida repair service</a>. For an in-depth guide to wood species, joinery techniques, and finish options, see our <a href=\"/blog/wooden-furniture-restoration-guide-delhi\">wooden furniture restoration guide</a>.",
       ],
     },
+    {
+      heading: "Cane, Wicker and Rush-Seat Chair Repair in Delhi",
+      body: [
+        "Cane and rush seats fail in two ways: the woven seat sags or splits, or the joints around it loosen. A single chair is usually repaired at home: we remove the damaged weave, fit new cane webbing or a new woven seat, and re-glue loose joints in the same visit.",
+        "If the frame is sound, a worn cane seat is far cheaper to replace than the chair. Send a photo on WhatsApp and we will tell you whether the seat, the joints or both need work. For polish or colour touch-ups on wooden frames, see <a href=\"/furniture-polish-delhi\">furniture polish in Delhi</a>.",
+      ],
+    },
+    {
+      heading: "Salon, Parlour and Barber Chair Repair in Delhi",
+      body: [
+        "Salon and barber chairs take constant pumping, reclining and cleaning chemicals. The usual faults are a hydraulic pump that no longer holds height, a footrest or recline lock that slips, and torn or cracked upholstery.",
+        "We come to the salon or parlour, repair the pump, mechanism or cover on site and test the chair with you before leaving, so the station is back in use the same day. If you have several chairs, book them in one visit.",
+      ],
+    },
+    {
+      heading: "Study Chair and Kids' Chair Repair in Delhi",
+      body: [
+        "Study and kids' chairs usually need small fixes: a height adjuster that slips, a stripped thread or knob on the adjustment screw, a missing castor, or a wobbly seat. These are quick repairs and often cheaper than a new chair.",
+        "Send a photo of the chair and the part that has failed on WhatsApp, and we will confirm what is needed before the visit.",
+      ],
+    },
   ],
   faqs: [
     { question: "Do you repair chairs at home in Delhi?", answer: "Yes, all our chair repairs are done at your doorstep — home or office — across Delhi NCR. Our technicians arrive with all tools and parts. Doorstep visit charge ₹99–₹199, adjusted against the repair cost. Call +91 92179 99355 for same-day service." },
@@ -961,7 +982,7 @@ export const furnitureRepairDelhi: SeoPageData = {
   },
   title: "Furniture Repair Delhi | ₹599 | FurniRevive",
   metaDescription:
-    "Furniture repair in Delhi from ₹599. Beds, wardrobes, almirahs, dining tables, sofas & cabinets repaired at home. 8★ rated. Free inspection.",
+    "Furniture repair in Delhi from ₹599. Beds, wardrobes, almirahs, dining tables, sofas & cabinets repaired at home. Free inspection.",
   quickAnswer:
     "Furniture repair in Delhi starts at ₹599. FurniRevive repairs beds, wardrobes, almirahs, dining tables, sofas, and cabinets at your doorstep across all Delhi localities. For dedicated chair repair, see our chair repair Delhi page. Free inspection, transparent pricing, and 6-month warranty on every job.",
   h1: "Furniture Repair in Delhi — Beds, Wardrobes, Dining Tables & More",
@@ -982,7 +1003,7 @@ export const furnitureRepairDelhi: SeoPageData = {
   },
   intro: [
     "Furniture is one of the biggest investments you make for your home, and Delhi homes are known for having quality furniture that families cherish for generations. When your favorite sofa starts sagging, the dining table wobbles, or the wardrobe door won't close properly, it's natural to feel frustrated. But before you think about replacing your furniture, consider professional furniture repair in Delhi — it's faster, cheaper, and often results in furniture that's as good as new. We also provide professional <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> for damaged cushions, upholstery, and recliner issues.",
-    "FurniRevive is Delhi's most trusted furniture repair service with a 4.8-star rating and over 10,000 successful repairs. We provide comprehensive repair solutions for every type of household and office furniture found in Delhi homes. From wooden furniture repair and upholstery work to polish refinishing and hardware replacement, our team of experienced carpenters and craftsmen handle it all with precision and care.",
+    "FurniRevive is Delhi's most trusted furniture repair service trusted by hundreds of customers with over 10,000 successful repairs. We provide comprehensive repair solutions for every type of household and office furniture found in Delhi homes. From wooden furniture repair and upholstery work to polish refinishing and hardware replacement, our team of experienced carpenters and craftsmen handle it all with precision and care.",
     "We serve every corner of Delhi — from the leafy colonies of South Delhi (Greater Kailash, Vasant Vihar, Defence Colony) to the planned sectors of Dwarka and Rohini, from the commercial hubs of Connaught Place and Nehru Place to the vibrant neighbourhoods of East Delhi (Preet Vihar, Mayur Vihar, Laxmi Nagar). Our doorstep service with same-day availability, transparent pricing, and 6-month warranty make us the go-to choice for furniture repair in Delhi.",
     "We also extend our services to Noida, Gurgaon, Ghaziabad, and Faridabad — so wherever you are in Delhi NCR, expert furniture repair is just a call away. Our pricing starts at ₹599 and we always provide a free inspection and quotation before starting any work. For sofa-specific pricing, view our <a href=\"/sofa-repair-cost-delhi\">sofa repair charges Delhi</a> guide.",
   ],
@@ -1012,7 +1033,7 @@ export const furnitureRepairDelhi: SeoPageData = {
     "Same-day service available in Delhi",
     "6-month comprehensive warranty",
     "Free inspection and no-obligation quote",
-    "4.8-star rating with 10,000+ repairs done",
+    "Trusted, with 10,000+ repairs done",
   ],
   contentSections: [
     {
@@ -1049,7 +1070,7 @@ export const furnitureRepairDelhi: SeoPageData = {
     {
       heading: "Why Delhi Residents Trust FurniRevive",
       body: [
-        "Over the past 6 years, we've built a reputation as Delhi's most reliable furniture repair service. Our 4.8-star Google rating, 10,000+ successful repairs, and hundreds of positive reviews from Delhi residents speak for themselves. We've repaired furniture in South Delhi's premium apartments, Dwarka's spacious houses, Rohini's family homes, and East Delhi's vibrant neighbourhoods.",
+        "Over the past 6 years, we've built a reputation as Delhi's most reliable furniture repair service. Our reputation, 10,000+ successful repairs, and hundreds of positive reviews from Delhi residents speak for themselves. We've repaired furniture in South Delhi's premium apartments, Dwarka's spacious houses, Rohini's family homes, and East Delhi's vibrant neighbourhoods.",
         "What sets us apart is our commitment to honesty and quality. We never recommend repair where replacement makes more sense, and we never upsell unnecessary services. Our craftsmen treat every piece of furniture — whether it's a ₹5,000 chair or a ₹5,00,000 imported sofa — with the same care and professionalism. That's why Delhi families keep coming back to us.",
         "Families in <a href=\"/furniture-repair-safdarjung-enclave\">Safdarjung Enclave</a>, <a href=\"/furniture-repair-gulmohar-park\">Gulmohar Park</a>, and Hauz Khas often own Italian leather sofas and designer furniture that require specialist handling. Our <a href=\"/italian-sofa-repair-delhi\">Italian sofa repair experts</a> are trained to work with the delicate leather grades used by brands like Natuzzi, Chateau d'Ax, and Poltrona Frau — using compatible conditioning agents and dyes that preserve the original finish rather than mask damage.",
       ],
@@ -1066,7 +1087,7 @@ export const furnitureRepairDelhi: SeoPageData = {
       heading: "Furniture & Sofa Repair Across NCR",
       body: [
         "FurniRevive provides premium furniture and sofa repair services across the entire Delhi NCR region. Whether you need <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a>, <a href=\"/sofa-repair-gurgaon\">sofa repair in Gurgaon</a>, <a href=\"/sofa-repair-noida\">sofa repair in Noida</a>, <a href=\"/sofa-repair-faridabad\">sofa repair in Faridabad</a>, or <a href=\"/sofa-repair-ghaziabad\">sofa repair in Ghaziabad</a>, our teams are stationed across NCR for fast response.",
-        "For furniture repair, we cover <a href=\"/furniture-repair-gurgaon\">furniture repair in Gurgaon</a>, <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> including <a href=\"/furniture-repair-noida-sector-18\">furniture repair in Noida Sector 18</a>, <a href=\"/furniture-repair-faridabad\">furniture repair in Faridabad</a>, and <a href=\"/furniture-repair-ghaziabad\">furniture repair in Ghaziabad</a>. One call connects you to expert craftsmen across NCR. Looking for quick help? Get expert <a href=\"/sofa-repair-delhi\">couch repair in Delhi</a> with same-day service and a 6-month warranty — 500+ repairs completed and counting.",
+        "For furniture repair, we cover <a href=\"/furniture-repair-gurgaon\">furniture repair in Gurgaon</a>, <a href=\"/furniture-repair-noida\">furniture repair in Noida</a> including <a href=\"/furniture-repair-noida-sector-18\">furniture repair in Noida Sector 18</a>, <a href=\"/furniture-repair-faridabad\">furniture repair in Faridabad</a>, and <a href=\"/furniture-repair-ghaziabad\">furniture repair in Ghaziabad</a>. One call connects you to expert craftsmen across NCR. Looking for quick help? Get expert <a href=\"/sofa-repair-delhi\">couch repair in Delhi</a> with same-day service and a 6-month warranty — 10,000+ repairs completed and counting.",
       ],
     },
     {
@@ -1157,6 +1178,20 @@ export const furnitureRepairDelhi: SeoPageData = {
       body: [
         "FurniRevive provides fully itemised, written quotes for every job before work begins. Here is a quick reference for common furniture repair costs in Delhi in 2026: sofa foam replacement (per seat) ₹1,200–₹3,500 using Sleepwell/Duraflex branded 32–40D HR foam; sofa re-upholstery (per seat) ₹2,000–₹4,500 with 500+ fabric options; office chair gas lift replacement ₹800–₹1,500; recliner mechanism repair ₹1,499–₹3,500; recliner motor replacement ₹3,000–₹6,000; wardrobe hinge and track repair ₹500–₹2,500; bed frame and hydraulic storage repair ₹1,199–₹5,000; dining table joint and veneer repair ₹999–₹3,500; furniture polish per piece ₹799–₹5,000.",
         "All prices include a 6-month warranty on parts and labour. The ₹99–₹199 doorstep visit charge is adjusted against the repair bill — you pay the repair cost, not the visit charge on top. For precise quotations, share photos via WhatsApp (+91 92179 99355) and receive a ball-park estimate within 2 hours. Booking an inspection is always free. For a complete guide to sofa-specific costs, see our <a href=\"/sofa-repair-cost-delhi\">sofa repair cost Delhi</a> page and the <a href=\"/furniture-repair-price-guide-delhi\">furniture repair price guide</a>.",
+      ],
+    },
+    {
+      heading: "Almirah and Wardrobe Repair in Delhi (Steel and Wooden)",
+      body: [
+        "Almirahs fail at the lock, hinge and shutter first. Steel almirahs also dent and rust; wooden and laminate wardrobes lose hinges, drawer runners and edge banding. We repair these at your home in one visit where possible.",
+        "For Godrej and other steel almirahs, locks, dents and rust, see <a href=\"/godrej-furniture-repair-delhi\">Godrej furniture and almirah repair</a>. For wardrobe doors, hinges and shutters, see <a href=\"/wardrobe-repair-delhi\">wardrobe repair in Delhi</a>.",
+      ],
+    },
+    {
+      heading: "Bed, Folding Bed and Cot Repair in Delhi",
+      body: [
+        "Bed repairs we do at home: cracked or loose bed frames, broken slats, squeaking joints, headboards pulling away, damaged hinges on storage beds, and folding beds or cots that no longer lock or fold.",
+        "Send a photo of the bed and the damaged part on WhatsApp, and we will confirm the repair and a quote before the visit. See also <a href=\"/bed-repair-delhi\">bed repair in Delhi</a>.",
       ],
     },
   ],
@@ -1387,7 +1422,7 @@ export const carpenterHomeServiceDelhi: SeoPageData = {
     "Transparent pricing from ₹499",
     "Clean work with full post-job cleanup",
   ],
-  trustSignals: ["4.8★ rated by 1,200+ Delhi customers", "6-month warranty on all work", "Background-verified carpenters", "Transparent pricing — no hidden charges", "Same-day service available"],
+  trustSignals: ["Trusted by hundreds of customers", "6-month warranty on all work", "Background-verified carpenters", "Transparent pricing — no hidden charges", "Same-day service available"],
   localAreasSection: {
     heading: "Carpenter Home Service Across All Delhi Areas",
     areas: ["South Delhi", "Dwarka", "Rohini", "Lajpat Nagar", "Vasant Kunj", "Preet Vihar", "Mayur Vihar", "Karol Bagh", "Saket", "Hauz Khas", "GK1", "GK2", "Defence Colony", "Janakpuri", "Rajouri Garden", "Pitampura", "Shalimar Bagh", "East Delhi", "Noida", "Gurgaon"],
@@ -1419,6 +1454,27 @@ export const carpenterHomeServiceDelhi: SeoPageData = {
       body: [
         "We provide carpenter home service across every part of Delhi. In South Delhi — GK, Lajpat Nagar, Saket, Vasant Kunj, Defence Colony, Hauz Khas, and Green Park. In West Delhi — Dwarka (all sectors), Janakpuri, Rajouri Garden, Punjabi Bagh, and Vikaspuri. In North Delhi — Rohini, Pitampura, Shalimar Bagh, Model Town, and Civil Lines.",
         "In East Delhi — Preet Vihar, Mayur Vihar, Laxmi Nagar, Patparganj, and IP Extension. Central Delhi — Connaught Place, Karol Bagh, Paharganj, and Rajendra Place. Wherever you are in Delhi, a verified FurniRevive carpenter can be at your doorstep the same day.",
+      ],
+    },
+    {
+      heading: "Hire a Carpenter for Tables and Chairs in Delhi",
+      body: [
+        "Tables and chairs are the most common carpentry jobs we get in Delhi homes. For tables: wobbly or uneven legs, loose joints, cracked or warped tops, peeling laminate, and stuck extension or folding mechanisms. For chairs: loose joints, broken legs and rungs, split seats and re-gluing frames.",
+        "Send a photo of the table or chair on WhatsApp, and we confirm the visit and a quote before a carpenter comes. Most table and chair repairs are finished at your home in one visit. For polish after repair, see <a href=\"/furniture-polish-delhi\">furniture polish</a>; for chairs only, see <a href=\"/chair-repair-delhi\">chair repair in Delhi</a>.",
+      ],
+    },
+    {
+      heading: "Carpenter Near Me in Delhi: What to Expect",
+      body: [
+        "When you book, tell us your area, what needs fixing and send a photo. A verified carpenter visits with tools and common hardware, inspects the job, gives a clear quote and starts only after you approve.",
+        "The service covers repairs, fitting and assembly: furniture repair, flat-pack assembly, doors, drawers, cabinets and wardrobes, shelves and bed frames. Every job carries a 6-month warranty.",
+      ],
+    },
+    {
+      heading: "Bed, Almirah and Door Carpentry",
+      body: [
+        "Beds: broken frames, loose headboards, damaged slats and hinges on storage beds. Almirahs and wardrobes: sagging doors, hinges, shutters, drawer channels and locks (steel almirah work is covered on our <a href=\"/godrej-furniture-repair-delhi\">Godrej and almirah repair</a> page). Doors: sticking, misaligned or dropped doors, latches and handles.",
+        "Tell us what you have and send a photo, and we will confirm the work needed before a carpenter visits.",
       ],
     },
   ],

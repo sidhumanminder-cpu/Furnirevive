@@ -1,27 +1,6 @@
-import path from "node:path";
-import tailwindcss from "@tailwindcss/vite";
-import hercules from "@usehercules/vite";
-import react from "@vitejs/plugin-react-swc";
-import { defineConfig } from "vite";
+import { defineConfig } from "@usehercules/vite-tanstack";
 
-// https://vite.dev/config/
-export default defineConfig({
-  server: {
-    host: "0.0.0.0",
-    port: 5173,
-    allowedHosts: true,
-    hmr: {
-      overlay: false,
-    },
-  },
-  plugins: [react(), tailwindcss(), hercules()],
-  resolve: {
-    alias: {
-      "@/convex": path.resolve(__dirname, "./convex"),
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-  build: {
-    chunkSizeWarningLimit: 1000,
-  },
-});
+// The plugins, path aliases, dependency pre-bundling and dev server settings
+// all come from @usehercules/vite-tanstack. To extend them, pass options:
+//   defineConfig({ vite: { build: { sourcemap: true } }, prebundle: ["lodash/debounce"] })
+export default defineConfig();

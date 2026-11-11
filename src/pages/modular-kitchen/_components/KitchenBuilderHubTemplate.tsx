@@ -6,7 +6,7 @@
  *           FAQs → Nearby builders → Hub uplinks → CTA
  */
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { PhoneCall, MessageCircle, CheckCircle2, ChevronRight, MapPin, Building2, Ruler, Star } from "lucide-react";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";
 import { setPageMetadata } from "@/lib/metadata.ts";

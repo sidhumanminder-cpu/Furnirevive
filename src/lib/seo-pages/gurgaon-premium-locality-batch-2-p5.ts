@@ -40,7 +40,7 @@ export const reclinerRepairDlfPhase2Gurgaon: SeoPageData = {
     "OEM-equivalent replacement motors and mechanism parts — no generic substitutes",
     "Same-day slots available for morning bookings across DLF Phase 2",
     "Transparent fixed pricing from ₹1,499 — confirmed before work starts",
-    "4.8-star rated across thousands of recliner and sofa repairs in Gurgaon and Delhi",
+    "Trusted across thousands of recliner and sofa repairs in Gurgaon and Delhi",
     "6-month workmanship warranty with digital certificate issued on job completion",
   ],
   contentSections: [

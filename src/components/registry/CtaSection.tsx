@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { Calendar, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button.tsx";
 import type { CtaSectionData } from "@/lib/content-engine/index.ts";

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import { ArrowRight, Clock, BookOpen } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card.tsx";
@@ -44,6 +44,8 @@ export default function BlogPreviewSection() {
                   <img
                     src={post.featuredImage}
                     alt={post.h1}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-48 object-cover rounded-t-xl group-hover:scale-[1.02] transition-transform duration-500"
                   />
                   <CardContent className="pt-4">

@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { Network } from "lucide-react";
 import type { TopicalAuthoritySectionData } from "@/lib/content-engine/index.ts";
 

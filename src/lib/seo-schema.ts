@@ -13,7 +13,8 @@
 
 import type { SeoPageData } from "@/lib/seo-constants.ts";
 import { BRAND_NAME, PHONE_NUMBER, SITE_URL } from "@/lib/seo-constants.ts";
-import { BUSINESS_ADDRESS, BUSINESS_AREA_SERVED, BUSINESS_GEO } from "@/lib/business-config.ts";
+import { BUSINESS, BUSINESS_AREA_SERVED, buildAreaServed } from "@/lib/business-config.ts";
+import { getLocalityInfo } from "@/lib/seoConfigs/localities.ts";
 import type { SeoServiceKey } from "@/lib/seoConfigs/service-config.ts";
 
 /**
@@ -27,7 +28,17 @@ const CATEGORY_HUB_URLS: Partial<Record<SeoServiceKey, string>> = {
 
 // ─── Individual builders ────────────────────────────────────────────────────
 
-export function buildLocalBusinessSchema(baseUrl: string): Record<string, unknown> {
+/** areaServed for one page: its city, plus the locality taken from the "in X" part of the H1. */
+export function buildPageAreaServed(page: Pick<SeoPageData, "slug" | "h1">): Record<string, unknown>[] {
+  const city = getLocalityInfo(page.slug).city;
+  const match = page.h1.match(/\bin\s+(.+?)(?:\s+[—–|]|$)/i);
+  return buildAreaServed(match ? match[1].trim() : null, city);
+}
+
+export function buildLocalBusinessSchema(
+  baseUrl: string,
+  areaServed: Record<string, unknown>[] = BUSINESS_AREA_SERVED,
+): Record<string, unknown> {
   const id = `${baseUrl}#business`;
   return {
     "@type": "LocalBusiness",
@@ -35,9 +46,8 @@ export function buildLocalBusinessSchema(baseUrl: string): Record<string, unknow
     name: BRAND_NAME,
     telephone: PHONE_NUMBER,
     url: baseUrl,
-    address: BUSINESS_ADDRESS,
-    geo: BUSINESS_GEO,
-    areaServed: BUSINESS_AREA_SERVED,
+    priceRange: BUSINESS.priceRange,
+    areaServed,
   };
 }
 
@@ -53,10 +63,10 @@ export function buildServiceSchema(
   const areaServed =
     page.localAreasSection?.areas && page.localAreasSection.areas.length > 0
       ? page.localAreasSection.areas.map((area) => ({
-          "@type": "City",
+          "@type": "Place",
           name: area,
         }))
-      : [{ "@type": "City", name: "Delhi" }];
+      : buildPageAreaServed(page);
 
   return {
     "@type": "Service",
@@ -166,7 +176,7 @@ export function buildSchemas(
   if (!page.slug) return null;
 
   const builders = [
-    buildLocalBusinessSchema(baseUrl),
+    buildLocalBusinessSchema(baseUrl, buildPageAreaServed(page)),
     buildServiceSchema(page, baseUrl),
     buildWebPageSchema(page, baseUrl),
     buildBreadcrumbSchema(page, baseUrl),

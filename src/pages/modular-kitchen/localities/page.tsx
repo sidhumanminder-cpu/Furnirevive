@@ -3,7 +3,7 @@
  * Sub-directory hub: searchable, filterable grid of all published localities.
  */
 import { useState, useMemo } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { MapPin, Search, ChevronRight, Home, ArrowRight } from "lucide-react";
 import Navbar from "@/components/navbar.tsx";
 import Footer from "@/components/footer.tsx";

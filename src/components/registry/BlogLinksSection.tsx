@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { BookOpen, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card.tsx";
 import type { BlogLinksSectionData } from "@/lib/content-engine/index.ts";

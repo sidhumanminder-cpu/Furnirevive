@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { motion } from "motion/react";
+import { AnimatePresence } from "@/components/visible-before-hydration.tsx";
 import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
 import type { GalleryImage, GalleryCategory } from "./kitchen-gallery-images.ts";
 

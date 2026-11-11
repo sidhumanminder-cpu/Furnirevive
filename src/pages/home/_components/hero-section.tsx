@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import { ArrowRight, Star, Clock, ShieldCheck, Phone, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button.tsx";
 import { PHONE_NUMBER, WHATSAPP_NUMBER } from "@/lib/seo-constants.ts";
 
 const TRUST_BADGES = [
-  { icon: Star, label: "4.8 Star Rated", highlight: true },
+  { icon: Star, label: "Trusted by Customers", highlight: true },
   { icon: Clock, label: "Same Day Service Available", highlight: false },
   { icon: ShieldCheck, label: "6 Month Service Warranty", highlight: false },
 ] as const;
@@ -31,7 +31,7 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left — Text content */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
             className="space-y-8"
@@ -114,7 +114,7 @@ export default function HeroSection() {
 
           {/* Right — Before & After image */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.96, y: 20 }}
+            initial={{ opacity: 1, scale: 1, y: 0 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}
             className="relative"
@@ -122,7 +122,13 @@ export default function HeroSection() {
             {/* Main image */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary/15 ring-1 ring-border/40">
               <img
-                src="https://cdn.hercules.app/file_mh8ghu631M6FtY4yzf5ys8Fw"
+                src="https://hercules-cdn.com/cdn-cgi/image/w=800,q=75,format=auto/file_mh8ghu631M6FtY4yzf5ys8Fw"
+                srcSet="https://hercules-cdn.com/cdn-cgi/image/w=480,q=75,format=auto/file_mh8ghu631M6FtY4yzf5ys8Fw 480w, https://hercules-cdn.com/cdn-cgi/image/w=800,q=75,format=auto/file_mh8ghu631M6FtY4yzf5ys8Fw 800w, https://hercules-cdn.com/cdn-cgi/image/w=1200,q=75,format=auto/file_mh8ghu631M6FtY4yzf5ys8Fw 1200w"
+                sizes="(max-width: 1024px) 100vw, 600px"
+                width={800}
+                height={460}
+                fetchPriority="high"
+                decoding="async"
                 alt="Before and after furniture repair in Delhi NCR — damaged sofa transformed to brand new by FurniRevive"
                 className="w-full h-[320px] sm:h-[400px] lg:h-[460px] object-cover"
               />
@@ -160,7 +166,7 @@ export default function HeroSection() {
                       />
                     ))}
                     <span className="ml-1 text-xs font-semibold text-foreground">
-                      4.8
+                      4.9
                     </span>
                   </div>
                   <p className="text-[11px] text-muted-foreground mt-0.5">

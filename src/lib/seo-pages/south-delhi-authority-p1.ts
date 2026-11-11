@@ -92,7 +92,7 @@ const furnitureRepairPanchsheelPark: SeoPageData = {
     "40+ fabric swatches and three foam grades selected in your living room",
     "Antique and heirloom furniture treated with conservation-first methodology",
     "Imported recliner mechanisms and premium sofa frames repaired, not jury-rigged",
-    "4.8-star rated service across South Delhi built on thousands of completed premium repairs",
+    "Trusted service across South Delhi built on thousands of completed premium repairs",
     "Full wooden furniture polishing and French polish restoration available",
     "Post-repair care guide personalised to your furniture material",
   ],
@@ -285,7 +285,7 @@ const furnitureRepairPanchsheelPark: SeoPageData = {
   ],
 
   trustSignals: [
-    "4.8★ rated across South Delhi premium homes",
+    "Trusted across South Delhi premium homes",
     "Craftsmen trained in Italian leather & European hardwoods",
     "6-month workmanship warranty — digital certificate",
     "Same-day slots for morning bookings",

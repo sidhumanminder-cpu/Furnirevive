@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion, type Variants } from "motion/react";
 import { Phone, MessageCircle, ArrowRight, Clock, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button.tsx";
@@ -34,7 +34,7 @@ export default function HeroSection({ section, hideBookOnline }: { section: Hero
       <div className="relative max-w-5xl mx-auto px-4 py-16 md:py-24">
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
           {/* Left: text + CTAs */}
-          <motion.div variants={container} initial="hidden" animate="show">
+          <motion.div variants={container} initial={false} animate="show">
             {responseTime ? (
               <motion.div
                 variants={item}
@@ -100,7 +100,7 @@ export default function HeroSection({ section, hideBookOnline }: { section: Hero
           {/* Right: hero image */}
           {imageUrl ? (
             <motion.figure
-              initial={{ opacity: 0, scale: 0.95 }}
+              initial={false}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
             >

@@ -116,7 +116,7 @@ export const sofaFoamReplacementDelhi: SeoPageData = {
       ],
     },
     {
-      heading: "Sofa Foam Replacement Price List — Delhi NCR 2025",
+      heading: "Sofa Foam Replacement Price List — Delhi NCR 2026",
       body: [
         "Here's a transparent breakdown of our sofa foam replacement pricing in Delhi NCR. Single seat cushion foam replacement with 32D foam: ₹999–₹1,500 depending on cushion size. Single back cushion: ₹800–₹1,200. Complete three-seater sofa (3 seat + 3 back cushions): ₹3,500–₹5,500 with 32D foam, or ₹4,500–₹7,000 with premium 40D foam. L-shaped sofa (4–6 seat cushions + back cushions): ₹5,000–₹9,000. Memory foam layer add-on: ₹500–₹800 per cushion.",
         "These prices include labour, precision cutting, and installation at your doorstep. We do not charge a separate visit fee or inspection fee. For customers replacing foam in multiple sofas — a common request in Delhi NCR homes with living room and bedroom sofa sets — we offer package pricing that reduces the per-cushion cost by 15–20%. Call us for a custom quote based on your specific requirements.",
@@ -241,10 +241,10 @@ export const sofaFoamReplacementDelhi: SeoPageData = {
 export const furnitureRepairPriceListDelhi: SeoPageData = {
   slug: "furniture-repair-price-list-delhi",
   title:
-    "Furniture Repair Price List Delhi 2025 | Cost Guide | FurniRevive",
+    "Furniture Repair Price List Delhi 2026 | Cost Guide | FurniRevive",
   metaDescription:
-    "Complete furniture repair price list for Delhi NCR 2025. Sofa, bed, chair, wardrobe, table repair costs. Transparent pricing from ₹499. Compare & save.",
-  h1: "Furniture Repair Price List Delhi NCR — Complete 2025 Cost Guide",
+    "Complete furniture repair price list for Delhi NCR 2026. Sofa, bed, chair, wardrobe, table repair costs. Transparent pricing from ₹499. Compare & save.",
+  h1: "Furniture Repair Price List Delhi NCR — Complete 2026 Cost Guide",
   heroSubtitle:
     "Looking for transparent furniture repair pricing in Delhi NCR? Here's FurniRevive's complete price list for sofa, bed, chair, wardrobe, table, and all furniture repairs — from ₹499 with no hidden charges.",
   showcaseImage: {
@@ -328,7 +328,7 @@ export const furnitureRepairPriceListDelhi: SeoPageData = {
   ],
   contentSections: [
     {
-      heading: "Sofa Repair Price List — Delhi NCR 2025",
+      heading: "Sofa Repair Price List — Delhi NCR 2026",
       body: [
         "Sofa cushion re-stuffing (single cushion): ₹999–₹1,500. Full sofa foam replacement (3-seater, 32D foam): ₹3,500–₹5,500. Sofa fabric replacement (3-seater): ₹4,500–₹7,000. Leather sofa crack repair: ₹2,999–₹12,000. Sofa frame repair: ₹1,500–₹4,000. Sofa spring replacement: ₹1,200–₹3,000. Complete sofa overhaul (foam + fabric + frame): ₹5,000–₹12,000. L-shaped sofa repairs cost 40–60% more than three-seater prices due to the additional material and labour required.",
         "Recliner sofa repair: mechanism fix from ₹1,499, motor replacement from ₹3,000–₹6,000. Sofa cum bed repair: hinge and mechanism from ₹1,500, mattress foam replacement from ₹2,000. These prices include doorstep service across Delhi, Noida, Gurgaon, Ghaziabad, and Faridabad with a 6-month warranty.",
@@ -379,7 +379,7 @@ export const furnitureRepairPriceListDelhi: SeoPageData = {
     {
       heading: "Decision Blogs — When Is Repair Worth the Cost?",
       body: [
-        "Understanding when to repair vs replace furniture is a financial and practical decision. Our comprehensive blog series covers every scenario: <a href=\"/blog/furniture-repair-vs-replace\">furniture repair vs replace — the complete guide</a> provides a framework for evaluating repair vs replacement across all furniture categories with cost comparisons for 2025 Delhi NCR prices. <a href=\"/blog/sofa-repair-vs-buy-new-sofa\">sofa repair vs buying new</a> focuses specifically on the sofa decision with detailed cost modelling. <a href=\"/blog/is-sofa-restoration-worth-it\">is sofa restoration worth it</a> analyses the ROI of comprehensive sofa restoration projects. <a href=\"/blog/how-long-does-sofa-foam-last\">how long does sofa foam last</a> explains the technical factors affecting sofa lifespan in Delhi NCR's climate.",
+        "Understanding when to repair vs replace furniture is a financial and practical decision. Our comprehensive blog series covers every scenario: <a href=\"/blog/furniture-repair-vs-replace\">furniture repair vs replace — the complete guide</a> provides a framework for evaluating repair vs replacement across all furniture categories with cost comparisons for 2026 Delhi NCR prices. <a href=\"/blog/sofa-repair-vs-buy-new-sofa\">sofa repair vs buying new</a> focuses specifically on the sofa decision with detailed cost modelling. <a href=\"/blog/is-sofa-restoration-worth-it\">is sofa restoration worth it</a> analyses the ROI of comprehensive sofa restoration projects. <a href=\"/blog/how-long-does-sofa-foam-last\">how long does sofa foam last</a> explains the technical factors affecting sofa lifespan in Delhi NCR's climate.",
         "For brand-specific decision guides: our <a href=\"/blog/complete-guide-to-furniture-restoration-delhi\">complete guide to furniture restoration in Delhi</a> covers the full restoration process for different furniture types. Our blog on <a href=\"/blog/imported-furniture-restoration-guide\">imported furniture restoration</a> helps owners of premium imported pieces understand their repair options. <a href=\"/blog/choosing-right-sofa-fabric-delhi\">choosing the right sofa fabric for Delhi</a> guides those combining repair with fabric upgrade. For chair repair decisions: <a href=\"/blog/office-chair-ergonomic-repair-upgrade-delhi\">office chair ergonomic repair and upgrade</a> covers the unique considerations for office furniture. These blogs — alongside our pricing hub at <a href=\"/furniture-repair-price-guide-delhi\">furniture repair price guide Delhi</a> — give you everything you need to make informed furniture care decisions.",
       ],
     },

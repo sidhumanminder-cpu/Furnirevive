@@ -2,7 +2,7 @@
  * /modular-kitchen-materials
  * Sub-directory hub: material/finish cards each linking to locality pages.
  */
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { ChevronRight, Layers } from "lucide-react";
 import Navbar from "@/components/navbar.tsx";
 import Footer from "@/components/footer.tsx";

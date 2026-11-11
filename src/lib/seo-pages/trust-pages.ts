@@ -21,9 +21,9 @@ function relatedExcluding(slug: string) {
 // ---------------------------------------------------------------------------
 export const whyChooseFurnirevive: SeoPageData = {
   slug: "why-choose-furnirevive",
-  title: "Furniture Repair Delhi | 10,000+ Trusted | FurniRevive",
+  title: "Furniture Repair in Delhi | 10,000+ Trusted | FurniRevive",
   metaDescription:
-    "FurniRevive: Delhi NCR's most trusted furniture repair. 8-star rating, 6-month warranty & free doorstep inspection. Sofa repair from ₹500. Book now!",
+    "FurniRevive: Delhi NCR's most trusted furniture repair. 6-month warranty & free doorstep inspection. Sofa repair from ₹500. Book now!",
   h1: "Why Choose FurniRevive — Delhi NCR's Most Trusted Furniture Repair Service",
   heroSubtitle:
     "After completing 10,000 furniture repairs across Delhi NCR, we have gathered hard data on what homeowners actually struggle with — unreliable appointments, mismatched skills, overpriced materials, and zero accountability. Here is how FurniRevive was engineered to solve each one.",

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { ArrowRight } from "lucide-react";
 import LocalityGrid from "./LocalityGrid.tsx";
 import HubFrame from "./HubSections.tsx";

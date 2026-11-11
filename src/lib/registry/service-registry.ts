@@ -21,6 +21,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     modules: [
       "hero:v1",
       "intro:v1",
+      "local-context:v1",
       "servicehub:v1",
       "near-me:v1",
       "pricing:v1",
@@ -82,6 +83,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     modules: [
       "hero:v1",
       "intro:v1",
+      "local-context:v1",
       "servicehub:v1",
       "near-me:v1",
       "pricing:v1",
@@ -143,6 +145,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     modules: [
       "hero:v1",
       "intro:v1",
+      "local-context:v1",
       "servicehub:v1",
       "near-me:v1",
       "pricing:v1",
@@ -204,6 +207,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     modules: [
       "hero:v1",
       "intro:v1",
+      "local-context:v1",
       "servicehub:v1",
       "near-me:v1",
       "pricing:v1",
@@ -272,6 +276,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     modules: [
       "hero:v1",
       "intro:v1",
+      "local-context:v1",
       "servicehub:v1",
       "near-me:v1",
       "pricing:v1",
@@ -397,6 +402,7 @@ export const SERVICE_REGISTRY: readonly ServiceEntry[] = [
     modules: [
       "hero:v1",
       "intro:v1",
+      "local-context:v1",
       "servicehub:v1",
       "near-me:v1",
       "pricing:v1",

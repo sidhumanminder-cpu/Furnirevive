@@ -18,7 +18,7 @@ export const sofaRepairSafdarjungEnclave: SeoPageData = {
     caption: "Sofa Repair in Safdarjung Enclave | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers 4.8-star rated, certified doorstep sofa repair in Safdarjung Enclave starting at ₹500. We serve the full Safdarjung Enclave pocket — including the lanes toward AIIMS, Green Park, Bhikaji Cama Place, and Safdarjung Development Area — with specialist craftsmen trained in Italian leather restoration, premium sectional repair, and luxury recliner mechanisms. Same-day slots available for morning bookings. 6-month warranty on every repaired element. No workshop drop-off, no hidden charges.",
+    "FurniRevive delivers trusted, certified doorstep sofa repair in Safdarjung Enclave starting at ₹500. We serve the full Safdarjung Enclave pocket — including the lanes toward AIIMS, Green Park, Bhikaji Cama Place, and Safdarjung Development Area — with specialist craftsmen trained in Italian leather restoration, premium sectional repair, and luxury recliner mechanisms. Same-day slots available for morning bookings. 6-month warranty on every repaired element. No workshop drop-off, no hidden charges.",
   intro: [
     "There is a particular quality of domestic life in Safdarjung Enclave that is hard to articulate but instantly recognisable. The homes here are not simply furnished — they are curated. An Italian leather Chesterfield — the kind where <a href=\"/leather-sofa-repair-south-delhi\">professional leather sofa restoration</a> becomes necessary with time — chosen during a trip abroad. A custom-made sectional commissioned from a designer workshop in Greater Kailash. A teak-framed three-seater that has been in the family since the house was first built and has watched two generations grow up around it. These aren't things you replace when they start to show their age. They're things you restore — with the same care and skill that went into making them.",
     "FurniRevive's South Delhi team understands this. We bring specialist craftsmen to Safdarjung Enclave homes — not generalist handymen, but upholstery and restoration professionals trained in the specific demands of premium furniture. We're part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network, with a dedicated South Delhi presence that covers Safdarjung Enclave, <a href=\"/sofa-repair-green-park\">Green Park</a>, the AIIMS-adjacent residential lanes, and the Bhikaji Cama Place corridor. Every repair begins with a free, honest, on-site assessment — and ends with a 6-month warranty and a sofa that deserves its room again.",
@@ -83,7 +83,7 @@ export const sofaRepairSafdarjungEnclave: SeoPageData = {
     "Doorstep service — the sofa never leaves Safdarjung Enclave, ever",
     "Same-day confirmation for morning bookings with WhatsApp ETA tracking",
     "Fixed, pre-approved quotes from ₹500 — zero hidden additions",
-    "4.8-star rated across thousands of South Delhi repairs",
+    "Trusted across thousands of South Delhi repairs",
     "Specialist craftsmen trained in Italian leather and imported upholstery",
     "Sectional hardware and luxury recliner mechanisms handled in a single visit",
     "High-density foam replacement (32–40 kg/m³) rated for 8–12 years of use",
@@ -289,7 +289,7 @@ export const sofaRepairEastOfKailash: SeoPageData = {
     caption: "Sofa Repair in East of Kailash | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides 4.8-star rated doorstep sofa repair in East of Kailash starting at ₹500. Our South Delhi specialists cover the full East of Kailash zone — plus Kailash Colony, Greater Kailash, CR Park, Amar Colony, and the Nehru Place residential streets — with a particular focus on recliner mechanism repair, leather sofa restoration, and premium sectional work. Same-day availability for morning bookings. 6-month warranty on every repaired element. The sofa never leaves your home.",
+    "FurniRevive provides trusted doorstep sofa repair in East of Kailash starting at ₹500. Our South Delhi specialists cover the full East of Kailash zone — plus Kailash Colony, Greater Kailash, CR Park, Amar Colony, and the Nehru Place residential streets — with a particular focus on recliner mechanism repair, leather sofa restoration, and premium sectional work. Same-day availability for morning bookings. 6-month warranty on every repaired element. The sofa never leaves your home.",
   intro: [
     "East of Kailash occupies a particular position in South Delhi's residential character — established, quietly affluent, and deeply invested in the quality of home life. It is a neighbourhood where the living room is genuinely important, where the sofa is not an afterthought but a centrepiece, and where the furniture choices made over the years reflect considered taste rather than momentary convenience. A five-year-old leather recliner suite from a Nehru Place import showroom. A teak-framed sofa custom-made by a CR Park carpenter and upholstered in hand-chosen fabric. A large sectional that was designed around the room's bay window and simply cannot be replaced without remodelling.",
     "When furniture of this quality needs attention — a recliner whose mechanism has jammed, a leather sofa showing the micro-cracking typical of Delhi's long AC season — exactly the work our <a href=\"/leather-sofa-repair-south-delhi\">leather sofa repair specialists</a> handle — a sectional with a sagging middle segment — the right response is professional restoration, not replacement. FurniRevive's South Delhi team brings certified craftsmen to East of Kailash homes with the specific skills these pieces require. We are part of the city-wide <a href=\"/sofa-repair-delhi\">sofa repair in Delhi</a> network, with a team that covers East of Kailash, <a href=\"/sofa-repair-greater-kailash\">Greater Kailash</a>, Kailash Colony, CR Park, and the Amar Colony and Nehru Place residential areas. Every repair is quoted honestly before work starts. Every repair is warranted for 6 months.",
@@ -354,7 +354,7 @@ export const sofaRepairEastOfKailash: SeoPageData = {
     "Doorstep service — no dismantling, no transport, sofa stays in your East of Kailash home",
     "Same-day service for morning bookings across East of Kailash and adjoining areas",
     "Fixed, pre-approved quotes from ₹500 — confirmed before work starts, not after",
-    "4.8-star rated across thousands of South Delhi repairs",
+    "Trusted across thousands of South Delhi repairs",
     "Leather restoration compounds in multiple tones — carried in every service kit",
     "High-density foam (32–40 kg/m³) replacement rated for 8–12 years of use",
     "40+ premium fabric swatches — selected by you at home before work begins",

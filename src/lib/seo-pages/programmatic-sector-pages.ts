@@ -44,12 +44,12 @@ function stub(slug: string, title: string, h1: string): SeoPageData {
 
 export const PROGRAMMATIC_SECTOR_PAGES: SeoPageData[] = [
   stub("sofa-repair-new-gurgaon",         "Sofa Repair in New Gurgaon",    "Sofa Repair in New Gurgaon"),
-  stub("sofa-repair-sector-49-gurgaon",   "Sofa Repair in Sector 49",      "Sofa Repair in Sector 49"),
-  stub("sofa-repair-sector-50-gurgaon",   "Sofa Repair in Sector 50",      "Sofa Repair in Sector 50"),
+  stub("sofa-repair-sector-49-gurgaon",   "Sofa Repair in Sector 49, Gurgaon | Same-Day Doorstep Service",      "Sofa Repair in Sector 49"),
+  stub("sofa-repair-sector-50-gurgaon",   "Sofa Repair in Sector 50, Gurgaon | Same-Day Doorstep Service",      "Sofa Repair in Sector 50"),
   stub("sofa-repair-sector-56-gurgaon",   "Sofa Repair in Sector 56",      "Sofa Repair in Sector 56"),
-  stub("sofa-repair-sector-57-gurgaon",   "Sofa Repair in Sector 57",      "Sofa Repair in Sector 57"),
+  stub("sofa-repair-sector-57-gurgaon",   "Sofa Repair in Sector 57, Gurgaon | Same-Day Doorstep Service",      "Sofa Repair in Sector 57"),
   stub("sofa-repair-sector-58-gurgaon",   "Sofa Repair in Sector 58",      "Sofa Repair in Sector 58"),
-  stub("sofa-repair-sector-65-gurgaon",   "Sofa Repair in Sector 65",      "Sofa Repair in Sector 65"),
+  stub("sofa-repair-sector-65-gurgaon",   "Sofa Repair in Sector 65, Gurgaon | Same-Day Doorstep Service",      "Sofa Repair in Sector 65"),
   stub("sofa-repair-sector-67-gurgaon",        "Sofa Repair in Sector 67",           "Sofa Repair in Sector 67"),
   stub("sofa-repair-sector-70-gurgaon",        "Sofa Repair in Sector 70",           "Sofa Repair in Sector 70"),
   stub("sofa-repair-sector-71-gurgaon",        "Sofa Repair in Sector 71",           "Sofa Repair in Sector 71"),

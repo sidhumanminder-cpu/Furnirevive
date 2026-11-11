@@ -11,7 +11,7 @@ export const sofaRepairSector31Gurgaon: SeoPageData = {
     "Expert sofa repair in Sector 31, Gurugram starting at ₹500. Doorstep service covering Sector 30, 32, 29 & DLF Phase 1. Same-day visits, 6-month warranty.",
   h1: "Sofa Repair in Sector 31 Gurgaon – Doorstep Service from ₹500",
   heroSubtitle:
-    "Your premium sofa deserves better than a replacement quote. FurniRevive's 4.8-star rated craftsmen restore leather, fabric & recliners at your doorstep — same day, from ₹500, with a 6-month warranty. Gurugram's most trusted sofa repair, right in Sector 31.",
+    "Your premium sofa deserves better than a replacement quote. FurniRevive's trusted craftsmen restore leather, fabric & recliners at your doorstep — same day, from ₹500, with a 6-month warranty. Gurugram's most trusted sofa repair, right in Sector 31.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Sector 31 Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_lHpADdDn3Ar2jgqkN712H6hM",
@@ -27,9 +27,9 @@ export const sofaRepairSector31Gurgaon: SeoPageData = {
   ],
   whyChoose: [
     {
-      title: "4.8-Star Rated, Verified Craftsmen in Sector 31",
+      title: "Trusted, Verified Craftsmen in Sector 31",
       description:
-        "Every FurniRevive technician is background-verified, trained in premium upholstery techniques, and rated by real customers. Our 4.8-star average across Gurugram isn't marketing — it's the result of showing up on time, quoting honestly, and doing the work right the first time.",
+        "Every FurniRevive technician is background-verified, trained in premium upholstery techniques, and rated by real customers. Our track record across Gurugram isn't marketing — it's the result of showing up on time, quoting honestly, and doing the work right the first time.",
     },
     {
       title: "Deep Local Coverage: Sector 29, 30, 31, 32 & DLF Phase 1",
@@ -86,7 +86,7 @@ export const sofaRepairSector31Gurgaon: SeoPageData = {
     "Same-day availability for Sector 31 and nearby sectors",
     "Covers Sector 29, 30, 32 and DLF Phase 1 — no extra charges",
     "6-month workmanship and parts warranty on every repair",
-    "4.8-star rated, background-verified craftsmen",
+    "Trusted, background-verified craftsmen",
     "Experienced with ₹50,000–₹2,00,000 premium imported sofas",
     "60+ fabric and leather options to match original finish",
     "Recliners, sectionals, L-shapes, corner sofas — all handled",
@@ -181,7 +181,7 @@ export const sofaRepairSector46Gurgaon: SeoPageData = {
     "Premium sofa repair in Sector 46, Gurugram from ₹500. Serving Sector 45, 47, Sohna Road & South City. Same-day doorstep service, 6-month warranty.",
   h1: "Sofa Repair in Sector 46 Gurgaon – Premium Doorstep Service from ₹500",
   heroSubtitle:
-    "South City and Sohna Road homes deserve craftsmen who match their standards. FurniRevive's 4.8-star rated, verified team restores leather, fabric & recliners at your door — same day, with zero compromise. Gurugram's most trusted sofa repair for premium residences.",
+    "South City and Sohna Road homes deserve craftsmen who match their standards. FurniRevive's trusted, verified team restores leather, fabric & recliners at your door — same day, with zero compromise. Gurugram's most trusted sofa repair for premium residences.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Sector 46 Gurgaon Home",
     imageUrl: "https://hercules-cdn.com/file_lHpADdDn3Ar2jgqkN712H6hM",
@@ -189,7 +189,7 @@ export const sofaRepairSector46Gurgaon: SeoPageData = {
     caption: "Sofa Repair in Sector 46 Gurgaon | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive delivers expert sofa repair in Sector 46, Gurugram starting at ₹500. Our 4.8-star rated craftsmen cover Sector 45, 47, South City 1 & 2, and the full Sohna Road belt. Cushion repair from ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, leather restoration ₹2,000–₹8,000. Same-day booking with a 6-month warranty.",
+    "FurniRevive delivers expert sofa repair in Sector 46, Gurugram starting at ₹500. Our trusted craftsmen cover Sector 45, 47, South City 1 & 2, and the full Sohna Road belt. Cushion repair from ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, leather restoration ₹2,000–₹8,000. Same-day booking with a 6-month warranty.",
   intro: [
     "Corporate professionals in Sector 46 often tell us the same story: the sofa in the living room — the Natuzzi leather sectional or the bespoke fabric L-shape bought from a South City showroom — has been quietly deteriorating for months. The seat cushions have lost their spring. A panel of the leather is beginning to crack along the armrest. The motorised recliner hesitates on the way back up. But finding a skilled craftsman who would actually show up, quote honestly, and do the work properly felt like a bigger gamble than the repair itself.",
     'That trust gap is exactly why FurniRevive built a structured, rated, and warranted service for Gurugram\'s premium Sohna Road belt. We are the specialist name for <a href="/sofa-repair-gurgaon">sofa repair in Gurgaon</a> across Sector 46, 45, 47, and the South City townships — and our craftsmen handle <a href="/furniture-repair-gurgaon">furniture repair in Gurgaon</a> for everything else in your home too. No transportation needed, no showroom visits, no leaving your prized sofa with a stranger. We come to you.',
@@ -197,9 +197,9 @@ export const sofaRepairSector46Gurgaon: SeoPageData = {
   ],
   whyChoose: [
     {
-      title: "4.8-Star Rated Specialists in High-End & Imported Sofas",
+      title: "Trusted Specialists in High-End & Imported Sofas",
       description:
-        "Sector 46 homes feature premium sofa brands from India and abroad. Our 4.8-star rated, verified craftsmen are trained in full-grain leather, Italian fabric, and designer upholstery — ensuring every repair matches or exceeds the original finish. This is not a general handyman service; it is specialist workmanship.",
+        "Sector 46 homes feature premium sofa brands from India and abroad. Our trusted, verified craftsmen are trained in full-grain leather, Italian fabric, and designer upholstery — ensuring every repair matches or exceeds the original finish. This is not a general handyman service; it is specialist workmanship.",
     },
     {
       title: "Covers Sector 45, 47, Sohna Road, South City 1 & 2",
@@ -250,7 +250,7 @@ export const sofaRepairSector46Gurgaon: SeoPageData = {
     },
   ],
   benefits: [
-    "4.8-star rated, background-verified craftsmen",
+    "Trusted, background-verified craftsmen",
     "Premium repair for high-end, imported, and designer sofas",
     "Doorstep service across Sector 45, 46, 47 & Sohna Road",
     "Covers South City 1 & 2 — no extra charges",
@@ -351,7 +351,7 @@ export const sofaRepairSushantLokPhase2: SeoPageData = {
     "Expert sofa repair in Sushant Lok Phase 2, Gurgaon from ₹500. Covering Phase 1, Phase 3, South City & Golf Course Road.",
   h1: "Sofa Repair in Sushant Lok Phase 2 Gurgaon – Doorstep Service from ₹500",
   heroSubtitle:
-    "Sushant Lok Phase 2 homes are designed around quality — your sofa repair service should be too. FurniRevive's 4.8-star rated, verified craftsmen deliver precision leather and fabric restoration at your doorstep. Same day, from ₹500, backed by a 6-month warranty. Gurugram's most trusted sofa repair for upscale enclaves.",
+    "Sushant Lok Phase 2 homes are designed around quality — your sofa repair service should be too. FurniRevive's trusted, verified craftsmen deliver precision leather and fabric restoration at your doorstep. Same day, from ₹500, backed by a 6-month warranty. Gurugram's most trusted sofa repair for upscale enclaves.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Sushant Lok Phase 2 Home",
     imageUrl: "https://hercules-cdn.com/file_lHpADdDn3Ar2jgqkN712H6hM",
@@ -359,7 +359,7 @@ export const sofaRepairSushantLokPhase2: SeoPageData = {
     caption: "Sofa Repair in Sushant Lok Phase 2 | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive offers doorstep sofa repair in Sushant Lok Phase 2, Gurugram from ₹500. Our 4.8-star rated craftsmen cover Phase 1, Phase 3, South City, and Golf Course Road. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, leather restoration ₹2,000–₹8,000, full re-upholstery ₹4,000–₹12,000. Same-day service, 6-month warranty.",
+    "FurniRevive offers doorstep sofa repair in Sushant Lok Phase 2, Gurugram from ₹500. Our trusted craftsmen cover Phase 1, Phase 3, South City, and Golf Course Road. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, leather restoration ₹2,000–₹8,000, full re-upholstery ₹4,000–₹12,000. Same-day service, 6-month warranty.",
   intro: [
     "Senior professionals in Sushant Lok Phase 2 have a particular way of approaching quality: they do not cut corners, they do not accept vague assurances, and they know the difference between craftsmanship and patchwork. When a beloved leather Chesterfield develops a stress crack along the seat cushion seam, or a Natuzzi recliner begins to hesitate on the return mechanism, or a large modular fabric sectional has one panel that no longer matches the rest — the response is not to ignore it or replace it on impulse. It is to find the right person for the right job.",
     'FurniRevive is that service for Sushant Lok Phase 2. We are Gurugram\'s most trusted name for <a href="/sofa-repair-gurgaon">sofa repair in Gurgaon</a> in the Golf Course Road corridor, and our craftsmen also handle full <a href="/furniture-repair-gurgaon">furniture repair in Gurgaon</a> for dining chairs, beds, and case pieces — the whole living space, from a single doorstep visit. No logistics, no showroom run, no leaving your ₹1,50,000 sofa with an unknown vendor.',
@@ -367,9 +367,9 @@ export const sofaRepairSushantLokPhase2: SeoPageData = {
   ],
   whyChoose: [
     {
-      title: "4.8-Star Rated Precision Repair for Upscale Gurugram Homes",
+      title: "Trusted Precision Repair for Upscale Gurugram Homes",
       description:
-        "Sushant Lok Phase 2 demands a different calibre of service — and our 4.8-star rating reflects the execution that premium homes require. Our craftsmen are trained specifically in full-grain leather, Italian fabric, velvet, and micro-suede so that every repair integrates seamlessly into a well-designed interior.",
+        "Sushant Lok Phase 2 demands a different calibre of service — and our track record reflects the execution that premium homes require. Our craftsmen are trained specifically in full-grain leather, Italian fabric, velvet, and micro-suede so that every repair integrates seamlessly into a well-designed interior.",
     },
     {
       title: "Full Coverage Across Sushant Lok Phase 1, 2 & 3",
@@ -420,7 +420,7 @@ export const sofaRepairSushantLokPhase2: SeoPageData = {
     },
   ],
   benefits: [
-    "4.8-star rated, background-verified craftsmen",
+    "Trusted, background-verified craftsmen",
     "Precision repair for premium, imported & designer sofas",
     "Covers Sushant Lok Phase 1, 2 & 3 — no extra charges",
     "Golf Course Road and South City equally served",
@@ -521,7 +521,7 @@ export const sofaRepairIndirapuramExtension: SeoPageData = {
     "Affordable sofa repair in Indirapuram Extension, Ghaziabad from ₹500. Covers Vaibhav Khand, Abhinandan Khand & Ahinsa Khand.",
   h1: "Sofa Repair in Indirapuram Extension – Doorstep Service from ₹500",
   heroSubtitle:
-    "Indirapuram families invest in quality furniture — they deserve quality repair. FurniRevive's 4.8-star rated, verified craftsmen restore sofas at your apartment door, same day, from ₹500. Covering Vaibhav Khand, Abhinandan Khand, Ahinsa Khand & Indirapuram Extension — backed by a 6-month warranty.",
+    "Indirapuram families invest in quality furniture — they deserve quality repair. FurniRevive's trusted, verified craftsmen restore sofas at your apartment door, same day, from ₹500. Covering Vaibhav Khand, Abhinandan Khand, Ahinsa Khand & Indirapuram Extension — backed by a 6-month warranty.",
   showcaseImage: {
     heading: "Premium Sofa Repair — Expert Service at Your Indirapuram Extension Home",
     imageUrl: "https://hercules-cdn.com/file_lHpADdDn3Ar2jgqkN712H6hM",
@@ -529,15 +529,15 @@ export const sofaRepairIndirapuramExtension: SeoPageData = {
     caption: "Sofa Repair in Indirapuram Extension | Premium upholstery & foam service | Home visit | FurniRevive",
   },
   quickAnswer:
-    "FurniRevive provides doorstep sofa repair in Indirapuram Extension, Ghaziabad from ₹500. Our 4.8-star rated craftsmen cover Vaibhav Khand, Abhinandan Khand, and Ahinsa Khand. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, leather restoration ₹2,000–₹8,000. Same-day appointments with a 6-month warranty on every repair.",
+    "FurniRevive provides doorstep sofa repair in Indirapuram Extension, Ghaziabad from ₹500. Our trusted craftsmen cover Vaibhav Khand, Abhinandan Khand, and Ahinsa Khand. Cushion repair ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, leather restoration ₹2,000–₹8,000. Same-day appointments with a 6-month warranty on every repair.",
   intro: [
     "There is a particular frustration that Indirapuram apartment families know well: you bought a good sofa — ₹18,000 to ₹40,000 for a solid 3-seater or L-shaped set — and within three or four years of daily family use, it has started to look and feel its age. The seat cushions have compressed unevenly. A fabric panel near the armrest is beginning to fray. Or the recliner that everyone in the family loves has started hesitating mid-way. You do not want to replace it — the sofa still has years of life in it — but finding a craftsman you can actually trust in a township as large and dense as Indirapuram has always felt like a lottery.",
     'FurniRevive ends that search. We bring professional, rated, and warranted <a href="/sofa-repair-indirapuram">sofa repair in Indirapuram</a> and <a href="/furniture-repair-ghaziabad">furniture repair in Ghaziabad</a> directly to your apartment door — no showroom, no transportation, no uncertainty. Whether you are in a mid-rise in Vaibhav Khand, a newer high-rise in Ahinsa Khand, or a recently completed tower in Indirapuram Extension, our verified craftsmen travel to your home with everything needed to assess and repair your sofa on the spot.',
-    "Our pricing in Indirapuram is honest and specific. Cushion re-filling with high-resilience foam: ₹999–₹1,800. Fabric re-upholstery on a 3-seater: ₹2,500–₹6,000. Leather or leatherette restoration: ₹2,000–₹8,000. Recliner mechanism service: ₹1,800–₹5,000. Complete re-upholstery of a large L-shaped set: ₹4,000–₹12,000 — versus ₹20,000–₹60,000 for a comparable replacement. Every repair is backed by our 6-month warranty and our 4.8-star standard of service. That is a commitment, not a tagline.",
+    "Our pricing in Indirapuram is honest and specific. Cushion re-filling with high-resilience foam: ₹999–₹1,800. Fabric re-upholstery on a 3-seater: ₹2,500–₹6,000. Leather or leatherette restoration: ₹2,000–₹8,000. Recliner mechanism service: ₹1,800–₹5,000. Complete re-upholstery of a large L-shaped set: ₹4,000–₹12,000 — versus ₹20,000–₹60,000 for a comparable replacement. Every repair is backed by our 6-month warranty and our standard of service. That is a commitment, not a tagline.",
   ],
   whyChoose: [
     {
-      title: "4.8-Star Rated Coverage Across the Entire Indirapuram Township",
+      title: "Trusted Coverage Across the Entire Indirapuram Township",
       description:
         "Our Ghaziabad team covers Vaibhav Khand, Abhinandan Khand, Ahinsa Khand, Nyay Khand, and Indirapuram Extension as one unified zone — no extra charges, no availability gaps. We are one of the highest-rated sofa repair services in the township because we show up reliably and do the work right.",
     },
@@ -590,7 +590,7 @@ export const sofaRepairIndirapuramExtension: SeoPageData = {
     },
   ],
   benefits: [
-    "4.8-star rated, background-verified craftsmen",
+    "Trusted, background-verified craftsmen",
     "Covers Vaibhav Khand, Abhinandan Khand, Ahinsa Khand & Extension",
     "Doorstep service — sofa never leaves your apartment",
     "Cushion repair ₹999–₹1,800; full re-upholstery up to ₹12,000",
@@ -615,7 +615,7 @@ export const sofaRepairIndirapuramExtension: SeoPageData = {
       heading: "Sofa Repair Pricing for Indirapuram & Extension Apartment Families",
       body: [
         "For the working families and young professionals who make up Indirapuram's resident base, the repair-versus-replace calculation is straightforward. A sofa purchased for ₹15,000–₹40,000 two or three years ago still has a structurally sound frame. The foam has compressed, the fabric has dulled, or the recliner is acting up — but the bones are good. Replacing it means the same expense again, plus the logistical challenge of removing the old piece from an apartment, coordinating with the housing society, and choosing something new that fits the room. FurniRevive's repair costs a fraction of that: cushion re-filling ₹999–₹1,800, fabric re-upholstery ₹2,500–₹6,000, leatherette restoration ₹2,000–₹8,000, recliner service ₹1,800–₹5,000, and complete re-upholstery of a large L-shaped set ₹4,000–₹12,000.",
-        "Residents in Vaibhav Khand's Shipra and Aditya complexes, Abhinandan Khand's Gulshan societies, and the newer towers in Indirapuram Extension tell us the same thing: they expected the repair to be good but were surprised by how much better the sofa looked after FurniRevive finished. That reaction is why our rating stays at 4.8 stars, and why referrals within Indirapuram societies are our strongest source of new customers.",
+        "Residents in Vaibhav Khand's Shipra and Aditya complexes, Abhinandan Khand's Gulshan societies, and the newer towers in Indirapuram Extension tell us the same thing: they expected the repair to be good but were surprised by how much better the sofa looked after FurniRevive finished. That reaction is why our reputation stays strong, and why referrals within Indirapuram societies are our strongest source of new customers.",
       ],
     },
     {

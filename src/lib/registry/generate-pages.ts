@@ -21,9 +21,6 @@
  * - office-chair-repair: /office-chair-repair-{slug}  (all cities, no suffix)
  */
 
-import { LOCALITY_REGISTRY } from "./locality-registry.ts";
-import { SERVICE_REGISTRY } from "./service-registry.ts";
-import { COMMERCIAL_LOCALITY_REGISTRY } from "./commercial-locality-registry.ts";
 import { MODULAR_KITCHEN_LOCALITY_REGISTRY } from "./kitchen-locality-registry.ts";
 import { MODULAR_KITCHEN_LAYOUT_REGISTRY } from "./kitchen-layout-registry.ts";
 import { MODULAR_KITCHEN_MATERIAL_REGISTRY } from "./kitchen-material-registry.ts";
@@ -43,86 +40,17 @@ import { KITCHEN_RENOVATION_REGISTRY } from "./kitchen-renovation-registry.ts";
 import { KITCHEN_DIMENSION_REGISTRY } from "./kitchen-dimension-registry.ts";
 import { KITCHEN_GUIDE_REGISTRY } from "./kitchen-guide-registry.ts";
 import { KITCHEN_REPAIR_REGISTRY } from "./kitchen-repair-registry.ts";
-import { canGeneratePage } from "./business-rules.ts";
-import type { PageDefinition, ServiceSlug } from "./types.ts";
+import { generateRepairPages } from "./repair-pages.ts";
+import type { PageDefinition } from "./types.ts";
+
+export { buildRegistryUrl } from "./repair-pages.ts";
 
 /**
- * Builds the canonical URL path for a given service + locality slug + city.
- * Must match the URL patterns used by legacy pages exactly.
- */
-export function buildRegistryUrl(service: ServiceSlug, localitySlug: string, city: string): string {
-  if (service === "sofa-upholstery") {
-    // Delhi upholstery pages use -delhi suffix; others use bare slug
-    if (city === "delhi") {
-      return `/sofa-upholstery-${localitySlug}-delhi`;
-    }
-    return `/sofa-upholstery-${localitySlug}`;
-  }
-  if (service === "modular-kitchen") {
-    // All kitchen pages: /modular-kitchen-{slug}
-    return `/modular-kitchen-${localitySlug}`;
-  }
-  // All repair services: /service-slug-locality-slug
-  return `/${service}-${localitySlug}`;
-}
-
-/**
- * Generates the full set of page definitions for all published registry
- * localities × all services, filtered by business rules.
- *
- * Returns a flat array of PageDefinition objects.
- * Only the "repair" intent is generated in Milestone 1 scope.
- * Additional intents (cost, near-me, etc.) can be added later.
+ * Generates the full set of page definitions: repair pages first, then the modular kitchen
+ * cluster. Returns a flat array of PageDefinition objects.
  */
 export function generatePages(): readonly PageDefinition[] {
-  const pages: PageDefinition[] = [];
-
-  for (const locality of LOCALITY_REGISTRY) {
-    for (const service of SERVICE_REGISTRY) {
-      // modular-kitchen has dedicated generation paths (sections 1–19 below).
-      // Skipping here eliminates 604 phantom 404s and 363 duplicate sitemap entries.
-      if (service.slug === "modular-kitchen") continue;
-      if (!canGeneratePage(locality, service)) {
-        continue;
-      }
-
-      const urlPath = buildRegistryUrl(service.slug, locality.slug, locality.city);
-
-      pages.push({
-        service: service.slug,
-        locality: locality.slug,
-        city: locality.city,
-        intent: "repair",
-        urlPath,
-      });
-    }
-  }
-
-  // Commercial B2B cluster: iterate all corporate-audience services over each
-  // commercial locality. Adding a new B2B service to SERVICE_REGISTRY is the
-  // only change needed to generate pages for all commercial localities.
-  const commercialServices = SERVICE_REGISTRY.filter(
-    (s) => s.capabilities?.audience.corporate && !s.capabilities?.audience.residential,
-  );
-
-  for (const service of commercialServices) {
-    for (const locality of COMMERCIAL_LOCALITY_REGISTRY) {
-      if (!canGeneratePage(locality, service)) {
-        continue;
-      }
-
-      // URL: /office-chair-repair-{slug}, /office-furniture-repair-{slug}, etc.
-      const urlPath = `/${service.slug}-${locality.slug}`;
-
-      pages.push({
-        service: service.slug,
-        locality: locality.slug,
-        city: locality.city,
-        intent: "repair",
-        urlPath,
-      });
-    }
-  }
+  const pages: PageDefinition[] = generateRepairPages();
 
   // ── Modular Kitchen cluster ──────────────────────────────────────────────
   // Pages generated from 4 separate kitchen registries; repair cluster untouched.

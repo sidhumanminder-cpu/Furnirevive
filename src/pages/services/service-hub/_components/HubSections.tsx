@@ -1,5 +1,6 @@
+import { removeUnowned } from "@/lib/remove-unowned.ts";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/lib/router-compat.tsx";
 import { motion } from "motion/react";
 import { CalendarClock, ChevronRight, MessageCircle, Phone, ShieldCheck, Wrench, Clock } from "lucide-react";
 import Navbar from "@/components/navbar.tsx";
@@ -7,11 +8,19 @@ import Footer from "@/components/footer.tsx";
 import RealRepairResults from "@/components/real-repair-results.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Card, CardContent } from "@/components/ui/card.tsx";
-import { BUSINESS, BUSINESS_ADDRESS, BUSINESS_GEO } from "@/lib/business-config.ts";
+import { BUSINESS } from "@/lib/business-config.ts";
 import { generateHeroAlt } from "@/lib/seoConfigs/hero-image-engine.ts";
 import { getServiceFaqs } from "@/lib/seoConfigs/faq-service-pools.ts";
 import { selectFaqs } from "@/lib/seoConfigs/faq-engine.ts";
 import type { LocalityInfo } from "@/lib/seoConfigs/localities.ts";
+import { HUB_EDITORIAL } from "@/lib/hub-editorial/index.ts";
+import {
+  EditorialAreas,
+  EditorialBook,
+  EditorialIntro,
+  EditorialProblems,
+  EditorialProcess,
+} from "./EditorialSections.tsx";
 import {
   SERVICE_HUB_CONFIG,
   getHubHero,
@@ -39,13 +48,21 @@ function buildInfo(target: HubTarget): LocalityInfo {
   };
 }
 
-/** Real FAQs from the existing service pools; no new copy. */
+/** Pool FAQs plus the hub's own editorial FAQs, de-duplicated by question. The schema uses this same list. */
 export function buildFaqs(target: HubTarget): Faq[] {
   const config = SERVICE_HUB_CONFIG[target.service];
   const info = buildInfo(target);
   const pool =
     getServiceFaqs(info, config.faqCategory, 6) ?? selectFaqs(info, { count: 6, category: config.faqCategory });
-  return pool.map((f) => ({ question: f.question, answer: f.answer }));
+  const faqs: Faq[] = pool.map((f) => ({ question: f.question, answer: f.answer }));
+  const seen = new Set(faqs.map((f) => f.question.trim().toLowerCase()));
+  for (const f of HUB_EDITORIAL[target.slug]?.faqs ?? []) {
+    const key = f.q.trim().toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    faqs.push({ question: f.q, answer: f.a });
+  }
+  return faqs;
 }
 
 const TRUST = [
@@ -54,7 +71,7 @@ const TRUST = [
   { icon: Wrench, label: "Free doorstep inspection" },
 ] as const;
 
-/** LocalBusiness + FAQPage graph for a hub page. */
+/** LocalBusiness + FAQPage + BreadcrumbList graph for a hub page. */
 export function buildHubSchema(target: HubTarget, faqs: readonly Faq[]) {
   const config = SERVICE_HUB_CONFIG[target.service];
   return {
@@ -66,11 +83,13 @@ export function buildHubSchema(target: HubTarget, faqs: readonly Faq[]) {
         name: BUSINESS.name,
         telephone: BUSINESS.phone,
         url: `https://furnirevive.com/${target.slug}`,
-        priceRange: `Starting ${config.headlinePrice.replace(/^from /, "from ")}`,
-        address: BUSINESS_ADDRESS,
-        geo: BUSINESS_GEO,
+        priceRange: BUSINESS.priceRange,
         areaServed: { "@type": "City", name: cityDisplayFor(target.area.city) },
-        makesOffer: { "@type": "Offer", itemOffered: { "@type": "Service", name: `${config.name} in ${target.area.label}` } },
+        makesOffer: {
+          "@type": "Offer",
+          description: `Starting ${config.headlinePrice}`,
+          itemOffered: { "@type": "Service", name: `${config.name} in ${target.area.label}` },
+        },
       },
       {
         "@type": "FAQPage",
@@ -79,6 +98,18 @@ export function buildHubSchema(target: HubTarget, faqs: readonly Faq[]) {
           name: f.question,
           acceptedAnswer: { "@type": "Answer", text: f.answer },
         })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://furnirevive.com/" },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: `${config.name} ${target.area.label}`,
+            item: `https://furnirevive.com/${target.slug}`,
+          },
+        ],
       },
     ],
   };
@@ -94,7 +125,7 @@ function usePageMeta(target: HubTarget, title: string, description: string, faqs
     const canonical = document.createElement("link");
     canonical.rel = "canonical";
     canonical.href = `https://furnirevive.com/${target.slug}`;
-    document.querySelector('link[rel="canonical"]')?.remove();
+    removeUnowned(document.querySelector('link[rel="canonical"]'));
     document.head.appendChild(canonical);
 
     const graph = buildHubSchema(target, faqs);
@@ -105,8 +136,8 @@ function usePageMeta(target: HubTarget, title: string, description: string, faqs
     document.head.appendChild(script);
 
     return () => {
-      script.remove();
-      canonical.remove();
+      removeUnowned(script);
+      removeUnowned(canonical);
     };
   }, [target, title, description, faqs]);
 }
@@ -141,7 +172,10 @@ export default function HubFrame({ target, eyebrow, intro, children, siblingLink
   usePageMeta(target, title, description, faqs);
 
   const hero = getHubHero(target);
+  const editorial = HUB_EDITORIAL[target.slug];
   const whatsappUrl = `${BUSINESS.whatsappUrl}?text=${encodeURIComponent(`Hi! I'd like ${config.noun} in ${area}.`)}`;
+
+  const gallery = <RealRepairResults pageSlug={target.slug} cityName={area} service={target.service} altContext={editorial ? area : undefined} />;
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -180,7 +214,7 @@ export default function HubFrame({ target, eyebrow, intro, children, siblingLink
             <div className="mt-8 lg:mt-0 lg:flex-1 lg:max-w-[520px] rounded-2xl overflow-hidden shadow-lg border border-border">
               <img
                 src={hero.url}
-                alt={generateHeroAlt(hero, area)}
+                alt={editorial ? `${config.name} technician at a customer's home in ${area}` : generateHeroAlt(hero, area)}
                 width={hero.width}
                 height={hero.height}
                 className="w-full object-cover"
@@ -206,15 +240,29 @@ export default function HubFrame({ target, eyebrow, intro, children, siblingLink
         </div>
       </section>
 
-      <section className="pt-10 lg:pt-14">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-muted-foreground leading-relaxed">{buildAreaIntro(target)}</p>
-        </div>
-      </section>
+      {editorial ? (
+        <>
+          <EditorialIntro target={target} editorial={editorial} />
+          <EditorialAreas target={target} editorial={editorial} />
+        </>
+      ) : (
+        <section className="pt-10 lg:pt-14">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p className="text-muted-foreground leading-relaxed">{buildAreaIntro(target)}</p>
+          </div>
+        </section>
+      )}
 
       {children}
 
-      <RealRepairResults pageSlug={target.slug} cityName={area} service={target.service} />
+      {editorial && (
+        <>
+          <EditorialProblems target={target} editorial={editorial} />
+          <EditorialProcess editorial={editorial} />
+        </>
+      )}
+
+      {!editorial && gallery}
 
       <section className="py-12 lg:py-16 bg-muted/40">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -235,6 +283,8 @@ export default function HubFrame({ target, eyebrow, intro, children, siblingLink
         </div>
       </section>
 
+      {editorial && gallery}
+
       <section className="py-12 lg:py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl md:text-3xl font-serif font-bold tracking-tight">Frequently Asked Questions</h2>
@@ -250,6 +300,8 @@ export default function HubFrame({ target, eyebrow, intro, children, siblingLink
           </div>
         </div>
       </section>
+
+      {editorial && <EditorialBook target={target} />}
 
       {siblingLinks.length > 0 && (
         <section className="pb-12 lg:pb-16">
